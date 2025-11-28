@@ -77,7 +77,7 @@ export const set10: Question[] = [
             "D": "Tiếp tục đánh giá E-HSDT, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ tài liệu"
         },
         "correctAnswer": "B",
-        "explanation": "",
+        "explanation": "Việc thiếu các tài liệu cam kết không phải là lỗi không thể khắc phục. Để tạo điều kiện cho nhà thầu và đảm bảo cạnh tranh, chủ đầu tư sẽ yêu cầu nhà thầu làm rõ và bổ sung các tài liệu còn thiếu trong một khoảng thời gian nhất định. Nếu nhà thầu không bổ sung được thì mới bị xem xét loại.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {

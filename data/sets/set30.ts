@@ -116,7 +116,7 @@ export const set30: Question[] = [
             "D": "Các phương án trên đều sai."
         },
         "correctAnswer": "A",
-        "explanation": "",
+        "explanation": "Hàng mẫu là vật chất, không thể nộp qua mạng. Quy trình chuẩn là nhà thầu nộp E-HSDT trên hệ thống trước thời điểm đóng thầu, sau đó nộp hàng mẫu trực tiếp cho bên mời thầu trong một khoảng thời gian nhất định (thường là 05 ngày làm việc) sau thời điểm đóng thầu.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {

@@ -25,7 +25,7 @@ export const set20: Question[] = [
             "D": "Có thể nhưng phải bảo đảm điều kiện giá đề nghị trúng thầu không vượt giá của phần đó trong giá gói thầu"
         },
         "correctAnswer": "D",
-        "explanation": "",
+        "explanation": "Khi gói thầu được chia thành nhiều phần, mỗi phần được xem như một gói thầu riêng lẻ trong quá trình xét thầu. Chủ đầu tư có thể phê duyệt kết quả cho từng phần, miễn là giá đề nghị trúng thầu của phần đó không vượt quá giá trị của chính phần đó trong giá gói thầu đã được duyệt.",
         "category": "Kế hoạch và Quy trình LCNT"
     },
     {

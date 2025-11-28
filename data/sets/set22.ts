@@ -25,12 +25,12 @@ export const set22: Question[] = [
             "D": "Xin ý kiến người có thẩm quyền để xử lý tình huống trong đấu thầu"
         },
         "correctAnswer": "C",
-        "explanation": "",
+        "explanation": "Việc đề xuất cụ thể ký mã hiệu, nhãn hiệu, xuất xứ, hãng sản xuất của hàng hóa chào thầu là một yêu cầu cơ bản và quan trọng để bên mời thầu có thể đánh giá tính đáp ứng về mặt kỹ thuật. Nếu nhà thầu không cung cấp các thông tin này, hồ sơ dự thầu được coi là không đáp ứng một cách cơ bản về kỹ thuật và sẽ không được xem xét, đánh giá tiếp.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 213,
-        "question": "Nhận định nào sau đây đúng về văn bản điện tử trên Hệ thống mạng đấu thầu quốc gia?",
+        "question": "Nhận định nào sau đây là đúng về văn bản điện tử trên Hệ thống mạng đấu thầu quốc gia?",
         "options": {
             "A": "Văn bản điện tử trên Hệ thống có giá trị theo quy định của pháp luật về giao dịch điện tử, làm cơ sở đối chiếu, so sánh, xác thực thông tin phục vụ công tác đánh giá, thẩm định, thanh tra, kiểm tra, kiểm toán và giải ngân",
             "B": "Thời điểm gửi, nhận văn bản điện tử được xác định căn cứ theo thời gian thực ghi lại trên Hệ thống",
@@ -116,7 +116,7 @@ export const set22: Question[] = [
             "D": "Người có thẩm quyền đăng tải trong thời hạn 05 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm"
         },
         "correctAnswer": "C",
-        "explanation": "",
+        "explanation": "Chủ đầu tư là bên chịu trách nhiệm chính trong việc quản lý gói thầu và xử lý các vi phạm của nhà thầu. Do đó, chủ đầu tư có trách nhiệm công khai thông tin về các hành vi vi phạm này trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 07 ngày làm việc để cảnh báo cho các bên mời thầu khác.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {

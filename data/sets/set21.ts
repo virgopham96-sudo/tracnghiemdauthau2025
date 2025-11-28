@@ -64,7 +64,7 @@ export const set21: Question[] = [
             "D": "Đình chỉ cuộc thầu"
         },
         "correctAnswer": "A",
-        "explanation": "",
+        "explanation": "Khi nhà thầu trúng thầu vi phạm các trách nhiệm sau khi có kết quả (không ký hợp đồng, không nộp bảo đảm...), biện pháp xử lý đầu tiên là hủy bỏ quyết định phê duyệt kết quả lựa chọn nhà thầu đã ban hành cho nhà thầu đó. Sau đó, chủ đầu tư sẽ xem xét lựa chọn nhà thầu xếp hạng tiếp theo hoặc tổ chức đấu thầu lại.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {

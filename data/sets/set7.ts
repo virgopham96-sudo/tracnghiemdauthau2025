@@ -116,7 +116,7 @@ export const set7: Question[] = [
             "D": "Từ 0 đến 49 điểm"
         },
         "correctAnswer": "C",
-        "explanation": "",
+        "explanation": "Trong thang điểm 1000, uy tín của nhà thầu là một tiêu chí phụ để đánh giá. Mặc dù quan trọng, nó không phải là yếu tố cốt lõi như giải pháp kỹ thuật hay năng lực nhân sự. Do đó, một tỷ trọng điểm nhỏ hơn, chẳng hạn như 5% (tương đương 50 điểm), thường được phân bổ cho tiêu chí này để đảm bảo nó không ảnh hưởng quá lớn đến kết quả đánh giá kỹ thuật tổng thể.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {

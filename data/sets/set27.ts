@@ -51,7 +51,7 @@ export const set27: Question[] = [
             "D": "Tất cả các gói thầu áp dụng đấu thầu qua mạng và không qua mạng"
         },
         "correctAnswer": "A",
-        "explanation": "",
+        "explanation": "Việc ký kết hợp đồng điện tử trên Hệ thống mạng đấu thầu quốc gia là bắt buộc đối với các gói thầu được tổ chức qua mạng và có sử dụng vốn nhà nước, mà việc thanh toán được thực hiện qua Kho bạc Nhà nước. Điều này nhằm đảm bảo tính liên thông, đồng bộ và minh bạch trong toàn bộ quá trình từ lựa chọn nhà thầu đến thanh toán.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -116,7 +116,7 @@ export const set27: Question[] = [
             "D": "Các phương án trên đều đúng"
         },
         "correctAnswer": "A",
-        "explanation": "",
+        "explanation": "Hiện tại, Hệ thống mạng đấu thầu quốc gia chủ yếu hỗ trợ phương thức lựa chọn nhà thầu phổ biến và đơn giản nhất là một giai đoạn một túi hồ sơ. Các phương thức phức tạp hơn như hai giai đoạn hoặc hai túi hồ sơ vẫn chủ yếu được thực hiện theo hình thức không qua mạng.",
         "category": "Đấu thầu qua mạng"
     },
     {

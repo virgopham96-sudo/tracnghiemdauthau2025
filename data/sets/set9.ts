@@ -103,7 +103,7 @@ export const set9: Question[] = [
             "D": "Phải bắt buộc cung cấp hợp đồng, hóa đơn mua hàng"
         },
         "correctAnswer": "B",
-        "explanation": "",
+        "explanation": "Để chứng minh khả năng huy động thiết bị, nhà thầu có thể sử dụng nhiều loại tài liệu khác nhau. Ví dụ, nếu thiết bị là của nhà thầu, họ cung cấp giấy đăng ký. Nếu là thiết bị đi thuê, họ cung cấp hợp đồng thuê. Do đó, nhà thầu chỉ cần cung cấp một trong các loại tài liệu hợp lệ để chứng minh quyền sử dụng thiết bị, không bắt buộc phải có tất cả.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {

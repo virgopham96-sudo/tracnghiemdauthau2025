@@ -38,7 +38,7 @@ export const set25: Question[] = [
             "D": "Tất cả phương án trên đều sai"
         },
         "correctAnswer": "A",
-        "explanation": "",
+        "explanation": "Để đảm bảo tính công khai, minh bạch và có sự giám sát của các bên liên quan cũng như của cơ quan quản lý, các phiên chào giá trực tuyến, kể cả quy trình rút gọn, đều phải được diễn ra trong giờ hành chính.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -116,7 +116,7 @@ export const set25: Question[] = [
             "D": "Không yêu cầu về bảo đảm dự thầu"
         },
         "correctAnswer": "D",
-        "explanation": "",
+        "explanation": "Chào giá trực tuyến rút gọn là hình thức lựa chọn nhà thầu rất đơn giản, nhanh chóng, áp dụng cho các gói thầu có giá trị rất nhỏ. Để đơn giản hóa tối đa thủ tục và khuyến khích nhà thầu tham gia, hình thức này không yêu cầu nhà thầu phải thực hiện biện pháp bảo đảm dự thầu.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -129,7 +129,7 @@ export const set25: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "",
+        "explanation": "Việc tham gia phiên chào giá trực tuyến là không bắt buộc. Nếu nhà thầu được mời nhưng từ chối tham gia, họ sẽ không bị xử phạt. Việc đánh giá sẽ được tiếp tục dựa trên giá dự thầu mà họ đã nộp trong hồ sơ dự thầu ban đầu. Nhà thầu này sẽ không có cơ hội chào giá cạnh tranh hơn trong phiên chào giá.",
         "category": "Đấu thầu qua mạng"
     }
 ];

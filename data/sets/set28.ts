@@ -103,7 +103,7 @@ export const set28: Question[] = [
             "D": "Bảo đảm dự thầu của nhà thầu A và nhà thầu B đều được đánh giá là không hợp lệ"
         },
         "correctAnswer": "B",
-        "explanation": "",
+        "explanation": "Khi hệ thống gia hạn thời điểm đóng thầu, thời điểm đóng thầu mới (26/9) sẽ là mốc pháp lý để xem xét. Bảo đảm dự thầu của nhà thầu A, mặc dù có hiệu lực từ 25/9, nhưng tại thời điểm đóng thầu mới (26/9) nó vẫn còn hiệu lực, do đó hợp lệ. Bảo đảm dự thầu của nhà thầu B có hiệu lực từ 26/9, phù hợp với thời điểm đóng thầu mới, do đó cũng hợp lệ. Quy định về xử lý sự cố cho phép sự linh hoạt này.",
         "category": "Đấu thầu qua mạng"
     },
     {

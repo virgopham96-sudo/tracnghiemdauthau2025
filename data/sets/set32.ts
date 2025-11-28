@@ -1,4 +1,3 @@
-
 import { Question } from '../../types';
 
 export const set32: Question[] = [
@@ -25,21 +24,21 @@ export const set32: Question[] = [
             "D": "Phương án B và C đều đúng"
         },
         "correctAnswer": "B",
-        "explanation": "",
+        "explanation": "Nhà thầu chỉ bị xử phạt khi từ chối hoàn thiện hợp đồng một cách vô cớ. Nếu chủ đầu tư đưa ra các yêu cầu mới, không có trong hồ sơ mời thầu và hồ sơ dự thầu, làm thay đổi bản chất của gói thầu, nhà thầu có quyền từ chối mà không bị phạt. Đây là cơ chế bảo vệ quyền lợi hợp pháp của nhà thầu.",
         "category": "Hợp đồng"
     },
     {
         "id": 313,
-        "question": "Đối với đấu thầu không qua mạng, trường hợp hồ sơ dự thầu của nhà thầu có sai lệch thiếu sau khi hiệu chỉnh sai lệch vẫn được xếp hạng thứ nhất và hồ sơ dự thầu của nhà thầu này không có đơn giá của phần sai lệch thiếu, đơn giá nào sẽ được ưu tiên áp dụng đầu tiên để đề nghị trúng thầu?",
+        "question": "Việc hủy thầu được thực hiện đối với một phần của gói thầu trong trường hợp nào?",
         "options": {
-            "A": "Đơn giá trong dự toán gói thầu",
-            "B": "Đơn giá tương ứng có giá trị thấp nhất trong các hồ sơ dự thầu khác vượt qua bước đánh giá về kỹ thuật",
-            "C": "Đơn giá hình thành giá gói thầu",
-            "D": "Đơn giá tương ứng có giá trị cao nhất trong các hồ sơ dự thầu khác vượt qua bước đánh giá về kỹ thuật"
+            "A": "Phần đó không có nhà thầu tham dự thầu",
+            "B": "Phần đó không có nhà thầu đáp ứng yêu cầu về kỹ thuật",
+            "C": "Phần đó có nhà thầu đáp ứng yêu cầu về kỹ thuật nhưng không đáp ứng yêu cầu về tài chính",
+            "D": "Tất cả các trường hợp trên"
         },
-        "correctAnswer": "B",
-        "explanation": "Đây là một cách xử lý tình huống để đảm bảo tính khách quan và cạnh tranh. Khi cần một đơn giá để bù vào phần sai lệch thiếu, việc lấy đơn giá thấp nhất từ các nhà thầu khác đã đáp ứng yêu cầu kỹ thuật được coi là phương án hợp lý, có lợi nhất cho chủ đầu tư và dựa trên mặt bằng giá cạnh tranh của chính gói thầu đó.",
-        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
+        "correctAnswer": "D",
+        "explanation": "Đối với gói thầu chia phần, mỗi phần được xem xét độc lập. Nếu một phần không thành công (không có ai dự, không ai đạt kỹ thuật hoặc tài chính), chủ đầu tư có thể hủy thầu riêng cho phần đó mà không ảnh hưởng đến các phần khác của gói thầu.",
+        "category": "Kế hoạch và Quy trình LCNT"
     },
     {
         "id": 314,
@@ -51,85 +50,85 @@ export const set32: Question[] = [
             "D": "Tất cả phương án trên đều sai"
         },
         "correctAnswer": "D",
-        "explanation": "",
+        "explanation": "Theo nguyên tắc chung, bảo đảm dự thầu phải được phát hành bởi một bên thứ ba độc lập (ngân hàng hoặc tổ chức tài chính) để đảm bảo tính khách quan. Nhà thầu, kể cả là doanh nghiệp bảo hiểm, không được tự phát hành bảo lãnh cho chính mình. Do đó, tất cả các phương án cho phép nhà thầu tự phát hành bảo lãnh đều sai.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 315,
-        "question": "Trường hợp sau khi có quyết định phê duyệt kết quả lựa chọn nhà thầu, nhà thầu không trúng thầu có yêu cầu giải thích về lý do cụ thể không trúng thầu, chủ đầu tư phải trả lời trong thời hạn bao lâu?",
+        "question": "Chi phí lập hồ sơ mời thầu được tính như thế nào?",
         "options": {
-            "A": "02 ngày làm việc kể từ ngày được yêu cầu",
-            "B": "03 ngày làm việc kể từ ngày được yêu cầu",
-            "C": "05 ngày làm việc kể từ ngày được yêu cầu",
-            "D": "07 ngày làm việc kể từ ngày được yêu cầu"
+            "A": "Tính theo tỷ lệ phần trăm của giá gói thầu",
+            "B": "Tính theo tỷ lệ phần trăm của dự toán gói thầu",
+            "C": "Tính bằng tiền theo định mức chi phí do cơ quan nhà nước có thẩm quyền ban hành",
+            "D": "Do chủ đầu tư tự quyết định"
         },
-        "correctAnswer": "A",
-        "explanation": "Để đảm bảo quyền được thông tin của nhà thầu một cách nhanh chóng, pháp luật quy định chủ đầu tư phải trả lời yêu cầu giải thích của nhà thầu không trúng thầu trong một thời gian ngắn. Thời hạn tiêu chuẩn cho việc này là 02 ngày làm việc.",
-        "category": "Trách nhiệm và Xử lý vi phạm"
-    },
-    {
-        "id": 316,
-        "question": "Đối với gói thầu đấu thầu trước, nhà thầu có phải thực hiện biện pháp bảo đảm dự thầu không?",
-        "options": {
-            "A": "Không phải thực hiện nhưng phải có cam kết trong đơn dự thầu",
-            "B": "Bắt buộc phải thực hiện",
-            "C": "Tuỳ thuộc vào quyết định của chủ đầu tư",
-            "D": "Chỉ phải thực hiện đối với gói thầu có giá trị bảo đảm dự thầu trên 50 triệu đồng"
-        },
-        "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 42, khoản 4 của Luật Đấu thầu. Luật quy định rõ: 'Đối với gói thầu đấu thầu trước, nhà thầu không phải thực hiện biện pháp bảo đảm dự thầu quy định tại Điều 14 của Luật này nhưng phải cam kết trong hồ sơ dự thầu về trách nhiệm tham dự thầu.'",
+        "correctAnswer": "C",
+        "explanation": "Chi phí lập hồ sơ mời thầu thường được xác định dựa trên các định mức chi phí do cơ quan quản lý nhà nước ban hành (ví dụ: các Thông tư của Bộ Kế hoạch và Đầu tư hoặc Bộ Tài chính quy định về chi phí trong lựa chọn nhà thầu).",
         "category": "Kế hoạch và Quy trình LCNT"
     },
     {
-        "id": 317,
-        "question": "Trường hợp các nhà thầu chào hàng hóa có cùng ký mã hiệu (nếu có), hãng sản xuất, năm sản xuất, xuất xứ Việt Nam nhưng có nhà thầu kê khai, có nhà thầu không kê khai hàng hóa này thuộc đối tượng ưu đãi thì chủ đầu tư xử lý thế nào?",
+        "id": 316,
+        "question": "Gói thầu mua sắm hàng hóa có giá gói thầu 08 tỷ đồng, được tổ chức đấu thầu rộng rãi trong nước qua mạng. Thời gian chuẩn bị hồ sơ dự thầu tối thiểu là bao nhiêu ngày?",
         "options": {
-            "A": "Không tính ưu đãi của tất cả các nhà thầu tham dự",
-            "B": "Quyết định cho các nhà thầu không kê khai được làm rõ để có cơ sở đánh giá ưu đãi",
-            "C": "Chỉ xét ưu đãi cho các nhà thầu đã kê khai",
-            "D": "Tính ưu đãi cho tất cả nhà nhà thầu tham dự mà không cần làm rõ với nhà thầu không kê khai"
+            "A": "10 ngày",
+            "B": "15 ngày",
+            "C": "18 ngày",
+            "D": "20 ngày"
         },
         "correctAnswer": "B",
-        "explanation": "Để đảm bảo tính công bằng, nếu có sự không nhất quán trong việc kê khai thông tin hưởng ưu đãi, bên mời thầu cần yêu cầu tất cả các nhà thầu liên quan làm rõ. Việc này tạo cơ hội cho nhà thầu thiếu sót được bổ sung thông tin và giúp chủ đầu tư có đầy đủ cơ sở để đánh giá ưu đãi một cách chính xác cho tất cả các nhà thầu.",
-        "category": "Quy định chung"
-    },
-    {
-        "id": 318,
-        "question": "Đối với đấu thầu qua mạng, sau khi đánh giá E-HSDT, tổ trưởng tổ chuyên gia đính kèm bản scan báo cáo đánh giá E-HSDT lên Hệ thống mạng đấu thầu quốc gia với yêu cầu nào sau đây?",
-        "options": {
-            "A": "Báo cáo đánh giá E-HSDT có chữ ký của tất cả thành viên trong tổ chuyên gia",
-            "B": "Báo cáo đánh giá E-HSDT chỉ cần có chữ ký của tổ trưởng tổ chuyên gia",
-            "C": "Báo cáo đánh giá E-HSDT (đăng tải báo cáo đánh giá tổng hợp, không cần kèm theo các phiếu chấm của thành viên trong tổ chuyên gia)",
-            "D": "Phương án B và C đều đúng"
-        },
-        "correctAnswer": "A",
-        "explanation": "",
+        "explanation": "Theo quy định, đối với gói thầu mua sắm hàng hóa đấu thầu rộng rãi trong nước qua mạng, thời gian chuẩn bị hồ sơ dự thầu tối thiểu là 15 ngày (nếu không phải trường hợp rút gọn).",
         "category": "Đấu thầu qua mạng"
     },
     {
-        "id": 319,
-        "question": "Hiện nay, Việt Nam đã mở cửa thị trường mua sắm chính phủ (đấu thầu) trong những hiệp định nào?",
+        "id": 317,
+        "question": "Thẩm định kết quả lựa chọn nhà thầu là việc làm của cơ quan, tổ chức nào?",
         "options": {
-            "A": "Chỉ Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP)",
-            "B": "Hiệp định CPTPP và Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu (EVFTA)",
-            "C": "Hiệp định CPTPP, Hiệp định EVFTA và Hiệp định Thương mại Tự do giữa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ailen (UKVFTA)",
-            "D": "Tất cả các hiệp định mà Việt Nam là thành viên"
+            "A": "Tổ chuyên gia",
+            "B": "Tổ thẩm định",
+            "C": "Chủ đầu tư",
+            "D": "Người có thẩm quyền"
+        },
+        "correctAnswer": "B",
+        "explanation": "Thẩm định kết quả lựa chọn nhà thầu là trách nhiệm của Tổ thẩm định được thành lập hoặc đơn vị tư vấn thẩm định được thuê, trước khi trình chủ đầu tư phê duyệt.",
+        "category": "Kế hoạch và Quy trình LCNT"
+    },
+    {
+        "id": 318,
+        "question": "Nhà thầu phụ là gì?",
+        "options": {
+            "A": "Là nhà thầu tham gia thực hiện gói thầu theo hợp đồng được ký với nhà thầu chính",
+            "B": "Là nhà thầu tham gia thực hiện gói thầu theo hợp đồng được ký với chủ đầu tư",
+            "C": "Là nhà thầu có tên trong hồ sơ dự thầu của nhà thầu chính",
+            "D": "Phương án A và C đều đúng"
+        },
+        "correctAnswer": "D",
+        "explanation": "Nhà thầu phụ là đơn vị ký hợp đồng với nhà thầu chính để thực hiện một phần công việc của gói thầu. Danh sách nhà thầu phụ thường được kê khai trong hồ sơ dự thầu của nhà thầu chính.",
+        "category": "Quy định chung"
+    },
+    {
+        "id": 319,
+        "question": "Thời gian đánh giá hồ sơ dự thầu tối đa là bao nhiêu ngày đối với đấu thầu trong nước?",
+        "options": {
+            "A": "25 ngày",
+            "B": "30 ngày",
+            "C": "45 ngày",
+            "D": "60 ngày"
         },
         "correctAnswer": "C",
-        "explanation": "Việt Nam đã cam kết mở cửa thị trường mua sắm chính phủ trong khuôn khổ các Hiệp định thương mại tự do thế hệ mới, bao gồm Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP), Hiệp định Thương mại tự do Việt Nam - EU (EVFTA), và Hiệp định Thương mại tự do Việt Nam - Vương quốc Anh (UKVFTA).",
-        "category": "Mua sắm đặc thù"
+        "explanation": "Luật Đấu thầu quy định thời gian đánh giá hồ sơ dự thầu tối đa là 45 ngày đối với đấu thầu trong nước và 60 ngày đối với đấu thầu quốc tế.",
+        "category": "Kế hoạch và Quy trình LCNT"
     },
     {
         "id": 320,
-        "question": "Số lượng các nước thành viên Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP) ký kết hiệp định ban đầu là bao nhiêu nước?",
+        "question": "Biện pháp bảo đảm dự thầu không áp dụng đối với gói thầu nào?",
         "options": {
-            "A": "8 nước",
-            "B": "9 nước",
-            "C": "11 nước",
-            "D": "12 nước"
+            "A": "Gói thầu xây lắp",
+            "B": "Gói thầu mua sắm hàng hóa",
+            "C": "Gói thầu dịch vụ tư vấn",
+            "D": "Gói thầu hỗn hợp"
         },
         "correctAnswer": "C",
-        "explanation": "Hiệp định CPTPP ban đầu được ký kết bởi 11 quốc gia thành viên, bao gồm: Úc, Brunei, Canada, Chile, Nhật Bản, Malaysia, Mexico, New Zealand, Peru, Singapore và Việt Nam.",
-        "category": "Mua sắm đặc thù"
+        "explanation": "Căn cứ pháp lý: Điều 14 Luật Đấu thầu. Bảo đảm dự thầu áp dụng cho gói thầu xây lắp, mua sắm hàng hóa, phi tư vấn và hỗn hợp. Gói thầu dịch vụ tư vấn không yêu cầu bảo đảm dự thầu.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     }
 ];

@@ -51,7 +51,7 @@ export const set12: Question[] = [
             "D": "Phương án A và B đều không đáp ứng về giá trị hợp đồng tương tự"
         },
         "correctAnswer": "A",
-        "explanation": "",
+        "explanation": "Yêu cầu hợp đồng tương tự là 50% giá gói thầu, tức là 1,5 tỷ đồng. Thông thường, yêu cầu này áp dụng cho một hợp đồng duy nhất. Trong phương án A, nhà thầu cung cấp 2 hợp đồng riêng lẻ, và không có hợp đồng nào có giá trị đạt 1,5 tỷ đồng. Do đó, nhà thầu không đáp ứng yêu cầu.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {

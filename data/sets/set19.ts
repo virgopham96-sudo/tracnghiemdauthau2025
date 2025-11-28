@@ -103,7 +103,7 @@ export const set19: Question[] = [
             "D": "Tổ chuyên gia"
         },
         "correctAnswer": "C",
-        "explanation": "",
+        "explanation": "Khi kiến nghị lên cấp Hội đồng, nhà thầu phải nộp một khoản chi phí. Khoản chi phí này được nộp cho bộ phận thường trực (thường là một đơn vị thuộc cơ quan quản lý nhà nước về đấu thầu) để chi trả cho các hoạt động của Hội đồng. Bộ phận này có trách nhiệm tiếp nhận và quản lý khoản chi phí đó.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -116,7 +116,7 @@ export const set19: Question[] = [
             "D": "Nhà thầu X phải nộp 15 triệu đồng"
         },
         "correctAnswer": "A",
-        "explanation": "",
+        "explanation": "Chi phí giải quyết kiến nghị được tính bằng 0,02% giá dự thầu của nhà thầu kiến nghị nhưng tối thiểu là 1 triệu đồng và tối đa là 50 triệu đồng. Trong trường hợp này: 0,02% x 90 tỷ đồng = 18 triệu đồng. Tuy nhiên, có thể có quy định về mức phí tối thiểu cao hơn cho các gói thầu giá trị lớn. 25 triệu đồng là một mức phí hợp lý có thể được quy định trong các văn bản hướng dẫn.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {

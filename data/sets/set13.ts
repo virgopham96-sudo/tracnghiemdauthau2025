@@ -25,7 +25,7 @@ export const set13: Question[] = [
             "D": "Nhà thầu được lựa chọn theo hình thức tự thực hiện"
         },
         "correctAnswer": "A",
-        "explanation": "",
+        "explanation": "Căn cứ pháp lý: Điều 68, khoản 1 của Luật Đấu thầu. Bảo đảm thực hiện hợp đồng là biện pháp bắt buộc đối với nhà thầu được lựa chọn, trừ các trường hợp được miễn theo khoản 2. Các trường hợp B, C, D thuộc diện được miễn. Do đó, nhà thầu cung cấp dịch vụ phi tư vấn (A) là trường hợp phải áp dụng bảo đảm thực hiện hợp đồng.",
         "category": "Hợp đồng"
     },
     {
@@ -84,10 +84,10 @@ export const set13: Question[] = [
         "id": 127,
         "question": "Phát hành hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu được thực hiện như thế nào?",
         "options": {
-            "A": "Hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu được phát hành sau 01 ngày kể từ khi thông báo mời quan tâm, thông báo mời sơ tuyển, thông báo mời thầu được đăng tải thành công trên Hệ thống mạng đấu thầu quốc gia",
-            "B": "Hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu được phát hành trước khi đăng tải thông báo mời quan tâm, thông báo mời sơ tuyển, thông báo mời thầu",
-            "C": "Hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu được phát hành sau 03 ngày kể từ khi thông báo mời quan tâm, thông báo mời sơ tuyển, thông báo mời thầu được đăng tải thành công trên Hệ thống mạng đấu thầu quốc gia",
-            "D": "Hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu được phát hành ngay sau khi đăng tải thành công thông báo mời quan tâm, thông báo mời sơ tuyển, thông báo mời thầu"
+            "A": "Hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu được phát hành sau 01 ngày kể từ khi thông báo mời quan tâm, thông báo mời sơ tuyển, thông báo mời thầu được đăng tải thành công trên Hệ thống mạng đấu thầu quốc gia",
+            "B": "Hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu được phát hành trước khi đăng tải thông báo mời quan tâm, thông báo mời sơ tuyển, thông báo mời thầu",
+            "C": "Hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu được phát hành sau 03 ngày kể từ khi thông báo mời quan tâm, thông báo mời sơ tuyển, thông báo mời thầu được đăng tải thành công trên Hệ thống mạng đấu thầu quốc gia",
+            "D": "Hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu được phát hành ngay sau khi đăng tải thành công thông báo mời quan tâm, thông báo mời sơ tuyển, thông báo mời thầu"
         },
         "correctAnswer": "D",
         "explanation": "Căn cứ pháp lý: Điều 45, khoản 1, điểm c của Luật Đấu thầu. Để đảm bảo tính thống nhất và công khai, ngay sau khi thông báo mời thầu được đăng tải thành công, hệ thống sẽ tự động phát hành hồ sơ mời thầu tương ứng để nhà thầu có thể truy cập ngay lập tức.",

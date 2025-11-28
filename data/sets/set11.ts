@@ -129,7 +129,7 @@ export const set11: Question[] = [
             "D": "Tất cả phương án trên đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "",
+        "explanation": "Bảo đảm dự thầu phải được phát hành sau khi hồ sơ mời thầu được ban hành, vì các điều kiện của bảo lãnh (giá trị, thời gian hiệu lực, bên thụ hưởng...) phải tuân thủ theo yêu cầu của HSMT. Việc ký bảo lãnh trước khi HSMT được phát hành cho thấy bảo lãnh không được lập căn cứ trên các yêu cầu chính thức của gói thầu, do đó là không hợp lệ.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     }
 ];

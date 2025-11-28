@@ -25,7 +25,7 @@ export const set8: Question[] = [
             "D": "Yêu cầu nhà thầu bổ sung hàng hóa theo đúng xuất xứ thuộc nhóm nước, vùng lãnh thổ theo yêu cầu hồ sơ mời thầu, không phải đáp ứng cùng ký mã hiệu, nhãn hiệu với hàng hóa nhà thầu đã đề xuất trong hồ sơ dự thầu"
         },
         "correctAnswer": "B",
-        "explanation": "",
+        "explanation": "Theo chính sách ưu đãi hàng hóa sản xuất trong nước, ngay cả khi hồ sơ mời thầu có yêu cầu về xuất xứ từ một nhóm nước cụ thể, hàng hóa có xuất xứ Việt Nam vẫn được xem xét, đánh giá. Hàng hóa này không bị loại và có thể được hưởng ưu đãi khi so sánh, xếp hạng nếu đáp ứng các điều kiện khác về kỹ thuật.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -38,7 +38,7 @@ export const set8: Question[] = [
             "D": "Tất cả đáp án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "",
+        "explanation": "Việc xác định tính chất tương tự của hợp đồng phụ thuộc vào quyết định của chủ đầu tư dựa trên tính chất của gói thầu. Chủ đầu tư có thể quy định một cách rộng (cùng lĩnh vực), cụ thể (cùng mã HS), hoặc kết hợp cả hai. Do tất cả các phương án A, B, C đều là những cách hợp lệ để xác định tính tương tự tùy theo mức độ cạnh tranh mong muốn.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -64,7 +64,7 @@ export const set8: Question[] = [
             "D": "Hợp đồng tương tự được xác định trên cơ sở tương tự cả về tính chất và quy mô (giá trị hợp đồng)"
         },
         "correctAnswer": "A",
-        "explanation": "",
+        "explanation": "Đối với một số gói thầu tư vấn đặc thù, đặc biệt là các gói thầu không phức tạp hoặc yêu cầu sự sáng tạo cao, chủ đầu tư có thể quyết định không đặt nặng tiêu chuẩn về kinh nghiệm và năng lực chung của công ty trong phần đánh giá kỹ thuật. Thay vào đó, việc đánh giá sẽ tập trung chủ yếu vào giải pháp kỹ thuật và năng lực của các chuyên gia được đề xuất.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -129,7 +129,7 @@ export const set8: Question[] = [
             "D": "Nhà thầu được ký kết hợp đồng với các nhà thầu phụ được chủ đầu tư chấp thuận để tham gia thực hiện cung cấp dịch vụ liên quan"
         },
         "correctAnswer": "A",
-        "explanation": "",
+        "explanation": "Pháp luật về đấu thầu không yêu cầu chủ đầu tư phải ấn định trước một tỷ lệ phần trăm (%) giá trị công việc dành cho nhà thầu phụ. Việc đề xuất sử dụng nhà thầu phụ và phạm vi công việc của họ là do nhà thầu chính quyết định và trình chủ đầu tư xem xét, chấp thuận. Do đó, việc chủ đầu tư phải ghi tỷ lệ % trong E-BDL là không phù hợp.",
         "category": "Quy định chung"
     }
 ];

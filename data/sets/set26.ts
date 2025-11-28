@@ -129,7 +129,7 @@ export const set26: Question[] = [
             "D": "Các phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "",
+        "explanation": "Căn cứ pháp lý: Điều 50, khoản 5 của Luật Đấu thầu. Lộ trình áp dụng đấu thầu qua mạng có các trường hợp ngoại lệ. Các gói thầu phức tạp như hỗn hợp hai giai đoạn (A), đấu thầu quốc tế (B) và các hình thức không mang tính cạnh tranh rộng rãi (C) đều thuộc danh sách các trường hợp không bắt buộc phải thực hiện đấu thầu qua mạng. Do đó, tất cả các phương án đều đúng.",
         "category": "Đấu thầu qua mạng"
     }
 ];

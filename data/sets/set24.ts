@@ -38,7 +38,7 @@ export const set24: Question[] = [
             "D": "Phương án A và C đều đúng"
         },
         "correctAnswer": "A",
-        "explanation": "",
+        "explanation": "Khi không có nhà thầu nào nộp hồ sơ dự thầu, gói thầu được coi là không thành công. Cách xử lý phù hợp nhất là hủy thông báo mời thầu (E-TBMT) đã đăng tải để kết thúc quy trình hiện tại và tiến hành mời thầu lại từ đầu, có thể xem xét điều chỉnh lại hồ sơ mời thầu để thu hút nhà thầu hơn.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -64,7 +64,7 @@ export const set24: Question[] = [
             "D": "Chủ đầu tư dành cho nhà thầu tối thiểu 03 ngày làm việc để nhà thầu thực hiện việc làm rõ E-HSDT"
         },
         "correctAnswer": "D",
-        "explanation": "",
+        "explanation": "Để đảm bảo nhà thầu có đủ thời gian chuẩn bị các tài liệu và giải trình cần thiết, pháp luật quy định chủ đầu tư phải dành cho nhà thầu một khoảng thời gian tối thiểu để thực hiện việc làm rõ. Thời gian tối thiểu 03 ngày làm việc là một quy định hợp lý và phổ biến trong đấu thầu qua mạng.",
         "category": "Đấu thầu qua mạng"
     },
     {
