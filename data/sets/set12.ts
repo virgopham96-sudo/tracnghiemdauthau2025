@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set12: Question[] = [
@@ -49,8 +50,8 @@ export const set12: Question[] = [
             "C": "Nhà thầu cung cấp 02 hợp đồng, trong đó: 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8415 với giá trị 600 triệu đồng và 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8507 với giá trị 01 tỷ đồng",
             "D": "Phương án A và B đều không đáp ứng về giá trị hợp đồng tương tự"
         },
-        "correctAnswer": "D",
-        "explanation": "Yêu cầu hợp đồng tương tự là 50% giá gói thầu, tức là 1,5 tỷ đồng. Phương án A: Tổng giá trị các hợp đồng là 1,5 tỷ, nhưng đây là 3 hợp đồng riêng lẻ, không có hợp đồng nào đơn lẻ đạt giá trị 1,5 tỷ. Phương án B: Hợp đồng có giá trị 1,6 tỷ, đáp ứng yêu cầu. Do đó, phương án D nói rằng cả A và B đều không đáp ứng là sai. Câu hỏi và các phương án có thể có sai sót.",
+        "correctAnswer": "A",
+        "explanation": "",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {

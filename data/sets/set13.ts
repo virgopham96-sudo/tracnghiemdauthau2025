@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set13: Question[] = [
@@ -23,8 +24,8 @@ export const set13: Question[] = [
             "C": "Nhà thầu cung cấp dịch vụ tư vấn",
             "D": "Nhà thầu được lựa chọn theo hình thức tự thực hiện"
         },
-        "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 68, khoản 2 của Luật Đấu thầu. Luật quy định các trường hợp không phải áp dụng bảo đảm thực hiện hợp đồng bao gồm: nhà thầu cung cấp dịch vụ tư vấn (A, C), tự thực hiện, và gói thầu thuộc hạn mức chỉ định thầu (B). Câu hỏi này có thể bị lỗi vì tất cả các phương án đều thuộc trường hợp được miễn. Nếu phải chọn, có thể có một quy định riêng không được nêu.",
+        "correctAnswer": "A",
+        "explanation": "",
         "category": "Hợp đồng"
     },
     {

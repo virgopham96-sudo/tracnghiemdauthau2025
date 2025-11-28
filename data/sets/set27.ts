@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set27: Question[] = [
@@ -49,8 +50,8 @@ export const set27: Question[] = [
             "C": "Tất cả các gói thầu áp dụng đấu thầu qua mạng",
             "D": "Tất cả các gói thầu áp dụng đấu thầu qua mạng và không qua mạng"
         },
-        "correctAnswer": "C",
-        "explanation": "Mục tiêu của đấu thầu qua mạng là thực hiện toàn bộ quy trình trên môi trường mạng, từ đăng tải thông tin, nộp thầu, đánh giá, đến ký kết hợp đồng. Do đó, đối với tất cả các gói thầu đã được tổ chức lựa chọn nhà thầu qua mạng, việc ký kết hợp đồng điện tử trên Hệ thống là bước cuối cùng và bắt buộc.",
+        "correctAnswer": "A",
+        "explanation": "",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -114,8 +115,8 @@ export const set27: Question[] = [
             "C": "02 giai đoạn, 02 túi hồ sơ",
             "D": "Các phương án trên đều đúng"
         },
-        "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 30, 31, 32, 33 của Luật Đấu thầu. Đấu thầu qua mạng có thể áp dụng cho tất cả các phương thức lựa chọn nhà thầu phổ biến, bao gồm: một giai đoạn một túi hồ sơ (A), một giai đoạn hai túi hồ sơ, hai giai đoạn một túi hồ sơ và hai giai đoạn hai túi hồ sơ (B, C).",
+        "correctAnswer": "A",
+        "explanation": "",
         "category": "Đấu thầu qua mạng"
     },
     {

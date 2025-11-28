@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set9: Question[] = [
@@ -101,8 +102,8 @@ export const set9: Question[] = [
             "C": "Phải bắt buộc cung cấp giấy đăng ký thiết bị kèm theo giấy đăng kiểm, kiểm định theo quy định của pháp luật",
             "D": "Phải bắt buộc cung cấp hợp đồng, hóa đơn mua hàng"
         },
-        "correctAnswer": "A",
-        "explanation": "Khi E-HSMT đã yêu cầu cụ thể các tài liệu để chứng minh khả năng huy động thiết bị, nhà thầu phải tuân thủ và cung cấp đầy đủ tất cả các tài liệu đó.",
+        "correctAnswer": "B",
+        "explanation": "",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {

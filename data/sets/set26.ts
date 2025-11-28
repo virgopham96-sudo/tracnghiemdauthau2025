@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set26: Question[] = [
@@ -127,8 +128,8 @@ export const set26: Question[] = [
             "C": "Gói thầu áp dụng hình thức chỉ định thầu, đặt hàng, giao nhiệm vụ, mua sắm trực tiếp, tự thực hiện, đàm phán giá, lựa chọn nhà thầu trong trường hợp đặc biệt, gói thầu có sự tham gia của cộng đồng",
             "D": "Các phương án trên đều đúng"
         },
-        "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 50, khoản 5 của Luật Đấu thầu (nêu các trường hợp ngoại lệ). Lộ trình áp dụng đấu thầu qua mạng bắt buộc chủ yếu áp dụng cho các hình thức đấu thầu cạnh tranh như đấu thầu rộng rãi, hạn chế, chào hàng cạnh tranh. Các hình thức lựa chọn nhà thầu không mang tính cạnh tranh rộng rãi hoặc có tính chất đặc thù như chỉ định thầu, tự thực hiện, mua sắm trực tiếp... không bắt buộc phải thực hiện trên Hệ thống.",
+        "correctAnswer": "D",
+        "explanation": "",
         "category": "Đấu thầu qua mạng"
     }
 ];

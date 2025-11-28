@@ -1,18 +1,12 @@
-
 import React, { useState } from 'react';
 import { Question } from '../types';
 import { CheckIcon } from './icons';
-
-interface SearchProps {
-    questions: Question[];
-    onBack: () => void;
-}
 
 const highlightText = (text: string, highlight: string): React.ReactNode => {
     if (!highlight.trim()) {
         return text;
     }
-    const regex = new RegExp(`(${highlight})`, 'gi');
+    const regex = new RegExp(`(${highlight.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')})`, 'gi');
     const parts = text.split(regex);
     return (
         <span>
@@ -28,6 +22,11 @@ const highlightText = (text: string, highlight: string): React.ReactNode => {
         </span>
     );
 };
+
+interface SearchProps {
+    questions: Question[];
+    onBack: () => void;
+}
 
 const Search: React.FC<SearchProps> = ({ questions, onBack }) => {
     const [searchTerm, setSearchTerm] = useState('');
@@ -46,7 +45,6 @@ const Search: React.FC<SearchProps> = ({ questions, onBack }) => {
         const lowercasedTerm = searchTerm.toLowerCase();
         const results = questions.filter(q =>
             q.question.toLowerCase().includes(lowercasedTerm) ||
-            // Fix: Cast 'opt' to string to resolve 'toLowerCase' does not exist on type 'unknown' error.
             Object.values(q.options).some(opt => (opt as string).toLowerCase().includes(lowercasedTerm)) ||
             q.explanation.toLowerCase().includes(lowercasedTerm)
         );
@@ -109,7 +107,6 @@ const Search: React.FC<SearchProps> = ({ questions, onBack }) => {
                         <div className="space-y-3 mb-6">
                              {Object.entries(q.options).map(([key, value]) => (
                                 <div key={key} className={`flex items-center justify-between p-3 rounded-lg border-2 ${key === q.correctAnswer ? 'bg-green-50 border-green-400' : 'border-slate-200'}`}>
-                                    {/* Fix: Cast 'value' to string to resolve argument of type 'unknown' is not assignable to parameter of type 'string' error. */}
                                     <span>{key}. {highlightText(value as string, searchTerm)}</span>
                                      {key === q.correctAnswer && <div className="shrink-0"><CheckIcon /></div>}
                                 </div>

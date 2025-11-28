@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set20: Question[] = [
@@ -23,8 +24,8 @@ export const set20: Question[] = [
             "C": "Có thể nhưng phải bảo đảm tỷ lệ tiết kiệm tối thiểu 5%",
             "D": "Có thể nhưng phải bảo đảm điều kiện giá đề nghị trúng thầu không vượt giá của phần đó trong giá gói thầu"
         },
-        "correctAnswer": "B",
-        "explanation": "Gói thầu chia phần cho phép các nhà thầu khác nhau trúng các phần khác nhau. Chủ đầu tư có thể phê duyệt kết quả cho từng phần, miễn là tổng giá trị của tất cả các phần trúng thầu không vượt giá gói thầu đã được duyệt.",
+        "correctAnswer": "D",
+        "explanation": "",
         "category": "Kế hoạch và Quy trình LCNT"
     },
     {

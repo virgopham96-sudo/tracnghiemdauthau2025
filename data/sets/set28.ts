@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set28: Question[] = [
@@ -101,8 +102,8 @@ export const set28: Question[] = [
             "C": "Bảo đảm dự thầu của nhà thầu A được đánh giá là hợp lệ; Bảo đảm dự thầu của nhà thầu B được đánh giá là không hợp lệ",
             "D": "Bảo đảm dự thầu của nhà thầu A và nhà thầu B đều được đánh giá là không hợp lệ"
         },
-        "correctAnswer": "C",
-        "explanation": "Thời điểm đóng thầu ban đầu là 25/9. Do sự cố, thời điểm đóng thầu mới là 26/9. Nhà thầu A nộp HSDT trước sự cố, bảo đảm dự thầu có hiệu lực 90 ngày kể từ 25/9. Tại thời điểm đóng thầu mới (26/9), bảo đảm dự thầu của A vẫn còn hiệu lực (chỉ mới qua 1 ngày). Do đó, bảo đảm của A hợp lệ. Nhà thầu B nộp HSDT sau sự cố, nhưng bảo đảm dự thầu lại có hiệu lực 90 ngày kể từ 26/9. Điều này không đúng với yêu cầu của HSMT (yêu cầu hiệu lực từ 25/9). Do đó, bảo đảm của B không hợp lệ.",
+        "correctAnswer": "B",
+        "explanation": "",
         "category": "Đấu thầu qua mạng"
     },
     {

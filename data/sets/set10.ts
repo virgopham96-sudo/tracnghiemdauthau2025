@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set10: Question[] = [
@@ -75,8 +76,8 @@ export const set10: Question[] = [
             "C": "Xin ý kiến người có thẩm quyền để xử lý tình huống trong đấu thầu trên cơ sở bảo đảm các mục tiêu của công tác đấu thầu",
             "D": "Tiếp tục đánh giá E-HSDT, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ tài liệu"
         },
-        "correctAnswer": "D",
-        "explanation": "Đây là một tình huống trong đấu thầu. Việc thiếu các cam kết không phải là lỗi không thể khắc phục. Để tạo điều kiện cho nhà thầu, bên mời thầu có thể cho phép làm rõ, bổ sung sau khi đánh giá. Nếu nhà thầu được xếp hạng thứ nhất, họ sẽ được yêu cầu bổ sung các cam kết này trước khi ký hợp đồng. Đây là cách xử lý linh hoạt và hiệu quả.",
+        "correctAnswer": "B",
+        "explanation": "",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {

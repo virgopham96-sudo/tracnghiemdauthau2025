@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set24: Question[] = [
@@ -36,8 +37,8 @@ export const set24: Question[] = [
             "C": "Cho phép gia hạn thời điểm đóng thầu tối thiểu 05 ngày làm việc đối với gói thầu xây lắp, hỗn hợp có giá gói thầu không quá 20 tỷ đồng, gói thầu mua sắm hàng hoá, dịch vụ phi tư vấn có giá không quá 10 tỷ đồng",
             "D": "Phương án A và C đều đúng"
         },
-        "correctAnswer": "C",
-        "explanation": "Đây là một trong những cách xử lý tình huống để tăng cơ hội có nhà thầu tham gia mà không cần phải hủy thầu ngay lập tức. Việc gia hạn thời điểm đóng thầu cho phép các nhà thầu có thêm thời gian chuẩn bị hồ sơ.",
+        "correctAnswer": "A",
+        "explanation": "",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -62,8 +63,8 @@ export const set24: Question[] = [
             "C": "Chủ đầu tư dành cho nhà thầu tối đa 03 ngày để nhà thầu thực hiện việc làm rõ E-HSDT",
             "D": "Chủ đầu tư dành cho nhà thầu tối thiểu 03 ngày làm việc để nhà thầu thực hiện việc làm rõ E-HSDT"
         },
-        "correctAnswer": "A",
-        "explanation": "Nguyên tắc cơ bản của việc làm rõ hồ sơ dự thầu là làm rõ để minh bạch các thông tin đã kê khai, không được làm thay đổi bản chất của hồ sơ dự thầu. Nhà thầu được phép làm rõ các vấn đề về tư cách, năng lực, kinh nghiệm. Tuy nhiên, các đề xuất cơ bản về kỹ thuật và tài chính (giá chào) là không được phép thay đổi.",
+        "correctAnswer": "D",
+        "explanation": "",
         "category": "Đấu thầu qua mạng"
     },
     {

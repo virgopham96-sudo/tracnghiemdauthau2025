@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set7: Question[] = [
@@ -114,8 +115,8 @@ export const set7: Question[] = [
             "C": "50 điểm",
             "D": "Từ 0 đến 49 điểm"
         },
-        "correctAnswer": "B",
-        "explanation": "Trong thang điểm 1000, uy tín của nhà thầu thông qua việc tham dự thầu và kết quả thực hiện hợp đồng thường được quy định một tỷ trọng nhất định, phổ biến là 10% (tương đương 100 điểm). Đây là một tiêu chí để khuyến khích các nhà thầu thực hiện tốt các hợp đồng đã trúng thầu.",
+        "correctAnswer": "C",
+        "explanation": "",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {

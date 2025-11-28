@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set11: Question[] = [
@@ -127,8 +128,8 @@ export const set11: Question[] = [
             "C": "Ký trước khi phát hành hồ sơ mời thầu",
             "D": "Tất cả phương án trên đều đúng"
         },
-        "correctAnswer": "D",
-        "explanation": "Bảo đảm dự thầu phải tuân thủ nghiêm ngặt các yêu cầu của hồ sơ mời thầu. Thời gian hiệu lực dài hơn (A) hoặc giá trị cao hơn (B) không làm bảo lãnh mất hiệu lực. Tuy nhiên, việc ký bảo lãnh trước khi hồ sơ mời thầu được phát hành (C) là không hợp lệ vì bảo lãnh phải được lập dựa trên các yêu cầu cụ thể của hồ sơ mời thầu. Do đó, phương án D là không chính xác. Câu trả lời đúng nhất phải là C. Tuy nhiên, nếu đề bài cho rằng tất cả đều đúng, có thể có một cách diễn giải rất nghiêm ngặt rằng bất kỳ sai khác nào so với yêu cầu, dù là có lợi cho chủ đầu tư, đều bị coi là không hợp lệ.",
+        "correctAnswer": "C",
+        "explanation": "",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     }
 ];

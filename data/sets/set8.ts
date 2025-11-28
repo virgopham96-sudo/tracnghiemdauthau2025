@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set8: Question[] = [
@@ -23,8 +24,8 @@ export const set8: Question[] = [
             "C": "Yêu cầu nhà thầu bổ sung hàng hóa theo đúng xuất xứ thuộc nhóm nước, vùng lãnh thổ theo yêu cầu hồ sơ mời thầu nhưng phải cùng ký mã hiệu, nhãn hiệu với hàng hóa nhà thầu đã đề xuất trong hồ sơ dự thầu",
             "D": "Yêu cầu nhà thầu bổ sung hàng hóa theo đúng xuất xứ thuộc nhóm nước, vùng lãnh thổ theo yêu cầu hồ sơ mời thầu, không phải đáp ứng cùng ký mã hiệu, nhãn hiệu với hàng hóa nhà thầu đã đề xuất trong hồ sơ dự thầu"
         },
-        "correctAnswer": "A",
-        "explanation": "Nhà thầu phải tuân thủ tuyệt đối các yêu cầu của hồ sơ mời thầu. Nếu HSMT đã quy định rõ về xuất xứ hàng hóa (dù việc quy định này có thể hạn chế cạnh tranh) và hàng hóa nhà thầu chào không thuộc danh mục xuất xứ cho phép, thì hàng hóa đó sẽ bị coi là không đáp ứng yêu cầu và bị loại.",
+        "correctAnswer": "B",
+        "explanation": "",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -36,8 +37,8 @@ export const set8: Question[] = [
             "C": "Được quy định hàng hóa thuộc cùng chủng loại hoặc hàng hóa có cùng mã Chương, mã Nhóm (tương ứng với 4 số đầu tiên của bộ mã) trong Hệ thống mã HS với mã HS của máy điều hòa",
             "D": "Tất cả đáp án trên đều đúng"
         },
-        "correctAnswer": "A",
-        "explanation": "Để đảm bảo tính cạnh tranh rộng rãi, yêu cầu về hợp đồng tương tự thường được quy định một cách linh hoạt. Việc yêu cầu hàng hóa thuộc cùng 'lĩnh vực tổng quát' (ví dụ: thiết bị điện, thiết bị văn phòng) cho phép nhiều nhà thầu có kinh nghiệm liên quan tham gia, thay vì giới hạn quá hẹp vào một mã HS cụ thể.",
+        "correctAnswer": "D",
+        "explanation": "",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -62,8 +63,8 @@ export const set8: Question[] = [
             "C": "Không được quy định uy tín của nhà thầu thông qua việc tham dự thầu trong tiêu chuẩn đánh giá về kỹ thuật",
             "D": "Hợp đồng tương tự được xác định trên cơ sở tương tự cả về tính chất và quy mô (giá trị hợp đồng)"
         },
-        "correctAnswer": "D",
-        "explanation": "Đây là nguyên tắc cơ bản khi xác định hợp đồng tương tự. 'Tương tự' phải được hiểu là tương tự về cả bản chất công việc (tính chất) và độ lớn, phức tạp của công việc (quy mô, thường được thể hiện qua giá trị). A và B sai vì năng lực và kinh nghiệm là yêu cầu bắt buộc đối với gói thầu tư vấn. C sai vì uy tín là một tiêu chí có thể được sử dụng để đánh giá.",
+        "correctAnswer": "A",
+        "explanation": "",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -127,8 +128,8 @@ export const set8: Question[] = [
             "C": "Nhà thầu được ký kết hợp đồng với các nhà thầu phụ trong danh sách các nhà thầu phụ nêu trong E-HSDT",
             "D": "Nhà thầu được ký kết hợp đồng với các nhà thầu phụ được chủ đầu tư chấp thuận để tham gia thực hiện cung cấp dịch vụ liên quan"
         },
-        "correctAnswer": "D",
-        "explanation": "Nhà thầu chính phải kê khai danh sách nhà thầu phụ dự kiến trong E-HSDT. Nhà thầu chính chỉ được sử dụng các nhà thầu phụ có trong danh sách đã kê khai và không được thay đổi nếu không có sự chấp thuận của chủ đầu tư. Phương án D ngụ ý rằng chủ đầu tư có thể chấp thuận một nhà thầu phụ bất kỳ ngoài danh sách, điều này không hoàn toàn chính xác theo quy trình.",
+        "correctAnswer": "A",
+        "explanation": "",
         "category": "Quy định chung"
     }
 ];

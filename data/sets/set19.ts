@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set19: Question[] = [
@@ -101,8 +102,8 @@ export const set19: Question[] = [
             "C": "Bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị",
             "D": "Tổ chuyên gia"
         },
-        "correctAnswer": "D",
-        "explanation": "Trong quy trình giải quyết kiến nghị, Tổ chuyên gia là đơn vị trực tiếp nghiên cứu hồ sơ, tài liệu. Do đó, chi phí giải quyết kiến nghị do nhà thầu nộp sẽ được chuyển cho Tổ chuyên gia để quản lý và chi trả cho các hoạt động cần thiết trong quá trình xem xét, đánh giá kiến nghị.",
+        "correctAnswer": "C",
+        "explanation": "",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -114,8 +115,8 @@ export const set19: Question[] = [
             "C": "Nhà thầu X phải nộp 20 triệu đồng",
             "D": "Nhà thầu X phải nộp 15 triệu đồng"
         },
-        "correctAnswer": "C",
-        "explanation": "Chi phí giải quyết kiến nghị được tính bằng 0,02% giá dự thầu của nhà thầu kiến nghị nhưng tối thiểu là 1 triệu đồng và tối đa là 50 triệu đồng. Trong trường hợp này: 0,02% x 90 tỷ đồng = 18 triệu đồng. Tuy nhiên, nếu tính trên giá gói thầu (100 tỷ) thì chi phí là 0,02% x 100 tỷ = 20 triệu. Có thể có sự nhầm lẫn trong đề bài hoặc các phương án. Dựa trên các phương án, 20 triệu là câu trả lời hợp lý nhất.",
+        "correctAnswer": "A",
+        "explanation": "",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {

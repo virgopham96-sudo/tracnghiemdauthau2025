@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set30: Question[] = [
@@ -114,8 +115,8 @@ export const set30: Question[] = [
             "C": "Nhà thầu nộp hàng mẫu trong thời hạn 05 ngày sau khi nộp thành công E-HSDT trên Hệ thống mạng đấu thầu quốc gia",
             "D": "Các phương án trên đều sai."
         },
-        "correctAnswer": "C",
-        "explanation": "Hàng mẫu là vật chất, không thể nộp qua mạng. Quy trình chuẩn là nhà thầu nộp E-HSDT trên hệ thống trước thời điểm đóng thầu, sau đó nộp hàng mẫu trực tiếp cho bên mời thầu trong một khoảng thời gian nhất định (thường là 05 ngày làm việc) sau thời điểm đóng thầu.",
+        "correctAnswer": "A",
+        "explanation": "",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {

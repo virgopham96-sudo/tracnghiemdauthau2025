@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set32: Question[] = [
@@ -23,8 +24,8 @@ export const set32: Question[] = [
             "C": "Khi nhà thầu đề nghị điều chỉnh đơn giá hạng mục mà nhà thầu đã chào theo yêu cầu của hồ sơ mời thầu nhưng chủ đầu tư không chấp nhận",
             "D": "Phương án B và C đều đúng"
         },
-        "correctAnswer": "D",
-        "explanation": "Nhà thầu chỉ bị xử phạt (tịch thu bảo đảm dự thầu) khi từ chối ký hợp đồng một cách vô cớ. Tuy nhiên, nhà thầu có quyền từ chối nếu: Chủ đầu tư đưa ra các yêu cầu mới trong quá trình hoàn thiện hợp đồng không phù hợp với hồ sơ mời thầu và hồ sơ dự thầu đã nộp (Phương án B). Chủ đầu tư không chấp nhận các đề nghị hợp lý của nhà thầu (phù hợp với hồ sơ mời thầu) (Phương án C). Trong cả hai trường hợp này, lỗi thuộc về chủ đầu tư, do đó nhà thầu được bảo vệ quyền lợi.",
+        "correctAnswer": "B",
+        "explanation": "",
         "category": "Hợp đồng"
     },
     {
@@ -49,8 +50,8 @@ export const set32: Question[] = [
             "C": "Chỉ được dùng giấy chứng nhận bảo hiểm bảo lãnh do chính mình phát hành nếu giá trị bảo lãnh nhỏ hơn 50 triệu đồng",
             "D": "Tất cả phương án trên đều sai"
         },
-        "correctAnswer": "A",
-        "explanation": "Đây là một quy định đặc thù cho ngành bảo hiểm. Doanh nghiệp bảo hiểm, với chức năng kinh doanh của mình, có đủ năng lực tài chính và pháp lý để tự phát hành giấy chứng nhận bảo hiểm bảo lãnh cho chính mình khi tham gia các gói thầu cung cấp dịch vụ bảo hiểm.",
+        "correctAnswer": "D",
+        "explanation": "",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -101,8 +102,8 @@ export const set32: Question[] = [
             "C": "Báo cáo đánh giá E-HSDT (đăng tải báo cáo đánh giá tổng hợp, không cần kèm theo các phiếu chấm của thành viên trong tổ chuyên gia)",
             "D": "Phương án B và C đều đúng"
         },
-        "correctAnswer": "B",
-        "explanation": "Để đơn giản hóa thủ tục hành chính trong đấu thầu qua mạng, quy định cho phép chỉ cần tổ trưởng tổ chuyên gia ký tên và chịu trách nhiệm về nội dung của báo cáo đánh giá. Sau đó, bản scan của báo cáo này sẽ được đính kèm lên Hệ thống để trình duyệt.",
+        "correctAnswer": "A",
+        "explanation": "",
         "category": "Đấu thầu qua mạng"
     },
     {

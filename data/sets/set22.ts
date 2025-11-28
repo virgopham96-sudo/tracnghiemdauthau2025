@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set22: Question[] = [
@@ -23,8 +24,8 @@ export const set22: Question[] = [
             "C": "E-HSDT của nhà thầu bị đánh giá không đáp ứng và bị loại",
             "D": "Xin ý kiến người có thẩm quyền để xử lý tình huống trong đấu thầu"
         },
-        "correctAnswer": "B",
-        "explanation": "Việc không đề xuất cụ thể thông tin hàng hóa không phải là lỗi loại trực tiếp. Hồ sơ dự thầu vẫn được đánh giá dựa trên các thông tin đã cung cấp. Nếu nhà thầu được xếp hạng thứ nhất, chủ đầu tư sẽ yêu cầu nhà thầu làm rõ và bổ sung các thông tin chi tiết này trong quá trình thương thảo, hoàn thiện hợp đồng để đảm bảo hàng hóa đáp ứng yêu cầu kỹ thuật.",
+        "correctAnswer": "C",
+        "explanation": "",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -114,8 +115,8 @@ export const set22: Question[] = [
             "C": "Chủ đầu tư đăng tải trong thời hạn 07 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm",
             "D": "Người có thẩm quyền đăng tải trong thời hạn 05 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm"
         },
-        "correctAnswer": "D",
-        "explanation": "Thông tin về xử lý vi phạm pháp luật về đấu thầu (bao gồm cả quyết định cấm thầu) do người có thẩm quyền ra quyết định. Do đó, người có thẩm quyền cũng là người chịu trách nhiệm cuối cùng trong việc công khai thông tin này. Thời hạn 05 ngày làm việc là thời hạn tiêu chuẩn để đăng tải thông tin.",
+        "correctAnswer": "C",
+        "explanation": "",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {

@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set25: Question[] = [
@@ -36,8 +37,8 @@ export const set25: Question[] = [
             "C": "Thời điểm bắt đầu và kết thúc không bắt buộc trong giờ hành chính.",
             "D": "Tất cả phương án trên đều sai"
         },
-        "correctAnswer": "B",
-        "explanation": "Quy trình rút gọn thường diễn ra trong thời gian ngắn (ví dụ 3-4 giờ). Để linh hoạt, thời điểm bắt đầu có thể ngoài giờ hành chính, nhưng thời điểm kết thúc phải trong giờ hành chính để đảm bảo có cán bộ giám sát và xử lý các bước tiếp theo.",
+        "correctAnswer": "A",
+        "explanation": "",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -114,8 +115,8 @@ export const set25: Question[] = [
             "C": "1-3% giá gói thầu",
             "D": "Không yêu cầu về bảo đảm dự thầu"
         },
-        "correctAnswer": "C",
-        "explanation": "Chào giá rút gọn là hình thức đơn giản, nhanh chóng. Mức bảo đảm dự thầu cũng được quy định ở mức thấp hơn so với đấu thầu rộng rãi thông thường (thường là 1-1.5%). Mức 1-3% là khung quy định chung cho bảo đảm dự thầu.",
+        "correctAnswer": "D",
+        "explanation": "",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -127,8 +128,8 @@ export const set25: Question[] = [
             "C": "Hồ sơ dự thầu của nhà thầu sẽ tiếp tục được đánh giá về tài chính căn cứ theo hồ sơ dự thầu đã nộp trước thời điểm đóng thầu",
             "D": "Phương án A và B đều đúng"
         },
-        "correctAnswer": "B",
-        "explanation": "Việc được mời tham gia chào giá (sau khi đã nộp HSDT và được đánh giá đáp ứng) mà từ chối là một hành vi vi phạm cam kết tham dự thầu. Hình thức xử phạt là loại nhà thầu khỏi gói thầu đó và tạm thời khóa tài khoản trên Hệ thống.",
+        "correctAnswer": "C",
+        "explanation": "",
         "category": "Đấu thầu qua mạng"
     }
 ];

@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set21: Question[] = [
@@ -62,8 +63,8 @@ export const set21: Question[] = [
             "C": "Không công nhận kết quả lựa chọn nhà thầu",
             "D": "Đình chỉ cuộc thầu"
         },
-        "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 18, khoản 1, điểm b của Luật Đấu thầu. Khi nhà thầu trúng thầu vi phạm các trách nhiệm của mình sau khi có kết quả (như từ chối ký hợp đồng, không đáp ứng năng lực tại thời điểm ký kết), người có thẩm quyền/chủ đầu tư sẽ áp dụng biện pháp 'Không công nhận kết quả lựa chọn nhà thầu'. Biện pháp này sẽ hủy bỏ kết quả đã công bố và cho phép xem xét lựa chọn nhà thầu xếp hạng tiếp theo. Đồng thời, nhà thầu vi phạm sẽ không được hoàn trả bảo đảm dự thầu.",
+        "correctAnswer": "A",
+        "explanation": "",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
