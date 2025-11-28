@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useCallback } from 'react';
 import { Question, UserAnswers } from '../types';
 import { CheckIcon, XIcon, TrophyIcon, ClockIcon, ChevronLeftIcon, ChevronRightIcon } from './icons';
@@ -9,9 +10,10 @@ interface ResultsProps {
     setTitle: string;
     isPracticeMode: boolean;
     completionTime: number;
+    restartLabel?: string;
 }
 
-const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, setTitle, isPracticeMode, completionTime }) => {
+const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, setTitle, isPracticeMode, completionTime, restartLabel }) => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
     const isSetMode = setTitle.includes('bộ đề');
@@ -121,7 +123,7 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, se
                     onClick={onRestart}
                     className="mt-4 bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-8 rounded-lg transition-colors shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
                 >
-                    Về màn hình chính
+                    {restartLabel || "Về màn hình chính"}
                 </button>
             </div>
 

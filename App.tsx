@@ -1,3 +1,4 @@
+
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import ModeSelector from './components/ModeSelector';
 import SetSelector from './components/SetSelector';
@@ -97,6 +98,13 @@ function App() {
         setCompletionTime(null);
     };
 
+    const handleBackToSetSelector = () => {
+        setView('set-select');
+        setSubmittedAnswers(null);
+        setCompletionTime(null);
+        setCurrentSetIndex(null);
+    };
+
     const quizTotalTime = useMemo(() => {
         if (currentSetIndex === -1) { // Random quiz
             return 60 * 60; // 60 minutes
@@ -122,22 +130,25 @@ function App() {
                     />
                 );
             case 'quiz':
+                const isSetQuiz = currentSetIndex !== null && currentSetIndex !== -1;
                 return (
                     <Quiz
                         questions={currentQuestions}
                         onSubmit={handleSubmitQuiz}
-                        onBack={handleGoBackToMainMenu}
+                        onBack={isSetQuiz ? handleBackToSetSelector : handleGoBackToMainMenu}
                         setTitle={quizTitle}
                         isPracticeMode={isPracticeMode}
                         totalTime={quizTotalTime}
                     />
                 );
             case 'results':
+                const isSetResults = currentSetIndex !== null && currentSetIndex !== -1;
                 return (
                     <Results
                         questions={currentQuestions}
                         userAnswers={submittedAnswers!}
-                        onRestart={handleGoBackToMainMenu}
+                        onRestart={isSetResults ? handleBackToSetSelector : handleGoBackToMainMenu}
+                        restartLabel={isSetResults ? "Quay về chọn bộ đề" : "Về màn hình chính"}
                         setTitle={quizTitle}
                         isPracticeMode={isPracticeMode}
                         completionTime={completionTime!}
