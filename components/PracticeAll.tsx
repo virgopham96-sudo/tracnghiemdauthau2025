@@ -8,7 +8,7 @@ interface PracticeAllProps {
     onBack: () => void;
 }
 
-const CATEGORY_MAPPING: Record<string, number[]> = {
+const BASE_CATEGORY_MAPPING: Record<string, number[]> = {
     "1. Phạm vi, Đối tượng áp dụng & Khái niệm cơ bản": [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 337],
     "2. Hình thức lựa chọn nhà thầu": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 142, 297],
     "3. Kế hoạch lựa chọn nhà thầu (KHLCNT)": [41, 42, 43, 45, 46, 151, 154],
@@ -34,11 +34,26 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     const [isGridVisible, setIsGridVisible] = useState(false);
     const [selectedCategory, setSelectedCategory] = useState<string>('all');
 
-    const categories = Object.keys(CATEGORY_MAPPING);
+    const fullCategoryMapping = useMemo(() => {
+        const assignedIds = new Set<number>();
+        Object.values(BASE_CATEGORY_MAPPING).forEach(ids => ids.forEach(id => assignedIds.add(id)));
+        
+        const unassignedIds = questions
+            .map(q => q.id)
+            .filter(id => !assignedIds.has(id))
+            .sort((a, b) => a - b);
+
+        return {
+            ...BASE_CATEGORY_MAPPING,
+            "16. Chủ đề tổng hợp": unassignedIds
+        };
+    }, [questions]);
+
+    const categories = Object.keys(fullCategoryMapping);
 
     const filteredQuestions = useMemo(() => {
         if (selectedCategory !== 'all') {
-            const allowedIds = CATEGORY_MAPPING[selectedCategory];
+            const allowedIds = fullCategoryMapping[selectedCategory];
             if (allowedIds) {
                 // Filter questions that are in the ID list
                 return questions.filter(q => allowedIds.includes(q.id));
@@ -46,7 +61,7 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
             return [];
         }
         return questions;
-    }, [questions, selectedCategory]);
+    }, [questions, selectedCategory, fullCategoryMapping]);
 
     useEffect(() => {
         setCurrentQuestionIndex(0);
@@ -201,7 +216,7 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                      >
                         <option value="all">Tất cả ({questions.length} câu)</option>
                         {categories.map(cat => {
-                            const count = CATEGORY_MAPPING[cat].length;
+                            const count = fullCategoryMapping[cat].length;
                             return (
                                 <option key={cat} value={cat}>
                                     {cat} ({count} câu)
