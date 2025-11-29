@@ -31,23 +31,22 @@ interface SearchProps {
 
 const Search: React.FC<SearchProps> = ({ questions, onBack }) => {
     const [searchTerm, setSearchTerm] = useState('');
-    const [searchResults, setSearchResults] = useState<Question[]>([]);
-    const [hasSearched, setHasSearched] = useState(false);
+    const [searchResults, setSearchResults] = useState<Question[]>(questions);
 
     const handleSearch = (e: React.FormEvent) => {
         e.preventDefault();
-        setHasSearched(true);
 
-        if (!searchTerm.trim()) {
-            setSearchResults([]);
+        const trimmedTerm = searchTerm.trim().toLowerCase();
+
+        if (!trimmedTerm) {
+            setSearchResults(questions);
             return;
         }
 
-        const lowercasedTerm = searchTerm.toLowerCase();
         const results = questions.filter(q =>
-            q.question.toLowerCase().includes(lowercasedTerm) ||
-            Object.values(q.options).some(opt => (opt as string).toLowerCase().includes(lowercasedTerm)) ||
-            q.explanation.toLowerCase().includes(lowercasedTerm)
+            q.question.toLowerCase().includes(trimmedTerm) ||
+            Object.values(q.options).some(opt => (opt as string).toLowerCase().includes(trimmedTerm)) ||
+            q.explanation.toLowerCase().includes(trimmedTerm)
         );
         setSearchResults(results);
     };
@@ -85,21 +84,16 @@ const Search: React.FC<SearchProps> = ({ questions, onBack }) => {
             </form>
 
             <div className="space-y-6">
-                {!hasSearched && (
-                    <div className="text-center p-8 bg-white rounded-xl shadow-lg border border-slate-200">
-                        <p className="text-lg text-slate-600">Nhập từ khoá để bắt đầu tìm kiếm trong 340 câu hỏi.</p>
-                    </div>
-                )}
-                {hasSearched && searchResults.length === 0 && (
+                {searchResults.length === 0 ? (
                      <div className="text-center p-8 bg-white rounded-xl shadow-lg border border-slate-200">
                         <p className="text-lg text-slate-600">Không tìm thấy câu hỏi nào phù hợp với từ khoá của bạn.</p>
                     </div>
-                )}
-                {hasSearched && searchResults.length > 0 && (
+                ) : (
                     <div className="text-center mb-4 text-slate-600 font-semibold">
-                        Tìm thấy {searchResults.length} câu hỏi phù hợp.
+                        {searchTerm.trim() ? `Tìm thấy ${searchResults.length} câu hỏi phù hợp.` : `Hiển thị toàn bộ ${searchResults.length} câu hỏi.`}
                     </div>
                 )}
+                
                 {searchResults.map((q) => (
                     <div key={q.id} className="bg-white rounded-xl p-4 sm:p-6 shadow-xl border border-slate-200 animate-fade-in">
                         <p className="text-lg font-semibold mb-4 text-slate-800">

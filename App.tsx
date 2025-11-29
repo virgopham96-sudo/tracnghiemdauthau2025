@@ -8,6 +8,7 @@ import Results from './components/Results';
 import PracticeAll from './components/PracticeAll';
 import History from './components/History';
 import Search from './components/Search';
+import Theory from './components/Theory';
 import Guide from './components/Guide';
 import { QuestionMarkIcon } from './components/icons';
 import { allSetsData } from './data/sets';
@@ -23,7 +24,7 @@ const shuffleArray = (array: Question[]): Question[] => {
     return newArray;
 };
 
-type View = 'mode-select' | 'set-select' | 'random-setup' | 'quiz' | 'results' | 'practice-all' | 'history' | 'search';
+type View = 'mode-select' | 'set-select' | 'random-setup' | 'quiz' | 'results' | 'practice-all' | 'history' | 'search' | 'theory';
 
 function App() {
     const [view, setView] = useState<View>('mode-select');
@@ -72,6 +73,10 @@ function App() {
     const handleSelectSearch = () => {
         setView('search');
     };
+
+    const handleSelectTheory = () => {
+        setView('theory');
+    }
 
     const handleSelectTestBySet = () => {
         setIsPracticeMode(false);
@@ -148,6 +153,8 @@ function App() {
 
     const renderContent = () => {
         switch (view) {
+            case 'theory':
+                return <Theory onBack={handleGoBackToMainMenu} />;
             case 'search':
                 return <Search questions={allQuestions} onBack={handleGoBackToMainMenu} />;
             case 'history':
@@ -232,6 +239,7 @@ function App() {
                         onSelectTestRandom={handleSelectTestRandom}
                         onSelectSupport={handleSelectSupport}
                         onSelectSearch={handleSelectSearch}
+                        onSelectTheory={handleSelectTheory}
                     />
                 );
         }
