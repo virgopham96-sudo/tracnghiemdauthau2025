@@ -1,3 +1,4 @@
+
 export interface Question {
   id: number;
   question: string;
@@ -13,3 +14,12 @@ export interface Question {
 }
 
 export type UserAnswers = Record<number, 'A' | 'B' | 'C' | 'D'>;
+
+export interface QuizResult {
+  id: string;
+  date: string;
+  mode: string;
+  score: number;
+  totalQuestions: number;
+  timeTaken: number;
+}

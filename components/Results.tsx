@@ -1,19 +1,20 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { Question, UserAnswers } from '../types';
-import { CheckIcon, XIcon, TrophyIcon, ClockIcon, ChevronLeftIcon, ChevronRightIcon } from './icons';
+import { CheckIcon, XIcon, TrophyIcon, ClockIcon, ChevronLeftIcon, ChevronRightIcon, RefreshIcon } from './icons';
 
 interface ResultsProps {
     questions: Question[];
     userAnswers: UserAnswers;
     onRestart: () => void;
+    onRetry?: () => void; // New prop for retrying the same set
     setTitle: string;
     isPracticeMode: boolean;
     completionTime: number;
     restartLabel?: string;
 }
 
-const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, setTitle, isPracticeMode, completionTime, restartLabel }) => {
+const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, onRetry, setTitle, isPracticeMode, completionTime, restartLabel }) => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
     const isSetMode = setTitle.includes('bộ đề');
@@ -119,12 +120,24 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, se
                     </div>
                 </div>
 
-                 <button
-                    onClick={onRestart}
-                    className="mt-4 bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-8 rounded-lg transition-colors shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
-                >
-                    {restartLabel || "Về màn hình chính"}
-                </button>
+                <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
+                     <button
+                        onClick={onRestart}
+                        className="bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold py-3 px-8 rounded-lg transition-colors border border-slate-300"
+                    >
+                        {restartLabel || "Về màn hình chính"}
+                    </button>
+                    
+                    {onRetry && (
+                        <button
+                            onClick={onRetry}
+                            className="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-8 rounded-lg transition-colors shadow-md hover:shadow-lg flex items-center justify-center gap-2"
+                        >
+                            <RefreshIcon className="h-5 w-5" />
+                            Làm lại đề này
+                        </button>
+                    )}
+                </div>
             </div>
 
             {/* Question Navigation Grid */}

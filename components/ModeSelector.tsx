@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { BookOpenIcon, ClipboardListIcon, ShuffleIcon, HeartIcon, SearchIcon, InformationCircleIcon } from './icons';
+import { BookOpenIcon, ClipboardListIcon, ShuffleIcon, HeartIcon, SearchIcon } from './icons';
 
 interface ModeSelectorProps {
     onSelectPracticeAll: () => void;
@@ -57,7 +58,7 @@ const ModeSelector: React.FC<ModeSelectorProps> = ({
                     <div>
                         <span className="text-xl font-bold text-slate-800 group-hover:text-cyan-700">Thi ngẫu nhiên</span>
                         <span className="block text-sm font-normal mt-1 text-slate-600">
-                            Làm bài thi ngẫu nhiên 70 câu. Tính giờ 60 phút.
+                            Làm bài thi ngẫu nhiên. Tính giờ theo số lượng câu hỏi.
                         </span>
                     </div>
                 </button>

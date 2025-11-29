@@ -2,6 +2,7 @@
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import ModeSelector from './components/ModeSelector';
 import SetSelector from './components/SetSelector';
+import RandomQuizSetup from './components/RandomQuizSetup';
 import Quiz from './components/Quiz';
 import Results from './components/Results';
 import PracticeAll from './components/PracticeAll';
@@ -22,14 +23,19 @@ const shuffleArray = (array: Question[]): Question[] => {
     return newArray;
 };
 
-type View = 'mode-select' | 'set-select' | 'quiz' | 'results' | 'practice-all' | 'history' | 'search';
+type View = 'mode-select' | 'set-select' | 'random-setup' | 'quiz' | 'results' | 'practice-all' | 'history' | 'search';
 
 function App() {
     const [view, setView] = useState<View>('mode-select');
+    
+    // Quiz State
     const [currentSetIndex, setCurrentSetIndex] = useState<number | null>(null);
+    const [randomQuestions, setRandomQuestions] = useState<Question[]>([]); // Store random questions for retry
     const [submittedAnswers, setSubmittedAnswers] = useState<UserAnswers | null>(null);
     const [isPracticeMode, setIsPracticeMode] = useState<boolean>(false);
     const [completionTime, setCompletionTime] = useState<number | null>(null);
+    
+    // UI State
     const [isGuideVisible, setIsGuideVisible] = useState(false);
 
     const totalSets = allSetsData.length;
@@ -46,12 +52,11 @@ function App() {
         if (currentSetIndex === null) return [];
         
         if (currentSetIndex === -1) { // Random quiz mode
-            const shuffled = shuffleArray(allQuestions);
-            return shuffled.slice(0, 70);
+            return randomQuestions; // Use the stored random questions
         }
 
         return allSetsData[currentSetIndex] || [];
-    }, [currentSetIndex, allQuestions]);
+    }, [currentSetIndex, randomQuestions]);
 
     const handleSubmitQuiz = useCallback((answers: UserAnswers, timeTaken: number) => {
         setSubmittedAnswers(answers);
@@ -75,15 +80,30 @@ function App() {
 
     const handleSelectTestRandom = () => {
         setIsPracticeMode(false);
-        setCurrentSetIndex(-1); // Random mode
+        setCurrentSetIndex(-1); 
+        // Go to setup screen first
+        setView('random-setup');
+    };
+    
+    const handleStartRandomQuiz = (count: number) => {
+        const shuffled = shuffleArray(allQuestions);
+        const selected = shuffled.slice(0, count);
+        setRandomQuestions(selected);
         setSubmittedAnswers(null);
+        setView('quiz');
+    };
+
+    const handleRetryRandomQuiz = () => {
+        // Reuse the existing randomQuestions
+        setSubmittedAnswers(null);
+        setCompletionTime(null);
         setView('quiz');
     };
     
     const handleSelectSupport = () => {
         setView('history');
     };
-
+    
     const handleSelectSet = (setIndex: number) => {
         setCurrentSetIndex(setIndex);
         setSubmittedAnswers(null);
@@ -104,16 +124,26 @@ function App() {
         setCompletionTime(null);
         setCurrentSetIndex(null);
     };
+    
+    const handleBackToRandomSetup = () => {
+        setView('random-setup');
+        setSubmittedAnswers(null);
+        setCompletionTime(null);
+    }
 
     const quizTotalTime = useMemo(() => {
         if (currentSetIndex === -1) { // Random quiz
-            return 60 * 60; // 60 minutes
+            // Calculate time based on question count: approx 45-50s per question
+            const count = currentQuestions.length;
+            if (count <= 10) return 10 * 60;
+            if (count <= 20) return 20 * 60;
+            return Math.min(count * 60, 90 * 60); // Cap at 90 mins
         }
         if (currentSetIndex !== null) { // Set quiz
             return 15 * 60; // 15 minutes
         }
         return 0;
-    }, [currentSetIndex]);
+    }, [currentSetIndex, currentQuestions.length]);
 
 
     const renderContent = () => {
@@ -129,13 +159,27 @@ function App() {
                         onBack={handleGoBackToMainMenu}
                     />
                 );
+            case 'random-setup':
+                return (
+                    <RandomQuizSetup 
+                        totalQuestions={allQuestions.length}
+                        onStart={handleStartRandomQuiz}
+                        onBack={handleGoBackToMainMenu}
+                    />
+                );
             case 'quiz':
                 const isSetQuiz = currentSetIndex !== null && currentSetIndex !== -1;
+                const isRandomQuiz = currentSetIndex === -1;
+                
+                let onBackHandler = handleGoBackToMainMenu;
+                if (isSetQuiz) onBackHandler = handleBackToSetSelector;
+                if (isRandomQuiz) onBackHandler = handleBackToRandomSetup;
+
                 return (
                     <Quiz
                         questions={currentQuestions}
                         onSubmit={handleSubmitQuiz}
-                        onBack={isSetQuiz ? handleBackToSetSelector : handleGoBackToMainMenu}
+                        onBack={onBackHandler}
                         setTitle={quizTitle}
                         isPracticeMode={isPracticeMode}
                         totalTime={quizTotalTime}
@@ -143,12 +187,29 @@ function App() {
                 );
             case 'results':
                 const isSetResults = currentSetIndex !== null && currentSetIndex !== -1;
+                const isRandomResults = currentSetIndex === -1;
+
+                let onRestartHandler = handleGoBackToMainMenu;
+                let restartLabel = "Về màn hình chính";
+                let onRetryHandler = undefined;
+
+                if (isSetResults) {
+                    onRestartHandler = handleBackToSetSelector;
+                    restartLabel = "Quay về chọn bộ đề";
+                }
+                if (isRandomResults) {
+                    onRestartHandler = handleBackToRandomSetup;
+                    restartLabel = "Quay về chọn số lượng";
+                    onRetryHandler = handleRetryRandomQuiz;
+                }
+
                 return (
                     <Results
                         questions={currentQuestions}
                         userAnswers={submittedAnswers!}
-                        onRestart={isSetResults ? handleBackToSetSelector : handleGoBackToMainMenu}
-                        restartLabel={isSetResults ? "Quay về chọn bộ đề" : "Về màn hình chính"}
+                        onRestart={onRestartHandler}
+                        onRetry={onRetryHandler}
+                        restartLabel={restartLabel}
                         setTitle={quizTitle}
                         isPracticeMode={isPracticeMode}
                         completionTime={completionTime!}
@@ -179,8 +240,8 @@ function App() {
     return (
         <div className="min-h-screen font-sans flex flex-col">
             <header className="bg-white/95 backdrop-blur-sm shadow-md sticky top-0 z-10 border-b border-slate-200">
-                <div className="container mx-auto px-4 py-4">
-                    <h1 className="text-2xl md:text-3xl font-bold text-center text-slate-900 tracking-tight">ÔN THI CHỨNG CHỈ ĐẤU THẦU 2025</h1>
+                <div className="container mx-auto px-4 py-4 flex justify-between items-center relative">
+                    <h1 className="text-xl md:text-3xl font-bold text-center text-slate-900 tracking-tight flex-1">ÔN THI CHỨNG CHỈ ĐẤU THẦU 2025</h1>
                 </div>
             </header>
             <main className="mx-auto px-4 py-4 sm:py-6 md:py-8 flex-grow w-full">
