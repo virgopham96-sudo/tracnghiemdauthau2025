@@ -177,6 +177,7 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, on
                         </div>
                         <div className="mt-4 p-4 bg-cyan-50/70 rounded-lg border border-cyan-200">
                            <p className="font-bold text-cyan-700">Lý giải:</p>
+                           <p className="text-slate-800 font-bold mb-1">Câu {currentQuestion.id}-{currentQuestion.correctAnswer}</p>
                            <p className="text-slate-800">{currentQuestion.explanation}</p>
                         </div>
                     </div>

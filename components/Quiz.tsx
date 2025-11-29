@@ -1,3 +1,4 @@
+
 import React, { useState, useMemo, useEffect, useRef, useCallback } from 'react';
 import { Question, UserAnswers } from '../types';
 import { ArrowUpIcon, ChevronLeftIcon, ChevronRightIcon } from './icons';
@@ -296,6 +297,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
                                 {showHint && (
                                     <div className="mt-4 p-4 bg-slate-50 rounded-lg border border-cyan-200 animate-fade-in">
                                        <p className="font-bold text-cyan-700">Gợi ý:</p>
+                                       <p className="text-slate-800 font-bold mb-1">Câu {currentQuestion.id}-{currentQuestion.correctAnswer}</p>
                                        <p className="text-slate-700">{currentQuestion.explanation}</p>
                                     </div>
                                 )}
