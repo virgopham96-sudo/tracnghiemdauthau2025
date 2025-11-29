@@ -1,19 +1,9 @@
-
-import React from 'react';
-import { ArrowUpIcon } from './icons';
+import React, { useState } from 'react';
+import { ArrowUpIcon, ChevronRightIcon } from './icons';
 
 interface TheoryProps {
     onBack: () => void;
 }
-
-const TopicSection = ({ title, children }: { title: string, children: React.ReactNode }) => (
-    <div className="mb-8 p-6 bg-white rounded-xl shadow-md border border-slate-200">
-        <h3 className="text-xl font-bold text-cyan-700 mb-4 uppercase">{title}</h3>
-        <div className="text-slate-700 space-y-3 leading-relaxed">
-            {children}
-        </div>
-    </div>
-);
 
 const HighlightBox = ({ title, children }: { title?: string, children: React.ReactNode }) => (
     <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-3 rounded-r-lg">
@@ -21,6 +11,31 @@ const HighlightBox = ({ title, children }: { title?: string, children: React.Rea
         <div className="text-slate-800 italic text-sm">{children}</div>
     </div>
 );
+
+const TopicSection = ({ title, children }: { title: string, children: React.ReactNode }) => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    return (
+        <div className="mb-4 bg-white rounded-xl shadow-md border border-slate-200 overflow-hidden hover:shadow-lg transition-all duration-300">
+            <button
+                onClick={() => setIsOpen(!isOpen)}
+                className="w-full flex items-center justify-between p-5 text-left bg-white hover:bg-slate-50 transition-colors focus:outline-none select-none group"
+            >
+                <h3 className="text-lg md:text-xl font-bold text-cyan-700 uppercase group-hover:text-cyan-800 flex-1 pr-4">{title}</h3>
+                <div className={`transform transition-transform duration-300 text-slate-400 group-hover:text-cyan-600 shrink-0 ${isOpen ? 'rotate-90' : ''}`}>
+                    <ChevronRightIcon />
+                </div>
+            </button>
+            <div 
+                className={`transition-all duration-500 ease-in-out overflow-hidden ${isOpen ? 'max-h-[5000px] opacity-100 border-t border-slate-100' : 'max-h-0 opacity-0'}`}
+            >
+                <div className="p-6 text-slate-700 space-y-3 leading-relaxed bg-slate-50/30">
+                    {children}
+                </div>
+            </div>
+        </div>
+    );
+};
 
 const Theory: React.FC<TheoryProps> = ({ onBack }) => {
     const handleScrollToTop = () => {
