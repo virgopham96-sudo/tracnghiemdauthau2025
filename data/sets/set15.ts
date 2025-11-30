@@ -12,7 +12,7 @@ export const set15: Question[] = [
             "D": "Không phải đăng tải thông tin"
         },
         "correctAnswer": "A",
-        "explanation": "Đơn vị có nhu cầu mua sắm là bên ký kết và trực tiếp quản lý việc thực hiện hợp đồng với nhà thầu. Do đó, họ là bên nắm rõ nhất kết quả thực hiện và có trách nhiệm báo cáo, cung cấp thông tin này.",
+        "explanation": "Đơn vị có nhu cầu mua sắm (đơn vị trực tiếp sử dụng và quản lý hợp đồng) là người nắm rõ nhất kết quả thực hiện, nên có trách nhiệm cung cấp thông tin này. Căn cứ: Khoản 4 Điều 20 Nghị định 214/2025/NĐ-CP.",
         "category": "Mua sắm đặc thù"
     },
     {
@@ -25,7 +25,7 @@ export const set15: Question[] = [
             "D": "Đấu thầu rộng rãi hoặc chỉ định thầu hoặc đàm phán giá"
         },
         "correctAnswer": "C",
-        "explanation": "Gói thầu này là hàng hóa thông dụng, sẵn có trên thị trường, có giá trị 03 tỷ đồng, nằm trong hạn mức áp dụng của chào hàng cạnh tranh. Đồng thời, chủ đầu tư luôn có thể chọn hình thức cạnh tranh hơn là đấu thầu rộng rãi.",
+        "explanation": "Gói thầu hàng hóa thông dụng, giá 3 tỷ (dưới 10 tỷ) nên có thể áp dụng Chào hàng cạnh tranh. Đồng thời, chủ đầu tư luôn có thể chọn hình thức cạnh tranh hơn là Đấu thầu rộng rãi (mặc định). Căn cứ: Điều 89 Nghị định 214/2025/NĐ-CP.",
         "category": "Mua sắm đặc thù"
     },
     {
@@ -38,7 +38,7 @@ export const set15: Question[] = [
             "D": "Đơn vị mua sắm tập trung thực hiện trách nhiệm của tổ chuyên gia theo quy định của Luật Đấu thầu"
         },
         "correctAnswer": "B",
-        "explanation": "Trong quy trình mua sắm tập trung, Đơn vị mua sắm tập trung đóng vai trò là 'chủ đầu tư' của gói thầu tổng hợp, chịu trách nhiệm tổ chức lựa chọn nhà thầu.",
+        "explanation": "Trong quy trình mua sắm tập trung, Đơn vị mua sắm tập trung đóng vai trò thực hiện trách nhiệm của Chủ đầu tư trong việc tổ chức lựa chọn nhà thầu. Căn cứ: Khoản 1 Điều 90 Nghị định 214/2025/NĐ-CP.",
         "category": "Mua sắm đặc thù"
     },
     {
@@ -51,7 +51,7 @@ export const set15: Question[] = [
             "D": "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 06 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng"
         },
         "correctAnswer": "B",
-        "explanation": "Đây là một hành vi vi phạm nghiêm trọng cam kết. Việc từ chối ký hợp đồng sau khi đã trúng thầu và ký thỏa thuận khung sẽ bị xử lý bằng các biện pháp mạnh như cấm thầu (thể hiện qua việc khóa tài khoản trên Hệ thống). Thời hạn 06 tháng là một mức phạt phổ biến.",
+        "explanation": "Việc từ chối ký hợp đồng sau khi đã trúng thầu và ký thỏa thuận khung sẽ bị xử lý bằng biện pháp khóa tài khoản trên Hệ thống trong thời hạn 06 tháng kể từ ngày đơn vị mua sắm tập trung công khai tên. Căn cứ: Điểm g Khoản 1 Điều 91 Nghị định 214/2025/NĐ-CP.",
         "category": "Mua sắm đặc thù"
     },
     {
@@ -64,7 +64,7 @@ export const set15: Question[] = [
             "D": "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đánh giá của gói thầu là thấp nhất"
         },
         "correctAnswer": "C",
-        "explanation": "Khi lựa chọn nhiều nhà thầu cho một gói thầu MSTT, mục tiêu kép là phải đảm bảo đủ tổng số lượng hàng hóa cần mua và tổng chi phí cho việc mua sắm đó phải là thấp nhất có thể.",
+        "explanation": "Nguyên tắc lựa chọn là phải chọn được tổ hợp các nhà thầu sao cho: Tổng số lượng hàng hóa cung cấp bằng số lượng mời thầu và Tổng giá đề nghị trúng thầu là thấp nhất. Căn cứ: Điểm a Khoản 3 Điều 91 Nghị định 214/2025/NĐ-CP.",
         "category": "Mua sắm đặc thù"
     },
     {
@@ -77,7 +77,7 @@ export const set15: Question[] = [
             "D": "Danh sách chính (nhà thầu xếp thứ nhất và nhà thầu xếp thứ 2) và danh sách dự bị (nhà thầu xếp thứ 3 trở đi)"
         },
         "correctAnswer": "A",
-        "explanation": "Việc phê duyệt danh sách trúng thầu thường bao gồm cả danh sách chính (các nhà thầu được lựa chọn để ký thỏa thuận khung/hợp đồng) và danh sách dự bị để trong trường hợp nhà thầu chính từ chối hoặc không thể thực hiện, chủ đầu tư có thể làm việc với nhà thầu dự bị mà không cần tổ chức đấu thầu lại.",
+        "explanation": "Bao gồm Danh sách chính (xếp hạng 1) và Danh sách dự bị (xếp hạng 2 trở đi) để phòng trường hợp nhà thầu chính không thực hiện được. Căn cứ: Điểm b Khoản 3 Điều 91 Nghị định 214/2025/NĐ-CP.",
         "category": "Mua sắm đặc thù"
     },
     {
@@ -90,7 +90,7 @@ export const set15: Question[] = [
             "D": "Các cơ quan, tổ chức, đơn vị báo cáo lên người có thẩm quyền để phê duyệt kế hoạch chọn nhà thầu theo hình thức mua sắm tập trung đối với các hàng hóa, dịch vụ này"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 53, khoản 5 của Luật Đấu thầu. Đây chính là quy định về việc tổng hợp nhu cầu mua sắm để tăng tính hiệu quả và tiết kiệm chi phí, ngay cả khi hàng hóa, dịch vụ đó không nằm trong danh mục MSTT bắt buộc.",
+        "explanation": "Có thể gộp thành một gói thầu để một đơn vị đại diện mua sắm hoặc giao cho đơn vị mua sắm tập trung thực hiện (cơ chế mua sắm tập trung tự nguyện/không bắt buộc). Căn cứ: Khoản 5 Điều 53 Luật Đấu thầu.",
         "category": "Mua sắm đặc thù"
     },
     {
@@ -103,7 +103,7 @@ export const set15: Question[] = [
             "D": "Phương án A và C đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 43, khoản 1 của Luật Đấu thầu. Quy trình chỉ định thầu thông thường bao gồm các bước: chuẩn bị, gửi dự thảo hợp đồng (hoặc hồ sơ yêu cầu), nhà thầu chuẩn bị hồ sơ đề xuất, đánh giá hồ sơ đề xuất và thương thảo, trình duyệt và ký kết hợp đồng. Do đó, đánh giá và thương thảo là một bước cốt lõi.",
+        "explanation": "Quy trình chỉ định thầu thông thường bao gồm bước: Đánh giá hồ sơ đề xuất và thương thảo về các đề xuất của nhà thầu. Căn cứ: Điểm c Khoản 3 Điều 79 Nghị định 214/2025/NĐ-CP.",
         "category": "Kế hoạch và Quy trình LCNT"
     },
     {
@@ -116,7 +116,7 @@ export const set15: Question[] = [
             "D": "Phương án A và C đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Khi một đơn vị (chủ đầu tư/bên mời thầu) không có đủ năng lực chuyên môn về đấu thầu, pháp luật cho phép họ thuê một đơn vị tư vấn đấu thầu chuyên nghiệp để thực hiện một phần hoặc toàn bộ các công việc trong quá trình lựa chọn nhà thầu.",
+        "explanation": "Đơn vị mua sắm tập trung được phép thuê đơn vị tư vấn đấu thầu có kinh nghiệm để thực hiện việc lựa chọn nhà thầu nếu không đủ năng lực. Căn cứ: Khoản 1 Điều 89 Nghị định 214/2025/NĐ-CP.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -129,7 +129,7 @@ export const set15: Question[] = [
             "D": "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn, chủ đầu tư báo cáo người có thẩm quyền để điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,25 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu"
         },
         "correctAnswer": "B",
-        "explanation": "Đối với các gói thầu quy mô rất lớn như mua sắm tập trung, để tăng tính cạnh tranh, quy định cho phép điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự. Hệ số điều chỉnh (ví dụ 1,25) được quy định cụ thể trong các văn bản hướng dẫn nhằm tạo điều kiện cho nhiều nhà thầu hơn tham gia.",
+        "explanation": "Đối với gói thầu MSTT có khối lượng lớn, để tăng tính cạnh tranh, chủ đầu tư có thể điều chỉnh giảm yêu cầu hợp đồng tương tự xuống còn Y/1,25 (với Y là mức thông thường 50% giá gói thầu). Hoặc chia nhỏ gói thầu. Căn cứ: Mẫu E-HSMT (Thông tư 79).",
         "category": "Mua sắm đặc thù"
     }
 ];

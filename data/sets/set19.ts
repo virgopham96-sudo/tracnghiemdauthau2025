@@ -11,8 +11,8 @@ export const set19: Question[] = [
             "C": "Thành lập khi chủ tịch UBND tỉnh yêu cầu",
             "D": "Thành lập khi Giám đốc doanh nghiệp A đề nghị"
         },
-        "correctAnswer": "A",
-        "explanation": "Đối với các dự án sử dụng vốn ngân sách nhà nước của địa phương, người có thẩm quyền thường là Chủ tịch UBND tỉnh. Giám đốc Sở Tài chính, với vai trò là cơ quan quản lý tài chính, thường được giao trách nhiệm thành lập Hội đồng giải quyết kiến nghị để xử lý các vấn đề phát sinh trong quá trình đấu thầu.",
+        "correctAnswer": "B",
+        "explanation": "Căn cứ pháp lý: Điểm b Khoản 1 Điều 139 Nghị định số 214/2025/NĐ-CP. Giám đốc Sở Tài chính thành lập Hội đồng giải quyết kiến nghị đối với gói thầu do UBND tỉnh là chủ đầu tư hoặc đơn vị thuộc phạm vi quản lý của tỉnh là chủ đầu tư. Tuy nhiên, đây là đơn vị sự nghiệp công lập tự chủ chi đầu tư và chi thường xuyên (nhóm 1) thì được tự quyết định mua sắm (theo khoản 7 Điều 3 Luật), trừ khi họ chọn áp dụng Luật. Nếu họ thuộc đối tượng tự quyết định theo Luật (như quy định tại Điểm d Khoản 7 Điều 3 Luật), thì việc giải quyết kiến nghị do người đứng đầu đơn vị tự ban hành quy trình (Khoản 7 Điều 138 Nghị định), không thuộc trách nhiệm của Sở Tài chính.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -25,7 +25,7 @@ export const set19: Question[] = [
             "D": "Không công nhận kết quả lựa chọn nhà thầu"
         },
         "correctAnswer": "C",
-        "explanation": "Để có cơ sở giải quyết kiến nghị một cách khách quan, toàn diện, Hội đồng có quyền yêu cầu các bên liên quan cung cấp đầy đủ thông tin, tài liệu. Hội đồng không có quyền hủy thầu (A) hay không công nhận kết quả (D), đây là thẩm quyền của người có thẩm quyền.",
+        "explanation": "Căn cứ pháp lý: Điểm c Khoản 3 Điều 139 Nghị định số 214/2025/NĐ-CP. Hội đồng có quyền yêu cầu các bên cung cấp thông tin, tài liệu. Hội đồng không có quyền hủy thầu (quyền của người có thẩm quyền) hay yêu cầu dừng ký hợp đồng trực tiếp (chỉ có quyền kiến nghị người có thẩm quyền xem xét tạm dừng).",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -38,7 +38,7 @@ export const set19: Question[] = [
             "D": "Phương án B và C đều đúng"
         },
         "correctAnswer": "B",
-        "explanation": "Chỉ nhà thầu có quyền và lợi ích trực tiếp liên quan đến gói thầu (đã mua hoặc nhận HSMT, đã nộp HSDT) mới có quyền kiến nghị về quá trình tổ chức lựa chọn nhà thầu đó.",
+        "explanation": "Căn cứ pháp lý: Điểm a Khoản 1 Điều 137 Nghị định số 214/2025/NĐ-CP. Đối với các nội dung về quá trình tổ chức lựa chọn nhà thầu (không phải nội dung hồ sơ mời thầu), đơn kiến nghị phải là của nhà thầu tham dự thầu.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -51,7 +51,7 @@ export const set19: Question[] = [
             "D": "Tất cả phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Để đảm bảo tính minh bạch, các thông tin chính trong quá trình giải quyết kiến nghị, bao gồm nội dung kiến nghị và các văn bản giải quyết của các cấp, đều phải được công khai trên Hệ thống mạng đấu thầu quốc gia.",
+        "explanation": "Căn cứ pháp lý: Điều 138 Nghị định số 214/2025/NĐ-CP. Quy trình giải quyết kiến nghị yêu cầu công khai: Nội dung kiến nghị; Văn bản giải quyết của Chủ đầu tư; Văn bản giải quyết của Người có thẩm quyền/Hội đồng trên Hệ thống mạng đấu thầu quốc gia.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -64,7 +64,7 @@ export const set19: Question[] = [
             "D": "05 ngày làm việc"
         },
         "correctAnswer": "B",
-        "explanation": "Đây là thời hạn tiêu chuẩn được quy định trong các văn bản hướng dẫn để nhà thầu hoàn thành nghĩa vụ tài chính một cách nhanh chóng, tạo điều kiện để Hội đồng có thể sớm bắt đầu quá trình xem xét kiến nghị. Thời hạn 02 ngày làm việc được xem là hợp lý.",
+        "explanation": "Căn cứ pháp lý: Điểm đ Khoản 2 Điều 137 Nghị định số 214/2025/NĐ-CP. Nhà thầu có trách nhiệm nộp chi phí giải quyết kiến nghị trong thời hạn 02 ngày làm việc kể từ ngày nhận được thông báo của bộ phận thường trực.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -77,7 +77,7 @@ export const set19: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Tương tự trường hợp của doanh nghiệp nhà nước (câu 178), đơn vị sự nghiệp công lập tự chủ khi sử dụng nguồn thu hợp pháp của mình có quyền ban hành quy chế đấu thầu và giải quyết kiến nghị riêng, miễn là tuân thủ các nguyên tắc cơ bản của Luật.",
+        "explanation": "Căn cứ pháp lý: Khoản 7 Điều 138 Nghị định số 214/2025/NĐ-CP. Trung tâm X là đơn vị sự nghiệp tự chủ chi thường xuyên, gói thầu dùng nguồn thu hợp pháp (không phải vốn ngân sách). Theo Điểm d Khoản 7 Điều 3 Luật Đấu thầu, trường hợp này được tự quyết định việc mua sắm. Do đó, quy trình giải quyết kiến nghị thực hiện theo quy định do người đứng đầu đơn vị tự ban hành.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -90,7 +90,7 @@ export const set19: Question[] = [
             "D": "Được tham gia khi người có thẩm quyền chấp thuận"
         },
         "correctAnswer": "A",
-        "explanation": "Đây là trường hợp xung đột lợi ích rõ ràng. Anh C có quan hệ gia đình trực tiếp (cha-con) với người đại diện của bên kiến nghị. Việc tham gia của anh C sẽ không đảm bảo được tính khách quan, vô tư khi xem xét vụ việc.",
+        "explanation": "Căn cứ pháp lý: Điểm a Khoản 2 Điều 139 Nghị định số 214/2025/NĐ-CP. Thành viên Hội đồng giải quyết kiến nghị không được là người có quan hệ gia đình (con đẻ) với người ký đơn kiến nghị.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -103,7 +103,7 @@ export const set19: Question[] = [
             "D": "Tổ chuyên gia"
         },
         "correctAnswer": "C",
-        "explanation": "Khi kiến nghị lên cấp Hội đồng, nhà thầu phải nộp một khoản chi phí. Khoản chi phí này được nộp cho bộ phận thường trực (thường là một đơn vị thuộc cơ quan quản lý nhà nước về đấu thầu) để chi trả cho các hoạt động của Hội đồng. Bộ phận này có trách nhiệm tiếp nhận và quản lý khoản chi phí đó.",
+        "explanation": "Căn cứ pháp lý: Điểm c Khoản 2 Điều 139 Nghị định số 214/2025/NĐ-CP. Bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị có nhiệm vụ tiếp nhận và quản lý chi phí do nhà thầu có kiến nghị nộp.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -115,8 +115,8 @@ export const set19: Question[] = [
             "C": "Nhà thầu X phải nộp 20 triệu đồng",
             "D": "Nhà thầu X phải nộp 15 triệu đồng"
         },
-        "correctAnswer": "A",
-        "explanation": "Chi phí giải quyết kiến nghị được tính bằng 0,02% giá dự thầu của nhà thầu kiến nghị nhưng tối thiểu là 1 triệu đồng và tối đa là 50 triệu đồng. Trong trường hợp này: 0,02% x 90 tỷ đồng = 18 triệu đồng. Tuy nhiên, có thể có quy định về mức phí tối thiểu cao hơn cho các gói thầu giá trị lớn. 25 triệu đồng là một mức phí hợp lý có thể được quy định trong các văn bản hướng dẫn.",
+        "correctAnswer": "B",
+        "explanation": "Căn cứ pháp lý: Khoản 8 Điều 14 Nghị định số 214/2025/NĐ-CP. Chi phí tính theo tỷ lệ % giá dự thầu (90 tỷ). Mức: Giá dự thầu từ 50 tỷ đến dưới 100 tỷ -> Tỷ lệ 0,025%. Tính toán: 90.000.000.000 x 0,025% = 22.500.000 đồng.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -129,7 +129,7 @@ export const set19: Question[] = [
             "D": "Không bị hiệu chỉnh sai lệch, phần sai khác không bị tính là sai lệch thiếu"
         },
         "correctAnswer": "D",
-        "explanation": "Khi hồ sơ mời thầu cho phép đề xuất biện pháp thi công khác, điều đó có nghĩa là bên mời thầu chấp nhận sự linh hoạt. Phần sai khác về khối lượng do biện pháp thi công khác gây ra sẽ không bị coi là sai lệch thừa hay thiếu để hiệu chỉnh. Thay vào đó, nó sẽ được xem xét như một phần của đề xuất kỹ thuật và tài chính tổng thể của nhà thầu.",
+        "explanation": "Căn cứ pháp lý: Khoản 13 Điều 140 Nghị định số 214/2025/NĐ-CP. Khi hồ sơ mời thầu cho phép đề xuất biện pháp thi công khác, phần sai khác về khối lượng do thay đổi biện pháp thi công sẽ không bị hiệu chỉnh sai lệch và không bị tính là sai lệch thiếu.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     }
 ];

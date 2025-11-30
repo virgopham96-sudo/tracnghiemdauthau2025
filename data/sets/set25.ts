@@ -12,7 +12,7 @@ export const set25: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 14, khoản 6 của Luật Đấu thầu. Chủ đầu tư cần yêu cầu gia hạn hiệu lực HSDT trong hai trường hợp chính: Khi thời gian đánh giá kéo dài và HSDT sắp hết hiệu lực mà vẫn chưa có kết quả (A). Khi mời nhà thầu xếp hạng tiếp theo vào thương thảo nhưng HSDT của họ đã hết hiệu lực (B). Cả hai trường hợp đều cần gia hạn để đảm bảo HSDT vẫn còn giá trị pháp lý cho các bước tiếp theo.",
+        "explanation": "Căn cứ pháp lý: Khoản 19 Điều 140 Nghị định số 214/2025/NĐ-CP. Chủ đầu tư yêu cầu gia hạn hiệu lực HSDT trong 2 trường hợp chính: (A) Trước khi hết hạn để có thêm thời gian đánh giá; và (B) Khi mời nhà thầu xếp hạng tiếp theo vào hoàn thiện hợp đồng (nếu HSDT của họ đã hết hạn). Cả A và B đều đúng.",
         "category": "Kế hoạch và Quy trình LCNT"
     },
     {
@@ -25,7 +25,7 @@ export const set25: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Hồ sơ dự thầu phải được nộp một cách công khai cho bên mời thầu. Việc đặt mật khẩu cho một tệp tin là hành vi che giấu thông tin, không cho phép bên mời thầu tiếp cận để đánh giá. Hành vi này làm cho tệp tin đó không hợp lệ và sẽ không được xem xét.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 5 Thông tư số 79/2025/TT-BTC. Tệp tin có thiết lập mật khẩu sẽ không thể mở được bởi Hệ thống/Tổ chuyên gia, do đó không được xem xét, đánh giá.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -38,7 +38,7 @@ export const set25: Question[] = [
             "D": "Tất cả phương án trên đều sai"
         },
         "correctAnswer": "A",
-        "explanation": "Để đảm bảo tính công khai, minh bạch và có sự giám sát của các bên liên quan cũng như của cơ quan quản lý, các phiên chào giá trực tuyến, kể cả quy trình rút gọn, đều phải được diễn ra trong giờ hành chính.",
+        "explanation": "Căn cứ pháp lý: Khoản 4 Điều 100 Nghị định số 214/2025/NĐ-CP (và hướng dẫn tại Thông tư 79). Quy định yêu cầu thời điểm bắt đầu và kết thúc chào giá trực tuyến đều phải nằm trong giờ hành chính.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -51,7 +51,7 @@ export const set25: Question[] = [
             "D": "05 ngày làm việc"
         },
         "correctAnswer": "B",
-        "explanation": "Đây là thời hạn tiêu chuẩn được quy định trong các văn bản hướng dẫn về chào giá trực tuyến để nhà thầu xác nhận nhanh chóng, làm cơ sở để chủ đầu tư hoàn thiện các thủ tục tiếp theo.",
+        "explanation": "Căn cứ pháp lý: Điểm h Khoản 1 Điều 20 Nghị định số 214/2025/NĐ-CP. Nhà thầu phải xác nhận chấp thuận trao hợp đồng trong thời hạn tối đa 03 ngày làm việc kể từ ngày nhận được yêu cầu.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -64,7 +64,7 @@ export const set25: Question[] = [
             "D": "Bị đánh giá về uy tín trong việc tham dự thầu"
         },
         "correctAnswer": "B",
-        "explanation": "Hành vi từ chối xác nhận sau khi đã tham gia và được xác định trúng thầu là một vi phạm. Hình thức xử lý là tạm thời khóa tài khoản tham gia của nhà thầu trên Hệ thống. Thời hạn 03 tháng là một mức phạt hợp lý, được áp dụng sau khi có đề nghị chính thức từ chủ đầu tư và được cơ quan quản lý (Bộ Tài chính) chấp thuận.",
+        "explanation": "Căn cứ pháp lý: Điểm h Khoản 1 Điều 20 Nghị định số 214/2025/NĐ-CP. Chế tài cho việc không xác nhận trao hợp đồng (chào giá rút gọn) là khóa chức năng chào giá trực tuyến 06 tháng. Phương án B nói \"Khóa tài khoản 3 tháng\" là không đúng (đây là đáp án cần chọn vì câu hỏi tìm phương án SAI).",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -77,7 +77,7 @@ export const set25: Question[] = [
             "D": "Hỗn hợp"
         },
         "correctAnswer": "A",
-        "explanation": "Chào giá trực tuyến (cả quy trình thông thường và rút gọn) là một hình thức của chào hàng cạnh tranh, thường áp dụng cho các gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn thông dụng, đơn giản, có tiêu chuẩn kỹ thuật rõ ràng.",
+        "explanation": "Căn cứ pháp lý: Khoản 2 Điều 99 Nghị định số 214/2025/NĐ-CP. Chào giá trực tuyến quy trình thông thường áp dụng cho: Gói thầu dịch vụ phi tư vấn thông dụng, đơn giản; và Gói thầu mua sắm hàng hóa thông dụng.",
         "category": "Hình thức và Phương thức LCNT"
     },
     {
@@ -90,7 +90,7 @@ export const set25: Question[] = [
             "D": "Các phương án trên đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Chức năng 'xác nhận chấp thuận được trao hợp đồng' là một bước đặc thù của quy trình chào giá trực tuyến rút gọn, nơi việc lựa chọn diễn ra rất nhanh và cần sự xác nhận ngay lập tức từ nhà thầu để hoàn tất giao dịch.",
+        "explanation": "Căn cứ pháp lý: Điểm c Khoản 5 Điều 102 Nghị định số 214/2025/NĐ-CP. Bước \"Xác nhận về việc chấp thuận được trao hợp đồng\" trên Hệ thống là đặc thù chỉ có trong quy trình Chào giá trực tuyến rút gọn.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -103,7 +103,7 @@ export const set25: Question[] = [
             "D": "95%"
         },
         "correctAnswer": "C",
-        "explanation": "Đây là một quy tắc của hệ thống chào giá trực tuyến để tránh việc các nhà thầu 'phá giá' quá sâu một cách đột ngột, gây ra các mức giá phi thực tế. Nhà thầu chỉ được phép chào giá thấp hơn một tỷ lệ nhất định (ví dụ 10%) so với giá thấp nhất hiện tại. Điều này có nghĩa là giá mới không được thấp hơn 90% giá cũ.",
+        "explanation": "Căn cứ pháp lý: Khoản 3 Điều 102 Nghị định số 214/2025/NĐ-CP. Trong chào giá rút gọn, từ lượt chào thứ 2, giá chào không được thấp hơn 90% giá thấp nhất đang hiển thị (để tránh bán phá giá quá sâu ngay lập tức/thông thầu).",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -116,7 +116,7 @@ export const set25: Question[] = [
             "D": "Không yêu cầu về bảo đảm dự thầu"
         },
         "correctAnswer": "D",
-        "explanation": "Chào giá trực tuyến rút gọn là hình thức lựa chọn nhà thầu rất đơn giản, nhanh chóng, áp dụng cho các gói thầu có giá trị rất nhỏ. Để đơn giản hóa tối đa thủ tục và khuyến khích nhà thầu tham gia, hình thức này không yêu cầu nhà thầu phải thực hiện biện pháp bảo đảm dự thầu.",
+        "explanation": "Căn cứ pháp lý: Điểm c Khoản 1 Điều 102 Nghị định số 214/2025/NĐ-CP. Đối với chào giá trực tuyến rút gọn, thông báo mời thầu không nêu yêu cầu về bảo đảm dự thầu. Chào giá trực tuyến rút gọn là hình thức lựa chọn nhà thầu rất đơn giản, nhanh chóng, áp dụng cho các gói thầu có giá trị rất nhỏ. Để đơn giản hóa tối đa thủ tục và khuyến khích nhà thầu tham gia, hình thức này không yêu cầu nhà thầu phải thực hiện biện pháp bảo đảm dự thầu.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -129,7 +129,7 @@ export const set25: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Việc tham gia phiên chào giá trực tuyến là không bắt buộc. Nếu nhà thầu được mời nhưng từ chối tham gia, họ sẽ không bị xử phạt. Việc đánh giá sẽ được tiếp tục dựa trên giá dự thầu mà họ đã nộp trong hồ sơ dự thầu ban đầu. Nhà thầu này sẽ không có cơ hội chào giá cạnh tranh hơn trong phiên chào giá.",
+        "explanation": "Căn cứ pháp lý: Điểm c Khoản 5 Điều 101 Nghị định số 214/2025/NĐ-CP. Nếu nhà thầu từ chối tham gia chào giá trực tuyến (thông thường), hồ sơ dự thầu của họ sẽ tiếp tục được đánh giá về tài chính căn cứ theo giá đã nộp trong hồ sơ dự thầu ban đầu (trước thời điểm đóng thầu). Việc tham gia phiên chào giá trực tuyến là không bắt buộc. Nếu nhà thầu được mời nhưng từ chối tham gia, họ sẽ không bị xử phạt. Việc đánh giá sẽ được tiếp tục dựa trên giá dự thầu mà họ đã nộp trong hồ sơ dự thầu ban đầu. Nhà thầu này sẽ không có cơ hội chào giá cạnh tranh hơn trong phiên chào giá.",
         "category": "Đấu thầu qua mạng"
     }
 ];

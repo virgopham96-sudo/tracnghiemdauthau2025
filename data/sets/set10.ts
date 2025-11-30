@@ -12,7 +12,7 @@ export const set10: Question[] = [
             "D": "Đánh giá theo tổng kinh nghiệm thực hiện hợp đồng tương tự của công ty mẹ và công ty con, không phân biệt khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu"
         },
         "correctAnswer": "B",
-        "explanation": "Khi công ty mẹ sử dụng năng lực của công ty con, kinh nghiệm được đánh giá dựa trên phần công việc thực tế mà mỗi công ty đã đảm nhiệm trong các hợp đồng trước đó. Năng lực của công ty mẹ và công ty con được xem xét một cách tổng thể nhưng phải dựa trên cơ sở thực tế.",
+        "explanation": "Khi công ty mẹ dự thầu và huy động công ty con (với tư cách nhà thầu phụ hoặc đơn vị thành viên), năng lực kinh nghiệm được đánh giá căn cứ vào giá trị, khối lượng công việc do công ty mẹ và công ty con đảm nhận. Công ty con làm phần nào thì được tính năng lực tương ứng phần đó. Căn cứ: Điều 10 Nghị định 214/2025/NĐ-CP (quy định về ưu đãi) và hướng dẫn trong Mẫu E-HSMT.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -25,7 +25,7 @@ export const set10: Question[] = [
             "D": "Tất cả phương án trên đều đúng"
         },
         "correctAnswer": "A",
-        "explanation": "Đây là cách định nghĩa đầy đủ và hợp lý nhất về một công trình tương tự. 'Hoàn thành phần lớn' cho phép linh hoạt, 'cùng loại kết cấu, cấp công trình' đảm bảo tính tương tự về kỹ thuật, và 'đáp ứng quy mô' đảm bảo tương tự về độ lớn.",
+        "explanation": "Đối với xây lắp, hợp đồng tương tự là công trình mà nhà thầu đã hoàn thành toàn bộ hoặc hoàn thành phần lớn (thường là >=80% giá trị), có cùng loại kết cấu và cấp công trình đáp ứng yêu cầu của hồ sơ mời thầu. Căn cứ: Mẫu số 3A Thông tư 79/2025/TT-BTC.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -38,7 +38,7 @@ export const set10: Question[] = [
             "D": "Cả 2 phương án B và C đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Tính tương tự của hàng hóa có thể được xác định theo lĩnh vực tổng quát (ví dụ: thiết bị y tế, thiết bị văn phòng) hoặc cụ thể hơn theo mã HS. Cả hai cách tiếp cận đều được sử dụng trong thực tế để xác định tính tương tự một cách hợp lý.",
+        "explanation": "Hàng hóa tương tự có thể được hiểu theo 2 cách linh hoạt: (1) Có cùng lĩnh vực tổng quát (ví dụ cùng là thiết bị điện tử); hoặc (2) Có cùng mã Chương, mã Nhóm (4 số đầu mã HS). Nhà thầu đáp ứng một trong hai tiêu chí này đều được chấp nhận. Căn cứ: Mẫu số 4A Thông tư 79/2025/TT-BTC.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -51,7 +51,7 @@ export const set10: Question[] = [
             "D": "Các phương án trên đều sai"
         },
         "correctAnswer": "A",
-        "explanation": "Khi nhà thầu tham dự nhiều phần, năng lực tài chính (thể hiện qua doanh thu) của họ phải đáp ứng tổng yêu cầu của tất cả các phần mà họ tham dự để đảm bảo họ có đủ nguồn lực thực hiện đồng thời các phần đó nếu trúng thầu.",
+        "explanation": "Doanh thu là năng lực tài chính tổng thể của doanh nghiệp. Nếu nhà thầu tham dự nhiều phần, họ phải chứng minh đủ năng lực tài chính để thực hiện TẤT CẢ các phần đó. Do đó, yêu cầu doanh thu sẽ căn cứ trên tổng giá trị doanh thu bình quân yêu cầu đối với các phần mà nhà thầu tham dự. Căn cứ: Mẫu số 5A Thông tư 79/2025/TT-BTC.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -64,12 +64,12 @@ export const set10: Question[] = [
             "D": "Các phương án trên đều sai"
         },
         "correctAnswer": "B",
-        "explanation": "Khi gói thầu được chia thành nhiều phần, việc đánh giá năng lực và kinh nghiệm (bao gồm cả hợp đồng tương tự) được thực hiện riêng cho từng phần. Nhà thầu chỉ cần đáp ứng yêu cầu của phần mà họ tham dự, không cần phải đáp ứng tổng yêu cầu của tất cả các phần. Điều này tạo điều kiện cho các nhà thầu có quy mô khác nhau cùng tham gia.",
+        "explanation": "Khác với doanh thu, kinh nghiệm hợp đồng tương tự gắn liền với tính chất cụ thể của từng phần thầu. Nhà thầu chỉ cần chứng minh có kinh nghiệm tương ứng với từng phần mà mình tham dự, không bắt buộc phải có một hợp đồng lớn bằng tổng quy mô của tất cả các phần cộng lại (vì các phần có thể khác nhau về tính chất hàng hóa). Căn cứ: Mẫu số 4A Thông tư 79/2025/TT-BTC.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 96,
-        "question": "Trường hợp E-HSMT của gói thầu mua sắm hàng hóa có yêu cầu về cam kết, hợp đồng nguyên tắc bảo hành, bảo trì, duy tu, bảo dưỡng mà E-HSDT của nhà thầu không đính kèm các tài liệu này thì Chủ đầu tư xử lý như thế nào?",
+        "question": "Trường hợp E-HSMT gói thầu mua sắm hàng hóa có yêu cầu về cam kết, hợp đồng nguyên tắc bảo hành, bảo trì, duy tu, bảo dưỡng mà E-HSDT của nhà thầu không đính kèm các tài liệu này thì Chủ đầu tư xử lý như thế nào?",
         "options": {
             "A": "Hồ sơ dự thầu của nhà thầu bị loại, không được xem xét, đánh giá",
             "B": "Chủ đầu tư yêu cầu nhà thầu làm rõ, bổ sung tài liệu trong một khoảng thời gian phù hợp nhưng không ít hơn 03 ngày làm việc để làm cơ sở đánh giá E-HSDT",
@@ -77,7 +77,7 @@ export const set10: Question[] = [
             "D": "Tiếp tục đánh giá E-HSDT, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ tài liệu"
         },
         "correctAnswer": "B",
-        "explanation": "Việc thiếu các tài liệu cam kết không phải là lỗi không thể khắc phục. Để tạo điều kiện cho nhà thầu và đảm bảo cạnh tranh, chủ đầu tư sẽ yêu cầu nhà thầu làm rõ và bổ sung các tài liệu còn thiếu trong một khoảng thời gian nhất định. Nếu nhà thầu không bổ sung được thì mới bị xem xét loại.",
+        "explanation": "Cam kết bảo hành, bảo trì là tài liệu về năng lực/cam kết, không phải là yếu tố kỹ thuật cốt lõi ảnh hưởng đến giá ngay lập tức. Theo quy định về làm rõ, chủ đầu tư yêu cầu nhà thầu làm rõ, bổ sung tài liệu trong thời hạn phù hợp (tối thiểu 3 ngày làm việc). Không được loại ngay. Căn cứ: Điều 27 Thông tư 79/2025/TT-BTC (về trách nhiệm làm rõ, bổ sung tài liệu) và Điều 30 Nghị định 214.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -90,7 +90,7 @@ export const set10: Question[] = [
             "D": "Tiếp tục đánh giá hồ sơ dự thầu, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ các thông tin này"
         },
         "correctAnswer": "C",
-        "explanation": "Việc đề xuất cụ thể ký mã hiệu, nhãn hiệu, xuất xứ, hãng sản xuất của hàng hóa chào thầu là một yêu cầu cơ bản và quan trọng để bên mời thầu có thể đánh giá tính đáp ứng về mặt kỹ thuật. Nếu nhà thầu không cung cấp các thông tin này, hồ sơ dự thầu được coi là không đáp ứng một cách cơ bản và sẽ không được xem xét, đánh giá.",
+        "explanation": "Thông tin về ký mã hiệu, xuất xứ, hãng sản xuất là yếu tố kỹ thuật cơ bản xác định đối tượng hàng hóa chào thầu. Nếu nhà thầu không đề xuất (bỏ trống), tức là không chào thầu cụ thể cái gì, dẫn đến không có cơ sở để đánh giá kỹ thuật. Đây là lỗi nghiêm trọng (không đáp ứng kỹ thuật), nên hồ sơ dự thầu không được xem xét, đánh giá (bị loại). Không được cho phép bổ sung vì sẽ làm thay đổi bản chất hàng hóa dự thầu. Căn cứ: Khoản 1 Điều 29 Nghị định 214/2025/NĐ-CP (Nguyên tắc đánh giá: căn cứ vào HSDT đã nộp).",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -103,7 +103,7 @@ export const set10: Question[] = [
             "D": "Đánh giá năng lực, kinh nghiệm của nhà thầu phụ căn cứ theo phần công việc nhà thầu phụ đảm nhận, nhà thầu tham dự thầu cũng phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận"
         },
         "correctAnswer": "B",
-        "explanation": "Nhà thầu chính (nhà thầu tham dự thầu) chịu trách nhiệm toàn bộ về chất lượng, tiến độ của gói thầu, kể cả phần việc do nhà thầu phụ thực hiện. Do đó, khi đánh giá, bên mời thầu chỉ đánh giá năng lực, kinh nghiệm của nhà thầu chính. Nhà thầu chính phải đáp ứng yêu cầu cho toàn bộ gói thầu, bao gồm cả phần dự kiến giao cho nhà thầu phụ.",
+        "explanation": "Đối với nhà thầu phụ thông thường (không phải nhà thầu phụ đặc biệt), chủ đầu tư không đánh giá năng lực, kinh nghiệm của nhà thầu phụ ở bước xét thầu. Nhà thầu chính phải chịu trách nhiệm hoàn toàn về năng lực thực hiện gói thầu (trừ khi là thầu phụ đặc biệt được quy định rõ trong HSMT). Căn cứ: Khoản 2 Điều 141 Nghị định 214/2025/NĐ-CP.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -116,7 +116,7 @@ export const set10: Question[] = [
             "D": "Nhà thầu không được sửa đổi E-HSDT đã nộp"
         },
         "correctAnswer": "A",
-        "explanation": "Trên Hệ thống mạng đấu thầu quốc gia, không có chức năng 'sửa đổi một phần' hồ sơ đã nộp. Nếu nhà thầu muốn thay đổi bất kỳ nội dung nào, họ phải thực hiện thao tác 'rút thầu', sau đó nộp lại một bộ hồ sơ dự thầu hoàn toàn mới trước thời điểm đóng thầu.",
+        "explanation": "Trên Hệ thống mạng đấu thầu quốc gia, để sửa đổi hồ sơ dự thầu đã nộp, nhà thầu bắt buộc phải rút toàn bộ E-HSDT đã nộp và sau đó tiến hành nộp lại bộ hồ sơ mới (đã sửa đổi). Hệ thống không hỗ trợ sửa trực tiếp trên hồ sơ đã nộp. Căn cứ: Hướng dẫn sử dụng Hệ thống và quy trình kỹ thuật đấu thầu qua mạng.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -129,7 +129,7 @@ export const set10: Question[] = [
             "D": "Các phương án trên đều sai"
         },
         "correctAnswer": "A",
-        "explanation": "Khi E-HSMT được sửa đổi, các yêu cầu của gói thầu đã thay đổi. Hồ sơ dự thầu cũ của nhà thầu có thể không còn phù hợp. Để đảm bảo hồ sơ của mình đáp ứng các yêu cầu mới, nhà thầu cần phải rút hồ sơ cũ, điều chỉnh lại cho phù hợp với E-HSMT đã sửa đổi và nộp lại một bộ hồ sơ mới.",
+        "explanation": "Khi E-HSMT sửa đổi, các biểu mẫu webform hoặc yêu cầu có thể thay đổi. Để đảm bảo hồ sơ dự thầu tương thích và cập nhật theo yêu cầu mới, nhà thầu phải rút toàn bộ E-HSDT đã nộp và tiến hành nộp lại E-HSDT mới. Căn cứ: Hướng dẫn sử dụng Hệ thống và quy trình kỹ thuật đấu thầu qua mạng.",
         "category": "Đấu thầu qua mạng"
     }
 ];

@@ -12,7 +12,7 @@ export const set28: Question[] = [
             "D": "08h00 ngày thứ 2 (22/9/2025)"
         },
         "correctAnswer": "D",
-        "explanation": "Quy trình rút gọn yêu cầu thời gian chuẩn bị tối thiểu là 3 ngày làm việc. Đăng tải lúc 11h00 ngày Thứ 2 (15/9). 3 ngày làm việc tiếp theo là Thứ 3, Thứ 4, Thứ 5. Thời điểm đóng thầu (bắt đầu chào giá) sớm nhất là 11h00 ngày Thứ 6 (19/9). Phiên chào giá rút gọn có thể diễn ra rất nhanh, có thể chỉ trong 1-2 giờ. Do đó, thời điểm kết thúc sớm nhất có thể là trong cùng ngày 19/9. Tuy nhiên, các phương án đều không phù hợp. Nếu giả sử thời gian chuẩn bị là 5 ngày làm việc, thì đóng thầu sớm nhất là ngày 23/9. Câu hỏi này có thể có sai sót về dữ liệu.",
+        "explanation": "Căn cứ pháp lý: Khoản 2 Điều 102 Nghị định số 214/2025/NĐ-CP. Gói thầu 01 tỷ đồng (dưới 02 tỷ) -> Thời gian chuẩn bị tối thiểu 03 ngày làm việc. Đăng thông báo: 11h00 Thứ 2 (15/9). 3 ngày làm việc chuẩn bị: 16, 17, 18 (Thứ 5). Bắt đầu chào giá sớm nhất: Thứ 6 (19/9). Thời gian chào giá tối thiểu: 24 giờ. Từ 08h00 Thứ 6 (19/9) + 24h -> 08h00 Thứ 7 (20/9). Tuy nhiên, thời điểm kết thúc phải trong giờ hành chính (Khoản 4 Điều 100). Thứ 7 thường không được tính là giờ hành chính trong đấu thầu (hoặc hệ thống không set kết thúc vào ngày nghỉ). Do đó, thời điểm kết thúc sẽ chuyển sang đầu giờ làm việc tiếp theo là 08h00 Thứ 2 (22/9).",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -25,7 +25,7 @@ export const set28: Question[] = [
             "D": "Phương án B và C đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "E-HSMT (Hồ sơ mời thầu điện tử) bao gồm tất cả các yêu cầu mà bên mời thầu đưa ra. Cả tiêu chuẩn đánh giá về tính hợp lệ (B) và yêu cầu về năng lực, kinh nghiệm (C) đều là những thành phần bắt buộc của E-HSMT mà nhà thầu phải đáp ứng. Do đó, cả B và C đều là một phần của E-HSMT.",
+        "explanation": "Căn cứ pháp lý: Khoản 3 Điều 26 Thông tư số 79/2025/TT-BTC. Thông tư quy định Bảng dữ liệu, Tiêu chuẩn đánh giá tính hợp lệ, Yêu cầu năng lực kinh nghiệm phải được số hóa dưới dạng webform. Nếu chủ đầu tư đính kèm các file yêu cầu khác cho các nội dung này (mà không số hóa), các file đó không được coi là một phần của E-HSMT và nhà thầu không phải đáp ứng.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -38,7 +38,7 @@ export const set28: Question[] = [
             "D": "Các phương án trên đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Để đảm bảo an toàn, bảo mật và khả năng tiếp cận cho tất cả các bên, các file đăng tải lên Hệ thống mạng đấu thầu quốc gia phải đáp ứng yêu cầu cơ bản là không bị nhiễm virus, không bị lỗi, hỏng và đặc biệt là không được thiết lập mật khẩu. Các yêu cầu về định dạng file (A) hay phông chữ (B) có thể linh hoạt hơn.",
+        "explanation": "Căn cứ pháp lý: Điểm c Khoản 1 Điều 5 Thông tư số 79/2025/TT-BTC. Quy định về định dạng tệp tin yêu cầu: Không bị nhiễm virus, không bị lỗi/hỏng và đặc biệt là không thiết lập mật khẩu (để hệ thống và tổ chuyên gia có thể mở và đọc được).",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -51,7 +51,7 @@ export const set28: Question[] = [
             "D": "Các phương án trên đều đúng"
         },
         "correctAnswer": "A",
-        "explanation": "Nếu E-HSMT (hồ sơ mời thầu) do chủ đầu tư phát hành bị lỗi, khiến nhà thầu không thể truy cập được thông tin, thì đây là lỗi của bên mời thầu. Chủ đầu tư phải khắc phục bằng cách sửa lỗi và đăng tải lại toàn bộ bộ E-HSMT hoàn chỉnh để nhà thầu có thể tải về và sử dụng.",
+        "explanation": "Căn cứ pháp lý: Khoản 2 Điều 5 Thông tư số 79/2025/TT-BTC. Nếu file đính kèm trong E-HSMT không mở/đọc được, Chủ đầu tư phải đăng tải và phát hành lại toàn bộ E-HSMT để đảm bảo tính công bằng và đầy đủ thông tin cho nhà thầu.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -64,7 +64,7 @@ export const set28: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Trong trường hợp hệ thống gặp sự cố, cả hai thời điểm đóng thầu đều có thể được xem xét. Nhà thầu nộp trước sự cố (theo thời điểm A) vẫn được coi là hợp lệ. Nhà thầu nộp sau sự cố nhưng trước thời điểm gia hạn (theo thời điểm B) cũng được coi là hợp lệ. Do đó, việc đánh giá cần linh hoạt và xem xét cả hai trường hợp.",
+        "explanation": "Căn cứ pháp lý: Khoản 3 Điều 6 Thông tư số 79/2025/TT-BTC. Khi Hệ thống tự động gia hạn do sự cố, việc đánh giá E-HSDT được thực hiện dựa trên thời điểm đóng thầu: Hồ sơ nộp trước sự cố: Căn cứ thời điểm đóng thầu cũ (A). Hồ sơ nộp sau khi khắc phục: Căn cứ thời điểm đóng thầu mới (B). Do đó, cả A và B đều đúng tùy thuộc vào thời điểm nộp của từng nhà thầu.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -77,7 +77,7 @@ export const set28: Question[] = [
             "D": "Phương án A và C đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Hệ thống mạng đấu thầu quốc gia yêu cầu sử dụng chứng thư số công cộng để đảm bảo tính xác thực và pháp lý của các giao dịch điện tử. Các chứng thư số này phải được cấp bởi các tổ chức được cấp phép theo quy định của pháp luật.",
+        "explanation": "Căn cứ pháp lý: Khoản 6 Điều 3 Thông tư số 79/2025/TT-BTC. Chứng thư số sử dụng trên Hệ thống là: (1) Chứng thư số công cộng (do các tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng cấp - VNPT, Viettel, Bkav...); hoặc (2) Chứng thư số chuyên dùng Chính phủ (cấp cho cơ quan nhà nước). Không phải tất cả các loại chứng thư số chuyên dùng khác đều được chấp nhận.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -90,7 +90,7 @@ export const set28: Question[] = [
             "D": "Các phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Bảo lãnh dự thầu điện tử là một quy trình khép kín trên hệ thống, liên kết giữa nhà thầu, ngân hàng và bên mời thầu. Hệ thống sẽ tự động kiểm tra và xác nhận tính hợp lệ của bảo lãnh về giá trị (A), thời gian hiệu lực (B), và đối tượng thụ hưởng (C). Do đó, cả ba yếu tố này luôn được đảm bảo đáp ứng yêu cầu.",
+        "explanation": "Căn cứ pháp lý: Quy trình kỹ thuật bảo lãnh điện tử trên Hệ thống (liên thông dữ liệu). Khi nhà thầu chọn bảo lãnh điện tử, thông tin được truyền trực tiếp từ Ngân hàng sang Hệ thống đấu thầu dựa trên mã gói thầu và yêu cầu của E-HSMT. Do đó, các thông tin về giá trị, hiệu lực, thụ hưởng sẽ được hệ thống kiểm soát để luôn đáp ứng yêu cầu (nếu ngân hàng phát hành thành công theo lệnh).",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -103,7 +103,7 @@ export const set28: Question[] = [
             "D": "Bảo đảm dự thầu của nhà thầu A và nhà thầu B đều được đánh giá là không hợp lệ"
         },
         "correctAnswer": "B",
-        "explanation": "Khi hệ thống gia hạn thời điểm đóng thầu, thời điểm đóng thầu mới (26/9) sẽ là mốc pháp lý để xem xét. Bảo đảm dự thầu của nhà thầu A, mặc dù có hiệu lực từ 25/9, nhưng tại thời điểm đóng thầu mới (26/9) nó vẫn còn hiệu lực, do đó hợp lệ. Bảo đảm dự thầu của nhà thầu B có hiệu lực từ 26/9, phù hợp với thời điểm đóng thầu mới, do đó cũng hợp lệ. Quy định về xử lý sự cố cho phép sự linh hoạt này.",
+        "explanation": "Căn cứ pháp lý: Khoản 3 Điều 6 Thông tư số 79/2025/TT-BTC và nguyên tắc xử lý sự cố. Nhà thầu A nộp trước sự cố: Hiệu lực tính từ thời điểm đóng thầu cũ (25/9) -> Hợp lệ theo thời điểm đó. Nhà thầu B nộp sau sự cố (khi đã có thời điểm đóng thầu mới 26/9): Hiệu lực tính từ thời điểm đóng thầu mới -> Hợp lệ theo thời điểm mới. Cả hai đều được đánh giá là hợp lệ dựa trên thời điểm tương ứng mà họ nộp thầu.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -116,7 +116,7 @@ export const set28: Question[] = [
             "D": "Có giá đề nghị trúng thầu thấp nhất"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 59, khoản 2 và khoản 4 của Luật Đấu thầu. Cả hai phương pháp này đều ưu tiên tuyệt đối cho chất lượng kỹ thuật. Phương pháp giá cố định: Giá được cố định, các nhà thầu đáp ứng kỹ thuật sẽ được so sánh về điểm kỹ thuật, nhà thầu có điểm kỹ thuật cao nhất sẽ trúng thầu. Phương pháp dựa trên kỹ thuật: Nhà thầu có điểm kỹ thuật cao nhất sẽ được mời vào mở hồ sơ tài chính và thương thảo hợp đồng. Do đó, điểm chung quyết định thứ hạng là 'có điểm kỹ thuật cao nhất'.",
+        "explanation": "Căn cứ pháp lý: Điểm b Khoản 2 Điều 59 (Giá cố định) và Điểm b Khoản 4 Điều 59 (Dựa trên kỹ thuật) Luật Đấu thầu. Phương pháp Giá cố định: Nhà thầu có điểm kỹ thuật cao nhất được xếp hạng nhất. Phương pháp Dựa trên kỹ thuật: Nhà thầu có điểm kỹ thuật cao nhất được xếp hạng nhất. Điểm chung quyết định xếp hạng thứ nhất là: Có điểm kỹ thuật cao nhất.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -129,7 +129,7 @@ export const set28: Question[] = [
             "D": "Gói thầu tư vấn có quy trình thực hiện đã được tiêu chuẩn hoá"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 59, khoản 3, điểm a của Luật Đấu thầu. Phương pháp này được thiết kế để cân bằng giữa hai yếu tố quan trọng là chất lượng (thể hiện qua điểm kỹ thuật) và chi phí (thể hiện qua điểm giá). Nó được áp dụng cho các gói thầu mà cả hai yếu tố này đều cần được xem xét một cách hài hòa.",
+        "explanation": "Căn cứ pháp lý: Điểm a Khoản 3 Điều 59 Luật Đấu thầu. Phương pháp kết hợp giữa kỹ thuật và giá được áp dụng đối với gói thầu tư vấn chú trọng tới cả chất lượng và chi phí thực hiện gói thầu.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     }
 ];

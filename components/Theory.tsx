@@ -5,14 +5,14 @@ interface TheoryProps {
     onBack: () => void;
 }
 
-const HighlightBox = ({ title, children }: { title?: string, children: React.ReactNode }) => (
+const HighlightBox = ({ title, children }: { title?: string, children?: React.ReactNode }) => (
     <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-3 rounded-r-lg">
         {title && <p className="font-bold text-yellow-800 mb-1">{title}</p>}
         <div className="text-slate-800 italic text-sm">{children}</div>
     </div>
 );
 
-const TopicSection = ({ title, children }: { title: string, children: React.ReactNode }) => {
+const TopicSection = ({ title, children }: { title: string, children?: React.ReactNode }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (

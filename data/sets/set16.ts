@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set16: Question[] = [
@@ -11,7 +12,7 @@ export const set16: Question[] = [
             "D": "Bên mời thầu"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 77, khoản 1 và Điều 36, khoản 1 của Luật Đấu thầu. Điều 36, khoản 1 quy định chủ đầu tư hoặc cơ quan chuẩn bị dự án 'trình người có thẩm quyền xem xét, quyết định việc tổ chức lập, phê duyệt kế hoạch tổng thể lựa chọn nhà thầu'. Điều 77, khoản 1 khẳng định trách nhiệm của người có thẩm quyền là 'Phê duyệt kế hoạch tổng thể lựa chọn nhà thầu quy định tại Điều 36 của Luật này'.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 36 Luật Đấu thầu và Khoản 4 Điều 16 Nghị định số 214/2025/NĐ-CP. Luật quy định người có thẩm quyền có trách nhiệm xem xét, quyết định việc tổ chức lập, phê duyệt kế hoạch tổng thể lựa chọn nhà thầu. Chủ đầu tư chỉ có trách nhiệm trình, còn thẩm quyền phê duyệt thuộc về người có thẩm quyền.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -24,7 +25,7 @@ export const set16: Question[] = [
             "D": "Đơn vị tư vấn được chủ đầu tư lựa chọn"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 19, khoản 1, điểm c của Luật Đấu thầu. Luật quy định rõ việc thành lập tổ chuyên gia trong trường hợp này thuộc về 'Đơn vị tư vấn thành lập đối với trường hợp thuê tư vấn để lập hồ sơ mời quan tâm...; đánh giá hồ sơ quan tâm...'.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 19 Luật Đấu thầu. Quy định nêu rõ việc thành lập tổ chuyên gia được thực hiện như sau: Đơn vị tư vấn thành lập đối với trường hợp thuê tư vấn để lập hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu; đánh giá hồ sơ.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -37,7 +38,7 @@ export const set16: Question[] = [
             "D": "Quyết định việc hủy thầu, đình chỉ cuộc đấu thầu, không công nhận kết quả lựa chọn nhà thầu khi phát hiện có hành vi vi phạm pháp luật về đấu thầu"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 78, khoản 1, điểm a của Luật Đấu thầu. Trách nhiệm phê duyệt kế hoạch lựa chọn nhà thầu thuộc về chủ đầu tư. Người có thẩm quyền chỉ phê duyệt kế hoạch tổng thể lựa chọn nhà thầu (nếu có), không phê duyệt kế hoạch chi tiết cho từng gói thầu.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 78 Luật Đấu thầu. Việc phê duyệt kế hoạch lựa chọn nhà thầu là trách nhiệm của Chủ đầu tư (trừ trường hợp gói thầu cần thực hiện trước khi có quyết định phê duyệt dự án). Người có thẩm quyền chịu trách nhiệm phê duyệt kế hoạch tổng thể lựa chọn nhà thầu (Điều 77), không phải kế hoạch lựa chọn nhà thầu chi tiết.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -50,7 +51,7 @@ export const set16: Question[] = [
             "D": "Chủ đầu tư chỉ được phê duyệt kế hoạch lựa chọn nhà thầu trong trường hợp được người có thẩm quyền ủy quyền"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 40, khoản 2 và Điều 78, khoản 1, điểm a của Luật Đấu thầu. Luật giao trách nhiệm phê duyệt kế hoạch lựa chọn nhà thầu cho chủ đầu tư. Khoản 2 Điều 40 nêu rõ: 'Chủ đầu tư tổ chức lập và phê duyệt kế hoạch lựa chọn nhà thầu'. Trường hợp ngoại lệ là khi chưa xác định được chủ đầu tư (đối với gói thầu cần thực hiện trước), thì người đứng đầu đơn vị được giao nhiệm vụ chuẩn bị dự án sẽ phê duyệt. Phương án B mô tả chính xác quy định này.",
+        "explanation": "Căn cứ pháp lý: Khoản 2 Điều 40 Luật Đấu thầu. Luật quy định Chủ đầu tư tổ chức lập và phê duyệt kế hoạch lựa chọn nhà thầu. Chỉ trong trường hợp chưa xác định được chủ đầu tư (đối với gói thầu đấu thầu trước hoặc gói cần thực hiện trước khi phê duyệt dự án) thì mới do người đứng đầu đơn vị được giao nhiệm vụ chuẩn bị dự án phê duyệt.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -63,7 +64,7 @@ export const set16: Question[] = [
             "D": "Tổ thẩm định"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 78, khoản 13a của Luật Đấu thầu. Đây là trách nhiệm quản lý thực hiện hợp đồng của chủ đầu tư. Khoản 13a được bổ sung đã quy định rõ trách nhiệm của chủ đầu tư là 'Chấp thuận hoặc không chấp thuận việc điều chuyển khối lượng, phạm vi công việc của nhà thầu phụ cho tổ chức, đơn vị khác khi cần đáp ứng yêu cầu về tiến độ, chất lượng gói thầu khi nhà thầu chính đề xuất.'",
+        "explanation": "Căn cứ pháp lý: Khoản 13a Điều 78 Luật Đấu thầu. Luật quy định trách nhiệm của Chủ đầu tư là chấp thuận hoặc không chấp thuận việc điều chuyển khối lượng, phạm vi công việc của nhà thầu phụ cho tổ chức, đơn vị khác khi cần đáp ứng yêu cầu về tiến độ, chất lượng gói thầu khi nhà thầu chính đề xuất.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -76,7 +77,7 @@ export const set16: Question[] = [
             "D": "Hợp tác quốc tế về đấu thầu"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 83 của Luật Đấu thầu. Điều 83 liệt kê các nội dung quản lý nhà nước về đấu thầu, bao gồm quản lý hệ thống thông tin (A), đào tạo bồi dưỡng (C), hợp tác quốc tế (D). Việc lập hồ sơ mời thầu là công việc cụ thể của tổ chuyên gia trong quá trình lựa chọn nhà thầu của một gói thầu, không phải là hoạt động quản lý nhà nước ở tầm vĩ mô.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 80 và Điều 83 Luật Đấu thầu. Điều 83 quy định các nội dung quản lý nhà nước về đấu thầu (ban hành văn bản, tổng kết, quản lý hệ thống thông tin, thanh tra, kiểm tra...). Việc lập hồ sơ mời thầu là tác nghiệp cụ thể của Tổ chuyên gia (Điều 80), không phải là nội dung quản lý nhà nước.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -89,7 +90,7 @@ export const set16: Question[] = [
             "D": "Kiểm tra định kỳ hoặc đột xuất"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 86, khoản 2, điểm a của Luật Đấu thầu. Hoạt động kiểm tra đấu thầu có thể được tiến hành theo kế hoạch định kỳ hoặc được thực hiện đột xuất khi phát hiện có dấu hiệu vi phạm hoặc theo yêu cầu của người có thẩm quyền để đảm bảo tính tuân thủ pháp luật.",
+        "explanation": "Căn cứ pháp lý: Khoản 2 Điều 86 Luật Đấu thầu và Điều 126 Nghị định số 214/2025/NĐ-CP. Pháp luật quy định kiểm tra hoạt động đấu thầu được thực hiện theo kế hoạch định kỳ hoặc đột xuất theo quyết định của người đứng đầu cơ quan có thẩm quyền kiểm tra.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -102,7 +103,7 @@ export const set16: Question[] = [
             "D": "05 năm tính từ ngày xảy ra hành vi vi phạm"
         },
         "correctAnswer": "A",
-        "explanation": "Theo quy định của pháp luật về xử lý vi phạm hành chính, thời hiệu xử lý vi phạm được tính từ thời điểm hành vi vi phạm xảy ra. Đối với các vi phạm trong đấu thầu, thời hiệu để áp dụng biện pháp cấm thầu là 10 năm kể từ ngày xảy ra hành vi.",
+        "explanation": "Căn cứ pháp lý: Khoản 3 Điều 133 Nghị định số 214/2025/NĐ-CP. Nghị định quy định rõ thời hiệu áp dụng biện pháp cấm tham gia hoạt động đấu thầu là 10 năm tính từ ngày xảy ra hành vi vi phạm.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -115,7 +116,7 @@ export const set16: Question[] = [
             "D": "Chủ tịch Ủy ban nhân dân cấp tỉnh"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 87, khoản 3 của Luật Đấu thầu. Luật quy định thẩm quyền cấm thầu thuộc về: Người có thẩm quyền (A), Bộ trưởng và các chức danh tương đương (C), và Chủ tịch Ủy ban nhân dân cấp tỉnh (D). Chủ đầu tư không có thẩm quyền ra quyết định cấm thầu.",
+        "explanation": "Căn cứ pháp lý: Khoản 3 Điều 87 Luật Đấu thầu. Thẩm quyền quyết định cấm tham gia hoạt động đấu thầu thuộc về: Người có thẩm quyền; Bộ trưởng, Thủ trưởng cơ quan ngang Bộ/cơ quan thuộc Chính phủ/cơ quan khác ở Trung ương; Chủ tịch UBND cấp tỉnh. Chủ đầu tư không có thẩm quyền ban hành quyết định cấm.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -128,7 +129,7 @@ export const set16: Question[] = [
             "D": "Bằng thời gian cấm của hành vi vi phạm có thời gian bị cấm cao nhất"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 87, khoản 2 của Luật Đấu thầu. Đây là nguyên tắc tổng hợp hình phạt trong xử lý vi phạm. Thời gian cấm thầu tối đa cho một hành vi hoặc nhiều hành vi là 05 năm.",
+        "explanation": "Căn cứ pháp lý: Khoản 2 Điều 133 Nghị định số 214/2025/NĐ-CP. Trường hợp có từ 02 hành vi vi phạm trở lên, thời gian cấm được xác định bằng tổng thời gian cấm của các hành vi vi phạm nhưng tối đa không quá 05 năm.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     }
 ];

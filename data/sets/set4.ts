@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set4: Question[] = [
@@ -11,7 +12,7 @@ export const set4: Question[] = [
             "D": "Gói thầu xây lắp công trình đơn giản đã có dự toán được phê duyệt có giá không quá 15 tỷ đồng"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 24, khoản 1, điểm a của Luật Đấu thầu và các quy định về hạn mức trong Nghị định của Chính phủ. Chào hàng cạnh tranh áp dụng cho các gói thầu dịch vụ phi tư vấn thông dụng, đơn giản. Hạn mức giá gói thầu được quy định cụ thể trong văn bản dưới luật. Phương án A, C, D không chính xác về loại gói thầu hoặc hạn mức.",
+        "explanation": "Theo Khoản 1 Điều 24 Luật Đấu thầu, chào hàng cạnh tranh áp dụng cho gói thầu dịch vụ phi tư vấn thông dụng, đơn giản; mua sắm hàng hóa thông dụng; xây lắp công trình đơn giản. Nghị định 214/2025/NĐ-CP (Điều 81) quy định hạn mức chào hàng cạnh tranh là không quá 10 tỷ đồng. Phương án B (Dịch vụ phi tư vấn thông dụng, đơn giản, giá không quá 10 tỷ) là chính xác.",
         "category": "Hình thức và Phương thức LCNT"
     },
     {
@@ -24,7 +25,7 @@ export const set4: Question[] = [
             "D": "Được áp dụng hình thức chỉ định thầu hoặc chào hàng cạnh tranh hoặc đấu thầu rộng rãi"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 24 và Điều 29b của Luật Đấu thầu. Gói thầu này đáp ứng điều kiện để áp dụng chào hàng cạnh tranh (hàng hóa thông dụng, sẵn có, giá trị trong hạn mức). Theo nguyên tắc tại Điều 29b, khoản 2, chủ đầu tư có thể chọn áp dụng hình thức đấu thầu rộng rãi thay cho các hình thức khác như chào hàng cạnh tranh. Do đó, cả hai hình thức đều có thể được áp dụng.",
+        "explanation": "Gói thầu mua sắm hàng hóa thông dụng, sẵn có, giá 05 tỷ đồng thuộc trường hợp được áp dụng Chào hàng cạnh tranh (theo Điều 24 Luật Đấu thầu và Nghị định 214). Đồng thời, Đấu thầu rộng rãi luôn là hình thức được áp dụng (không hạn chế). Do đó, kế hoạch có thể áp dụng Chào hàng cạnh tranh hoặc Đấu thầu rộng rãi. (Chỉ định thầu không áp dụng vì 5 tỷ vượt hạn mức 500 triệu/2 tỷ quy định tại Nghị định 214 đối với dự toán mua sắm/dự án).",
         "category": "Hình thức và Phương thức LCNT"
     },
     {
@@ -37,7 +38,7 @@ export const set4: Question[] = [
             "D": "300 triệu đồng"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 23, khoản 1, điểm e và quy định chi tiết của Chính phủ. Hạn mức chỉ định thầu được quy định cụ thể tại Nghị định hướng dẫn Luật Đấu thầu. Mức phổ biến cho mua sắm thường xuyên là không quá 500 triệu đồng.",
+        "explanation": "Theo Khoản 4 Điều 78 Nghị định 214/2025/NĐ-CP, hạn mức chỉ định thầu đối với gói thầu thuộc dự toán mua sắm không hình thành dự án là không quá 500 triệu đồng.",
         "category": "Hình thức và Phương thức LCNT"
     },
     {
@@ -50,7 +51,7 @@ export const set4: Question[] = [
             "D": "02 tỷ đồng"
         },
         "correctAnswer": "D",
-        "explanation": "Theo các quy định chi tiết hướng dẫn Luật Đấu thầu (ví dụ: Nghị định của Chính phủ), hạn mức chỉ định thầu đối với gói thầu mua sắm hàng hóa thuộc dự án đầu tư đã được nâng lên để phù hợp với tình hình thực tế, thường là không quá 02 tỷ đồng.",
+        "explanation": "Theo Khoản 4 Điều 78 Nghị định 214/2025/NĐ-CP, hạn mức chỉ định thầu đối với gói thầu dịch vụ phi tư vấn, hàng hóa, xây lắp, hỗn hợp thuộc dự án là không quá 02 tỷ đồng.",
         "category": "Hình thức và Phương thức LCNT"
     },
     {
@@ -63,7 +64,7 @@ export const set4: Question[] = [
             "D": "Đấu thầu qua mạng"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 20 của Luật Đấu thầu. Đấu thầu rộng rãi, đấu thầu hạn chế, mua sắm trực tiếp đều là các 'hình thức lựa chọn nhà thầu'. 'Đấu thầu qua mạng' là 'phương thức' thực hiện hoạt động đấu thầu, không phải là một 'hình thức lựa chọn nhà thầu' riêng biệt. Đấu thầu rộng rãi, hạn chế, chào hàng cạnh tranh có thể được tổ chức theo phương thức qua mạng hoặc không qua mạng.",
+        "explanation": "\"Đấu thầu qua mạng\" là phương thức thực hiện (trên Hệ thống mạng), không phải là tên một hình thức lựa chọn nhà thầu (như Đấu thầu rộng rãi, Chỉ định thầu, Chào hàng cạnh tranh...). Các hình thức được quy định tại Điều 20 Luật Đấu thầu.",
         "category": "Hình thức và Phương thức LCNT"
     },
     {
@@ -76,7 +77,7 @@ export const set4: Question[] = [
             "D": "Được áp dụng hình thức chỉ định thầu hoặc đấu thầu rộng rãi hoặc chào hàng cạnh tranh"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 23, khoản 1, điểm e và quy định chi tiết của Chính phủ. Gói thầu dịch vụ tư vấn có giá trị không quá 500 triệu đồng thuộc hạn mức được áp dụng chỉ định thầu. Tuy nhiên, chủ đầu tư luôn có quyền lựa chọn hình thức cạnh tranh hơn là đấu thầu rộng rãi.",
+        "explanation": "Gói thầu tư vấn 500 triệu đồng.\n\nHạn mức chỉ định thầu tư vấn thuộc dự án là không quá 800 triệu (theo Khoản 4 Điều 78 NĐ 214). Vậy 500 triệu được Chỉ định thầu.\n\nĐấu thầu rộng rãi luôn được áp dụng.\n\nChào hàng cạnh tranh không áp dụng cho gói thầu dịch vụ tư vấn (theo Điều 24 Luật Đấu thầu).\n\nVậy đáp án là: Được áp dụng Chỉ định thầu hoặc Đấu thầu rộng rãi.",
         "category": "Hình thức và Phương thức LCNT"
     },
     {
@@ -89,7 +90,7 @@ export const set4: Question[] = [
             "D": "Giá gói thầu trên 20 tỷ đồng đối với xây lắp, hàng hoá; trên 10 tỷ đồng đối với gói thầu dịch vụ tư vấn, phi tư vấn"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 21 của Luật Đấu thầu. Đấu thầu rộng rãi là hình thức lựa chọn nhà thầu không hạn chế số lượng nhà thầu tham dự và không có quy định về hạn mức giá trị gói thầu. Đây là hình thức được khuyến khích áp dụng cho mọi gói thầu.",
+        "explanation": "Đấu thầu rộng rãi là hình thức không hạn chế số lượng nhà thầu và không quy định hạn mức áp dụng (có thể áp dụng cho mọi gói thầu trừ khi có yêu cầu đặc biệt khác).",
         "category": "Hình thức và Phương thức LCNT"
     },
     {
@@ -102,7 +103,7 @@ export const set4: Question[] = [
             "D": "Gói thầu mua sắm hàng hóa và dịch vụ phi tư vấn"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 25, khoản 1 của Luật Đấu thầu. Luật quy định rất rõ ràng: 'Mua sắm trực tiếp được áp dụng đối với gói thầu mua sắm hàng hóa có tính chất tương tự thuộc cùng một dự án, dự toán mua sắm hoặc thuộc dự án, dự toán mua sắm khác.' Hình thức này không áp dụng cho xây lắp hay dịch vụ.",
+        "explanation": "Theo Điều 25 Luật Đấu thầu, mua sắm trực tiếp chỉ áp dụng đối với gói thầu mua sắm hàng hóa tương tự.",
         "category": "Hình thức và Phương thức LCNT"
     },
     {
@@ -115,7 +116,7 @@ export const set4: Question[] = [
             "D": "Chủ đầu tư được áp dụng mua sắm trực tiếp nhiều lần đối với các loại hàng hóa thuộc gói thầu"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 25, khoản 2, điểm b của Luật Đấu thầu. Luật quy định rõ: 'Chủ đầu tư chỉ được áp dụng mua sắm trực tiếp một lần đối với các loại hàng hóa thuộc gói thầu...'. Do đó, việc áp dụng nhiều lần là không đúng điều kiện. Các phương án A, B, C đều là các điều kiện để áp dụng mua sắm trực tiếp được quy định tại Điều 25, khoản 2.",
+        "explanation": "Theo Điều 25 Luật Đấu thầu (và chi tiết tại Điều 82 Nghị định 214), chủ đầu tư chỉ được áp dụng mua sắm trực tiếp một lần đối với các loại hàng hóa thuộc gói thầu. Do đó, phương án D (\"được áp dụng nhiều lần\") là sai, không phải là điều kiện đúng.",
         "category": "Hình thức và Phương thức LCNT"
     },
     {
@@ -128,7 +129,7 @@ export const set4: Question[] = [
             "D": "Đặt hàng chỉ áp dụng đối với nguồn chi thường xuyên ngân sách nhà nước, không được áp dụng đối với nguồn vốn khác"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 29a của Luật Đấu thầu. Khoản 1, Điều 29a định nghĩa đặt hàng là một hình thức giao trực tiếp. Khoản 2 quy định: 'Hàng hóa, dịch vụ đặt hàng theo quy định của pháp luật quản lý ngành, lĩnh vực thì thực hiện theo quy định của pháp luật quản lý ngành, lĩnh vực; trường hợp pháp luật quản lý ngành, lĩnh vực không quy định về quy trình, thủ tục thì áp dụng quy định của pháp luật về đấu thầu.' Điều này có nghĩa là luật đấu thầu được ưu tiên áp dụng nếu luật chuyên ngành không có quy định. Phương án B nói ngược lại, do đó nó không đúng. Xem xét lại: Câu hỏi yêu cầu chọn phương án đúng. A. Đặt hàng là một trong các hình thức lựa chọn nhà thầu (Đúng, theo Điều 20, điểm a). B. Sai như phân tích ở trên. C. Sai, đặt hàng áp dụng cho nhiều lĩnh vực chiến lược, công nghệ... không chỉ dịch vụ công (Điều 29a, khoản 1). D. Sai, không có quy định giới hạn nguồn vốn. Vậy Đáp án đúng là A. Là một trong các hình thức lựa chọn nhà thầu.",
+        "explanation": "Theo Điều 20 Luật Đấu thầu, Đặt hàng là một trong các hình thức lựa chọn nhà thầu (được quy định cụ thể tại Điều 29a Luật Đấu thầu).",
         "category": "Hình thức và Phương thức LCNT"
     }
 ];

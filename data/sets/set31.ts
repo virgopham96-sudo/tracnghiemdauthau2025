@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set31: Question[] = [
@@ -24,7 +25,7 @@ export const set31: Question[] = [
             "D": "Bất kỳ thành viên nào trong liên danh cũng có thể đại diện ký, đóng dấu (nếu có)"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 67, khoản 3 của Luật Đấu thầu. Luật quy định rất rõ ràng rằng: 'Đối với nhà thầu liên danh, tất cả thành viên tham gia liên danh phải trực tiếp ký, đóng dấu (nếu có) vào văn bản hợp đồng...'. Điều này nhằm đảm bảo trách nhiệm pháp lý của tất cả các thành viên trong việc thực hiện hợp đồng. Việc ủy quyền cho một thành viên ký thay là không đúng quy định.",
+        "explanation": "Căn cứ pháp lý: Khoản 3 Điều 67 Luật Đấu thầu và Khoản 3 Điều 67 Nghị định số 214/2025/NĐ-CP. Quy định nêu rõ: \"Đối với nhà thầu liên danh, tất cả thành viên tham gia liên danh phải trực tiếp ký, đóng dấu (nếu có) vào văn bản hợp đồng\". Không được phép ủy quyền cho thành viên đứng đầu ký thay hợp đồng.",
         "category": "Hợp đồng"
     },
     {
@@ -37,7 +38,7 @@ export const set31: Question[] = [
             "D": "Chào hàng cạnh tranh"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 68, khoản 2, điểm b của Luật Đấu thầu. Luật quy định các trường hợp được miễn bảo đảm thực hiện hợp đồng. Theo đó, 'Nhà thầu được lựa chọn theo hình thức tự thực hiện hoặc hình thức tham gia thực hiện của cộng đồng' không phải thực hiện biện pháp này.",
+        "explanation": "Căn cứ pháp lý: Điểm b Khoản 2 Điều 68 Luật Đấu thầu. Bảo đảm thực hiện hợp đồng không áp dụng đối với nhà thầu được lựa chọn theo hình thức tự thực hiện (hoặc tham gia thực hiện của cộng đồng). Các hình thức đấu thầu rộng rãi, hạn chế, chào hàng cạnh tranh đều bắt buộc (trừ trường hợp gói thầu giá trị nhỏ thuộc hạn mức chỉ định thầu).",
         "category": "Hợp đồng"
     },
     {
@@ -50,7 +51,7 @@ export const set31: Question[] = [
             "D": "Bước đánh giá hồ sơ đề xuất kỹ thuật"
         },
         "correctAnswer": "B",
-        "explanation": "Chào giá trực tuyến là một hình thức cạnh tranh về giá. Nó được tiến hành sau khi các nhà thầu đã được đánh giá đáp ứng yêu cầu về kỹ thuật. Các nhà thầu đủ điều kiện kỹ thuật sẽ được mời tham gia một phiên chào giá trực tuyến để cạnh tranh và đưa ra mức giá cuối cùng của mình. Do đó, đây là một hoạt động thuộc bước đánh giá về tài chính.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 101 Nghị định số 214/2025/NĐ-CP. Chào giá trực tuyến theo quy trình thông thường được thực hiện tại bước đánh giá về tài chính, làm căn cứ để so sánh hồ sơ dự thầu và xếp hạng nhà thầu.",
         "category": "Hình thức và Phương thức LCNT"
     },
     {
@@ -63,7 +64,7 @@ export const set31: Question[] = [
             "D": "Thời gian còn lại của phiên chào giá"
         },
         "correctAnswer": "B",
-        "explanation": "Để đảm bảo tính cạnh tranh khách quan và tránh các hành vi thông đồng, trong phiên chào giá trực tuyến, danh tính của các nhà thầu sẽ được ẩn đi. Hệ thống chỉ hiển thị các mức giá được chào và thời gian còn lại của phiên. Tên nhà thầu chỉ được công khai sau khi phiên chào giá kết thúc.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 100 Nghị định số 214/2025/NĐ-CP. Trong quá trình chào giá, mức giá và các yếu tố khác được công khai, trừ tên nhà thầu (để đảm bảo tính khách quan, tránh thông thầu).",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -76,7 +77,7 @@ export const set31: Question[] = [
             "D": "Chỉ phải phê duyệt trong kế hoạch lựa chọn nhà thầu đối với các gói thầu thuộc dự án đầu tư"
         },
         "correctAnswer": "B",
-        "explanation": "Mua sắm trực tuyến là một trong các hình thức lựa chọn nhà thầu. Theo quy định tại Điều 37, tất cả các gói thầu đều phải được lập kế hoạch lựa chọn nhà thầu và được người có thẩm quyền phê duyệt trước khi tổ chức. Kế hoạch này phải nêu rõ hình thức lựa chọn nhà thầu được áp dụng.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 103 Nghị định số 214/2025/NĐ-CP. Quy định nêu rõ: \"Mua sắm trực tuyến phải được phê duyệt trong kế hoạch lựa chọn nhà thầu\".",
         "category": "Mua sắm đặc thù"
     },
     {
@@ -88,8 +89,8 @@ export const set31: Question[] = [
             "C": "Chủ đầu tư",
             "D": "Đơn vị mua sắm tập trung"
         },
-        "correctAnswer": "B",
-        "explanation": "Mua sắm trực tuyến thường được thực hiện dựa trên kết quả của mua sắm tập trung đã được tổ chức trước đó. Khi một đơn vị có nhu cầu đặt hàng, hệ thống sẽ tự động gửi thông báo đến nhà thầu đã được lựa chọn và ký thỏa thuận khung trong đợt mua sắm tập trung đó.",
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Khoản 3 Điều 104 Nghị định số 214/2025/NĐ-CP. Hệ thống tự động gửi thông báo cho nhà thầu đã trúng thầu trong mua sắm tập trung trước đó (vì mua sắm trực tuyến bản chất là mua lại của nhà thầu đã trúng thầu tập trung).",
         "category": "Mua sắm đặc thù"
     },
     {
@@ -102,7 +103,7 @@ export const set31: Question[] = [
             "D": "05 ngày làm việc"
         },
         "correctAnswer": "B",
-        "explanation": "Mua sắm trực tuyến là quy trình nhanh gọn. Để đảm bảo tiến độ, các quy định thường yêu cầu nhà thầu phải phản hồi (xác nhận hoặc từ chối) yêu cầu đặt hàng trong một khoảng thời gian hợp lý. 03 ngày làm việc là khoảng thời gian tiêu chuẩn để nhà thầu xem xét và xác nhận đơn hàng.",
+        "explanation": "Căn cứ pháp lý: Khoản 3 Điều 104 Nghị định số 214/2025/NĐ-CP. Nhà thầu có trách nhiệm xác nhận hoặc từ chối đơn hàng trong thời hạn 03 ngày làm việc kể từ ngày nhận được yêu cầu.",
         "category": "Mua sắm đặc thù"
     },
     {
@@ -115,7 +116,7 @@ export const set31: Question[] = [
             "D": "Yêu cầu các nhà thầu này chào lại giá"
         },
         "correctAnswer": "B",
-        "explanation": "Đây là nguyên tắc xử lý tình huống 'bằng giá' trong các phiên đấu giá điện tử. Để khuyến khích nhà thầu chào giá sớm, hệ thống sẽ ưu tiên xếp hạng cho nhà thầu nào đưa ra mức giá thấp đó trước.",
+        "explanation": "Căn cứ pháp lý: Khoản 3 Điều 100 Nghị định số 214/2025/NĐ-CP. Trường hợp có nhiều nhà thầu cùng chào giá thấp nhất bằng nhau, nhà thầu chào giá đầu tiên thấp nhất sẽ được xếp hạng cao nhất (ưu tiên thời gian).",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -128,7 +129,7 @@ export const set31: Question[] = [
             "D": "05 ngày làm việc"
         },
         "correctAnswer": "B",
-        "explanation": "Để nhà thầu có đủ thời gian chuẩn bị cần thiết (về nhân sự, chiến lược giá) cho phiên chào giá, pháp luật quy định một khoảng thời gian tối thiểu từ khi gửi thông báo mời đến khi bắt đầu chào giá. Đối với quy trình thông thường, thời gian này là 03 ngày làm việc.",
+        "explanation": "Căn cứ pháp lý: Điểm b Khoản 5 Điều 101 Nghị định số 214/2025/NĐ-CP. Chủ đầu tư gửi thông báo mời tham gia chào giá trực tuyến đến các nhà thầu trong thời hạn tối thiểu 03 ngày làm việc trước ngày bắt đầu chào giá.",
         "category": "Đấu thầu qua mạng"
     }
 ];

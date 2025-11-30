@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { Question, UserAnswers } from '../types';
 import { CheckIcon, XIcon, ArrowUpIcon, ChevronLeftIcon, ChevronRightIcon } from './icons';
@@ -33,6 +32,7 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     const [showGoToTop, setShowGoToTop] = useState(false);
     const [isGridVisible, setIsGridVisible] = useState(false);
     const [selectedCategory, setSelectedCategory] = useState<string>('all');
+    const [showHint, setShowHint] = useState(false);
 
     const fullCategoryMapping = useMemo(() => {
         const assignedIds = new Set<number>();
@@ -65,6 +65,7 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
 
     useEffect(() => {
         setCurrentQuestionIndex(0);
+        setShowHint(false);
         // We do NOT reset userAnswers here so users can switch topics without losing progress
     }, [selectedCategory]);
 
@@ -94,6 +95,7 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     const handleJumpToQuestion = useCallback((index: number) => {
         if (index >= 0 && index < filteredQuestions.length && index !== currentQuestionIndex) {
             setIsFading(true);
+            setShowHint(false);
             setTimeout(() => {
                 setCurrentQuestionIndex(index);
                 setIsFading(false);
@@ -286,9 +288,19 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                                     );
                                 })}
                             </div>
-                            {isAnswered && (
-                                <div className="mt-6 p-4 bg-cyan-50/70 rounded-lg border border-cyan-200 animate-fade-in">
-                                   <p className="font-bold text-cyan-700">Lý giải:</p>
+                            
+                            <div className="mt-6 text-right">
+                                <button
+                                    onClick={() => setShowHint(!showHint)}
+                                    className="text-cyan-600 hover:text-cyan-800 font-semibold text-sm py-1 px-3 rounded-full bg-cyan-50 hover:bg-cyan-100 transition-all"
+                                >
+                                    {showHint ? 'Ẩn gợi ý' : 'Xem gợi ý'}
+                                </button>
+                            </div>
+
+                            {(isAnswered || showHint) && (
+                                <div className="mt-4 p-4 bg-cyan-50/70 rounded-lg border border-cyan-200 animate-fade-in">
+                                   <p className="font-bold text-cyan-700">{isAnswered ? 'Lý giải:' : 'Gợi ý:'}</p>
                                    <p className="text-slate-800 font-bold mb-1">Câu {currentQuestion.id}-{currentQuestion.correctAnswer}</p>
                                    <p className="text-slate-800">{currentQuestion.explanation}</p>
                                 </div>

@@ -12,7 +12,7 @@ export const set13: Question[] = [
             "D": "Nhà thầu đề xuất thay đổi nhà thầu phụ"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 68, khoản 6, điểm a của Luật Đấu thầu. Bảo đảm thực hiện hợp đồng nhằm đảm bảo nhà thầu sẽ thực hiện hợp đồng sau khi ký kết. Nếu nhà thầu từ chối thực hiện, họ sẽ bị tịch thu khoản bảo đảm này.",
+        "explanation": "Nhà thầu từ chối thực hiện hợp đồng khi hợp đồng đã có hiệu lực là vi phạm cơ bản, dẫn đến tịch thu bảo đảm thực hiện hợp đồng. Căn cứ: Điểm a Khoản 6 Điều 68 Luật Đấu thầu.",
         "category": "Hợp đồng"
     },
     {
@@ -25,7 +25,7 @@ export const set13: Question[] = [
             "D": "Nhà thầu được lựa chọn theo hình thức tự thực hiện"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 68, khoản 1 của Luật Đấu thầu. Bảo đảm thực hiện hợp đồng là biện pháp bắt buộc đối với nhà thầu được lựa chọn, trừ các trường hợp được miễn theo khoản 2. Các trường hợp B, C, D thuộc diện được miễn. Do đó, nhà thầu cung cấp dịch vụ phi tư vấn (A) là trường hợp phải áp dụng bảo đảm thực hiện hợp đồng.",
+        "explanation": "Căn cứ pháp lý: Khoản 2 Điều 68 Luật Đấu thầu. Nhà thầu tư vấn, tự thực hiện, chỉ định thầu quy trình rút gọn là các trường hợp không bắt buộc phải thực hiện biện pháp bảo đảm thực hiện hợp đồng. Nhà thầu cung cấp dịch vụ phi tư vấn bắt buộc phải thực hiện.",
         "category": "Hợp đồng"
     },
     {
@@ -38,7 +38,7 @@ export const set13: Question[] = [
             "D": "Tất cả các phương án trên."
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 65, khoản 1 của Luật Đấu thầu. Hồ sơ hợp đồng là một bộ tài liệu pháp lý ràng buộc các bên, bao gồm: Văn bản hợp đồng (A), các Phụ lục chi tiết (B), và Quyết định phê duyệt kết quả lựa chọn nhà thầu (C) là căn cứ pháp lý để ký hợp đồng.",
+        "explanation": "Hồ sơ hợp đồng là một bộ tài liệu pháp lý ràng buộc các bên, bao gồm: Văn bản hợp đồng, các Phụ lục chi tiết, Quyết định phê duyệt kết quả lựa chọn nhà thầu, Biên bản thương thảo, Hồ sơ dự thầu... Căn cứ: Điều 65 Luật Đấu thầu.",
         "category": "Hợp đồng"
     },
     {
@@ -51,7 +51,7 @@ export const set13: Question[] = [
             "D": "Được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 03 ngày làm việc kể từ thời điểm mở thầu"
         },
         "correctAnswer": "A",
-        "explanation": "Việc công khai thông tin đấu thầu, bao gồm cả biên bản mở thầu (đối với đấu thầu không qua mạng) là bắt buộc để đảm bảo tính minh bạch. Thời hạn đăng tải thông thường được quy định trong các văn bản hướng dẫn, và 24 giờ là một thời hạn hợp lý.",
+        "explanation": "Phải đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 24 giờ kể từ thời điểm mở thầu. Căn cứ: Điểm a Khoản 1 Điều 21 Nghị định 214/2025/NĐ-CP.",
         "category": "Kế hoạch và Quy trình LCNT"
     },
     {
@@ -64,7 +64,7 @@ export const set13: Question[] = [
             "D": "Phương án A và C đều đúng"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 70, khoản 5 của Luật Đấu thầu. Đây là hợp đồng theo đơn giá cố định. Việc thanh toán sẽ dựa trên khối lượng thực tế được nghiệm thu nhân với đơn giá cố định trong hợp đồng. Sự thay đổi khối lượng nằm trong phạm vi hợp đồng và không cần phải ký văn bản sửa đổi, miễn là không vượt giá gói thầu và các điều kiện khác đã được quy định.",
+        "explanation": "Đối với hợp đồng đơn giá cố định, nhà thầu được thanh toán theo số lượng thực tế nghiệm thu. Việc khối lượng thực tế ít hơn khối lượng hợp đồng (trong phạm vi sai số cho phép hoặc do nhu cầu thực tế giảm mà không thay đổi phạm vi công việc cơ bản) thì không cần phải ký văn bản sửa đổi hợp đồng mà chỉ cần thanh toán theo thực tế. Căn cứ: Khoản 5 Điều 114 Nghị định 214/2025/NĐ-CP.",
         "category": "Hợp đồng"
     },
     {
@@ -77,7 +77,7 @@ export const set13: Question[] = [
             "D": "Tăng, giảm thời gian đối với hợp đồng theo thời gian; tăng, giảm chi phí trực tiếp thực hiện đối với hợp đồng chi phí cộng phí; tăng, giảm giá trị cơ sở để tính phần trăm chi phí đối với hợp đồng theo tỷ lệ phần trăm; tăng, giảm mức giảm trừ thanh toán, mức tăng giá trị thanh toán đối với hợp đồng theo kết quả đầu ra"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 70, khoản 5, điểm c của Luật Đấu thầu. Đối với các loại hợp đồng có cơ chế điều chỉnh đã được quy định sẵn trong hợp đồng (như hợp đồng theo thời gian, hợp đồng theo chi phí cộng phí, hợp đồng theo kết quả đầu ra), việc thay đổi giá trị thanh toán dựa trên các yếu tố thực tế đã được quy định sẵn trong phương pháp, công thức của hợp đồng. Do đó, các bên không cần phải ký văn bản sửa đổi mỗi khi có sự thay đổi này.",
+        "explanation": "Các nội dung như tăng/giảm khối lượng theo đơn giá đã có, tăng/giảm thuế do chính sách nhà nước... thường được quy định là trường hợp điều chỉnh mặc nhiên hoặc theo quy định pháp luật, không cần thỏa thuận quy trình sửa đổi phức tạp. Căn cứ: Khoản 5 Điều 114 Nghị định 214/2025/NĐ-CP.",
         "category": "Hợp đồng"
     },
     {
@@ -90,7 +90,7 @@ export const set13: Question[] = [
             "D": "Hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu được phát hành ngay sau khi đăng tải thành công thông báo mời quan tâm, thông báo mời sơ tuyển, thông báo mời thầu"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 45, khoản 1, điểm c của Luật Đấu thầu. Để đảm bảo tính thống nhất và công khai, ngay sau khi thông báo mời thầu được đăng tải thành công, hệ thống sẽ tự động phát hành hồ sơ mời thầu tương ứng để nhà thầu có thể truy cập ngay lập tức.",
+        "explanation": "Hồ sơ mời thầu được phát hành ngay sau khi đăng tải thành công thông báo mời thầu trên Hệ thống mạng đấu thầu quốc gia. Căn cứ: Khoản 1 Điều 15 Nghị định 214/2025/NĐ-CP.",
         "category": "Kế hoạch và Quy trình LCNT"
     },
     {
@@ -103,7 +103,7 @@ export const set13: Question[] = [
             "D": "Đấu thầu trước là việc thực hiện trước một số thủ tục trước khi dự án, dự toán mua sắm được phê duyệt nhằm mục đích đẩy nhanh tiến độ thực hiện dự án, dự toán mua sắm, trừ gói thầu cần thực hiện trước khi phê duyệt dự án"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 42, khoản 1 của Luật Đấu thầu. 'Đấu thầu trước' là việc tổ chức lựa chọn nhà thầu cho gói thầu thuộc dự án trong giai đoạn lập báo cáo nghiên cứu khả thi hoặc các gói thầu cần thực hiện trước khi có quyết định phê duyệt dự án. Phương án A mô tả chính xác nhất khái niệm này, nhấn mạnh vào việc thực hiện trước khi có 'quyết định phê duyệt đầu tư'.",
+        "explanation": "Đấu thầu trước là việc thực hiện trước một số thủ tục trước khi dự án được phê duyệt đầu tư (hoặc trước khi ký điều ước quốc tế) nhằm đẩy nhanh tiến độ thực hiện dự án. Căn cứ: Khoản 1 Điều 42 Luật Đấu thầu.",
         "category": "Kế hoạch và Quy trình LCNT"
     },
     {
@@ -116,7 +116,7 @@ export const set13: Question[] = [
             "D": "Phê duyệt và công khai kết quả mua sắm trực tiếp"
         },
         "correctAnswer": "A",
-        "explanation": "Quy trình mua sắm trực tiếp được rút gọn. Chủ đầu tư chuẩn bị và gửi hồ sơ yêu cầu (bao gồm dự thảo hợp đồng) cho nhà thầu. Nhà thầu chuẩn bị hồ sơ đề xuất. Các bên thương thảo và hoàn thiện hợp đồng. Sau đó là các bước trình, phê duyệt và công khai kết quả. Bước 'thẩm định' hồ sơ yêu cầu một cách riêng biệt thường không có trong quy trình rút gọn này.",
+        "explanation": "Quy trình mua sắm trực tiếp được đơn giản hóa, không yêu cầu thẩm định hồ sơ yêu cầu (chỉ phê duyệt) và không thẩm định kết quả (chỉ phê duyệt). Căn cứ: Khoản 2 Điều 82 Nghị định 214/2025/NĐ-CP.",
         "category": "Kế hoạch và Quy trình LCNT"
     },
     {
@@ -129,7 +129,7 @@ export const set13: Question[] = [
             "D": "Hoàn thiện, ký kết và quản lý thực hiện hợp đồng"
         },
         "correctAnswer": "C",
-        "explanation": "Chào hàng cạnh tranh là một hình thức lựa chọn nhà thầu rút gọn. Để đơn giản hóa thủ tục, quy trình này thường không yêu cầu bước thẩm định kết quả lựa chọn nhà thầu một cách riêng biệt. Tổ chuyên gia sẽ trình trực tiếp kết quả đánh giá để chủ đầu tư phê duyệt.",
+        "explanation": "Chào hàng cạnh tranh không yêu cầu bước thẩm định kết quả lựa chọn nhà thầu trước khi phê duyệt. Căn cứ: Khoản 4 Điều 81 Nghị định 214/2025/NĐ-CP.",
         "category": "Kế hoạch và Quy trình LCNT"
     }
 ];

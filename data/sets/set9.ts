@@ -12,7 +12,7 @@ export const set9: Question[] = [
             "D": "Không thuộc hành vi bị cấm, không vi phạm quy định về bảo đảm cạnh tranh trong đấu thầu"
         },
         "correctAnswer": "D",
-        "explanation": "Luật Đấu thầu quy định về mối quan hệ giữa nhà thầu với chủ đầu tư, bên mời thầu, tư vấn... Mối quan hệ gia đình giữa hai nhà thầu độc lập tham dự cùng một gói thầu không phải là hành vi bị cấm, miễn là không có bằng chứng về sự thông thầu, dàn xếp. Cả hai nhà thầu vẫn được xem xét, đánh giá một cách bình thường.",
+        "explanation": "Trong đấu thầu rộng rãi, pháp luật không cấm người thân (anh em ruột) đại diện cho các nhà thầu khác nhau cùng tham dự. Luật chỉ cấm trong trường hợp \"Đấu thầu hạn chế\" (yêu cầu các nhà thầu tham dự phải độc lập với nhau về vốn). Do đó, trường hợp này không thuộc hành vi bị cấm và không vi phạm. Căn cứ: Khoản 4 Điều 6 Luật Đấu thầu.",
         "category": "Quy định chung"
     },
     {
@@ -25,7 +25,7 @@ export const set9: Question[] = [
             "D": "Năng lực, kinh nghiệm"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 5, khoản 1, điểm e của Luật Đấu thầu. Một trong các điều kiện để nhà thầu có tư cách hợp lệ là 'Không đang trong thời gian bị cấm tham dự thầu...'. Do đó, việc kiểm tra tình trạng bị cấm thầu là một phần của việc đánh giá tư cách hợp lệ.",
+        "explanation": "Việc nhà thầu không đang trong thời gian bị cấm tham dự thầu là một trong các điều kiện tiên quyết để xác định tư cách hợp lệ của nhà thầu. Căn cứ: Khoản 1 Điều 5 Luật Đấu thầu.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -38,7 +38,7 @@ export const set9: Question[] = [
             "D": "Nhà thầu đáp ứng các tiêu chuẩn đánh giá về năng lực và kinh nghiệm quan trọng trong hồ sơ mời thầu"
         },
         "correctAnswer": "A",
-        "explanation": "Phương pháp đánh giá năng lực và kinh nghiệm là 'đạt/không đạt'. Nhà thầu phải 'đạt' tất cả các yêu cầu tối thiểu đã được nêu trong hồ sơ mời thầu thì mới được xem xét ở các bước tiếp theo.",
+        "explanation": "Nhà thầu phải được đánh giá đạt tất cả nội dung yêu cầu về năng lực và kinh nghiệm (tài chính, kinh nghiệm, sản xuất...) thì mới được coi là ĐẠT ở bước này. Căn cứ: Điểm a Khoản 4 Điều 26 Nghị định 214/2025/NĐ-CP.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -51,7 +51,7 @@ export const set9: Question[] = [
             "D": "Không đánh giá về nhân sự chủ chốt và thiết bị chủ yếu"
         },
         "correctAnswer": "B",
-        "explanation": "Để đơn giản hóa và rút ngắn thời gian đánh giá, quy trình đấu thầu qua mạng thường cho phép chỉ xem xét, đánh giá chi tiết về nhân sự, thiết bị đối với nhà thầu xếp hạng thứ nhất. Nếu nhà thầu này đáp ứng, họ sẽ được mời vào thương thảo. Nếu không, mới xét đến nhà thầu tiếp theo.",
+        "explanation": "Đây là điểm mới quan trọng. Đối với gói thầu xây lắp đấu thầu rộng rãi, việc đánh giá chi tiết về nhân sự chủ chốt và thiết bị thi công chủ yếu chỉ thực hiện đối với nhà thầu xếp hạng thứ nhất (sau khi đã đánh giá tài chính). Ở bước đánh giá hồ sơ dự thầu ban đầu, nhà thầu chỉ cần cam kết. Căn cứ: Khoản 2 Điều 29 Nghị định 214/2025/NĐ-CP.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -64,7 +64,7 @@ export const set9: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 24, khoản 2 của Luật Đấu thầu. Luật quy định: 'Đối với gói thầu áp dụng chào hàng cạnh tranh, hồ sơ mời thầu không bắt buộc quy định tiêu chuẩn đánh giá về năng lực, kinh nghiệm của nhà thầu.' Thay vào đó, nhà thầu cam kết trong đơn dự thầu rằng mình có đủ năng lực nếu được yêu cầu. Đây là phương án hợp lý nhất.",
+        "explanation": "Đối với chào hàng cạnh tranh, hồ sơ mời thầu có thể không yêu cầu tiêu chuẩn năng lực kinh nghiệm. Khi đó, Bên mời thầu không phải đánh giá nội dung này nhưng nhà thầu phải cam kết trong đơn dự thầu là có đủ năng lực, kinh nghiệm để thực hiện gói thầu. Căn cứ: Khoản 1 Điều 81 Nghị định 214/2025/NĐ-CP.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -77,7 +77,7 @@ export const set9: Question[] = [
             "D": "Bắt buộc quy định trong hồ sơ mời thầu đối với gói thầu có giá trên 20 tỷ đồng"
         },
         "correctAnswer": "B",
-        "explanation": "Cam kết tín dụng chỉ là một trong nhiều cách để chứng minh năng lực tài chính. Nhà thầu có thể chứng minh bằng các nguồn lực tài chính khác như báo cáo tài chính, số dư tài khoản... Do đó, HSMT không bắt buộc phải yêu cầu cam kết tín dụng.",
+        "explanation": "Theo các mẫu hồ sơ mời thầu mới, việc chứng minh nguồn lực tài chính có thể bằng nhiều cách (số dư tài khoản, hạn mức tín dụng...). Do đó, không bắt buộc phải quy định cứng là \"phải bằng cam kết tín dụng\", nhà thầu có thể dùng các tài liệu tương đương khác. Căn cứ: Mẫu số 3A Thông tư 79/2025/TT-BTC.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -90,7 +90,7 @@ export const set9: Question[] = [
             "D": "Tất cả phương án trên đều sai"
         },
         "correctAnswer": "A",
-        "explanation": "Câu hỏi nêu rõ hàng hóa thuộc danh mục có tiêu chuẩn, định mức. Do đó, khi xét duyệt, giá của từng mặt hàng không được vượt định mức. Đồng thời, vì áp dụng phương pháp giá thấp nhất, tổng giá trị của các phần mà nhà thầu trúng thầu phải là thấp nhất và không vượt giá gói thầu.",
+        "explanation": "Đối với hàng hóa có tiêu chuẩn, định mức do cơ quan có thẩm quyền ban hành (như máy tính, xe ô tô, bàn ghế...), điều kiện tiên quyết để trúng thầu là giá đề nghị trúng thầu của từng hàng hóa không được vượt mức giá theo tiêu chuẩn, định mức, đồng thời tổng giá gói thầu không vượt giá gói thầu được duyệt. Căn cứ: Khoản 2 Điều 93 Nghị định 214/2025/NĐ-CP.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -103,7 +103,7 @@ export const set9: Question[] = [
             "D": "Phải bắt buộc cung cấp hợp đồng, hóa đơn mua hàng"
         },
         "correctAnswer": "B",
-        "explanation": "Để chứng minh khả năng huy động thiết bị, nhà thầu có thể sử dụng nhiều loại tài liệu khác nhau. Ví dụ, nếu thiết bị là của nhà thầu, họ cung cấp giấy đăng ký. Nếu là thiết bị đi thuê, họ cung cấp hợp đồng thuê. Do đó, nhà thầu chỉ cần cung cấp một trong các loại tài liệu hợp lệ để chứng minh quyền sử dụng thiết bị, không bắt buộc phải có tất cả.",
+        "explanation": "Theo hướng dẫn tại Mẫu E-HSMT, để chứng minh khả năng huy động thiết bị, nhà thầu chỉ cần cung cấp một trong các tài liệu (giấy đăng ký, hoặc hợp đồng thuê, hoặc hóa đơn...) để chứng minh quyền sở hữu hoặc quyền sử dụng, không bắt buộc phải nộp \"đầy đủ tất cả\" các loại giấy tờ cùng lúc. Căn cứ: Mẫu số 3A Thông tư 79/2025/TT-BTC.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -116,7 +116,7 @@ export const set9: Question[] = [
             "D": "Phương án A và C đều đúng"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 78, khoản 2 của Luật Đấu thầu. Tổ thẩm định có trách nhiệm thẩm định các nội dung như KHLCNT, HSMT, và kết quả lựa chọn nhà thầu. Danh sách xếp hạng nhà thầu là kết quả đánh giá của tổ chuyên gia, là cơ sở để trình phê duyệt kết quả lựa chọn nhà thầu, bản thân nó không phải là đối tượng phải thẩm định riêng.",
+        "explanation": "Theo quy định hiện hành, không tiến hành thẩm định danh sách xếp hạng nhà thầu. Chỉ thẩm định kết quả lựa chọn nhà thầu (hoặc danh sách đạt kỹ thuật đối với phương thức 2 túi hồ sơ). Căn cứ: Điểm g Khoản 1 Điều 136 Nghị định 214/2025/NĐ-CP.",
         "category": "Kế hoạch và Quy trình LCNT"
     },
     {
@@ -129,7 +129,7 @@ export const set9: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Khi chỉ có một nhà thầu nộp hồ sơ, chủ đầu tư có hai lựa chọn chính: (A) Mở thầu ngay và tiến hành đánh giá xem nhà thầu duy nhất đó có đáp ứng yêu cầu không. (B) Gia hạn thời điểm đóng thầu để tạo thêm cơ hội cho các nhà thầu khác tham gia, tăng tính cạnh tranh. Cả hai đều là các cách xử lý tình huống hợp lệ.",
+        "explanation": "Khi chỉ có 1 nhà thầu nộp hồ sơ, chủ đầu tư có 2 lựa chọn: (1) Xử lý tình huống bằng cách gia hạn thời điểm đóng thầu; hoặc (2) Mở thầu ngay để tiến hành đánh giá. Phương án A là một trong các cách xử lý đúng quy định và thường được áp dụng để đảm bảo tiến độ. Cả hai cách đều đúng quy định xử lý tình huống. Căn cứ: Khoản 5 Điều 140 Nghị định 214/2025/NĐ-CP.",
         "category": "Kế hoạch và Quy trình LCNT"
     }
 ];

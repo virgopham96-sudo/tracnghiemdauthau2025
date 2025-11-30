@@ -12,7 +12,7 @@ export const set11: Question[] = [
             "D": "Các phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 14, khoản 9, điểm a của Luật Đấu thầu. Theo quy định, nhà thầu rút hồ sơ dự thầu sau thời điểm đóng thầu sẽ không được hoàn trả bảo đảm dự thầu (Phương án A đúng). Đây là một hành vi vi phạm quy định về đấu thầu, do đó nhà thầu sẽ bị đánh giá là không đảm bảo uy tín khi tham dự các gói thầu sau này (Phương án B đúng). Khi nhà thầu đã rút hồ sơ, hồ sơ đó sẽ không còn giá trị để xem xét, đánh giá nữa (Phương án C đúng). Vì cả ba phương án đều là hệ quả của hành vi này, phương án D là đáp án đầy đủ nhất.",
+        "explanation": "Hành vi rút hồ sơ dự thầu sau thời điểm đóng thầu là vi phạm quy định. Nhà thầu sẽ chịu các chế tài: (1) Không được hoàn trả bảo đảm dự thầu; (2) Bị đánh giá về uy tín (công khai trên Hệ thống); (3) Hồ sơ dự thầu đó dĩ nhiên không được tiếp tục đánh giá. Căn cứ: Khoản 9 Điều 14 Luật Đấu thầu và Khoản 1 Điều 20 Nghị định 214/2025/NĐ-CP.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -25,7 +25,7 @@ export const set11: Question[] = [
             "D": "Doanh nghiệp C tham gia gói thầu có sử dụng vốn ngân sách nhà nước do đơn vị sự nghiệp công lập A là chủ đầu tư. Đơn vị sự nghiệp công lập A và Doanh nghiệp C đều là đơn vị do Sở X trực tiếp quản lý"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 6, khoản 2, điểm d của Luật Đấu thầu. Để đảm bảo cạnh tranh, nhà thầu tham dự thầu phải độc lập về pháp lý và tài chính với chủ đầu tư. Trong trường hợp này, Đơn vị sự nghiệp công lập A và Chi cục B (chủ đầu tư) đều do Sở Tài chính tỉnh X trực tiếp quản lý. Mối quan hệ này được xem là không đảm bảo tính độc lập, khách quan và có thể dẫn đến xung đột lợi ích, vi phạm quy định về bảo đảm cạnh tranh.",
+        "explanation": "Theo quy định về bảo đảm cạnh tranh, nhà thầu tham dự thầu phải độc lập về pháp lý và tài chính với Chủ đầu tư. Trường hợp B: Đơn vị sự nghiệp công lập A và Chi cục B (Chủ đầu tư) đều do Sở Tài chính trực tiếp quản lý. Đây là mối quan hệ \"cùng một cơ quan trực tiếp quản lý\". Đối với gói thầu của Chủ đầu tư là đơn vị hành chính (Chi cục), đơn vị sự nghiệp cùng cấp quản lý tham gia sẽ không đảm bảo tính độc lập. Căn cứ: Điểm a Khoản 4 Điều 6 Luật Đấu thầu.",
         "category": "Quy định chung"
     },
     {
@@ -38,7 +38,7 @@ export const set11: Question[] = [
             "D": "Phương án A và C đều đúng"
         },
         "correctAnswer": "A",
-        "explanation": "Mặc dù gói thầu chỉ có một hạng mục là 'hệ thống máy chủ', việc thực hiện hạng mục này có thể bao gồm nhiều công việc khác nhau như cung cấp phần cứng, cài đặt, cấu hình phần mềm, bảo hành, bảo trì... Các thành viên trong liên danh có thể phân chia các công việc này với nhau để cùng thực hiện gói thầu. Do đó, việc liên danh là được phép.",
+        "explanation": "Mặc dù gói thầu chỉ có 1 hạng mục, nhưng nếu hạng mục đó phức tạp và quá trình sản xuất/cung cấp có thể tách thành các công đoạn rõ ràng (ví dụ: phần cứng, phần mềm, tích hợp hệ thống...), nhà thầu vẫn được phép liên danh nếu phân chia công việc dựa trên các công việc thuộc quá trình sản xuất/cung cấp hạng mục đó. Căn cứ: Khoản 3 Điều 26 Nghị định 214/2025/NĐ-CP.",
         "category": "Quy định chung"
     },
     {
@@ -51,7 +51,7 @@ export const set11: Question[] = [
             "D": "Nhà thầu D được xét duyệt trúng thầu"
         },
         "correctAnswer": "B",
-        "explanation": "Trong trường hợp này, cần xét đến yếu tố ưu đãi. Các nhà thầu B, C, D cung cấp hàng hóa có chi phí sản xuất trong nước từ 25% trở lên nên được hưởng ưu đãi. Khi áp dụng phương pháp giá thấp nhất, giá dự thầu của các nhà thầu được hưởng ưu đãi sẽ được trừ đi một khoản tiền để so sánh, xếp hạng. Giả sử mức ưu đãi làm cho giá sau ưu đãi của nhà thầu B và C (cùng giá 100 tỷ) thấp hơn giá 95 tỷ của nhà thầu A. Giữa B và C, nhà thầu B là doanh nghiệp nhỏ và vừa do phụ nữ làm chủ nên sẽ được ưu tiên xếp hạng cao hơn. Do đó, nhà thầu B được xét duyệt trúng thầu.",
+        "explanation": "Nhà thầu D (60% nội địa) thuộc nhóm ưu đãi cao nhất nhưng giá cao. Nhà thầu A có giá thấp nhất nhưng tỷ lệ nội địa thấp nên khi cộng ưu đãi vào giá đánh giá sẽ cao lên. Giả sử sau khi tính toán ưu đãi, nhà thầu B và C có giá đánh giá ngang nhau và thấp nhất. Trong nhóm này, Nhà thầu B là doanh nghiệp nhỏ và vừa do phụ nữ làm chủ, nên theo quy định xử lý tình huống khi đánh giá ngang nhau, B được ưu tiên xếp hạng thứ nhất. Căn cứ: Khoản 18 Điều 140 Nghị định 214/2025/NĐ-CP.",
         "category": "Quy định chung"
     },
     {
@@ -64,7 +64,7 @@ export const set11: Question[] = [
             "D": "Chủ đầu tư coi là tình huống trong đấu thầu và xử lý trên cơ sở bảo đảm cạnh tranh, công bằng, minh bạch, hiệu quả kinh tế và trách nhiệm giải trình"
         },
         "correctAnswer": "B",
-        "explanation": "Nguyên tắc cơ bản của đấu thầu là tất cả hồ sơ dự thầu (bao gồm cả thư giảm giá) phải được nộp trước thời điểm đóng thầu. Bất kỳ tài liệu nào làm thay đổi giá dự thầu được nộp sau thời điểm đóng thầu đều không hợp lệ và không được chấp nhận để đảm bảo tính công bằng và minh bạch.",
+        "explanation": "Nguyên tắc tối thượng của mở thầu là: Chỉ mở và đánh giá những gì đã nộp trước thời điểm đóng thầu. Thư giảm giá nộp/bổ sung tại lễ mở thầu (sau thời điểm đóng thầu) là không hợp lệ và không được chấp nhận. Căn cứ: Khoản 4 Điều 28 Nghị định 214/2025/NĐ-CP.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -76,8 +76,8 @@ export const set11: Question[] = [
             "C": "Gói thầu dịch vụ tư vấn áp dụng hình thức đấu thầu rộng rãi được phép thương thảo về chi phí trong quá trình thương thảo hợp đồng",
             "D": "Không được phép thương thảo về chi phí trong quá trình thương thảo hợp đồng đối với tất cả các gói thầu, trừ trường hợp nhà thầu tự nguyện giảm giá"
         },
-        "correctAnswer": "D",
-        "explanation": "Theo nguyên tắc chung của đấu thầu, việc thương thảo hợp đồng không nhằm mục đích thay đổi đơn giá dự thầu của nhà thầu. Giá dự thầu là cố định. Việc thương thảo chỉ để làm rõ các nội dung trong hồ sơ dự thầu. Nhà thầu có thể tự nguyện giảm giá, nhưng bên mời thầu không được phép thương thảo để ép giảm giá. Các phương án A, B, C đều đề cập đến việc 'được phép thương thảo về chi phí', điều này không hoàn toàn chính xác theo nguyên tắc chung.",
+        "correctAnswer": "C",
+        "explanation": "Theo Luật Đấu thầu 2023, việc thương thảo về chi phí/giá bị hạn chế tối đa đối với các gói thầu hàng hóa, xây lắp (trừ trường hợp áp dụng phương pháp dựa trên kỹ thuật). Tuy nhiên, đối với gói thầu dịch vụ tư vấn, do tính chất đặc thù của chuyên gia và công việc, pháp luật vẫn cho phép thương thảo về các chi phí liên quan đến dịch vụ tư vấn (nhân sự, chi phí khác...). Căn cứ: Điểm đ Khoản 2 Điều 71 Nghị định 214/2025/NĐ-CP.",
         "category": "Hợp đồng"
     },
     {
@@ -90,7 +90,7 @@ export const set11: Question[] = [
             "D": "Phương án A và B đều sai"
         },
         "correctAnswer": "C",
-        "explanation": "Hợp đồng tương tự được xác định dựa trên tính chất và quy mô của công việc, không phụ thuộc vào loại hình của chủ đầu tư (công hay tư). Miễn là hợp đồng cung cấp thuốc có quy mô và chủng loại tương tự yêu cầu của hồ sơ mời thầu, nó đều được chấp nhận để chứng minh kinh nghiệm, dù là cung cấp cho bệnh viện tư nhân hay cơ sở kinh doanh thuốc.",
+        "explanation": "Hợp đồng tương tự là hợp đồng cung cấp hàng hóa có tính chất tương tự, không phân biệt chủ đầu tư là nhà nước hay tư nhân. Hợp đồng cung cấp cho bệnh viện tư hay cơ sở kinh doanh thuốc đều chứng minh được năng lực cung cấp của nhà thầu. Căn cứ: Mẫu hồ sơ mời thầu mua sắm hàng hóa (Thông tư 79).",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -102,8 +102,8 @@ export const set11: Question[] = [
             "C": "Được thay đổi nhân sự đã đề xuất trong E-HSDT trong trường hợp do thời gian đánh giá E-HSDT kéo dài hơn so với dự kiến trong kế hoạch lựa chọn nhà thầu hoặc vì lý do bất khả kháng mà các vị trí nhân sự chủ chốt do nhà thầu đã đề xuất không thể tham gia thực hiện hợp đồng",
             "D": "Phương án B và C đều đúng"
         },
-        "correctAnswer": "C",
-        "explanation": "Việc thay đổi nhân sự sau khi đã đề xuất là rất hạn chế. Tuy nhiên, pháp luật cho phép thay đổi trong các trường hợp khách quan, bất khả kháng (nhân sự qua đời, ốm đau, hoặc thời gian đánh giá thầu kéo dài khiến nhân sự không còn làm việc tại công ty...). Nhân sự thay thế phải có năng lực, kinh nghiệm tương đương hoặc cao hơn. Phương án B (không đáp ứng yêu cầu) là lý do để loại nhà thầu, không phải để thay đổi.",
+        "correctAnswer": "D",
+        "explanation": "Nhà thầu tư vấn được thay nhân sự chủ chốt trong 2 trường hợp chính: (1) Do thời gian đánh giá kéo dài hơn dự kiến hoặc lý do bất khả kháng (nhân sự ốm, chết, không thể tham gia); (2) Nhân sự đề xuất không đáp ứng yêu cầu (được thay thế 01 lần). Căn cứ: Điểm c Khoản 2 Điều 71 Nghị định 214/2025/NĐ-CP.",
         "category": "Hợp đồng"
     },
     {
@@ -116,7 +116,7 @@ export const set11: Question[] = [
             "D": "Đồng thời với việc yêu cầu nhà thầu bổ sung hợp đồng thay thế khác thì chủ đầu tư xem xét, điều chỉnh lại yêu cầu về hợp đồng tương tự trong hồ sơ mời thầu"
         },
         "correctAnswer": "B",
-        "explanation": "Đây là cách xử lý linh hoạt và phù hợp với đấu thầu qua mạng. Hồ sơ năng lực của nhà thầu được kê khai trên Hệ thống. Nếu tài liệu đính kèm trong E-HSDT có sai sót nhưng trên Hồ sơ năng lực có hợp đồng khác đáp ứng, chủ đầu tư có thể yêu cầu nhà thầu làm rõ và sử dụng hợp đồng đó để đánh giá. Nếu nhà thầu không có bất kỳ hợp đồng nào đáp ứng, họ sẽ bị loại.",
+        "explanation": "Nếu hợp đồng tương tự kê khai trong E-HSDT không đạt, Chủ đầu tư phải yêu cầu nhà thầu bổ sung, thay thế hợp đồng khác (nếu nhà thầu có) để đánh giá. Chỉ khi nhà thầu không bổ sung được hoặc bổ sung vẫn không đạt thì mới loại. Đây là quy định nhằm tạo điều kiện tối đa cho nhà thầu chứng minh năng lực thực. Căn cứ: Khoản 3 Điều 29 Nghị định 214/2025/NĐ-CP.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -129,7 +129,7 @@ export const set11: Question[] = [
             "D": "Tất cả phương án trên đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Bảo đảm dự thầu phải được phát hành sau khi hồ sơ mời thầu được ban hành, vì các điều kiện của bảo lãnh (giá trị, thời gian hiệu lực, bên thụ hưởng...) phải tuân thủ theo yêu cầu của HSMT. Việc ký bảo lãnh trước khi HSMT được phát hành cho thấy bảo lãnh không được lập căn cứ trên các yêu cầu chính thức của gói thầu, do đó là không hợp lệ.",
+        "explanation": "Bảo lãnh dự thầu phải được phát hành trên cơ sở Hồ sơ mời thầu đã công bố. Nếu ký trước khi có HSMT, bảo lãnh đó không có căn cứ pháp lý gắn với cuộc thầu và bị coi là không hợp lệ. Các trường hợp giá trị cao hơn, thời gian dài hơn là hợp lệ (tốt hơn yêu cầu). Căn cứ: Điểm d Khoản 3 Điều 26 Nghị định 214/2025/NĐ-CP.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     }
 ];

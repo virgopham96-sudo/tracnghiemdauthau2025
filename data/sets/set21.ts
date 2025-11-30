@@ -12,7 +12,7 @@ export const set21: Question[] = [
             "D": "Tất cả các đáp án trên đều không đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Khi hủy thầu, toàn bộ quá trình lựa chọn nhà thầu trước đó bị hủy bỏ. Nếu chủ đầu tư vẫn muốn thực hiện gói thầu, họ phải lập một kế hoạch lựa chọn nhà thầu hoàn toàn mới. Do đó, không có việc 'điều chỉnh' kế hoạch cũ. Phương án C là đúng vì không có kế hoạch cũ để điều chỉnh.",
+        "explanation": "Căn cứ pháp lý: Khoản 6 Điều 140 Nghị định số 214/2025/NĐ-CP. Nghị định quy định đối với trường hợp hủy thầu (theo khoản 1 Điều 17 Luật Đấu thầu) và xử lý tình huống không có nhà thầu tham dự, chủ đầu tư không phải điều chỉnh thời gian bắt đầu tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu đã duyệt (mặc dù thực tế thời gian thực hiện sẽ bị lùi lại do phải tổ chức lại).",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -25,7 +25,7 @@ export const set21: Question[] = [
             "D": "Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu kể từ khi ký kết hợp đồng"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 17, khoản 3 của Luật Đấu thầu. Luật quy định rất rõ ràng về khoảng thời gian có thể áp dụng biện pháp hủy thầu, bắt đầu từ khi phát hành hồ sơ và kết thúc ngay trước thời điểm hợp đồng hoặc thỏa thuận khung được ký kết.",
+        "explanation": "Căn cứ pháp lý: Khoản 3 Điều 17 Luật Đấu thầu. Luật định nghĩa thời gian thực hiện hủy thầu là từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu đến trước khi ký kết hợp đồng (hoặc thỏa thuận khung). Sau khi ký hợp đồng, việc chấm dứt sẽ tuân theo điều khoản hợp đồng, không gọi là hủy thầu nữa.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -38,7 +38,7 @@ export const set21: Question[] = [
             "D": "Tiếp tục xem xét, đánh giá E-HSDT của nhà thầu và yêu cầu nhà thầu thực hiện các thủ tục để mở khóa tài khoản trước khi phê duyệt kết quả lựa chọn nhà thầu"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 5, khoản 1, điểm e của Luật Đấu thầu. Một trong các điều kiện về tư cách hợp lệ của nhà thầu là 'Không đang trong thời gian bị cấm tham dự thầu...'. Việc bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia là một hình thức thể hiện của việc bị cấm thầu. Do đó, tại thời điểm đánh giá, nhà thầu này không còn đủ tư cách hợp lệ, và hồ sơ dự thầu của họ sẽ không được xem xét, đánh giá nữa.",
+        "explanation": "Căn cứ pháp lý: Khoản 32 Điều 140 Nghị định số 214/2025/NĐ-CP. Quy định xử lý tình huống nêu rõ: Đối với đấu thầu qua mạng, nếu trong quá trình đánh giá (chưa có kết quả) mà nhà thầu bị khóa tài khoản thì hồ sơ dự thầu của nhà thầu đó không được tiếp tục xem xét, đánh giá (tức là bị loại).",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -51,7 +51,7 @@ export const set21: Question[] = [
             "D": "Hủy thầu"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 17, khoản 1, điểm b của Luật Đấu thầu. Việc tăng giá gói thầu trên 30% và thay đổi tiêu chuẩn đánh giá quan trọng là những thay đổi cơ bản, làm cho hồ sơ mời thầu ban đầu không còn phù hợp. Để đảm bảo cạnh tranh và công bằng, việc hủy thầu để tổ chức lại theo các yêu cầu mới là bắt buộc.",
+        "explanation": "Căn cứ pháp lý: Khoản 29 Điều 140 Nghị định số 214/2025/NĐ-CP. Đối với gói thầu đấu thầu trước, nếu dự án được phê duyệt sau đó có nội dung làm tăng giá gói thầu từ 30% trở lên (hoặc thay đổi tiêu chuẩn kỹ thuật quan trọng, thay đổi cấp công trình) thì chủ đầu tư phải hủy thầu.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -64,7 +64,7 @@ export const set21: Question[] = [
             "D": "Đình chỉ cuộc thầu"
         },
         "correctAnswer": "A",
-        "explanation": "Khi nhà thầu trúng thầu vi phạm các trách nhiệm sau khi có kết quả (không ký hợp đồng, không nộp bảo đảm...), biện pháp xử lý đầu tiên là hủy bỏ quyết định phê duyệt kết quả lựa chọn nhà thầu đã ban hành cho nhà thầu đó. Sau đó, chủ đầu tư sẽ xem xét lựa chọn nhà thầu xếp hạng tiếp theo hoặc tổ chức đấu thầu lại.",
+        "explanation": "Căn cứ pháp lý: Điểm a Khoản 19 Điều 140 Nghị định số 214/2025/NĐ-CP. Khi nhà thầu trúng thầu không đến hoàn thiện/ký kết hợp đồng, chủ đầu tư xử lý bằng cách: Hủy quyết định phê duyệt kết quả lựa chọn nhà thầu trước đó, sau đó mời nhà thầu xếp hạng thứ hai vào hoàn thiện hợp đồng.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -77,7 +77,7 @@ export const set21: Question[] = [
             "D": "Khi một thành viên liên danh đề nghị chuyển nhượng phần việc để tiết kiệm chi phí"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 70, khoản 1 của Luật Đấu thầu. Việc điều chỉnh phạm vi công việc giữa các thành viên là một hình thức sửa đổi hợp đồng. Việc này chỉ được thực hiện khi có lý do chính đáng, khách quan, nhằm mục đích mang lại lợi ích cho gói thầu (như đẩy nhanh tiến độ) và phải được các bên (chủ đầu tư và các thành viên liên danh) thỏa thuận. Các phương án A, B, D đều là các lý do chủ quan, không hợp lệ để sửa đổi hợp đồng.",
+        "explanation": "Căn cứ pháp lý: Khoản 24 Điều 140 Nghị định số 214/2025/NĐ-CP. Chủ đầu tư và nhà thầu liên danh được thỏa thuận điều chỉnh phạm vi công việc giữa các thành viên trong trường hợp cần đẩy nhanh tiến độ thực hiện so với hợp đồng hoặc do điều kiện khách quan/bất khả kháng.",
         "category": "Hợp đồng"
     },
     {
@@ -90,7 +90,7 @@ export const set21: Question[] = [
             "D": "Có thể quy định nhưng phải được người có thẩm quyền chấp thuận"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 68, khoản 4 của Luật Đấu thầu. Luật quy định mức bảo đảm thực hiện hợp đồng là từ 2% đến 10% giá hợp đồng. Mặc dù có quy định cho phép tăng mức bảo đảm lên đến 30% trong trường hợp giá dự thầu thấp bất thường, nhưng mức 15% vẫn nằm ngoài khung quy định thông thường và không có cơ sở pháp lý để áp dụng trong trường hợp này.",
+        "explanation": "Căn cứ pháp lý: Điểm b Khoản 11 Điều 140 Nghị định số 214/2025/NĐ-CP. Chủ đầu tư chỉ được phép tăng bảo đảm thực hiện hợp đồng (lên mức >10% đến 30%) trong trường hợp giá dự thầu thấp khác thường hoặc đối với gói xây lắp/EC có giá dự thầu thấp hơn 80% giá gói thầu. Ở đây giá dự thầu là 85% (lớn hơn 80%), nên không thuộc trường hợp được phép tăng bảo đảm.",
         "category": "Hợp đồng"
     },
     {
@@ -103,7 +103,7 @@ export const set21: Question[] = [
             "D": "Mời nhà thầu xếp hạng tiếp theo vào hoàn thiện hợp đồng"
         },
         "correctAnswer": "A",
-        "explanation": "Đây là quy trình xử lý tiêu chuẩn trong đấu thầu. Nếu nhà thầu xếp hạng thứ nhất từ chối hoặc không đạt được thỏa thuận khi thương thảo hợp đồng, chủ đầu tư có quyền mời nhà thầu xếp hạng tiếp theo trong danh sách xếp hạng vào thương thảo.",
+        "explanation": "Căn cứ pháp lý: Khoản 16 Điều 140 Nghị định số 214/2025/NĐ-CP. Đối với gói thầu có bước thương thảo, nếu nhà thầu xếp hạng nhất không tiến hành thương thảo hoặc thương thảo không thành công, chủ đầu tư xem xét mời nhà thầu xếp hạng tiếp theo vào thương thảo.",
         "category": "Hợp đồng"
     },
     {
@@ -116,7 +116,7 @@ export const set21: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 68, khoản 4 của Luật Đấu thầu. Hồ sơ dự thầu không cân bằng tiềm ẩn rủi ro cho chủ đầu tư. Để xử lý, chủ đầu tư có quyền: Yêu cầu nhà thầu làm rõ bằng văn bản về các chi phí cấu thành giá dự thầu để đánh giá tính hợp lý (Phương án A). Yêu cầu một mức bảo đảm thực hiện hợp đồng cao hơn (tối đa 30%) để phòng ngừa rủi ro nhà thầu bỏ dở hợp đồng sau khi đã thực hiện xong các hạng mục có đơn giá cao (Phương án B). Do đó, cả hai biện pháp đều có thể được áp dụng.",
+        "explanation": "Căn cứ pháp lý: Khoản 12 Điều 140 Nghị định số 214/2025/NĐ-CP. Đối với hồ sơ dự thầu không cân bằng (đơn giá cao hạng mục dễ, thấp hạng mục khó), chủ đầu tư có thể: (1) Yêu cầu nhà thầu làm rõ chi phí; (2) Quy định giá trị bảo đảm thực hiện hợp đồng lớn hơn 10% (nhưng không quá 30%) để phòng ngừa rủi ro. Cả hai biện pháp này đều đúng.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -129,7 +129,7 @@ export const set21: Question[] = [
             "D": "Chỉ được kế thừa về năng lực của xí nghiệp X"
         },
         "correctAnswer": "B",
-        "explanation": "Theo quy định của pháp luật về doanh nghiệp liên quan đến chia, tách, hợp nhất, sáp nhập, pháp nhân mới sẽ kế thừa các quyền và nghĩa vụ của pháp nhân cũ. Điều này bao gồm cả việc kế thừa năng lực, kinh nghiệm (thể hiện qua các hợp đồng đã thực hiện, nhân sự, máy móc thiết bị...) của bộ phận được tách ra.",
+        "explanation": "Căn cứ pháp lý: Khoản 15 Điều 140 Nghị định số 214/2025/NĐ-CP. Quy định cho phép nhà thầu tiếp nhận hoặc hình thành từ chi nhánh, xí nghiệp được tách ra được kế thừa năng lực, kinh nghiệm mà xí nghiệp đó đã thực hiện.",
         "category": "Quy định chung"
     }
 ];

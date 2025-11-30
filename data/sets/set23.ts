@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set23: Question[] = [
@@ -11,7 +12,7 @@ export const set23: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Thời gian áp dụng mua sắm tập trung được xác định bởi thời hạn hiệu lực của kết quả lựa chọn nhà thầu. Thời hạn này có thể được quy định trong thỏa thuận khung (A) hoặc được tính từ ngày kết quả được công khai trên hệ thống (B), thường là 24 tháng. Cả hai phương án đều mô tả các cách xác định thời gian hợp lệ.",
+        "explanation": "Căn cứ pháp lý: Khoản 2 Điều 103 Nghị định số 214/2025/NĐ-CP. Thời gian áp dụng mua sắm trực tuyến là thời gian thực hiện hợp đồng/thỏa thuận khung (nhưng không quá 24 tháng). Nếu hợp đồng chưa công khai thì tính 24 tháng từ ngày đăng kết quả. Cả phương án A và B đều phản ánh đúng quy định này.",
         "category": "Mua sắm đặc thù"
     },
     {
@@ -24,7 +25,7 @@ export const set23: Question[] = [
             "D": "Tất cả các phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 50, khoản 2 của Luật Đấu thầu. Toàn bộ quy trình đấu thầu qua mạng, từ việc lập, trình, phê duyệt HSMT (A, B) đến phê duyệt kết quả lựa chọn nhà thầu (C) đều phải được thực hiện thông qua các chức năng của Hệ thống.",
+        "explanation": "Căn cứ pháp lý: Khoản 2 Điều 50 Luật Đấu thầu. Luật quy định toàn bộ quy trình từ Lập E-HSMT, Trình/Phê duyệt E-HSMT, đến Phê duyệt kết quả lựa chọn nhà thầu đều được thực hiện trên Hệ thống mạng đấu thầu quốc gia.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -37,7 +38,7 @@ export const set23: Question[] = [
             "D": "Do Chủ đầu tư thực hiện trên Hệ thống mạng đấu thầu quốc gia"
         },
         "correctAnswer": "D",
-        "explanation": "Chủ đầu tư là người chịu trách nhiệm cuối cùng về nội dung của hồ sơ mời thầu và các thông tin cung cấp cho nhà thầu. Do đó, việc trả lời các yêu cầu làm rõ E-HSMT phải được thực hiện bởi tài khoản của chủ đầu tư trên Hệ thống để đảm bảo tính pháp lý và trách nhiệm.",
+        "explanation": "Căn cứ pháp lý: Khoản 1a Điều 78 Luật Đấu thầu và Khoản 3 Điều 28 Nghị định số 214/2025/NĐ-CP (quy chiếu cho qua mạng tại Điều 98). Việc trả lời làm rõ E-HSMT là trách nhiệm của Chủ đầu tư và phải được thực hiện trên Hệ thống mạng đấu thầu quốc gia.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -50,7 +51,7 @@ export const set23: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Khi sửa đổi E-HSMT, chủ đầu tư phải đăng tải Quyết định sửa đổi (A) để làm rõ căn cứ pháp lý và nội dung sửa đổi. Đồng thời, phải đăng tải bộ E-HSMT đã được cập nhật, sửa đổi (B) để nhà thầu có cơ sở chuẩn bị lại hồ sơ dự thầu.",
+        "explanation": "Căn cứ pháp lý: Điểm b Khoản 2 Điều 28 Nghị định số 214/2025/NĐ-CP. Khi sửa đổi hồ sơ mời thầu, phải đăng tải: (1) Quyết định sửa đổi (kèm nội dung sửa đổi) và (2) Hồ sơ mời thầu đã được sửa đổi. Do đó, cả A và B đều đúng.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -63,7 +64,7 @@ export const set23: Question[] = [
             "D": "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 100 triệu đồng"
         },
         "correctAnswer": "A",
-        "explanation": "Đây là quy định nhằm đơn giản hóa thủ tục đối với các gói thầu có giá trị bảo đảm dự thầu nhỏ. Theo quy định hiện hành, đối với các gói thầu có giá trị bảo đảm dự thầu không quá 50 triệu đồng, nhà thầu có thể lựa chọn hình thức cam kết trong đơn dự thầu điện tử thay vì phải nộp thư bảo lãnh của ngân hàng. 40 triệu đồng nằm trong ngưỡng này.",
+        "explanation": "Căn cứ pháp lý: Thực tế áp dụng trên Hệ thống và quy định linh hoạt cho gói thầu nhỏ. Đối với các gói thầu có giá trị bảo đảm dự thầu dưới 50 triệu đồng, nhà thầu được phép cam kết trong đơn dự thầu mà không cần đính kèm thư bảo lãnh ngay khi nộp thầu (sẽ nộp khi đối chiếu). Trong các đáp án, chỉ có \"40 triệu đồng\" là dưới 50 triệu.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -76,7 +77,7 @@ export const set23: Question[] = [
             "D": "Gửi cho Đơn vị tư vấn đấu thầu đánh giá E-HSDT"
         },
         "correctAnswer": "B",
-        "explanation": "Trong đấu thầu qua mạng, nhà thầu chỉ cần nộp bản scan của thư bảo lãnh cùng E-HSDT. Bản gốc sẽ được yêu cầu nộp để đối chiếu khi nhà thầu được mời đến thương thảo hợp đồng hoặc đối chiếu tài liệu (sau khi được xếp hạng thứ nhất).",
+        "explanation": "Căn cứ pháp lý: Thực tế quy trình đấu thầu qua mạng (hướng dẫn tại Thông tư 79). Trong đấu thầu qua mạng, nhà thầu nộp bản scan khi dự thầu. Bản gốc thư bảo lãnh chỉ phải nộp cho Chủ đầu tư khi nhà thầu được mời vào đối chiếu tài liệu (nếu nhà thầu xếp hạng nhất).",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -89,7 +90,7 @@ export const set23: Question[] = [
             "D": "Chủ đầu tư phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu."
         },
         "correctAnswer": "D",
-        "explanation": "Trong đấu thầu qua mạng, mặc dù hệ thống có thể hỗ trợ, nhưng trách nhiệm pháp lý của việc mở thầu và công khai biên bản mở thầu vẫn thuộc về chủ đầu tư (hoặc bên mời thầu được ủy quyền). Thời hạn để thực hiện và công khai là không quá 02 giờ kể từ thời điểm đóng thầu để đảm bảo tính kịp thời và minh bạch.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 29 Thông tư số 79/2025/TT-BTC. Chủ đầu tư phải tiến hành mở thầu và công khai biên bản trên Hệ thống trong thời hạn 02 giờ kể từ thời điểm đóng thầu.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -102,7 +103,7 @@ export const set23: Question[] = [
             "D": "Nhà thầu bị cấm tham gia hoạt động đấu thầu do có hành vi gian lận"
         },
         "correctAnswer": "C",
-        "explanation": "Việc bị khóa tài khoản đồng nghĩa với việc nhà thầu không đủ tư cách hợp lệ tại thời điểm đánh giá. Do đó, hồ sơ dự thầu của họ sẽ bị loại ngay từ bước đánh giá tính hợp lệ.",
+        "explanation": "Căn cứ pháp lý: Khoản 32 Điều 140 Nghị định số 214/2025/NĐ-CP. Nếu nhà thầu bị khóa tài khoản trong quá trình đánh giá (trước khi có kết quả), hồ sơ dự thầu của nhà thầu đó không được tiếp tục xem xét, đánh giá (bị loại).",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -115,7 +116,7 @@ export const set23: Question[] = [
             "D": "Chủ đầu tư không được phép mở thầu khi chỉ có 01 nhà thầu tham dự"
         },
         "correctAnswer": "C",
-        "explanation": "Trước thời điểm đóng thầu, nhà thầu có quyền rút, sửa, nộp lại E-HSDT. Tuy nhiên, sau thời điểm đóng thầu, tất cả các E-HSDT đã nộp đều bị 'khóa' trên hệ thống và nhà thầu không thể thực hiện bất kỳ thao tác nào (rút, sửa) đối với hồ sơ của mình nữa.",
+        "explanation": "Căn cứ pháp lý: Khoản 5 Điều 51 Luật Đấu thầu và quy định kỹ thuật của Hệ thống. Sau thời điểm đóng thầu, Hệ thống không cho phép nhà thầu rút lại hồ sơ dự thầu đã nộp.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -128,7 +129,7 @@ export const set23: Question[] = [
             "D": "Các đáp án trên đều sai"
         },
         "correctAnswer": "A",
-        "explanation": "Đây là cơ chế tự động của Hệ thống để đảm bảo quyền lợi cho nhà thầu. Nếu hệ thống gặp sự cố khiến nhà thầu không thể nộp thầu, thời điểm đóng thầu của tất cả các gói thầu bị ảnh hưởng (có thời điểm đóng thầu trong khoảng thời gian sự cố cộng thêm một khoảng đệm an toàn là 02 giờ) sẽ được tự động gia hạn.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 6 Thông tư số 79/2025/TT-BTC. Hệ thống tự động gia hạn đóng thầu cho các gói thầu có thời điểm đóng thầu nằm trong khoảng thời gian từ khi gặp sự cố đến 02 giờ sau khi khắc phục xong.",
         "category": "Đấu thầu qua mạng"
     }
 ];

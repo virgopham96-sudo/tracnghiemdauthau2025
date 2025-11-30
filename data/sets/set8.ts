@@ -11,8 +11,8 @@ export const set8: Question[] = [
             "C": "Lao động phổ thông",
             "D": "Phương án A và C đều đúng"
         },
-        "correctAnswer": "D",
-        "explanation": "Trong đấu thầu quốc tế, để bảo hộ lao động trong nước và tận dụng cơ hội học hỏi, hồ sơ mời thầu thường yêu cầu nhà thầu nước ngoài phải ưu tiên sử dụng lao động địa phương cho những vị trí mà họ có thể đáp ứng được (A), đặc biệt là các vị trí lao động phổ thông (C). Do đó, cả A và C đều là các trường hợp phổ biến.",
+        "correctAnswer": "A",
+        "explanation": "Để bảo vệ lao động trong nước, Luật quy định đấu thầu quốc tế phải yêu cầu sử dụng lao động trong nước đối với những vị trí công việc mà lao động trong nước đáp ứng được và có khả năng cung cấp (đặc biệt là lao động phổ thông). Căn cứ: Khoản 10 Điều 26 Nghị định 214/2025/NĐ-CP.",
         "category": "Mua sắm đặc thù"
     },
     {
@@ -25,7 +25,7 @@ export const set8: Question[] = [
             "D": "Yêu cầu nhà thầu bổ sung hàng hóa theo đúng xuất xứ thuộc nhóm nước, vùng lãnh thổ theo yêu cầu hồ sơ mời thầu, không phải đáp ứng cùng ký mã hiệu, nhãn hiệu với hàng hóa nhà thầu đã đề xuất trong hồ sơ dự thầu"
         },
         "correctAnswer": "B",
-        "explanation": "Theo chính sách ưu đãi hàng hóa sản xuất trong nước, ngay cả khi hồ sơ mời thầu có yêu cầu về xuất xứ từ một nhóm nước cụ thể, hàng hóa có xuất xứ Việt Nam vẫn được xem xét, đánh giá. Hàng hóa này không bị loại và có thể được hưởng ưu đãi khi so sánh, xếp hạng nếu đáp ứng các điều kiện khác về kỹ thuật.",
+        "explanation": "Quy định về nhóm nước (ví dụ G7, EU...) là để đảm bảo chất lượng cao. Tuy nhiên, nếu hàng hóa có xuất xứ Việt Nam đáp ứng yêu cầu kỹ thuật thì vẫn được xem xét, đánh giá (để khuyến khích hàng trong nước), ngay cả khi hồ sơ mời thầu không liệt kê \"Việt Nam\" trong nhóm nước đó. Căn cứ: Điểm b Khoản 9 Điều 26 Nghị định 214/2025/NĐ-CP.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -35,10 +35,10 @@ export const set8: Question[] = [
             "A": "Quy định hàng hóa thuộc cùng lĩnh vực tổng quát với máy điều hòa (thiết bị điện...)",
             "B": "Chỉ quy định hàng hóa có cùng mã Chương, mã Nhóm (tương ứng với 4 số đầu tiên của bộ mã) trong Hệ thống mã HS với mã HS của máy điều hòa",
             "C": "Được quy định hàng hóa thuộc cùng chủng loại hoặc hàng hóa có cùng mã Chương, mã Nhóm (tương ứng với 4 số đầu tiên của bộ mã) trong Hệ thống mã HS với mã HS của máy điều hòa",
-            "D": "Tất cả đáp án trên đều đúng"
+            "D": "Cả 2 phương án B và C đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Việc xác định tính chất tương tự của hợp đồng phụ thuộc vào quyết định của chủ đầu tư dựa trên tính chất của gói thầu. Chủ đầu tư có thể quy định một cách rộng (cùng lĩnh vực), cụ thể (cùng mã HS), hoặc kết hợp cả hai. Do tất cả các phương án A, B, C đều là những cách hợp lệ để xác định tính tương tự tùy theo mức độ cạnh tranh mong muốn.",
+        "explanation": "Hàng hóa tương tự có thể được hiểu theo 2 cách linh hoạt: (1) Có cùng lĩnh vực tổng quát (ví dụ cùng là thiết bị điện tử); hoặc (2) Có cùng mã Chương, mã Nhóm (4 số đầu mã HS). Nhà thầu đáp ứng một trong hai tiêu chí này đều được chấp nhận. Căn cứ: Ghi chú trong Mẫu số 4A Thông tư 79/2025/TT-BTC.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -51,7 +51,7 @@ export const set8: Question[] = [
             "D": "Tất cả đáp án trên đều sai"
         },
         "correctAnswer": "A",
-        "explanation": "Uy tín của nhà thầu là một tiêu chí thuộc về đánh giá năng lực và kinh nghiệm, không phải là một tiêu chuẩn đánh giá về kỹ thuật của giải pháp, phương pháp luận mà nhà thầu đề xuất cho gói thầu. Các tiêu chuẩn kỹ thuật tập trung vào cách thức thực hiện dịch vụ.",
+        "explanation": "Nội dung \"Nhà thầu bị đánh giá về uy tín trong việc tham dự thầu\" (ví dụ: bỏ thầu, không ký hợp đồng...) thường được sử dụng để yêu cầu tăng giá trị bảo đảm dự thầu ở các gói thầu sau, hoặc đánh giá ở bước kỹ thuật của gói thầu Tư vấn. Đối với gói thầu Phi tư vấn, nội dung này không nằm trong bảng tiêu chuẩn đánh giá kỹ thuật thông thường (mà xử lý ở phần bảo đảm dự thầu hoặc tư cách hợp lệ/uy tín chung). Căn cứ: Khoản 2 Điều 20 Nghị định 214/2025/NĐ-CP.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -63,8 +63,8 @@ export const set8: Question[] = [
             "C": "Không được quy định uy tín của nhà thầu thông qua việc tham dự thầu trong tiêu chuẩn đánh giá về kỹ thuật",
             "D": "Hợp đồng tương tự được xác định trên cơ sở tương tự cả về tính chất và quy mô (giá trị hợp đồng)"
         },
-        "correctAnswer": "A",
-        "explanation": "Đối với một số gói thầu tư vấn đặc thù, đặc biệt là các gói thầu không phức tạp hoặc yêu cầu sự sáng tạo cao, chủ đầu tư có thể quyết định không đặt nặng tiêu chuẩn về kinh nghiệm và năng lực chung của công ty trong phần đánh giá kỹ thuật. Thay vào đó, việc đánh giá sẽ tập trung chủ yếu vào giải pháp kỹ thuật và năng lực của các chuyên gia được đề xuất.",
+        "correctAnswer": "D",
+        "explanation": "Đối với gói thầu tư vấn, hợp đồng tương tự được đánh giá dựa trên sự tương tự về tính chất (loại dịch vụ tư vấn) và quy mô (giá trị hợp đồng). Căn cứ: Mẫu số 6A Thông tư 79/2025/TT-BTC.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -76,8 +76,8 @@ export const set8: Question[] = [
             "C": "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp III, có giá trị tối thiểu là 50% x (2X) VND",
             "D": "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp III, có giá trị tối thiểu là 50% x (2X) VND, trong đó phải bao gồm hạng mục hàng rào bảo vệ, nhà bảo vệ"
         },
-        "correctAnswer": "A",
-        "explanation": "Nguyên tắc xác định công trình tương tự là phải tương tự về cấp công trình và quy mô. Gói thầu đang xét có công trình chính là Nhà A1, cấp II. Do đó, yêu cầu về công trình tương tự phải là công trình cấp II. Về quy mô, yêu cầu giá trị tối thiểu bằng 50% giá trị của công trình chính (Nhà A1) là hợp lý. Các phương án khác sai về cấp công trình (C, D) hoặc yêu cầu không cần thiết (B).",
+        "correctAnswer": "C",
+        "explanation": "Khi gói thầu gồm nhiều hạng mục công trình với các cấp khác nhau, hợp đồng tương tự thường được yêu cầu là công trình có cấp công trình tương đương với cấp của hạng mục chính/cao nhất hoặc quy định linh hoạt để tăng tính cạnh tranh. Tuy nhiên, theo hướng dẫn của Thông tư 79/2025/TT-BTC (Mẫu 3A), trường hợp gói thầu gồm tổ hợp nhiều công trình, E-HSMT có thể yêu cầu công trình tương tự có cấp thấp hơn (cấp III) nhưng giá trị phải đảm bảo tương ứng (ví dụ 50% giá trị gói thầu hoặc giá trị hạng mục chính). Đáp án C (cấp III) là phù hợp để không hạn chế nhà thầu quá mức khi trong gói có cả hạng mục cấp III và II, miễn là giá trị đáp ứng.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -90,7 +90,7 @@ export const set8: Question[] = [
             "D": "Chỉ cần yêu cầu nhà thầu cam kết đáp ứng yêu cầu về kỹ thuật"
         },
         "correctAnswer": "A",
-        "explanation": "Chào hàng cạnh tranh là hình thức lựa chọn nhà thầu đơn giản, áp dụng cho các gói thầu có yêu cầu kỹ thuật không phức tạp. Do đó, phương pháp đánh giá kỹ thuật thường là 'đạt' hoặc 'không đạt' theo các yêu cầu cơ bản đã nêu trong hồ sơ yêu cầu.",
+        "explanation": "Chào hàng cạnh tranh áp dụng cho hàng hóa/dịch vụ thông dụng, đơn giản. Do đó, tiêu chuẩn đánh giá kỹ thuật phải sử dụng phương pháp \"đạt/không đạt\", không sử dụng phương pháp chấm điểm (phức tạp). Căn cứ: Điểm a Khoản 2 Điều 81 Nghị định 214/2025/NĐ-CP.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -102,8 +102,8 @@ export const set8: Question[] = [
             "C": "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 05 tỷ đồng",
             "D": "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 07 tỷ đồng"
         },
-        "correctAnswer": "B",
-        "explanation": "Tổng giá trị của các hàng hóa có cùng mã HS 9035 là 10 tỷ đồng. Yêu cầu về giá trị hợp đồng tương tự thường được đặt ở một mức hợp lý để vừa đảm bảo nhà thầu có kinh nghiệm, vừa không quá hạn chế cạnh tranh. Mức 30% của tổng giá trị (tức là 3 tỷ đồng) là một yêu cầu phổ biến và phù hợp.",
+        "correctAnswer": "C",
+        "explanation": "Tổng giá trị của các hàng hóa có cùng mã HS 9035 là 10 tỷ đồng. Yêu cầu về giá trị hợp đồng tương tự thông thường là 50% giá gói thầu. Vậy yêu cầu hợp đồng tương tự có giá trị tối thiểu 05 tỷ đồng là phù hợp. Căn cứ: Mẫu số 4A Thông tư 79/2025/TT-BTC.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -116,7 +116,7 @@ export const set8: Question[] = [
             "D": "Có giá trị tối thiểu bằng 50% giá gói thầu"
         },
         "correctAnswer": "C",
-        "explanation": "Đối với các gói thầu có tính chất lặp lại theo chu kỳ nhiều năm, yêu cầu về kinh nghiệm (hợp đồng tương tự) thường được tính trên cơ sở quy mô của một chu kỳ (thường là 1 năm) để không gây hạn chế cạnh tranh, cho phép các nhà thầu có quy mô nhỏ hơn tham gia. Tỷ lệ 50% là một tỷ lệ phổ biến.",
+        "explanation": "Theo quy định mới tại Thông tư 79/2025/TT-BTC (Mẫu E-HSMT), đối với gói thầu thực hiện trong nhiều năm, quy mô hợp đồng tương tự được xác định bằng 50% giá trị của phần công việc thực hiện trong năm có giá trị cao nhất (hoặc hiểu đơn giản là theo chu kỳ 1 năm nếu giá trị phân bổ đều), không bắt buộc phải bằng 50% tổng giá trị gói thầu của cả 2 năm.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -129,7 +129,7 @@ export const set8: Question[] = [
             "D": "Nhà thầu được ký kết hợp đồng với các nhà thầu phụ được chủ đầu tư chấp thuận để tham gia thực hiện cung cấp dịch vụ liên quan"
         },
         "correctAnswer": "A",
-        "explanation": "Pháp luật về đấu thầu không yêu cầu chủ đầu tư phải ấn định trước một tỷ lệ phần trăm (%) giá trị công việc dành cho nhà thầu phụ. Việc đề xuất sử dụng nhà thầu phụ và phạm vi công việc của họ là do nhà thầu chính quyết định và trình chủ đầu tư xem xét, chấp thuận. Do đó, việc chủ đầu tư phải ghi tỷ lệ % trong E-BDL là không phù hợp.",
+        "explanation": "Đối với gói thầu mua sắm hàng hóa, chủ đầu tư không được ấn định tỷ lệ % giá trị dành cho nhà thầu phụ. Việc sử dụng thầu phụ là do nhà thầu đề xuất dựa trên nhu cầu thực tế (thường là cho các dịch vụ liên quan như vận chuyển, lắp đặt). Quy định \"Chủ đầu tư phải ghi tỷ lệ %...\" là sai và chỉ áp dụng cho gói thầu xây lắp/hỗn hợp. Căn cứ: Mẫu số 4A Thông tư 79/2025/TT-BTC.",
         "category": "Quy định chung"
     }
 ];

@@ -12,7 +12,7 @@ export const set12: Question[] = [
             "D": "2019, 2020, 2021"
         },
         "correctAnswer": "B",
-        "explanation": "Thời điểm đóng thầu là 20/3/2025. Yêu cầu nộp báo cáo tài chính của 03 năm gần nhất. Năm tài chính gần nhất đã có báo cáo đầy đủ trước thời điểm đóng thầu là năm 2024. Tuy nhiên, tại thời điểm tháng 3/2025, báo cáo tài chính năm 2024 có thể chưa được kiểm toán và phát hành chính thức. Do đó, 03 năm gần nhất có báo cáo tài chính hoàn chỉnh thường được tính là 2023, 2022, và 2021.",
+        "explanation": "Đóng thầu ngày 20/3/2025. Hạn nộp quyết toán thuế năm 2024 thường là 31/3/2025. Do đó tại thời điểm đóng thầu, báo cáo tài chính năm 2024 chưa bắt buộc phải hoàn thành. Vì vậy, 3 năm tài chính gần nhất có báo cáo đầy đủ thường là 2023, 2022, và 2021.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -25,7 +25,7 @@ export const set12: Question[] = [
             "D": "Nhà thầu có 1 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ là 60 tỷ đồng"
         },
         "correctAnswer": "A",
-        "explanation": "Nguyên tắc xét tương tự cho phép công trình cấp thấp hơn được xem xét nếu có quy mô (giá trị) lớn hơn. Yêu cầu của HSMT là công trình cấp II, giá trị 60 tỷ. Yêu cầu về giá trị hợp đồng tương tự thường là 50% hoặc 70% giá trị gói thầu (tức là 30-42 tỷ). Nhà thầu A có một công trình cấp III với giá trị 50 tỷ, đáp ứng cả về quy mô và thể hiện năng lực thực hiện dự án lớn, do đó được coi là tương tự.",
+        "explanation": "Theo hướng dẫn mới tại Thông tư 79, nhà thầu có thể sử dụng 02 công trình có cấp thấp hơn liền kề với cấp của công trình đang xét (cấp III so với cấp II), với điều kiện giá trị mỗi công trình cấp thấp hơn này phải bằng hoặc lớn hơn 50% giá trị công trình đang xét (>= 30 tỷ đồng). Trong trường hợp A, nhà thầu có 2 công trình cấp III giá trị 30 tỷ và 50 tỷ, cả hai đều >= 30 tỷ, nên được đánh giá là tương tự 01 công trình cấp II giá trị 30 tỷ. Căn cứ: Mẫu số 3A Thông tư 79/2025/TT-BTC.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -38,7 +38,7 @@ export const set12: Question[] = [
             "D": "Tất cả đáp án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Yêu cầu hợp đồng tương tự là 30% giá gói thầu, tức là 300 triệu đồng. Giá trị của hợp đồng tương tự có thể được tính bằng tổng giá trị các hợp đồng đã thực hiện (đã hoàn thành hoặc đã nghiệm thu phần công việc). Trong phương án A, tổng giá trị nghiệm thu là 350 triệu. Trong B, giá trị là 300 triệu. Trong C, tổng giá trị nghiệm thu là 500 triệu. Tất cả các trường hợp đều đáp ứng yêu cầu, do đó D là đáp án đúng.",
+        "explanation": "Giá trị hợp đồng tương tự được tính bằng tổng giá trị các phần công việc đã thực hiện và được nghiệm thu của các hợp đồng (kể cả hợp đồng đang thực hiện chưa kết thúc). Yêu cầu là 30% x 1 tỷ = 300 triệu.\n- A: Tổng nghiệm thu = 100 + 250 = 350 > 300 (Đạt).\n- B: 300 (Đạt).\n- C: 400 (phần nghiệm thu) > 300 (Đạt). Căn cứ: Mẫu số 5A Thông tư 79/2025/TT-BTC.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -51,7 +51,7 @@ export const set12: Question[] = [
             "D": "Phương án A và B đều không đáp ứng về giá trị hợp đồng tương tự"
         },
         "correctAnswer": "A",
-        "explanation": "Yêu cầu hợp đồng tương tự là 50% giá gói thầu, tức là 1,5 tỷ đồng. Thông thường, yêu cầu này áp dụng cho một hợp đồng duy nhất. Trong phương án A, nhà thầu cung cấp 2 hợp đồng riêng lẻ, và không có hợp đồng nào có giá trị đạt 1,5 tỷ đồng. Do đó, nhà thầu không đáp ứng yêu cầu.",
+        "explanation": "Yêu cầu hợp đồng tương tự là 50% giá gói thầu, tức là 1,5 tỷ đồng. Thông thường, yêu cầu này áp dụng cho quy mô của một hợp đồng duy nhất hoặc tổng các hợp đồng nhưng phải đảm bảo tính tương tự của từng phần. Phương án A có tổng giá trị các hợp đồng là 400 + 100 + 1000 = 1.5 tỷ, tuy nhiên việc phân tán nhỏ lẻ (đặc biệt là 8415) có thể khiến việc đánh giá không đạt về quy mô hợp đồng điển hình. Căn cứ: Mẫu số 4A Thông tư 79/2025/TT-BTC.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -64,7 +64,7 @@ export const set12: Question[] = [
             "D": "Tất cả đáp án trên đều đúng"
         },
         "correctAnswer": "A",
-        "explanation": "Tỷ lệ sử dụng nhà thầu phụ được tính trên phần công việc mà mỗi thành viên liên danh đảm nhận, chứ không phải trên tổng giá trị gói thầu. Điều này đảm bảo mỗi thành viên vẫn phải chịu trách nhiệm chính cho phần việc của mình.",
+        "explanation": "Tỷ lệ sử dụng nhà thầu phụ được tính trên phần công việc mà mỗi thành viên liên danh đảm nhận, chứ không phải trên tổng giá trị gói thầu. Điều này đảm bảo mỗi thành viên vẫn phải chịu trách nhiệm chính cho phần việc của mình. Căn cứ: Mẫu số 5A Thông tư 79/2025/TT-BTC.",
         "category": "Quy định chung"
     },
     {
@@ -77,7 +77,7 @@ export const set12: Question[] = [
             "D": "Nhà thầu A và nhà thầu B vẫn được hoàn trả bảo đảm dự thầu"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 14, khoản 7 của Luật Đấu thầu. Luật quy định: 'Trường hợp có thành viên trong liên danh vi phạm quy định tại khoản 9 Điều này thì bảo đảm dự thầu của tất cả thành viên trong liên danh không được hoàn trả.' Hành vi gian lận là một vi phạm dẫn đến không hoàn trả bảo đảm dự thầu.",
+        "explanation": "Theo Khoản 7 Điều 14 Luật Đấu thầu, nếu một thành viên trong liên danh vi phạm quy định dẫn đến không được hoàn trả bảo đảm dự thầu, thì bảo đảm dự thầu của tất cả thành viên trong liên danh sẽ không được hoàn trả.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -103,7 +103,7 @@ export const set12: Question[] = [
             "D": "Tất cả các phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Để đáp ứng yêu cầu về nguồn lực tài chính, nhà thầu có thể chứng minh bằng nhiều cách khác nhau. Tất cả các phương án A, B, và C đều là những hình thức hợp lệ để chứng minh khả năng tài chính: A chứng minh vốn tự có, B chứng minh khả năng được cấp vốn cho dự án, và C chứng minh hạn mức tín dụng sẵn có.",
+        "explanation": "Nhà thầu có thể chứng minh nguồn lực tài chính bằng: Số dư tài khoản, Cam kết tín dụng của ngân hàng, hoặc Xác nhận hạn mức tín dụng. Tất cả đều được chấp nhận là tài liệu chứng minh hợp lệ. Căn cứ: Mẫu số 3A Thông tư 79/2025/TT-BTC.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -116,7 +116,7 @@ export const set12: Question[] = [
             "D": "Tư vấn giám sát"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 64, khoản 7 của Luật Đấu thầu. Luật quy định rõ: 'Hợp đồng theo tỷ lệ phần trăm chỉ có thể áp dụng cho gói thầu bảo hiểm công trình mà giá trị hợp đồng được xác định chính xác trên cơ sở giá trị công trình thực tế được nghiệm thu.'",
+        "explanation": "Loại hợp đồng này chỉ áp dụng cho gói thầu bảo hiểm công trình. Căn cứ: Khoản 7 Điều 64 Luật Đấu thầu.",
         "category": "Hợp đồng"
     },
     {
@@ -129,7 +129,7 @@ export const set12: Question[] = [
             "D": "Phương án A và C đều sai"
         },
         "correctAnswer": "A",
-        "explanation": "Việc thanh toán phải được thực hiện dựa trên các điều khoản đã được hai bên thống nhất và ký kết trong hợp đồng, bao gồm giá hợp đồng, tiến độ thanh toán, điều kiện thanh toán... Dự toán gói thầu chỉ là căn cứ để lập kế hoạch và so sánh giá, không phải là căn cứ để thanh toán.",
+        "explanation": "Thanh toán dựa trên Giá hợp đồng và các điều khoản thanh toán trong hợp đồng. Không căn cứ vào dự toán hay định mức nhà nước (trừ trường hợp chỉ định thầu rút gọn hoặc quy định đặc thù). Căn cứ: Khoản 1 Điều 119 Nghị định 214/2025/NĐ-CP.",
         "category": "Hợp đồng"
     }
 ];

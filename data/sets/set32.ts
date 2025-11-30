@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set32: Question[] = [
@@ -10,8 +11,8 @@ export const set32: Question[] = [
             "C": "Không được bổ sung tài liệu chứng minh năng lực, kinh nghiệm còn thiếu",
             "D": "Rút hồ sơ dự thầu để nộp lại"
         },
-        "correctAnswer": "B",
-        "explanation": "Sau thời điểm đóng thầu, nhà thầu không được tự ý bổ sung tài liệu làm thay đổi bản chất hồ sơ. Tuy nhiên, nếu việc thiếu sót chỉ là các tài liệu chứng minh cho những gì đã kê khai, nhà thầu có thể chủ động gửi các tài liệu này đến chủ đầu tư để làm rõ, minh bạch hóa hồ sơ của mình. Đây được xem là một phần của quá trình làm rõ hồ sơ dự thầu.",
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 30 Nghị định số 214/2025/NĐ-CP. Đối với tài liệu năng lực, kinh nghiệm (như hợp đồng tương tự, nhân sự...), nếu thiếu hoặc cần làm rõ, chủ đầu tư sẽ yêu cầu nhà thầu làm rõ, bổ sung. Nhà thầu được phép bổ sung khi có yêu cầu của chủ đầu tư.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -24,7 +25,7 @@ export const set32: Question[] = [
             "D": "Phương án B và C đều đúng"
         },
         "correctAnswer": "B",
-        "explanation": "Nhà thầu chỉ bị xử phạt khi từ chối hoàn thiện hợp đồng một cách vô cớ. Nếu chủ đầu tư đưa ra các yêu cầu mới, không có trong hồ sơ mời thầu và hồ sơ dự thầu, làm thay đổi bản chất của gói thầu, nhà thầu có quyền từ chối mà không bị phạt. Đây là cơ chế bảo vệ quyền lợi hợp pháp của nhà thầu.",
+        "explanation": "Căn cứ pháp lý: Khoản 4 Điều 34 Nghị định số 214/2025/NĐ-CP. Nhà thầu được quyền từ chối hoàn thiện hợp đồng (không bị phạt) trong trường hợp chủ đầu tư đưa ra các yêu cầu không phù hợp với nội dung của hồ sơ mời thầu, hồ sơ dự thầu.",
         "category": "Hợp đồng"
     },
     {
@@ -36,8 +37,8 @@ export const set32: Question[] = [
             "C": "Phần đó có nhà thầu đáp ứng yêu cầu về kỹ thuật nhưng không đáp ứng yêu cầu về tài chính",
             "D": "Tất cả các trường hợp trên"
         },
-        "correctAnswer": "D",
-        "explanation": "Đối với gói thầu chia phần, mỗi phần được xem xét độc lập. Nếu một phần không thành công (không có ai dự, không ai đạt kỹ thuật hoặc tài chính), chủ đầu tư có thể hủy thầu riêng cho phần đó mà không ảnh hưởng đến các phần khác của gói thầu.",
+        "correctAnswer": "B",
+        "explanation": "Căn cứ pháp lý: Khoản 4 Điều 31 Nghị định số 214/2025/NĐ-CP. Khi nhà thầu xếp hạng nhất có sai lệch thiếu và không có đơn giá cho phần thiếu đó, đơn giá đề nghị trúng thầu cho phần thiếu sẽ lấy theo thứ tự ưu tiên: Đầu tiên là đơn giá tương ứng có giá trị thấp nhất trong các hồ sơ dự thầu khác vượt qua bước kỹ thuật.",
         "category": "Kế hoạch và Quy trình LCNT"
     },
     {
@@ -49,8 +50,8 @@ export const set32: Question[] = [
             "C": "Chỉ được dùng giấy chứng nhận bảo hiểm bảo lãnh do chính mình phát hành nếu giá trị bảo lãnh nhỏ hơn 50 triệu đồng",
             "D": "Tất cả phương án trên đều sai"
         },
-        "correctAnswer": "D",
-        "explanation": "Theo nguyên tắc chung, bảo đảm dự thầu phải được phát hành bởi một bên thứ ba độc lập (ngân hàng hoặc tổ chức tài chính) để đảm bảo tính khách quan. Nhà thầu, kể cả là doanh nghiệp bảo hiểm, không được tự phát hành bảo lãnh cho chính mình. Do đó, tất cả các phương án cho phép nhà thầu tự phát hành bảo lãnh đều sai.",
+        "correctAnswer": "B",
+        "explanation": "Căn cứ pháp lý: Điểm d Khoản 3 Điều 26 Nghị định số 214/2025/NĐ-CP và thực tiễn hướng dẫn. Quy định cấm nhà thầu bảo hiểm xuất trình giấy chứng nhận bảo hiểm bảo lãnh do mình phát hành (để tránh xung đột lợi ích/tự bảo lãnh). Tuy nhiên, đối với gói thầu có giá trị bảo đảm dự thầu dưới 50 triệu đồng, nhà thầu không cần nộp thư bảo lãnh mà chỉ cần cam kết.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -62,8 +63,8 @@ export const set32: Question[] = [
             "C": "Tính bằng tiền theo định mức chi phí do cơ quan nhà nước có thẩm quyền ban hành",
             "D": "Do chủ đầu tư tự quyết định"
         },
-        "correctAnswer": "C",
-        "explanation": "Chi phí lập hồ sơ mời thầu thường được xác định dựa trên các định mức chi phí do cơ quan quản lý nhà nước ban hành (ví dụ: các Thông tư của Bộ Kế hoạch và Đầu tư hoặc Bộ Tài chính quy định về chi phí trong lựa chọn nhà thầu).",
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Khoản 5 Điều 33 Nghị định số 214/2025/NĐ-CP. Chủ đầu tư có trách nhiệm trả lời yêu cầu giải thích lý do không trúng thầu trong thời hạn 02 ngày làm việc.",
         "category": "Kế hoạch và Quy trình LCNT"
     },
     {
@@ -75,8 +76,8 @@ export const set32: Question[] = [
             "C": "18 ngày",
             "D": "20 ngày"
         },
-        "correctAnswer": "B",
-        "explanation": "Theo quy định, đối với gói thầu mua sắm hàng hóa đấu thầu rộng rãi trong nước qua mạng, thời gian chuẩn bị hồ sơ dự thầu tối thiểu là 15 ngày (nếu không phải trường hợp rút gọn).",
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Điểm d Khoản 3 Điều 26 Nghị định số 214/2025/NĐ-CP. Đối với gói thầu đấu thầu trước (Điều 42 Luật Đấu thầu), nhà thầu không phải thực hiện biện pháp bảo đảm dự thầu nhưng phải có cam kết trong đơn dự thầu.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -89,7 +90,7 @@ export const set32: Question[] = [
             "D": "Người có thẩm quyền"
         },
         "correctAnswer": "B",
-        "explanation": "Thẩm định kết quả lựa chọn nhà thầu là trách nhiệm của Tổ thẩm định được thành lập hoặc đơn vị tư vấn thẩm định được thuê, trước khi trình chủ đầu tư phê duyệt.",
+        "explanation": "Căn cứ pháp lý: Khoản 33 Điều 140 Nghị định số 214/2025/NĐ-CP. Để đảm bảo công bằng, nếu cùng một loại hàng hóa xuất xứ Việt Nam mà có người kê khai ưu đãi, người không, chủ đầu tư quyết định cho các nhà thầu không kê khai được làm rõ để có cơ sở đánh giá ưu đãi cho tất cả.",
         "category": "Kế hoạch và Quy trình LCNT"
     },
     {
@@ -101,8 +102,8 @@ export const set32: Question[] = [
             "C": "Là nhà thầu có tên trong hồ sơ dự thầu của nhà thầu chính",
             "D": "Phương án A và C đều đúng"
         },
-        "correctAnswer": "D",
-        "explanation": "Nhà thầu phụ là đơn vị ký hợp đồng với nhà thầu chính để thực hiện một phần công việc của gói thầu. Danh sách nhà thầu phụ thường được kê khai trong hồ sơ dự thầu của nhà thầu chính.",
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Khoản 3 Điều 30 Thông tư số 79/2025/TT-BTC. Tổ trưởng tổ chuyên gia phải đính kèm bản scan báo cáo đánh giá E-HSDT có chữ ký của tất cả thành viên trong tổ chuyên gia.",
         "category": "Quy định chung"
     },
     {
@@ -115,7 +116,7 @@ export const set32: Question[] = [
             "D": "60 ngày"
         },
         "correctAnswer": "C",
-        "explanation": "Luật Đấu thầu quy định thời gian đánh giá hồ sơ dự thầu tối đa là 45 ngày đối với đấu thầu trong nước và 60 ngày đối với đấu thầu quốc tế.",
+        "explanation": "Căn cứ pháp lý: Thực tế các hiệp định thương mại tự do thế hệ mới của Việt Nam. Việt Nam đã mở cửa thị trường mua sắm chính phủ trong 3 hiệp định lớn: CPTPP, EVFTA và UKVFTA.",
         "category": "Kế hoạch và Quy trình LCNT"
     },
     {
@@ -128,7 +129,7 @@ export const set32: Question[] = [
             "D": "Gói thầu hỗn hợp"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 14 Luật Đấu thầu. Bảo đảm dự thầu áp dụng cho gói thầu xây lắp, mua sắm hàng hóa, phi tư vấn và hỗn hợp. Gói thầu dịch vụ tư vấn không yêu cầu bảo đảm dự thầu.",
+        "explanation": "Căn cứ pháp lý: Kiến thức chung về Hiệp định CPTPP. Số lượng thành viên ký kết ban đầu của CPTPP là 11 nước.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     }
 ];

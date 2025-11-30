@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set6: Question[] = [
@@ -102,7 +103,7 @@ export const set6: Question[] = [
             "D": "Kinh nghiệm và năng lực nhà thầu"
         },
         "correctAnswer": "C",
-        "explanation": "Việc thực hiện nghĩa vụ thuế là điều kiện về tư cách hợp lệ của nhà thầu, được xem xét ở bước đánh giá tính hợp lệ, không phải là tiêu chuẩn để đánh giá về mặt kỹ thuật của đề xuất. Các phương án A, B, D đều là các yếu tố được xem xét khi đánh giá về kỹ thuật và năng lực của nhà thầu tư vấn.",
+        "explanation": "Đối với gói thầu dịch vụ tư vấn, các tiêu chuẩn đánh giá kỹ thuật bao gồm: Kinh nghiệm và năng lực; Giải pháp và phương pháp luận; Nhân sự; Uy tín (nếu có); Chuyển giao công nghệ (nếu có). Nội dung \"Đã thực hiện nghĩa vụ kê khai thuế và nộp thuế\" thuộc phần đánh giá về năng lực và kinh nghiệm (cụ thể là năng lực tài chính/tư cách hợp lệ tùy hồ sơ), không phải là tiêu chuẩn kỹ thuật. Căn cứ: Khoản 5 Điều 63 Nghị định 214/2025/NĐ-CP.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -115,7 +116,7 @@ export const set6: Question[] = [
             "D": "Phương án B và C đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Kế hoạch lựa chọn nhà thầu (KHLCNT) được phê duyệt là căn cứ pháp lý đầu tiên để triển khai các bước tiếp theo của quá trình đấu thầu, bao gồm việc lập hồ sơ mời thầu. KHLCNT đã xác định các thông tin cơ bản như tên gói thầu, giá gói thầu, hình thức lựa chọn, loại hợp đồng... làm cơ sở để xây dựng chi tiết hồ sơ mời thầu.",
+        "explanation": "Theo quy định, việc lập hồ sơ mời thầu phải căn cứ vào Kế hoạch lựa chọn nhà thầu được duyệt. Báo giá của nhà sản xuất hay Quyết định mua sắm là căn cứ để lập kế hoạch hoặc dự toán, không phải căn cứ trực tiếp để lập hồ sơ mời thầu (dù là tài liệu tham khảo). Căn cứ: Khoản 1 Điều 26 Nghị định 214/2025/NĐ-CP.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -128,7 +129,7 @@ export const set6: Question[] = [
             "D": "Giá cố định"
         },
         "correctAnswer": "B",
-        "explanation": "Theo Điều 58 của Luật Đấu thầu, phương pháp 'giá đánh giá' được áp dụng cho gói thầu mua sắm hàng hóa, xây lắp, phi tư vấn. Điều 59 quy định các phương pháp đánh giá cho gói thầu tư vấn, bao gồm giá thấp nhất, giá cố định, kết hợp giữa kỹ thuật và giá, và dựa trên kỹ thuật, nhưng không có phương pháp 'giá đánh giá'.",
+        "explanation": "Luật Đấu thầu quy định 4 phương pháp đánh giá cho gói thầu tư vấn: Giá thấp nhất, Giá cố định, Kết hợp giữa kỹ thuật và giá, Dựa trên kỹ thuật. Phương pháp \"Giá đánh giá\" chỉ áp dụng cho gói thầu mua sắm hàng hóa, xây lắp, phi tư vấn và hỗn hợp. Căn cứ: Điều 59 Luật Đấu thầu.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     }
 ];

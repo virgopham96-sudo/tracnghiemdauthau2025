@@ -12,7 +12,7 @@ export const set7: Question[] = [
             "D": "Biên bản hoàn thiện hợp đồng"
         },
         "correctAnswer": "D",
-        "explanation": "Hồ sơ mời thầu là tài liệu do bên mời thầu phát hành trước khi nhà thầu nộp hồ sơ dự thầu. Biên bản hoàn thiện hợp đồng là tài liệu được lập sau khi đã có kết quả lựa chọn nhà thầu và trong quá trình thương thảo, hoàn thiện hợp đồng với nhà thầu trúng thầu. Do đó, nó không thể là một phần của hồ sơ mời thầu.",
+        "explanation": "Hồ sơ mời thầu bao gồm: Chỉ dẫn nhà thầu, Bảng dữ liệu, Tiêu chuẩn đánh giá, Biểu mẫu, Phạm vi cung cấp, Điều kiện hợp đồng... Biên bản hoàn thiện hợp đồng là tài liệu được hình thành sau khi có kết quả đánh giá và thương thảo, không phải là thành phần của hồ sơ mời thầu khi phát hành. Căn cứ: Khoản 2 Điều 26 Nghị định 214/2025/NĐ-CP.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -25,7 +25,7 @@ export const set7: Question[] = [
             "D": "Hàng hóa có giá trị lớn"
         },
         "correctAnswer": "C",
-        "explanation": "Giấy phép bán hàng của nhà sản xuất là một yêu cầu nhằm đảm bảo hàng hóa là chính hãng, được ủy quyền phân phối, đặc biệt quan trọng đối với các loại hàng hóa đặc thù, phức tạp, có yêu cầu cao về kỹ thuật, bảo hành, bảo trì (ví dụ: thiết bị y tế, thiết bị công nghệ cao...).",
+        "explanation": "Hồ sơ mời thầu không được yêu cầu giấy phép bán hàng đối với hàng hóa thông dụng. Chỉ được yêu cầu đối với hàng hóa đặc thù, phức tạp cần gắn với trách nhiệm của nhà sản xuất trong việc cung cấp dịch vụ sau bán hàng (bảo hành, bảo trì, sửa chữa...). Căn cứ: Khoản 12 Điều 26 Nghị định 214/2025/NĐ-CP.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -38,7 +38,7 @@ export const set7: Question[] = [
             "D": "Yêu cầu nhà thầu phải hoàn thành nghĩa vụ thuế"
         },
         "correctAnswer": "B",
-        "explanation": "Yêu cầu nhà thầu phải là 'chủ sở hữu' thiết bị là một điều kiện gây hạn chế cạnh tranh một cách không cần thiết. Nhà thầu có thể đi thuê hoặc có thỏa thuận sử dụng thiết bị của bên khác, miễn là họ chứng minh được khả năng huy động thiết bị đó để thực hiện gói thầu. Các yêu cầu A, C, D là các yêu cầu hợp lý về năng lực, kinh nghiệm.",
+        "explanation": "Việc yêu cầu nhà thầu phải là chủ sở hữu của thiết bị thi công là hành vi hạn chế cạnh tranh, vì nhà thầu có quyền đi thuê, mượn hoặc huy động thiết bị để thực hiện gói thầu miễn là đảm bảo khả năng huy động. Căn cứ: Khoản 3 Điều 44 Luật Đấu thầu.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -51,7 +51,7 @@ export const set7: Question[] = [
             "D": "Không được nêu xuất xứ theo nhóm nước, vùng lãnh thổ"
         },
         "correctAnswer": "B",
-        "explanation": "Theo quy định về đấu thầu qua mạng và các hiệp định thương mại, việc nêu xuất xứ cụ thể của một quốc gia bị hạn chế để tránh phân biệt đối xử. Tuy nhiên, pháp luật cho phép nêu xuất xứ theo nhóm nước, vùng lãnh thổ (ví dụ: các nước G7, EU, ASEAN...) để định hướng về tiêu chuẩn chất lượng mà không hạn chế cạnh tranh một cách quá mức.",
+        "explanation": "Theo Luật Đấu thầu 2023, đối với gói thầu mua sắm hàng hóa áp dụng đấu thầu rộng rãi, hồ sơ mời thầu được nêu xuất xứ theo nhóm nước, vùng lãnh thổ (ví dụ: G7, EU, ASEAN...) để đảm bảo chất lượng, nhưng không được nêu xuất xứ cụ thể của một quốc gia (trừ trường hợp đặc biệt). Căn cứ: Khoản 2 Điều 44 Luật Đấu thầu.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {

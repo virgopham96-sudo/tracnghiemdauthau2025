@@ -12,7 +12,7 @@ export const set20: Question[] = [
             "D": "45% giá hợp đồng"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 68, khoản 4 của Luật Đấu thầu. Luật quy định mức bảo đảm thực hiện hợp đồng là từ 2% đến 10% giá hợp đồng. Tuy nhiên, trong trường hợp giá dự thầu thấp bất thường, để phòng ngừa rủi ro nhà thầu bỏ thầu, chủ đầu tư có quyền yêu cầu một mức bảo đảm cao hơn, và mức tối đa được phép là 30% giá hợp đồng.",
+        "explanation": "Căn cứ pháp lý: Điểm b Khoản 11 Điều 140 Nghị định số 214/2025/NĐ-CP. Trong trường hợp giá dự thầu thấp khác thường, để đề phòng rủi ro, chủ đầu tư có thể quy định giá trị bảo đảm thực hiện hợp đồng lớn hơn 10% nhưng không quá 30% giá hợp đồng.",
         "category": "Hợp đồng"
     },
     {
@@ -25,7 +25,7 @@ export const set20: Question[] = [
             "D": "Có thể nhưng phải bảo đảm điều kiện giá đề nghị trúng thầu không vượt giá của phần đó trong giá gói thầu"
         },
         "correctAnswer": "D",
-        "explanation": "Khi gói thầu được chia thành nhiều phần, mỗi phần được xem như một gói thầu riêng lẻ trong quá trình xét thầu. Chủ đầu tư có thể phê duyệt kết quả cho từng phần, miễn là giá đề nghị trúng thầu của phần đó không vượt quá giá trị của chính phần đó trong giá gói thầu đã được duyệt.",
+        "explanation": "Căn cứ pháp lý: Điểm d Khoản 10 Điều 140 Nghị định số 214/2025/NĐ-CP. Đối với gói thầu chia phần, trong trường hợp cần thiết, chủ đầu tư có thể phê duyệt kết quả cho từng phần với điều kiện giá đề nghị trúng thầu không vượt giá của phần đó trong giá gói thầu.",
         "category": "Kế hoạch và Quy trình LCNT"
     },
     {
@@ -38,7 +38,7 @@ export const set20: Question[] = [
             "D": "Phương án B và C đều đúng"
         },
         "correctAnswer": "A",
-        "explanation": "Khi một phần không có nhà thầu tham dự, phần đó được coi là đấu thầu không thành công. Chủ đầu tư phải xử lý phần này như một gói thầu độc lập, có thể tổ chức đấu thầu lại hoặc áp dụng hình thức lựa chọn nhà thầu khác phù hợp.",
+        "explanation": "Căn cứ pháp lý: Điểm a Khoản 10 Điều 140 Nghị định số 214/2025/NĐ-CP. Trường hợp một phần của gói thầu không có nhà thầu tham dự hoặc không có nhà thầu đáp ứng, chủ đầu tư tách phần đó ra thành gói thầu riêng biệt để tổ chức lựa chọn lại.",
         "category": "Kế hoạch và Quy trình LCNT"
     },
     {
@@ -51,7 +51,7 @@ export const set20: Question[] = [
             "D": "Người có thẩm quyền quyết định xử lý tình huống sau khi có ý kiến của chủ đầu tư và Tổ chuyên gia"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 88, khoản 3, điểm a của Luật Đấu thầu. Luật quy định rõ: 'Đối với lựa chọn nhà thầu, người quyết định xử lý tình huống là chủ đầu tư. Trong trường hợp phức tạp, chủ đầu tư quyết định xử lý tình huống sau khi có ý kiến của người có thẩm quyền'.",
+        "explanation": "Căn cứ pháp lý: Điểm a Khoản 3 Điều 88 Luật Đấu thầu. Đối với tình huống phức tạp trong lựa chọn nhà thầu, Chủ đầu tư quyết định xử lý tình huống sau khi có ý kiến của Người có thẩm quyền.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -64,7 +64,7 @@ export const set20: Question[] = [
             "D": "Nhà thầu liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị bên mời thầu đăng tải thông tin nhà thầu liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia"
         },
         "correctAnswer": "B",
-        "explanation": "Mặc dù liên danh chịu trách nhiệm chung về việc thực hiện hợp đồng, nhưng khi đánh giá uy tín để xử lý cho các gói thầu sau này, chỉ những thành viên trực tiếp vi phạm, không hoàn thành phần việc của mình mới bị đánh giá là không hoàn thành hợp đồng và bị công khai thông tin vi phạm.",
+        "explanation": "Căn cứ pháp lý: Điểm c Khoản 22 Điều 140 Nghị định số 214/2025/NĐ-CP. Trường hợp chấm dứt hợp đồng với thành viên liên danh vi phạm, chỉ thành viên vi phạm bị coi là không hoàn thành hợp đồng và bị đăng tải thông tin (chứ không phải toàn bộ liên danh).",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -77,7 +77,7 @@ export const set20: Question[] = [
             "D": "Bằng giá trị ghi trong hợp đồng trừ đi giá trị của phần công việc đã thực hiện trước đó theo dự toán được duyệt"
         },
         "correctAnswer": "A",
-        "explanation": "Khi chỉ định thầu cho phần công việc còn lại, giá trị của phần việc này được xác định bằng cách lấy giá trị hợp đồng ban đầu trừ đi giá trị phần công việc đã được nhà thầu cũ thực hiện và nghiệm thu. Điều này đảm bảo tổng chi phí của gói thầu không vượt quá giá trị hợp đồng đã ký ban đầu.",
+        "explanation": "Căn cứ pháp lý: Khoản 23 Điều 140 Nghị định số 214/2025/NĐ-CP. Khi chỉ định thầu cho nhà thầu khác thay thế nhà thầu vi phạm, giá trị được tính bằng giá trị ghi trong hợp đồng cũ trừ đi giá trị phần công việc đã thực hiện, nghiệm thu trước đó.",
         "category": "Hợp đồng"
     },
     {
@@ -90,7 +90,7 @@ export const set20: Question[] = [
             "D": "Chủ đầu tư và nhà thầu được thỏa thuận điều chỉnh phạm vi công việc giữa các thành viên liên danh phù hợp với tiến độ hoặc tiến độ được rút ngắn"
         },
         "correctAnswer": "D",
-        "explanation": "Việc điều chỉnh phạm vi công việc giữa các thành viên liên danh là một sửa đổi hợp đồng. Việc này cần có sự thỏa thuận giữa các bên ký kết hợp đồng (chủ đầu tư và các thành viên liên danh) để đảm bảo tính pháp lý.",
+        "explanation": "Căn cứ pháp lý: Khoản 24 Điều 140 Nghị định số 214/2025/NĐ-CP. Khi cần đẩy nhanh tiến độ, Chủ đầu tư và nhà thầu được thỏa thuận điều chỉnh phạm vi công việc giữa các thành viên liên danh.",
         "category": "Hợp đồng"
     },
     {
@@ -103,7 +103,7 @@ export const set20: Question[] = [
             "D": "Nhà thầu vẫn được tiếp tục tham dự thầu"
         },
         "correctAnswer": "D",
-        "explanation": "Theo nguyên tắc suy đoán vô tội, một cá nhân chỉ bị coi là có tội khi có bản án kết tội của Tòa án đã có hiệu lực pháp luật. Tương tự, một nhà thầu chỉ bị cấm thầu khi có quyết định cấm thầu của người có thẩm quyền. Kết luận của cơ quan điều tra chưa phải là căn cứ pháp lý cuối cùng để tước quyền tham dự thầu của nhà thầu.",
+        "explanation": "Căn cứ pháp lý: Khoản 26 Điều 140 Nghị định số 214/2025/NĐ-CP. Nếu nhân sự của nhà thầu bị kết luận vi phạm nhưng chưa bị Tòa án kết án hoặc nhà thầu chưa bị cấm tham gia hoạt động đấu thầu thì nhà thầu vẫn được tiếp tục tham dự thầu.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -116,7 +116,7 @@ export const set20: Question[] = [
             "D": "Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng nhưng không bắt buộc cùng hãng sản xuất và cùng xuất xứ"
         },
         "correctAnswer": "A",
-        "explanation": "Khi thay đổi hàng hóa sang phiên bản mới hơn, điều kiện tiên quyết là các tính năng kỹ thuật phải tương đương hoặc tốt hơn. Để đảm bảo tính đồng bộ, tương thích và chất lượng đã được đánh giá ban đầu, việc giữ nguyên hãng sản xuất và xuất xứ là một yêu cầu hợp lý và thường được đặt ra.",
+        "explanation": "Căn cứ pháp lý: Điểm b Khoản 27 Điều 140 Nghị định số 214/2025/NĐ-CP. Một trong các điều kiện để thay đổi hàng hóa (phiên bản mới) là hàng hóa thay thế và hàng hóa ghi trong hợp đồng phải thuộc cùng hãng sản xuất và có cùng xuất xứ.",
         "category": "Hợp đồng"
     },
     {
@@ -129,7 +129,7 @@ export const set20: Question[] = [
             "D": "Hủy thầu"
         },
         "correctAnswer": "A",
-        "explanation": "Đối với các gói thầu có tính chất đặc thù, phức tạp, hoặc trong các trường hợp đặc biệt, pháp luật có thể cho phép một số ngoại lệ. Nếu nhà thầu nước ngoài có lý do chính đáng và việc đăng ký trên hệ thống là một rào cản không cần thiết, chủ đầu tư có thể xem xét và không bắt buộc yêu cầu này, miễn là vẫn đảm bảo các nguyên tắc cơ bản của đấu thầu.",
+        "explanation": "Căn cứ pháp lý: Khoản 31 Điều 140 Nghị định số 214/2025/NĐ-CP. Trong trường hợp đặc biệt/đặc thù, nếu nhà thầu nước ngoài có yêu cầu ràng buộc không đăng ký trên Hệ thống, chủ đầu tư xử lý tình huống bằng cách không cần yêu cầu nhà thầu đăng ký khi đăng tải kết quả.",
         "category": "Đấu thầu qua mạng"
     }
 ];

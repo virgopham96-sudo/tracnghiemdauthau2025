@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set17: Question[] = [
@@ -11,7 +12,7 @@ export const set17: Question[] = [
             "D": "Từ 03 năm đến 05 năm"
         },
         "correctAnswer": "D",
-        "explanation": "Hành vi gian lận (Điều 16, khoản 4) là một trong những hành vi vi phạm nghiêm trọng nhất. Theo các quy định chi tiết, mức phạt cấm thầu cho hành vi này thường ở khung cao nhất, từ 03 đến 05 năm.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 133 Nghị định số 214/2025/NĐ-CP. Hành vi gian lận (quy định tại khoản 4 Điều 16 Luật Đấu thầu) thuộc nhóm hành vi bị cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -24,7 +25,7 @@ export const set17: Question[] = [
             "D": "05 năm"
         },
         "correctAnswer": "C",
-        "explanation": "Hành vi cản trở (Điều 16, khoản 5) cũng là một hành vi nghiêm trọng nhưng thường được xếp ở mức độ thấp hơn so với gian lận hay đưa hối lộ. Khung cấm thầu từ 01 đến 03 năm là phù hợp với tính chất của hành vi này.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 133 Nghị định số 214/2025/NĐ-CP. Hành vi cản trở (quy định tại khoản 5 Điều 16 Luật Đấu thầu) thuộc nhóm hành vi bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -37,7 +38,7 @@ export const set17: Question[] = [
             "D": "Cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm đối với tất cả thành viên trong nhà thầu liên danh A-B"
         },
         "correctAnswer": "A",
-        "explanation": "Khi một thành viên trong liên danh vi phạm, hình phạt cấm thầu chỉ áp dụng đối với chính thành viên đó, không áp dụng cho toàn bộ liên danh, trừ khi có bằng chứng cho thấy các thành viên khác cũng tham gia hoặc bao che. Mức phạt cho hành vi làm giả hồ sơ (thuộc nhóm gian lận) là từ 03 đến 05 năm.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 133 Nghị định số 214/2025/NĐ-CP. Đối với nhà thầu liên danh, khi một thành viên vi phạm hành vi gian lận (làm giả hồ sơ), chỉ cấm thành viên đó. Thời gian cấm đối với hành vi gian lận là từ 03 năm đến 05 năm.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -50,7 +51,7 @@ export const set17: Question[] = [
             "D": "Trong quá trình thực hiện hợp đồng"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 18, khoản 1, điểm a của Luật Đấu thầu. Luật quy định: 'Đình chỉ cuộc thầu được thực hiện trong quá trình tổ chức lựa chọn nhà thầu, nhà đầu tư cho đến trước khi phê duyệt kết quả lựa chọn nhà thầu, nhà đầu tư'. Giai đoạn này bắt đầu từ khi phát hành hồ sơ và kết thúc trước khi có kết quả cuối cùng (phê duyệt kết quả hoặc ký hợp đồng).",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 18 Luật Đấu thầu. Luật quy định đình chỉ cuộc thầu được thực hiện trong quá trình tổ chức lựa chọn nhà thầu cho đến trước khi phê duyệt kết quả lựa chọn nhà thầu.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -63,7 +64,7 @@ export const set17: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 18, khoản 1, điểm b của Luật Đấu thầu. Hủy thầu (A) và Đình chỉ cuộc thầu (B) là các biện pháp được áp dụng trước khi ký kết hợp đồng. Biện pháp 'Không công nhận kết quả lựa chọn nhà thầu' có thể được áp dụng cả trong quá trình lựa chọn và cả trong quá trình thực hiện hợp đồng nếu phát hiện vi phạm nghiêm trọng.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 18 Luật Đấu thầu. Trong quá trình thực hiện hợp đồng, nếu có bằng chứng về vi phạm, người có thẩm quyền có thể áp dụng biện pháp không công nhận kết quả lựa chọn nhà thầu. (Hủy thầu và Đình chỉ cuộc thầu chỉ áp dụng trong quá trình lựa chọn nhà thầu, trước khi ký hợp đồng hoặc trước khi phê duyệt kết quả).",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -76,7 +77,7 @@ export const set17: Question[] = [
             "D": "Không bị xử lý vi phạm"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 16, khoản 6, điểm g của Luật Đấu thầu. Đây là hành vi bị cấm 'Không bảo đảm công bằng, minh bạch'. Mức phạt cho hành vi này thường ở khung từ 01 đến 03 năm.",
+        "explanation": "Căn cứ pháp lý: Điểm g Khoản 6 Điều 16 Luật Đấu thầu và Khoản 1 Điều 133 Nghị định số 214/2025/NĐ-CP. Hành vi nhà thầu tư vấn giám sát đồng thời thực hiện tư vấn kiểm định là hành vi không bảo đảm công bằng, minh bạch (bị cấm). Mức phạt cho nhóm hành vi vi phạm tại khoản 6 Điều 16 là cấm từ 01 năm đến 03 năm (đối với điểm g).",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -89,7 +90,7 @@ export const set17: Question[] = [
             "D": "Từ 06 tháng đến 01 năm"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 16, khoản 6, điểm b của Luật Đấu thầu. Đây là hành vi bị cấm 'Không bảo đảm công bằng, minh bạch'. Mức độ vi phạm này thường được xem là ít nghiêm trọng hơn so với gian lận, thông thầu, do đó khung cấm thầu thường ở mức thấp nhất, từ 06 tháng đến 01 năm.",
+        "explanation": "Căn cứ pháp lý: Điểm b Khoản 6 Điều 16 Luật Đấu thầu và Khoản 1 Điều 133 Nghị định số 214/2025/NĐ-CP. Hành vi tham gia lập đồng thời tham gia thẩm định hồ sơ mời thầu là hành vi không bảo đảm công bằng, minh bạch. Mức phạt cho hành vi tại điểm b khoản 6 Điều 16 là cấm từ 06 tháng đến 01 năm.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -102,7 +103,7 @@ export const set17: Question[] = [
             "D": "Tất cả thành viên trong liên danh A-B bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm"
         },
         "correctAnswer": "A",
-        "explanation": "Hành vi gian lận của một thành viên liên danh sẽ dẫn đến hình phạt cấm thầu áp dụng đối với chính thành viên đó. Mức phạt cho hành vi làm giả thông tin là từ 03 đến 05 năm. Trách nhiệm là riêng biệt đối với hành vi vi phạm.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 133 Nghị định số 214/2025/NĐ-CP. Hành vi làm giả hồ sơ là gian lận (khoản 4 Điều 16 Luật). Đối với liên danh, nếu thành viên nào vi phạm gian lận thì chỉ cấm thành viên đó. Thời gian cấm cho hành vi gian lận là 03 năm đến 05 năm.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -115,7 +116,7 @@ export const set17: Question[] = [
             "D": "Tất cả thành viên trong liên danh A-B bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm"
         },
         "correctAnswer": "B",
-        "explanation": "Hành vi dàn xếp, thỏa thuận là hành vi 'thông thầu' (Điều 16, khoản 3), một vi phạm rất nghiêm trọng. Mức phạt cấm thầu là từ 03 đến 05 năm. Trong trường hợp này, cả hai thành viên đều tham gia vào hành vi vi phạm, do đó cả hai đều bị xử lý.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 133 Nghị định số 214/2025/NĐ-CP. Hành vi dàn xếp, thỏa thuận rút hồ sơ để một bên trúng thầu là hành vi thông thầu (khoản 3 Điều 16 Luật). Nghị định quy định đối với hành vi thông thầu (điểm a khoản 3 Điều 16), việc cấm áp dụng với tất cả thành viên liên danh. Thời gian cấm cho hành vi thông thầu là 03 năm đến 05 năm.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -128,7 +129,7 @@ export const set17: Question[] = [
             "D": "Đáp án B và C đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Hành vi từ chối ký hợp đồng sau khi trúng thầu là một vi phạm. Hậu quả là nhà thầu sẽ bị đánh giá xấu về uy tín. Uy tín này có thể được sử dụng làm một tiêu chí đánh giá kỹ thuật đối với cả gói thầu tư vấn (B) và các gói thầu khác như xây lắp, phi tư vấn... (C).",
+        "explanation": "Căn cứ pháp lý: Khoản 2 Điều 20 Nghị định số 214/2025/NĐ-CP. Nhà thầu có hành vi vi phạm uy tín sẽ bị xử lý: Đối với gói thầu tư vấn, thông tin uy tín được dùng để đánh giá kỹ thuật. Đối với gói thầu khác (xây lắp, hàng hóa, phi tư vấn, hỗn hợp), nhà thầu phải nộp bảo đảm dự thầu gấp 03 lần trong thời hạn 02 năm. Tuy nhiên, theo quy định mới, uy tín cũng được xem xét đánh giá kỹ thuật. Do đó, cả B và C đều đúng trong ngữ cảnh các loại gói thầu tương ứng.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     }
 ];

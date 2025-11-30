@@ -12,7 +12,7 @@ export const set30: Question[] = [
             "D": "Tình huống (1) phải trình người có thẩm quyền cho phép, tình huống (2) do Chủ tịch Uỷ ban nhân dân tỉnh quyết định"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 70, khoản 4 của Luật Đấu thầu. Tình huống (1): Vượt giá gói thầu nhưng không vượt tổng mức đầu tư. Theo khoản 4, trường hợp này thuộc thẩm quyền quyết định của chủ đầu tư. Tình huống (2): Vừa vượt giá gói thầu, vừa làm tăng tổng mức đầu tư. Việc làm tăng tổng mức đầu tư vượt quá thẩm quyền của chủ đầu tư, do đó phải trình người có thẩm quyền (người đã phê duyệt dự án) xem xét, quyết định.",
+        "explanation": "Căn cứ pháp lý: Khoản 4 Điều 114 Nghị định số 214/2025/NĐ-CP. Tình huống (1) Vượt giá gói thầu nhưng không vượt tổng mức đầu tư: Chủ đầu tư quyết định. Tình huống (2) Làm tăng tổng mức đầu tư: Vượt thẩm quyền chủ đầu tư, phải trình Người có thẩm quyền (người quyết định đầu tư) xem xét, quyết định điều chỉnh dự án/tổng mức đầu tư trước.",
         "category": "Hợp đồng"
     },
     {
@@ -25,7 +25,7 @@ export const set30: Question[] = [
             "D": "Hợp đồng theo kết quả đầu ra"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 64, khoản 5 của Luật Đấu thầu. Luật định nghĩa rõ: 'Hợp đồng theo chi phí cộng phí được áp dụng đối với công việc, dịch vụ mà tại thời điểm lựa chọn nhà thầu chưa đủ cơ sở xác định phạm vi công việc, nhu cầu cần thiết về các yếu tố, chi phí đầu vào...'.",
+        "explanation": "Căn cứ pháp lý: Khoản 5 Điều 64 Luật Đấu thầu. Hợp đồng theo chi phí cộng phí được áp dụng khi tại thời điểm lựa chọn nhà thầu chưa đủ cơ sở xác định phạm vi công việc, nhu cầu cần thiết về yếu tố/chi phí đầu vào.",
         "category": "Hợp đồng"
     },
     {
@@ -37,8 +37,8 @@ export const set30: Question[] = [
             "C": "Chủ đầu tư không cần điều chỉnh kế hoạch lựa chọn nhà thầu",
             "D": "Các phương án trên đều sai"
         },
-        "correctAnswer": "C",
-        "explanation": "Kế hoạch lựa chọn nhà thầu (KHLCNT) là tài liệu phục vụ cho giai đoạn tổ chức lựa chọn nhà thầu. Khi hợp đồng đã được ký kết, việc quản lý thực hiện hợp đồng (bao gồm cả việc điều chỉnh thời gian) sẽ tuân theo các điều khoản của hợp đồng và các quy định về quản lý hợp đồng, không cần phải quay lại điều chỉnh KHLCNT đã được phê duyệt trước đó.",
+        "correctAnswer": "B",
+        "explanation": "Căn cứ pháp lý: Khoản 2 Điều 4 Thông tư số 79/2025/TT-BTC. Thông tư quy định: \"Trường hợp trong quá trình thực hiện hợp đồng có thay đổi về thời gian thực hiện gói thầu so với kế hoạch lựa chọn nhà thầu đã được phê duyệt thì không phải điều chỉnh kế hoạch lựa chọn nhà thầu\". (Chủ đầu tư chỉ cần điều chỉnh hợp đồng theo thẩm quyền).",
         "category": "Hợp đồng"
     },
     {
@@ -51,7 +51,7 @@ export const set30: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Trong quy trình chào giá rút gọn, sau khi kết thúc phiên chào giá, nhà thầu có giá thấp nhất sẽ nhận được thông báo và phải 'xác nhận chấp thuận được trao hợp đồng'. Việc phê duyệt kết quả của chủ đầu tư được thực hiện ngay trên cơ sở sự chấp thuận này của nhà thầu.",
+        "explanation": "Căn cứ pháp lý: Điểm c Khoản 5 và Khoản 6 Điều 102 Nghị định số 214/2025/NĐ-CP. Đối với chào giá trực tuyến rút gọn, sau khi có kết quả xếp hạng, Chủ đầu tư mời nhà thầu xác nhận chấp thuận được trao hợp đồng. Trên cơ sở chấp thuận này, chủ đầu tư phê duyệt kết quả lựa chọn nhà thầu (không qua bước thẩm định/thương thảo phức tạp).",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -64,7 +64,7 @@ export const set30: Question[] = [
             "D": "Các phương án trên đều sai"
         },
         "correctAnswer": "C",
-        "explanation": "Bản chất của chào giá trực tuyến là một cuộc đấu giá ngược. Nhà thầu nào có giá chào thấp nhất tại thời điểm kết thúc phiên chào giá sẽ là nhà thầu xếp hạng thứ nhất và được xem xét trúng thầu.",
+        "explanation": "Căn cứ pháp lý: Điểm b Khoản 5 Điều 102 Nghị định số 214/2025/NĐ-CP. Việc xét duyệt trúng thầu căn cứ vào giá dự thầu tại thời điểm kết thúc chào giá trực tuyến của nhà thầu xếp thứ nhất. (Đây là giá thấp nhất sau quá trình đấu giá).",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -76,8 +76,8 @@ export const set30: Question[] = [
             "C": "Mua sắm trực tuyến phải được phê duyệt trong kế hoạch lựa chọn nhà thầu và được áp dụng đối với gói thầu mua sắm hàng hóa, gói thầu dịch vụ tư vấn thuộc dự toán có giá gói thầu không quá 01 tỷ đồng",
             "D": "Các phương án trên đều sai"
         },
-        "correctAnswer": "C",
-        "explanation": "Mua sắm trực tuyến là một hình thức lựa chọn nhà thầu, do đó nó phải được xác định và phê duyệt trong kế hoạch lựa chọn nhà thầu. Hạn mức áp dụng cho hình thức này đối với dự toán mua sắm là không quá 01 tỷ đồng.",
+        "correctAnswer": "B",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 103 Nghị định số 214/2025/NĐ-CP. Mua sắm trực tuyến phải được phê duyệt trong KHLCNT. Áp dụng cho gói thầu thuộc dự toán mua sắm có giá không quá 500 triệu đồng. (Đáp án B đúng về điều kiện phê duyệt và hạn mức cho dự toán mua sắm).",
         "category": "Mua sắm đặc thù"
     },
     {
@@ -90,7 +90,7 @@ export const set30: Question[] = [
             "D": "Nhà thầu có từ 25% lao động trở lên là người khuyết tật, thương binh, dân tộc thiểu số có hợp đồng lao động với thời gian thực hiện hợp đồng dưới 03 tháng và đến thời điểm đóng thầu hợp đồng vẫn còn hiệu lực"
         },
         "correctAnswer": "A",
-        "explanation": "Đây là một hình thức ưu đãi đặc biệt, cho phép chỉ định thầu cho các cơ sở, doanh nghiệp sử dụng một tỷ lệ lớn lao động là người yếu thế. Theo quy định, tỷ lệ lao động này phải từ 50% trở lên và phải là lao động thường xuyên (hợp đồng từ 03 tháng trở lên) để được hưởng chính sách ưu đãi này.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 8 Nghị định số 214/2025/NĐ-CP. Đối với gói thầu dưới 500 triệu đồng (dự toán mua sắm), chủ đầu tư được quyền quyết định chỉ cho phép nhà thầu là doanh nghiệp siêu nhỏ, nhỏ hoặc nhà thầu có tỷ lệ lao động yếu thế (khuyết tật, thương binh, dân tộc thiểu số) từ 50% trở lên tham dự.",
         "category": "Quy định chung"
     },
     {
@@ -103,7 +103,7 @@ export const set30: Question[] = [
             "D": "Đáp án A và C là đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 5, khoản 1 của Luật Đấu thầu. Nhà thầu tham dự thầu phải là một pháp nhân độc lập và phải sử dụng đúng tài khoản đã đăng ký của mình. Chi nhánh (A) và công ty con hạch toán phụ thuộc (C) không có tư cách pháp nhân độc lập để tham gia đấu thầu. Do đó, việc sử dụng tài khoản của các đơn vị này là không hợp lệ.",
+        "explanation": "Căn cứ pháp lý: Khoản 4 Điều 27 Thông tư số 79/2025/TT-BTC. Nếu nhà thầu sử dụng tài khoản của chi nhánh/đơn vị phụ thuộc để tham dự thầu (thay vì tài khoản của chính danh nhà thầu/công ty mẹ) thì bị coi là không đáp ứng tư cách hợp lệ (Đáp án D: Cả A và C đều đúng, vì A và C mô tả các trường hợp sử dụng tài khoản không đúng quy định).",
         "category": "Quy định chung"
     },
     {
@@ -116,7 +116,7 @@ export const set30: Question[] = [
             "D": "Các phương án trên đều sai."
         },
         "correctAnswer": "A",
-        "explanation": "Hàng mẫu là vật chất, không thể nộp qua mạng. Quy trình chuẩn là nhà thầu nộp E-HSDT trên hệ thống trước thời điểm đóng thầu, sau đó nộp hàng mẫu trực tiếp cho bên mời thầu trong một khoảng thời gian nhất định (thường là 05 ngày làm việc) sau thời điểm đóng thầu.",
+        "explanation": "Căn cứ pháp lý: Điều 28 Thông tư số 79/2025/TT-BTC. Thông tư quy định: \"Trường hợp E-HSMT có yêu cầu cung cấp hàng mẫu, nhà thầu có thể nộp bổ sung hàng mẫu trong thời hạn 05 ngày làm việc sau thời điểm đóng thầu\".",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -129,7 +129,7 @@ export const set30: Question[] = [
             "D": "Các phương án trên đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Biên bản mở thầu là tài liệu pháp lý ghi nhận sự kiện mở thầu công khai. Nó cần có chữ ký của bên mời thầu (đại diện là chủ đầu tư) và đại diện của các nhà thầu có mặt tại lễ mở thầu để xác nhận tính chính xác và minh bạch của quá trình. Tổ chuyên gia là đơn vị giúp việc, không phải là bên có tư cách pháp lý để ký trên biên bản này.",
+        "explanation": "Căn cứ pháp lý: Điểm b Khoản 4 Điều 28 Nghị định số 214/2025/NĐ-CP. Biên bản mở thầu (đấu thầu không qua mạng) phải được ký xác nhận bởi đại diện của Chủ đầu tư và các nhà thầu tham dự lễ mở thầu. (Tổ chuyên gia không bắt buộc ký biên bản mở thầu với tư cách thành phần mở thầu, trách nhiệm chính thuộc về Chủ đầu tư tổ chức mở).",
         "category": "Kế hoạch và Quy trình LCNT"
     }
 ];

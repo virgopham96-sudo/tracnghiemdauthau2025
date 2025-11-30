@@ -12,7 +12,7 @@ export const set26: Question[] = [
             "D": "01 tỷ đồng"
         },
         "correctAnswer": "C",
-        "explanation": "Mua sắm trực tuyến là một hình thức mua sắm đơn giản hóa, áp dụng cho các gói thầu có giá trị nhỏ. Theo các quy định hiện hành, hạn mức giá gói thầu tối đa để được áp dụng hình thức mua sắm trực tuyến đối với dự toán mua sắm thường là 500 triệu đồng.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 103 Nghị định số 214/2025/NĐ-CP. Nghị định quy định hình thức mua sắm trực tuyến được áp dụng đối với hàng hóa, dịch vụ của gói thầu thuộc dự toán mua sắm có giá gói thầu không quá 500 triệu đồng (đối với gói thầu thuộc dự án là không quá 01 tỷ đồng). Do đó, hạn mức tối đa cho dự toán mua sắm là 500 triệu đồng.",
         "category": "Mua sắm đặc thù"
     },
     {
@@ -25,7 +25,7 @@ export const set26: Question[] = [
             "D": "Phương án A và B đều sai"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 53, khoản 4 của Luật Đấu thầu. Quy trình mua sắm tập trung có hai cách thức ký hợp đồng: 1. Đơn vị mua sắm tập trung ký hợp đồng trực tiếp với nhà thầu trúng thầu (Phương án A). 2. Đơn vị mua sắm tập trung ký thỏa thuận khung, sau đó các đơn vị có nhu cầu mua sắm sẽ ký hợp đồng cụ thể với nhà thầu trúng thầu dựa trên thỏa thuận khung đó (Phương án B). Cả hai cách thức này đều có thể thực hiện thông qua hợp đồng điện tử trên Hệ thống mạng đấu thầu quốc gia.",
+        "explanation": "Căn cứ pháp lý: Điểm g Khoản 1 Điều 91 Nghị định số 214/2025/NĐ-CP. Trong mua sắm tập trung, có hai cách thức ký hợp đồng: (1) Đơn vị mua sắm tập trung trực tiếp ký hợp đồng với nhà thầu (trường hợp không ký thỏa thuận khung); (2) Đơn vị có nhu cầu mua sắm ký hợp đồng với nhà thầu (trường hợp đơn vị mua sắm tập trung đã ký thỏa thuận khung). Do đó, cả hai phương án A và B đều đúng tùy thuộc vào cách thức tổ chức.",
         "category": "Mua sắm đặc thù"
     },
     {
@@ -38,7 +38,7 @@ export const set26: Question[] = [
             "D": "Phương án B và C đều đúng"
         },
         "correctAnswer": "A",
-        "explanation": "Hạn mức áp dụng mua sắm trực tuyến có sự khác biệt giữa gói thầu thuộc dự toán mua sắm thường xuyên và gói thầu thuộc dự án đầu tư. Theo quy định hiện hành, hạn mức đối với dự toán mua sắm là 500 triệu đồng và đối với dự án đầu tư là 01 tỷ đồng.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 103 Nghị định số 214/2025/NĐ-CP. Mua sắm trực tuyến áp dụng cho gói thầu mua sắm hàng hóa, dịch vụ (không áp dụng cho xây lắp). Hạn mức quy định là không quá 500 triệu đồng đối với dự toán mua sắm và không quá 01 tỷ đồng đối với dự án. Phương án A phản ánh chính xác quy định này.",
         "category": "Mua sắm đặc thù"
     },
     {
@@ -51,7 +51,7 @@ export const set26: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Chào giá trực tuyến rút gọn là quy trình lựa chọn nhà thầu được đơn giản hóa tối đa để thực hiện nhanh chóng. Do đó, để rút ngắn thời gian, quy trình này không yêu cầu bước thẩm định kết quả lựa chọn nhà thầu. Chủ đầu tư sẽ phê duyệt kết quả trực tiếp trên cơ sở kết quả chào giá cuối cùng trên Hệ thống.",
+        "explanation": "Căn cứ pháp lý: Khoản 6 Điều 102 Nghị định số 214/2025/NĐ-CP. Đối với chào giá trực tuyến theo quy trình rút gọn, việc phê duyệt kết quả lựa chọn nhà thầu được thực hiện ngay trên cơ sở chấp thuận trao hợp đồng của nhà thầu mà không yêu cầu bước thẩm định kết quả lựa chọn nhà thầu.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -64,7 +64,7 @@ export const set26: Question[] = [
             "D": "Phương án B và C đều đúng"
         },
         "correctAnswer": "B",
-        "explanation": "Khi có sự mâu thuẫn, không thống nhất giữa các thông tin trong hồ sơ dự thầu, nguyên tắc xử lý cơ bản là phải yêu cầu nhà thầu làm rõ. Việc làm rõ giúp bên mời thầu có cơ sở chính xác để đánh giá. Việc loại ngay nhà thầu (A) hoặc yêu cầu bổ sung bản giấy (C) là không phù hợp với quy trình xử lý tình huống trong đấu thầu.",
+        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 30 Nghị định số 214/2025/NĐ-CP và nguyên tắc đánh giá E-HSDT. Đối với hợp đồng tương tự (năng lực kinh nghiệm), nếu có sự sai khác giữa thông tin kê khai (webform) và tài liệu chứng minh (file đính kèm), Tổ chuyên gia thường yêu cầu nhà thầu làm rõ trên Hệ thống để xác định thông tin chính xác, vì đây là nội dung có thể bổ sung, làm rõ, không bị loại ngay lập tức như các sai khác về đơn giá hay đề xuất kỹ thuật chính.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -77,7 +77,7 @@ export const set26: Question[] = [
             "D": "Các phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 50, khoản 3 và các quy định liên quan của Luật Giao dịch điện tử. Phương án A nêu đúng giá trị pháp lý của văn bản điện tử. Phương án B nêu đúng nguyên tắc xác định thời gian trong giao dịch điện tử. Phương án C nêu đúng một trong những lợi ích và mục tiêu của việc kết nối, chia sẻ dữ liệu của Hệ thống mạng đấu thầu quốc gia. Cả ba nhận định đều phản ánh đúng bản chất và quy định về hệ thống đấu thầu qua mạng.",
+        "explanation": "Căn cứ pháp lý: Khoản 3 Điều 50 Luật Đấu thầu và Điều 8, Điều 10 Thông tư số 79/2025/TT-BTC. Văn bản điện tử trên Hệ thống có giá trị pháp lý đầy đủ (A), thời điểm gửi nhận căn cứ theo thời gian thực trên Hệ thống (B), và khi thanh toán qua Kho bạc không cần cung cấp lại tài liệu đã có trên Hệ thống (C). Do đó, cả 3 nhận định đều đúng.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -90,7 +90,7 @@ export const set26: Question[] = [
             "D": "Không giới hạn số lần"
         },
         "correctAnswer": "D",
-        "explanation": "Để đảm bảo quá trình làm rõ được đầy đủ và hiệu quả, Hệ thống mạng đấu thầu quốc gia không giới hạn số lần trả lời cho một yêu cầu làm rõ. Nhà thầu và bên mời thầu có thể trao đổi qua lại nhiều lần cho đến khi nội dung được làm sáng tỏ hoàn toàn.",
+        "explanation": "Căn cứ pháp lý: Quy trình kỹ thuật trên Hệ thống mạng đấu thầu quốc gia. Pháp luật và hệ thống không giới hạn số lần trả lời làm rõ E-HSDT, miễn là việc làm rõ nằm trong khoảng thời gian cho phép và phục vụ mục đích làm rõ các nội dung chưa rõ ràng mà không làm thay đổi bản chất hồ sơ.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -103,7 +103,7 @@ export const set26: Question[] = [
             "D": "Các thành viên liên danh bắt buộc phải sử dụng cùng thể thức bảo lãnh dự thầu bằng giấy"
         },
         "correctAnswer": "C",
-        "explanation": "Để đảm bảo tính thống nhất và dễ dàng quản lý trên Hệ thống, tất cả các thành viên trong liên danh phải thống nhất sử dụng cùng một thể thức bảo đảm dự thầu, hoặc tất cả cùng sử dụng bảo lãnh điện tử, hoặc tất cả cùng sử dụng bảo lãnh bằng giấy.",
+        "explanation": "Căn cứ pháp lý: Điểm a Khoản 1 Điều 27 Thông tư số 79/2025/TT-BTC. Thông tư quy định đối với nhà thầu liên danh, các thành viên liên danh phải sử dụng cùng một thể thức bảo lãnh dự thầu: hoặc cùng là bảo lãnh điện tử, hoặc cùng là bảo lãnh bằng giấy (scan đính kèm).",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -116,7 +116,7 @@ export const set26: Question[] = [
             "D": "Trong vòng 05 ngày làm việc, kể từ ngày nhận được yêu cầu của tư vấn đấu thầu, nếu nhà thầu từ chối hoặc không nộp bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh (đối với trường hợp sử dụng bảo lãnh dự thầu bằng văn bản giấy) theo yêu cầu của tư vấn đấu thầu thì nhà thầu sẽ bị xử lý theo đúng cam kết của nhà thầu trong đơn dự thầu"
         },
         "correctAnswer": "A",
-        "explanation": "Trong đấu thầu qua mạng, nhà thầu cam kết trong đơn dự thầu rằng sẽ nộp bản gốc thư bảo lãnh khi được yêu cầu. Yêu cầu này do chủ đầu tư (hoặc bên mời thầu) đưa ra. Nếu nhà thầu vi phạm cam kết, họ sẽ bị xử lý theo các chế tài đã được quy định (như không được hoàn trả bảo đảm dự thầu). Thời hạn 05 ngày làm việc là thời hạn hợp lý để nhà thầu thực hiện.",
+        "explanation": "Căn cứ pháp lý: Quy trình đối chiếu tài liệu trong đấu thầu qua mạng. Trong đấu thầu qua mạng, nhà thầu nộp bản scan bảo lãnh khi dự thầu. Bản gốc chỉ phải nộp khi có yêu cầu của Chủ đầu tư (thường là tại bước đối chiếu tài liệu trước khi ký hợp đồng). Nếu không nộp theo yêu cầu của Chủ đầu tư, nhà thầu sẽ bị xử lý (tịch thu bảo đảm/phạt uy tín) theo cam kết trong đơn dự thầu.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -129,7 +129,7 @@ export const set26: Question[] = [
             "D": "Các phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 50, khoản 5 của Luật Đấu thầu. Lộ trình áp dụng đấu thầu qua mạng có các trường hợp ngoại lệ. Các gói thầu phức tạp như hỗn hợp hai giai đoạn (A), đấu thầu quốc tế (B) và các hình thức không mang tính cạnh tranh rộng rãi (C) đều thuộc danh sách các trường hợp không bắt buộc phải thực hiện đấu thầu qua mạng. Do đó, tất cả các phương án đều đúng.",
+        "explanation": "Căn cứ pháp lý: Khoản 5 Điều 50 Luật Đấu thầu và Điều 98 Nghị định số 214/2025/NĐ-CP. Các trường hợp không áp dụng đấu thầu qua mạng bao gồm: Gói thầu tổ chức đấu thầu quốc tế, gói thầu hỗn hợp sơ tuyển/phương thức 02 giai đoạn, và các hình thức lựa chọn đặc thù như chỉ định thầu, mua sắm trực tiếp, tự thực hiện, v.v. Do đó, cả 3 phương án A, B, C đều là các trường hợp không bắt buộc/không áp dụng đấu thầu qua mạng.",
         "category": "Đấu thầu qua mạng"
     }
 ];

@@ -12,7 +12,7 @@ export const set22: Question[] = [
             "D": "Phương án B và C đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Khi một thành viên liên danh vi phạm, gây ảnh hưởng nghiêm trọng, chủ đầu tư có các lựa chọn xử lý. Nếu thành viên còn lại (A) có thể đảm nhận phần việc của B, thì chỉ bảo đảm của B bị tịch thu (C). Nếu A không thể đảm nhận, hợp đồng có thể bị chấm dứt và toàn bộ bảo đảm của liên danh bị tịch thu (B). Do cả hai đều là các khả năng xử lý hợp lệ tùy thuộc vào tình hình, phương án D là đáp án bao quát nhất.",
+        "explanation": "Căn cứ pháp lý: Điểm b Khoản 22 Điều 140 Nghị định số 214/2025/NĐ-CP. Nếu phần việc của thành viên vi phạm được tách thành gói thầu riêng: Tịch thu bảo đảm của tất cả thành viên liên danh. Nếu phần việc đó giao cho thành viên khác trong liên danh làm tiếp: Chỉ tịch thu bảo đảm của thành viên vi phạm. Do đó, phương án D (B và C đều đúng tùy tình huống xử lý công việc còn lại) là chính xác.",
         "category": "Hợp đồng"
     },
     {
@@ -25,7 +25,7 @@ export const set22: Question[] = [
             "D": "Xin ý kiến người có thẩm quyền để xử lý tình huống trong đấu thầu"
         },
         "correctAnswer": "C",
-        "explanation": "Việc đề xuất cụ thể ký mã hiệu, nhãn hiệu, xuất xứ, hãng sản xuất của hàng hóa chào thầu là một yêu cầu cơ bản và quan trọng để bên mời thầu có thể đánh giá tính đáp ứng về mặt kỹ thuật. Nếu nhà thầu không cung cấp các thông tin này, hồ sơ dự thầu được coi là không đáp ứng một cách cơ bản về kỹ thuật và sẽ không được xem xét, đánh giá tiếp.",
+        "explanation": "Căn cứ pháp lý: Khoản 6 Điều 29 Nghị định số 214/2025/NĐ-CP. Việc không đề xuất cụ thể ký mã hiệu, xuất xứ, hãng sản xuất (đối với hàng hóa đặc thù như thiết bị y tế) thường được coi là bỏ sót nội dung cơ bản hoặc không đáp ứng yêu cầu kỹ thuật quan trọng, dẫn đến hồ sơ dự thầu bị loại (không được xem xét tiếp).",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -38,7 +38,7 @@ export const set22: Question[] = [
             "D": "Cả 3 phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 50, khoản 3 và các quy định liên quan của Luật Giao dịch điện tử. Phương án A nêu đúng giá trị pháp lý của văn bản điện tử. Phương án B nêu đúng nguyên tắc xác định thời gian trong giao dịch điện tử. Phương án C nêu đúng một trong những lợi ích và mục tiêu của việc kết nối, chia sẻ dữ liệu của Hệ thống mạng đấu thầu quốc gia. Cả ba nhận định đều phản ánh đúng bản chất và quy định về hệ thống đấu thầu qua mạng.",
+        "explanation": "Căn cứ pháp lý: Khoản 3 Điều 50 Luật Đấu thầu và Điều 10 Thông tư số 79/2025/TT-BTC. Văn bản điện tử trên Hệ thống có giá trị pháp lý, xác định thời gian thực gửi/nhận, và nhà thầu không cần nộp hồ sơ giấy cho Kho bạc nếu dữ liệu đã có trên Hệ thống. Cả 3 nhận định đều đúng.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -51,7 +51,7 @@ export const set22: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Tài khoản nghiệp vụ là tài khoản con được tạo ra từ tài khoản tham gia chính của một đơn vị. Nó được sử dụng để phân quyền cho các cá nhân khác nhau trong tổ chức thực hiện các nghiệp vụ cụ thể trên Hệ thống, giúp quản lý và phân công công việc hiệu quả.",
+        "explanation": "Căn cứ pháp lý: Khoản 10 Điều 3 Thông tư số 79/2025/TT-BTC. Tài khoản nghiệp vụ được định nghĩa là tài khoản do Tài khoản tham gia hệ thống (tài khoản chính của tổ chức) tạo ra và phân quyền để thực hiện các nghiệp vụ cụ thể.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -64,7 +64,7 @@ export const set22: Question[] = [
             "D": "Cả 3 phương án trên đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 8, khoản 1, điểm c của Luật Đấu thầu. Luật quy định rõ trách nhiệm của nhà thầu là 'cập nhật, đăng tải thông tin về năng lực, kinh nghiệm của mình vào cơ sở dữ liệu nhà thầu'. Các thông tin về uy tín (A) và vi phạm (B) thường do bên mời thầu hoặc người có thẩm quyền đăng tải.",
+        "explanation": "Căn cứ pháp lý: Khoản 2 Điều 11 Thông tư số 79/2025/TT-BTC. Nhà thầu có trách nhiệm tự kê khai và cập nhật thông tin về năng lực, kinh nghiệm (hợp đồng, nhân sự, máy móc...) trên Hệ thống. (Các thông tin vi phạm/uy tín do chủ đầu tư đăng).",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -77,7 +77,7 @@ export const set22: Question[] = [
             "D": "Chủ đầu tư"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 8, khoản 1, điểm a của Luật Đấu thầu. Luật quy định rõ: 'Chủ đầu tư có trách nhiệm đăng tải thông tin quy định tại các điểm a, g, h, i và k khoản 1 Điều 7 của Luật này'. Thông tin chủ yếu của hợp đồng thuộc điểm h khoản 1 Điều 7.",
+        "explanation": "Căn cứ pháp lý: Khoản 2 Điều 12 Thông tư số 79/2025/TT-BTC (và Điểm h Khoản 1 Điều 8 Luật Đấu thầu). Trách nhiệm đăng tải thông tin chủ yếu của hợp đồng thuộc về Chủ đầu tư (hoặc đơn vị mua sắm tập trung nếu ký hợp đồng).",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -90,7 +90,7 @@ export const set22: Question[] = [
             "D": "Đăng tải thông tin về năng lực, kinh nghiệm của mình trên Hệ thống mạng đấu thầu quốc gia"
         },
         "correctAnswer": "C",
-        "explanation": "Trách nhiệm đăng tải thông tin trên Hệ thống mạng đấu thầu quốc gia thuộc về chủ đầu tư/bên mời thầu. Việc nhà thầu tư vấn tự ý thay đổi hoặc thực hiện việc đăng tải thay cho chủ đầu tư là hành vi lạm quyền, vi phạm quy trình và có thể bị xử lý bằng hình thức khóa tài khoản.",
+        "explanation": "Căn cứ pháp lý: Khoản 5 Điều 23 Nghị định số 214/2025/NĐ-CP. Nhà thầu tư vấn bị khóa tài khoản 06 tháng nếu sử dụng tài khoản của mình để thay chủ đầu tư đăng tải các nội dung thuộc trách nhiệm của chủ đầu tư (như thông báo mời thầu, kết quả lựa chọn...).",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -103,7 +103,7 @@ export const set22: Question[] = [
             "D": "05 ngày làm việc kể từ ngày nhà thầu nộp bảo đảm thực hiện hợp đồng"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 8, khoản 4 của Luật Đấu thầu. Luật quy định: 'Thông tin quy định tại các điểm a, d, g, h, i khoản 1... phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia chậm nhất là 05 ngày làm việc kể từ ngày văn bản được ban hành hoặc hợp đồng có hiệu lực.'",
+        "explanation": "Căn cứ pháp lý: Khoản 2 Điều 12 Thông tư số 79/2025/TT-BTC. Thời hạn đăng tải thông tin hợp đồng là chậm nhất 05 ngày làm việc kể từ ngày hợp đồng có hiệu lực.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -116,7 +116,7 @@ export const set22: Question[] = [
             "D": "Người có thẩm quyền đăng tải trong thời hạn 05 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm"
         },
         "correctAnswer": "C",
-        "explanation": "Chủ đầu tư là bên chịu trách nhiệm chính trong việc quản lý gói thầu và xử lý các vi phạm của nhà thầu. Do đó, chủ đầu tư có trách nhiệm công khai thông tin về các hành vi vi phạm này trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 07 ngày làm việc để cảnh báo cho các bên mời thầu khác.",
+        "explanation": "Căn cứ pháp lý: Khoản 2 Điều 20 Nghị định số 214/2025/NĐ-CP. Chủ đầu tư phải đăng tải danh sách nhà thầu vi phạm uy tín trong thời hạn 07 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm.",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -129,7 +129,7 @@ export const set22: Question[] = [
             "D": "Tư vấn đấu thầu"
         },
         "correctAnswer": "B",
-        "explanation": "Chủ đầu tư (hoặc bên mời thầu được ủy quyền) là người chịu trách nhiệm về việc tổ chức lựa chọn nhà thầu, bao gồm cả việc quyết định các mốc thời gian như thời điểm đóng thầu. Khi cần thiết (ví dụ để sửa đổi HSMT), chủ đầu tư là người ra quyết định và thực hiện thao tác gia hạn trên Hệ thống.",
+        "explanation": "Căn cứ pháp lý: Điểm b Khoản 4 Điều 140 Nghị định số 214/2025/NĐ-CP. Việc quyết định gia hạn thời điểm đóng thầu (xử lý tình huống) thuộc thẩm quyền của Chủ đầu tư.",
         "category": "Đấu thầu qua mạng"
     }
 ];

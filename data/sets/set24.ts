@@ -12,7 +12,7 @@ export const set24: Question[] = [
             "D": "Cả 3 đáp án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Khi tham gia đấu thầu qua mạng, nhà thầu phải chịu trách nhiệm về tính chính xác của thông tin kê khai (A), chỉ cần nộp một bộ E-HSDT duy nhất cho một E-TBMT (B), và có quyền rút, sửa, nộp lại hồ sơ trước thời điểm đóng thầu (C). Cả ba đều là những quy định cơ bản và đúng đắn.",
+        "explanation": "Căn cứ pháp lý: Điều 27 Thông tư số 79/2025/TT-BTC. Nhà thầu phải chịu trách nhiệm về thông tin kê khai (A); chỉ nộp 1 bộ E-HSDT (B); chỉ được sửa/rút trước đóng thầu (C). Cả 3 nhận định đều đúng.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -25,7 +25,7 @@ export const set24: Question[] = [
             "D": "Các phương án trên đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Khi E-HSMT (hồ sơ mời thầu) được sửa đổi, các yêu cầu của gói thầu đã thay đổi. Để đảm bảo hồ sơ dự thầu của mình đáp ứng các yêu cầu mới, nhà thầu cần phải rút hồ sơ cũ và nộp lại một bộ hồ sơ mới đã được cập nhật theo E-HSMT sửa đổi.",
+        "explanation": "Căn cứ pháp lý: Điểm b Khoản 2 Điều 28 Nghị định số 214/2025/NĐ-CP. Khi E-HSMT bị sửa đổi, nhà thầu đã nộp E-HSDT trước đó thường phải nộp lại (hoặc sửa đổi) E-HSDT để phù hợp với các yêu cầu mới. Các trường hợp khác (lỗi file, sự cố hệ thống) không bắt buộc nộp lại (sự cố thì gia hạn, lỗi file thì không mở được/không đánh giá).",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -37,8 +37,8 @@ export const set24: Question[] = [
             "C": "Cho phép gia hạn thời điểm đóng thầu tối thiểu 05 ngày làm việc đối với gói thầu xây lắp, hỗn hợp có giá gói thầu không quá 20 tỷ đồng, gói thầu mua sắm hàng hoá, dịch vụ phi tư vấn có giá không quá 10 tỷ đồng",
             "D": "Phương án A và C đều đúng"
         },
-        "correctAnswer": "A",
-        "explanation": "Khi không có nhà thầu nào nộp hồ sơ dự thầu, gói thầu được coi là không thành công. Cách xử lý phù hợp nhất là hủy thông báo mời thầu (E-TBMT) đã đăng tải để kết thúc quy trình hiện tại và tiến hành mời thầu lại từ đầu, có thể xem xét điều chỉnh lại hồ sơ mời thầu để thu hút nhà thầu hơn.",
+        "correctAnswer": "D",
+        "explanation": "Căn cứ pháp lý: Khoản 4 Điều 140 Nghị định số 214/2025/NĐ-CP. Khi không có nhà thầu tham dự, chủ đầu tư có thể xử lý theo 2 cách: (1) Hủy thông báo mời thầu (để mời lại); hoặc (2) Gia hạn thời điểm đóng thầu (tối thiểu 5 ngày đối với gói thầu nhỏ). Cả A và C đều đúng.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -51,7 +51,7 @@ export const set24: Question[] = [
             "D": "Các phương án trên đều sai"
         },
         "correctAnswer": "B",
-        "explanation": "Khi có sự không thống nhất giữa các phần của hồ sơ dự thầu, nguyên tắc xử lý là phải yêu cầu nhà thầu làm rõ. Việc làm rõ phải được thực hiện trên Hệ thống để đảm bảo tính minh bạch. Bên mời thầu sẽ căn cứ vào nội dung làm rõ và các tài liệu gốc để đưa ra kết luận cuối cùng.",
+        "explanation": "Căn cứ pháp lý: Hướng dẫn thực tế và nguyên tắc làm rõ (Điều 30 Nghị định 214). Đối với Hợp đồng tương tự, nếu có sự sai khác giữa Webform và File đính kèm, chủ đầu tư thường yêu cầu nhà thầu làm rõ trên Hệ thống (vì đây là tài liệu năng lực, có thể bổ sung/làm rõ, không bị loại ngay như đề xuất kỹ thuật/tài chính).",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -64,7 +64,7 @@ export const set24: Question[] = [
             "D": "Chủ đầu tư dành cho nhà thầu tối thiểu 03 ngày làm việc để nhà thầu thực hiện việc làm rõ E-HSDT"
         },
         "correctAnswer": "D",
-        "explanation": "Để đảm bảo nhà thầu có đủ thời gian chuẩn bị các tài liệu và giải trình cần thiết, pháp luật quy định chủ đầu tư phải dành cho nhà thầu một khoảng thời gian tối thiểu để thực hiện việc làm rõ. Thời gian tối thiểu 03 ngày làm việc là một quy định hợp lý và phổ biến trong đấu thầu qua mạng.",
+        "explanation": "Căn cứ pháp lý: Điểm a Khoản 3 Điều 28 Nghị định 214 (áp dụng tương tự cho làm rõ HSDT tại Điều 30). Khi yêu cầu nhà thầu làm rõ E-HSDT, chủ đầu tư phải dành cho nhà thầu thời gian chuẩn bị tối thiểu là 03 ngày làm việc.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -77,7 +77,7 @@ export const set24: Question[] = [
             "D": "Các file bị nhiễm virus, bị lỗi, hỏng"
         },
         "correctAnswer": "D",
-        "explanation": "Nếu một file đính kèm không thể mở được do lỗi kỹ thuật (nhiễm virus, file hỏng...), bên mời thầu sẽ không có cơ sở để xem xét, đánh giá nội dung bên trong. Nhà thầu phải chịu trách nhiệm về tính toàn vẹn của các file mình nộp.",
+        "explanation": "Căn cứ pháp lý: Khoản 3 Điều 5 Thông tư số 79/2025/TT-BTC. Các file bị nhiễm virus, bị lỗi, hỏng hoặc có đặt mật khẩu sẽ không được xem xét, đánh giá.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -90,7 +90,7 @@ export const set24: Question[] = [
             "D": "Các đáp án trên đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Hệ thống mạng đấu thầu quốc gia được lập trình để tự động đánh giá một số tiêu chí tài chính cơ bản dựa trên dữ liệu nhà thầu kê khai, trong đó có doanh thu bình quân 3 năm gần nhất. Các tiêu chí khác như bảo đảm dự thầu (A) và thỏa thuận liên danh (B) thường cần sự xem xét, đánh giá của tổ chuyên gia.",
+        "explanation": "Căn cứ pháp lý: Tính năng kỹ thuật của Hệ thống (Thông tư 79). Hệ thống tự động đánh giá các tiêu chí dựa trên dữ liệu liên thông hoặc webform chuẩn như: Doanh thu bình quân (lấy từ dữ liệu Thuế/ĐKKD). Bảo đảm dự thầu và Thỏa thuận liên danh thường cần Tổ chuyên gia kiểm tra file scan/chi tiết.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -103,7 +103,7 @@ export const set24: Question[] = [
             "D": "Tất cả phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Hệ thống được thiết kế để xử lý dữ liệu tài chính theo các cách khác nhau: tự động trích xuất từ các nguồn dữ liệu được kết nối (A), cho phép nhà thầu tự kê khai đối với các dữ liệu cũ (B), và bỏ qua việc đánh giá đối với các đối tượng không có báo cáo tài chính theo chuẩn mực (hộ kinh doanh) (C). Cả ba đều là các cơ chế xử lý hợp lý của Hệ thống.",
+        "explanation": "Căn cứ pháp lý: Khoản 2 Điều 11 Thông tư số 79/2025/TT-BTC. Từ 2021: Số liệu tài chính được trích xuất tự động (nhà thầu có thể cập nhật nếu sai). Trước 2021: Nhà thầu tự kê khai. Hộ kinh doanh: Không đánh giá báo cáo tài chính. Cả 3 phương án đều đúng.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -116,7 +116,7 @@ export const set24: Question[] = [
             "D": "Tư cách hợp lệ, nhà thầu không có nhân sự bị tòa án kết án có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng, lịch sử không hoàn thành hợp đồng do lỗi của nhà thầu, thực hiện nghĩa vụ kê khai thuế và nộp thuế, kết quả hoạt động tài chính, doanh thu bình quân hằng năm"
         },
         "correctAnswer": "D",
-        "explanation": "Đây là các tiêu chí cơ bản, được Hệ thống đánh giá tự động dựa trên dữ liệu có sẵn (kết nối từ cơ sở dữ liệu thuế, đăng ký kinh doanh...) hoặc kê khai trên webform. Kết quả đánh giá tự động này được coi là 'cứng' và tổ chuyên gia không thể can thiệp, sửa đổi để đảm bảo tính khách quan.",
+        "explanation": "Căn cứ pháp lý: Quy trình đánh giá trên Hệ thống. Các tiêu chí \"đánh giá cứng\" bởi Hệ thống mà Tổ chuyên gia không thể can thiệp sửa kết quả thường bao gồm: Tư cách hợp lệ (trạng thái tài khoản), Lịch sử không hoàn thành hợp đồng (do Hệ thống ghi nhận), Nghĩa vụ thuế, Kết quả tài chính. Phương án D liệt kê đầy đủ và chính xác nhất các yếu tố này.",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -129,7 +129,7 @@ export const set24: Question[] = [
             "D": "Gói thầu máy đặt, máy mượn áp dụng phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất” và các nhà thầu, E-HSDT chào ưu đãi như nhau"
         },
         "correctAnswer": "A",
-        "explanation": "Quy trình 02 là quy trình rút gọn, áp dụng cho các gói thầu mua sắm hàng hóa thông thường, đơn giản, sử dụng phương pháp giá thấp nhất và không có yếu tố phức tạp như ưu đãi.",
+        "explanation": "Căn cứ pháp lý: Điểm b Khoản 1 Điều 30 Thông tư số 79/2025/TT-BTC. Quy trình 02 (xếp hạng trước, đánh giá sau) được áp dụng cho gói thầu Hàng hóa/Phi tư vấn, 1 giai đoạn 1 túi hồ sơ, giá thấp nhất và không có bất kỳ ưu đãi nào.",
         "category": "Đấu thầu qua mạng"
     }
 ];

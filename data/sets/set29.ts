@@ -1,3 +1,4 @@
+
 import { Question } from '../../types';
 
 export const set29: Question[] = [
@@ -11,7 +12,7 @@ export const set29: Question[] = [
             "D": "Không thấp hơn 90% tổng số điểm kỹ thuật"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 58, khoản 4 của Luật Đấu thầu. Luật quy định rõ: 'Khi sử dụng phương pháp chấm điểm, phải quy định mức điểm yêu cầu tối thiểu về kỹ thuật không thấp hơn 70% tổng số điểm về kỹ thuật.'",
+        "explanation": "Căn cứ pháp lý: Khoản 4 Điều 58 Luật Đấu thầu (hoặc quy định tương ứng cho tư vấn tại Khoản 5 Điều 63 Nghị định 214). Quy định chung về mức điểm yêu cầu tối thiểu về kỹ thuật khi sử dụng phương pháp chấm điểm là không thấp hơn 70% tổng số điểm tối đa (đối với gói thầu thông thường). (Gói kỹ thuật cao là 80%).",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -24,7 +25,7 @@ export const set29: Question[] = [
             "D": "Tất cả hình thức lựa chọn nhà thầu"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 58, khoản 2, điểm a của Luật Đấu thầu. Phương pháp giá đánh giá là một phương pháp cạnh tranh, dùng để xếp hạng nhà thầu. Do đó, nó được áp dụng cho các hình thức lựa chọn nhà thầu có tính cạnh tranh như đấu thầu rộng rãi, đấu thầu hạn chế và chào hàng cạnh tranh.",
+        "explanation": "Căn cứ pháp lý: Điểm a Khoản 2 Điều 58 Luật Đấu thầu. Phương pháp giá đánh giá được áp dụng cho gói thầu mua sắm hàng hóa, xây lắp, phi tư vấn, hỗn hợp áp dụng hình thức đấu thầu rộng rãi, đấu thầu hạn chế hoặc chào hàng cạnh tranh. (Không áp dụng cho chỉ định thầu hay mua sắm trực tiếp vì các hình thức này không cần so sánh giá đánh giá phức tạp).",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -37,7 +38,7 @@ export const set29: Question[] = [
             "D": "Có giá trị phần sai lệch thiếu không quá 10% giá dự thầu"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 61, khoản 1, điểm d của Luật Đấu thầu. Điều kiện về 'sai lệch thiếu không quá 10% giá dự thầu' chỉ được quy định cho việc xét duyệt trúng thầu đối với gói thầu phi tư vấn, mua sắm hàng hóa, xây lắp, hỗn hợp. Điều 60 (xét duyệt trúng thầu tư vấn) không có điều kiện này.",
+        "explanation": "Căn cứ pháp lý: Điểm d Khoản 1 Điều 61 Luật Đấu thầu. Điều kiện \"Có giá trị phần sai lệch thiếu không quá 10% giá dự thầu\" là điều kiện xét duyệt trúng thầu dành cho gói thầu phi tư vấn, hàng hóa, xây lắp, hỗn hợp. Đối với gói thầu tư vấn (Điều 60), không có quy định về giới hạn sai lệch thiếu này.",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -50,7 +51,7 @@ export const set29: Question[] = [
             "D": "Bên mời thầu"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 70, khoản 4 của Luật Đấu thầu. Luật quy định: 'Khi sửa đổi hợp đồng làm thay đổi thời gian thực hiện hợp đồng nhưng không vượt thời gian thực hiện dự án... thì chủ đầu tư xem xét, quyết định.'",
+        "explanation": "Căn cứ pháp lý: Khoản 4 Điều 114 Nghị định số 214/2025/NĐ-CP. Khi sửa đổi hợp đồng làm thay đổi thời gian thực hiện nhưng không vượt thời gian thực hiện dự án, thẩm quyền quyết định thuộc về Chủ đầu tư.",
         "category": "Hợp đồng"
     },
     {
@@ -63,7 +64,7 @@ export const set29: Question[] = [
             "D": "Từ ngày thông báo trúng thầu đến ngày hết thời hạn bảo hành"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 68, khoản 5 của Luật Đấu thầu. Đây là định nghĩa chính xác về thời gian hiệu lực của bảo đảm thực hiện hợp đồng được quy định trong Luật.",
+        "explanation": "Căn cứ pháp lý: Khoản 5 Điều 68 Luật Đấu thầu. Thời gian có hiệu lực của bảo đảm thực hiện hợp đồng tính từ ngày hợp đồng có hiệu lực đến ngày các bên hoàn thành nghĩa vụ theo hợp đồng (hoặc chuyển sang nghĩa vụ bảo hành).",
         "category": "Hợp đồng"
     },
     {
@@ -76,7 +77,7 @@ export const set29: Question[] = [
             "D": "Tất cả phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 64, khoản 4 của Luật Đấu thầu. Luật quy định hợp đồng theo thời gian có thể áp dụng trong các trường hợp: tình trạng khẩn cấp (A); sửa chữa, bảo trì công trình, máy móc, thiết bị (B); và dịch vụ tư vấn khi khó xác định được phạm vi và thời gian (C).",
+        "explanation": "Căn cứ pháp lý: Khoản 4 Điều 64 Luật Đấu thầu. Hợp đồng theo thời gian áp dụng cho: Tình trạng khẩn cấp; Sửa chữa/bảo trì; Dịch vụ tư vấn khó xác định phạm vi/thời gian. Do đó, cả A, B, C đều đúng -> Chọn D.",
         "category": "Hợp đồng"
     },
     {
@@ -89,7 +90,7 @@ export const set29: Question[] = [
             "D": "Tổng mức đầu tư của dự án"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 68, khoản 4 của Luật Đấu thầu. Luật quy định mức bảo đảm thực hiện hợp đồng được xác định theo tỷ lệ phần trăm của giá hợp đồng.",
+        "explanation": "Căn cứ pháp lý: Khoản 4 Điều 68 Luật Đấu thầu. Giá trị bảo đảm thực hiện hợp đồng được xác định từ 2% đến 10% của giá hợp đồng (không phải giá gói thầu hay giá dự thầu).",
         "category": "Hợp đồng"
     },
     {
@@ -102,7 +103,7 @@ export const set29: Question[] = [
             "D": "Sửa đổi hợp đồng làm thay đổi thiết kế cơ sở dẫn đến phải điều chỉnh chủ trương đầu tư"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 70, khoản 4 của Luật Đấu thầu. Đây chính là nội dung được quy định tại khoản 4, trao quyền cho chủ đầu tư tự quyết định đối với các sửa đổi không làm thay đổi các giới hạn lớn của dự án (tổng mức đầu tư, thời gian thực hiện dự án).",
+        "explanation": "Căn cứ pháp lý: Khoản 4 Điều 114 Nghị định số 214/2025/NĐ-CP. Chủ đầu tư được tự quyết định sửa đổi hợp đồng khi: Thay đổi thời gian (không vượt thời gian dự án) hoặc Vượt giá gói thầu (bao gồm dự phòng) nhưng không làm vượt tổng mức đầu tư.",
         "category": "Hợp đồng"
     },
     {
@@ -115,7 +116,7 @@ export const set29: Question[] = [
             "D": "Khi thay đổi thời gian thực hiện hợp đồng nhưng không làm vượt thời gian thực hiện dự án hoặc vượt giá gói thầu (bao gồm dự phòng) được duyệt nhưng không làm vượt tổng mức đầu tư"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 70, khoản 5 của Luật Đấu thầu. Đây là các điều kiện để việc điều chỉnh giá được thực hiện tự động theo các công thức, phương pháp đã được thỏa thuận sẵn trong hợp đồng (ví dụ: hợp đồng theo đơn giá điều chỉnh) mà không cần phải ký một văn bản sửa đổi riêng.",
+        "explanation": "Căn cứ pháp lý: Khoản 5 Điều 114 Nghị định số 214/2025/NĐ-CP. Không phải ký văn bản sửa đổi hợp đồng nếu đáp ứng đủ 3 điều kiện: (1) Không vượt giá gói thầu; (2) Không vượt thời gian thực hiện gói thầu ghi trong hợp đồng; (3) Phương pháp điều chỉnh đã có trong hợp đồng.",
         "category": "Hợp đồng"
     },
     {
@@ -128,7 +129,7 @@ export const set29: Question[] = [
             "D": "Hợp đồng theo đơn giá cố định chỉ áp dụng cho gói thầu dịch vụ tư vấn, hợp đồng theo đơn giá điều chỉnh áp dụng cho gói thầu xây lắp"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 64, khoản 2 và khoản 3 của Luật Đấu thầu. Đây là điểm khác biệt cốt lõi được định nghĩa trong Luật. 'Đơn giá cố định' là không thay đổi, trong khi 'đơn giá điều chỉnh' có thể thay đổi (trượt giá) theo các công thức đã thỏa thuận.",
+        "explanation": "Căn cứ pháp lý: Khoản 2 và 3 Điều 64 Luật Đấu thầu. Hợp đồng đơn giá cố định: Đơn giá không thay đổi trong suốt thời gian thực hiện. Hợp đồng đơn giá điều chỉnh: Đơn giá có thể được điều chỉnh dựa trên thỏa thuận (trượt giá, biến động thị trường...).",
         "category": "Hợp đồng"
     }
 ];
