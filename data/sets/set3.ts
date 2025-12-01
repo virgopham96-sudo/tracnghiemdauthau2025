@@ -89,8 +89,8 @@ export const set3: Question[] = [
             "C": "Có thể dẫn tới khiếu nại từ nhà thầu",
             "D": "Phương án A và B đều đúng"
         },
-        "correctAnswer": "D",
-        "explanation": "Việc giữ lại hồ sơ (không trả lại đúng hạn) có thể làm cơ sở để giải quyết kiến nghị/đánh giá lại (A) và cũng đảm bảo trách nhiệm giải trình (B). Tuy nhiên, nếu xét theo quy trình chuẩn thì việc giữ lại quá hạn có thể dẫn đến khiếu nại (C). Câu hỏi này thường có đáp án là kết hợp các lý do thực tế hoặc rủi ro pháp lý. Dựa trên đáp án cung cấp trong tệp tin: D (A và B đều đúng) là hợp lý về mặt quản lý nhà nước.",
+        "correctAnswer": "C",
+        "explanation": "Việc giữ lại hồ sơ có thể làm cơ sở để giải quyết kiến nghị/đánh giá lại (A) và cũng đảm bảo trách nhiệm giải trình (B). Tuy nhiên, nếu xét theo quy trình chuẩn thì việc giữ lại quá hạn có thể dẫn đến khiếu nại (C).",
         "category": "Quy định chung"
     },
     {
