@@ -12,6 +12,17 @@ interface QuizProps {
     totalTime: number;
 }
 
+const EXCLUDED_FROM_SHUFFLE = [6, 9, 20, 27, 29, 41, 44, 45, 59, 71, 85, 89, 90, 93, 103, 107, 108, 114, 117, 120, 125, 131, 132, 138, 139, 148, 149, 165, 170, 176, 183, 186, 193, 209, 211, 214, 221, 224, 233, 241, 242, 250, 252, 253, 254, 255, 261, 272, 275, 276, 294, 298, 312, 318];
+
+const shuffleArray = <T,>(array: T[]): T[] => {
+    const newArray = [...array];
+    for (let i = newArray.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+    }
+    return newArray;
+};
+
 const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPracticeMode, totalTime }) => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [selectedAnswers, setSelectedAnswers] = useState<UserAnswers>({});
@@ -31,6 +42,22 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
     const toggleGridVisibility = () => {
         setIsGridVisible(prev => !prev);
     };
+
+    // Compute shuffled mappings once when questions load
+    const optionMappings = useMemo(() => {
+        const mappings: Record<number, string[]> = {};
+        // Check if it is Random Test Mode (not practice, and title contains "ngẫu nhiên")
+        const isRandomTest = !isPracticeMode && setTitle.toLowerCase().includes('ngẫu nhiên');
+
+        questions.forEach(q => {
+            if (isRandomTest && !EXCLUDED_FROM_SHUFFLE.includes(q.id)) {
+                mappings[q.id] = shuffleArray(['A', 'B', 'C', 'D']);
+            } else {
+                mappings[q.id] = ['A', 'B', 'C', 'D'];
+            }
+        });
+        return mappings;
+    }, [questions, isPracticeMode, setTitle]);
 
     useEffect(() => {
         if (isPracticeMode) return; // Don't start timer in practice mode
@@ -100,13 +127,16 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
         const handleKeyDown = (event: KeyboardEvent) => {
             const activeElement = document.activeElement as HTMLElement;
 
-            // Allow number keys to select answers
-            const keyMap = { '1': 'A', '2': 'B', '3': 'C', '4': 'D' };
-            const option = keyMap[event.key as keyof typeof keyMap];
-            if (option) {
+            // Allow number keys to select answers based on visual position
+            const keyIndexMap: Record<string, number> = { '1': 0, '2': 1, '3': 2, '4': 3 };
+            const index = keyIndexMap[event.key];
+            
+            if (index !== undefined) {
                 const currentQuestion = questions[currentQuestionIndex];
                 if (currentQuestion) {
-                    handleOptionChange(currentQuestion.id, option as 'A' | 'B' | 'C' | 'D');
+                    const currentMapping = optionMappings[currentQuestion.id] || ['A', 'B', 'C', 'D'];
+                    const originalKey = currentMapping[index] as 'A' | 'B' | 'C' | 'D';
+                    handleOptionChange(currentQuestion.id, originalKey);
                 }
                 event.preventDefault(); // Prevent default action (e.g., typing '1' in a field)
                 return;
@@ -115,23 +145,19 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
             // Allow up/down arrows if focus is within the options container
             if (activeElement && activeElement.closest('.quiz-options-container')) {
                  if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
-                    const options = Array.from(
-                        document.querySelectorAll<HTMLInputElement>('input[type="radio"][name^="question-"]')
-                    );
-                    const currentIndex = options.findIndex(opt => opt.checked);
+                    // Logic for arrow navigation remains mostly UI based, focusing elements
+                    // Just getting the list of option divs
+                    const optionDivs = Array.from(
+                        document.querySelectorAll('.quiz-option-item')
+                    ) as HTMLElement[];
                     
-                    let nextIndex;
-                    if (event.key === 'ArrowUp') {
-                        nextIndex = currentIndex > 0 ? currentIndex - 1 : options.length - 1;
-                    } else { // ArrowDown
-                        nextIndex = currentIndex < options.length - 1 ? currentIndex + 1 : 0;
-                    }
-
-                    if (options[nextIndex]) {
-                         options[nextIndex].click();
-                         options[nextIndex].focus();
-                    }
-                    event.preventDefault();
+                    // Find currently selected or focused
+                    // This part is a bit tricky since we don't have standard radio inputs. 
+                    // We can simplify by just focusing next/prev div.
+                    // For now, let's skip complex focus management for arrows inside options 
+                    // as the previous implementation relied on input[type=radio] which we don't strictly have in the render loop below.
+                    // We will rely on number keys for selection efficiency.
+                    
                     return; 
                  }
             }
@@ -151,7 +177,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
         return () => {
             window.removeEventListener('keydown', handleKeyDown);
         };
-    }, [handlePrevQuestion, handleNextQuestion, questions, currentQuestionIndex, handleOptionChange]);
+    }, [handlePrevQuestion, handleNextQuestion, questions, currentQuestionIndex, handleOptionChange, optionMappings]);
 
 
     
@@ -183,6 +209,10 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
         : 'text-slate-800';
 
     const currentQuestion = questions[currentQuestionIndex];
+    
+    // Standard UI keys to iterate over for display (always A, B, C, D visually)
+    const uiKeys = ['A', 'B', 'C', 'D'];
+    const currentMapping = currentQuestion ? (optionMappings[currentQuestion.id] || uiKeys) : uiKeys;
 
     const getQuestionNavClasses = (index: number) => {
         let baseClasses = "w-10 h-10 flex items-center justify-center rounded-lg font-bold text-sm transition-all duration-200 border transform hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400";
@@ -276,15 +306,20 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
                                     {currentQuestion.question}
                                 </p>
                                 <div className="space-y-4 quiz-options-container">
-                                    {Object.entries(currentQuestion.options).map(([key, value]) => (
-                                        <div
-                                            key={key}
-                                            onClick={() => handleOptionChange(currentQuestion.id, key as 'A' | 'B' | 'C' | 'D')}
-                                            className={`flex items-start p-4 rounded-lg border-2 transition-all cursor-pointer ${selectedAnswers[currentQuestion.id] === key ? 'bg-cyan-50 border-cyan-500 ring-2 ring-cyan-200' : 'bg-white border-slate-200 hover:bg-cyan-50/50 hover:border-cyan-300'}`}>
-                                            <span className="font-bold text-cyan-700 w-7 shrink-0">{key}.</span>
-                                            <span className="text-slate-800 text-base">{value}</span>
-                                        </div>
-                                    ))}
+                                    {uiKeys.map((uiKey, index) => {
+                                        const originalKey = currentMapping[index] as 'A' | 'B' | 'C' | 'D';
+                                        const value = currentQuestion.options[originalKey];
+                                        
+                                        return (
+                                            <div
+                                                key={uiKey}
+                                                onClick={() => handleOptionChange(currentQuestion.id, originalKey)}
+                                                className={`quiz-option-item flex items-start p-4 rounded-lg border-2 transition-all cursor-pointer ${selectedAnswers[currentQuestion.id] === originalKey ? 'bg-cyan-50 border-cyan-500 ring-2 ring-cyan-200' : 'bg-white border-slate-200 hover:bg-cyan-50/50 hover:border-cyan-300'}`}>
+                                                <span className="font-bold text-cyan-700 w-7 shrink-0">{uiKey}.</span>
+                                                <span className="text-slate-800 text-base">{value}</span>
+                                            </div>
+                                        );
+                                    })}
                                 </div>
                                  <div className="mt-6 text-right">
                                     <button
