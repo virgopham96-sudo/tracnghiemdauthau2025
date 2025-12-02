@@ -11,8 +11,8 @@ export const set19: Question[] = [
             "C": "Thành lập khi chủ tịch UBND tỉnh yêu cầu",
             "D": "Thành lập khi Giám đốc doanh nghiệp A đề nghị"
         },
-        "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điểm b Khoản 1 Điều 139 Nghị định số 214/2025/NĐ-CP. Giám đốc Sở Tài chính thành lập Hội đồng giải quyết kiến nghị đối với gói thầu do UBND tỉnh là chủ đầu tư hoặc đơn vị thuộc phạm vi quản lý của tỉnh là chủ đầu tư. Tuy nhiên, đây là đơn vị sự nghiệp công lập tự chủ chi đầu tư và chi thường xuyên (nhóm 1) thì được tự quyết định mua sắm (theo khoản 7 Điều 3 Luật), trừ khi họ chọn áp dụng Luật. Nếu họ thuộc đối tượng tự quyết định theo Luật (như quy định tại Điểm d Khoản 7 Điều 3 Luật), thì việc giải quyết kiến nghị do người đứng đầu đơn vị tự ban hành quy trình (Khoản 7 Điều 138 Nghị định), không thuộc trách nhiệm của Sở Tài chính.",
+        "correctAnswer": "A",
+        "explanation": "",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
@@ -115,8 +115,8 @@ export const set19: Question[] = [
             "C": "Nhà thầu X phải nộp 20 triệu đồng",
             "D": "Nhà thầu X phải nộp 15 triệu đồng"
         },
-        "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Khoản 8 Điều 14 Nghị định số 214/2025/NĐ-CP. Chi phí tính theo tỷ lệ % giá dự thầu (90 tỷ). Mức: Giá dự thầu từ 50 tỷ đến dưới 100 tỷ -> Tỷ lệ 0,025%. Tính toán: 90.000.000.000 x 0,025% = 22.500.000 đồng.",
+        "correctAnswer": "A",
+        "explanation": "",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {

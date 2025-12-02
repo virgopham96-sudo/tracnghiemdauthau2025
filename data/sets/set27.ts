@@ -11,8 +11,8 @@ export const set27: Question[] = [
             "C": "Được thực hiện trước thời điểm đóng thầu trong trường hợp đã phát hành hồ sơ mời thầu trước ngày 01/7/2025 nhưng đến ngày 4/8/2025 chưa đóng thầu",
             "D": "Phương án A và C đều đúng"
         },
-        "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Khoản 4 Điều 140 Nghị định số 214/2025/NĐ-CP. Việc hủy thông báo mời thầu (E-TBMT) là một trong các biện pháp xử lý tình huống tại thời điểm đóng thầu nếu không có nhà thầu nào nộp hồ sơ dự thầu.",
+        "correctAnswer": "D",
+        "explanation": "",
         "category": "Đấu thầu qua mạng"
     },
     {
@@ -25,7 +25,7 @@ export const set27: Question[] = [
             "D": "Các phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Khoản 3 Điều 27 Thông tư số 79/2025/TT-BTC. Nhà thầu có trách nhiệm theo dõi cập nhật thông tin trên Hệ thống. Hệ thống có tính năng gửi email tự động cho các nhà thầu đã nhấn \"quan tâm/theo dõi\" gói thầu. Nhà thầu chịu rủi ro nếu không cập nhật kịp thời các sửa đổi. Cả 3 phương án đều đúng.",
+        "explanation": "",
         "category": "Đấu thầu qua mạng"
     },
     {

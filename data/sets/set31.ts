@@ -89,8 +89,8 @@ export const set31: Question[] = [
             "C": "Chủ đầu tư",
             "D": "Đơn vị mua sắm tập trung"
         },
-        "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Khoản 3 Điều 104 Nghị định số 214/2025/NĐ-CP. Hệ thống tự động gửi thông báo cho nhà thầu đã trúng thầu trong mua sắm tập trung trước đó (vì mua sắm trực tuyến bản chất là mua lại của nhà thầu đã trúng thầu tập trung).",
+        "correctAnswer": "B",
+        "explanation": "",
         "category": "Mua sắm đặc thù"
     },
     {

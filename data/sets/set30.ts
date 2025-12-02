@@ -37,8 +37,8 @@ export const set30: Question[] = [
             "C": "Chủ đầu tư không cần điều chỉnh kế hoạch lựa chọn nhà thầu",
             "D": "Các phương án trên đều sai"
         },
-        "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Khoản 2 Điều 4 Thông tư số 79/2025/TT-BTC. Thông tư quy định: \"Trường hợp trong quá trình thực hiện hợp đồng có thay đổi về thời gian thực hiện gói thầu so với kế hoạch lựa chọn nhà thầu đã được phê duyệt thì không phải điều chỉnh kế hoạch lựa chọn nhà thầu\". (Chủ đầu tư chỉ cần điều chỉnh hợp đồng theo thẩm quyền).",
+        "correctAnswer": "C",
+        "explanation": "",
         "category": "Hợp đồng"
     },
     {

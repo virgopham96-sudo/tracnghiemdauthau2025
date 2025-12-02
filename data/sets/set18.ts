@@ -37,8 +37,8 @@ export const set18: Question[] = [
             "C": "Người có thẩm quyền, Hội đồng giải quyết kiến nghị",
             "D": "Chủ đầu tư, Hội đồng tư vấn giải quyết kiến nghị"
         },
-        "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Khoản 4 Điều 89 Luật Đấu thầu và Khoản 2 Điều 138 Nghị định số 214/2025/NĐ-CP. Đối với kết quả lựa chọn nhà thầu, việc giải quyết kiến nghị do Chủ đầu tư (cấp 1) và Hội đồng tư vấn giải quyết kiến nghị (cấp 2, khi nhà thầu không đồng ý với chủ đầu tư) thực hiện. Lưu ý: Người có thẩm quyền không giải quyết kiến nghị về kết quả lựa chọn nhà thầu.",
+        "correctAnswer": "B",
+        "explanation": "",
         "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {

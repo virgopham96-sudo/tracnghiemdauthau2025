@@ -102,8 +102,8 @@ export const set11: Question[] = [
             "C": "Được thay đổi nhân sự đã đề xuất trong E-HSDT trong trường hợp do thời gian đánh giá E-HSDT kéo dài hơn so với dự kiến trong kế hoạch lựa chọn nhà thầu hoặc vì lý do bất khả kháng mà các vị trí nhân sự chủ chốt do nhà thầu đã đề xuất không thể tham gia thực hiện hợp đồng",
             "D": "Phương án B và C đều đúng"
         },
-        "correctAnswer": "D",
-        "explanation": "Nhà thầu tư vấn được thay nhân sự chủ chốt trong 2 trường hợp chính: (1) Do thời gian đánh giá kéo dài hơn dự kiến hoặc lý do bất khả kháng (nhân sự ốm, chết, không thể tham gia); (2) Nhân sự đề xuất không đáp ứng yêu cầu (được thay thế 01 lần). Căn cứ: Điểm c Khoản 2 Điều 71 Nghị định 214/2025/NĐ-CP.",
+        "correctAnswer": "C",
+        "explanation": "",
         "category": "Hợp đồng"
     },
     {

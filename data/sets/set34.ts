@@ -77,7 +77,7 @@ export const set34: Question[] = [
             "D": "Tùy quy mô, tính chất từng gói thầu"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Hiệp định CPTPP. Hiệp định khuyến khích các bên sử dụng đấu thầu qua mạng (e-procurement) để tăng tính minh bạch và hiệu quả, nhưng chưa bắt buộc ngay lập tức đối với mọi gói thầu trong thời gian đầu.",
+        "explanation": "",
         "category": "Mua sắm đặc thù"
     },
     {

@@ -11,8 +11,8 @@ export const set32: Question[] = [
             "C": "Không được bổ sung tài liệu chứng minh năng lực, kinh nghiệm còn thiếu",
             "D": "Rút hồ sơ dự thầu để nộp lại"
         },
-        "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Khoản 1 Điều 30 Nghị định số 214/2025/NĐ-CP. Đối với tài liệu năng lực, kinh nghiệm (như hợp đồng tương tự, nhân sự...), nếu thiếu hoặc cần làm rõ, chủ đầu tư sẽ yêu cầu nhà thầu làm rõ, bổ sung. Nhà thầu được phép bổ sung khi có yêu cầu của chủ đầu tư.",
+        "correctAnswer": "B",
+        "explanation": "",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -50,8 +50,8 @@ export const set32: Question[] = [
             "C": "Chỉ được dùng giấy chứng nhận bảo hiểm bảo lãnh do chính mình phát hành nếu giá trị bảo lãnh nhỏ hơn 50 triệu đồng",
             "D": "Tất cả phương án trên đều sai"
         },
-        "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điểm d Khoản 3 Điều 26 Nghị định số 214/2025/NĐ-CP và thực tiễn hướng dẫn. Quy định cấm nhà thầu bảo hiểm xuất trình giấy chứng nhận bảo hiểm bảo lãnh do mình phát hành (để tránh xung đột lợi ích/tự bảo lãnh). Tuy nhiên, đối với gói thầu có giá trị bảo đảm dự thầu dưới 50 triệu đồng, nhà thầu không cần nộp thư bảo lãnh mà chỉ cần cam kết.",
+        "correctAnswer": "D",
+        "explanation": "",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -63,8 +63,8 @@ export const set32: Question[] = [
             "C": "05 ngày làm việc kể từ ngày được yêu cầu",
             "D": "07 ngày làm việc kể từ ngày được yêu cầu"
         },
-        "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Khoản 5 Điều 33 Nghị định số 214/2025/NĐ-CP. Chủ đầu tư có trách nhiệm trả lời yêu cầu giải thích lý do không trúng thầu trong thời hạn 05 ngày làm việc.",
+        "correctAnswer": "A",
+        "explanation": "",
         "category": "Kế hoạch và Quy trình LCNT"
     },
     {
@@ -102,8 +102,8 @@ export const set32: Question[] = [
             "C": "Báo cáo đánh giá E-HSDT (đăng tải báo cáo đánh giá tổng hợp, không cần kèm theo các phiếu chấm của thành viên trong tổ chuyên gia)",
             "D": "Phương án B và C đều đúng"
         },
-        "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Khoản 3 Điều 30 Thông tư số 79/2025/TT-BTC. Sau khi đánh giá xong, Tổ trưởng tổ chuyên gia phải đính kèm bản scan Báo cáo đánh giá E-HSDT (chỉ cần có chữ ký của tổ trưởng tổ chuyên gia) lên Hệ thống.",
+        "correctAnswer": "A",
+        "explanation": "",
         "category": "Đấu thầu qua mạng"
     },
     {

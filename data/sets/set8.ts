@@ -11,8 +11,8 @@ export const set8: Question[] = [
             "C": "Lao động phổ thông",
             "D": "Phương án A và C đều đúng"
         },
-        "correctAnswer": "A",
-        "explanation": "Để bảo vệ lao động trong nước, Luật quy định đấu thầu quốc tế phải yêu cầu sử dụng lao động trong nước đối với những vị trí công việc mà lao động trong nước đáp ứng được và có khả năng cung cấp (đặc biệt là lao động phổ thông). Căn cứ: Khoản 10 Điều 26 Nghị định 214/2025/NĐ-CP.",
+        "correctAnswer": "D",
+        "explanation": "",
         "category": "Mua sắm đặc thù"
     },
     {
@@ -63,8 +63,8 @@ export const set8: Question[] = [
             "C": "Không được quy định uy tín của nhà thầu thông qua việc tham dự thầu trong tiêu chuẩn đánh giá về kỹ thuật",
             "D": "Hợp đồng tương tự được xác định trên cơ sở tương tự cả về tính chất và quy mô (giá trị hợp đồng)"
         },
-        "correctAnswer": "D",
-        "explanation": "Đối với gói thầu tư vấn, hợp đồng tương tự được đánh giá dựa trên sự tương tự về tính chất (loại dịch vụ tư vấn) và quy mô (giá trị hợp đồng). Căn cứ: Mẫu số 6A Thông tư 79/2025/TT-BTC.",
+        "correctAnswer": "A",
+        "explanation": "",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -76,8 +76,8 @@ export const set8: Question[] = [
             "C": "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp III, có giá trị tối thiểu là 50% x (2X) VND",
             "D": "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp III, có giá trị tối thiểu là 50% x (2X) VND, trong đó phải bao gồm hạng mục hàng rào bảo vệ, nhà bảo vệ"
         },
-        "correctAnswer": "C",
-        "explanation": "Khi gói thầu gồm nhiều hạng mục công trình với các cấp khác nhau, hợp đồng tương tự thường được yêu cầu là công trình có cấp công trình tương đương với cấp của hạng mục chính/cao nhất hoặc quy định linh hoạt để tăng tính cạnh tranh. Tuy nhiên, theo hướng dẫn của Thông tư 79/2025/TT-BTC (Mẫu 3A), trường hợp gói thầu gồm tổ hợp nhiều công trình, E-HSMT có thể yêu cầu công trình tương tự có cấp thấp hơn (cấp III) nhưng giá trị phải đảm bảo tương ứng (ví dụ 50% giá trị gói thầu hoặc giá trị hạng mục chính). Đáp án C (cấp III) là phù hợp để không hạn chế nhà thầu quá mức khi trong gói có cả hạng mục cấp III và II, miễn là giá trị đáp ứng.",
+        "correctAnswer": "A",
+        "explanation": "",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
@@ -102,8 +102,8 @@ export const set8: Question[] = [
             "C": "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 05 tỷ đồng",
             "D": "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 07 tỷ đồng"
         },
-        "correctAnswer": "C",
-        "explanation": "Tổng giá trị của các hàng hóa có cùng mã HS 9035 là 10 tỷ đồng. Yêu cầu về giá trị hợp đồng tương tự thông thường là 50% giá gói thầu. Vậy yêu cầu hợp đồng tương tự có giá trị tối thiểu 05 tỷ đồng là phù hợp. Căn cứ: Mẫu số 4A Thông tư 79/2025/TT-BTC.",
+        "correctAnswer": "B",
+        "explanation": "",
         "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {

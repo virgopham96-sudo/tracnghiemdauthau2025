@@ -102,8 +102,8 @@ export const set3: Question[] = [
             "C": "Công ty B sử dụng nhà thầu phụ là công ty tư vấn C, công ty tư vấn C sở hữu 30% cổ phần của công ty A và công ty A là nhà thầu tư vấn thiết kế kỹ thuật cho dự án Y",
             "D": "Công ty A là nhà thầu tư vấn lập hồ sơ mời thầu gói thầu xây lắp X có sở hữu 30% vốn góp của Công ty B"
         },
-        "correctAnswer": "A",
-        "explanation": "Căn cứ Điều 6 Luật Đấu thầu về bảo đảm cạnh tranh.\n\nQuy định cấm nhà thầu tham dự thầu (Công ty B) có quan hệ với nhà thầu tư vấn lập HSMT. Tuy nhiên, ở phương án A, Công ty A (tư vấn lập HSMT) là nhà thầu phụ của Công ty B. Luật (Khoản 4 Điều 6) quy định nhà thầu tham dự thầu phải độc lập với nhà thầu tư vấn (không có cổ phần/vốn góp của nhau). Việc B thuê A làm thầu phụ không vi phạm quy định về sở hữu chéo (vốn góp) giữa B và A. Do đó A là đáp án \"đáp ứng\" (không vi phạm sở hữu).",
+        "correctAnswer": "C",
+        "explanation": "",
         "category": "Quy định chung"
     },
     {
