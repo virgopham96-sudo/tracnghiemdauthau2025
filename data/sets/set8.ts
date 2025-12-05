@@ -35,7 +35,7 @@ export const set8: Question[] = [
             "A": "Quy định hàng hóa thuộc cùng lĩnh vực tổng quát với máy điều hòa (thiết bị điện...)",
             "B": "Chỉ quy định hàng hóa có cùng mã Chương, mã Nhóm (tương ứng với 4 số đầu tiên của bộ mã) trong Hệ thống mã HS với mã HS của máy điều hòa",
             "C": "Được quy định hàng hóa thuộc cùng chủng loại hoặc hàng hóa có cùng mã Chương, mã Nhóm (tương ứng với 4 số đầu tiên của bộ mã) trong Hệ thống mã HS với mã HS của máy điều hòa",
-            "D": "Cả 2 phương án B và C đều đúng"
+            "D": "Tất cả đáp án trên đều đúng"
         },
         "correctAnswer": "D",
         "explanation": "Hàng hóa tương tự có thể được hiểu theo 2 cách linh hoạt: (1) Có cùng lĩnh vực tổng quát (ví dụ cùng là thiết bị điện tử); hoặc (2) Có cùng mã Chương, mã Nhóm (4 số đầu mã HS). Nhà thầu đáp ứng một trong hai tiêu chí này đều được chấp nhận. Căn cứ: Ghi chú trong Mẫu số 4A Thông tư 79/2025/TT-BTC.",
