@@ -128,8 +128,8 @@ export const set17: Question[] = [
             "C": "Bị đưa vào xem xét, đánh giá về kỹ thuật trong quá trình lựa chọn nhà thầu đối với gói thầu xây lắp, phi tư vấn, hàng hóa, hỗn hợp",
             "D": "Đáp án B và C đều đúng"
         },
-        "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Khoản 2 Điều 20 Nghị định số 214/2025/NĐ-CP. Nhà thầu có hành vi vi phạm uy tín sẽ bị xử lý: Đối với gói thầu tư vấn, thông tin uy tín được dùng để đánh giá kỹ thuật. Đối với gói thầu khác (xây lắp, hàng hóa, phi tư vấn, hỗn hợp), nhà thầu phải nộp bảo đảm dự thầu gấp 03 lần trong thời hạn 02 năm. Tuy nhiên, theo quy định mới, uy tín cũng được xem xét đánh giá kỹ thuật. Do đó, cả B và C đều đúng trong ngữ cảnh các loại gói thầu tương ứng.",
+        "correctAnswer": "B",
+        "explanation": "",
         "category": "Trách nhiệm và Xử lý vi phạm"
     }
 ];

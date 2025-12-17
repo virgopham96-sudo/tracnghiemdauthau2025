@@ -56,7 +56,7 @@ export const set25: Question[] = [
     },
     {
         "id": 245,
-        "question": "Gói thầu chào giá trực tuyến rút gọn, trường hợp nhà thầu từ chối xác nhận về việc chấp thuận được trao hợp đồng trên Hệ thống mạng đấu thầu quốc gia thì nhà thầu sẽ bị xử lý theo hình thức nào sau đây?",
+        "question": "Gói thầu chào giá trực tuyến rút gọn, trường hợp nhà thầu từ chối xác nhận về việc chấp thuận được trao hợp đồng trên Hệ thống mạng đấu thầu quốc gia thì nội dung nào sau đây không đúng?",
         "options": {
             "A": "Công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
             "B": "Khoá tài khoản trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của chủ đầu tư",
