@@ -30,12 +30,12 @@ export const set32: Question[] = [
     },
     {
         "id": 313,
-        "question": "Việc hủy thầu được thực hiện đối với một phần của gói thầu trong trường hợp nào?",
+        "question": "Đối với đấu thầu không qua mạng, trường hợp hồ sơ dự thầu của nhà thầu có sai lệch thiếu sau khi hiệu chỉnh sai lệch vẫn được xếp hạng thứ nhất và hồ sơ dự thầu của nhà thầu này không có đơn giá của phần sai lệch thiếu, đơn giá nào sẽ được ưu tiên áp dụng đầu tiên để đề nghị trúng thầu?",
         "options": {
-            "A": "Phần đó không có nhà thầu tham dự thầu",
-            "B": "Phần đó không có nhà thầu đáp ứng yêu cầu về kỹ thuật",
-            "C": "Phần đó có nhà thầu đáp ứng yêu cầu về kỹ thuật nhưng không đáp ứng yêu cầu về tài chính",
-            "D": "Tất cả các trường hợp trên"
+            "A": "Đơn giá trong dự toán gói thầu",
+            "B": "Đơn giá tương ứng có giá trị thấp nhất trong các hồ sơ dự thầu khác vượt qua bước đánh giá về kỹ thuật",
+            "C": "Đơn giá hình thành giá gói thầu",
+            "D": "Đơn giá tương ứng có giá trị cao nhất trong các hồ sơ dự thầu khác vượt qua bước đánh giá về kỹ thuật"
         },
         "correctAnswer": "B",
         "explanation": "Căn cứ pháp lý: Khoản 4 Điều 31 Nghị định số 214/2025/NĐ-CP. Khi nhà thầu xếp hạng nhất có sai lệch thiếu và không có đơn giá cho phần thiếu đó, đơn giá đề nghị trúng thầu cho phần thiếu sẽ lấy theo thứ tự ưu tiên: Đầu tiên là đơn giá tương ứng có giá trị thấp nhất trong các hồ sơ dự thầu khác vượt qua bước kỹ thuật.",
