@@ -1,3 +1,4 @@
+
 import { set1 } from './set1';
 import { set2 } from './set2';
 import { set3 } from './set3';
@@ -32,6 +33,11 @@ import { set31 } from './set31';
 import { set32 } from './set32';
 import { set33 } from './set33';
 import { set34 } from './set34';
+import { set35 } from './set35';
+import { set36 } from './set36';
+import { set37 } from './set37';
+import { set38 } from './set38';
+import { set39 } from './set39';
 
 export const allSetsData = [
     set1,
@@ -67,5 +73,10 @@ export const allSetsData = [
     set31,
     set32,
     set33,
-    set34
+    set34,
+    set35,
+    set36,
+    set37,
+    set38,
+    set39
 ];

@@ -32,7 +32,7 @@ const ModeSelector: React.FC<ModeSelectorProps> = ({
                     <div>
                         <span className="text-xl font-bold text-slate-800 group-hover:text-cyan-700">Chế độ Luyện tập</span>
                         <span className="block text-sm font-normal mt-1 text-slate-600">
-                            Ôn tập toàn bộ 340 câu hỏi. Nhận phản hồi và giải thích ngay lập tức.
+                            Ôn tập toàn bộ 390 câu hỏi. Nhận phản hồi và giải thích ngay lập tức.
                         </span>
                     </div>
                 </button>
@@ -46,7 +46,7 @@ const ModeSelector: React.FC<ModeSelectorProps> = ({
                     <div>
                         <span className="text-xl font-bold text-slate-800 group-hover:text-cyan-700">Thi theo bộ đề</span>
                         <span className="block text-sm font-normal mt-1 text-slate-600">
-                            Chọn 1 trong 34 bộ đề. Làm bài thi tính giờ 15 phút.
+                            Chọn 1 trong 39 bộ đề. Làm bài thi tính giờ 15 phút.
                         </span>
                     </div>
                 </button>
@@ -74,7 +74,7 @@ const ModeSelector: React.FC<ModeSelectorProps> = ({
                     <div>
                         <span className="text-xl font-bold text-slate-800 group-hover:text-cyan-700">Tra cứu câu hỏi</span>
                         <span className="block text-sm font-normal mt-1 text-slate-600">
-                           Tìm kiếm câu hỏi theo từ khoá trong toàn bộ 340 câu.
+                           Tìm kiếm câu hỏi theo từ khoá trong toàn bộ 390 câu.
                         </span>
                     </div>
                 </button>

@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { Question, UserAnswers } from '../types';
 import { CheckIcon, XIcon, ArrowUpIcon, ChevronLeftIcon, ChevronRightIcon } from './icons';
@@ -8,21 +9,21 @@ interface PracticeAllProps {
 }
 
 const BASE_CATEGORY_MAPPING: Record<string, number[]> = {
-    "1. Phạm vi, Đối tượng áp dụng & Khái niệm cơ bản": [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 337],
-    "2. Hình thức lựa chọn nhà thầu": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 142, 297],
-    "3. Kế hoạch lựa chọn nhà thầu (KHLCNT)": [41, 42, 43, 45, 46, 151, 154],
-    "4. Bảo đảm cạnh tranh trong đấu thầu": [28, 47, 48, 49, 50, 81, 102],
-    "5. Lập & Đánh giá hồ sơ mời thầu": [23, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 69, 74, 75, 76, 77, 78, 83, 84, 85, 86, 91, 92, 93, 94, 95, 112, 114, 117, 118],
-    "6. Gói thầu qua mạng (E-bidding)": [64, 65, 66, 68, 72, 98, 99, 100, 213, 214, 215, 216, 217, 218, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 257, 258, 262, 263, 265, 267, 269, 272, 273, 274, 275, 298, 299, 301],
-    "7. Thương thảo & Trúng thầu": [87, 104, 106, 135, 208, 279, 280, 281, 282, 283],
+    "1. Phạm vi, Đối tượng áp dụng & Khái niệm cơ bản": [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 337, 378, 379],
+    "2. Hình thức lựa chọn nhà thầu": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 142, 297, 356, 377, 383],
+    "3. Kế hoạch lựa chọn nhà thầu (KHLCNT)": [41, 42, 43, 45, 46, 151, 154, 366, 368, 381],
+    "4. Bảo đảm cạnh tranh trong đấu thầu": [28, 47, 48, 49, 50, 81, 102, 371, 373],
+    "5. Lập & Đánh giá hồ sơ mời thầu": [23, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 69, 74, 75, 76, 77, 78, 83, 84, 85, 86, 91, 92, 93, 94, 95, 112, 114, 117, 118, 342, 352, 359, 360, 361, 362, 363, 365, 370, 374, 375, 380, 382],
+    "6. Gói thầu qua mạng (E-bidding)": [64, 65, 66, 68, 72, 98, 99, 100, 213, 214, 215, 216, 217, 218, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 257, 258, 262, 263, 265, 267, 269, 272, 273, 274, 275, 298, 299, 301, 341, 343, 344, 345, 348, 349, 350, 351, 354, 355, 357, 358, 364, 367, 369],
+    "7. Thương thảo & Trúng thầu": [87, 104, 106, 135, 208, 279, 280, 281, 282, 283, 346, 347],
     "8. Lưu trữ hồ sơ": [16, 17, 18, 19],
     "9. Các loại hợp đồng trong đấu thầu": [119, 286, 290, 292],
-    "10. Bảo đảm dự thầu & Thực hiện hợp đồng": [67, 110, 116, 121, 122, 277, 278, 285, 287, 303, 314, 316],
-    "11. Quản lý hợp đồng & Thanh toán": [120, 125, 126, 196, 197, 211, 284, 288, 289, 291, 293, 302],
+    "10. Bảo đảm dự thầu & Thực hiện hợp đồng": [67, 110, 116, 121, 122, 277, 278, 285, 287, 303, 314, 316, 376],
+    "11. Quản lý hợp đồng & Thanh toán": [120, 125, 126, 196, 197, 211, 284, 288, 289, 291, 293, 302, 353],
     "12. Hủy thầu, Hủy kết quả & Xử lý vi phạm": [153, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 201, 202, 205, 219, 245],
-    "13. Xử lý tình huống trong đấu thầu": [24, 25, 26, 27, 70, 88, 90, 96, 97, 105, 111, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 198, 199, 200, 203, 204, 206, 207, 209, 210, 212, 241, 242, 244, 246, 247, 248, 249, 250, 261, 266, 268, 308, 309, 310, 311, 312, 313, 315, 317],
+    "13. Xử lý tình huống trong đấu thầu": [24, 25, 26, 27, 70, 88, 90, 96, 97, 105, 111, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 198, 199, 200, 203, 204, 206, 207, 209, 210, 212, 241, 242, 244, 246, 247, 248, 249, 250, 261, 266, 268, 308, 309, 310, 311, 312, 313, 315, 317, 372],
     "14. Mua sắm tập trung": [136, 137, 138, 139, 140, 141, 143, 144, 145, 146, 147, 148, 149, 150, 251, 252, 253, 306, 307],
-    "15. Đấu thầu theo quy chuẩn quốc tế & ODA": [319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 338, 339, 340]
+    "15. Đấu thầu theo quy chuẩn quốc tế & ODA": [319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 338, 339, 340, 384, 385, 386, 387, 388, 389, 390]
 };
 
 const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
@@ -55,7 +56,6 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
         if (selectedCategory !== 'all') {
             const allowedIds = fullCategoryMapping[selectedCategory];
             if (allowedIds) {
-                // Filter questions that are in the ID list
                 return questions.filter(q => allowedIds.includes(q.id));
             }
             return [];
@@ -66,10 +66,8 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     useEffect(() => {
         setCurrentQuestionIndex(0);
         setShowHint(false);
-        // We do NOT reset userAnswers here so users can switch topics without losing progress
     }, [selectedCategory]);
 
-    // Safeguard against index out of bounds when filteredQuestions shrinks
     useEffect(() => {
         if (filteredQuestions.length > 0 && currentQuestionIndex >= filteredQuestions.length) {
             setCurrentQuestionIndex(filteredQuestions.length - 1);
@@ -112,7 +110,6 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     }, [currentQuestionIndex, handleJumpToQuestion]);
 
     const handleOptionChange = useCallback((questionId: number, option: 'A' | 'B' | 'C' | 'D') => {
-        // Prevent changing answer once it's given
         if (userAnswers[questionId]) {
             return;
         }
@@ -125,7 +122,6 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
-            // Allow number keys to select answers
             const keyMap = { '1': 'A', '2': 'B', '3': 'C', '4': 'D' };
             const option = keyMap[event.key as keyof typeof keyMap];
             if (option) {
@@ -254,7 +250,6 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                 </div>
             )}
 
-            {/* Question Display */}
             {filteredQuestions.length > 0 ? (
                 currentQuestion && (
                     <div className={`bg-white rounded-xl p-4 sm:p-6 shadow-xl border border-slate-200 transition-all duration-200 ease-in-out ${isFading ? 'opacity-0 -translate-y-3' : 'opacity-100 translate-y-0'}`}>
@@ -316,7 +311,6 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                 </div>
             )}
             
-             {/* Sequential Navigation */}
             {filteredQuestions.length > 0 && (
                 <div className="flex justify-between items-center mt-6">
                      <button

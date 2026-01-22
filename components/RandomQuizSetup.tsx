@@ -42,7 +42,7 @@ const RandomQuizSetup: React.FC<RandomQuizSetupProps> = ({ totalQuestions, onSta
                     <input
                         type="range"
                         min="10"
-                        max={Math.min(200, totalQuestions)} // Limit slider to 200 or total available
+                        max={totalQuestions}
                         step="10"
                         value={questionCount}
                         onChange={(e) => setQuestionCount(parseInt(e.target.value))}

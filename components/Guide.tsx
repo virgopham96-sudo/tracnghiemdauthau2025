@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { BookOpenIcon, ClipboardListIcon, ShuffleIcon, SearchIcon, CloseIcon } from './icons';
 
@@ -28,21 +29,21 @@ const Guide: React.FC<GuideProps> = ({ onClose }) => {
                             <div className="bg-cyan-100 p-2 rounded-lg mt-1 shrink-0"><BookOpenIcon className="h-6 w-6 text-cyan-600"/></div>
                             <div>
                                 <p className="font-bold text-slate-800">Luyện tập tổng hợp</p>
-                                <p className="text-slate-600">Ôn tập toàn bộ 340 câu hỏi không giới hạn thời gian. Xem đáp án và giải thích chi tiết ngay sau khi trả lời. Đặc biệt, bạn có thể <span className="font-semibold text-cyan-600">lọc câu hỏi theo 8 chủ đề</span> chính của Luật Đấu thầu.</p>
+                                <p className="text-slate-600">Ôn tập toàn bộ 390 câu hỏi không giới hạn thời gian. Xem đáp án và giải thích chi tiết ngay sau khi trả lời. Đặc biệt, bạn có thể <span className="font-semibold text-cyan-600">lọc câu hỏi theo 15 chủ đề</span> chính của Luật Đấu thầu.</p>
                             </div>
                         </div>
                          <div className="flex items-start gap-4">
                             <div className="bg-cyan-100 p-2 rounded-lg mt-1 shrink-0"><ClipboardListIcon className="h-6 w-6 text-cyan-600"/></div>
                             <div>
                                 <p className="font-bold text-slate-800">Thi theo bộ đề</p>
-                                <p className="text-slate-600">Thử sức với 34 bộ đề thi, mỗi bộ đề gồm 10 câu hỏi với thời gian làm bài 15 phút, mô phỏng một phần bài thi thực tế.</p>
+                                <p className="text-slate-600">Thử sức với 39 bộ đề thi, mỗi bộ đề gồm 10 câu hỏi với thời gian làm bài 15 phút, mô phỏng một phần bài thi thực tế.</p>
                             </div>
                         </div>
                         <div className="flex items-start gap-4">
                             <div className="bg-cyan-100 p-2 rounded-lg mt-1 shrink-0"><ShuffleIcon className="h-6 w-6 text-cyan-600"/></div>
                             <div>
                                 <p className="font-bold text-slate-800">Thi ngẫu nhiên</p>
-                                <p className="text-slate-600">Làm bài thi tổng hợp gồm 70 câu hỏi được lấy ngẫu nhiên từ toàn bộ ngân hàng đề. Thời gian làm bài 60 phút.</p>
+                                <p className="text-slate-600">Làm bài thi tổng hợp với số lượng câu hỏi tùy chọn được lấy ngẫu nhiên từ toàn bộ ngân hàng đề.</p>
                             </div>
                         </div>
                     </div>
@@ -56,7 +57,7 @@ const Guide: React.FC<GuideProps> = ({ onClose }) => {
                             <div className="bg-cyan-100 p-2 rounded-lg mt-1 shrink-0"><SearchIcon className="h-6 w-6 text-cyan-600"/></div>
                             <div>
                                 <p className="font-bold text-slate-800">Tra cứu theo từ khoá</p>
-                                <p className="text-slate-600">Sử dụng chức năng "Tra cứu câu hỏi" từ màn hình chính để tìm kiếm nhanh bất kỳ từ khoá nào trong toàn bộ 340 câu hỏi, các lựa chọn và phần giải thích. Từ khoá sẽ được tô vàng để dễ dàng nhận biết.</p>
+                                <p className="text-slate-600">Sử dụng chức năng "Tra cứu câu hỏi" từ màn hình chính để tìm kiếm nhanh bất kỳ từ khoá nào trong toàn bộ 390 câu hỏi, các lựa chọn và phần giải thích. Từ khoá sẽ được tô vàng để dễ dàng nhận biết.</p>
                             </div>
                         </div>
                      </div>
@@ -81,11 +82,6 @@ const Guide: React.FC<GuideProps> = ({ onClose }) => {
                          <li className="flex items-center gap-3">
                             <kbd className="w-12 text-center px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg">←</kbd>
                             <span className="text-slate-700">- Quay về câu hỏi trước đó.</span>
-                        </li>
-                        <li className="flex items-center gap-3">
-                            <kbd className="w-12 text-center px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg">↑</kbd>
-                            <kbd className="w-12 text-center px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg">↓</kbd>
-                            <span className="text-slate-700">- Thay đổi lựa chọn giữa các đáp án (chỉ trong chế độ Thi).</span>
                         </li>
                     </ul>
                 </div>
