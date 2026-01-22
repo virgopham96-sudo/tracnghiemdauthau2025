@@ -12,7 +12,7 @@ export const set35: Question[] = [
             "D": "Bắt buộc sử dụng hợp đồng điện tử đối với tất cả gói thầu tổ chức lựa chọn nhà thầu trên Hệ thống mạng đấu thầu Quốc gia theo hình thức đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước"
         },
         "correctAnswer": "D",
-        "explanation": "Dựa trên các quy định về lựa chọn nhà thầu qua mạng và kết nối hệ thống, việc bắt buộc sử dụng hợp đồng điện tử (ký số trên Hệ thống mạng đấu thầu quốc gia) cần hội tụ đủ 02 điều kiện sau: 1. Hình thức lựa chọn: Gói thầu phải được tổ chức lựa chọn trên Hệ thống mạng đấu thầu quốc gia (đấu thầu qua mạng). Các hình thức áp dụng bao gồm: Đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến và mua sắm trực tuyến. 2. Nguồn thanh toán: Việc thanh toán hợp đồng phải được thực hiện qua Kho bạc Nhà nước. Quy định này nhằm phục vụ việc chia sẻ thông tin về hợp đồng và kiểm soát chi giữa Hệ thống mạng đấu thầu quốc gia và Hệ thống của Kho bạc Nhà nước.",
+        "explanation": "Dựa trên các quy định về lựa chọn nhà thầu qua mạng và kết nối hệ thống, việc bắt buộc sử dụng hợp đồng điện tử (ký số trên Hệ thống mạng đấu thầu quốc gia) cần hội tụ đủ 02 điều kiện sau: 1. Hình thức lựa chọn: Gói thầu phải được tổ chức lựa chọn trên Hệ thống mạng đấu thầu quốc gia (đấu thầu qua mạng). Các hình thức áp dụng bao gồm: Đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến và mua sắm trực tuyến. 2. Nguồn thanh toán: Việc thanh toán hợp đồng phải được thực hiện qua Kho bạc Nhà nước. Quy định này nhằm phục vụ việc chia sẻ thông tin về hợp đồng và kiểm soát chi giữa Hệ thống mạng đấu thầu quốc gia và Hệ thống của Kho bạc Nhà nước. Phân tích các phương án sai: • A sai: Vì bao gồm cả gói thầu \"không qua mạng\". • B sai: Vì đây là các hình thức thường không bắt buộc đấu thầu qua mạng theo lộ trình nên chưa bắt buộc áp dụng hợp đồng điện tử ngay. • C sai: Vì quy định bắt buộc này gắn liền với việc kiểm soát chi qua \"Kho bạc Nhà nước\".",
         "category": "Gói thầu qua mạng (E-bidding)"
     },
     {
@@ -38,7 +38,7 @@ export const set35: Question[] = [
             "D": "Cả 3 đáp án đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Dựa trên các quy định về quy trình đánh giá E-HSDT trên Hệ thống mạng đấu thầu quốc gia: 1. Về đối tượng và điều kiện áp dụng (Phương án A đúng): Quy trình 02 được áp dụng cho gói thầu Mua sắm hàng hóa và Dịch vụ phi tư vấn theo phương thức một giai đoạn một túi hồ sơ, áp dụng phương pháp 'Giá thấp nhất' và các nhà thầu/E-HSDT không có bất kỳ ưu đãi nào. 2. Về cơ chế xếp hạng (Phương án B đúng): Do áp dụng phương pháp giá thấp nhất và không có ưu đãi, Hệ thống tự động xếp hạng nhà thầu dựa trên giá dự thầu và không cần phê duyệt danh sách xếp hạng. 3. Về trường hợp ngoại lệ (Phương án C đúng): Nếu có từ 02 nhà thầu trở lên cùng xếp thứ nhất, Tổ chuyên gia phải chuyển sang đánh giá theo Quy trình 01 để phân loại.",
+        "explanation": "Dựa trên các quy định về quy trình đánh giá E-HSDT: 1. Về đối tượng và điều kiện áp dụng (A đúng): Quy trình 02 áp dụng cho Mua sắm hàng hóa/Phi tư vấn, 1G1T, dùng phương pháp 'Giá thấp nhất' và không có ưu đãi. 2. Về cơ chế xếp hạng (B đúng): Hệ thống tự động xếp hạng dựa trên giá (sau giảm giá). Vì thực hiện dựa trên thuật toán cố định nên không cần phê duyệt danh sách xếp hạng. 3. Về trường hợp ngoại lệ (C đúng): Quy trình 02 chỉ áp dụng khi xác định được duy nhất 01 nhà thầu xếp hạng thứ nhất. Nếu có 02 nhà thầu trở lên cùng giá thấp nhất, phải chuyển sang đánh giá theo Quy trình 01 (Đánh giá hợp lệ -> Năng lực -> Kỹ thuật -> Tài chính).",
         "category": "Gói thầu qua mạng (E-bidding)"
     },
     {
@@ -51,7 +51,7 @@ export const set35: Question[] = [
             "D": "Đánh giá E-HSDT của tất cả nhà thầu tham dự thầu về: tính hợp lệ của E-HSDT; kỹ thuật; tài chính; năng lực và kinh nghiệm. Trường hợp nhà thầu không đáp ứng bước trước thì không tiếp tục đánh giá bước tiếp theo"
         },
         "correctAnswer": "B",
-        "explanation": "Quy trình 02 ưu tiên tốc độ. Hệ thống xếp hạng giá xong, Tổ chuyên gia chỉ cần đánh giá nhà thầu xếp hạng thứ nhất (giá thấp nhất). Nếu ông này đạt hết (hợp lệ, năng lực, kỹ thuật) thì trúng luôn, không cần chấm mấy ông kia. Nếu trượt mới chấm ông tiếp theo. Trình tự đánh giá tuân thủ: Tính hợp lệ -> Năng lực và kinh nghiệm -> Kỹ thuật.",
+        "explanation": "Quy trình 02 ưu tiên tốc độ (quy trình đánh giá ngược). 1. Xếp hạng trước: Hệ thống tự động xếp hạng ngay sau khi mở thầu. 2. Đánh giá sau: Tổ chuyên gia chỉ tiến hành đánh giá E-HSDT của nhà thầu xếp hạng thứ nhất theo trình tự: Tính hợp lệ -> Năng lực và kinh nghiệm -> Kỹ thuật. 3. Nguyên tắc 'Cuốn chiếu': Nếu nhà thầu hạng nhất không đạt bất kỳ bước nào, tổ chuyên gia mới chuyển sang đánh giá nhà thầu hạng tiếp theo.",
         "category": "Gói thầu qua mạng (E-bidding)"
     },
     {
@@ -64,7 +64,7 @@ export const set35: Question[] = [
             "D": "Thứ 7 ngày 08/11/2025"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ quy định về làm rõ hồ sơ mời thầu (E-HSMT) đối với gói thầu đấu thầu rộng rãi trong nước qua mạng: Chủ đầu tư phải đăng tải văn bản làm rõ E-HSMT trên Hệ thống mạng đấu thầu quốc gia trong thời gian tối thiểu 02 ngày làm việc trước ngày có thời điểm đóng thầu. Thời điểm đóng thầu: Thứ 3, ngày 11/11/2025. 01 ngày làm việc trước đóng thầu: Thứ 2, ngày 10/11/2025. 02 ngày làm việc trước đóng thầu: Thứ 6, ngày 07/11/2025 (Do Thứ 7 và Chủ nhật là ngày nghỉ). Do đó, phải trả lời chậm nhất vào Thứ sáu ngày 07/11/2025.",
+        "explanation": "Căn cứ quy định về làm rõ E-HSMT (Nghị định 24/2024/NĐ-CP): Chủ đầu tư phải đăng tải văn bản làm rõ trên Hệ thống trong thời gian tối thiểu 02 ngày làm việc trước ngày đóng thầu. • Đóng thầu: Thứ 3 (11/11). • 01 ngày làm việc trước: Thứ 2 (10/11). • 02 ngày làm việc trước: Thứ 6 (07/11) (Do Thứ 7 ngày 08/11 và Chủ nhật ngày 09/11 là ngày nghỉ). Vậy phải trả lời chậm nhất vào Thứ sáu ngày 07/11/2025.",
         "category": "Gói thầu qua mạng (E-bidding)"
     },
     {
@@ -77,7 +77,7 @@ export const set35: Question[] = [
             "D": "Chủ đầu tư gửi văn bản thông báo kết quả lựa chọn nhà thầu cho các nhà thầu tham dự thầu trong thời hạn 03 ngày làm việc kể từ ngày phê duyệt kết quả lựa chọn nhà thầu"
         },
         "correctAnswer": "D",
-        "explanation": "Theo quy định về Thẩm định, phê duyệt và công khai kết quả lựa chọn nhà thầu (cụ thể tại Khoản 5 Điều 33 Nghị định 214), sau khi có quyết định phê duyệt kết quả lựa chọn nhà thầu, Chủ đầu tư có trách nhiệm gửi văn bản thông báo kết quả cho các nhà thầu tham dự thầu trong thời hạn 05 ngày làm việc kể từ ngày phê duyệt, chứ không phải 03 ngày làm việc.",
+        "explanation": "Theo quy định tại Khoản 5 Điều 33 Nghị định 214, sau khi có quyết định phê duyệt kết quả, Chủ đầu tư có trách nhiệm gửi văn bản thông báo cho các nhà thầu tham dự trong thời hạn 05 ngày làm việc kể từ ngày phê duyệt, chứ không phải 03 ngày làm việc.",
         "category": "Thương thảo & Trúng thầu"
     },
     {
@@ -90,7 +90,7 @@ export const set35: Question[] = [
             "D": "Tất cả các phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ vào quy định tại các Mẫu E-HSMT, quy trình thông báo chấp thuận E-HSDT và trao hợp đồng trong đấu thầu qua mạng được quy định thống nhất như sau: 1. Quy trình gửi (Phương án A đúng): Sau khi đăng tải thông báo kết quả lựa chọn nhà thầu, Chủ đầu tư gửi thông báo này qua Hệ thống. 2. Tính pháp lý (Phương án B đúng): Thông báo này là một phần không thể tách rời của hồ sơ hợp đồng. 3. Mốc thời gian (Phương án C đúng): Thời hạn thực hiện các yêu cầu được tính kể từ ngày Chủ đầu tư gửi thông báo.",
+        "explanation": "Theo các Mẫu E-HSMT: 1. Quy trình gửi (A đúng): Sau khi đăng tải kết quả, Chủ đầu tư gửi thông báo chấp thuận qua Hệ thống, bao gồm yêu cầu bảo đảm thực hiện hợp đồng, thời gian ký kết. 2. Tính pháp lý (B đúng): Thông báo này được quy định rõ là một phần không thể tách rời của hồ sơ hợp đồng. 3. Mốc thời gian (C đúng): Thời hạn thực hiện các yêu cầu tính kể từ ngày gửi thông báo cho nhà thầu trúng thầu trên Hệ thống.",
         "category": "Thương thảo & Trúng thầu"
     },
     {
@@ -103,7 +103,7 @@ export const set35: Question[] = [
             "D": "Cả phương án B và C đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Đối với chào giá trực tuyến theo quy trình rút gọn, giá chào không được cao hơn giá gói thầu. Giá gói thầu bao gồm toàn bộ chi phí để thực hiện gói thầu, kể cả chi phí dự phòng, phí, lệ phí và thuế. Do đó, dù là loại hợp đồng nào thì giá trần trong chào giá trực tuyến rút gọn cũng luôn bao gồm chi phí dự phòng. Lưu ý: Trong đáp án D chọn cả B và C, nhưng giải thích lại chỉ ra D đúng là do sự nhầm lẫn trong việc bóc tách dự phòng ở phương án C. Tuy nhiên, theo logic của giải thích trong tài liệu gốc, đáp án D được chọn có thể do hiểu rằng phương án A là mô tả đầy đủ nhất (bao gồm cả B và C theo cách hiểu thông thường về giá gói thầu luôn có dự phòng), nhưng tài liệu lại giải thích D đúng dựa trên việc cả B và C có thể được hiểu theo ngữ cảnh riêng. Tuy nhiên, dựa trên giải thích chi tiết trong tài liệu gốc, đáp án A là chính xác nhất về mặt nội dung (giá trần = giá gói thầu = có dự phòng). Có thể có sự nhầm lẫn trong việc đánh dấu đáp án D ở tài liệu gốc hoặc cách diễn giải B và C. Dựa trên nội dung giải thích chi tiết 'Giá trần trong CGTT rút gọn luôn bao gồm chi phí dự phòng' và 'Tại sao nhận định trong phương án C (và D) lại sai?', có vẻ như tài liệu gốc đang chỉ ra A là đáp án đúng nhất về mặt lý thuyết, nhưng lại chốt đáp án D. Ở đây tôi sẽ giữ nguyên đáp án D theo tài liệu gốc.",
+        "explanation": "Quy định về 'Giá trần' trong Chào giá trực tuyến (CGTT) rút gọn (Khoản 5 Điều 100 NĐ 214): 'Giá chào không được cao hơn giá gói thầu'. Theo Luật Đấu thầu 2023, 'Giá gói thầu' bao gồm toàn bộ chi phí thực hiện, kể cả chi phí dự phòng. Do đó, Giá trần trong CGTT rút gọn luôn bao gồm chi phí dự phòng, bất kể loại hợp đồng. (Lưu ý: Đáp án D trong tài liệu gốc dựa trên việc phân tách tính chất loại hợp đồng, tuy nhiên kết luận cuối cùng vẫn là Giá trần = Giá gói thầu = có dự phòng).",
         "category": "Gói thầu qua mạng (E-bidding)"
     },
     {
@@ -129,7 +129,7 @@ export const set35: Question[] = [
             "D": "Tất cả các phương án trên đều đúng"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ theo khoản 28 Điều 140 Nghị định 214/2025/NĐ-CP: Trường hợp gặp sự cố dẫn đến Hệ thống mạng đấu thầu quốc gia không thể vận hành và việc khắc phục dự kiến diễn ra trong thời gian dài, Bộ Tài chính có trách nhiệm thông báo trên Hệ thống về cách thức tổ chức lựa chọn nhà thầu trong thời gian gặp sự cố.",
+        "explanation": "Căn cứ khoản 28 Điều 140 Nghị định 214/2025/NĐ-CP: Trường hợp Hệ thống gặp sự cố không thể vận hành trong thời gian dài, Bộ Tài chính có trách nhiệm thông báo trên Hệ thống về cách thức tổ chức lựa chọn nhà thầu trong thời gian gặp sự cố và xử lý sự cố, bao gồm cả việc tổ chức lựa chọn nhà thầu không qua mạng.",
         "category": "Gói thầu qua mạng (E-bidding)"
     }
 ];

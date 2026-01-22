@@ -12,7 +12,7 @@ export const set37: Question[] = [
             "D": "Cả 3 phương án đều sai"
         },
         "correctAnswer": "B",
-        "explanation": "Quy định nêu rõ: Trường hợp hãng sản xuất có ký mã hiệu nhưng nhà thầu ghi 'không có' thì E-HSDT của nhà thầu không được xem xét, đánh giá. Đây là quy định nhằm đảm bảo tính chính xác và minh bạch của hàng hóa dự thầu.",
+        "explanation": "Căn cứ Ghi chú tại Mẫu số 10B: Quy định nêu rõ 'Trường hợp hãng sản xuất có ký mã hiệu nhưng nhà thầu ghi “không có” thì E-HSDT của nhà thầu không được xem xét, đánh giá'. Quy định này nhằm đảm bảo tính chính xác và minh bạch của hàng hóa dự thầu, tránh việc nhà thầu cố tình ẩn thông tin để thay đổi hàng hóa sau này.",
         "category": "Lập & Đánh giá hồ sơ mời thầu"
     },
     {
@@ -25,7 +25,7 @@ export const set37: Question[] = [
             "D": "Tối thiểu là 18 ngày làm việc kể từ ngày đầu tiên hồ sơ mời thầu được phát hành đến ngày có thời điểm đóng thầu"
         },
         "correctAnswer": "C",
-        "explanation": "Đối với trường hợp gói thầu đủ điều kiện chỉ định thầu nhưng chủ đầu tư chọn đấu thầu rộng rãi, pháp luật cho phép rút ngắn thời gian chuẩn bị hồ sơ dự thầu xuống tối thiểu là 09 ngày (ngày dương lịch) để khuyến khích cạnh tranh nhưng vẫn đảm bảo tiến độ.",
+        "explanation": "Căn cứ điểm a khoản 2 Điều 28 Nghị định 214/2025/NĐ-CP: Thông thường thời gian chuẩn bị HSDT là 18 ngày. Tuy nhiên, nếu gói thầu đủ điều kiện chỉ định thầu nhưng chủ đầu tư chọn đấu thầu rộng rãi, pháp luật cho phép rút ngắn thời gian chuẩn bị xuống tối thiểu là 09 ngày (ngày dương lịch) để khuyến khích cạnh tranh thay vì chỉ định thầu.",
         "category": "Lập & Đánh giá hồ sơ mời thầu"
     },
     {
@@ -38,7 +38,7 @@ export const set37: Question[] = [
             "D": "Giá dự thầu của nhà thầu chưa trừ đi giá trị giảm giá"
         },
         "correctAnswer": "D",
-        "explanation": "Trường hợp nhà thầu có thư giảm giá, việc sửa lỗi và hiệu chỉnh sai lệch được thực hiện trên cơ sở giá dự thầu chưa trừ đi giá trị giảm giá.",
+        "explanation": "Căn cứ khoản 3 Điều 31 Nghị định 214/2025/NĐ-CP: 'Trường hợp nhà thầu có thư giảm giá, việc sửa lỗi và hiệu chỉnh sai lệch được thực hiện trên cơ sở GIÁ DỰ THẦU CHƯA TRỪ GIÁ TRỊ GIẢM GIÁ'. Tỷ lệ phần trăm sai lệch cũng được xác định trên cơ sở này.",
         "category": "Lập & Đánh giá hồ sơ mời thầu"
     },
     {
@@ -51,7 +51,7 @@ export const set37: Question[] = [
             "D": "Nhà thầu liên danh có cam kết có năng lực tự thực hiện nghĩa vụ bảo hành theo yêu cầu của E-HSMT hoặc có hợp đồng nguyên tắc với đơn vị có đủ khả năng thực hiện nghĩa vụ bảo hành theo yêu cầu của E-HSMT"
         },
         "correctAnswer": "D",
-        "explanation": "Đối với tiêu chí bảo hành, bảo trì, yêu cầu áp dụng cho tổng các thành viên liên danh, không bắt buộc từng thành viên phải đáp ứng riêng lẻ. Nhà thầu có thể chứng minh bằng cam kết tự thực hiện HOẶC ký hợp đồng nguyên tắc với đơn vị có đủ khả năng.",
+        "explanation": "Đối với tiêu chí bảo hành, bảo trì, yêu cầu áp dụng cho 'Tổng các thành viên liên danh' (tính cho cả Nhà thầu liên danh), không bắt buộc từng thành viên phải đáp ứng riêng lẻ. Nhà thầu chứng minh bằng một trong các cách (HOẶC): Cam kết tự thực hiện HOẶC ký hợp đồng nguyên tắc với đơn vị có đủ khả năng.",
         "category": "Gói thầu qua mạng (E-bidding)"
     },
     {
@@ -64,7 +64,7 @@ export const set37: Question[] = [
             "D": "Không được nêu yêu cầu huy động về nhân sự chủ chốt đối với hàng hóa thông dụng, sẵn có trên thị trường, không đòi hỏi nhân sự thực hiện các dịch vụ liên quan phải có trình độ cao"
         },
         "correctAnswer": "C",
-        "explanation": "Đối với mua sắm hàng hóa thông thường, không được yêu cầu nhân sự chủ chốt cho phần cung cấp hàng hóa. Chỉ được yêu cầu nhân sự đối với các dịch vụ liên quan có tính chất đặc thù, phức tạp. Do đó, phương án C cho phép yêu cầu nhân sự cho phần cung cấp hàng hóa là không phù hợp.",
+        "explanation": "Theo Mục 2.2 Chương III Mẫu E-HSMT mua sắm hàng hóa: KHÔNG ĐƯỢC yêu cầu nhân sự chủ chốt đối với phần công việc cung cấp hàng hóa. Chỉ được yêu cầu đối với các dịch vụ liên quan (lắp đặt, đào tạo...) có yếu tố đặc thù, phức tạp. Do đó nhận định C là không phù hợp quy định.",
         "category": "Lập & Đánh giá hồ sơ mời thầu"
     },
     {
@@ -77,7 +77,7 @@ export const set37: Question[] = [
             "D": "Kế hoạch lựa chọn nhà thầu phải ghi rõ số lượng gói thầu và nội dung của từng gói thầu"
         },
         "correctAnswer": "C",
-        "explanation": "Theo Luật Đấu thầu, trường hợp gói thầu có thời gian thực hiện dài hơn 01 năm, kế hoạch lựa chọn nhà thầu phải nêu rõ thời gian thực hiện gói thầu và giá gói thầu trên cơ sở toàn bộ thời gian thực hiện gói thầu, không cho phép lựa chọn ghi theo chu kỳ 01 năm.",
+        "explanation": "Căn cứ khoản 2 Điều 37 Luật Đấu thầu: 'Trường hợp gói thầu có thời gian thực hiện dài hơn 01 năm, kế hoạch lựa chọn nhà thầu phải nêu rõ thời gian thực hiện gói thầu, giá gói thầu trên cơ sở toàn bộ thời gian thực hiện gói thầu'. Luật quy định bắt buộc tính cho toàn bộ thời gian, không cho phép ghi theo chu kỳ 01 năm như phương án C.",
         "category": "Kế hoạch lựa chọn nhà thầu (KHLCNT)"
     },
     {
@@ -90,7 +90,7 @@ export const set37: Question[] = [
             "D": "Phương án A hoặc B đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Nhà thầu có thể chứng minh nghĩa vụ nộp thuế bằng một trong hai cách: (1) Tờ khai thuế và Giấy nộp tiền có xác nhận, hoặc (2) Tờ khai thuế và Xác nhận của cơ quan thuế. Do đó, phương án A hoặc B đều đúng.",
+        "explanation": "Căn cứ Ghi chú số (3) trong Bảng tiêu chuẩn đánh giá năng lực kinh nghiệm: Nhà thầu nộp tài liệu theo 01 trong 02 cách: (1) Tờ khai thuế và Giấy nộp tiền có xác nhận in từ Hệ thống; HOẶC (2) Tờ khai thuế và xác nhận của cơ quan thuế về việc thực hiện nghĩa vụ thuế. Do đó phương án D là chính xác.",
         "category": "Gói thầu qua mạng (E-bidding)"
     },
     {
@@ -103,7 +103,7 @@ export const set37: Question[] = [
             "D": "Không phải phê duyệt dự toán tùy chọn mua thêm"
         },
         "correctAnswer": "C",
-        "explanation": "Tùy chọn mua thêm được thực hiện trong thời gian có hiệu lực của hợp đồng. Một trong các điều kiện để thực hiện là phải có dự toán được phê duyệt đối với khối lượng mua thêm. Việc phê duyệt này diễn ra khi có nhu cầu sử dụng tùy chọn trong quá trình thực hiện hợp đồng.",
+        "explanation": "Căn cứ khoản 8 Điều 39 Luật Đấu thầu: Tùy chọn mua thêm là khả năng mua bổ sung ngoài khối lượng hợp đồng và không bao gồm trong giá gói thầu. Điều kiện thực hiện là phải 'có dự toán được phê duyệt đối với khối lượng mua thêm'. Việc phê duyệt dự toán này diễn ra trong quá trình thực hiện hợp đồng, khi có nhu cầu sử dụng thực tế.",
         "category": "Kế hoạch lựa chọn nhà thầu (KHLCNT)"
     },
     {
@@ -116,7 +116,7 @@ export const set37: Question[] = [
             "D": "Nhà thầu A bị loại và bị đánh giá là gian lận trong kê khai về nhân sự chủ chốt"
         },
         "correctAnswer": "B",
-        "explanation": "Trường hợp nhân sự đề xuất bị huy động cho gói thầu khác có thời gian trùng lắp, Chủ đầu tư cho phép nhà thầu bổ sung, thay thế. Nhà thầu được thay thế tối đa 02 lần. Nếu vẫn không đáp ứng, nhà thầu sẽ bị loại và bị đánh giá về uy tín.",
+        "explanation": "Theo quy trình đấu thầu qua mạng mới, đối với gói thầu xây lắp trong nước, chỉ đánh giá chi tiết nhân sự khi nhà thầu xếp hạng thứ nhất. Trường hợp nhân sự bị trùng (không chứng minh được khả năng huy động), Chủ đầu tư cho phép nhà thầu bổ sung, thay thế (tối đa 2 lần). Nếu sau khi thay thế vẫn không đạt mới bị loại và bị đánh giá về uy tín.",
         "category": "Gói thầu qua mạng (E-bidding)"
     },
     {
@@ -129,7 +129,7 @@ export const set37: Question[] = [
             "D": "Tất cả phương án trên đều đáp ứng yêu cầu về kinh nghiệm thực hiện hợp đồng tương tự"
         },
         "correctAnswer": "A",
-        "explanation": "Theo quy tắc quy đổi, nhà thầu có thể dùng 02 công trình cấp thấp hơn liền kề (Cấp III) để chứng minh cho 01 công trình cấp cao hơn (Cấp II), nhưng giá trị của mỗi công trình cấp thấp hơn này phải bằng hoặc lớn hơn 50% giá trị công trình đang xét (tức là 10 tỷ đồng). Ở phương án A, có một công trình giá trị 9 tỷ < 10 tỷ, do đó không đáp ứng yêu cầu quy đổi.",
+        "explanation": "Căn cứ Ghi chú số (13) tại Mẫu 3A Thông tư 79/2025/TT-BTC về quy tắc quy đổi: Nhà thầu được phép dùng 02 công trình cấp thấp hơn liền kề (Cấp III) để chứng minh cho 01 công trình cấp đang xét (Cấp II). Tuy nhiên, giá trị của MỖI công trình cấp thấp hơn này phải bằng hoặc lớn hơn 50% giá trị công trình đang xét (tức >= 50% x 10 tỷ = 5 tỷ? Không, giá trị công trình tương tự yêu cầu là 10 tỷ, nên để quy đổi thì mỗi công trình cấp III phải có giá trị ít nhất là 10 tỷ). Trong phương án A có 1 công trình 9 tỷ < 10 tỷ nên không đáp ứng yêu cầu quy đổi.",
         "category": "Lập & Đánh giá hồ sơ mời thầu"
     }
 ];

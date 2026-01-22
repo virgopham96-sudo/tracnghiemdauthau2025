@@ -12,7 +12,7 @@ export const set38: Question[] = [
             "D": "Tất cả các phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Nhà thầu tư vấn đã lập hồ sơ thiết kế kỹ thuật được phép tham gia cung cấp các dịch vụ tư vấn tiếp theo cho cùng dự án đó như: Lập hồ sơ mời thầu, Lập kế hoạch lựa chọn nhà thầu, Tư vấn giám sát, miễn là độc lập với nhà thầu thi công/xây lắp.",
+        "explanation": "Căn cứ khoản 5 Điều 4 Nghị định 214/2025/NĐ-CP: Pháp luật cho phép nhà thầu tư vấn đã lập thiết kế kỹ thuật (điểm e) được phép thực hiện: Lập HSMT (điểm g); Lập kế hoạch lựa chọn nhà thầu (điểm g); Tư vấn giám sát (điểm h). Điều này giúp tận dụng sự hiểu biết xuyên suốt của tư vấn về dự án.",
         "category": "Bảo đảm cạnh tranh trong đấu thầu"
     },
     {
@@ -25,7 +25,7 @@ export const set38: Question[] = [
             "D": "Yêu cầu nhà thầu làm rõ hồ sơ dự thầu"
         },
         "correctAnswer": "A",
-        "explanation": "Lập báo cáo đánh giá hồ sơ dự thầu là trách nhiệm của Tổ chuyên gia. Chủ đầu tư có trách nhiệm xem xét, phê duyệt báo cáo này và thực hiện các công việc khác như phê duyệt HSMT, thương thảo hợp đồng, yêu cầu làm rõ.",
+        "explanation": "Lập báo cáo đánh giá hồ sơ dự thầu là trách nhiệm của Tổ chuyên gia. Chủ đầu tư có nhiệm vụ xem xét và phê duyệt báo cáo đó. Các nội dung còn lại như Phê duyệt HSMT, Yêu cầu làm rõ, Thương thảo hợp đồng đều thuộc trách nhiệm của Chủ đầu tư theo Điều 78 Luật Đấu thầu.",
         "category": "Xử lý tình huống trong đấu thầu"
     },
     {
@@ -38,7 +38,7 @@ export const set38: Question[] = [
             "D": "Tất cả các phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Nhà thầu tư vấn lập hồ sơ mời thầu có thể tham gia các gói thầu tư vấn khác cho cùng gói thầu đó như: Đánh giá hồ sơ dự thầu, Thẩm định kết quả lựa chọn nhà thầu, Tư vấn giám sát (miễn là độc lập với nhà thầu xây lắp).",
+        "explanation": "Căn cứ khoản 5 Điều 4 Nghị định 214/2025/NĐ-CP: Nhà thầu tư vấn có thể cung cấp một hoặc nhiều dịch vụ tư vấn cho cùng gói thầu (miễn là độc lập với nhà thầu xây lắp), bao gồm: Đánh giá HSDT; Thẩm định kết quả LCNT (Luật chỉ cấm đồng thời đánh giá và thẩm định kết quả); Tư vấn giám sát.",
         "category": "Bảo đảm cạnh tranh trong đấu thầu"
     },
     {
@@ -51,7 +51,7 @@ export const set38: Question[] = [
             "D": "Hồ sơ dự thầu của nhà thầu được tiếp tục xem xét, đánh giá và giá dự thầu của nhà thầu được hiểu là không bao gồm thuế, phí, lệ phí"
         },
         "correctAnswer": "A",
-        "explanation": "Theo quy định, giá dự thầu phải bao gồm toàn bộ các khoản thuế, phí, lệ phí. Trường hợp nhà thầu tuyên bố giá dự thầu không bao gồm các khoản này thì E-HSDT của nhà thầu sẽ bị loại.",
+        "explanation": "Căn cứ Mục 13.4 Chương I Mẫu E-HSMT mua sắm hàng hóa: 'Giá dự thầu của nhà thầu phải bao gồm toàn bộ các khoản thuế, phí, lệ phí (nếu có). Trường hợp nhà thầu tuyên bố không bao gồm thuế, phí, lệ phí thì E-HSDT của nhà thầu sẽ bị loại'. Do đó, hồ sơ không được tiếp tục xem xét.",
         "category": "Lập & Đánh giá hồ sơ mời thầu"
     },
     {
@@ -64,7 +64,7 @@ export const set38: Question[] = [
             "D": "Tất cả các phương án trên đều sai"
         },
         "correctAnswer": "D",
-        "explanation": "Theo các mẫu hồ sơ mới nhất, yêu cầu về 'nguồn lực tài chính' (khả năng thanh khoản) hiện chỉ áp dụng bắt buộc đối với gói thầu xây lắp. Đối với hàng hóa và phi tư vấn, chỉ đánh giá 'kết quả hoạt động tài chính' (giá trị tài sản ròng) và 'doanh thu'.",
+        "explanation": "Theo các mẫu hồ sơ mời thầu mới nhất (Thông tư 79/2025/TT-BTC), yêu cầu cụ thể về 'Nguồn lực tài chính' (khả năng thanh khoản) hiện chỉ áp dụng cho gói thầu XÂY LẮP. Đối với hàng hóa và phi tư vấn, chỉ đánh giá 'Kết quả hoạt động tài chính' và 'Doanh thu', không có dòng yêu cầu nguồn lực tài chính như xây lắp. Vì vậy phương án A, B, C đều không chính xác.",
         "category": "Lập & Đánh giá hồ sơ mời thầu"
     },
     {
@@ -77,7 +77,7 @@ export const set38: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Việc gia hạn hiệu lực hồ sơ dự thầu là quyền của nhà thầu. Nếu nhà thầu từ chối gia hạn, hồ sơ dự thầu của họ sẽ không còn giá trị để xem xét tiếp, nhưng nhà thầu được quyền nhận lại bảo đảm dự thầu và không bị coi là vi phạm.",
+        "explanation": "Căn cứ khoản 6 Điều 14 Luật Đấu thầu 2023: Việc gia hạn là quyền của nhà thầu. Nếu nhà thầu từ chối gia hạn, hồ sơ dự thầu không còn giá trị và bị loại, nhưng Chủ đầu tư PHẢI HOÀN TRẢ bảo đảm dự thầu cho nhà thầu. Việc từ chối gia hạn không bị coi là vi phạm và không bị tịch thu bảo đảm.",
         "category": "Bảo đảm dự thầu & Thực hiện hợp đồng"
     },
     {
@@ -90,7 +90,7 @@ export const set38: Question[] = [
             "D": "Các phương án trên đều đúng"
         },
         "correctAnswer": "B",
-        "explanation": "Nhà thầu được chỉ định thầu phải đáp ứng các điều kiện về tư cách hợp lệ, trong đó có yêu cầu 'hạch toán tài chính độc lập'. Tuy nhiên, đối với chỉ định thầu, không bắt buộc phải độc lập về pháp lý và tài chính với chủ đầu tư như đấu thầu rộng rãi. Việc đánh giá năng lực, kinh nghiệm được thực hiện sau khi nộp hồ sơ đề xuất, không phải tại thời điểm mời.",
+        "explanation": "Căn cứ điểm b khoản 3 Điều 79 Nghị định 214/2025/NĐ-CP: Nhà thầu được mời chỉ định thầu phải đáp ứng tư cách hợp lệ (hạch toán độc lập). Lưu ý là danh sách tư cách hợp lệ cho chỉ định thầu KHÔNG bao gồm điều kiện bảo đảm cạnh tranh (điểm đ khoản 1 Điều 5 Luật ĐT), nên không bắt buộc độc lập với chủ đầu tư (C sai). Việc đánh giá năng lực chi tiết chỉ thực hiện SAU KHI nộp HSĐX (A sai).",
         "category": "Hình thức lựa chọn nhà thầu"
     },
     {
@@ -103,7 +103,7 @@ export const set38: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Luật Đấu thầu áp dụng đối với hoạt động lựa chọn nhà thầu sử dụng vốn ngân sách nhà nước. Dự án này có sử dụng 100 tỷ đồng vốn ngân sách nhà nước, do đó thuộc đối tượng bắt buộc phải tuân thủ Luật Đấu thầu, bất kể tỷ lệ vốn nhà nước là bao nhiêu.",
+        "explanation": "Căn cứ khoản 1 Điều 2 Luật Đấu thầu: Luật áp dụng cho hoạt động lựa chọn nhà thầu sử dụng VỐN NGÂN SÁCH NHÀ NƯỚC. Chỉ cần có sử dụng vốn ngân sách (dù là 100 tỷ trong 1000 tỷ) thì dự án đó bắt buộc phải tuân thủ Luật Đấu thầu, không phụ thuộc vào tỷ lệ % (quy định 30% là của Luật cũ 2013 đã hết hiệu lực).",
         "category": "1. Phạm vi, Đối tượng áp dụng & Khái niệm cơ bản"
     },
     {
@@ -116,7 +116,7 @@ export const set38: Question[] = [
             "D": "Bắt buộc phải thực hiện theo Luật Đấu thầu"
         },
         "correctAnswer": "D",
-        "explanation": "Tương tự câu trên, dự án của Công ty B có sử dụng 100 tỷ đồng vốn ngân sách nhà nước. Do đó, dự án này không thuộc trường hợp doanh nghiệp nhà nước được tự quyết định mà bắt buộc phải tuân thủ quy định của Luật Đấu thầu.",
+        "explanation": "Tương tự câu trên, căn cứ khoản 1 Điều 2 Luật Đấu thầu 2023: Do dự án có sử dụng 100 tỷ đồng vốn ngân sách nhà nước nên bắt buộc phải tuân thủ quy định của Luật Đấu thầu. Doanh nghiệp nhà nước chỉ được tự quyết định khi KHÔNG SỬ DỤNG vốn ngân sách nhà nước (theo điểm d khoản 7 Điều 3 Luật ĐT).",
         "category": "1. Phạm vi, Đối tượng áp dụng & Khái niệm cơ bản"
     },
     {
@@ -129,7 +129,7 @@ export const set38: Question[] = [
             "D": "Kinh nghiệm và năng lực của nhà thầu: 3.5 điểm; uy tín của nhà thầu: 0 điểm; giải pháp và phương pháp luận: 21 điểm; nhân sự chủ chốt: 42 điểm"
         },
         "correctAnswer": "C",
-        "explanation": "Quy định bắt buộc mức điểm tối thiểu đối với 'Giải pháp và phương pháp luận' và 'Nhân sự chủ chốt' (thường là 60-70% điểm tối đa). Đối với 'Uy tín nhà thầu', không bắt buộc phải có điểm tối thiểu (có thể là 0). Phương án C tuân thủ đúng các tỷ lệ này (Giải pháp: 18/30 = 60%; Nhân sự: 36/60 = 60%; Uy tín: 0).",
+        "explanation": "Căn cứ Mục 2.2 Chương III Mẫu 6A HSMT tư vấn: 1. Đối với tiêu chuẩn Giải pháp và phương pháp luận (30đ) và Nhân sự chủ chốt (60đ), mức điểm tối thiểu không được thấp hơn 60% điểm tối đa (tức là 18đ và 36đ). 2. Đối với Uy tín và Kinh nghiệm, quy định KHÔNG BẮT BUỘC thiết lập điểm tối thiểu. Do đó, quy định mức tối thiểu cho Uy tín là 0 điểm là phù hợp. Phương án C tuân thủ đúng tỷ lệ tối thiểu cho các phần bắt buộc và hợp lý cho phần uy tín.",
         "category": "Lập & Đánh giá hồ sơ mời thầu"
     }
 ];

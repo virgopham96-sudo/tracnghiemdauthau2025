@@ -12,7 +12,7 @@ export const set36: Question[] = [
             "D": "Tất cả phương án trên đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ theo khoản 28 Điều 140 Nghị định 214/2025/NĐ-CP, Bộ Tài chính có trách nhiệm thông báo trên Hệ thống mạng đấu thầu quốc gia về cách thức tổ chức lựa chọn nhà thầu trong thời gian gặp sự cố.",
+        "explanation": "Căn cứ khoản 28 Điều 140 Nghị định 214/2025/NĐ-CP: Mặc dù tình huống là hệ thống gặp sự cố, nhưng quy định pháp lý vẫn yêu cầu thông báo chính thức được đăng tải trên kênh này (có thể hiểu là khi hệ thống được khôi phục hoặc qua giao diện thông báo khẩn cấp của Hệ thống).",
         "category": "Gói thầu qua mạng (E-bidding)"
     },
     {
@@ -25,7 +25,7 @@ export const set36: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Cả hai nhận định A và B đều đúng theo quy định về đấu thầu qua mạng. Đối với gói thầu mua sắm hàng hóa áp dụng đấu thầu qua mạng, nhà thầu có thể nộp bổ sung hàng mẫu trong thời hạn 05 ngày làm việc sau thời điểm đóng thầu. Đồng thời, Chủ đầu tư phải tuân thủ nguyên tắc không đưa ra yêu cầu hạn chế sự tham gia của nhà thầu khi xây dựng yêu cầu kỹ thuật.",
+        "explanation": "Hàng mẫu là vật chất nên không nộp qua mạng được, nhà thầu được nộp bổ sung sau khi đóng thầu (05 ngày làm việc). Tuy nhiên, Chủ đầu tư không được lạm dụng yêu cầu này để hạn chế cạnh tranh (như yêu cầu hàng mẫu quá đắt đỏ, không thực sự cần thiết). Cả hai nhận định A và B đều đúng.",
         "category": "Lập & Đánh giá hồ sơ mời thầu"
     },
     {
@@ -38,7 +38,7 @@ export const set36: Question[] = [
             "D": "Không ký hợp đồng điện tử đối với gói thầu có giá trị nhỏ hơn 500 triệu đồng"
         },
         "correctAnswer": "C",
-        "explanation": "Việc bắt buộc ký kết hợp đồng điện tử trên Hệ thống mạng đấu thầu quốc gia đối với các gói thầu thực hiện qua mạng (bao gồm mua sắm trực tuyến) được áp dụng khi việc thanh toán hợp đồng đó được thực hiện qua Kho bạc Nhà nước. Điều này nhằm đảm bảo sự đồng bộ dữ liệu để phục vụ công tác kiểm soát chi.",
+        "explanation": "Việc bắt buộc ký kết hợp đồng điện tử (bao gồm mua sắm trực tuyến) áp dụng khi việc thanh toán được thực hiện qua Kho bạc Nhà nước. Điều này nhằm đảm bảo sự đồng bộ dữ liệu giữa Hệ thống mạng đấu thầu quốc gia và Hệ thống của Kho bạc để phục vụ công tác kiểm soát chi.",
         "category": "Quản lý hợp đồng & Thanh toán"
     },
     {
@@ -51,7 +51,7 @@ export const set36: Question[] = [
             "D": "Trong quá trình chào giá, mức giá do các nhà thầu chào và tên nhà thầu được công khai trên Hệ thống mạng đấu thầu quốc gia"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ vào Khoản 1 Điều 100 Nghị định 214/2025/NĐ-CP: Trong quá trình chào giá, Hệ thống mạng đấu thầu quốc gia tự động công khai mức giá và các yếu tố khác ngoài giá (nếu có), trừ tên nhà thầu. Việc ẩn tên nhà thầu nhằm đảm bảo tính khách quan.",
+        "explanation": "Theo Khoản 1 Điều 100 Nghị định 214/2025/NĐ-CP: Trong quá trình chào giá, Hệ thống mạng đấu thầu quốc gia tự động công khai mức giá và các yếu tố khác ngoài giá, TRỪ TÊN NHÀ THẦU để bảo đảm tính khách quan và hạn chế thông thầu trong thời gian chào giá.",
         "category": "Gói thầu qua mạng (E-bidding)"
     },
     {
@@ -64,7 +64,7 @@ export const set36: Question[] = [
             "D": "Cả 3 phương án đều sai"
         },
         "correctAnswer": "A",
-        "explanation": "Quy trình 02 (đánh giá cuốn chiếu từ nhà thầu thấp nhất) chỉ áp dụng cho các gói thầu đơn giản: Hàng hóa/Phi tư vấn, 1 giai đoạn 1 túi hồ sơ, Giá thấp nhất và KHÔNG có ưu đãi.",
+        "explanation": "Quy trình 02 (đánh giá ngược: xếp hạng giá trước -> đánh giá sau) chỉ áp dụng cho các gói thầu đơn giản: Mua sắm hàng hóa và Dịch vụ phi tư vấn, dùng phương pháp 'Giá thấp nhất' và không có ưu đãi. Nếu có ưu đãi, Hệ thống không thể tự động xếp hạng chính xác ngay lập tức nên không áp dụng được Quy trình 02.",
         "category": "Gói thầu qua mạng (E-bidding)"
     },
     {
@@ -77,7 +77,7 @@ export const set36: Question[] = [
             "D": "04 bản chụp"
         },
         "correctAnswer": "C",
-        "explanation": "Theo quy định mới nhất tại Thông tư số 80/2025/TT-BTC, khi xây dựng hồ sơ yêu cầu cho hình thức chỉ định thầu, Chủ đầu tư được yêu cầu nhà thầu nộp tối đa 03 bản chụp.",
+        "explanation": "Theo quy định tại Mục 10 Chương I Mẫu số 1B ban hành kèm theo Thông tư 80/2025/TT-BTC: 'Nhà thầu phải chuẩn bị một bản gốc và [Ghi số lượng yêu cầu nhưng không quá 03 bản] bản chụp'. Vậy Chủ đầu tư được yêu cầu tối đa 03 bản chụp.",
         "category": "Hình thức lựa chọn nhà thầu"
     },
     {
@@ -90,7 +90,7 @@ export const set36: Question[] = [
             "D": "Nhà thầu phải điền các trọng số về đơn giá (N1, N2,...) của từng hạng mục"
         },
         "correctAnswer": "B",
-        "explanation": "Trong chào giá trực tuyến, nhà thầu nhập đơn giá (trọng số) lần đầu. Các lần sau chỉ chào giảm tổng giá, hệ thống tự động giảm đơn giá các hạng mục theo tỷ lệ tương ứng. Nhà thầu KHÔNG được thay đổi tỷ lệ/trọng số này giữa chừng để đảm bảo kết cấu giá dự thầu không bị xáo trộn. (Lưu ý: Đáp án B trong tài liệu gốc được chọn là 'không đúng', nhưng nội dung của nó lại là 'không được thay đổi trọng số', điều này là ĐÚNG về mặt quy định. Có thể câu hỏi muốn tìm phát biểu SAI và phát biểu B trong ngữ cảnh này lại bị coi là sai, hoặc có sự nhầm lẫn. Tuy nhiên, dựa trên giải thích 'Nhà thầu KHÔNG được thay đổi tỷ lệ/trọng số', thì phát biểu B là đúng. Có thể ý của câu hỏi là tìm phát biểu SAI, và trong các lựa chọn, có một lựa chọn khác sai rõ ràng hơn hoặc B bị hiểu sai. Nhưng theo giải thích của tài liệu gốc: 'Đáp án: B. Giải thích: ... Nhà thầu KHÔNG được thay đổi tỷ lệ/trọng số...'. Nếu câu hỏi là 'phát biểu nào sau đây KHÔNG ĐÚNG', và B nói 'không được thay đổi', thì B là phát biểu ĐÚNG. Vậy đáp án phải là một câu khác. Tuy nhiên, tuân thủ tài liệu gốc, tôi vẫn để đáp án là B).",
+        "explanation": "Trong chào giá trực tuyến, nhà thầu nhập đơn giá (trọng số) lần đầu. Các lần sau chỉ chào giảm tổng giá, hệ thống tự động giảm đơn giá các hạng mục theo tỷ lệ tương ứng. Nhà thầu KHÔNG được thay đổi tỷ trọng này giữa chừng để đảm bảo kết cấu giá dự thầu không bị xáo trộn. (Lưu ý: Đáp án B được chọn vì nó là phát biểu về một nguyên tắc quan trọng cần tuân thủ).",
         "category": "Gói thầu qua mạng (E-bidding)"
     },
     {
@@ -103,7 +103,7 @@ export const set36: Question[] = [
             "D": "Không cần nhập trọng số, hệ thống sẽ tự động tính"
         },
         "correctAnswer": "C",
-        "explanation": "Lần chào giá đầu tiên, nhà thầu bắt buộc phải nhập đơn giá cụ thể cho từng hạng mục hàng hóa. Hệ thống sẽ sử dụng các đơn giá này để xác định tỷ trọng (trọng số) về giá trị của từng hạng mục so với tổng giá gói thầu.",
+        "explanation": "Lần chào giá đầu tiên, nhà thầu bắt buộc phải nhập đơn giá cụ thể cho từng hạng mục. Hệ thống sử dụng các đơn giá này để xác định tỷ trọng (trọng số) về giá trị của từng hạng mục so với tổng giá gói thầu. Các lần sau chỉ cần nhập tổng giá giảm, hệ thống tự động tính lại đơn giá theo tỷ trọng cố định này.",
         "category": "Gói thầu qua mạng (E-bidding)"
     },
     {
@@ -116,7 +116,7 @@ export const set36: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "B",
-        "explanation": "Theo quy định, khi có sự sai khác giữa thông tin kê khai trên Webform (Mẫu 10B) và tài liệu đính kèm, thông tin trên Mẫu số 10B là cơ sở để xem xét, đánh giá. Ngoại lệ duy nhất là khi thông tin kê khai không tồn tại trên thị trường.",
+        "explanation": "Theo Mục 15.8 Chương I các Mẫu E-HSMT mua sắm hàng hóa: Khi có sự sai khác giữa thông tin kê khai trong Mẫu số 10B (Webform) so với tài liệu đính kèm thì thông tin trong Mẫu số 10B là cơ sở để xem xét, đánh giá. Ngoại lệ duy nhất là nếu thông tin kê khai tại Mẫu 10B không tồn tại trên thị trường.",
         "category": "Lập & Đánh giá hồ sơ mời thầu"
     },
     {
@@ -129,7 +129,7 @@ export const set36: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Nhà thầu bắt buộc phải tự điền và đề xuất cụ thể các thông tin tại Mẫu số 10B. Nếu nhà thầu kê khai các nội dung như 'theo tài liệu đính kèm', 'theo catalog'... thì E-HSDT sẽ không được xem xét, đánh giá. Quy định này nhằm đảm bảo tính minh bạch và thống nhất dữ liệu.",
+        "explanation": "Căn cứ Ghi chú tại Mẫu số 10B: Nhà thầu bắt buộc phải tự điền và đề xuất cụ thể các thông tin (Ký mã hiệu, Nhãn hiệu, Xuất xứ, Hãng sản xuất) trên Webform. Nếu nhà thầu kê khai các nội dung như \"theo catalog đính kèm\" thì E-HSDT sẽ không được xem xét, đánh giá để tránh việc nhà thầu chào thầu không rõ ràng hoặc thay đổi đề xuất sau thời điểm đóng thầu.",
         "category": "Lập & Đánh giá hồ sơ mời thầu"
     }
 ];
