@@ -35,6 +35,7 @@ function App() {
     const [submittedAnswers, setSubmittedAnswers] = useState<UserAnswers | null>(null);
     const [isPracticeMode, setIsPracticeMode] = useState<boolean>(false);
     const [completionTime, setCompletionTime] = useState<number | null>(null);
+    const [randomQuizTitleSuffix, setRandomQuizTitleSuffix] = useState<string>('');
     
     // UI State
     const [isGuideVisible, setIsGuideVisible] = useState(false);
@@ -45,9 +46,9 @@ function App() {
     const quizTitle = useMemo(() => {
         const mode = isPracticeMode ? 'Luyện tập' : 'Thi';
         if (currentSetIndex === null) return '';
-        if (currentSetIndex === -1) return `${mode} ngẫu nhiên`;
+        if (currentSetIndex === -1) return `${mode} ngẫu nhiên${randomQuizTitleSuffix}`;
         return `${mode} bộ đề ${currentSetIndex + 1}`;
-    }, [currentSetIndex, isPracticeMode]);
+    }, [currentSetIndex, isPracticeMode, randomQuizTitleSuffix]);
     
     const currentQuestions: Question[] = useMemo(() => {
         if (currentSetIndex === null) return [];
@@ -90,11 +91,16 @@ function App() {
         setView('random-setup');
     };
     
-    const handleStartRandomQuiz = (count: number) => {
-        const shuffled = shuffleArray(allQuestions);
+    const handleStartRandomQuiz = (count: number, limit: number) => {
+        // Slice the allQuestions array based on the limit (e.g., 340 or 390)
+        // Since questions are ordered by ID/Sets, slicing the first X items works.
+        const sourceQuestions = allQuestions.slice(0, limit);
+        const shuffled = shuffleArray(sourceQuestions);
         const selected = shuffled.slice(0, count);
+        
         setRandomQuestions(selected);
         setSubmittedAnswers(null);
+        setRandomQuizTitleSuffix(limit === 340 ? ' (Bộ đề cũ)' : '');
         setView('quiz');
     };
 
@@ -121,6 +127,7 @@ function App() {
         setSubmittedAnswers(null);
         setIsPracticeMode(false);
         setCompletionTime(null);
+        setRandomQuizTitleSuffix('');
     };
 
     const handleBackToSetSelector = () => {

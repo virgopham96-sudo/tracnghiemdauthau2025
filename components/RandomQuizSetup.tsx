@@ -1,21 +1,29 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ShuffleIcon } from './icons';
 
 interface RandomQuizSetupProps {
     totalQuestions: number;
-    onStart: (count: number) => void;
+    onStart: (count: number, limit: number) => void;
     onBack: () => void;
 }
 
 const RandomQuizSetup: React.FC<RandomQuizSetupProps> = ({ totalQuestions, onStart, onBack }) => {
     const [questionCount, setQuestionCount] = useState<number>(70);
+    const [questionLimit, setQuestionLimit] = useState<number>(totalQuestions);
 
     const presets = [10, 20, 30, 50, 70, 100];
 
+    // Reset question count if it exceeds the new limit
+    useEffect(() => {
+        if (questionCount > questionLimit) {
+            setQuestionCount(questionLimit);
+        }
+    }, [questionLimit, questionCount]);
+
     const handleStart = () => {
-        if (questionCount > 0 && questionCount <= totalQuestions) {
-            onStart(questionCount);
+        if (questionCount > 0 && questionCount <= questionLimit) {
+            onStart(questionCount, questionLimit);
         }
     };
 
@@ -29,8 +37,43 @@ const RandomQuizSetup: React.FC<RandomQuizSetupProps> = ({ totalQuestions, onSta
                     <h2 className="text-2xl font-bold text-slate-900">Thi ngẫu nhiên</h2>
                 </div>
 
+                <div className="mb-6 p-4 bg-slate-50 rounded-lg border border-slate-200">
+                    <p className="text-slate-700 font-semibold mb-3">Chọn ngân hàng câu hỏi:</p>
+                    <div className="flex flex-col sm:flex-row gap-4">
+                        <label className="flex items-center cursor-pointer p-3 bg-white border border-slate-300 rounded-lg hover:border-cyan-500 transition-colors has-[:checked]:border-cyan-500 has-[:checked]:bg-cyan-50">
+                            <input
+                                type="radio"
+                                name="questionLimit"
+                                value={340}
+                                checked={questionLimit === 340}
+                                onChange={() => setQuestionLimit(340)}
+                                className="w-5 h-5 text-cyan-600 focus:ring-cyan-500 border-gray-300"
+                            />
+                            <div className="ml-3">
+                                <span className="block text-sm font-bold text-slate-900">Bộ đề cũ</span>
+                                <span className="block text-xs text-slate-500">340 câu hỏi</span>
+                            </div>
+                        </label>
+
+                        <label className="flex items-center cursor-pointer p-3 bg-white border border-slate-300 rounded-lg hover:border-cyan-500 transition-colors has-[:checked]:border-cyan-500 has-[:checked]:bg-cyan-50">
+                            <input
+                                type="radio"
+                                name="questionLimit"
+                                value={totalQuestions}
+                                checked={questionLimit === totalQuestions}
+                                onChange={() => setQuestionLimit(totalQuestions)}
+                                className="w-5 h-5 text-cyan-600 focus:ring-cyan-500 border-gray-300"
+                            />
+                            <div className="ml-3">
+                                <span className="block text-sm font-bold text-slate-900">Bộ đề mới nhất</span>
+                                <span className="block text-xs text-slate-500">{totalQuestions} câu hỏi (Đầy đủ)</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
                 <p className="text-slate-600 mb-6">
-                    Hệ thống sẽ chọn ngẫu nhiên các câu hỏi từ ngân hàng {totalQuestions} câu hỏi.
+                    Hệ thống sẽ chọn ngẫu nhiên các câu hỏi từ ngân hàng <strong>{questionLimit}</strong> câu hỏi.
                     Vui lòng chọn số lượng câu hỏi bạn muốn thi:
                 </p>
 
@@ -42,7 +85,7 @@ const RandomQuizSetup: React.FC<RandomQuizSetupProps> = ({ totalQuestions, onSta
                     <input
                         type="range"
                         min="10"
-                        max={totalQuestions}
+                        max={questionLimit}
                         step="10"
                         value={questionCount}
                         onChange={(e) => setQuestionCount(parseInt(e.target.value))}
@@ -50,7 +93,7 @@ const RandomQuizSetup: React.FC<RandomQuizSetupProps> = ({ totalQuestions, onSta
                     />
                     <div className="flex flex-wrap gap-2 mt-4 justify-center">
                         {presets.map(preset => (
-                            preset <= totalQuestions && (
+                            preset <= questionLimit && (
                                 <button
                                     key={preset}
                                     onClick={() => setQuestionCount(preset)}
@@ -65,14 +108,14 @@ const RandomQuizSetup: React.FC<RandomQuizSetupProps> = ({ totalQuestions, onSta
                             )
                         ))}
                          <button
-                            onClick={() => setQuestionCount(totalQuestions)}
+                            onClick={() => setQuestionCount(questionLimit)}
                             className={`px-3 py-1 rounded-full text-sm font-semibold border transition-all ${
-                                questionCount === totalQuestions
+                                questionCount === questionLimit
                                     ? 'bg-cyan-500 text-white border-cyan-500 shadow-md'
                                     : 'bg-white text-slate-600 border-slate-300 hover:border-cyan-400 hover:text-cyan-600'
                             }`}
                         >
-                            Tất cả ({totalQuestions})
+                            Tất cả ({questionLimit})
                         </button>
                     </div>
                 </div>
