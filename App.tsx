@@ -35,7 +35,18 @@ const EXTERNAL_LINKS = [
 
 const openRandomLink = () => {
     const randomIndex = Math.floor(Math.random() * EXTERNAL_LINKS.length);
-    window.open(EXTERNAL_LINKS[randomIndex], '_blank');
+    const url = EXTERNAL_LINKS[randomIndex];
+    
+    // Create a temporary anchor element to bypass some popup blockers
+    const link = document.createElement('a');
+    link.href = url;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    
+    // Append to body, click, and remove
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
 };
 
 type View = 'mode-select' | 'set-select' | 'random-setup' | 'quiz' | 'results' | 'practice-all' | 'history' | 'search' | 'theory';
