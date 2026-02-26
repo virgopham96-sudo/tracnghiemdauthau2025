@@ -24,6 +24,20 @@ const shuffleArray = (array: Question[]): Question[] => {
     return newArray;
 };
 
+const EXTERNAL_LINKS = [
+    'https://s.shopee.vn/6VIeZ9Vn1n',
+    'https://s.shopee.vn/2VmZHaVqUC',
+    'https://s.shopee.vn/1gDSI9xCOB',
+    'https://s.shopee.vn/4fr3rkEgYc',
+    'https://s.shopee.vn/7AYOqQU1n0',
+    'https://s.shopee.vn/20qIgzGjW6'
+];
+
+const openRandomLink = () => {
+    const randomIndex = Math.floor(Math.random() * EXTERNAL_LINKS.length);
+    window.open(EXTERNAL_LINKS[randomIndex], '_blank');
+};
+
 type View = 'mode-select' | 'set-select' | 'random-setup' | 'quiz' | 'results' | 'practice-all' | 'history' | 'search' | 'theory';
 
 function App() {
@@ -68,10 +82,12 @@ function App() {
 
 
     const handleSelectPracticeAll = () => {
+        openRandomLink();
         setView('practice-all');
     };
     
     const handleSelectSearch = () => {
+        openRandomLink();
         setView('search');
     };
 
@@ -80,11 +96,13 @@ function App() {
     }
 
     const handleSelectTestBySet = () => {
+        openRandomLink();
         setIsPracticeMode(false);
         setView('set-select');
     };
 
     const handleSelectTestRandom = () => {
+        openRandomLink();
         setIsPracticeMode(false);
         setCurrentSetIndex(-1); 
         // Go to setup screen first
