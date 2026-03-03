@@ -93,12 +93,10 @@ function App() {
 
 
     const handleSelectPracticeAll = () => {
-        openRandomLink();
         setView('practice-all');
     };
     
     const handleSelectSearch = () => {
-        openRandomLink();
         setView('search');
     };
 
