@@ -314,34 +314,37 @@ function App() {
 
     return (
         <div className="min-h-screen font-sans flex flex-col">
-            <header className="bg-white/95 backdrop-blur-sm shadow-md sticky top-0 z-10 border-b border-slate-200">
-                <div className="container mx-auto px-4 py-4 flex justify-between items-center relative">
-                    <div className="hidden md:block md:w-32"></div>
-                    <h1 className="text-xl md:text-3xl font-bold text-center text-slate-900 tracking-tight flex-1">ÔN THI CHỨNG CHỈ ĐẤU THẦU</h1>
+            <header className="bg-white/95 backdrop-blur-sm shadow-md sticky top-0 z-10 border-b border-slate-200 shrink-0">
+                <div className="container mx-auto px-2 sm:px-4 py-2 flex justify-between items-center relative">
+                    <div className="hidden md:block md:w-24"></div>
+                    <h1 className="text-[17px] sm:text-xl md:text-2xl lg:text-3xl font-bold text-center text-slate-900 tracking-tight flex-1">ÔN THI CHỨNG CHỈ ĐẤU THẦU</h1>
                     <button 
                         onClick={handleSelectSupport}
-                        className="flex items-center gap-1.5 md:gap-2 px-3 md:px-4 py-1.5 md:py-2 bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-600 hover:to-pink-600 text-white rounded-full text-xs md:text-sm font-bold shadow-sm hover:shadow transition-all md:w-32 justify-center"
+                        className="flex items-center gap-1.5 px-3 md:px-4 py-1.5 md:py-2 border border-pink-200 bg-pink-50 hover:bg-pink-100 text-pink-600 rounded-full text-[11px] sm:text-sm font-bold shadow-sm hover:shadow transition-all justify-center shrink-0 ml-1.5 whitespace-nowrap"
                     >
-                        <HeartIcon className="w-4 h-4 md:w-5 md:h-5" />
-                        <span className="hidden md:inline">Ủng hộ</span>
-                        <span className="md:hidden">Ủng hộ</span>
+                        <HeartIcon className="w-3.5 h-3.5 md:w-5 md:h-5 text-pink-500 shrink-0" />
+                        <span>Ủng hộ</span>
                     </button>
                 </div>
             </header>
-            <main className="mx-auto px-4 py-4 sm:py-6 md:py-8 flex-grow w-full">
+            <main className="mx-auto px-2 md:px-4 py-2 sm:py-4 md:py-6 flex-grow w-full flex flex-col items-center justify-center">
                 {renderContent()}
             </main>
-            <footer className="text-center p-6 text-slate-500 text-sm border-t border-slate-200 bg-white/30">
-                Bản quyền thuộc về "Phạm Văn Bình - Phòng CĐVT - Công ty 790"
-            </footer>
+            {view === 'mode-select' && (
+                <footer className="text-center py-4 px-4 text-slate-500 text-xs sm:text-sm border-t border-slate-200 bg-white/30 shrink-0">
+                    Bản quyền thuộc về "Phạm Văn Bình - Phòng CĐVT - Công ty 790"
+                </footer>
+            )}
 
-            <button
-                onClick={() => setIsGuideVisible(true)}
-                className="fixed bottom-6 right-6 z-20 p-3 bg-cyan-500 text-white rounded-full shadow-lg hover:bg-cyan-600 transition-all duration-300 transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500"
-                aria-label="Hướng dẫn sử dụng"
-            >
-                <QuestionMarkIcon />
-            </button>
+            {view === 'mode-select' && (
+                <button
+                    onClick={() => setIsGuideVisible(true)}
+                    className="fixed bottom-6 right-6 z-20 p-3 bg-cyan-500 text-white rounded-full shadow-lg hover:bg-cyan-600 transition-all duration-300 transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                    aria-label="Hướng dẫn sử dụng"
+                >
+                    <QuestionMarkIcon />
+                </button>
+            )}
 
             {isGuideVisible && (
                 <div className="fixed inset-0 bg-black bg-opacity-60 z-40 flex justify-center items-center p-4 animate-fade-in">

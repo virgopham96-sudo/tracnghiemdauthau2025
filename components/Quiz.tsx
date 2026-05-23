@@ -298,12 +298,12 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
             <div className="flex-1 flex flex-col min-h-0">
                 {currentQuestion && (
                     <div className={`flex-1 flex flex-col min-h-0 bg-white rounded-xl shadow-xl border border-slate-200 transition-all duration-200 ease-in-out ${isFading ? 'opacity-0 -translate-y-3' : 'opacity-100 translate-y-0'}`}>
-                        <div className="flex-1 overflow-y-auto p-4 sm:p-5">
-                            <p className="text-base sm:text-lg font-semibold mb-4 text-slate-800">
-                                <span className="font-bold text-cyan-600 mr-2">Câu {isSetMode ? currentQuestion.id : currentQuestionIndex + 1}:</span>
+                        <div className="flex-1 overflow-y-auto p-3 sm:p-5">
+                            <p className="text-sm sm:text-lg font-semibold mb-3 text-slate-800">
+                                <span className="font-bold text-cyan-600 mr-1.5">Câu {isSetMode ? currentQuestion.id : currentQuestionIndex + 1}:</span>
                                 {currentQuestion.question}
                             </p>
-                            <div className="space-y-2 quiz-options-container">
+                            <div className="space-y-1.5 quiz-options-container">
                                 {uiKeys.map((uiKey, index) => {
                                     const originalKey = currentMapping[index] as 'A' | 'B' | 'C' | 'D';
                                     const value = currentQuestion.options[originalKey];
@@ -312,9 +312,9 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
                                         <div
                                             key={uiKey}
                                             onClick={() => handleOptionChange(currentQuestion.id, originalKey)}
-                                            className={`quiz-option-item flex items-start p-3 sm:p-4 rounded-lg border-2 transition-all cursor-pointer ${selectedAnswers[currentQuestion.id] === originalKey ? 'bg-cyan-50 border-cyan-500 ring-2 ring-cyan-200' : 'bg-white border-slate-200 hover:bg-cyan-50/50 hover:border-cyan-300'}`}>
-                                            <span className="font-bold text-cyan-700 w-6 sm:w-7 shrink-0 text-sm sm:text-base">{uiKey}.</span>
-                                            <span className="text-slate-800 text-sm sm:text-base">{value}</span>
+                                            className={`quiz-option-item flex items-start p-2.5 sm:p-4 rounded-lg border-2 transition-all cursor-pointer ${selectedAnswers[currentQuestion.id] === originalKey ? 'bg-cyan-50 border-cyan-500 ring-2 ring-cyan-200' : 'bg-white border-slate-200 hover:bg-cyan-50/50 hover:border-cyan-300'}`}>
+                                            <span className="font-bold text-cyan-700 w-5 sm:w-7 shrink-0 text-xs sm:text-base">{uiKey}.</span>
+                                            <span className="text-slate-800 text-xs sm:text-base">{value}</span>
                                         </div>
                                     );
                                 })}

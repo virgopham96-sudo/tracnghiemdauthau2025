@@ -6,9 +6,9 @@ interface TheoryProps {
 }
 
 const HighlightBox = ({ title, children }: { title?: string, children?: React.ReactNode }) => (
-    <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-3 rounded-r-lg">
-        {title && <p className="font-bold text-yellow-800 mb-1">{title}</p>}
-        <div className="text-slate-800 italic text-sm">{children}</div>
+    <div className="bg-yellow-50 border-l-4 border-yellow-400 p-3 lg:p-4 my-2 lg:my-3 rounded-r-lg">
+        {title && <p className="font-bold text-yellow-800 mb-1 text-[13px] sm:text-sm">{title}</p>}
+        <div className="text-slate-800 italic text-xs sm:text-sm">{children}</div>
     </div>
 );
 
@@ -16,20 +16,20 @@ const TopicSection = ({ title, children }: { title: string, children?: React.Rea
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="mb-4 bg-white rounded-xl shadow-md border border-slate-200 overflow-hidden hover:shadow-lg transition-all duration-300">
+        <div className="mb-3 sm:mb-4 bg-white rounded-xl shadow-sm sm:shadow-md border border-slate-200 overflow-hidden hover:shadow-md sm:hover:shadow-lg transition-all duration-300">
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="w-full flex items-center justify-between p-5 text-left bg-white hover:bg-slate-50 transition-colors focus:outline-none select-none group"
+                className="w-full flex items-center justify-between p-3 sm:p-4 md:p-5 text-left bg-white hover:bg-slate-50 transition-colors focus:outline-none select-none group"
             >
-                <h3 className="text-lg md:text-xl font-bold text-cyan-700 uppercase group-hover:text-cyan-800 flex-1 pr-4">{title}</h3>
+                <h3 className="text-sm sm:text-base md:text-xl font-bold text-cyan-700 uppercase group-hover:text-cyan-800 flex-1 pr-3 sm:pr-4 leading-snug">{title}</h3>
                 <div className={`transform transition-transform duration-300 text-slate-400 group-hover:text-cyan-600 shrink-0 ${isOpen ? 'rotate-90' : ''}`}>
-                    <ChevronRightIcon />
+                    <ChevronRightIcon className="w-5 h-5 sm:w-6 sm:h-6" />
                 </div>
             </button>
             <div 
                 className={`transition-all duration-500 ease-in-out overflow-hidden ${isOpen ? 'max-h-[5000px] opacity-100 border-t border-slate-100' : 'max-h-0 opacity-0'}`}
             >
-                <div className="p-6 text-slate-700 space-y-3 leading-relaxed bg-slate-50/30">
+                <div className="p-3 sm:p-5 md:p-6 text-slate-700 space-y-2 sm:space-y-3 leading-relaxed bg-slate-50/30 text-xs sm:text-sm md:text-base">
                     {children}
                 </div>
             </div>
@@ -43,31 +43,33 @@ const Theory: React.FC<TheoryProps> = ({ onBack }) => {
     };
 
     return (
-        <div className="p-4 md:p-8 max-w-5xl mx-auto animate-fade-in pb-20">
-            <div className="flex items-center gap-4 mb-4">
+        <div className="p-2 md:p-4 max-w-5xl mx-auto flex flex-col h-[calc(100vh-100px)] animate-fade-in relative pb-16 sm:pb-20">
+            <div className="flex items-center gap-2 mb-4 shrink-0">
                 <button
                     onClick={onBack}
-                    className="bg-white hover:bg-slate-100 text-slate-700 font-semibold py-2 px-4 rounded-full transition-colors flex items-center gap-2 border border-slate-200 shadow-sm"
+                    className="bg-white hover:bg-slate-100 text-slate-700 font-semibold py-1.5 px-3 md:py-2 md:px-4 rounded-full transition-colors flex items-center gap-1 md:gap-2 border border-slate-200 shadow-sm text-sm"
                 >
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 md:h-5 md:w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fillRule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    Quay lại
+                    <span className="hidden md:inline">Quay lại</span>
                 </button>
-                <h2 className="text-2xl md:text-3xl font-bold text-slate-900 text-center flex-1">Tổng hợp kiến thức Luật Đấu Thầu</h2>
+                <h2 className="text-base sm:text-lg md:text-3xl font-bold text-slate-900 text-center flex-1">Tổng hợp kiến thức Luật Đấu Thầu</h2>
             </div>
             
             <a 
                 href="https://drive.google.com/drive/folders/1b8yle1T_9qAfGGfIkNQLNzcPhECZzCVB?usp=drive_link" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="mb-8 flex items-center justify-center gap-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 text-white font-bold py-4 px-6 rounded-xl shadow-md transition-all hover:shadow-lg hover:-translate-y-1"
+                className="mb-4 sm:mb-8 flex items-center justify-center gap-2 sm:gap-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 text-white font-bold py-3 sm:py-4 px-4 sm:px-6 rounded-xl shadow-md transition-all hover:shadow-lg hover:-translate-y-1 text-sm sm:text-base shrink-0"
             >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 sm:h-6 sm:w-6 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                 </svg>
-                TẢI XUỐNG TỔNG HỢP ĐÁP ÁN (390 CÂU)
+                <span className="text-center">TẢI XUỐNG TỔNG HỢP ĐÁP ÁN (390 CÂU)</span>
             </a>
+
+            <div className="flex-1 overflow-y-auto">
 
             <TopicSection title="1. Phạm vi, Đối tượng áp dụng & Khái niệm cơ bản">
                 <p><strong>1. Khi nào bắt buộc áp dụng Luật Đấu thầu?</strong></p>
@@ -299,6 +301,8 @@ const Theory: React.FC<TheoryProps> = ({ onBack }) => {
                     <p>Mẫu HSMT: Áp dụng theo các Thông tư hướng dẫn riêng cho từng hiệp định (VD: Gói thầu thuộc UKVFTA áp dụng mẫu theo Thông tư 12/2022/TT-BKHĐT).</p>
                 </HighlightBox>
             </TopicSection>
+
+            </div>
 
             <button
                 onClick={handleScrollToTop}

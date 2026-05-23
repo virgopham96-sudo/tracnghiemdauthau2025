@@ -270,11 +270,11 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
             {filteredQuestions.length > 0 ? (
                 currentQuestion && (
                     <div className={`flex-1 flex flex-col min-h-0 bg-white rounded-xl shadow-lg border border-slate-200 transition-all duration-200 ease-in-out ${isFading ? 'opacity-0 -translate-y-3' : 'opacity-100 translate-y-0'}`}>
-                        <div className="flex-1 overflow-y-auto p-4 sm:p-5">
-                            <p className="text-base sm:text-lg font-semibold mb-4 text-slate-800">
+                        <div className="flex-1 overflow-y-auto p-3 sm:p-5">
+                            <p className="text-sm sm:text-lg font-semibold mb-3 text-slate-800">
                                 <span className="font-bold text-cyan-600 mr-2">Câu {currentQuestion.id}:</span> {currentQuestion.question}
                             </p>
-                            <div className="space-y-2">
+                            <div className="space-y-1.5">
                                 {Object.entries(currentQuestion.options).map(([key, value]) => {
                                     const optionKey = key as 'A' | 'B' | 'C' | 'D';
                                     const userAnswer = userAnswers[currentQuestion.id];
@@ -284,12 +284,12 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                                     return (
                                         <div 
                                             key={key} 
-                                            className={getOptionClasses(currentQuestion, optionKey)}
+                                            className={getOptionClasses(currentQuestion, optionKey).replace('p-3 sm:p-4', 'p-2.5 sm:p-4').replace('p-4 ', 'p-2.5 sm:p-4 ')}
                                             onClick={() => handleOptionChange(currentQuestion.id, optionKey)}
                                         >
                                             <div className="flex items-start flex-grow">
-                                                <span className="font-bold text-cyan-700 w-6 sm:w-7 shrink-0 text-sm sm:text-base">{key}.</span>
-                                                <span className="text-slate-800 text-sm sm:text-base">{value}</span>
+                                                <span className="font-bold text-cyan-700 w-5 sm:w-7 shrink-0 text-xs sm:text-base">{key}.</span>
+                                                <span className="text-slate-800 text-xs sm:text-base">{value}</span>
                                             </div>
                                              {isAnswered && (
                                                 <div className="shrink-0 ml-3">
