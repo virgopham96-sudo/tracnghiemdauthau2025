@@ -1,12 +1,12 @@
 
 import React from 'react';
-import { BookOpenIcon, ClipboardListIcon, ShuffleIcon, HeartIcon, SearchIcon, LightBulbIcon } from './icons';
+import { BookOpenIcon, ClipboardListIcon, InfinityIcon, SearchIcon, LightBulbIcon, AcademicCapIcon } from './icons';
 
 interface ModeSelectorProps {
     onSelectPracticeAll: () => void;
     onSelectTestBySet: () => void;
+    onSelectMockExam: () => void;
     onSelectTestRandom: () => void;
-    onSelectSupport: () => void;
     onSelectSearch: () => void;
     onSelectTheory: () => void;
 }
@@ -14,8 +14,8 @@ interface ModeSelectorProps {
 const ModeSelector: React.FC<ModeSelectorProps> = ({
     onSelectPracticeAll,
     onSelectTestBySet,
+    onSelectMockExam,
     onSelectTestRandom,
-    onSelectSupport,
     onSelectSearch,
     onSelectTheory
 }) => {
@@ -51,11 +51,25 @@ const ModeSelector: React.FC<ModeSelectorProps> = ({
                     </div>
                 </button>
                 <button
+                    onClick={onSelectMockExam}
+                    className="w-full text-left p-6 bg-white border-2 border-slate-200 rounded-xl shadow-lg hover:border-indigo-500 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex items-center gap-x-5 group"
+                >
+                    <div className="bg-indigo-100 p-3 rounded-lg">
+                        <AcademicCapIcon className="h-8 w-8 text-indigo-600" />
+                    </div>
+                    <div>
+                        <span className="text-xl font-bold text-slate-800 group-hover:text-indigo-700">Luyện tập thi như thật</span>
+                        <span className="block text-sm font-normal mt-1 text-slate-600">
+                            Thi thử 70 câu hỏi ngẫu nhiên trong 60 phút với giao diện mô phỏng thi thật.
+                        </span>
+                    </div>
+                </button>
+                <button
                     onClick={onSelectTestRandom}
                     className="w-full text-left p-6 bg-white border-2 border-slate-200 rounded-xl shadow-lg hover:border-cyan-500 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex items-center gap-x-5 group"
                 >
                      <div className="bg-cyan-100 p-3 rounded-lg">
-                        <ShuffleIcon className="h-8 w-8 text-cyan-600" />
+                        <InfinityIcon className="h-8 w-8 text-cyan-600" />
                     </div>
                     <div>
                         <span className="text-xl font-bold text-slate-800 group-hover:text-cyan-700">Thi ngẫu nhiên</span>
@@ -89,20 +103,6 @@ const ModeSelector: React.FC<ModeSelectorProps> = ({
                         <span className="text-xl font-bold text-slate-800 group-hover:text-yellow-700">Tổng hợp lý thuyết</span>
                         <span className="block text-sm font-normal mt-1 text-slate-600">
                             Tóm tắt kiến thức trọng tâm theo 15 chủ đề chính.
-                        </span>
-                    </div>
-                </button>
-                 <button
-                    onClick={onSelectSupport}
-                    className="w-full text-left p-6 bg-white border-2 border-slate-200 rounded-xl shadow-lg hover:border-rose-500 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex items-center gap-x-5 group"
-                >
-                     <div className="bg-rose-100 p-3 rounded-lg">
-                        <HeartIcon className="h-8 w-8 text-rose-600" />
-                    </div>
-                    <div>
-                        <span className="text-xl font-bold text-slate-800 group-hover:text-rose-700">Ủng hộ tác giả</span>
-                        <span className="block text-sm font-normal mt-1 text-slate-600">
-                           Nếu thấy hữu ích, bạn có thể ủng hộ tác giả một ly cà phê.
                         </span>
                     </div>
                 </button>

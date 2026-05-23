@@ -10,7 +10,8 @@ import History from './components/History';
 import Search from './components/Search';
 import Theory from './components/Theory';
 import Guide from './components/Guide';
-import { QuestionMarkIcon } from './components/icons';
+import { MockExam } from './components/MockExam';
+import { QuestionMarkIcon, HeartIcon } from './components/icons';
 import { allSetsData } from './data/sets';
 import { Question, UserAnswers } from './types';
 
@@ -49,7 +50,7 @@ const openRandomLink = () => {
     document.body.removeChild(link);
 };
 
-type View = 'mode-select' | 'set-select' | 'random-setup' | 'quiz' | 'results' | 'practice-all' | 'history' | 'search' | 'theory';
+type View = 'mode-select' | 'set-select' | 'random-setup' | 'quiz' | 'results' | 'practice-all' | 'history' | 'search' | 'theory' | 'mock-exam';
 
 function App() {
     const [view, setView] = useState<View>('mode-select');
@@ -71,6 +72,7 @@ function App() {
     const quizTitle = useMemo(() => {
         const mode = isPracticeMode ? 'Luyện tập' : 'Thi';
         if (currentSetIndex === null) return '';
+        if (currentSetIndex === -2) return 'Luyện tập thi như thật';
         if (currentSetIndex === -1) return `${mode} ngẫu nhiên${randomQuizTitleSuffix}`;
         return `${mode} bộ đề ${currentSetIndex + 1}`;
     }, [currentSetIndex, isPracticeMode, randomQuizTitleSuffix]);
@@ -78,7 +80,7 @@ function App() {
     const currentQuestions: Question[] = useMemo(() => {
         if (currentSetIndex === null) return [];
         
-        if (currentSetIndex === -1) { // Random quiz mode
+        if (currentSetIndex === -1 || currentSetIndex === -2) { // Random quiz mode and Mock Exam
             return randomQuestions; // Use the stored random questions
         }
 
@@ -117,6 +119,19 @@ function App() {
         // Go to setup screen first
         setView('random-setup');
     };
+
+    const handleSelectMockExam = () => {
+        // 70 random questions from all 390
+        const count = 70;
+        const shuffled = shuffleArray([...allQuestions]);
+        const selected = shuffled.slice(0, count);
+        
+        setRandomQuestions(selected);
+        setSubmittedAnswers(null);
+        setCurrentSetIndex(-2); // -2 denotes mock exam
+        setIsPracticeMode(false);
+        setView('mock-exam');
+    };
     
     const handleStartRandomQuiz = (count: number, limit: number) => {
         // Slice the allQuestions array based on the limit (e.g., 340 or 390)
@@ -135,7 +150,11 @@ function App() {
         // Reuse the existing randomQuestions
         setSubmittedAnswers(null);
         setCompletionTime(null);
-        setView('quiz');
+        if (currentSetIndex === -2) {
+            setView('mock-exam');
+        } else {
+            setView('quiz');
+        }
     };
     
     const handleSelectSupport = () => {
@@ -171,6 +190,9 @@ function App() {
     }
 
     const quizTotalTime = useMemo(() => {
+        if (currentSetIndex === -2) { // Mock exam
+            return 60 * 60; // 60 minutes
+        }
         if (currentSetIndex === -1) { // Random quiz
             // Calculate time based on question count: approx 45-50s per question
             const count = currentQuestions.length;
@@ -208,8 +230,16 @@ function App() {
                         onBack={handleGoBackToMainMenu}
                     />
                 );
+            case 'mock-exam':
+                 return (
+                     <MockExam
+                        questions={currentQuestions}
+                        onSubmit={handleSubmitQuiz}
+                        onBack={handleGoBackToMainMenu}
+                     />
+                 );
             case 'quiz':
-                const isSetQuiz = currentSetIndex !== null && currentSetIndex !== -1;
+                const isSetQuiz = currentSetIndex !== null && currentSetIndex !== -1 && currentSetIndex !== -2;
                 const isRandomQuiz = currentSetIndex === -1;
                 
                 let onBackHandler = handleGoBackToMainMenu;
@@ -227,8 +257,8 @@ function App() {
                     />
                 );
             case 'results':
-                const isSetResults = currentSetIndex !== null && currentSetIndex !== -1;
-                const isRandomResults = currentSetIndex === -1;
+                const isSetResults = currentSetIndex !== null && currentSetIndex !== -1 && currentSetIndex !== -2;
+                const isRandomResults = currentSetIndex === -1 || currentSetIndex === -2;
 
                 let onRestartHandler = handleGoBackToMainMenu;
                 let restartLabel = "Về màn hình chính";
@@ -239,8 +269,10 @@ function App() {
                     restartLabel = "Quay về chọn bộ đề";
                 }
                 if (isRandomResults) {
-                    onRestartHandler = handleBackToRandomSetup;
-                    restartLabel = "Quay về chọn số lượng";
+                    if (currentSetIndex === -1) {
+                         onRestartHandler = handleBackToRandomSetup;
+                         restartLabel = "Quay về chọn số lượng";
+                    }
                     onRetryHandler = handleRetryRandomQuiz;
                 }
 
@@ -270,8 +302,8 @@ function App() {
                     <ModeSelector
                         onSelectPracticeAll={handleSelectPracticeAll}
                         onSelectTestBySet={handleSelectTestBySet}
+                        onSelectMockExam={handleSelectMockExam}
                         onSelectTestRandom={handleSelectTestRandom}
-                        onSelectSupport={handleSelectSupport}
                         onSelectSearch={handleSelectSearch}
                         onSelectTheory={handleSelectTheory}
                     />
@@ -283,7 +315,16 @@ function App() {
         <div className="min-h-screen font-sans flex flex-col">
             <header className="bg-white/95 backdrop-blur-sm shadow-md sticky top-0 z-10 border-b border-slate-200">
                 <div className="container mx-auto px-4 py-4 flex justify-between items-center relative">
-                    <h1 className="text-xl md:text-3xl font-bold text-center text-slate-900 tracking-tight flex-1">ÔN THI CHỨNG CHỈ ĐẤU THẦU 2025</h1>
+                    <div className="hidden md:block md:w-32"></div>
+                    <h1 className="text-xl md:text-3xl font-bold text-center text-slate-900 tracking-tight flex-1">ÔN THI CHỨNG CHỈ ĐẤU THẦU</h1>
+                    <button 
+                        onClick={handleSelectSupport}
+                        className="flex items-center gap-1.5 md:gap-2 px-3 md:px-4 py-1.5 md:py-2 bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-600 hover:to-pink-600 text-white rounded-full text-xs md:text-sm font-bold shadow-sm hover:shadow transition-all md:w-32 justify-center"
+                    >
+                        <HeartIcon className="w-4 h-4 md:w-5 md:h-5" />
+                        <span className="hidden md:inline">Ủng hộ</span>
+                        <span className="md:hidden">Ủng hộ</span>
+                    </button>
                 </div>
             </header>
             <main className="mx-auto px-4 py-4 sm:py-6 md:py-8 flex-grow w-full">

@@ -1,5 +1,5 @@
 {
-  "name": "Trắc nghiệm Luật Đấu Thầu",
-  "description": "Một ứng dụng web để ôn luyện 200 câu hỏi trắc nghiệm về Luật Đấu thầu của Việt Nam. Người dùng có thể chọn các bộ đề, làm bài thi, và xem lại kết quả cùng với giải thích chi tiết.",
+  "name": "Ôn Thi Chứng Chỉ Đấu Thầu",
+  "description": "Một ứng dụng web để ôn luyện 390 câu hỏi trắc nghiệm về Luật Đấu thầu của Việt Nam. Người dùng có thể chọn các bộ đề, làm bài thi, và xem lại kết quả cùng với giải thích chi tiết.",
   "requestFramePermissions": []
 }

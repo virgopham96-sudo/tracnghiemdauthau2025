@@ -44,7 +44,7 @@ const Theory: React.FC<TheoryProps> = ({ onBack }) => {
 
     return (
         <div className="p-4 md:p-8 max-w-5xl mx-auto animate-fade-in pb-20">
-            <div className="flex items-center gap-4 mb-8">
+            <div className="flex items-center gap-4 mb-4">
                 <button
                     onClick={onBack}
                     className="bg-white hover:bg-slate-100 text-slate-700 font-semibold py-2 px-4 rounded-full transition-colors flex items-center gap-2 border border-slate-200 shadow-sm"
@@ -56,6 +56,18 @@ const Theory: React.FC<TheoryProps> = ({ onBack }) => {
                 </button>
                 <h2 className="text-2xl md:text-3xl font-bold text-slate-900 text-center flex-1">Tổng hợp kiến thức Luật Đấu Thầu</h2>
             </div>
+            
+            <a 
+                href="https://drive.google.com/drive/folders/1b8yle1T_9qAfGGfIkNQLNzcPhECZzCVB?usp=drive_link" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="mb-8 flex items-center justify-center gap-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 text-white font-bold py-4 px-6 rounded-xl shadow-md transition-all hover:shadow-lg hover:-translate-y-1"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+                TẢI XUỐNG TỔNG HỢP ĐÁP ÁN (390 CÂU)
+            </a>
 
             <TopicSection title="1. Phạm vi, Đối tượng áp dụng & Khái niệm cơ bản">
                 <p><strong>1. Khi nào bắt buộc áp dụng Luật Đấu thầu?</strong></p>

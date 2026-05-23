@@ -4,8 +4,21 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230891b2'><path d='M19 5h-2V3a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm-10-1h6v1H9V4zm10 17H5V7h14v14zm-12-9h10v2H7v-2zm0 4h10v2H7v-2z'/></svg>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trắc nghiệm Luật Đấu Thầu</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Ôn Thi Chứng Chỉ Đấu Thầu</title>
+    
+    <script>
+      // Workaround for Brave Shields and extensions that hook fetch with a getter
+      if (typeof window !== 'undefined') {
+        const fetchDesc = Object.getOwnPropertyDescriptor(window, 'fetch');
+        if (fetchDesc && fetchDesc.get && !fetchDesc.set) {
+          Object.defineProperty(window, 'fetch', {
+            get: fetchDesc.get,
+            set: function(v) { /* Ignore */ },
+            configurable: true
+          });
+        }
+      }
+    </script>
 
 <style>
     @keyframes fadeIn {
@@ -27,7 +40,6 @@
         color: #1e293b; /* slate-800 */
     }
 </style>
-<link rel="stylesheet" href="/index.css">
 </head>
 <body>
 <div id="root" class="animate-fade-in"></div>
