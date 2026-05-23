@@ -226,155 +226,153 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
 
 
     return (
-        <>
-            <div className="p-4 md:p-8 max-w-7xl mx-auto">
-                <h2 className="text-3xl font-bold text-center mb-6 text-slate-900">{setTitle}</h2>
+        <div className="p-2 md:p-4 max-w-7xl mx-auto flex flex-col h-[calc(100vh-100px)]">
+            <h2 className="text-xl md:text-2xl font-bold text-center mb-3 text-slate-900 shrink-0">{setTitle}</h2>
 
-                <div className="mb-6 bg-white/90 backdrop-blur-md border border-slate-200 rounded-xl shadow-lg">
-                    <div className="p-4 flex justify-between items-center">
-                        <button
-                            onClick={onBack}
-                            className="bg-slate-200 hover:bg-slate-300 text-slate-800 font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-lg transition-colors"
-                        >
-                            Thoát
-                        </button>
-                        <div className="flex flex-col items-center flex-grow text-center px-2">
-                             {!isPracticeMode ? (
-                                 <>
-                                    <div className={`text-2xl font-mono font-bold ${timerClasses}`}>{formatTime(timeRemaining)}</div>
-                                    <div className="text-sm text-slate-500">Đã trả lời: {answeredCount}/{questions.length}</div>
-                                 </>
-                             ) : (
-                                 <>
-                                    <div className="text-lg font-semibold text-slate-700 h-7 flex items-center">Chế độ Luyện tập</div>
-                                    <div className="text-sm text-slate-500">Đã trả lời: {answeredCount}/{questions.length}</div>
-                                 </>
-                             )}
-                             <div className="mt-1 hidden sm:block">
-                                <label className="flex items-center justify-center text-sm text-slate-600 cursor-pointer select-none">
-                                    <input
-                                        type="checkbox"
-                                        checked={autoNext}
-                                        onChange={(e) => setAutoNext(e.target.checked)}
-                                        className="h-4 w-4 rounded text-cyan-600 focus:ring-cyan-500 border-slate-300"
-                                    />
-                                    <span className="ml-2">Tự động chuyển câu</span>
-                                </label>
-                            </div>
-                        </div>
-                        <button
-                            onClick={handleSubmit}
-                            className="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-lg transition-colors shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
-                        >
-                            Nộp bài
-                        </button>
-                    </div>
-                </div>
-                
-                <div className="text-center mb-4">
+            <div className="mb-3 bg-white/90 backdrop-blur-md border border-slate-200 rounded-xl shadow-lg shrink-0">
+                <div className="p-2 sm:p-3 flex justify-between items-center text-sm md:text-base">
                     <button
-                        onClick={toggleGridVisibility}
-                        className="bg-white hover:bg-slate-100 text-slate-700 font-semibold py-2 px-5 rounded-full transition-colors border border-slate-200 shadow-sm"
+                        onClick={onBack}
+                        className="bg-slate-200 hover:bg-slate-300 text-slate-800 font-bold py-1.5 px-3 sm:py-2 sm:px-4 rounded-lg transition-colors"
                     >
-                        {isGridVisible ? 'Ẩn danh sách câu hỏi' : 'Hiển thị danh sách câu hỏi'}
+                        Thoát
+                    </button>
+                    <div className="flex flex-col items-center flex-grow text-center px-2">
+                         {!isPracticeMode ? (
+                             <>
+                                <div className={`text-lg md:text-xl font-mono font-bold ${timerClasses}`}>{formatTime(timeRemaining)}</div>
+                                <div className="text-xs sm:text-sm text-slate-500">Đã trả lời: {answeredCount}/{questions.length}</div>
+                             </>
+                         ) : (
+                             <>
+                                <div className="text-base font-semibold text-slate-700 h-6 flex items-center">Chế độ Luyện tập</div>
+                                <div className="text-xs sm:text-sm text-slate-500">Đã trả lời: {answeredCount}/{questions.length}</div>
+                             </>
+                         )}
+                         <div className="mt-1 hidden sm:block">
+                            <label className="flex items-center justify-center text-xs text-slate-600 cursor-pointer select-none">
+                                <input
+                                    type="checkbox"
+                                    checked={autoNext}
+                                    onChange={(e) => setAutoNext(e.target.checked)}
+                                    className="h-3 w-3 rounded text-cyan-600 focus:ring-cyan-500 border-slate-300"
+                                />
+                                <span className="ml-1">Tự động chuyển câu</span>
+                            </label>
+                        </div>
+                    </div>
+                    <button
+                        onClick={handleSubmit}
+                        className="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-1.5 px-3 sm:py-2 sm:px-4 rounded-lg transition-colors shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                    >
+                        Nộp bài
                     </button>
                 </div>
-                
-                {isGridVisible && (
-                     <div className="mb-8 p-4 bg-white/50 rounded-xl border border-slate-200 animate-fade-in">
-                        <div className="flex flex-wrap justify-center gap-2">
-                            {questions.map((_, index) => (
+            </div>
+            
+            <div className="text-center mb-3 shrink-0">
+                <button
+                    onClick={toggleGridVisibility}
+                    className="bg-white hover:bg-slate-100 text-slate-700 font-semibold py-1.5 px-4 text-sm rounded-full transition-colors border border-slate-200 shadow-sm"
+                >
+                    {isGridVisible ? 'Ẩn danh sách câu hỏi' : 'Hiển thị danh sách câu hỏi'}
+                </button>
+            </div>
+            
+            {isGridVisible && (
+                 <div className="mb-3 p-3 bg-white/50 rounded-xl border border-slate-200 animate-fade-in max-h-32 overflow-y-auto shrink-0">
+                    <div className="flex flex-wrap justify-center gap-1.5">
+                        {questions.map((_, index) => (
+                            <button
+                                key={index}
+                                onClick={() => handleJumpToQuestion(index)}
+                                className={getQuestionNavClasses(index)}
+                            >
+                                {isSetMode ? questions[index].id : index + 1}
+                            </button>
+                        ))}
+                    </div>
+                </div>
+            )}
+
+            <div className="flex-1 flex flex-col min-h-0">
+                {currentQuestion && (
+                    <div className={`flex-1 flex flex-col min-h-0 bg-white rounded-xl shadow-xl border border-slate-200 transition-all duration-200 ease-in-out ${isFading ? 'opacity-0 -translate-y-3' : 'opacity-100 translate-y-0'}`}>
+                        <div className="flex-1 overflow-y-auto p-4 sm:p-5">
+                            <p className="text-base sm:text-lg font-semibold mb-4 text-slate-800">
+                                <span className="font-bold text-cyan-600 mr-2">Câu {isSetMode ? currentQuestion.id : currentQuestionIndex + 1}:</span>
+                                {currentQuestion.question}
+                            </p>
+                            <div className="space-y-2 quiz-options-container">
+                                {uiKeys.map((uiKey, index) => {
+                                    const originalKey = currentMapping[index] as 'A' | 'B' | 'C' | 'D';
+                                    const value = currentQuestion.options[originalKey];
+                                    
+                                    return (
+                                        <div
+                                            key={uiKey}
+                                            onClick={() => handleOptionChange(currentQuestion.id, originalKey)}
+                                            className={`quiz-option-item flex items-start p-3 sm:p-4 rounded-lg border-2 transition-all cursor-pointer ${selectedAnswers[currentQuestion.id] === originalKey ? 'bg-cyan-50 border-cyan-500 ring-2 ring-cyan-200' : 'bg-white border-slate-200 hover:bg-cyan-50/50 hover:border-cyan-300'}`}>
+                                            <span className="font-bold text-cyan-700 w-6 sm:w-7 shrink-0 text-sm sm:text-base">{uiKey}.</span>
+                                            <span className="text-slate-800 text-sm sm:text-base">{value}</span>
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                             <div className="mt-4 flex justify-end">
                                 <button
-                                    key={index}
-                                    onClick={() => handleJumpToQuestion(index)}
-                                    className={getQuestionNavClasses(index)}
+                                    onClick={toggleHint}
+                                    className="text-cyan-600 hover:text-cyan-800 font-semibold text-xs sm:text-sm py-1 px-3 rounded-full bg-cyan-50 hover:bg-cyan-100 transition-all"
                                 >
-                                    {isSetMode ? questions[index].id : index + 1}
+                                    {showHint ? 'Ẩn gợi ý' : 'Xem gợi ý'}
                                 </button>
-                            ))}
+                            </div>
+                            {showHint && (
+                                <div className="mt-3 p-3 bg-slate-50 rounded-lg border border-cyan-200 animate-fade-in text-sm sm:text-base">
+                                   <p className="font-bold text-cyan-700">Gợi ý:</p>
+                                   <p className="text-slate-800 font-bold mb-1">Câu {currentQuestion.id}-{currentQuestion.correctAnswer}</p>
+                                   <p className="text-slate-700">{currentQuestion.explanation}</p>
+                                </div>
+                            )}
                         </div>
                     </div>
                 )}
-
-                <div className="">
-                    {currentQuestion && (
-                        <div className={`bg-white rounded-xl p-4 sm:p-6 shadow-xl border border-slate-200 transition-all duration-200 ease-in-out ${isFading ? 'opacity-0 -translate-y-3' : 'opacity-100 translate-y-0'}`}>
-                            <div className="max-h-[60vh] overflow-y-auto pr-2">
-                                <p className="text-xl font-semibold mb-6 text-slate-800">
-                                    <span className="font-bold text-cyan-600 mr-2">Câu {isSetMode ? currentQuestion.id : currentQuestionIndex + 1}:</span>
-                                    {currentQuestion.question}
-                                </p>
-                                <div className="space-y-4 quiz-options-container">
-                                    {uiKeys.map((uiKey, index) => {
-                                        const originalKey = currentMapping[index] as 'A' | 'B' | 'C' | 'D';
-                                        const value = currentQuestion.options[originalKey];
-                                        
-                                        return (
-                                            <div
-                                                key={uiKey}
-                                                onClick={() => handleOptionChange(currentQuestion.id, originalKey)}
-                                                className={`quiz-option-item flex items-start p-4 rounded-lg border-2 transition-all cursor-pointer ${selectedAnswers[currentQuestion.id] === originalKey ? 'bg-cyan-50 border-cyan-500 ring-2 ring-cyan-200' : 'bg-white border-slate-200 hover:bg-cyan-50/50 hover:border-cyan-300'}`}>
-                                                <span className="font-bold text-cyan-700 w-7 shrink-0">{uiKey}.</span>
-                                                <span className="text-slate-800 text-base">{value}</span>
-                                            </div>
-                                        );
-                                    })}
-                                </div>
-                                 <div className="mt-6 text-right">
-                                    <button
-                                        onClick={toggleHint}
-                                        className="text-cyan-600 hover:text-cyan-800 font-semibold text-sm py-1 px-3 rounded-full bg-cyan-50 hover:bg-cyan-100 transition-all"
-                                    >
-                                        {showHint ? 'Ẩn gợi ý' : 'Xem gợi ý'}
-                                    </button>
-                                </div>
-                                {showHint && (
-                                    <div className="mt-4 p-4 bg-slate-50 rounded-lg border border-cyan-200 animate-fade-in">
-                                       <p className="font-bold text-cyan-700">Gợi ý:</p>
-                                       <p className="text-slate-800 font-bold mb-1">Câu {currentQuestion.id}-{currentQuestion.correctAnswer}</p>
-                                       <p className="text-slate-700">{currentQuestion.explanation}</p>
-                                    </div>
-                                )}
-                            </div>
-                        </div>
-                    )}
-                    <div className="flex justify-between items-center mt-6">
-                        <button
-                            onClick={handlePrevQuestion}
-                            disabled={currentQuestionIndex === 0}
-                            className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:-translate-x-1 flex items-center gap-2"
-                            aria-label="Câu hỏi trước"
-                        >
-                            <ChevronLeftIcon />
-                            <span className="hidden sm:inline">Câu trước</span>
-                        </button>
-                        <span className="font-semibold text-lg text-slate-600">
-                            {currentQuestionIndex + 1} / {questions.length}
-                        </span>
-                        <button
-                            onClick={handleNextQuestion}
-                            disabled={currentQuestionIndex === questions.length - 1}
-                            className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:translate-x-1 flex items-center gap-2"
-                            aria-label="Câu hỏi tiếp theo"
-                        >
-                            <span className="hidden sm:inline">Câu tiếp theo</span>
-                            <ChevronRightIcon />
-                        </button>
-                    </div>
+                <div className="flex justify-between items-center mt-3 sm:mt-4 shrink-0">
+                    <button
+                        onClick={handlePrevQuestion}
+                        disabled={currentQuestionIndex === 0}
+                        className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-1.5 px-3 md:py-2 md:px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:-translate-x-1 flex items-center gap-1 md:gap-2 text-sm md:text-base"
+                        aria-label="Câu hỏi trước"
+                    >
+                        <ChevronLeftIcon className="w-4 h-4 md:w-5 md:h-5" />
+                        <span className="hidden sm:inline">Câu trước</span>
+                    </button>
+                    <span className="font-semibold text-base sm:text-lg text-slate-600">
+                        {currentQuestionIndex + 1} / {questions.length}
+                    </span>
+                    <button
+                        onClick={handleNextQuestion}
+                        disabled={currentQuestionIndex === questions.length - 1}
+                        className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-1.5 px-3 md:py-2 md:px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:translate-x-1 flex items-center gap-1 md:gap-2 text-sm md:text-base"
+                        aria-label="Câu hỏi tiếp theo"
+                    >
+                        <span className="hidden sm:inline">Câu tiếp theo</span>
+                        <ChevronRightIcon className="w-4 h-4 md:w-5 md:h-5" />
+                    </button>
                 </div>
             </div>
 
             {showGoToTop && (
                 <button
                     onClick={handleGoToTop}
-                    className="fixed bottom-8 right-4 md:right-8 z-20 p-3 bg-cyan-500 text-white rounded-full shadow-lg hover:bg-cyan-600 transition-all duration-300 ease-in-out transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-opacity-50 animate-fade-in"
+                    className="fixed bottom-8 right-4 md:right-8 z-20 p-2.5 sm:p-3 bg-cyan-500 text-white rounded-full shadow-lg hover:bg-cyan-600 transition-all duration-300 ease-in-out transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-opacity-50 animate-fade-in"
                     aria-label="Lên đầu trang"
                 >
                     <ArrowUpIcon />
                 </button>
             )}
 
-        </>
+        </div>
     );
 };
 

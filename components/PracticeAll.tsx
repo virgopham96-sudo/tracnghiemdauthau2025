@@ -209,28 +209,34 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     const isAnswered = currentQuestion && userAnswers[currentQuestion.id] !== undefined;
     
     return (
-        <div className="p-4 md:p-8 max-w-7xl mx-auto animate-fade-in">
-            <div className="flex items-center gap-4 mb-6">
+        <div className="p-2 md:p-4 max-w-7xl mx-auto animate-fade-in flex flex-col h-[calc(100vh-100px)]">
+            <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
                 <button
                     onClick={onBack}
-                    className="bg-white hover:bg-slate-100 text-slate-700 font-semibold py-2 px-4 rounded-full transition-colors flex items-center gap-2 border border-slate-200 shadow-sm"
+                    className="bg-white hover:bg-slate-100 text-slate-700 font-semibold py-1.5 px-3 md:py-2 md:px-4 rounded-full transition-colors flex items-center gap-1 md:gap-2 border border-slate-200 shadow-sm text-sm"
                 >
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 md:h-5 md:w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fillRule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    Quay lại
+                    <span className="hidden md:inline">Quay lại</span>
                 </button>
-                <h2 className="text-2xl md:text-3xl font-bold text-slate-900 text-center flex-1">Luyện tập tổng hợp</h2>
+                <h2 className="text-lg md:text-2xl font-bold text-slate-900 text-center flex-1">Luyện tập tổng hợp</h2>
+                <button
+                    onClick={toggleGridVisibility}
+                    className="bg-white hover:bg-slate-100 text-slate-700 font-semibold py-1.5 px-3 md:py-2 md:px-4 rounded-full transition-colors border border-slate-200 shadow-sm text-sm"
+                >
+                    {isGridVisible ? 'Ẩn danh sách' : `Câu hỏi (${filteredQuestions.length})`}
+                </button>
             </div>
             
-            <div className="mb-6 flex flex-col sm:flex-row justify-center items-center gap-4">
-                <div className="flex flex-col sm:flex-row items-center gap-2 w-full max-w-2xl">
-                     <label htmlFor="category-filter" className="font-semibold text-slate-700 shrink-0">Chủ đề:</label>
+            <div className="mb-3 flex justify-center items-center w-full">
+                <div className="flex items-center gap-2 w-full max-w-2xl">
+                     <label htmlFor="category-filter" className="font-semibold text-sm text-slate-700 shrink-0 hidden sm:inline">Chủ đề:</label>
                      <select
                         id="category-filter"
                         value={selectedCategory}
                         onChange={(e) => setSelectedCategory(e.target.value)}
-                        className="w-full p-2 border border-slate-300 rounded-lg shadow-sm focus:ring-cyan-500 focus:border-cyan-500 bg-white truncate"
+                        className="w-full p-1.5 md:p-2 text-sm border border-slate-300 rounded-lg shadow-sm focus:ring-cyan-500 focus:border-cyan-500 bg-white truncate"
                      >
                         <option value="all">Tất cả ({questions.length} câu)</option>
                         {categories.map(cat => {
@@ -244,19 +250,10 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                      </select>
                 </div>
             </div>
-            
-             <div className="text-center mb-6 flex justify-center items-center gap-4">
-                <button
-                    onClick={toggleGridVisibility}
-                    className="bg-white hover:bg-slate-100 text-slate-700 font-semibold py-2 px-5 rounded-full transition-colors border border-slate-200 shadow-sm"
-                >
-                    {isGridVisible ? 'Ẩn danh sách câu hỏi' : `Hiển thị danh sách câu hỏi (${filteredQuestions.length})`}
-                </button>
-            </div>
 
             {isGridVisible && (
-                 <div className="mb-8 p-4 bg-white/50 rounded-xl border border-slate-200 animate-fade-in">
-                    <div className="flex flex-wrap justify-center gap-2">
+                 <div className="mb-3 p-3 bg-white/50 rounded-xl border border-slate-200 animate-fade-in max-h-32 overflow-y-auto">
+                    <div className="flex flex-wrap justify-center gap-1.5">
                         {filteredQuestions.map((q, index) => (
                             <button
                                 key={q.id}
@@ -272,12 +269,12 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
 
             {filteredQuestions.length > 0 ? (
                 currentQuestion && (
-                    <div className={`bg-white rounded-xl p-4 sm:p-6 shadow-xl border border-slate-200 transition-all duration-200 ease-in-out ${isFading ? 'opacity-0 -translate-y-3' : 'opacity-100 translate-y-0'}`}>
-                        <div className="max-h-[65vh] overflow-y-auto pr-2">
-                            <p className="text-xl font-semibold mb-6 text-slate-800">
+                    <div className={`flex-1 flex flex-col min-h-0 bg-white rounded-xl shadow-lg border border-slate-200 transition-all duration-200 ease-in-out ${isFading ? 'opacity-0 -translate-y-3' : 'opacity-100 translate-y-0'}`}>
+                        <div className="flex-1 overflow-y-auto p-4 sm:p-5">
+                            <p className="text-base sm:text-lg font-semibold mb-4 text-slate-800">
                                 <span className="font-bold text-cyan-600 mr-2">Câu {currentQuestion.id}:</span> {currentQuestion.question}
                             </p>
-                            <div className="space-y-4">
+                            <div className="space-y-2">
                                 {Object.entries(currentQuestion.options).map(([key, value]) => {
                                     const optionKey = key as 'A' | 'B' | 'C' | 'D';
                                     const userAnswer = userAnswers[currentQuestion.id];
@@ -291,11 +288,11 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                                             onClick={() => handleOptionChange(currentQuestion.id, optionKey)}
                                         >
                                             <div className="flex items-start flex-grow">
-                                                <span className="font-bold text-cyan-700 w-7 shrink-0">{key}.</span>
-                                                <span className="text-slate-800 text-base">{value}</span>
+                                                <span className="font-bold text-cyan-700 w-6 sm:w-7 shrink-0 text-sm sm:text-base">{key}.</span>
+                                                <span className="text-slate-800 text-sm sm:text-base">{value}</span>
                                             </div>
                                              {isAnswered && (
-                                                <div className="shrink-0 ml-4">
+                                                <div className="shrink-0 ml-3">
                                                     { isSelectedAnswer && !isCorrectAnswer ? <XIcon /> : (isCorrectAnswer ? <CheckIcon /> : null) }
                                                 </div>
                                             )}
@@ -304,17 +301,17 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                                 })}
                             </div>
                             
-                            <div className="mt-6 text-right">
+                            <div className="mt-4 flex justify-end">
                                 <button
                                     onClick={() => setShowHint(!showHint)}
-                                    className="text-cyan-600 hover:text-cyan-800 font-semibold text-sm py-1 px-3 rounded-full bg-cyan-50 hover:bg-cyan-100 transition-all"
+                                    className="text-cyan-600 hover:text-cyan-800 font-semibold text-xs sm:text-sm py-1 px-3 rounded-full bg-cyan-50 hover:bg-cyan-100 transition-all"
                                 >
                                     {showHint ? 'Ẩn gợi ý' : 'Xem gợi ý'}
                                 </button>
                             </div>
 
                             {(isAnswered || showHint) && (
-                                <div className="mt-4 p-4 bg-cyan-50/70 rounded-lg border border-cyan-200 animate-fade-in">
+                                <div className="mt-3 p-3 bg-cyan-50/70 rounded-lg border border-cyan-200 animate-fade-in text-sm sm:text-base">
                                    <p className="font-bold text-cyan-700">{isAnswered ? 'Lý giải:' : 'Gợi ý:'}</p>
                                    <p className="text-slate-800 font-bold mb-1">Câu {currentQuestion.id}-{currentQuestion.correctAnswer}</p>
                                    <p className="text-slate-800">{currentQuestion.explanation}</p>
@@ -324,7 +321,7 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                     </div>
                 )
             ) : (
-                 <div className="text-center p-8 bg-white rounded-xl shadow-lg border border-slate-200">
+                 <div className="flex-1 flex justify-center items-center p-8 bg-white rounded-xl shadow-lg border border-slate-200">
                     <p className="text-lg text-slate-600">
                         Không có câu hỏi nào cho chủ đề này.
                     </p>
@@ -332,25 +329,25 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
             )}
             
             {filteredQuestions.length > 0 && (
-                <div className="flex justify-between items-center mt-6">
+                <div className="flex justify-between items-center mt-3 sm:mt-4 shrink-0">
                      <button
                             onClick={handlePrevQuestion}
                             disabled={currentQuestionIndex === 0}
-                            className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:-translate-x-1 flex items-center gap-2"
+                            className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-1.5 px-3 md:py-2 md:px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:-translate-x-1 flex items-center gap-1 md:gap-2 text-sm md:text-base"
                         >
-                            <ChevronLeftIcon />
-                            Câu trước
+                            <ChevronLeftIcon className="w-4 h-4 md:w-5 md:h-5" />
+                            <span className="hidden sm:inline">Câu trước</span>
                         </button>
-                        <span className="font-semibold text-lg text-slate-600">
+                        <span className="font-semibold text-base sm:text-lg text-slate-600">
                             {filteredQuestions.length > 0 ? currentQuestionIndex + 1 : 0} / {filteredQuestions.length}
                         </span>
                         <button
                             onClick={handleNextQuestion}
                             disabled={currentQuestionIndex === filteredQuestions.length - 1}
-                            className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:translate-x-1 flex items-center gap-2"
+                            className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-1.5 px-3 md:py-2 md:px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:translate-x-1 flex items-center gap-1 md:gap-2 text-sm md:text-base"
                         >
-                            Câu tiếp theo
-                            <ChevronRightIcon />
+                            <span className="hidden sm:inline">Câu tiếp theo</span>
+                            <ChevronRightIcon className="w-4 h-4 md:w-5 md:h-5" />
                         </button>
                 </div>
             )}
@@ -358,7 +355,7 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
             {showGoToTop && (
                 <button
                     onClick={handleGoToTop}
-                    className="fixed bottom-8 right-4 md:right-8 z-20 p-3 bg-cyan-500 text-white rounded-full shadow-lg hover:bg-cyan-600 transition-all duration-300 ease-in-out transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-opacity-50 animate-fade-in"
+                    className="fixed bottom-8 right-4 md:right-8 z-20 p-2.5 sm:p-3 bg-cyan-500 text-white rounded-full shadow-lg hover:bg-cyan-600 transition-all duration-300 ease-in-out transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-opacity-50 animate-fade-in"
                     aria-label="Lên đầu trang"
                 >
                     <ArrowUpIcon />
