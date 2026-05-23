@@ -121,6 +121,7 @@ function App() {
     };
 
     const handleSelectMockExam = () => {
+        openRandomLink();
         // 70 random questions from all 390
         const count = 70;
         const shuffled = shuffleArray([...allQuestions]);

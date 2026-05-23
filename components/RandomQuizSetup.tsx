@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { ShuffleIcon } from './icons';
+import { InfinityIcon } from './icons';
 
 interface RandomQuizSetupProps {
     totalQuestions: number;
@@ -10,7 +10,7 @@ interface RandomQuizSetupProps {
 
 const RandomQuizSetup: React.FC<RandomQuizSetupProps> = ({ totalQuestions, onStart, onBack }) => {
     const [questionCount, setQuestionCount] = useState<number>(70);
-    const [questionLimit, setQuestionLimit] = useState<number>(totalQuestions);
+    const questionLimit = totalQuestions;
 
     const presets = [10, 20, 30, 50, 70, 100];
 
@@ -32,44 +32,9 @@ const RandomQuizSetup: React.FC<RandomQuizSetupProps> = ({ totalQuestions, onSta
             <div className="bg-white border-2 border-slate-200 rounded-xl shadow-lg p-8 w-full">
                 <div className="flex items-center gap-4 mb-6">
                     <div className="bg-cyan-100 p-3 rounded-lg">
-                        <ShuffleIcon className="h-8 w-8 text-cyan-600" />
+                        <InfinityIcon className="h-8 w-8 text-cyan-600" />
                     </div>
                     <h2 className="text-2xl font-bold text-slate-900">Thi ngẫu nhiên</h2>
-                </div>
-
-                <div className="mb-6 p-4 bg-slate-50 rounded-lg border border-slate-200">
-                    <p className="text-slate-700 font-semibold mb-3">Chọn ngân hàng câu hỏi:</p>
-                    <div className="flex flex-col sm:flex-row gap-4">
-                        <label className="flex items-center cursor-pointer p-3 bg-white border border-slate-300 rounded-lg hover:border-cyan-500 transition-colors has-[:checked]:border-cyan-500 has-[:checked]:bg-cyan-50">
-                            <input
-                                type="radio"
-                                name="questionLimit"
-                                value={340}
-                                checked={questionLimit === 340}
-                                onChange={() => setQuestionLimit(340)}
-                                className="w-5 h-5 text-cyan-600 focus:ring-cyan-500 border-gray-300"
-                            />
-                            <div className="ml-3">
-                                <span className="block text-sm font-bold text-slate-900">Bộ đề cũ</span>
-                                <span className="block text-xs text-slate-500">340 câu hỏi</span>
-                            </div>
-                        </label>
-
-                        <label className="flex items-center cursor-pointer p-3 bg-white border border-slate-300 rounded-lg hover:border-cyan-500 transition-colors has-[:checked]:border-cyan-500 has-[:checked]:bg-cyan-50">
-                            <input
-                                type="radio"
-                                name="questionLimit"
-                                value={totalQuestions}
-                                checked={questionLimit === totalQuestions}
-                                onChange={() => setQuestionLimit(totalQuestions)}
-                                className="w-5 h-5 text-cyan-600 focus:ring-cyan-500 border-gray-300"
-                            />
-                            <div className="ml-3">
-                                <span className="block text-sm font-bold text-slate-900">Bộ đề mới nhất</span>
-                                <span className="block text-xs text-slate-500">{totalQuestions} câu hỏi (Đầy đủ)</span>
-                            </div>
-                        </label>
-                    </div>
                 </div>
 
                 <p className="text-slate-600 mb-6">
