@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
-import { Question, UserAnswers } from '../types';
-import { BellIcon } from './icons';
+import { Question, UserAnswers } from '../../types';
+import { BellIcon } from '../../components/icons';
 
 interface MockExamProps {
     questions: Question[];

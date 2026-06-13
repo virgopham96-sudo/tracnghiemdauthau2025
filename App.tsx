@@ -1,16 +1,16 @@
 
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
-import ModeSelector from './components/ModeSelector';
-import SetSelector from './components/SetSelector';
-import RandomQuizSetup from './components/RandomQuizSetup';
-import Quiz from './components/Quiz';
-import Results from './components/Results';
-import PracticeAll from './components/PracticeAll';
-import History from './components/History';
-import Search from './components/Search';
-import Theory from './components/Theory';
+import ModeSelector from './pages/Home/ModeSelector';
+import SetSelector from './pages/SetSelector/SetSelector';
+import RandomQuizSetup from './pages/RandomQuizSetup/RandomQuizSetup';
+import Quiz from './pages/Quiz/Quiz';
+import Results from './pages/Results/Results';
+import PracticeAll from './pages/PracticeAll/PracticeAll';
+import History from './pages/History/History';
+import Search from './pages/Search/Search';
+import Theory from './pages/Theory/Theory';
 import Guide from './components/Guide';
-import { MockExam } from './components/MockExam';
+import { MockExam } from './pages/MockExam/MockExam';
 import { QuestionMarkIcon, HeartIcon } from './components/icons';
 import { allSetsData } from './data/sets';
 import { Question, UserAnswers } from './types';
@@ -50,13 +50,101 @@ const openRandomLink = () => {
     document.body.removeChild(link);
 };
 
+const getUrlForState = (view: View, currentSetIndex: number | null): string => {
+    switch (view) {
+        case 'mode-select':
+            return '/';
+        case 'practice-all':
+            return '/chedoluyentap';
+        case 'set-select':
+            return '/thitheobode';
+        case 'theory':
+            return '/lythuyet';
+        case 'search':
+            return '/tracuu';
+        case 'history':
+            return '/ungho';
+        case 'random-setup':
+            return '/thingauhien/setup';
+        case 'mock-exam':
+            return '/thithu';
+        case 'quiz':
+            if (currentSetIndex === -1) return '/thingauhien/thi';
+            if (currentSetIndex === -2) return '/thithu/thi';
+            if (currentSetIndex !== null) return `/thitheobode/bo-de-${currentSetIndex + 1}`;
+            return '/';
+        case 'results':
+            if (currentSetIndex === -1) return '/ketqua?set=-1';
+            if (currentSetIndex === -2) return '/ketqua?set=-2';
+            if (currentSetIndex !== null) return `/ketqua?set=${currentSetIndex + 1}`;
+            return '/ketqua';
+        default:
+            return '/';
+    }
+};
+
+const initialParsedState = (() => {
+    if (typeof window === 'undefined') return { view: 'mode-select' as View, currentSetIndex: null as number | null };
+    const path = window.location.pathname;
+    const searchParams = new URLSearchParams(window.location.search);
+    
+    let view: View = 'mode-select';
+    let currentSetIndex: number | null = null;
+    
+    if (path === '/chedoluyentap') {
+        view = 'practice-all';
+    } else if (path === '/thitheobode') {
+        view = 'set-select';
+    } else if (path === '/lythuyet') {
+        view = 'theory';
+    } else if (path === '/tracuu') {
+        view = 'search';
+    } else if (path === '/ungho') {
+        view = 'history';
+    } else if (path === '/thingauhien/setup') {
+        view = 'random-setup';
+    } else if (path === '/thingauhien/thi') {
+        view = 'quiz';
+        currentSetIndex = -1;
+    } else if (path === '/thithu') {
+        view = 'mock-exam';
+        currentSetIndex = -2;
+    } else if (path === '/thithu/thi') {
+        view = 'quiz';
+        currentSetIndex = -2;
+    } else if (path.startsWith('/thitheobode/bo-de-')) {
+        const parts = path.split('-');
+        const setNum = parseInt(parts[parts.length - 1], 10);
+        if (!isNaN(setNum) && setNum >= 1 && setNum <= 39) {
+            currentSetIndex = setNum - 1;
+            view = 'quiz';
+        } else {
+            view = 'set-select';
+        }
+    } else if (path === '/ketqua') {
+        view = 'results';
+        const setVal = searchParams.get('set');
+        if (setVal) {
+            const setNum = parseInt(setVal, 10);
+            if (setNum === -1) {
+                currentSetIndex = -1;
+            } else if (setNum === -2) {
+                currentSetIndex = -2;
+            } else if (!isNaN(setNum) && setNum >= 1 && setNum <= 39) {
+                currentSetIndex = setNum - 1;
+            }
+        }
+    }
+    return { view, currentSetIndex };
+})();
+
 type View = 'mode-select' | 'set-select' | 'random-setup' | 'quiz' | 'results' | 'practice-all' | 'history' | 'search' | 'theory' | 'mock-exam';
 
 function App() {
-    const [view, setView] = useState<View>('mode-select');
+    const [view, setView] = useState<View>(initialParsedState.view);
     
     // Quiz State
-    const [currentSetIndex, setCurrentSetIndex] = useState<number | null>(null);
+    const [currentSetIndex, setCurrentSetIndex] = useState<number | null>(initialParsedState.currentSetIndex);
     const [randomQuestions, setRandomQuestions] = useState<Question[]>([]); // Store random questions for retry
     const [submittedAnswers, setSubmittedAnswers] = useState<UserAnswers | null>(null);
     const [isPracticeMode, setIsPracticeMode] = useState<boolean>(false);
@@ -68,6 +156,76 @@ function App() {
 
     const totalSets = allSetsData.length;
     const allQuestions = useMemo(() => allSetsData.flat(), []);
+
+    // Sync state changes with the URL path
+    useEffect(() => {
+        const targetPath = getUrlForState(view, currentSetIndex);
+        if (window.location.pathname + window.location.search !== targetPath) {
+            window.history.pushState({}, '', targetPath);
+        }
+    }, [view, currentSetIndex]);
+
+    // Handle back/forward navigation in the browser
+    useEffect(() => {
+        const handlePopState = () => {
+            const path = window.location.pathname;
+            const searchParams = new URLSearchParams(window.location.search);
+            
+            let newView: View = 'mode-select';
+            let newSetIndex: number | null = null;
+            
+            if (path === '/chedoluyentap') {
+                newView = 'practice-all';
+            } else if (path === '/thitheobode') {
+                newView = 'set-select';
+            } else if (path === '/lythuyet') {
+                newView = 'theory';
+            } else if (path === '/tracuu') {
+                newView = 'search';
+            } else if (path === '/ungho') {
+                newView = 'history';
+            } else if (path === '/thingauhien/setup') {
+                newView = 'random-setup';
+            } else if (path === '/thingauhien/thi') {
+                newView = 'quiz';
+                newSetIndex = -1;
+            } else if (path === '/thithu') {
+                newView = 'mock-exam';
+                newSetIndex = -2;
+            } else if (path === '/thithu/thi') {
+                newView = 'quiz';
+                newSetIndex = -2;
+            } else if (path.startsWith('/thitheobode/bo-de-')) {
+                const parts = path.split('-');
+                const setNum = parseInt(parts[parts.length - 1], 10);
+                if (!isNaN(setNum) && setNum >= 1 && setNum <= 39) {
+                    newSetIndex = setNum - 1;
+                    newView = 'quiz';
+                } else {
+                    newView = 'set-select';
+                }
+            } else if (path === '/ketqua') {
+                newView = 'results';
+                const setVal = searchParams.get('set');
+                if (setVal) {
+                    const setNum = parseInt(setVal, 10);
+                    if (setNum === -1) {
+                        newSetIndex = -1;
+                    } else if (setNum === -2) {
+                        newSetIndex = -2;
+                    } else if (!isNaN(setNum) && setNum >= 1 && setNum <= 39) {
+                        newSetIndex = setNum - 1;
+                    }
+                }
+            }
+            
+            setView(newView);
+            setCurrentSetIndex(newSetIndex);
+        };
+        
+        window.addEventListener('popstate', handlePopState);
+        return () => window.removeEventListener('popstate', handlePopState);
+    }, []);
     
     const quizTitle = useMemo(() => {
         const mode = isPracticeMode ? 'Luyện tập' : 'Thi';
@@ -81,11 +239,17 @@ function App() {
         if (currentSetIndex === null) return [];
         
         if (currentSetIndex === -1 || currentSetIndex === -2) { // Random quiz mode and Mock Exam
+            if (randomQuestions.length === 0) {
+                // If direct loading, fallback to stable questions so it doesn't crash
+                const count = currentSetIndex === -2 ? 70 : 20;
+                // Stably load questions based on ID sequence for safety, or simple slice
+                return allQuestions.slice(0, count);
+            }
             return randomQuestions; // Use the stored random questions
         }
 
         return allSetsData[currentSetIndex] || [];
-    }, [currentSetIndex, randomQuestions]);
+    }, [currentSetIndex, randomQuestions, allQuestions]);
 
     const handleSubmitQuiz = useCallback((answers: UserAnswers, timeTaken: number) => {
         setSubmittedAnswers(answers);
@@ -99,21 +263,21 @@ function App() {
     };
     
     const handleSelectSearch = () => {
+        openRandomLink();
         setView('search');
     };
 
     const handleSelectTheory = () => {
+        openRandomLink();
         setView('theory');
     }
 
     const handleSelectTestBySet = () => {
-        openRandomLink();
         setIsPracticeMode(false);
         setView('set-select');
     };
 
     const handleSelectTestRandom = () => {
-        openRandomLink();
         setIsPracticeMode(false);
         setCurrentSetIndex(-1); 
         // Go to setup screen first

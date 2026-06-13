@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { Question } from '../types';
-import { CheckIcon } from './icons';
+import { Question } from '../../types';
+import { CheckIcon } from '../../components/icons';
 
 const highlightText = (text: string, highlight: string): React.ReactNode => {
     if (!highlight.trim()) {

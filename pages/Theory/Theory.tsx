@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowUpIcon, ChevronRightIcon } from './icons';
+import { ArrowUpIcon, ChevronRightIcon } from '../../components/icons';
 
 interface TheoryProps {
     onBack: () => void;

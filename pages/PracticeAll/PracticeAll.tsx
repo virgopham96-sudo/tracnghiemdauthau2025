@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
-import { Question, UserAnswers } from '../types';
-import { CheckIcon, XIcon, ArrowUpIcon, ChevronLeftIcon, ChevronRightIcon } from './icons';
+import { Question, UserAnswers } from '../../types';
+import { CheckIcon, XIcon, ArrowUpIcon, ChevronLeftIcon, ChevronRightIcon } from '../../components/icons';
 
 interface PracticeAllProps {
     questions: Question[];

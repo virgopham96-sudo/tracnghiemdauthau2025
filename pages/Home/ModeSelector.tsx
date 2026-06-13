@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BookOpenIcon, ClipboardListIcon, InfinityIcon, SearchIcon, LightBulbIcon, AcademicCapIcon } from './icons';
+import { BookOpenIcon, ClipboardListIcon, InfinityIcon, SearchIcon, LightBulbIcon, AcademicCapIcon } from '../../components/icons';
 
 interface ModeSelectorProps {
     onSelectPracticeAll: () => void;

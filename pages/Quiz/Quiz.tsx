@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect, useRef, useCallback } from 'react';
-import { Question, UserAnswers } from '../types';
-import { ArrowUpIcon, ChevronLeftIcon, ChevronRightIcon } from './icons';
+import { Question, UserAnswers } from '../../types';
+import { ArrowUpIcon, ChevronLeftIcon, ChevronRightIcon } from '../../components/icons';
 
 interface QuizProps {
     questions: Question[];

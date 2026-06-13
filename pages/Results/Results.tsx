@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
-import { Question, UserAnswers } from '../types';
-import { CheckIcon, XIcon, TrophyIcon, ClockIcon, ChevronLeftIcon, ChevronRightIcon, RefreshIcon } from './icons';
+import { Question, UserAnswers } from '../../types';
+import { CheckIcon, XIcon, TrophyIcon, ClockIcon, ChevronLeftIcon, ChevronRightIcon, RefreshIcon } from '../../components/icons';
 
 interface ResultsProps {
     questions: Question[];

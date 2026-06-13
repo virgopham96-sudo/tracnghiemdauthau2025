@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { InfinityIcon } from './icons';
+import { InfinityIcon } from '../../components/icons';
 
 interface RandomQuizSetupProps {
     totalQuestions: number;
