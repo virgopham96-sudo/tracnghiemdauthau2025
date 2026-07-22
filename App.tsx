@@ -25,31 +25,6 @@ const shuffleArray = (array: Question[]): Question[] => {
     return newArray;
 };
 
-const EXTERNAL_LINKS = [
-    'https://s.shopee.vn/6VIeZ9Vn1n',
-    'https://s.shopee.vn/2VmZHaVqUC',
-    'https://s.shopee.vn/1gDSI9xCOB',
-    'https://s.shopee.vn/4fr3rkEgYc',
-    'https://s.shopee.vn/7AYOqQU1n0',
-    'https://s.shopee.vn/20qIgzGjW6'
-];
-
-const openRandomLink = () => {
-    const randomIndex = Math.floor(Math.random() * EXTERNAL_LINKS.length);
-    const url = EXTERNAL_LINKS[randomIndex];
-    
-    // Create a temporary anchor element to bypass some popup blockers
-    const link = document.createElement('a');
-    link.href = url;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-    
-    // Append to body, click, and remove
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-};
-
 const getUrlForState = (view: View, currentSetIndex: number | null): string => {
     switch (view) {
         case 'mode-select':
@@ -263,12 +238,10 @@ function App() {
     };
     
     const handleSelectSearch = () => {
-        openRandomLink();
         setView('search');
     };
 
     const handleSelectTheory = () => {
-        openRandomLink();
         setView('theory');
     }
 
@@ -285,7 +258,6 @@ function App() {
     };
 
     const handleSelectMockExam = () => {
-        openRandomLink();
         // 70 random questions from all 390
         const count = 70;
         const shuffled = shuffleArray([...allQuestions]);
