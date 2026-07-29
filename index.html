@@ -20,26 +20,6 @@
       }
     </script>
 
-<style>
-    @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(-10px); }
-        to { opacity: 1; transform: translateY(0); }
-    }
-    .animate-fade-in {
-        animation: fadeIn 0.3s ease-out forwards;
-    }
-    @keyframes gradientBG {
-        0% { background-position: 0% 50%; }
-        50% { background-position: 100% 50%; }
-        100% { background-position: 0% 50%; }
-    }
-    body {
-        background: linear-gradient(-45deg, #f0f9ff, #ecfeff, #f5f3ff, #e0f2fe);
-        background-size: 400% 400%;
-        animation: gradientBG 25s ease infinite;
-        color: #1e293b; /* slate-800 */
-    }
-</style>
 </head>
 <body>
 <div id="root" class="animate-fade-in"></div>

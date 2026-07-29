@@ -6,9 +6,9 @@ interface TheoryProps {
 }
 
 const HighlightBox = ({ title, children }: { title?: string, children?: React.ReactNode }) => (
-    <div className="bg-yellow-50 border-l-4 border-yellow-400 p-3 lg:p-4 my-2 lg:my-3 rounded-r-lg">
-        {title && <p className="font-bold text-yellow-800 mb-1 text-[13px] sm:text-sm">{title}</p>}
-        <div className="text-slate-800 italic text-xs sm:text-sm">{children}</div>
+    <div className="bg-yellow-50 dark:bg-yellow-950/40 border-l-4 border-yellow-400 dark:border-yellow-600 p-3 lg:p-4 my-2 lg:my-3 rounded-r-lg">
+        {title && <p className="font-bold text-yellow-800 dark:text-yellow-300 mb-1 text-xs sm:text-sm md:text-base">{title}</p>}
+        <div className="text-slate-800 dark:text-slate-200 italic text-xs sm:text-sm md:text-base">{children}</div>
     </div>
 );
 
@@ -16,20 +16,20 @@ const TopicSection = ({ title, children }: { title: string, children?: React.Rea
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="mb-3 sm:mb-4 bg-white rounded-xl shadow-sm sm:shadow-md border border-slate-200 overflow-hidden hover:shadow-md sm:hover:shadow-lg transition-all duration-300">
+        <div className="mb-3 sm:mb-4 bg-white dark:bg-slate-900 rounded-xl shadow-sm sm:shadow-md border border-slate-200 dark:border-slate-800 overflow-hidden hover:shadow-md sm:hover:shadow-lg transition-all duration-300">
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="w-full flex items-center justify-between p-3 sm:p-4 md:p-5 text-left bg-white hover:bg-slate-50 transition-colors focus:outline-none select-none group"
+                className="w-full flex items-center justify-between p-3.5 sm:p-4 md:p-5 text-left bg-white dark:bg-slate-900 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors focus:outline-none select-none group"
             >
-                <h3 className="text-sm sm:text-base md:text-xl font-bold text-cyan-700 uppercase group-hover:text-cyan-800 flex-1 pr-3 sm:pr-4 leading-snug">{title}</h3>
-                <div className={`transform transition-transform duration-300 text-slate-400 group-hover:text-cyan-600 shrink-0 ${isOpen ? 'rotate-90' : ''}`}>
+                <h3 className="text-sm sm:text-base md:text-lg font-bold text-cyan-700 dark:text-cyan-400 uppercase group-hover:text-cyan-800 dark:group-hover:text-cyan-300 flex-1 pr-3 sm:pr-4 leading-snug">{title}</h3>
+                <div className={`transform transition-transform duration-300 text-slate-400 dark:text-slate-500 group-hover:text-cyan-600 dark:group-hover:text-cyan-400 shrink-0 ${isOpen ? 'rotate-90' : ''}`}>
                     <ChevronRightIcon className="w-5 h-5 sm:w-6 sm:h-6" />
                 </div>
             </button>
             <div 
-                className={`transition-all duration-500 ease-in-out overflow-hidden ${isOpen ? 'max-h-[5000px] opacity-100 border-t border-slate-100' : 'max-h-0 opacity-0'}`}
+                className={`transition-all duration-500 ease-in-out overflow-hidden ${isOpen ? 'max-h-[5000px] opacity-100 border-t border-slate-100 dark:border-slate-800' : 'max-h-0 opacity-0'}`}
             >
-                <div className="p-3 sm:p-5 md:p-6 text-slate-700 space-y-2 sm:space-y-3 leading-relaxed bg-slate-50/30 text-xs sm:text-sm md:text-base">
+                <div className="p-3.5 sm:p-5 md:p-6 text-slate-800 dark:text-slate-200 space-y-2 sm:space-y-3 leading-relaxed bg-slate-50/30 dark:bg-slate-950/30 text-xs sm:text-sm md:text-base">
                     {children}
                 </div>
             </div>
@@ -47,14 +47,14 @@ const Theory: React.FC<TheoryProps> = ({ onBack }) => {
             <div className="flex items-center gap-2 mb-4 shrink-0">
                 <button
                     onClick={onBack}
-                    className="bg-white hover:bg-slate-100 text-slate-700 font-semibold py-1.5 px-3 md:py-2 md:px-4 rounded-full transition-colors flex items-center gap-1 md:gap-2 border border-slate-200 shadow-sm text-sm"
+                    className="bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-semibold py-1.5 px-3 md:py-2 md:px-4 rounded-full transition-colors flex items-center gap-1 md:gap-2 border border-slate-200 dark:border-slate-700 shadow-sm text-sm"
                 >
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 md:h-5 md:w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fillRule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     <span className="hidden md:inline">Quay lại</span>
                 </button>
-                <h2 className="text-base sm:text-lg md:text-3xl font-bold text-slate-900 text-center flex-1">Tổng hợp kiến thức Luật Đấu Thầu</h2>
+                <h2 className="text-base sm:text-lg md:text-3xl font-bold text-slate-900 dark:text-slate-100 text-center flex-1">Tổng hợp kiến thức Luật Đấu Thầu</h2>
             </div>
             
             <a 

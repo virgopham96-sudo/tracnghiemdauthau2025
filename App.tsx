@@ -11,7 +11,7 @@ import Search from './pages/Search/Search';
 import Theory from './pages/Theory/Theory';
 import Guide from './components/Guide';
 import { MockExam } from './pages/MockExam/MockExam';
-import { QuestionMarkIcon, HeartIcon } from './components/icons';
+import { QuestionMarkIcon, HeartIcon, SunIcon, MoonIcon } from './components/icons';
 import { allSetsData } from './data/sets';
 import { Question, UserAnswers } from './types';
 
@@ -128,6 +128,25 @@ function App() {
     
     // UI State
     const [isGuideVisible, setIsGuideVisible] = useState(false);
+    const [darkMode, setDarkMode] = useState<boolean>(() => {
+        const saved = localStorage.getItem('theme');
+        if (saved) return saved === 'dark';
+        return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    });
+
+    useEffect(() => {
+        if (darkMode) {
+            document.documentElement.classList.add('dark');
+            localStorage.setItem('theme', 'dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem('theme', 'light');
+        }
+    }, [darkMode]);
+
+    const toggleDarkMode = () => {
+        setDarkMode(prev => !prev);
+    };
 
     const totalSets = allSetsData.length;
     const allQuestions = useMemo(() => allSetsData.flat(), []);
@@ -449,25 +468,35 @@ function App() {
     };
 
     return (
-        <div className="min-h-screen font-sans flex flex-col">
-            <header className="bg-white/95 backdrop-blur-sm shadow-md sticky top-0 z-10 border-b border-slate-200 shrink-0">
-                <div className="container mx-auto px-2 sm:px-4 py-2 flex justify-between items-center relative">
-                    <div className="hidden md:block md:w-24"></div>
-                    <h1 className="text-[17px] sm:text-xl md:text-2xl lg:text-3xl font-bold text-center text-slate-900 tracking-tight flex-1">ÔN THI CHỨNG CHỈ ĐẤU THẦU</h1>
-                    <button 
-                        onClick={handleSelectSupport}
-                        className="flex items-center gap-1.5 px-3 md:px-4 py-1.5 md:py-2 border border-pink-200 bg-pink-50 hover:bg-pink-100 text-pink-600 rounded-full text-[11px] sm:text-sm font-bold shadow-sm hover:shadow transition-all justify-center shrink-0 ml-1.5 whitespace-nowrap"
-                    >
-                        <HeartIcon className="w-3.5 h-3.5 md:w-5 md:h-5 text-pink-500 shrink-0" />
-                        <span>Ủng hộ</span>
-                    </button>
+        <div className="min-h-screen font-sans flex flex-col transition-colors duration-300">
+            <header className="bg-white/95 dark:bg-slate-900/95 backdrop-blur-sm shadow-md sticky top-0 z-10 border-b border-slate-200 dark:border-slate-800 shrink-0 transition-colors">
+                <div className="max-w-6xl mx-auto px-3 sm:px-4 lg:px-6 py-2.5 sm:py-3 flex justify-between items-center relative">
+                    <div className="hidden md:block md:w-28"></div>
+                    <h1 className="text-base sm:text-xl md:text-2xl font-bold text-center text-slate-900 dark:text-slate-100 tracking-tight flex-1">ÔN THI CHỨNG CHỈ ĐẤU THẦU</h1>
+                    <div className="flex items-center gap-2 shrink-0 ml-2">
+                        <button
+                            onClick={toggleDarkMode}
+                            className="p-1.5 sm:p-2 border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 rounded-full shadow-sm transition-all flex items-center justify-center"
+                            title={darkMode ? "Chuyển sang chế độ sáng" : "Chuyển sang chế độ đêm"}
+                            aria-label={darkMode ? "Chuyển sang chế độ sáng" : "Chuyển sang chế độ đêm"}
+                        >
+                            {darkMode ? <SunIcon className="w-4 h-4 sm:w-5 sm:h-5 text-amber-400" /> : <MoonIcon className="w-4 h-4 sm:w-5 sm:h-5 text-slate-600 dark:text-slate-300" />}
+                        </button>
+                        <button 
+                            onClick={handleSelectSupport}
+                            className="flex items-center gap-1.5 px-3 md:px-4 py-1.5 md:py-2 border border-pink-200 dark:border-pink-900/50 bg-pink-50 dark:bg-pink-950/40 hover:bg-pink-100 dark:hover:bg-pink-900/60 text-pink-600 dark:text-pink-300 rounded-full text-xs sm:text-sm font-bold shadow-sm hover:shadow transition-all justify-center whitespace-nowrap"
+                        >
+                            <HeartIcon className="w-3.5 h-3.5 md:w-4 md:h-4 text-pink-500 shrink-0" />
+                            <span>Ủng hộ</span>
+                        </button>
+                    </div>
                 </div>
             </header>
-            <main className="mx-auto px-2 md:px-4 py-2 sm:py-4 md:py-6 flex-grow w-full flex flex-col items-center justify-center">
+            <main className="max-w-7xl mx-auto px-2 md:px-6 py-2 sm:py-4 md:py-6 flex-grow w-full flex flex-col items-center justify-center">
                 {renderContent()}
             </main>
             {view === 'mode-select' && (
-                <footer className="text-center py-4 px-4 text-slate-500 text-xs sm:text-sm border-t border-slate-200 bg-white/30 shrink-0">
+                <footer className="text-center py-4 px-4 text-slate-500 dark:text-slate-400 text-xs sm:text-sm border-t border-slate-200 dark:border-slate-800 bg-white/30 dark:bg-slate-900/30 shrink-0">
                     Bản quyền thuộc về "Phạm Văn Bình - Phòng CĐVT - Công ty 790"
                 </footer>
             )}
@@ -475,7 +504,7 @@ function App() {
             {view === 'mode-select' && (
                 <button
                     onClick={() => setIsGuideVisible(true)}
-                    className="fixed bottom-6 right-6 z-20 p-3 bg-cyan-500 text-white rounded-full shadow-lg hover:bg-cyan-600 transition-all duration-300 transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                    className="fixed bottom-6 right-6 z-20 p-3 bg-cyan-500 dark:bg-cyan-600 text-white rounded-full shadow-lg hover:bg-cyan-600 dark:hover:bg-cyan-500 transition-all duration-300 transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500"
                     aria-label="Hướng dẫn sử dụng"
                 >
                     <QuestionMarkIcon />
@@ -484,7 +513,7 @@ function App() {
 
             {isGuideVisible && (
                 <div className="fixed inset-0 bg-black bg-opacity-60 z-40 flex justify-center items-center p-4 animate-fade-in">
-                    <div className="bg-slate-50 rounded-xl shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+                    <div className="bg-slate-50 dark:bg-slate-900 rounded-xl shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
                         <Guide onClose={() => setIsGuideVisible(false)} />
                     </div>
                 </div>

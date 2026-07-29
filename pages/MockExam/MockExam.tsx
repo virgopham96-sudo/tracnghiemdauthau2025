@@ -161,11 +161,11 @@ export const MockExam: React.FC<MockExamProps> = ({ questions, onSubmit, onBack 
         }
         
         if (isQuestionMarked) {
-             base += "bg-yellow-100 border-yellow-400 text-yellow-800 ";
+             base += "bg-yellow-100 dark:bg-yellow-900/60 border-yellow-400 dark:border-yellow-600 text-yellow-800 dark:text-yellow-200 ";
         } else if (isAnswered) {
-             base += "bg-[#e8f1f8] border-[#0983c2] text-[#0983c2] ";
+             base += "bg-[#e8f1f8] dark:bg-cyan-950/60 border-[#0983c2] text-[#0983c2] dark:text-cyan-400 ";
         } else {
-             base += "bg-white border-slate-300 text-slate-700 hover:bg-slate-50 ";
+             base += "bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 ";
         }
         return base;
     };
@@ -173,12 +173,12 @@ export const MockExam: React.FC<MockExamProps> = ({ questions, onSubmit, onBack 
     return (
         <div className="flex flex-col md:flex-row gap-4 max-w-7xl mx-auto h-full min-h-[calc(100vh-140px)] animate-fade-in relative z-0">
             {/* Left Panel */}
-            <div className="w-full md:w-80 bg-white border border-slate-200 rounded-xl p-4 flex flex-col md:h-[calc(100vh-140px)] md:sticky top-6 shadow-sm">
+            <div className="w-full md:w-80 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 flex flex-col md:h-[calc(100vh-140px)] md:sticky top-6 shadow-sm">
                 <div className="mb-4 flex justify-between items-center">
-                    <p className="font-bold text-slate-800 text-lg">Câu hỏi</p>
+                    <p className="font-bold text-slate-800 dark:text-slate-100 text-lg">Câu hỏi</p>
                     <button 
                         onClick={onBack}
-                        className="text-sm font-bold text-slate-500 hover:text-slate-800 transition-colors bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-lg"
+                        className="text-sm font-bold text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200 transition-colors bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 px-3 py-1.5 rounded-lg"
                     >
                         Thoát
                     </button>
@@ -194,10 +194,10 @@ export const MockExam: React.FC<MockExamProps> = ({ questions, onSubmit, onBack 
                         </button>
                     ))}
                 </div>
-                <div className="mt-4 pt-4 border-t border-slate-200 flex flex-col gap-2">
-                    <div className="flex justify-between items-center bg-slate-100 rounded-lg p-3">
-                         <span className="font-semibold text-slate-600">Thời gian còn lại</span>
-                         <span className={`font-mono text-xl font-bold ${timeRemaining < 300 ? 'text-red-600 animate-pulse' : 'text-slate-800'}`}>
+                <div className="mt-4 pt-4 border-t border-slate-200 dark:border-slate-800 flex flex-col gap-2">
+                    <div className="flex justify-between items-center bg-slate-100 dark:bg-slate-800 rounded-lg p-3">
+                         <span className="font-semibold text-slate-600 dark:text-slate-300">Thời gian còn lại</span>
+                         <span className={`font-mono text-xl font-bold ${timeRemaining < 300 ? 'text-red-600 animate-pulse' : 'text-slate-800 dark:text-slate-100'}`}>
                              {formatTime(timeRemaining)}
                          </span>
                     </div>
@@ -211,23 +211,23 @@ export const MockExam: React.FC<MockExamProps> = ({ questions, onSubmit, onBack 
             </div>
 
             {/* Right Panel */}
-            <div className="flex-1 bg-white border border-slate-200 rounded-xl p-6 shadow-sm flex flex-col">
-                <div className="flex justify-between items-center border-b border-slate-100 pb-4 mb-6">
-                     <h3 className="font-bold text-lg text-slate-800">Câu {currentQuestionIndex + 1}</h3>
+            <div className="flex-1 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-5 md:p-6 shadow-sm flex flex-col">
+                <div className="flex justify-between items-center border-b border-slate-100 dark:border-slate-800 pb-3.5 mb-5">
+                     <h3 className="font-bold text-lg md:text-xl text-slate-800 dark:text-slate-100">Câu {currentQuestionIndex + 1}</h3>
                      <button
                          onClick={toggleMark}
-                         className={`flex items-center gap-1 font-bold text-sm px-3 py-1.5 rounded-lg transition-colors ${isMarked ? 'text-yellow-700 bg-yellow-100/50' : 'text-slate-600 hover:bg-slate-100'}`}
+                         className={`flex items-center gap-1 font-bold text-xs sm:text-sm px-3 py-1.5 rounded-lg transition-colors ${isMarked ? 'text-yellow-700 dark:text-yellow-300 bg-yellow-100/50 dark:bg-yellow-900/40' : 'text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800'}`}
                      >
-                         ĐÁNH DẤU <BellIcon className={`w-5 h-5 ${isMarked ? 'text-yellow-500 fill-current' : 'text-slate-400'}`} />
+                         ĐÁNH DẤU <BellIcon className={`w-4 h-4 md:w-5 md:h-5 ${isMarked ? 'text-yellow-500 fill-current' : 'text-slate-400'}`} />
                      </button>
                 </div>
 
                 <div className="flex-1">
-                    <p className="text-slate-800 text-base mb-6 leading-relaxed">
+                    <p className="text-slate-800 dark:text-slate-100 text-base sm:text-lg font-semibold mb-5 leading-relaxed">
                         {currentQuestion.question}
                     </p>
 
-                    <div className="space-y-4">
+                    <div className="space-y-2.5 sm:space-y-3">
                         {uiKeys.map((uiKey, index) => {
                             const originalKey = currentMapping[index] as 'A' | 'B' | 'C' | 'D';
                             const value = currentQuestion.options[originalKey];
@@ -237,7 +237,7 @@ export const MockExam: React.FC<MockExamProps> = ({ questions, onSubmit, onBack 
                             return (
                                 <label 
                                     key={uiKey}
-                                    className={`flex items-start gap-4 p-4 rounded-xl border border-slate-200 cursor-pointer transition-all hover:bg-slate-50 ${isSelected ? 'ring-1 ring-[#0983c2] bg-[#f8fbff]' : ''}`}
+                                    className={`flex items-start gap-3 p-3 sm:p-3.5 rounded-xl border border-slate-200 dark:border-slate-800 cursor-pointer transition-all hover:bg-slate-50 dark:hover:bg-slate-800 ${isSelected ? 'ring-1.5 ring-[#0983c2] bg-[#f8fbff] dark:bg-cyan-950/40' : ''}`}
                                 >
                                     <div className="pt-0.5">
                                         <input
@@ -245,11 +245,11 @@ export const MockExam: React.FC<MockExamProps> = ({ questions, onSubmit, onBack 
                                             name={`question-${currentQuestion.id}`}
                                             checked={isSelected}
                                             onChange={() => handleOptionChange(currentQuestion.id, originalKey)}
-                                            className="w-4 h-4 text-[#0983c2] focus:ring-[#0983c2] border-slate-300 mt-1 cursor-pointer"
+                                            className="w-4 h-4 text-[#0983c2] focus:ring-[#0983c2] border-slate-300 dark:border-slate-700 mt-1 cursor-pointer"
                                         />
                                     </div>
-                                    <span className="text-slate-700 text-sm md:text-base leading-relaxed select-none">
-                                        <span className="font-semibold mr-1">{uiKey}.</span> {value}
+                                    <span className="text-slate-800 dark:text-slate-200 text-sm sm:text-base leading-relaxed select-none">
+                                        <span className="font-bold text-[#0983c2] dark:text-cyan-400 mr-1.5">{uiKey}.</span> {value}
                                     </span>
                                 </label>
                             );
@@ -257,18 +257,18 @@ export const MockExam: React.FC<MockExamProps> = ({ questions, onSubmit, onBack 
                     </div>
                 </div>
 
-                <div className="flex justify-end gap-3 mt-8 pt-6 border-t border-slate-100">
+                <div className="flex justify-end gap-3 mt-8 pt-6 border-t border-slate-100 dark:border-slate-800">
                     <button
                         onClick={handlePrev}
                         disabled={currentQuestionIndex === 0}
-                        className="bg-[#90caf9] hover:bg-[#64b5f6] text-white font-bold py-2.5 px-6 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-1"
+                        className="bg-[#90caf9] dark:bg-sky-800 hover:bg-[#64b5f6] dark:hover:bg-sky-700 text-white font-bold py-2.5 px-6 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-1"
                     >
                        <span className="text-xl leading-none -mt-1 mr-1">‹</span> TRƯỚC
                     </button>
                     <button
                         onClick={handleNext}
                         disabled={currentQuestionIndex === questions.length - 1}
-                        className="bg-[#0983c2] hover:bg-[#076a9e] text-white font-bold py-2.5 px-6 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-1"
+                        className="bg-[#0983c2] dark:bg-cyan-600 hover:bg-[#076a9e] dark:hover:bg-cyan-500 text-white font-bold py-2.5 px-6 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-1"
                     >
                         NEXT <span className="text-xl leading-none -mt-1 ml-1">›</span>
                     </button>
@@ -277,23 +277,23 @@ export const MockExam: React.FC<MockExamProps> = ({ questions, onSubmit, onBack 
 
             {showConfirmModal && (
                 <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4 animate-fade-in backdrop-blur-sm">
-                    <div className="bg-white rounded-2xl p-6 md:p-8 max-w-md w-full shadow-2xl transform transition-all relative">
-                         <h3 className="text-xl font-bold text-slate-800 mb-4">
+                    <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 md:p-8 max-w-md w-full shadow-2xl transform transition-all relative">
+                         <h3 className="text-xl font-bold text-slate-800 dark:text-slate-100 mb-4">
                              Xác nhận nộp bài
                          </h3>
                          {!isFinished ? (
-                             <p className="text-slate-600 mb-6 bg-yellow-50 border border-yellow-200 text-yellow-800 p-4 rounded-xl">
+                             <p className="text-slate-600 dark:text-slate-300 mb-6 bg-yellow-50 dark:bg-yellow-950/40 border border-yellow-200 dark:border-yellow-800 text-yellow-800 dark:text-yellow-200 p-4 rounded-xl">
                                  Bạn mới hoàn thành <span className="font-bold">{answeredCount}/{questions.length}</span> câu hỏi. Bạn có chắc chắn muốn nộp bài bây giờ không?
                              </p>
                          ) : (
-                             <p className="text-slate-600 mb-6 bg-green-50 border border-green-200 text-green-800 p-4 rounded-xl">
+                             <p className="text-slate-600 dark:text-slate-300 mb-6 bg-green-50 dark:bg-green-950/40 border border-green-200 dark:border-green-800 text-green-800 dark:text-green-200 p-4 rounded-xl">
                                  Bạn đã hoàn thành tất cả câu hỏi. Bạn có muốn nộp bài và xem kết quả?
                              </p>
                          )}
                          <div className="flex justify-end gap-3">
                              <button
                                  onClick={cancelSubmit}
-                                 className="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold rounded-lg transition-colors"
+                                 className="px-5 py-2.5 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-bold rounded-lg transition-colors"
                              >
                                  Tiếp tục làm bài
                              </button>

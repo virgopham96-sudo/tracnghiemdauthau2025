@@ -72,9 +72,9 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, on
             return `${baseClasses} bg-cyan-500 text-white border-cyan-600 shadow-md scale-110 ring-2 ring-offset-2 ring-cyan-400`;
         }
         if (isCorrect) {
-            return `${baseClasses} bg-green-100 text-green-800 border-green-300 hover:bg-green-200`;
+            return `${baseClasses} bg-green-100 dark:bg-green-950/60 text-green-800 dark:text-green-300 border-green-300 dark:border-green-800 hover:bg-green-200 dark:hover:bg-green-900/60`;
         }
-        return `${baseClasses} bg-red-100 text-red-800 border-red-300 hover:bg-red-200`;
+        return `${baseClasses} bg-red-100 dark:bg-red-950/60 text-red-800 dark:text-red-300 border-red-300 dark:border-red-800 hover:bg-red-200 dark:hover:bg-red-900/60`;
     };
 
     const getOptionClasses = (question: Question, optionKey: string): string => {
@@ -83,47 +83,47 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, on
         const wasAnswered = userAnswers[question.id] !== undefined;
 
         if (isCorrect) {
-            return 'bg-green-100 border-green-500 text-green-900 ring-2 ring-green-300';
+            return 'bg-green-100 dark:bg-green-950/60 border-green-500 dark:border-green-600 text-green-900 dark:text-green-200 ring-2 ring-green-300 dark:ring-green-900';
         }
         if (isSelected && !isCorrect) {
-            return 'bg-red-100 border-red-500 text-red-900';
+            return 'bg-red-100 dark:bg-red-950/60 border-red-500 dark:border-red-600 text-red-900 dark:text-red-200';
         }
         if (!isSelected && wasAnswered){
-            return 'border-slate-200 text-slate-500 opacity-60';
+            return 'border-slate-200 dark:border-slate-800 text-slate-500 dark:text-slate-500 opacity-60';
         }
-        return 'border-slate-200 text-slate-700';
+        return 'border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300';
     };
 
     const currentQuestion = questions[currentQuestionIndex];
 
     return (
         <div className="p-4 md:p-8 max-w-7xl mx-auto">
-            <div className="bg-white rounded-xl p-6 mb-8 text-center shadow-xl border border-slate-200 animate-fade-in">
-                <h2 className="text-3xl font-bold mb-2 text-slate-900">Kết quả {setTitle}</h2>
-                <p className="text-slate-500 mb-6">Dưới đây là tổng kết bài làm của bạn.</p>
+            <div className="bg-white dark:bg-slate-900 rounded-xl p-6 mb-8 text-center shadow-xl border border-slate-200 dark:border-slate-800 animate-fade-in">
+                <h2 className="text-3xl font-bold mb-2 text-slate-900 dark:text-slate-100">Kết quả {setTitle}</h2>
+                <p className="text-slate-500 dark:text-slate-400 mb-6">Dưới đây là tổng kết bài làm của bạn.</p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
-                    <div className="p-4 bg-slate-50 rounded-xl border border-slate-200 flex flex-col items-center justify-center">
+                    <div className="p-4 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-800 flex flex-col items-center justify-center">
                         <TrophyIcon className="h-10 w-10 text-cyan-500 mb-2"/>
-                        <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider">Điểm số</p>
-                        <p className="text-4xl font-bold text-cyan-600">{finalScore}<span className="text-2xl text-slate-400">/100</span></p>
+                        <p className="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Điểm số</p>
+                        <p className="text-4xl font-bold text-cyan-600 dark:text-cyan-400">{finalScore}<span className="text-2xl text-slate-400 dark:text-slate-500">/100</span></p>
                     </div>
-                    <div className="p-4 bg-slate-50 rounded-xl border border-slate-200 flex flex-col items-center justify-center">
+                    <div className="p-4 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-800 flex flex-col items-center justify-center">
                         <CheckIcon />
-                        <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mt-2">Số câu đúng</p>
-                        <p className="text-4xl font-bold text-slate-800">{score}<span className="text-2xl text-slate-400">/{questions.length}</span></p>
+                        <p className="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mt-2">Số câu đúng</p>
+                        <p className="text-4xl font-bold text-slate-800 dark:text-slate-100">{score}<span className="text-2xl text-slate-400 dark:text-slate-500">/{questions.length}</span></p>
                     </div>
-                    <div className="p-4 bg-slate-50 rounded-xl border border-slate-200 flex flex-col items-center justify-center">
+                    <div className="p-4 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-800 flex flex-col items-center justify-center">
                         <ClockIcon className="h-10 w-10 text-cyan-500 mb-2"/>
-                        <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider">Thời gian</p>
-                        <p className="text-3xl font-bold text-slate-800">{formatTime(completionTime)}</p>
+                        <p className="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Thời gian</p>
+                        <p className="text-3xl font-bold text-slate-800 dark:text-slate-100">{formatTime(completionTime)}</p>
                     </div>
                 </div>
 
                 <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
                      <button
                         onClick={onRestart}
-                        className="bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold py-3 px-8 rounded-lg transition-colors border border-slate-300"
+                        className="bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-bold py-3 px-8 rounded-lg transition-colors border border-slate-300 dark:border-slate-700"
                     >
                         {restartLabel || "Về màn hình chính"}
                     </button>
@@ -131,7 +131,7 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, on
                     {onRetry && (
                         <button
                             onClick={onRetry}
-                            className="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-8 rounded-lg transition-colors shadow-md hover:shadow-lg flex items-center justify-center gap-2"
+                            className="bg-cyan-500 dark:bg-cyan-600 hover:bg-cyan-600 dark:hover:bg-cyan-500 text-white font-bold py-3 px-8 rounded-lg transition-colors shadow-md hover:shadow-lg flex items-center justify-center gap-2"
                         >
                             <RefreshIcon className="h-5 w-5" />
                             Làm lại đề này
@@ -141,8 +141,8 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, on
             </div>
 
             {/* Question Navigation Grid */}
-            <div className="mb-8 p-4 bg-white rounded-xl border border-slate-200 shadow-lg">
-                <h3 className="text-lg font-semibold mb-4 text-slate-800 text-center">Xem lại câu trả lời</h3>
+            <div className="mb-8 p-4 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-lg">
+                <h3 className="text-lg font-semibold mb-4 text-slate-800 dark:text-slate-200 text-center">Xem lại câu trả lời</h3>
                 <div className="flex flex-wrap justify-center items-center gap-2">
                     {questions.map((_, index) => (
                         <button
@@ -158,9 +158,9 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, on
 
             {/* Single Question View */}
             {currentQuestion && (
-                <div key={currentQuestion.id} className="bg-white rounded-xl p-4 sm:p-6 shadow-xl border border-slate-200 animate-fade-in">
+                <div key={currentQuestion.id} className="bg-white dark:bg-slate-900 rounded-xl p-4 sm:p-6 shadow-xl border border-slate-200 dark:border-slate-800 animate-fade-in">
                     <div className="max-h-[60vh] overflow-y-auto pr-2">
-                        <p className="text-lg font-semibold mb-4 text-slate-800"><span className="font-bold text-cyan-600">Câu {isSetMode ? currentQuestion.id : currentQuestionIndex + 1}:</span> {currentQuestion.question}</p>
+                        <p className="text-lg font-semibold mb-4 text-slate-800 dark:text-slate-100"><span className="font-bold text-cyan-600 dark:text-cyan-400">Câu {isSetMode ? currentQuestion.id : currentQuestionIndex + 1}:</span> {currentQuestion.question}</p>
                         <div className="space-y-3 mb-6">
                             {Object.entries(currentQuestion.options).map(([key, value]) => {
                                  const isCorrectAnswer = key === currentQuestion.correctAnswer;
@@ -175,10 +175,10 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, on
                                 </div>
                             )})}
                         </div>
-                        <div className="mt-4 p-4 bg-cyan-50/70 rounded-lg border border-cyan-200">
-                           <p className="font-bold text-cyan-700">Lý giải:</p>
-                           <p className="text-slate-800 font-bold mb-1">Câu {currentQuestion.id}-{currentQuestion.correctAnswer}</p>
-                           <p className="text-slate-800">{currentQuestion.explanation}</p>
+                        <div className="mt-4 p-4 bg-cyan-50/70 dark:bg-cyan-950/40 rounded-lg border border-cyan-200 dark:border-cyan-800">
+                           <p className="font-bold text-cyan-700 dark:text-cyan-400">Lý giải:</p>
+                           <p className="text-slate-800 dark:text-slate-200 font-bold mb-1">Câu {currentQuestion.id}-{currentQuestion.correctAnswer}</p>
+                           <p className="text-slate-800 dark:text-slate-200">{currentQuestion.explanation}</p>
                         </div>
                     </div>
                 </div>
@@ -189,19 +189,19 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, on
                 <button
                     onClick={handlePrevQuestion}
                     disabled={currentQuestionIndex === 0}
-                    className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:-translate-x-1 flex items-center gap-2"
+                    className="bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-bold py-2 px-4 rounded-full transition-colors border border-slate-200 dark:border-slate-700 shadow-sm disabled:bg-slate-100/50 dark:disabled:bg-slate-800/50 disabled:text-slate-400 dark:disabled:text-slate-600 disabled:cursor-not-allowed disabled:transform-none transform hover:-translate-x-1 flex items-center gap-2"
                     aria-label="Câu hỏi trước"
                 >
                     <ChevronLeftIcon />
                     <span className="hidden sm:inline">Câu trước</span>
                 </button>
-                <span className="font-semibold text-lg text-slate-600">
+                <span className="font-semibold text-lg text-slate-600 dark:text-slate-400">
                     {currentQuestionIndex + 1} / {questions.length}
                 </span>
                 <button
                     onClick={handleNextQuestion}
                     disabled={currentQuestionIndex === questions.length - 1}
-                    className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:translate-x-1 flex items-center gap-2"
+                    className="bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-bold py-2 px-4 rounded-full transition-colors border border-slate-200 dark:border-slate-700 shadow-sm disabled:bg-slate-100/50 dark:disabled:bg-slate-800/50 disabled:text-slate-400 dark:disabled:text-slate-600 disabled:cursor-not-allowed disabled:transform-none transform hover:translate-x-1 flex items-center gap-2"
                     aria-label="Câu hỏi tiếp theo"
                 >
                     <span className="hidden sm:inline">Câu tiếp theo</span>

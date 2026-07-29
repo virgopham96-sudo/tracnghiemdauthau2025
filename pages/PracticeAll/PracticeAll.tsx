@@ -182,7 +182,7 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                  return `${baseClasses} bg-red-500 text-white border-red-600`;
             }
         }
-        return `${baseClasses} bg-white text-slate-700 border-slate-300`;
+        return `${baseClasses} bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border-slate-300 dark:border-slate-700`;
     };
 
     const getOptionClasses = (question: Question, optionKey: 'A' | 'B' | 'C' | 'D'): string => {
@@ -190,19 +190,19 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
         const userAnswer = userAnswers[question.id];
         
         if (!userAnswer) {
-            return `${baseClasses} bg-white border-slate-200 hover:bg-cyan-50/50 hover:border-cyan-300 cursor-pointer`;
+            return `${baseClasses} bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 hover:bg-cyan-50/50 dark:hover:bg-slate-800 hover:border-cyan-300 cursor-pointer`;
         }
 
         const isCorrectAnswer = optionKey === question.correctAnswer;
         const isSelected = userAnswer === optionKey;
 
         if (isCorrectAnswer) {
-            return `${baseClasses} bg-green-100 border-green-500 text-green-900 ring-2 ring-green-300`;
+            return `${baseClasses} bg-green-100 dark:bg-green-950/60 border-green-500 dark:border-green-600 text-green-900 dark:text-green-200 ring-2 ring-green-300 dark:ring-green-900`;
         }
         if (isSelected && !isCorrectAnswer) {
-            return `${baseClasses} bg-red-100 border-red-500 text-red-900`;
+            return `${baseClasses} bg-red-100 dark:bg-red-950/60 border-red-500 dark:border-red-600 text-red-900 dark:text-red-200`;
         }
-        return `${baseClasses} bg-white border-slate-200 text-slate-500 opacity-60`;
+        return `${baseClasses} bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 text-slate-500 dark:text-slate-500 opacity-60`;
     };
 
     const currentQuestion = filteredQuestions[currentQuestionIndex];
@@ -213,17 +213,17 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
             <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
                 <button
                     onClick={onBack}
-                    className="bg-white hover:bg-slate-100 text-slate-700 font-semibold py-1.5 px-3 md:py-2 md:px-4 rounded-full transition-colors flex items-center gap-1 md:gap-2 border border-slate-200 shadow-sm text-sm"
+                    className="bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-semibold py-1.5 px-3 md:py-2 md:px-4 rounded-full transition-colors flex items-center gap-1 md:gap-2 border border-slate-200 dark:border-slate-700 shadow-sm text-sm"
                 >
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 md:h-5 md:w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fillRule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     <span className="hidden md:inline">Quay lại</span>
                 </button>
-                <h2 className="text-lg md:text-2xl font-bold text-slate-900 text-center flex-1">Luyện tập tổng hợp</h2>
+                <h2 className="text-lg md:text-2xl font-bold text-slate-900 dark:text-slate-100 text-center flex-1">Luyện tập tổng hợp</h2>
                 <button
                     onClick={toggleGridVisibility}
-                    className="bg-white hover:bg-slate-100 text-slate-700 font-semibold py-1.5 px-3 md:py-2 md:px-4 rounded-full transition-colors border border-slate-200 shadow-sm text-sm"
+                    className="bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-semibold py-1.5 px-3 md:py-2 md:px-4 rounded-full transition-colors border border-slate-200 dark:border-slate-700 shadow-sm text-sm"
                 >
                     {isGridVisible ? 'Ẩn danh sách' : `Câu hỏi (${filteredQuestions.length})`}
                 </button>
@@ -231,12 +231,12 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
             
             <div className="mb-3 flex justify-center items-center w-full">
                 <div className="flex items-center gap-2 w-full max-w-2xl">
-                     <label htmlFor="category-filter" className="font-semibold text-sm text-slate-700 shrink-0 hidden sm:inline">Chủ đề:</label>
+                     <label htmlFor="category-filter" className="font-semibold text-sm text-slate-700 dark:text-slate-300 shrink-0 hidden sm:inline">Chủ đề:</label>
                      <select
                         id="category-filter"
                         value={selectedCategory}
                         onChange={(e) => setSelectedCategory(e.target.value)}
-                        className="w-full p-1.5 md:p-2 text-sm border border-slate-300 rounded-lg shadow-sm focus:ring-cyan-500 focus:border-cyan-500 bg-white truncate"
+                        className="w-full p-1.5 md:p-2 text-sm border border-slate-300 dark:border-slate-700 rounded-lg shadow-sm focus:ring-cyan-500 focus:border-cyan-500 bg-white dark:bg-slate-900 dark:text-slate-100 truncate"
                      >
                         <option value="all">Tất cả ({questions.length} câu)</option>
                         {categories.map(cat => {
@@ -252,7 +252,7 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
             </div>
 
             {isGridVisible && (
-                 <div className="mb-3 p-3 bg-white/50 rounded-xl border border-slate-200 animate-fade-in max-h-32 overflow-y-auto">
+                 <div className="mb-3 p-3 bg-white/50 dark:bg-slate-900/50 rounded-xl border border-slate-200 dark:border-slate-800 animate-fade-in max-h-32 overflow-y-auto">
                     <div className="flex flex-wrap justify-center gap-1.5">
                         {filteredQuestions.map((q, index) => (
                             <button
@@ -269,12 +269,12 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
 
             {filteredQuestions.length > 0 ? (
                 currentQuestion && (
-                    <div className={`flex-1 flex flex-col min-h-0 bg-white rounded-xl shadow-lg border border-slate-200 transition-all duration-200 ease-in-out ${isFading ? 'opacity-0 -translate-y-3' : 'opacity-100 translate-y-0'}`}>
-                        <div className="flex-1 overflow-y-auto p-3 sm:p-5">
-                            <p className="text-sm sm:text-lg font-semibold mb-3 text-slate-800">
-                                <span className="font-bold text-cyan-600 mr-2">Câu {currentQuestion.id}:</span> {currentQuestion.question}
+                    <div className={`flex-1 flex flex-col min-h-0 bg-white dark:bg-slate-900 rounded-xl shadow-lg border border-slate-200 dark:border-slate-800 transition-all duration-200 ease-in-out ${isFading ? 'opacity-0 -translate-y-3' : 'opacity-100 translate-y-0'}`}>
+                        <div className="flex-1 overflow-y-auto p-3.5 sm:p-5 md:p-6">
+                            <p className="text-base sm:text-lg md:text-xl font-bold mb-3.5 md:mb-5 text-slate-900 dark:text-slate-100 leading-snug">
+                                <span className="font-extrabold text-cyan-600 dark:text-cyan-400 mr-2">Câu {currentQuestion.id}:</span> {currentQuestion.question}
                             </p>
-                            <div className="space-y-1.5">
+                            <div className="space-y-2 sm:space-y-2.5 md:space-y-3">
                                 {Object.entries(currentQuestion.options).map(([key, value]) => {
                                     const optionKey = key as 'A' | 'B' | 'C' | 'D';
                                     const userAnswer = userAnswers[currentQuestion.id];
@@ -284,12 +284,12 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                                     return (
                                         <div 
                                             key={key} 
-                                            className={getOptionClasses(currentQuestion, optionKey).replace('p-3 sm:p-4', 'p-2.5 sm:p-4').replace('p-4 ', 'p-2.5 sm:p-4 ')}
+                                            className={getOptionClasses(currentQuestion, optionKey)}
                                             onClick={() => handleOptionChange(currentQuestion.id, optionKey)}
                                         >
                                             <div className="flex items-start flex-grow">
-                                                <span className="font-bold text-cyan-700 w-5 sm:w-7 shrink-0 text-xs sm:text-base">{key}.</span>
-                                                <span className="text-slate-800 text-xs sm:text-base">{value}</span>
+                                                <span className="font-bold text-cyan-700 dark:text-cyan-400 w-5 sm:w-7 md:w-8 shrink-0 text-sm sm:text-base md:text-lg">{key}.</span>
+                                                <span className="text-slate-800 dark:text-slate-200 text-sm sm:text-base md:text-lg leading-relaxed">{value}</span>
                                             </div>
                                              {isAnswered && (
                                                 <div className="shrink-0 ml-3">
@@ -301,28 +301,28 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                                 })}
                             </div>
                             
-                            <div className="mt-4 flex justify-end">
+                            <div className="mt-3 md:mt-4 flex justify-end">
                                 <button
                                     onClick={() => setShowHint(!showHint)}
-                                    className="text-cyan-600 hover:text-cyan-800 font-semibold text-xs sm:text-sm py-1 px-3 rounded-full bg-cyan-50 hover:bg-cyan-100 transition-all"
+                                    className="text-cyan-600 dark:text-cyan-400 hover:text-cyan-800 dark:hover:text-cyan-300 font-bold text-xs sm:text-sm md:text-base py-1 px-3.5 rounded-full bg-cyan-50 dark:bg-cyan-950/60 hover:bg-cyan-100 dark:hover:bg-cyan-900/60 transition-all"
                                 >
                                     {showHint ? 'Ẩn gợi ý' : 'Xem gợi ý'}
                                 </button>
                             </div>
 
                             {(isAnswered || showHint) && (
-                                <div className="mt-3 p-3 bg-cyan-50/70 rounded-lg border border-cyan-200 animate-fade-in text-sm sm:text-base">
-                                   <p className="font-bold text-cyan-700">{isAnswered ? 'Lý giải:' : 'Gợi ý:'}</p>
-                                   <p className="text-slate-800 font-bold mb-1">Câu {currentQuestion.id}-{currentQuestion.correctAnswer}</p>
-                                   <p className="text-slate-800">{currentQuestion.explanation}</p>
+                                <div className="mt-3 p-3.5 bg-cyan-50/70 dark:bg-cyan-950/40 rounded-lg border border-cyan-200 dark:border-cyan-800 animate-fade-in text-xs sm:text-sm md:text-base leading-relaxed">
+                                   <p className="font-bold text-cyan-700 dark:text-cyan-400">{isAnswered ? 'Lý giải:' : 'Gợi ý:'}</p>
+                                   <p className="text-slate-800 dark:text-slate-200 font-bold mb-1">Câu {currentQuestion.id}-{currentQuestion.correctAnswer}</p>
+                                   <p className="text-slate-800 dark:text-slate-200">{currentQuestion.explanation}</p>
                                 </div>
                             )}
                         </div>
                     </div>
                 )
             ) : (
-                 <div className="flex-1 flex justify-center items-center p-8 bg-white rounded-xl shadow-lg border border-slate-200">
-                    <p className="text-lg text-slate-600">
+                 <div className="flex-1 flex justify-center items-center p-6 bg-white dark:bg-slate-900 rounded-xl shadow-lg border border-slate-200 dark:border-slate-800">
+                    <p className="text-base md:text-lg text-slate-600 dark:text-slate-400">
                         Không có câu hỏi nào cho chủ đề này.
                     </p>
                 </div>
@@ -333,18 +333,18 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                      <button
                             onClick={handlePrevQuestion}
                             disabled={currentQuestionIndex === 0}
-                            className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-1.5 px-3 md:py-2 md:px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:-translate-x-1 flex items-center gap-1 md:gap-2 text-sm md:text-base"
+                            className="bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-bold py-1.5 px-3.5 md:py-2 md:px-5 rounded-full transition-colors border border-slate-200 dark:border-slate-700 shadow-sm disabled:bg-slate-100/50 dark:disabled:bg-slate-800/50 disabled:text-slate-400 dark:disabled:text-slate-600 disabled:cursor-not-allowed disabled:transform-none transform hover:-translate-x-1 flex items-center gap-1.5 text-xs sm:text-sm md:text-base"
                         >
                             <ChevronLeftIcon className="w-4 h-4 md:w-5 md:h-5" />
                             <span className="hidden sm:inline">Câu trước</span>
                         </button>
-                        <span className="font-semibold text-base sm:text-lg text-slate-600">
+                        <span className="font-extrabold text-sm sm:text-base md:text-lg text-slate-700 dark:text-slate-300">
                             {filteredQuestions.length > 0 ? currentQuestionIndex + 1 : 0} / {filteredQuestions.length}
                         </span>
                         <button
                             onClick={handleNextQuestion}
                             disabled={currentQuestionIndex === filteredQuestions.length - 1}
-                            className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-1.5 px-3 md:py-2 md:px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:translate-x-1 flex items-center gap-1 md:gap-2 text-sm md:text-base"
+                            className="bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-bold py-1.5 px-3.5 md:py-2 md:px-5 rounded-full transition-colors border border-slate-200 dark:border-slate-700 shadow-sm disabled:bg-slate-100/50 dark:disabled:bg-slate-800/50 disabled:text-slate-400 dark:disabled:text-slate-600 disabled:cursor-not-allowed disabled:transform-none transform hover:translate-x-1 flex items-center gap-1.5 text-xs sm:text-sm md:text-base"
                         >
                             <span className="hidden sm:inline">Câu tiếp theo</span>
                             <ChevronRightIcon className="w-4 h-4 md:w-5 md:h-5" />
