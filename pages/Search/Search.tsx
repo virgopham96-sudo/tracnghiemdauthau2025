@@ -1,7 +1,9 @@
 
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { Question } from '../../types';
 import { CheckIcon } from '../../components/icons';
+import { PdfExportModal } from '../../components/PdfExportModal';
+import { getFullCategoryMapping, getOrderedCategories } from '../../data/categories';
 
 const highlightText = (text: string, highlight: string): React.ReactNode => {
     if (!highlight.trim()) {
@@ -31,24 +33,45 @@ interface SearchProps {
 
 const Search: React.FC<SearchProps> = ({ questions, onBack }) => {
     const [searchTerm, setSearchTerm] = useState('');
-    const [searchResults, setSearchResults] = useState<Question[]>(questions);
+    const [selectedCategory, setSelectedCategory] = useState<string>('all');
+    const [isPdfModalOpen, setIsPdfModalOpen] = useState(false);
 
-    const handleSearch = (e: React.FormEvent) => {
-        e.preventDefault();
+    const fullCategoryMapping = useMemo(() => {
+        return getFullCategoryMapping(questions);
+    }, [questions]);
 
-        const trimmedTerm = searchTerm.trim().toLowerCase();
+    const categories = useMemo(() => {
+        return getOrderedCategories(fullCategoryMapping);
+    }, [fullCategoryMapping]);
 
-        if (!trimmedTerm) {
-            setSearchResults(questions);
-            return;
+    const searchResults = useMemo(() => {
+        let pool = questions;
+
+        if (selectedCategory !== 'all') {
+            const allowedIds = fullCategoryMapping[selectedCategory];
+            if (allowedIds) {
+                const idSet = new Set(allowedIds);
+                pool = questions.filter(q => idSet.has(q.id));
+            } else {
+                pool = [];
+            }
         }
 
-        const results = questions.filter(q =>
+        const trimmedTerm = searchTerm.trim().toLowerCase();
+        if (!trimmedTerm) {
+            return pool;
+        }
+
+        return pool.filter(q =>
             q.question.toLowerCase().includes(trimmedTerm) ||
             Object.values(q.options).some(opt => (opt as string).toLowerCase().includes(trimmedTerm)) ||
             q.explanation.toLowerCase().includes(trimmedTerm)
         );
-        setSearchResults(results);
+    }, [questions, selectedCategory, searchTerm, fullCategoryMapping]);
+
+    const handleSearch = (e: React.FormEvent) => {
+        e.preventDefault();
+        // searchResults is calculated reactively
     };
 
     return (
@@ -56,7 +79,7 @@ const Search: React.FC<SearchProps> = ({ questions, onBack }) => {
             <div className="flex items-center gap-2 mb-4 shrink-0">
                 <button
                     onClick={onBack}
-                    className="bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-semibold py-1.5 px-3 md:py-2 md:px-4 rounded-full transition-colors flex items-center gap-1 md:gap-2 border border-slate-200 dark:border-slate-700 shadow-sm text-sm"
+                    className="bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-semibold py-1.5 px-3 md:py-2 md:px-4 rounded-full transition-colors flex items-center gap-1 md:gap-2 border border-slate-200 dark:border-slate-700 shadow-sm text-sm shrink-0"
                 >
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 md:h-5 md:w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fillRule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -64,24 +87,70 @@ const Search: React.FC<SearchProps> = ({ questions, onBack }) => {
                     <span className="hidden md:inline">Quay lại</span>
                 </button>
                 <h2 className="text-lg md:text-2xl font-bold text-slate-900 dark:text-slate-100 text-center flex-1">Tra cứu câu hỏi</h2>
+                <button
+                    onClick={() => setIsPdfModalOpen(true)}
+                    className="bg-red-600 hover:bg-red-700 text-white font-bold py-1.5 px-3 md:py-2 md:px-4 rounded-full transition-all flex items-center gap-1.5 md:gap-2 shadow-sm hover:shadow-md text-xs sm:text-sm shrink-0"
+                    title="Lưu toàn bộ câu hỏi và đáp án dạng PDF"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 md:h-5 md:w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                    <span>Lưu PDF</span>
+                </button>
             </div>
 
-            <form onSubmit={handleSearch} className="mb-4 flex flex-col sm:flex-row gap-2 shrink-0">
-                <input
-                    type="text"
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                    placeholder="Nhập từ khoá cần tìm..."
-                    className="w-full flex-grow p-2.5 sm:p-3 text-sm md:text-base border-2 border-slate-300 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 rounded-lg shadow-sm focus:ring-cyan-500 focus:border-cyan-500 transition"
-                    aria-label="Từ khoá tìm kiếm"
-                />
-                <button
-                    type="submit"
-                    className="bg-cyan-500 dark:bg-cyan-600 hover:bg-cyan-600 dark:hover:bg-cyan-500 text-white font-bold py-2.5 px-5 rounded-lg transition-colors shadow-md hover:shadow-lg transform hover:-translate-y-0.5 text-sm md:text-base whitespace-nowrap"
-                >
-                    Tìm kiếm
-                </button>
-            </form>
+            <div className="mb-4 shrink-0 space-y-2">
+                <div>
+                    <label htmlFor="category-select" className="block text-xs font-semibold text-slate-500 dark:text-slate-400 mb-1">
+                        Lọc theo nhóm nội dung:
+                    </label>
+                    <select
+                        id="category-select"
+                        value={selectedCategory}
+                        onChange={(e) => setSelectedCategory(e.target.value)}
+                        className="w-full p-2.5 text-xs sm:text-sm font-semibold border-2 border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 rounded-lg shadow-sm focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 transition cursor-pointer"
+                    >
+                        <option value="all">Tất cả nhóm nội dung ({questions.length} câu)</option>
+                        {categories.map((cat) => {
+                            const count = fullCategoryMapping[cat]?.length || 0;
+                            return (
+                                <option key={cat} value={cat}>
+                                    {cat} ({count} câu)
+                                </option>
+                            );
+                        })}
+                    </select>
+                </div>
+
+                <form onSubmit={handleSearch} className="flex flex-col sm:flex-row gap-2">
+                    <input
+                        type="text"
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                        placeholder="Nhập từ khoá cần tìm..."
+                        className="w-full flex-grow p-2.5 sm:p-3 text-sm md:text-base border-2 border-slate-300 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 rounded-lg shadow-sm focus:ring-cyan-500 focus:border-cyan-500 transition"
+                        aria-label="Từ khoá tìm kiếm"
+                    />
+                    <button
+                        type="submit"
+                        className="bg-cyan-500 dark:bg-cyan-600 hover:bg-cyan-600 dark:hover:bg-cyan-500 text-white font-bold py-2.5 px-5 rounded-lg transition-colors shadow-md hover:shadow-lg transform hover:-translate-y-0.5 text-sm md:text-base whitespace-nowrap"
+                    >
+                        Tìm kiếm
+                    </button>
+                    {(searchTerm || selectedCategory !== 'all') && (
+                        <button
+                            type="button"
+                            onClick={() => {
+                                setSearchTerm('');
+                                setSelectedCategory('all');
+                            }}
+                            className="bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-semibold py-2.5 px-3 rounded-lg transition-colors text-xs sm:text-sm whitespace-nowrap"
+                        >
+                            Xóa lọc
+                        </button>
+                    )}
+                </form>
+            </div>
 
             <div className="flex-1 overflow-y-auto min-h-0 space-y-3 pb-4">
                 {searchResults.length === 0 ? (
@@ -89,8 +158,17 @@ const Search: React.FC<SearchProps> = ({ questions, onBack }) => {
                         <p className="text-sm md:text-base text-slate-600 dark:text-slate-400">Không tìm thấy câu hỏi nào phù hợp với từ khoá của bạn.</p>
                     </div>
                 ) : (
-                    <div className="text-center mb-2 text-slate-600 dark:text-slate-400 font-medium text-xs sm:text-sm md:text-base">
-                        {searchTerm.trim() ? `Tìm thấy ${searchResults.length} câu hỏi phù hợp.` : `Hiển thị toàn bộ ${searchResults.length} câu hỏi.`}
+                    <div className="flex items-center justify-between mb-2 text-slate-600 dark:text-slate-400 font-medium text-xs sm:text-sm md:text-base px-1">
+                        <span>{searchTerm.trim() ? `Tìm thấy ${searchResults.length} câu hỏi phù hợp.` : `Hiển thị toàn bộ ${searchResults.length} câu hỏi.`}</span>
+                        <button
+                            onClick={() => setIsPdfModalOpen(true)}
+                            className="text-xs text-red-600 dark:text-red-400 hover:underline font-bold flex items-center gap-1"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                            </svg>
+                            Xuất danh sách này ra PDF
+                        </button>
                     </div>
                 )}
                 
@@ -118,8 +196,18 @@ const Search: React.FC<SearchProps> = ({ questions, onBack }) => {
                     </div>
                 ))}
             </div>
+
+            <PdfExportModal
+                isOpen={isPdfModalOpen}
+                onClose={() => setIsPdfModalOpen(false)}
+                questionsToExport={searchResults}
+                totalQuestionsCount={questions.length}
+                allQuestions={questions}
+                searchTerm={searchTerm}
+            />
         </div>
     );
 };
 
 export default Search;
+
