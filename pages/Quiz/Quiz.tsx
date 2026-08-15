@@ -226,61 +226,62 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
 
 
     return (
-        <div className="p-2 md:p-4 max-w-6xl mx-auto flex flex-col h-[calc(100vh-100px)]">
-            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-3 text-slate-900 dark:text-slate-100 shrink-0">{setTitle}</h2>
+        <div className="w-full max-w-5xl mx-auto flex flex-col pb-8 animate-fade-in">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-3 sm:mb-4 text-slate-900 dark:text-slate-100">{setTitle}</h2>
 
-            <div className="mb-3 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border border-slate-200 dark:border-slate-800 rounded-xl shadow-md shrink-0">
-                <div className="p-2.5 sm:p-3.5 flex justify-between items-center text-sm md:text-base">
+            {/* Top Control Bar */}
+            <div className="mb-4 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border border-slate-200 dark:border-slate-800 rounded-2xl p-3 sm:p-4 shadow-sm">
+                <div className="flex justify-between items-center text-sm md:text-base gap-2">
                     <button
                         onClick={onBack}
-                        className="bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold py-1.5 px-3 sm:py-2 sm:px-4 rounded-lg transition-colors text-xs sm:text-sm md:text-base"
+                        className="bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-bold py-2 px-3.5 sm:px-4 rounded-xl transition-colors text-xs sm:text-sm shrink-0"
                     >
                         Thoát
                     </button>
                     <div className="flex flex-col items-center flex-grow text-center px-2">
                          {!isPracticeMode ? (
                              <>
-                                 <div className={`text-lg md:text-xl lg:text-2xl font-mono font-bold ${timerClasses}`}>{formatTime(timeRemaining)}</div>
-                                 <div className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 font-medium">Đã trả lời: {answeredCount}/{questions.length}</div>
+                                 <div className={`text-lg sm:text-xl md:text-2xl font-mono font-bold ${timerClasses}`}>{formatTime(timeRemaining)}</div>
+                                 <div className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 font-medium">Đã trả lời: <span className="font-bold text-cyan-600 dark:text-cyan-400">{answeredCount}</span>/{questions.length}</div>
                              </>
                          ) : (
                              <>
-                                 <div className="text-sm sm:text-base md:text-lg font-bold text-slate-700 dark:text-slate-300 h-6 flex items-center">Chế độ Luyện tập</div>
-                                 <div className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 font-medium">Đã trả lời: {answeredCount}/{questions.length}</div>
+                                 <div className="text-sm sm:text-base font-bold text-slate-700 dark:text-slate-300">Chế độ Luyện tập</div>
+                                 <div className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 font-medium">Đã trả lời: <span className="font-bold text-cyan-600 dark:text-cyan-400">{answeredCount}</span>/{questions.length}</div>
                              </>
                          )}
                          <div className="mt-1 hidden sm:block">
-                            <label className="flex items-center justify-center text-xs md:text-sm text-slate-600 dark:text-slate-400 cursor-pointer select-none">
+                            <label className="flex items-center justify-center text-xs text-slate-500 dark:text-slate-400 cursor-pointer select-none">
                                 <input
                                     type="checkbox"
                                     checked={autoNext}
                                     onChange={(e) => setAutoNext(e.target.checked)}
                                     className="h-3.5 w-3.5 rounded text-cyan-600 focus:ring-cyan-500 border-slate-300 dark:border-slate-700"
                                 />
-                                <span className="ml-1.5 font-medium">Tự động chuyển câu</span>
+                                <span className="ml-1.5 font-medium">Tự động chuyển câu sau khi chọn</span>
                             </label>
                         </div>
                     </div>
                     <button
                         onClick={handleSubmit}
-                        className="bg-cyan-500 dark:bg-cyan-600 hover:bg-cyan-600 dark:hover:bg-cyan-500 text-white font-bold py-1.5 px-3 sm:py-2 sm:px-4 rounded-lg transition-colors shadow-md hover:shadow-lg transform hover:-translate-y-0.5 text-xs sm:text-sm md:text-base"
+                        className="bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 sm:px-5 rounded-xl transition-all shadow hover:shadow-md transform hover:-translate-y-0.5 text-xs sm:text-sm md:text-base shrink-0"
                     >
                         Nộp bài
                     </button>
                 </div>
             </div>
             
-            <div className="text-center mb-2.5 shrink-0">
+            <div className="text-center mb-3">
                 <button
                     onClick={toggleGridVisibility}
-                    className="bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-bold py-1 px-3.5 md:py-2 md:px-5 text-xs sm:text-sm md:text-base rounded-full transition-colors border border-slate-200 dark:border-slate-700 shadow-sm"
+                    className="bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-semibold py-1.5 px-4 text-xs sm:text-sm rounded-full transition-colors border border-slate-200 dark:border-slate-700 shadow-sm"
                 >
-                    {isGridVisible ? 'Ẩn danh sách câu hỏi' : 'Hiển thị danh sách câu hỏi'}
+                    {isGridVisible ? '▲ Ẩn danh sách câu hỏi' : `▼ Hiển thị danh sách (${questions.length} câu)`}
                 </button>
             </div>
             
             {isGridVisible && (
-                 <div className="mb-3 p-3 bg-white/50 dark:bg-slate-900/50 rounded-xl border border-slate-200 dark:border-slate-800 animate-fade-in max-h-32 overflow-y-auto shrink-0">
+                 <div className="mb-4 p-3.5 bg-slate-50/80 dark:bg-slate-900/80 rounded-2xl border border-slate-200 dark:border-slate-800 animate-fade-in max-h-48 overflow-y-auto">
                     <div className="flex flex-wrap justify-center gap-1.5 sm:gap-2">
                         {questions.map((_, index) => (
                             <button
@@ -295,68 +296,114 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
                 </div>
             )}
 
-            <div className="flex-1 flex flex-col min-h-0">
+            {/* Question Area - Open, spacious layout with clear typography */}
+            <div className="w-full">
                 {currentQuestion && (
-                    <div className={`flex-1 flex flex-col min-h-0 bg-white dark:bg-slate-900 rounded-xl shadow-lg border border-slate-200 dark:border-slate-800 transition-all duration-200 ease-in-out ${isFading ? 'opacity-0 -translate-y-3' : 'opacity-100 translate-y-0'}`}>
-                        <div className="flex-1 overflow-y-auto p-3.5 sm:p-5 md:p-6">
-                            <p className="text-base sm:text-lg md:text-xl font-bold mb-3.5 md:mb-5 text-slate-900 dark:text-slate-100 leading-snug">
-                                <span className="font-extrabold text-cyan-600 dark:text-cyan-400 mr-2">Câu {isSetMode ? currentQuestion.id : currentQuestionIndex + 1}:</span>
-                                {currentQuestion.question}
-                            </p>
-                            <div className="space-y-2 sm:space-y-2.5 md:space-y-3 quiz-options-container">
+                    <div className={`transition-all duration-200 ease-in-out ${isFading ? 'opacity-0 -translate-y-2' : 'opacity-100 translate-y-0'}`}>
+                        {/* Question Content */}
+                        <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 md:p-8 border border-slate-200/80 dark:border-slate-800 shadow-sm mb-4">
+                            <div className="mb-5 sm:mb-6">
+                                <span className="inline-flex items-center px-3 py-1 rounded-lg text-sm sm:text-base font-extrabold bg-cyan-100 dark:bg-cyan-950/80 text-cyan-700 dark:text-cyan-300 mb-2.5">
+                                    Câu {isSetMode ? currentQuestion.id : currentQuestionIndex + 1}
+                                </span>
+                                <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900 dark:text-slate-50 leading-relaxed">
+                                    {currentQuestion.question}
+                                </h3>
+                            </div>
+
+                            {/* Options List */}
+                            <div className="space-y-3 sm:space-y-3.5 quiz-options-container">
                                 {uiKeys.map((uiKey, index) => {
                                     const originalKey = currentMapping[index] as 'A' | 'B' | 'C' | 'D';
                                     const value = currentQuestion.options[originalKey];
+                                    const isSelected = selectedAnswers[currentQuestion.id] === originalKey;
                                     
                                     return (
                                         <div
                                             key={uiKey}
                                             onClick={() => handleOptionChange(currentQuestion.id, originalKey)}
-                                            className={`quiz-option-item flex items-start p-2.5 sm:p-3.5 md:p-4 rounded-lg border-2 transition-all cursor-pointer ${selectedAnswers[currentQuestion.id] === originalKey ? 'bg-cyan-50 dark:bg-cyan-950/40 border-cyan-500 ring-2 ring-cyan-200 dark:ring-cyan-900' : 'bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 hover:bg-cyan-50/50 dark:hover:bg-slate-800 hover:border-cyan-300'}`}>
-                                            <span className="font-bold text-cyan-700 dark:text-cyan-400 w-5 sm:w-7 md:w-8 shrink-0 text-sm sm:text-base md:text-lg">{uiKey}.</span>
-                                            <span className="text-slate-800 dark:text-slate-200 text-sm sm:text-base md:text-lg leading-relaxed">{value}</span>
+                                            className={`quiz-option-item flex items-start gap-3 sm:gap-4 p-3.5 sm:p-4 md:p-5 rounded-xl border-2 transition-all cursor-pointer ${
+                                                isSelected 
+                                                    ? 'bg-cyan-50/80 dark:bg-cyan-950/50 border-cyan-500 shadow-sm ring-1 ring-cyan-400 dark:ring-cyan-600' 
+                                                    : 'bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 hover:border-cyan-300 dark:hover:border-slate-700 hover:bg-slate-50/80 dark:hover:bg-slate-800/60'
+                                            }`}
+                                        >
+                                            <span className={`w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center rounded-lg font-bold text-base sm:text-lg shrink-0 transition-colors ${
+                                                isSelected
+                                                    ? 'bg-cyan-600 text-white shadow-sm'
+                                                    : 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300'
+                                            }`}>
+                                                {uiKey}
+                                            </span>
+                                            <span className={`text-base sm:text-lg md:text-xl leading-relaxed flex-1 pt-0.5 ${
+                                                isSelected
+                                                    ? 'font-medium text-slate-950 dark:text-white'
+                                                    : 'text-slate-800 dark:text-slate-200'
+                                            }`}>
+                                                {value}
+                                            </span>
                                         </div>
                                     );
                                 })}
                             </div>
-                             <div className="mt-3 md:mt-4 flex justify-end">
+
+                            {/* Hint and Explanation Toggle */}
+                            <div className="mt-5 flex justify-end">
                                 <button
                                     onClick={toggleHint}
-                                    className="text-cyan-600 dark:text-cyan-400 hover:text-cyan-800 dark:hover:text-cyan-300 font-bold text-xs sm:text-sm md:text-base py-1 px-3.5 rounded-full bg-cyan-50 dark:bg-cyan-950/60 hover:bg-cyan-100 dark:hover:bg-cyan-900/60 transition-all"
+                                    className="text-cyan-700 dark:text-cyan-300 hover:text-cyan-900 dark:hover:text-cyan-200 font-semibold text-xs sm:text-sm py-1.5 px-4 rounded-full bg-cyan-50 dark:bg-cyan-950/60 hover:bg-cyan-100 dark:hover:bg-cyan-900/60 transition-all border border-cyan-200/60 dark:border-cyan-800/60"
                                 >
-                                    {showHint ? 'Ẩn gợi ý' : 'Xem gợi ý'}
+                                    {showHint ? 'Ẩn gợi ý & giải thích' : '💡 Xem gợi ý & giải thích'}
                                 </button>
                             </div>
+
                             {showHint && (
-                                <div className="mt-3 p-3.5 bg-slate-50 dark:bg-slate-800 rounded-lg border border-cyan-200 dark:border-cyan-800 animate-fade-in text-xs sm:text-sm md:text-base leading-relaxed">
-                                   <p className="font-bold text-cyan-700 dark:text-cyan-400">Gợi ý:</p>
-                                   <p className="text-slate-800 dark:text-slate-200 font-bold mb-1">Câu {currentQuestion.id}-{currentQuestion.correctAnswer}</p>
-                                   <p className="text-slate-700 dark:text-slate-300">{currentQuestion.explanation}</p>
+                                <div className="mt-4 p-4 sm:p-5 bg-cyan-50/60 dark:bg-cyan-950/40 rounded-xl border border-cyan-200 dark:border-cyan-800/80 animate-fade-in text-sm sm:text-base md:text-lg leading-relaxed">
+                                   <div className="flex items-center gap-2 font-bold text-cyan-800 dark:text-cyan-300 mb-1.5">
+                                       <span>Đáp án đúng:</span>
+                                       <span className="px-2 py-0.5 bg-cyan-600 text-white rounded font-extrabold text-sm sm:text-base">
+                                           {currentQuestion.correctAnswer}
+                                       </span>
+                                       <span className="text-xs text-slate-500 dark:text-slate-400 font-normal">
+                                           (Câu {currentQuestion.id})
+                                       </span>
+                                   </div>
+                                   <p className="text-slate-800 dark:text-slate-200 mt-2">{currentQuestion.explanation}</p>
                                 </div>
                             )}
                         </div>
                     </div>
                 )}
-                <div className="flex justify-between items-center mt-3 sm:mt-4 shrink-0">
+
+                {/* Bottom Navigation */}
+                <div className="flex justify-between items-center mt-2 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm p-3 rounded-2xl border border-slate-200 dark:border-slate-800">
                     <button
                         onClick={handlePrevQuestion}
                         disabled={currentQuestionIndex === 0}
-                        className="bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-bold py-1.5 px-3.5 md:py-2 md:px-5 rounded-full transition-colors border border-slate-200 dark:border-slate-700 shadow-sm disabled:bg-slate-100/50 dark:disabled:bg-slate-800/50 disabled:text-slate-400 dark:disabled:text-slate-600 disabled:cursor-not-allowed disabled:transform-none transform hover:-translate-x-1 flex items-center gap-1.5 text-xs sm:text-sm md:text-base"
+                        className="bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-bold py-2 px-4 sm:px-5 rounded-xl transition-all border border-slate-200 dark:border-slate-700 shadow-sm disabled:opacity-40 disabled:cursor-not-allowed transform hover:-translate-x-0.5 flex items-center gap-1.5 text-xs sm:text-sm md:text-base"
                         aria-label="Câu hỏi trước"
                     >
                         <ChevronLeftIcon className="w-4 h-4 md:w-5 md:h-5" />
-                        <span className="hidden sm:inline">Câu trước</span>
+                        <span>Câu trước</span>
                     </button>
-                    <span className="font-extrabold text-sm sm:text-base md:text-lg text-slate-700 dark:text-slate-300">
-                        {currentQuestionIndex + 1} / {questions.length}
-                    </span>
+
+                    <div className="text-center">
+                        <span className="font-extrabold text-base sm:text-lg md:text-xl text-slate-800 dark:text-slate-200">
+                            {currentQuestionIndex + 1}
+                        </span>
+                        <span className="text-slate-400 dark:text-slate-500 font-medium text-sm sm:text-base mx-1">/</span>
+                        <span className="text-slate-500 dark:text-slate-400 font-semibold text-sm sm:text-base">
+                            {questions.length}
+                        </span>
+                    </div>
+
                     <button
                         onClick={handleNextQuestion}
                         disabled={currentQuestionIndex === questions.length - 1}
-                        className="bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-bold py-1.5 px-3.5 md:py-2 md:px-5 rounded-full transition-colors border border-slate-200 dark:border-slate-700 shadow-sm disabled:bg-slate-100/50 dark:disabled:bg-slate-800/50 disabled:text-slate-400 dark:disabled:text-slate-600 disabled:cursor-not-allowed disabled:transform-none transform hover:translate-x-1 flex items-center gap-1.5 text-xs sm:text-sm md:text-base"
+                        className="bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-bold py-2 px-4 sm:px-5 rounded-xl transition-all border border-slate-200 dark:border-slate-700 shadow-sm disabled:opacity-40 disabled:cursor-not-allowed transform hover:translate-x-0.5 flex items-center gap-1.5 text-xs sm:text-sm md:text-base"
                         aria-label="Câu hỏi tiếp theo"
                     >
-                        <span className="hidden sm:inline">Câu tiếp theo</span>
+                        <span>Câu tiếp</span>
                         <ChevronRightIcon className="w-4 h-4 md:w-5 md:h-5" />
                     </button>
                 </div>

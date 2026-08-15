@@ -223,11 +223,11 @@ export const MockExam: React.FC<MockExamProps> = ({ questions, onSubmit, onBack 
                 </div>
 
                 <div className="flex-1">
-                    <p className="text-slate-800 dark:text-slate-100 text-base sm:text-lg font-semibold mb-5 leading-relaxed">
+                    <p className="text-slate-900 dark:text-slate-50 text-lg sm:text-xl md:text-2xl font-bold mb-6 leading-relaxed">
                         {currentQuestion.question}
                     </p>
 
-                    <div className="space-y-2.5 sm:space-y-3">
+                    <div className="space-y-3 sm:space-y-3.5">
                         {uiKeys.map((uiKey, index) => {
                             const originalKey = currentMapping[index] as 'A' | 'B' | 'C' | 'D';
                             const value = currentQuestion.options[originalKey];
@@ -237,19 +237,23 @@ export const MockExam: React.FC<MockExamProps> = ({ questions, onSubmit, onBack 
                             return (
                                 <label 
                                     key={uiKey}
-                                    className={`flex items-start gap-3 p-3 sm:p-3.5 rounded-xl border border-slate-200 dark:border-slate-800 cursor-pointer transition-all hover:bg-slate-50 dark:hover:bg-slate-800 ${isSelected ? 'ring-1.5 ring-[#0983c2] bg-[#f8fbff] dark:bg-cyan-950/40' : ''}`}
+                                    className={`flex items-start gap-3.5 sm:gap-4 p-3.5 sm:p-4 md:p-4.5 rounded-xl border-2 cursor-pointer transition-all ${
+                                        isSelected 
+                                            ? 'border-[#0983c2] bg-[#f0f7fc] dark:bg-cyan-950/50 shadow-sm ring-1 ring-[#0983c2]' 
+                                            : 'border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-800/60'
+                                    }`}
                                 >
-                                    <div className="pt-0.5">
-                                        <input
-                                            type="radio"
-                                            name={`question-${currentQuestion.id}`}
-                                            checked={isSelected}
-                                            onChange={() => handleOptionChange(currentQuestion.id, originalKey)}
-                                            className="w-4 h-4 text-[#0983c2] focus:ring-[#0983c2] border-slate-300 dark:border-slate-700 mt-1 cursor-pointer"
-                                        />
-                                    </div>
-                                    <span className="text-slate-800 dark:text-slate-200 text-sm sm:text-base leading-relaxed select-none">
-                                        <span className="font-bold text-[#0983c2] dark:text-cyan-400 mr-1.5">{uiKey}.</span> {value}
+                                    <span className={`w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center rounded-lg font-bold text-base sm:text-lg shrink-0 transition-colors ${
+                                        isSelected
+                                            ? 'bg-[#0983c2] text-white shadow-sm'
+                                            : 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300'
+                                    }`}>
+                                        {uiKey}
+                                    </span>
+                                    <span className={`text-base sm:text-lg md:text-xl leading-relaxed flex-1 pt-0.5 select-none ${
+                                        isSelected ? 'font-medium text-slate-950 dark:text-white' : 'text-slate-800 dark:text-slate-200'
+                                    }`}>
+                                        {value}
                                     </span>
                                 </label>
                             );
