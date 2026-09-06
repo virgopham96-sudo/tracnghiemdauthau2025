@@ -14,6 +14,7 @@ import { MockExam } from './pages/MockExam/MockExam';
 import { QuestionMarkIcon, HeartIcon, SunIcon, MoonIcon } from './components/icons';
 import { allSetsData } from './data/sets';
 import { Question, UserAnswers } from './types';
+import { openRandomLink } from './data/randomLinks';
 
 // Fisher-Yates shuffle algorithm
 const shuffleArray = (array: Question[]): Question[] => {
@@ -253,6 +254,7 @@ function App() {
 
 
     const handleSelectPracticeAll = () => {
+        openRandomLink();
         setView('practice-all');
     };
     
@@ -265,11 +267,13 @@ function App() {
     }
 
     const handleSelectTestBySet = () => {
+        openRandomLink();
         setIsPracticeMode(false);
         setView('set-select');
     };
 
     const handleSelectTestRandom = () => {
+        openRandomLink();
         setIsPracticeMode(false);
         setCurrentSetIndex(-1); 
         // Go to setup screen first
