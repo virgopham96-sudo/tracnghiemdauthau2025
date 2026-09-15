@@ -14,7 +14,7 @@ import { MockExam } from './pages/MockExam/MockExam';
 import { QuestionMarkIcon, HeartIcon, SunIcon, MoonIcon } from './components/icons';
 import { allSetsData } from './data/sets';
 import { Question, UserAnswers } from './types';
-import { openRandomLink } from './data/randomLinks';
+import { openRandomAdLink } from './data/adLinks';
 
 // Fisher-Yates shuffle algorithm
 const shuffleArray = (array: Question[]): Question[] => {
@@ -254,7 +254,6 @@ function App() {
 
 
     const handleSelectPracticeAll = () => {
-        openRandomLink();
         setView('practice-all');
     };
     
@@ -267,13 +266,11 @@ function App() {
     }
 
     const handleSelectTestBySet = () => {
-        openRandomLink();
         setIsPracticeMode(false);
         setView('set-select');
     };
 
     const handleSelectTestRandom = () => {
-        openRandomLink();
         setIsPracticeMode(false);
         setCurrentSetIndex(-1); 
         // Go to setup screen first
@@ -475,7 +472,16 @@ function App() {
         <div className="min-h-screen font-sans flex flex-col transition-colors duration-300">
             <header className="bg-white/95 dark:bg-slate-900/95 backdrop-blur-sm shadow-md sticky top-0 z-10 border-b border-slate-200 dark:border-slate-800 shrink-0 transition-colors">
                 <div className="max-w-6xl mx-auto px-3 sm:px-4 lg:px-6 py-2.5 sm:py-3 flex justify-between items-center relative">
-                    <div className="hidden md:block md:w-28"></div>
+                    <div className="hidden lg:flex items-center shrink-0">
+                        <button
+                            onClick={openRandomAdLink}
+                            className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-amber-50 dark:bg-amber-950/40 border border-amber-300 dark:border-amber-800/70 hover:border-amber-400 dark:hover:border-amber-600 text-amber-800 dark:text-amber-300 rounded-full text-xs font-semibold shadow-sm hover:shadow transition-all whitespace-nowrap cursor-pointer transform hover:scale-[1.02] active:scale-95"
+                            title="Mở ngẫu nhiên liên kết Shopee để ủng hộ tác giả"
+                        >
+                            <span>🎁</span>
+                            <span>Ấn vào quảng cáo để ủng hộ tác giả</span>
+                        </button>
+                    </div>
                     <h1 className="text-base sm:text-xl md:text-2xl font-bold text-center text-slate-900 dark:text-slate-100 tracking-tight flex-1">ÔN THI CHỨNG CHỈ ĐẤU THẦU</h1>
                     <div className="flex items-center gap-2 shrink-0 ml-2">
                         <button

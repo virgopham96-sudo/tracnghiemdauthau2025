@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { BookOpenIcon, ClipboardListIcon, InfinityIcon, SearchIcon, LightBulbIcon, AcademicCapIcon } from '../../components/icons';
+import { openRandomAdLink } from '../../data/adLinks';
 
 interface ModeSelectorProps {
     onSelectPracticeAll: () => void;
@@ -105,6 +106,20 @@ const ModeSelector: React.FC<ModeSelectorProps> = ({
                             Tóm tắt kiến thức trọng tâm 15 chủ đề.
                         </span>
                     </div>
+                </button>
+            </div>
+
+            <div className="mt-4 sm:mt-5 flex justify-center w-full">
+                <button
+                    onClick={openRandomAdLink}
+                    className="inline-flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-4 py-1.5 sm:py-2 bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-950/40 dark:to-orange-950/40 border border-amber-300 dark:border-amber-800/70 hover:border-amber-400 dark:hover:border-amber-600 text-amber-800 dark:text-amber-300 rounded-full text-xs sm:text-sm font-semibold shadow-sm hover:shadow transition-all duration-200 transform hover:scale-[1.02] active:scale-95 cursor-pointer"
+                    title="Mở ngẫu nhiên link Shopee để ủng hộ tác giả"
+                >
+                    <span className="text-sm sm:text-base">🎁</span>
+                    <span>Ấn vào quảng cáo để ủng hộ tác giả</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-3.5 w-3.5 text-amber-600 dark:text-amber-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
                 </button>
             </div>
         </div>
