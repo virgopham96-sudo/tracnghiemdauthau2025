@@ -14,6 +14,7 @@ import { MockExam } from './pages/MockExam/MockExam';
 import { QuestionMarkIcon, HeartIcon, SunIcon, MoonIcon } from './components/icons';
 import { allSetsData } from './data/sets';
 import { Question, UserAnswers } from './types';
+import VisitorCounter from './components/VisitorCounter';
 
 // Fisher-Yates shuffle algorithm
 const shuffleArray = (array: Question[]): Question[] => {
@@ -495,9 +496,11 @@ function App() {
             <main className="max-w-7xl mx-auto px-2 md:px-6 py-2 sm:py-4 md:py-6 flex-grow w-full flex flex-col items-center justify-center">
                 {renderContent()}
             </main>
-            {view === 'mode-select' && (
-                <footer className="text-center py-4 px-4 text-slate-500 dark:text-slate-400 text-xs sm:text-sm border-t border-slate-200 dark:border-slate-800 bg-white/30 dark:bg-slate-900/30 shrink-0">
-                    Bản quyền thuộc về "Phạm Văn Bình - Phòng CĐVT - Công ty 790"
+            {view !== 'quiz' && (
+                <footer className="text-center py-4 px-4 text-slate-500 dark:text-slate-400 text-xs sm:text-sm border-t border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm shrink-0 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
+                    <span>Bản quyền thuộc về "Phạm Văn Bình - Phòng CĐVT - Công ty 790"</span>
+                    <span className="hidden sm:inline text-slate-300 dark:text-slate-700">•</span>
+                    <VisitorCounter variant="footer" />
                 </footer>
             )}
 

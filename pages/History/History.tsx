@@ -40,7 +40,7 @@ const History: React.FC<HistoryProps> = ({ onBack }) => {
                     <p>Ngân hàng TMCP Công thương Việt Nam</p>
                 </div>
 
-                <p className="mt-8 text-slate-500">
+                <p className="mt-6 text-slate-500">
                     Xin chân thành cảm ơn!
                 </p>
             </div>
