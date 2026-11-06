@@ -1,0 +1,522 @@
+[
+    {
+        "id": 381,
+        "question": "Khi xác định giá gói thầu mua sắm thiết bị văn phòng bằng phương pháp lấy báo giá, đơn vị quan tâm phải gửi báo giá trên Hệ thống mạng đấu thầu quốc gia trong thời hạn?",
+        "options": {
+            "A": "Thời hạn tối thiểu 02 ngày làm việc",
+            "B": "Thời hạn tối thiểu 03 ngày làm việc",
+            "C": "Thời hạn tối thiểu 05 ngày làm việc",
+            "D": "Thời hạn tối thiểu 07 ngày làm việc"
+        },
+        "correctAnswer": "B",
+        "explanation": "Căn cứ điểm d khoản 2 Điều 18 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), khi xác định giá gói thầu bằng báo giá, chủ đầu tư phải đăng tải yêu cầu báo giá trên Hệ thống mạng đấu thầu quốc gia; đơn vị quan tâm phải gửi báo giá trên Hệ thống trong thời hạn tối thiểu 03 ngày làm việc kể từ ngày đăng tải yêu cầu báo giá. Thiết bị văn phòng không thuộc nhóm thuốc, thiết bị y tế (thời hạn 10 ngày). Vì vậy chọn B.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 382,
+        "question": "Chủ đầu tư được xử lý như thế nào đối với báo giá hoặc hạng mục trong báo giá của dịch vụ có giá cao hơn hoặc thấp hơn 30% giá trung bình của các báo giá?",
+        "options": {
+            "A": "Bắt buộc phải loại trừ các báo giá này khi xác định giá trung bình",
+            "B": "Có quyền loại trừ các báo giá này để xác định giá trung bình",
+            "C": "Phải tính đầy đủ vào giá trung bình, không được loại trừ báo giá này",
+            "D": "Phải xin ý kiến người có thẩm quyền trước khi loại trừ các báo giá này"
+        },
+        "correctAnswer": "B",
+        "explanation": "Căn cứ điểm d khoản 2 Điều 18 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), trường hợp có nhiều hơn 01 báo giá thì được lấy giá trung bình; khi xác định giá trung bình, nếu có báo giá hoặc hạng mục trong báo giá có giá cao hoặc thấp hơn 30% giá trung bình thì chủ đầu tư có quyền loại trừ các báo giá này. Đây là quyền, không phải nghĩa vụ bắt buộc, cũng không phải xin ý kiến người có thẩm quyền. Vì vậy chọn B.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 383,
+        "question": "Đối với gói thầu mua thuốc; hóa chất, vật tư xét nghiệm, thiết bị y tế; linh kiện, phụ kiện, vật tư thay thế cho thiết bị y tế, đơn vị quan tâm gửi báo giá trong thời hạn tối thiểu bao nhiêu ngày và chủ đầu tư được lựa chọn báo giá nào nếu có từ 02 báo giá trở lên?",
+        "options": {
+            "A": "Tối thiểu 05 ngày; được lựa chọn báo giá cao nhất phù hợp với khả năng tài chính và yêu cầu chuyên môn",
+            "B": "Tối thiểu 07 ngày; được lựa chọn báo giá cao nhất phù hợp với khả năng tài chính và yêu cầu chuyên môn",
+            "C": "Tối thiểu 10 ngày; được lựa chọn báo giá cao nhất phù hợp với khả năng tài chính và yêu cầu chuyên môn",
+            "D": "Tối thiểu 15 ngày; được lựa chọn báo giá cao nhất phù hợp với khả năng tài chính và yêu cầu chuyên môn"
+        },
+        "correctAnswer": "C",
+        "explanation": "Căn cứ đoạn 2 điểm d khoản 2 Điều 18 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), đối với gói thầu mua thuốc; hóa chất, vật tư xét nghiệm, thiết bị y tế; linh kiện, phụ kiện, vật tư thay thế cho thiết bị y tế, đơn vị quan tâm gửi báo giá trong thời hạn tối thiểu 10 ngày kể từ ngày đăng tải yêu cầu báo giá; trường hợp có từ 02 báo giá trở lên, chủ đầu tư được lựa chọn báo giá cao nhất phù hợp với khả năng tài chính và yêu cầu chuyên môn. Vì vậy chọn C.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 384,
+        "question": "Đối với gói thầu thuộc dự án khoa học, công nghệ và đổi mới sáng tạo, dự án ứng dụng công nghệ cao, ứng dụng công nghệ mới hoặc gói thầu thuộc dự toán mua sắm không hình thành dự án, việc lựa chọn thành viên tổ chuyên gia, tổ thẩm định được thực hiện như thế nào?",
+        "options": {
+            "A": "Thành viên tổ chuyên gia, tổ thẩm định là tư vấn cá nhân hoặc cá nhân thuộc tổ chức tư vấn đấu thầu thì phải đáp ứng đầy đủ các tiêu chuẩn như gói thầu thông thường",
+            "B": "Chủ đầu tư quyết định lựa chọn tất cả thành viên tổ chuyên gia, tổ thẩm định bảo đảm có năng lực thực hiện công việc mà không bắt buộc đáp ứng các yêu cầu về: chứng chỉ nghiệp vụ chuyên môn về đấu thầu và có tối thiểu 03 năm công tác thuộc một trong các lĩnh vực liên quan đến nội dung pháp lý, kỹ thuật, tài chính của gói thầu",
+            "C": "Chủ đầu tư không cần thành lập tổ chuyên gia, tổ thẩm định",
+            "D": "Phải xin ý kiến người có thẩm quyền về yêu cầu đối với tổ chuyên gia, tổ thẩm định trước khi phê duyệt"
+        },
+        "correctAnswer": "A",
+        "explanation": "Căn cứ khoản 2 Điều 21 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), với các gói thầu nêu trong đề, chủ đầu tư lựa chọn thành viên tổ chuyên gia, tổ thẩm định có năng lực mà không bắt buộc có chứng chỉ nghiệp vụ và tối thiểu 03 năm công tác, trừ thành viên là tư vấn cá nhân hoặc cá nhân thuộc tổ chức tư vấn đấu thầu; các thành viên này vẫn phải đáp ứng đầy đủ tiêu chuẩn. Phương án B sai vì nói “tất cả thành viên”. Vì vậy chọn A.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 385,
+        "question": "Trường hợp chủ đầu tư, đơn vị tư vấn đấu thầu cần lấy ý kiến hoặc huy động chuyên gia chuyên ngành không thuộc nhân sự của mình tham gia tổ chuyên gia, tổ thẩm định thì các chuyên gia này có bắt buộc phải có chứng chỉ nghiệp vụ chuyên môn về đấu thầu không?",
+        "options": {
+            "A": "Không bắt buộc phải có chứng chỉ nghiệp vụ chuyên môn về đấu thầu đối với chuyên gia về lĩnh vực pháp lý, tài chính",
+            "B": "Không bắt buộc phải có chứng chỉ nghiệp vụ chuyên môn về đấu thầu",
+            "C": "Bắt buộc phải có chứng chỉ nghiệp vụ chuyên môn về đấu thầu đối với chuyên gia về lĩnh vực pháp lý, tài chính",
+            "D": "Bắt buộc đối với gói thầu thuộc dự án khoa học, công nghệ và đổi mới sáng tạo theo quy định của pháp luật về khoa học, công nghệ và đổi mới sáng tạo"
+        },
+        "correctAnswer": "B",
+        "explanation": "Căn cứ khoản 2a Điều 21 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), trường hợp cần lấy ý kiến hoặc huy động chuyên gia chuyên ngành không thuộc nhân sự của chủ đầu tư, đơn vị tư vấn đấu thầu thì các chuyên gia này không bắt buộc có chứng chỉ nghiệp vụ chuyên môn về đấu thầu. Quy định áp dụng chung, không phân biệt lĩnh vực pháp lý, tài chính hay loại dự án. Vì vậy chọn B.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 386,
+        "question": "Trường hợp có sử dụng nhà thầu phụ trong quá trình thực hiện hợp đồng, ngoài việc cập nhật tiến độ thực tế thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia, chủ đầu tư có trách nhiệm cập nhật thông tin gì liên quan đến nhà thầu phụ?",
+        "options": {
+            "A": "Không phải cập nhật thông tin thay đổi, phát sinh về nhà thầu phụ trong quá trình thực hiện hợp đồng",
+            "B": "Cập nhật thông tin thay đổi, phát sinh về nhà thầu phụ trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 6 tháng sau khi hợp đồng kết thúc",
+            "C": "Cập nhật thông tin thay đổi, phát sinh về danh sách, phạm vi công việc và tỷ lệ sử dụng nhà thầu phụ trong quá trình thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia",
+            "D": "Phê duyệt lại toàn bộ danh sách nhà thầu phụ và trực tiếp quản lý nhà thầu phụ để đảm bảo chất lượng, tiến độ, hiệu quả của gói thầu"
+        },
+        "correctAnswer": "C",
+        "explanation": "Căn cứ khoản 2 Điều 35 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), chủ đầu tư phải cập nhật tiến độ thực tế thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia; trong quá trình thực hiện hợp đồng, chủ đầu tư có trách nhiệm cập nhật thông tin thay đổi, phát sinh về danh sách, phạm vi công việc và tỷ lệ sử dụng nhà thầu phụ, nhà thầu phụ đặc biệt (nếu có). Việc cập nhật thực hiện trong quá trình hợp đồng, không phải sau khi kết thúc. Vì vậy chọn C.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 387,
+        "question": "Hạn mức được áp dụng hình thức chỉ định thầu đối với gói thầu dịch vụ tư vấn thuộc dự án có giá gói thầu là bao nhiêu?",
+        "options": {
+            "A": "Không quá 01 tỷ đồng",
+            "B": "Không quá 02 tỷ đồng",
+            "C": "Không quá 03 tỷ đồng",
+            "D": "Không quá 05 tỷ đồng"
+        },
+        "correctAnswer": "C",
+        "explanation": "Căn cứ khoản 4 Điều 78 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), hạn mức chỉ định thầu là: gói thầu thuộc dự toán mua sắm không hình thành dự án không quá 01 tỷ đồng; gói thầu dịch vụ tư vấn thuộc dự án không quá 03 tỷ đồng; gói thầu dịch vụ phi tư vấn, hàng hóa, xây lắp, hỗn hợp thuộc dự án không quá 05 tỷ đồng. Vì vậy gói thầu dịch vụ tư vấn thuộc dự án có hạn mức không quá 03 tỷ đồng, chọn C.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 388,
+        "question": "Trường hợp thời gian đánh giá hồ sơ dự thầu, hồ sơ đề xuất bị kéo dài dẫn đến hồ sơ dự thầu, hồ sơ đề xuất của nhà thầu hết hiệu lực thì chủ đầu tư xử lý như thế nào?",
+        "options": {
+            "A": "Loại hồ sơ dự thầu của nhà thầu và không phải thông báo cho nhà thầu",
+            "B": "Bắt buộc hủy thầu để tổ chức lựa chọn lại nhà thầu",
+            "C": "Yêu cầu nhà thầu khôi phục hiệu lực của hồ sơ dự thầu, hồ sơ đề xuất, bảo đảm dự thầu tương ứng",
+            "D": "Yêu cầu nhà thầu khôi phục hiệu lực của hồ sơ dự thầu, hồ sơ đề xuất và nộp mới bảo đảm dự thầu với thông tin, giá trị, thời gian đã quy định trong thông báo mời thầu"
+        },
+        "correctAnswer": "C",
+        "explanation": "Căn cứ khoản 33b Điều 140 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), khi thời gian đánh giá kéo dài làm hồ sơ dự thầu, hồ sơ đề xuất hết hiệu lực, chủ đầu tư được yêu cầu nhà thầu khôi phục hiệu lực của hồ sơ và bảo đảm dự thầu tương ứng; nhà thầu từ chối thì hồ sơ không được tiếp tục đánh giá nhưng không bị xử lý vi phạm. Vì vậy chọn C. D sai vì không phải nộp mới bảo đảm dự thầu; A, B sai vì không buộc loại hồ sơ hay hủy thầu.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 389,
+        "question": "Gói thầu đã đăng tải thông báo mời thầu, thông báo mời quan tâm, thông báo mời sơ tuyển nhưng không có nhà thầu nộp hồ sơ dự thầu, hồ sơ quan tâm, hồ sơ dự sơ tuyển hoặc tất cả nhà thầu không đáp ứng yêu cầu thực hiện gói thầu thì chủ đầu tư có thể xử lý như thế nào?",
+        "options": {
+            "A": "Chuyển sang áp dụng hình thức chỉ định thầu",
+            "B": "Thực hiện hủy thầu theo quy định",
+            "C": "Chuyển sang áp dụng hình thức lựa chọn nhà thầu trong trường hợp đặc biệt",
+            "D": "Phương án A và B đều đúng"
+        },
+        "correctAnswer": "D",
+        "explanation": "Căn cứ điểm e1 khoản 2 Điều 78 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), gói thầu đã mời thầu mà không có nhà thầu nộp hồ sơ hoặc tất cả nhà thầu không đáp ứng thì được chỉ định thầu; điểm a khoản 1 Điều 17 Luật Đấu thầu số 22/2023/QH15 quy định hủy thầu khi tất cả hồ sơ không đáp ứng. Vì vậy A và B đều hợp lệ, chọn D; C sai vì không thuộc trường hợp đặc biệt.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 390,
+        "question": "Gói thầu mua sắm từ các hoạt động thanh lý, giải thể, phá sản được áp dụng hình thức lựa chọn nhà thầu nào?",
+        "options": {
+            "A": "Đấu thầu rộng rãi, tự thực hiện",
+            "B": "Chào hàng cạnh tranh, lựa chọn nhà thầu trong trường hợp đặc biệt",
+            "C": "Đấu thầu rộng rãi, chỉ định thầu",
+            "D": "Đấu thầu hạn chế, mua sắm trực tiếp"
+        },
+        "correctAnswer": "C",
+        "explanation": "Căn cứ điểm i khoản 5 Điều 78 Nghị định số 214/2025/NĐ-CP, gói thầu mua sắm từ các hoạt động thanh lý, giải thể, phá sản thuộc trường hợp được chỉ định thầu (áp dụng quy trình rút gọn theo khoản 2 Điều 80); đấu thầu rộng rãi là hình thức chung luôn được áp dụng. Vì vậy chọn C. Các phương án A, B, D sai vì tự thực hiện, chào hàng cạnh tranh, lựa chọn nhà thầu trong trường hợp đặc biệt, đấu thầu hạn chế, mua sắm trực tiếp không phải hình thức quy định cho trường hợp này.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 391,
+        "question": "Gói thầu thuộc trường hợp áp dụng quy trình chỉ định thầu thông thường, chủ đầu tư tổ chức thẩm định các nội dung nào sau đây?",
+        "options": {
+            "A": "Bắt buộc thẩm định đối với hồ sơ yêu cầu",
+            "B": "Bắt buộc thẩm định đối với kết quả lựa chọn nhà thầu",
+            "C": "Bắt buộc thẩm định đối với hồ sơ yêu cầu, kết quả lựa chọn nhà thầu",
+            "D": "Không bắt buộc thẩm định đối với hồ sơ yêu cầu, kết quả lựa chọn nhà thầu"
+        },
+        "correctAnswer": "D",
+        "explanation": "Căn cứ điểm a và điểm d khoản 3 Điều 79 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), trong quy trình chỉ định thầu thông thường, chủ đầu tư không bắt buộc thẩm định hồ sơ yêu cầu và không bắt buộc thẩm định kết quả lựa chọn nhà thầu; chỉ khi có yêu cầu thẩm định thì mới thực hiện theo Điều 135 và khoản 4 Điều 136 Nghị định này. Vì vậy chọn D; các phương án A, B, C sai vì đều coi thẩm định là bắt buộc.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 392,
+        "question": "Khi mua vé máy bay chuyến bay quốc tế cho đoàn khách quốc tế vào Việt Nam tham dự hội nghị, hội thảo quốc tế do phía Việt Nam đài thọ, cơ quan được giao kinh phí phải lấy tối thiểu bao nhiêu báo giá để so sánh, lựa chọn?",
+        "options": {
+            "A": "Tối thiểu 01 báo giá",
+            "B": "Tối thiểu 02 báo giá của 02 đại lý bán vé máy bay khác nhau (hoặc báo giá của 01 đại lý của ít nhất 02 hãng hàng không khác nhau, trong đó có hãng hàng không quốc gia Việt Nam)",
+            "C": "Tối thiểu 03 báo giá của 03 đại lý bán vé máy bay khác nhau (hoặc báo giá của 01 đại lý của ít nhất 03 hãng hàng không khác nhau, trong đó có hãng hàng không quốc gia Việt Nam)",
+            "D": "Không cần lấy báo giá, chỉ cần lập, phê duyệt kế hoạch lựa chọn nhà thầu"
+        },
+        "correctAnswer": "B",
+        "explanation": "Căn cứ điểm a khoản 5 Điều 85 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), khi mua vé chuyến bay quốc tế cho đoàn khách quốc tế vào Việt Nam dự hội nghị, hội thảo do phía Việt Nam đài thọ, cơ quan được giao kinh phí lấy tối thiểu 02 báo giá của 02 đại lý khác nhau (hoặc của 01 đại lý của ít nhất 02 hãng hàng không, trong đó có hãng hàng không quốc gia Việt Nam). Vì vậy chọn B. C sai số lượng; D sai vì vẫn phải lấy báo giá.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 393,
+        "question": "Gói thầu cung cấp dịch vụ khám sức khỏe định kỳ, khám sàng lọc miễn phí cho người dân được áp dụng hình thức lựa chọn nhà thầu nào?",
+        "options": {
+            "A": "Lựa chọn nhà thầu trong trường hợp đặc biệt",
+            "B": "Chào giá trực tuyến rút gọn",
+            "C": "Mua sắm trực tuyến",
+            "D": "Lựa chọn nhà thầu có sự tham gia của cộng đồng"
+        },
+        "correctAnswer": "A",
+        "explanation": "Căn cứ điểm t3 khoản 4 Điều 84 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), gói thầu cung cấp dịch vụ khám sức khỏe định kỳ, khám sàng lọc miễn phí cho người dân thuộc danh mục gói thầu áp dụng hình thức lựa chọn nhà thầu trong trường hợp đặc biệt. Vì vậy chọn A. Các phương án B, C, D sai vì chào giá trực tuyến rút gọn, mua sắm trực tuyến và lựa chọn nhà thầu có sự tham gia của cộng đồng không áp dụng cho trường hợp này.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 394,
+        "question": "Gói thầu áp dụng hình thức chỉ định thầu theo quy trình thông thường, các nội dung nào phải thực hiện hoặc công khai thông tin trên Hệ thống mạng đấu thầu quốc gia?",
+        "options": {
+            "A": "Phát hành hồ sơ yêu cầu, nộp hồ sơ đề xuất",
+            "B": "Làm rõ, sửa đổi hồ sơ yêu cầu",
+            "C": "Công khai biên bản mở thầu, báo cáo đánh giá, kết quả lựa chọn nhà thầu",
+            "D": "Tất cả phương án trên đều đúng"
+        },
+        "correctAnswer": "D",
+        "explanation": "Căn cứ các điểm b, c và d khoản 3 Điều 79 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), trong chỉ định thầu thông thường, hồ sơ yêu cầu được phát hành, làm rõ, sửa đổi trên Hệ thống mạng đấu thầu quốc gia; nhà thầu nộp hồ sơ đề xuất trên Hệ thống; hồ sơ yêu cầu, biên bản mở thầu, báo cáo đánh giá được công khai trên Hệ thống đồng thời với thời điểm đăng tải kết quả lựa chọn nhà thầu. Vì vậy cả A, B, C đều đúng, chọn D.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 395,
+        "question": "Tổ chức đặt hàng phải công khai thông tin về kết quả thực hiện hợp đồng đặt hàng trên Hệ thống mạng đấu thầu quốc gia chậm nhất là bao lâu kể từ ngày kết thúc thời gian thực hiện hợp đồng đặt hàng?",
+        "options": {
+            "A": "Không muộn hơn 15 ngày",
+            "B": "Không muộn hơn 30 ngày",
+            "C": "Không muộn hơn 45 ngày",
+            "D": "Không muộn hơn 60 ngày"
+        },
+        "correctAnswer": "B",
+        "explanation": "Căn cứ điểm a khoản 6 Điều 109 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), tổ chức đặt hàng công khai thông tin về kết quả thực hiện hợp đồng (tiến độ, chất lượng hàng hóa, dịch vụ, vi phạm hợp đồng và lý do vi phạm…) trên Hệ thống mạng đấu thầu quốc gia; thời gian đăng tải có thể trong hoặc sau thời gian thực hiện hợp đồng nhưng không muộn hơn 30 ngày kể từ ngày kết thúc thời gian thực hiện hợp đồng đặt hàng. Vì vậy chọn B.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 396,
+        "question": "Đối với gói thầu có tính chất quan trọng, trọng điểm áp dụng hình thức chỉ định thầu, lựa chọn nhà thầu trong trường hợp đặc biệt hoặc đặt hàng, nội dung giám sát bao gồm?",
+        "options": {
+            "A": "Đánh giá kết quả việc áp dụng hình thức chỉ định thầu, lựa chọn nhà thầu trong trường hợp đặc biệt, đặt hàng",
+            "B": "Tiến độ, kết quả của việc áp dụng các hình thức lựa chọn nhà thầu",
+            "C": "Giám sát năng lực, kinh nghiệm của nhà thầu",
+            "D": "Phương án A và B đều đúng"
+        },
+        "correctAnswer": "D",
+        "explanation": "Căn cứ điểm k khoản 2 Điều 131 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), đối với gói thầu có tính chất quan trọng, trọng điểm, ngoài các nội dung giám sát chung, nội dung giám sát gồm: tiến độ, kết quả của việc áp dụng các hình thức lựa chọn nhà thầu; đánh giá kết quả việc áp dụng hình thức chỉ định thầu, lựa chọn nhà thầu trong trường hợp đặc biệt, đặt hàng. Vì vậy A và B đều đúng, chọn D. Phương án C không phải nội dung giám sát được nêu tại điểm này.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 397,
+        "question": "Trường hợp gói thầu chỉ có một nhà thầu tham dự thầu, hồ sơ dự thầu đáp ứng cơ bản yêu cầu nhưng không đáp ứng yêu cầu kỹ thuật đối với hạng mục hàng hóa là vật tư, thiết bị thông thường, thông dụng, sẵn có trên thị trường, chủ đầu tư được xem xét cho phép nhà thầu bổ sung, thay thế hàng hóa đó nếu tổng giá trị các hạng mục này chiếm tỷ trọng không quá bao nhiêu % giá gói thầu?",
+        "options": {
+            "A": "Không được cho phép nhà thầu bổ sung, thay thế hàng hóa đó trong bất kỳ trường hợp nào",
+            "B": "Không quá 1%",
+            "C": "Không quá 2%",
+            "D": "Không quá 3%"
+        },
+        "correctAnswer": "B",
+        "explanation": "Căn cứ khoản 33a Điều 140 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), trường hợp gói thầu chỉ có một nhà thầu tham dự, hồ sơ dự thầu đáp ứng cơ bản nhưng không đáp ứng yêu cầu kỹ thuật đối với hạng mục vật tư, thiết bị thông thường, thông dụng, sẵn có, có tổng giá trị chiếm tỷ trọng không quá 1% giá gói thầu thì chủ đầu tư xem xét, quyết định cho phép nhà thầu bổ sung, thay thế; việc thay thế không được cao hơn đơn giá đã chào. Vì vậy chọn B.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 398,
+        "question": "Đối với kiến nghị về nội dung hồ sơ mời thầu, nhà thầu, cơ quan, tổ chức gửi đơn kiến nghị đến chủ đầu tư khi nào?",
+        "options": {
+            "A": "Trong vòng 10 ngày kể từ ngày đăng tải công khai kết quả lựa chọn nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
+            "B": "Trước thời điểm đóng thầu 02 ngày làm việc",
+            "C": "Trước thời điểm đóng thầu 03 ngày làm việc",
+            "D": "Trước khi có kết quả lựa chọn nhà thầu"
+        },
+        "correctAnswer": "C",
+        "explanation": "Căn cứ điểm a khoản 1 Điều 138 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), nhà thầu, cơ quan, tổ chức gửi đơn kiến nghị về hồ sơ mời thầu đến chủ đầu tư trong thời hạn tối thiểu 03 ngày làm việc trước thời điểm đóng thầu. Vì vậy chọn C. Phương án A là thời hạn kiến nghị về kết quả lựa chọn nhà thầu (10 ngày); D là thời hạn đối với kiến nghị các nội dung khác về quá trình tổ chức lựa chọn nhà thầu.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 399,
+        "question": "Đối với kiến nghị về nội dung hồ sơ mời thầu, chủ đầu tư cần trả lời nhà thầu trong thời gian bao lâu?",
+        "options": {
+            "A": "Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đơn kiến nghị",
+            "B": "Trong thời hạn 07 ngày làm việc kể từ ngày nhận được đơn kiến nghị",
+            "C": "Trong thời hạn 07 ngày kể từ ngày nhận được đơn kiến nghị",
+            "D": "Trong thời hạn 10 ngày kể từ ngày nhận được đơn kiến nghị"
+        },
+        "correctAnswer": "B",
+        "explanation": "Căn cứ điểm a khoản 1 Điều 138 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), trong thời hạn 07 ngày làm việc kể từ ngày nhận được đơn kiến nghị của nhà thầu, cơ quan, tổ chức, chủ đầu tư phải có văn bản giải quyết kiến nghị gửi đến người kiến nghị và đăng tải trên Hệ thống mạng đấu thầu quốc gia. Vì vậy chọn B. Phương án C, D sai vì tính theo ngày (không phải ngày làm việc) hoặc sai số ngày; A sai số ngày.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 400,
+        "question": "Trong quá trình thương thảo hợp đồng (nếu có) hoặc hoàn thiện hợp đồng, có được đề xuất thay đổi nhà thầu phụ hay không?",
+        "options": {
+            "A": "Không được phép thay đổi nhà thầu phụ, phải thực hiện theo đề xuất của nhà thầu trong hồ sơ dự thầu",
+            "B": "Được phép thay đổi, bảo đảm không vượt tỷ lệ phần trăm về giá trị tối đa dành cho nhà thầu phụ quy định trong hồ sơ mời thầu",
+            "C": "Được phép thay đổi nhà thầu phụ và tăng tỷ lệ phần trăm giá trị tối đa dành cho nhà thầu phụ đã quy định trong hồ sơ mời thầu theo thỏa thuận giữa chủ đầu tư và nhà thầu",
+            "D": "Được phép thay đổi nhà thầu phụ nhưng phải được người có thẩm quyền chấp thuận"
+        },
+        "correctAnswer": "B",
+        "explanation": "Căn cứ điểm c khoản 2 Điều 141 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), khi thương thảo (nếu có) hoặc hoàn thiện hợp đồng, nhà thầu được đề xuất thay đổi tên nhà thầu phụ, tăng hoặc giảm phần công việc, giá trị sử dụng nhà thầu phụ nhưng không vượt tỷ lệ phần trăm giá trị tối đa dành cho nhà thầu phụ quy định trong hồ sơ mời thầu. Vì vậy chọn B. A sai vì được thay đổi; C sai vì không được vượt tỷ lệ tối đa; D sai vì không cần người có thẩm quyền chấp thuận.",
+        "category": "Câu tổng hợp, bổ sung"
+    },
+    {
+        "id": 411,
+        "question": "Trường hợp nào sau đây bắt buộc phải lựa chọn nhà đầu tư theo quy định tại Luật Đấu thầu?",
+        "options": {
+            "A": "Dự án đầu tư có sử dụng đất thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật về đất đai",
+            "B": "Dự án đầu tư thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực",
+            "C": "Dự án đầu tư theo phương thức đối tác công tư (PPP)",
+            "D": "Phương án A và B đều đúng"
+        },
+        "correctAnswer": "D",
+        "explanation": "Căn cứ khoản 3 Điều 2 Luật Đấu thầu số 22/2023/QH15, hoạt động lựa chọn nhà đầu tư thuộc phạm vi Luật gồm dự án đầu tư có sử dụng đất phải đấu thầu theo pháp luật về đất đai và dự án phải đấu thầu lựa chọn nhà đầu tư theo pháp luật quản lý ngành, lĩnh vực. Vì vậy A và B đều đúng, chọn D. Phương án C sai vì dự án PPP lựa chọn nhà đầu tư theo Luật Đầu tư theo phương thức đối tác công tư.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 412,
+        "question": "Theo quy định của pháp luật về đất đai, dự án nào thuộc trường hợp phải tổ chức đấu thầu lựa chọn nhà đầu tư?",
+        "options": {
+            "A": "Dự án đầu tư xây dựng khu đô thị có công năng phục vụ hỗn hợp, đồng bộ hệ thống hạ tầng kỹ thuật, hạ tầng xã hội với nhà ở theo quy định của pháp luật về xây dựng để xây dựng mới hoặc cải tạo, chỉnh trang đô thị.",
+            "B": "Dự án khu dân cư nông thôn",
+            "C": "Dự án nhà ở thương mại",
+            "D": "Phương án A và B đều đúng"
+        },
+        "correctAnswer": "D",
+        "explanation": "Căn cứ điểm a khoản 1 Điều 126 Luật Đất đai số 31/2024/QH15, Nhà nước giao đất, cho thuê đất thông qua đấu thầu lựa chọn nhà đầu tư đối với dự án tại khoản 27 Điều 79 được Hội đồng nhân dân cấp tỉnh quyết định; khoản 27 Điều 79 gồm dự án khu đô thị có công năng phục vụ hỗn hợp, đồng bộ hạ tầng với nhà ở và dự án khu dân cư nông thôn. Vì vậy A và B đều đúng, chọn D. Phương án C không được liệt kê tại khoản 27 Điều 79.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 413,
+        "question": "Điều kiện nào sau đây áp dụng đối với quỹ đất dự kiến thực hiện dự án đầu tư có sử dụng đất?",
+        "options": {
+            "A": "Thuộc trường hợp thu hồi đất theo quy định tại Điều 79 của Luật Đất đai và khoản 2 Điều 3 Nghị quyết số 254/2025/QH15; Quỹ đất do cơ quan, tổ chức của Nhà nước được giao quản lý và thuộc trường hợp cho thuê đất theo quy định tại khoản 2 Điều 4 Nghị quyết số 254/2025/QH15",
+            "B": "Thuộc danh mục các khu đất thực hiện đấu thầu dự án đầu tư có sử dụng đất được Hội đồng nhân dân cấp tỉnh quyết định theo quy định của pháp luật về đất đai",
+            "C": "Thuộc danh mục công trình, dự án phải thu hồi đất được cấp có thẩm quyền phê duyệt đối với dự án đầu tư có sử dụng đất",
+            "D": "Phương án A và B đều đúng"
+        },
+        "correctAnswer": "D",
+        "explanation": "Căn cứ khoản 4 Điều 4 Nghị định số 274/2026/NĐ-CP, quỹ đất dự kiến thực hiện dự án đầu tư có sử dụng đất phải đáp ứng đủ hai điều kiện: thuộc trường hợp thu hồi đất theo Điều 79 Luật Đất đai và khoản 2 Điều 3 Nghị quyết số 254/2025/QH15 (hoặc quỹ đất Nhà nước giao quản lý thuộc trường hợp cho thuê theo khoản 2 Điều 4 Nghị quyết này); và thuộc danh mục khu đất đấu thầu dự án do Hội đồng nhân dân cấp tỉnh quyết định. Vì vậy A và B đều đúng, chọn D; C không phải điều kiện được quy định.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 414,
+        "question": "Lựa chọn nhà đầu tư trong nước được áp dụng trong trường hợp nào?",
+        "options": {
+            "A": "Dự án thuộc danh mục ngành, nghề chưa được tiếp cận thị trường đối với nhà đầu tư nước ngoài theo quy định của pháp luật về đầu tư",
+            "B": "Dự án cần thực hiện đấu thầu trong nước do yêu cầu về bảo đảm quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội.",
+            "C": "Dự án có tổng vốn đầu tư dưới 800 tỷ đồng",
+            "D": "Tất cả phương án trên đều đúng"
+        },
+        "correctAnswer": "D",
+        "explanation": "Căn cứ khoản 2 Điều 11 Luật Đấu thầu số 22/2023/QH15, đấu thầu quốc tế lựa chọn nhà đầu tư được thực hiện đối với dự án đầu tư kinh doanh, trừ các trường hợp (tức là áp dụng đấu thầu trong nước): dự án thuộc danh mục ngành, nghề chưa được tiếp cận thị trường đối với nhà đầu tư nước ngoài; dự án cần đấu thầu trong nước do yêu cầu bảo đảm quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội; dự án có tổng vốn đầu tư dưới 800 tỷ đồng. Vì vậy cả A, B, C đều đúng, chọn D.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 415,
+        "question": "Trường hợp nào là đúng đối với lựa chọn nhà đầu tư trong nước?",
+        "options": {
+            "A": "Dự án thực hiện tại khu vực hạn chế tiếp cận đất đai, khu vực biển hạn chế sử dụng theo quy định của pháp luật về đất đai và pháp luật có liên quan",
+            "B": "Dự án thực hiện tại khu vực hạn chế tiếp cận đất đai, khu vực biển hạn chế sử dụng theo quy định của pháp luật về đất đai và pháp luật có liên quan, người có thẩm quyền quyết định việc áp dụng đấu thầu trong nước trên cơ sở ý kiến của Bộ Quốc phòng, Bộ Công an, Bộ Ngoại giao, cơ quan khác có liên quan (nếu có) ",
+            "C": "Dự án áp dụng hình thức đấu thầu trong nước nhưng cần thúc đẩy sử dụng công nghệ, kỹ thuật tiên tiến, kinh nghiệm quản lý quốc tế, hồ sơ mời thầu có thể quy định nhà đầu tư trong nước được sử dụng đối tác là nhà thầu nước ngoài ",
+            "D": "Phương án B và C đều đúng"
+        },
+        "correctAnswer": "D",
+        "explanation": "Căn cứ khoản 3 Điều 11 Luật Đấu thầu số 22/2023/QH15 (sửa đổi, bổ sung bởi Luật số 90/2025/QH15), với dự án tại khu vực hạn chế tiếp cận đất đai, khu vực biển hạn chế sử dụng, người có thẩm quyền quyết định áp dụng đấu thầu trong nước (hoặc quốc tế) trên cơ sở ý kiến Bộ Quốc phòng, Bộ Công an, Bộ Ngoại giao; khoản 3 Điều 50 Nghị định số 274/2026/NĐ-CP cho phép nhà đầu tư trong nước sử dụng đối tác là nhà thầu nước ngoài. Vì vậy B và C đúng, chọn D; A thiếu cơ chế quyết định.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 416,
+        "question": "Phát biểu nào sau đây là đúng đối với đấu thầu lựa chọn nhà đầu tư trong nước?",
+        "options": {
+            "A": "Nhà đầu tư trong nước được sử dụng đối tác là nhà thầu nước ngoài khi tham gia đấu thầu trong nước đối với dự án có yêu cầu thúc đẩy sử dụng công nghệ, kỹ thuật tiên tiến, kinh nghiệm quản lý quốc tế ",
+            "B": "Chỉ nhà đầu tư trong nước được tham dự thầu",
+            "C": "Nhà đầu tư trong nước được liên danh với nhà đầu tư nước ngoài để tham dự thầu nhưng nhà đầu tư trong nước phải đứng đầu liên danh",
+            "D": "Phương án A và B đều đúng"
+        },
+        "correctAnswer": "D",
+        "explanation": "Căn cứ khoản 11 Điều 4 Luật Đấu thầu số 22/2023/QH15, đấu thầu trong nước chỉ có nhà thầu, nhà đầu tư trong nước được tham dự thầu; khoản 3 Điều 50 Nghị định số 274/2026/NĐ-CP cho phép hồ sơ mời thầu quy định nhà đầu tư trong nước được sử dụng đối tác là nhà thầu nước ngoài khi dự án cần thúc đẩy công nghệ, kỹ thuật tiên tiến, kinh nghiệm quản lý quốc tế. Vì vậy A và B đều đúng, chọn D. C sai vì nhà đầu tư nước ngoài không được tham dự, kể cả trong liên danh.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 417,
+        "question": "Bên mời thầu, hình thức, phương thức đấu thầu đối với lựa chọn nhà đầu tư được phê duyệt như thế nào?",
+        "options": {
+            "A": "Văn bản phê duyệt thông tin dự án đầu tư kinh doanh đối với dự án không thuộc diện chấp thuận chủ trương đầu tư",
+            "B": "Quyết định phê duyệt bảng theo dõi tiến độ thực hiện hoạt động lựa chọn nhà đầu tư đối với dự án thuộc diện chấp thuận chủ trương đầu tư",
+            "C": "Văn bản phê duyệt kết quả mời quan tâm đối với dự án thuộc trường hợp mời quan tâm",
+            "D": "Tất cả các phương án trên đều đúng"
+        },
+        "correctAnswer": "D",
+        "explanation": "Căn cứ Điều 12 Nghị định số 274/2026/NĐ-CP, bên mời thầu, hình thức, phương thức đấu thầu được quyết định tại bảng theo dõi tiến độ thực hiện các hoạt động lựa chọn nhà đầu tư; bảng này được phê duyệt độc lập hoặc đồng thời với quyết định chấp thuận chủ trương đầu tư, đồng thời tại văn bản phê duyệt thông tin dự án (dự án không thuộc diện chấp thuận chủ trương) hoặc tại văn bản phê duyệt kết quả mời quan tâm (dự án áp dụng mời quan tâm). Vì vậy A, B, C đều đúng, chọn D.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 418,
+        "question": "Chủ thể nào sau đây không thuộc các bên trong đấu thầu lựa chọn nhà đầu tư?",
+        "options": {
+            "A": "Người có thẩm quyền, Cơ quan có thẩm quyền",
+            "B": "Chủ đầu tư",
+            "C": "Bên mời thầu, bên mời quan tâm",
+            "D": "Nhà đầu tư"
+        },
+        "correctAnswer": "B",
+        "explanation": "Căn cứ Điều 4 Luật Đấu thầu số 22/2023/QH15 (sửa đổi, bổ sung bởi Luật số 90/2025/QH15), trong lựa chọn nhà đầu tư, các chủ thể gồm người có thẩm quyền, cơ quan có thẩm quyền (khoản 24, khoản 2a), bên mời thầu (khoản 1), nhà đầu tư; bên mời quan tâm được quy định tại khoản 2 Điều 3 Nghị định số 274/2026/NĐ-CP. Chủ đầu tư (khoản 2 Điều 4) là chủ thể của hoạt động lựa chọn nhà thầu đối với dự án, dự toán mua sắm. Vì vậy chọn B.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 419,
+        "question": "Chi phí trong lựa chọn nhà đầu tư được bố trí từ nguồn nào?",
+        "options": {
+            "A": "Ứng trước từ bên mời thầu, tổ thẩm định và nhà đầu tư trúng thầu có trách nhiệm hoàn trả",
+            "B": "Chi chuẩn bị đầu tư của dự án",
+            "C": "Nguồn chi thường xuyên của cơ quan có thẩm quyền, bên mời thầu, bên mời quan tâm, tổ thẩm định",
+            "D": "Nguồn chi thường xuyên, nguồn thu hợp pháp khác của cơ quan có thẩm quyền, bên mời thầu, bên mời quan tâm, tổ thẩm định"
+        },
+        "correctAnswer": "D",
+        "explanation": "Căn cứ khoản 5 Điều 7 Nghị định số 274/2026/NĐ-CP, nguồn kinh phí thanh toán các khoản chi phí lựa chọn nhà đầu tư được sử dụng từ nguồn chi thường xuyên và các nguồn vốn hợp pháp khác của cơ quan có thẩm quyền, bên mời quan tâm, bên mời thầu, tổ thẩm định. Vì vậy chọn D. Phương án C thiếu nguồn hợp pháp khác; A, B sai vì không quy định ứng trước hay lấy từ chi chuẩn bị đầu tư.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 420,
+        "question": "Lựa chọn nhà đầu tư không áp dụng phương thức nào?",
+        "options": {
+            "A": "Một giai đoạn một túi hồ sơ",
+            "B": "Một giai đoạn hai túi hồ sơ",
+            "C": "Hai giai đoạn một túi hồ sơ",
+            "D": "Hai giai đoạn hai túi hồ sơ"
+        },
+        "correctAnswer": "D",
+        "explanation": "Căn cứ Điều 35 Luật Đấu thầu số 22/2023/QH15, phương thức lựa chọn nhà đầu tư gồm: một giai đoạn một túi hồ sơ, một giai đoạn hai túi hồ sơ (dự án có yêu cầu công trình kiến trúc có giá trị) và hai giai đoạn một túi hồ sơ. Phương thức hai giai đoạn hai túi hồ sơ chỉ áp dụng trong lựa chọn nhà thầu (Điều 33), không áp dụng cho lựa chọn nhà đầu tư. Vì vậy chọn D.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 421,
+        "question": "Hình thức lựa chọn nhà đầu tư bao gồm?",
+        "options": {
+            "A": "Đấu thầu rộng rãi, đấu thầu hạn chế, chỉ định nhà đầu tư, lựa chọn nhà đầu tư trong trường hợp đặc biệt, đặt hàng, giao nhiệm vụ",
+            "B": "Đấu thầu rộng rãi, đấu thầu hạn chế, chỉ định nhà đầu tư, lựa chọn nhà đầu tư trong trường hợp đặc biệt",
+            "C": "Đấu thầu rộng rãi, đấu thầu hạn chế, đàm phán cạnh tranh, chỉ định nhà đầu tư, lựa chọn nhà đầu tư trong trường hợp đặc biệt",
+            "D": "Đấu thầu rộng rãi, đấu thầu hạn chế, đàm phán giá, chỉ định nhà đầu tư, lựa chọn nhà đầu tư trong trường hợp đặc biệt"
+        },
+        "correctAnswer": "B",
+        "explanation": "Căn cứ Điều 34 Luật Đấu thầu số 22/2023/QH15 (sửa đổi, bổ sung bởi Luật số 57/2024/QH15 và Luật số 90/2025/QH15), hình thức lựa chọn nhà đầu tư gồm: đấu thầu rộng rãi, đấu thầu hạn chế, chỉ định nhà đầu tư và lựa chọn nhà đầu tư trong trường hợp đặc biệt. Vì vậy chọn B. Đặt hàng, giao nhiệm vụ chỉ là một điều kiện của trường hợp đặc biệt (Điều 34a); đàm phán cạnh tranh, đàm phán giá không phải hình thức lựa chọn nhà đầu tư.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 422,
+        "question": "Phát biểu nào sau đây là đúng về quy trình chỉ định nhà đầu tư?",
+        "options": {
+            "A": "Chỉ định nhà đầu tư thông thường đối với dự án do Nhà nước lập",
+            "B": "Chỉ định nhà đầu tư rút gọn đối với dự án do nhà đầu tư đề xuất",
+            "C": "Chỉ định nhà đầu tư rút gọn đối với dự án có tổng vốn đầu tư dưới 800 tỷ đồng",
+            "D": "Phương án A và B đều đúng"
+        },
+        "correctAnswer": "D",
+        "explanation": "Căn cứ khoản 1 Điều 48 Nghị định số 274/2026/NĐ-CP, quy trình chỉ định nhà đầu tư thông thường áp dụng với dự án do cơ quan có thẩm quyền lập hồ sơ đề nghị chấp thuận chủ trương đầu tư hoặc hồ sơ đề xuất dự án (dự án do Nhà nước lập); quy trình rút gọn áp dụng với dự án do nhà đầu tư đề xuất. Vì vậy A và B đều đúng, chọn D. C sai vì tổng vốn dưới 800 tỷ đồng là tiêu chí đấu thầu trong nước, không phải tiêu chí quy trình rút gọn.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 423,
+        "question": "Đối với lựa chọn nhà đầu tư, quy trình mời quan tâm được áp dụng đối với dự án nào?",
+        "options": {
+            "A": "Trường hợp pháp luật về đất đai, pháp luật về quản lý ngành, lĩnh vực quy định phải đấu thầu lựa chọn nhà đầu tư khi có từ 02 nhà đầu tư trở lên quan tâm",
+            "B": "Tất cả các dự án đầu tư kinh doanh thuộc phạm vi điều chỉnh của Luật Đấu thầu",
+            "C": "Dự án khu đô thị, khu dân cư nông thôn",
+            "D": "Dự án do người có thẩm quyền quyết định căn cứ điều kiện cụ thể từng dự án"
+        },
+        "correctAnswer": "D",
+        "explanation": "Căn cứ khoản 4 Điều 39 Nghị định số 274/2026/NĐ-CP, tiêu chuẩn đánh giá sơ bộ về năng lực trong hồ sơ mời quan tâm gồm yêu cầu vốn chủ sở hữu của nhà đầu tư theo điểm a khoản 1 Điều 50 (dự án cải tạo, xây dựng lại nhà chung cư bổ sung yêu cầu về sơ bộ phương án bồi thường, tái định cư). Hồ sơ mời quan tâm không bao gồm tiêu chuẩn về khả năng huy động vốn vay và kinh nghiệm thực hiện dự án tương tự. Vì vậy B và C đều đúng, chọn D.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 424,
+        "question": "Đối với lựa chọn nhà đầu tư, hồ sơ mời quan tâm không bao gồm tiêu chuẩn nào?",
+        "options": {
+            "A": "Yêu cầu về vốn chủ sở hữu",
+            "B": "Khả năng huy động vốn vay",
+            "C": "Kinh nghiệm thực hiện dự án tương tự",
+            "D": "Phương án B và C đều đúng"
+        },
+        "correctAnswer": "D",
+        "explanation": "Căn cứ khoản 4 Điều 39 Nghị định số 274/2026/NĐ-CP, tiêu chuẩn đánh giá sơ bộ về năng lực trong hồ sơ mời quan tâm gồm yêu cầu vốn chủ sở hữu của nhà đầu tư theo điểm a khoản 1 Điều 50 (dự án cải tạo, xây dựng lại nhà chung cư bổ sung yêu cầu về sơ bộ phương án bồi thường, tái định cư). Hồ sơ mời quan tâm không bao gồm tiêu chuẩn về khả năng huy động vốn vay và kinh nghiệm thực hiện dự án tương tự. Vì vậy B và C đều đúng, chọn D.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 425,
+        "question": "Đối với lựa chọn nhà đầu tư, phương pháp được sử dụng trong đánh giá hồ sơ dự thầu là?",
+        "options": {
+            "A": "Phương pháp kết hợp giữa kỹ thuật và giá",
+            "B": "Phương pháp lợi ích xã hội, lợi ích nhà nước",
+            "C": "Phương pháp giá đánh giá",
+            "D": "Tất cả các phương án trên đều đúng"
+        },
+        "correctAnswer": "B",
+        "explanation": "Căn cứ khoản 1 Điều 62 Luật Đấu thầu số 22/2023/QH15, phương pháp đánh giá lợi ích xã hội, lợi ích nhà nước được áp dụng để đánh giá năng lực, kinh nghiệm của nhà đầu tư và hiệu quả phương án đầu tư kinh doanh, bao gồm hiệu quả sử dụng đất, hiệu quả đầu tư phát triển ngành, lĩnh vực, địa phương. Vì vậy chọn B. Phương pháp kết hợp giữa kỹ thuật và giá, phương pháp giá đánh giá là phương pháp đánh giá trong lựa chọn nhà thầu.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 426,
+        "question": "Đối với lựa chọn nhà đầu tư, tiêu chí nào không phải là tiêu chí bắt buộc trong tiêu chuẩn đánh giá hồ sơ dự thầu?",
+        "options": {
+            "A": "Năng lực",
+            "B": "Kinh nghiệm thực hiện dự án tương tự",
+            "C": "Phương án đầu tư kinh doanh",
+            "D": "Hiệu quả sử dụng đất hoặc hiệu quả đầu tư phát triển ngành, lĩnh vực, địa phương"
+        },
+        "correctAnswer": "B",
+        "explanation": "Căn cứ khoản 2 Điều 62 Luật Đấu thầu số 22/2023/QH15 (sửa đổi, bổ sung bởi Luật số 90/2025/QH15), tiêu chuẩn đánh giá hồ sơ dự thầu gồm: năng lực; phương án đầu tư kinh doanh; hiệu quả sử dụng đất, hiệu quả đầu tư phát triển ngành, lĩnh vực, địa phương. Khoản 2 Điều 50 Nghị định số 274/2026/NĐ-CP quy định hồ sơ mời thầu không quy định tiêu chuẩn đánh giá kinh nghiệm thực hiện dự án tương tự (kinh nghiệm chỉ dùng để xử lý khi điểm tổng hợp ngang nhau). Vì vậy chọn B.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 427,
+        "question": "Sử dụng tiêu chuẩn đánh giá nào khi đánh giá về mặt tài chính khi lựa chọn nhà đầu tư đối với dự án khu đô thị, khu dân cư nông thôn?",
+        "options": {
+            "A": "Hiệu quả sử dụng đất",
+            "B": "Hiệu quả đầu tư phát triển ngành, lĩnh vực, địa phương",
+            "C": "Lợi ích xã hội, lợi ích nhà nước",
+            "D": "Phương án đầu tư kinh doanh"
+        },
+        "correctAnswer": "A",
+        "explanation": "Căn cứ khoản 1 Điều 52 và khoản 2 Điều 49 Nghị định số 274/2026/NĐ-CP, tiêu chuẩn hiệu quả sử dụng đất áp dụng cho dự án tại điểm a khoản 1 Điều 4 (khu đô thị, khu dân cư nông thôn theo khoản 27 Điều 79 Luật Đất đai) và là nội dung đề xuất về tài chính của nhà đầu tư (tỷ lệ nộp ngân sách M). Vì vậy chọn A. B áp dụng cho dự án theo pháp luật quản lý ngành, lĩnh vực; C là tên phương pháp đánh giá; D là tiêu chuẩn kỹ thuật, xã hội, môi trường.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 428,
+        "question": "Sử dụng tiêu chuẩn đánh giá nào khi đánh giá về mặt tài chính đối với dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực?",
+        "options": {
+            "A": "Hiệu quả sử dụng đất",
+            "B": "Hiệu quả đầu tư phát triển ngành, lĩnh vực, địa phương",
+            "C": "Lợi ích xã hội, lợi ích nhà nước",
+            "D": "Phương án đầu tư kinh doanh"
+        },
+        "correctAnswer": "B",
+        "explanation": "Căn cứ khoản 1 Điều 53 Nghị định số 274/2026/NĐ-CP, tiêu chuẩn đánh giá về hiệu quả đầu tư phát triển ngành, lĩnh vực, địa phương được áp dụng đối với dự án quy định tại khoản 2 và khoản 3 Điều 4 (dự án phải đấu thầu theo pháp luật quản lý ngành, lĩnh vực), được xây dựng trên một trong các tiêu chuẩn như giá trị tối thiểu bằng tiền nộp ngân sách nhà nước, tỷ lệ doanh thu tối thiểu nộp ngân sách… Vì vậy chọn B. Phương án A áp dụng cho dự án khu đô thị, khu dân cư nông thôn.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 429,
+        "question": "Phát biểu nào sau đây về lựa chọn nhà đầu tư trong trường hợp đặc biệt là không chính xác?",
+        "options": {
+            "A": "Lồng ghép thủ tục đề xuất lựa chọn nhà đầu tư trong trường hợp đặc biệt tại văn bản đề nghị chấp thuận chủ trương đầu tư (đối với dự án thuộc diện chấp thuận chủ trương đầu tư) hoặc văn bản đề nghị thực hiện dự án (đối với dự án không thuộc diện chấp thuận chủ trương đầu tư)",
+            "B": "Căn cứ quyết định chủ trương đầu tư hoặc văn bản phê duyệt thông tin dự án đầu tư, cơ quan có thẩm quyền quyết định áp dụng hình thức lựa chọn nhà đầu tư trong trường hợp đặc biệt",
+            "C": "Bắt buộc ký kết hợp đồng",
+            "D": "Phương án B và C đều đúng"
+        },
+        "correctAnswer": "D",
+        "explanation": "Căn cứ Điều 46 Nghị định số 274/2026/NĐ-CP, đề xuất áp dụng hình thức đặc biệt được lồng ghép khi lập hồ sơ đề nghị chấp thuận chủ trương hoặc hồ sơ đề xuất dự án (khoản 1), nên A đúng; B mô tả trình tự “căn cứ quyết định chủ trương rồi mới quyết định áp dụng” của chỉ định nhà đầu tư thông thường (Điều 48) nên không chính xác; C sai vì khoản 4 Điều 46 chỉ ký hợp đồng nếu cần thiết. Vì vậy chọn D. Lưu ý: dự án do Quốc hội, Thủ tướng chấp thuận được quyết định sau chủ trương.",
+        "category": "Lựa chọn nhà đầu tư"
+    },
+    {
+        "id": 430,
+        "question": "Một trong các nguyên tắc xét duyệt trúng thầu đối với lựa chọn nhà đầu tư là gì?",
+        "options": {
+            "A": "Nhà đầu tư có điểm tổng hợp cao nhất",
+            "B": "Nhà đầu tư đề xuất nộp ngân sách nhà nước lớn nhất",
+            "C": "Nhà đầu tư đề xuất phương án đầu tư kinh doanh hiệu quả nhất",
+            "D": "Phương án B và C đều đúng"
+        },
+        "correctAnswer": "A",
+        "explanation": "Căn cứ điểm e khoản 1 Điều 54 Nghị định số 274/2026/NĐ-CP và điểm đ khoản 1 Điều 63 Luật Đấu thầu số 22/2023/QH15, nhà đầu tư được xem xét, đề nghị trúng thầu khi đáp ứng đủ các điều kiện, trong đó có điểm tổng hợp về năng lực, phương án đầu tư kinh doanh và hiệu quả sử dụng đất, hiệu quả đầu tư phát triển ngành, lĩnh vực, địa phương cao nhất. Vì vậy chọn A. Các phương án B, C chỉ là một thành phần đánh giá, không phải nguyên tắc xét duyệt trúng thầu.",
+        "category": "Lựa chọn nhà đầu tư"
+    }
+]

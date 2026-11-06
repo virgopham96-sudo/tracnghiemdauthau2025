@@ -91,7 +91,7 @@ const initialParsedState = (() => {
     } else if (path.startsWith('/thitheobode/bo-de-')) {
         const parts = path.split('-');
         const setNum = parseInt(parts[parts.length - 1], 10);
-        if (!isNaN(setNum) && setNum >= 1 && setNum <= 39) {
+        if (!isNaN(setNum) && setNum >= 1 && setNum <= 43) {
             currentSetIndex = setNum - 1;
             view = 'quiz';
         } else {
@@ -106,7 +106,7 @@ const initialParsedState = (() => {
                 currentSetIndex = -1;
             } else if (setNum === -2) {
                 currentSetIndex = -2;
-            } else if (!isNaN(setNum) && setNum >= 1 && setNum <= 39) {
+            } else if (!isNaN(setNum) && setNum >= 1 && setNum <= 43) {
                 currentSetIndex = setNum - 1;
             }
         }
@@ -193,7 +193,7 @@ function App() {
             } else if (path.startsWith('/thitheobode/bo-de-')) {
                 const parts = path.split('-');
                 const setNum = parseInt(parts[parts.length - 1], 10);
-                if (!isNaN(setNum) && setNum >= 1 && setNum <= 39) {
+                if (!isNaN(setNum) && setNum >= 1 && setNum <= 43) {
                     newSetIndex = setNum - 1;
                     newView = 'quiz';
                 } else {
@@ -208,7 +208,7 @@ function App() {
                         newSetIndex = -1;
                     } else if (setNum === -2) {
                         newSetIndex = -2;
-                    } else if (!isNaN(setNum) && setNum >= 1 && setNum <= 39) {
+                    } else if (!isNaN(setNum) && setNum >= 1 && setNum <= 43) {
                         newSetIndex = setNum - 1;
                     }
                 }
@@ -357,7 +357,7 @@ function App() {
             if (count <= 20) return 20 * 60;
             return Math.min(count * 60, 90 * 60); // Cap at 90 mins
         }
-        if (currentSetIndex !== null) { // Set quiz
+        if (currentSetIndex !== null) { // Set quiz (10 questions)
             return 15 * 60; // 15 minutes
         }
         return 0;

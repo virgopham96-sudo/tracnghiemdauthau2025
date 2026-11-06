@@ -235,9 +235,18 @@ export const MockExam: React.FC<MockExamProps> = ({ questions, onSubmit, onBack 
                             const isSelected = selectedAnswers[currentQuestion.id] === originalKey;
 
                             return (
-                                <label 
+                                <div 
                                     key={uiKey}
-                                    className={`flex items-start gap-3.5 sm:gap-4 p-3.5 sm:p-4 md:p-4.5 rounded-xl border-2 cursor-pointer transition-all ${
+                                    onClick={() => handleOptionChange(currentQuestion.id, originalKey)}
+                                    role="button"
+                                    tabIndex={0}
+                                    onKeyDown={(e) => {
+                                        if (e.key === 'Enter' || e.key === ' ') {
+                                            e.preventDefault();
+                                            handleOptionChange(currentQuestion.id, originalKey);
+                                        }
+                                    }}
+                                    className={`flex items-start gap-3.5 sm:gap-4 p-3.5 sm:p-4 md:p-4.5 rounded-xl border-2 cursor-pointer transition-all select-none ${
                                         isSelected 
                                             ? 'border-[#0983c2] bg-[#f0f7fc] dark:bg-cyan-950/50 shadow-sm ring-1 ring-[#0983c2]' 
                                             : 'border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-800/60'
@@ -250,12 +259,12 @@ export const MockExam: React.FC<MockExamProps> = ({ questions, onSubmit, onBack 
                                     }`}>
                                         {uiKey}
                                     </span>
-                                    <span className={`text-base sm:text-lg md:text-xl leading-relaxed flex-1 pt-0.5 select-none ${
+                                    <span className={`text-base sm:text-lg md:text-xl leading-relaxed flex-1 pt-0.5 ${
                                         isSelected ? 'font-medium text-slate-950 dark:text-white' : 'text-slate-800 dark:text-slate-200'
                                     }`}>
                                         {value}
                                     </span>
-                                </label>
+                                </div>
                             );
                         })}
                     </div>

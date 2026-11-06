@@ -38,6 +38,10 @@ import { set36 } from './set36';
 import { set37 } from './set37';
 import { set38 } from './set38';
 import { set39 } from './set39';
+import { set40 } from './set40';
+import { set41 } from './set41';
+import { set42 } from './set42';
+import { set43 } from './set43';
 
 export const allSetsData = [
     set1,
@@ -78,5 +82,9 @@ export const allSetsData = [
     set36,
     set37,
     set38,
-    set39
+    set39,
+    set40,
+    set41,
+    set42,
+    set43
 ];

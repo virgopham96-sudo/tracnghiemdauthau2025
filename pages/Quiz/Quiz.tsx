@@ -32,7 +32,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
     const [autoNext, setAutoNext] = useState(false);
     const [isGridVisible, setIsGridVisible] = useState(false);
 
-    const isSetMode = setTitle.includes('bộ đề');
+    const isSetMode = setTitle.toLowerCase().includes('bộ đề') || setTitle.includes('2775');
 
     // Ref to hold the latest answers to avoid stale closure in setInterval
     const answersRef = useRef(selectedAnswers);
@@ -365,7 +365,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
                                            {currentQuestion.correctAnswer}
                                        </span>
                                        <span className="text-xs text-slate-500 dark:text-slate-400 font-normal">
-                                           (Câu {currentQuestion.id})
+                                           {currentQuestion.newExamNote ? `(${currentQuestion.newExamNote})` : `(Câu ${currentQuestion.id})`}
                                        </span>
                                    </div>
                                    <p className="text-slate-800 dark:text-slate-200 mt-2">{currentQuestion.explanation}</p>

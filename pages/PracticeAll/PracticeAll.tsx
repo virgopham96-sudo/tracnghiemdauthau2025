@@ -294,7 +294,7 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                                            {currentQuestion.correctAnswer}
                                        </span>
                                        <span className="text-xs text-slate-500 dark:text-slate-400 font-normal">
-                                           (Câu {currentQuestion.id})
+                                           {currentQuestion.newExamNote ? `(${currentQuestion.newExamNote})` : `(Câu ${currentQuestion.id})`}
                                        </span>
                                    </div>
                                    <p className="text-slate-800 dark:text-slate-200 mt-2">{currentQuestion.explanation}</p>

@@ -11,6 +11,9 @@ export interface Question {
   correctAnswer: 'A' | 'B' | 'C' | 'D';
   explanation: string;
   category: string;
+  isNew2775?: boolean;
+  newExamId?: number;
+  newExamNote?: string;
 }
 
 export type UserAnswers = Record<number, 'A' | 'B' | 'C' | 'D'>;

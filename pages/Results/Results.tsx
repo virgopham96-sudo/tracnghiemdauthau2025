@@ -17,7 +17,7 @@ interface ResultsProps {
 const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, onRetry, setTitle, isPracticeMode, completionTime, restartLabel }) => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
-    const isSetMode = setTitle.includes('bộ đề');
+    const isSetMode = setTitle.toLowerCase().includes('bộ đề') || setTitle.includes('2775');
 
     const score = questions.reduce((acc, q) => {
         return acc + (userAnswers[q.id] === q.correctAnswer ? 1 : 0);
@@ -177,7 +177,7 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, on
                         </div>
                         <div className="mt-4 p-4 bg-cyan-50/70 dark:bg-cyan-950/40 rounded-lg border border-cyan-200 dark:border-cyan-800">
                            <p className="font-bold text-cyan-700 dark:text-cyan-400">Lý giải:</p>
-                           <p className="text-slate-800 dark:text-slate-200 font-bold mb-1">Câu {currentQuestion.id}-{currentQuestion.correctAnswer}</p>
+                           <p className="text-slate-800 dark:text-slate-200 font-bold mb-1">{currentQuestion.newExamNote ? `${currentQuestion.newExamNote} - Đáp án ${currentQuestion.correctAnswer}` : `Câu ${currentQuestion.id}-${currentQuestion.correctAnswer}`}</p>
                            <p className="text-slate-800 dark:text-slate-200">{currentQuestion.explanation}</p>
                         </div>
                     </div>

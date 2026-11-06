@@ -1,8 +1,10 @@
 import { Question } from '../types';
 
 export const NEW_QUESTIONS_IDS = Array.from({ length: 50 }, (_, i) => 341 + i); // 341 to 390
+export const NEW_QUESTIONS_2775_IDS = Array.from({ length: 40 }, (_, i) => 391 + i); // 391 to 430
 
 export const BASE_CATEGORY_MAPPING: Record<string, number[]> = {
+    "18. 40 Câu hỏi mới bổ sung (TB 2775/TB-QLĐT)": NEW_QUESTIONS_2775_IDS,
     "17. 50 Câu hỏi mới bổ sung (2025)": NEW_QUESTIONS_IDS,
     "1. Phạm vi, Đối tượng áp dụng & Khái niệm cơ bản": [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 337],
     "2. Hình thức lựa chọn nhà thầu": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 142, 297],
@@ -46,3 +48,24 @@ export const getOrderedCategories = (mapping: Record<string, number[]>): string[
         return numA - numB;
     });
 };
+
+export interface ChuyenDeItem {
+    id: string;
+    name: string;
+    count: number;
+    startId: number;
+    endId: number;
+}
+
+export const CHUYEN_DE_LIST: ChuyenDeItem[] = [
+    { id: 'all', name: 'TẤT CẢ CHUYÊN ĐỀ', count: 390, startId: 1, endId: 390 },
+    { id: 'cd1', name: 'CHUYÊN ĐỀ 1: QUY ĐỊNH CHUNG', count: 31, startId: 1, endId: 31 },
+    { id: 'cd2', name: 'CHUYÊN ĐỀ 2: KẾ HOẠCH LCNT, HÌNH THỨC LCNT', count: 36, startId: 32, endId: 67 },
+    { id: 'cd3', name: 'CHUYÊN ĐỀ 3: ĐẤU THẦU QUA MẠNG', count: 90, startId: 68, endId: 157 },
+    { id: 'cd4', name: 'CHUYÊN ĐỀ 4: QUY TRÌNH LCNT, LẬP HSMT', count: 60, startId: 158, endId: 217 },
+    { id: 'cd5', name: 'CHUYÊN ĐỀ 5: QUY TRÌNH LCNT, ĐÁNH GIÁ HSDT', count: 72, startId: 218, endId: 289 },
+    { id: 'cd6', name: 'CHUYÊN ĐỀ 6: MSTT, HỢP ĐỒNG', count: 42, startId: 290, endId: 331 },
+    { id: 'cd7', name: 'CHUYÊN ĐỀ 7: KIỂM TRA, GS, XLKN', count: 36, startId: 332, endId: 367 },
+    { id: 'cd8', name: 'NỘI DUNG KHÁC: HIỆP ĐỊNH', count: 23, startId: 368, endId: 390 },
+];
+
