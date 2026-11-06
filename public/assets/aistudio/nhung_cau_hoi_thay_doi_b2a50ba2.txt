@@ -1,0 +1,184 @@
+[
+  {
+    "id": 281,
+    "question": "Khi sử dụng phương pháp chấm điểm để xây dựng tiêu chuẩn đánh giá về kỹ thuật đối với gói thầu mua sắm hàng hóa có yêu cầu kỹ thuật cao, mức điểm yêu cầu tối thiểu về kỹ thuật được quy định là bao nhiêu?",
+    "options": {
+      "A": "Không thấp hơn 60% tổng số điểm tối đa về kỹ thuật",
+      "B": "Không thấp hơn 70% tổng số điểm tối đa về kỹ thuật",
+      "C": "Từ 80% đến 90% tổng số điểm tối đa về kỹ thuật",
+      "D": "Không thấp hơn 90% tổng số điểm tối đa về kỹ thuật"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ điểm b khoản 4 Điều 26 Nghị định số 214/2025/NĐ-CP, khi sử dụng phương pháp chấm điểm để xây dựng tiêu chuẩn đánh giá về kỹ thuật cho gói thầu mua sắm hàng hóa, mức điểm yêu cầu tối thiểu về kỹ thuật không thấp hơn 70% tổng số điểm tối đa; riêng gói thầu có yêu cầu kỹ thuật cao, mức điểm yêu cầu tối thiểu từ 80% đến 90% tổng số điểm tối đa về kỹ thuật. Phương án B là mức chung, không phải mức cho gói thầu có yêu cầu kỹ thuật cao. Vì vậy chọn C.",
+    "category": "Câu hỏi cập nhật",
+    "isUpdated2775": true,
+    "originalExamId": 272,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  },
+  {
+    "id": 288,
+    "question": "Trường hợp nào sau đây chủ đầu tư được tự quyết định sửa đổi hợp đồng?",
+    "options": {
+      "A": "Sửa đổi hợp đồng làm vượt giá gói thầu đã duyệt và vượt tổng mức đầu tư của dự án",
+      "B": "Sửa đổi hợp đồng làm thay đổi thời gian thực hiện hợp đồng nhưng không làm vượt thời gian thực hiện dự án hoặc vượt giá gói thầu (bao gồm dự phòng) được duyệt nhưng không làm vượt tổng mức đầu tư",
+      "C": "Sửa đổi hợp đồng làm thay đổi thời gian thực hiện hợp đồng và vượt thời gian thực hiện dự án",
+      "D": "Sửa đổi hợp đồng làm thay đổi thiết kế cơ sở dẫn đến phải điều chỉnh chủ trương đầu tư"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ khoản 4 Điều 70 Luật Đấu thầu số 22/2023/QH15 (sửa đổi, bổ sung bởi Luật số 90/2025/QH15), chủ đầu tư xem xét, quyết định sửa đổi hợp đồng khi sửa đổi làm thay đổi thời gian thực hiện hợp đồng nhưng không vượt thời gian thực hiện dự án hoặc vượt giá gói thầu (bao gồm dự phòng) được duyệt nhưng không làm vượt tổng mức đầu tư, dự toán mua sắm. Phương án A, C, D vượt tổng mức đầu tư, vượt thời gian dự án hoặc phải điều chỉnh chủ trương đầu tư nên vượt thẩm quyền chủ đầu tư. Vì vậy chọn B.",
+    "category": "Câu hỏi cập nhật",
+    "isUpdated2775": true,
+    "originalExamId": 279,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  },
+  {
+    "id": 341,
+    "question": "Nhận định nào sau đây về hợp đồng điện tử là đúng?",
+    "options": {
+      "A": "Bắt buộc sử dụng hợp đồng điện tử đối với tất cả gói thầu tổ chức lựa chọn nhà thầu qua mạng và không qua mạng theo hình thức đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước",
+      "B": "Bắt buộc sử dụng hợp đồng điện tử đối với gói thầu áp dụng hình thức đặt hàng, chỉ định thầu, mua sắm trực tiếp, đàm phán giá, lựa chọn nhà thầu trong trường hợp đặc biệt, gói thầu có sự tham gia của cộng đồng, lựa chọn tư vấn cá nhân theo quy trình rút gọn",
+      "C": "Bắt buộc sử dụng hợp đồng điện tử đối với các gói thầu mà việc thanh toán hợp đồng không được thực hiện qua Kho bạc nhà nước",
+      "D": "Bắt buộc sử dụng hợp đồng điện tử đối với tất cả gói thầu tổ chức lựa chọn nhà thầu trên Hệ thống mạng đấu thầu Quốc gia theo hình thức đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ khoản 4 Điều 70 Luật Đấu thầu số 22/2023/QH15 (sửa đổi, bổ sung bởi Luật số 90/2025/QH15), chủ đầu tư xem xét, quyết định sửa đổi hợp đồng khi sửa đổi làm thay đổi thời gian thực hiện hợp đồng nhưng không vượt thời gian thực hiện dự án hoặc vượt giá gói thầu (bao gồm dự phòng) được duyệt nhưng không làm vượt tổng mức đầu tư, dự toán mua sắm. Phương án A, C, D vượt tổng mức đầu tư, vượt thời gian dự án hoặc phải điều chỉnh chủ trương đầu tư nên vượt thẩm quyền chủ đầu tư. Vì vậy chọn B.",
+    "category": "Câu hỏi cập nhật",
+    "isUpdated2775": true,
+    "originalExamId": 331,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  },
+  {
+    "id": 380,
+    "question": "Chủ đầu tư A đang lập E-HSMT cho gói thầu dịch vụ tư vấn, tiêu chuẩn đánh giá về kỹ thuật sử dụng phương pháp kết hợp giữa kỹ thuật và giá (thang điểm 100), điểm yêu cầu tối thiểu về kỹ thuật là 70 điểm, trong đó quy định điểm tối đa đối với từng nội dung như sau:\n- Kinh nghiệm và năng lực của nhà thầu: 5 điểm\n- Uy tín của nhà thầu: 5 điểm\n- Giải pháp và phương pháp luận: 30 điểm\n- Nhân sự chủ chốt: 60 điểm\nQuy định nào sau đây về mức điểm yêu cầu tối thiểu về kỹ thuật đối với từng nội dung là phù hợp?",
+    "options": {
+      "A": "Kinh nghiệm và năng lực của nhà thầu: 3 điểm; uy tín của nhà thầu: 3 điểm; giải pháp và phương pháp luận: 18 điểm; nhân sự chủ chốt: 36 điểm",
+      "B": "Kinh nghiệm và năng lực của nhà thầu: 3.5 điểm; uy tín của nhà thầu: 3,5 điểm; giải pháp và phương pháp luận: 21 điểm; nhân sự chủ chốt: 42 điểm",
+      "C": "Kinh nghiệm và năng lực của nhà thầu: 3 điểm; uy tín của nhà thầu: 0 điểm; giải pháp và phương pháp luận: 18 điểm; nhân sự chủ chốt: 36 điểm",
+      "D": "Kinh nghiệm và năng lực của nhà thầu: 3.5 điểm; uy tín của nhà thầu: 0 điểm; giải pháp và phương pháp luận: 21 điểm; nhân sự chủ chốt: 42 điểm"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ khoản 5 Điều 63 Nghị định số 214/2025/NĐ-CP và Mục 2 Chương III Mẫu số 6A kèm theo Thông tư số 79/2025/TT-BTC, điểm tối thiểu quy định cho giải pháp, phương pháp luận và nhân sự (không thấp hơn 60% điểm tối đa); kinh nghiệm tùy tính chất gói thầu; uy tín không có điểm tối thiểu. Phương án C: 18 = 60% × 30; 36 = 60% × 60 là phù hợp. A, B sai vì đặt điểm tối thiểu cho uy tín. Vì vậy chọn C. Lưu ý: D (70%) không trái quy định nhưng 70% là mức của gói thầu kỹ thuật cao, đặc thù.",
+    "category": "Câu hỏi cập nhật",
+    "isUpdated2775": true,
+    "originalExamId": 370,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  },
+  {
+    "id": 32,
+    "question": "Đối với gói thầu mua sắm hàng hóa thông dụng, sẵn có trên thị trường có giá gói thầu 07 tỷ đồng thì kế hoạch lựa chọn nhà thầu phê duyệt áp dụng hình thức lựa chọn nhà thầu nào sau đây?",
+    "options": {
+      "A": "Chỉ được áp dụng hình thức chào hàng cạnh tranh",
+      "B": "Được áp dụng hình thức chào hàng cạnh tranh hoặc đấu thầu rộng rãi",
+      "C": "Bắt buộc áp dụng hình thức chỉ định thầu",
+      "D": "Được áp dụng hình thức chỉ định thầu hoặc chào hàng cạnh tranh hoặc đấu thầu rộng rãi"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ điểm b khoản 1 Điều 24 Luật Đấu thầu số 22/2023/QH15 (sửa đổi, bổ sung bởi Luật số 90/2025/QH15) và Điều 81 Nghị định số 214/2025/NĐ-CP, gói thầu hàng hóa thông dụng, sẵn có, giá không quá 10 tỷ đồng được áp dụng chào hàng cạnh tranh; đấu thầu rộng rãi luôn được áp dụng. Giá 07 tỷ đồng vượt hạn mức chỉ định thầu tại khoản 4 Điều 78 Nghị định 214 (01 tỷ với dự toán mua sắm, 05 tỷ với hàng hóa thuộc dự án). Vì vậy chọn B; A, C, D sai.",
+    "category": "Câu hỏi cập nhật",
+    "isUpdated2775": true,
+    "originalExamId": 401,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  },
+  {
+    "id": 34,
+    "question": "Hạn mức chỉ định thầu đối với gói thầu mua sắm hàng hóa thuộc dự án đầu tư là?",
+    "options": {
+      "A": "01 tỷ đồng",
+      "B": "02 tỷ đồng",
+      "C": "03 tỷ đồng",
+      "D": "05 tỷ đồng"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ khoản 4 Điều 78 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), hạn mức chỉ định thầu là: gói thầu thuộc dự toán mua sắm không hình thành dự án không quá 01 tỷ đồng; gói thầu dịch vụ tư vấn thuộc dự án không quá 03 tỷ đồng; gói thầu dịch vụ phi tư vấn, hàng hóa, xây lắp, hỗn hợp thuộc dự án không quá 05 tỷ đồng. Vì vậy gói thầu mua sắm hàng hóa thuộc dự án đầu tư có hạn mức 05 tỷ đồng, chọn D.",
+    "category": "Câu hỏi cập nhật",
+    "isUpdated2775": true,
+    "originalExamId": 402,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  },
+  {
+    "id": 44,
+    "question": "Đối với nội dung mua sắm hàng hóa có giá không quá 100 triệu đồng thì được thực hiện như thế nào?",
+    "options": {
+      "A": "Không phải lập kế hoạch lựa chọn nhà thầu nhưng phải thực hiện mua sắm trên cơ sở tiết kiệm, hiệu quả, bảo đảm đầy đủ hoá đơn, chứng từ",
+      "B": "Không phải lập kế hoạch lựa chọn nhà thầu nhưng phải thực hiện mua sắm theo giá công khai, giá niêm yết và không cần hoá đơn, chứng từ",
+      "C": "Được hình thành gói thầu để thực hiện lựa chọn nhà thầu theo một trong các hình thức lựa chọn nhà thầu (đấu thầu rộng rãi, chào hàng cạnh tranh, chỉ định thầu) nhưng phải lập kế hoạch lựa chọn nhà thầu",
+      "D": "Phương án A và C đều đúng"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ khoản 4 Điều 80 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), nội dung mua sắm không quá 100 triệu đồng được thủ trưởng đơn vị quyết định mua sắm tiết kiệm, hiệu quả, không phải đáp ứng điều kiện khoản 2 Điều 79 (có kế hoạch lựa chọn nhà thầu) nhưng phải đủ hóa đơn, chứng từ; hoặc thực hiện theo quy trình lựa chọn nhà thầu (khi đó cần kế hoạch lựa chọn nhà thầu). Vì vậy A và C đúng, chọn D; B sai. Lưu ý: văn bản chỉ nêu phương án thay thế là chỉ định thầu rút gọn.",
+    "category": "Câu hỏi cập nhật",
+    "isUpdated2775": true,
+    "originalExamId": 403,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  },
+  {
+    "id": 142,
+    "question": "Áp dụng hình thức lựa chọn nhà thầu nào khi mua sắm tập trung đối với gói thầu điều hòa không khí thông dụng, sẵn có trên thị trường, có giá gói thầu là 07 tỷ đồng cho các cơ quan thuộc tỉnh X?",
+    "options": {
+      "A": "Đấu thầu rộng rãi hoặc mua sắm trực tiếp",
+      "B": "Đấu thầu rộng rãi hoặc chỉ định thầu theo hạn mức",
+      "C": "Đấu thầu rộng rãi hoặc chào hàng cạnh tranh",
+      "D": "Đấu thầu rộng rãi hoặc chỉ định thầu hoặc đàm phán giá"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ khoản 3 Điều 89 Nghị định số 214/2025/NĐ-CP, mua sắm tập trung được thực hiện thông qua đấu thầu rộng rãi; hàng hóa đáp ứng điều kiện chào hàng cạnh tranh (thông dụng, sẵn có, giá gói thầu không quá 10 tỷ đồng theo Điều 81) thì được áp dụng chào hàng cạnh tranh. Gói thầu điều hòa thông dụng 07 tỷ đồng đáp ứng điều kiện này, nên chọn C. Chỉ định thầu trong mua sắm tập trung chỉ theo khoản 1 Điều 78 (cấp bách), không theo hạn mức; mua sắm trực tiếp, đàm phán giá không phù hợp.",
+    "category": "Câu hỏi cập nhật",
+    "isUpdated2775": true,
+    "originalExamId": 404,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  },
+  {
+    "id": 148,
+    "question": "Phương án nào sau đây được xác định là một bước trong quá trình lựa chọn nhà thầu theo quy trình chỉ định thầu thông thường được pháp luật về đấu thầu quy định?",
+    "options": {
+      "A": "Xác định tối thiểu 03 nhà thầu có đủ năng lực, kinh nghiệm để mời nhận hồ sơ yêu cầu",
+      "B": "Chuẩn bị và gửi dự thảo hợp đồng cho tối thiểu 03 nhà thầu có đủ năng lực, kinh nghiệm để đàm phán hợp đồng",
+      "C": "Đánh giá hồ sơ đề xuất và thương thảo với nhà thầu",
+      "D": "Phương án A và C đều đúng"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ điểm c khoản 3 Điều 79 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), quy trình chỉ định thầu thông thường có bước nộp hồ sơ đề xuất, đánh giá hồ sơ đề xuất và thương thảo với nhà thầu. Phương án A sai vì theo điểm b khoản 3 Điều 79, chủ đầu tư chỉ xác định một nhà thầu dự kiến được mời nhận hồ sơ yêu cầu; phương án B sai vì gửi dự thảo hợp đồng là bước của chỉ định thầu rút gọn (Điều 80) và cũng chỉ gửi cho một nhà thầu. Vì vậy chọn C.",
+    "category": "Câu hỏi cập nhật",
+    "isUpdated2775": true,
+    "originalExamId": 405,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  },
+  {
+    "id": 177,
+    "question": "Đối với kiến nghị về kết quả lựa chọn nhà thầu, Hội đồng giải quyết kiến nghị phải có văn bản giải quyết kiến nghị trong thời hạn bao nhiêu ngày kể từ ngày Hội đồng được thành lập?",
+    "options": {
+      "A": "25 ngày và có thể thêm tối đa 10 ngày với nội dung phức tạp",
+      "B": "30 ngày và có thể thêm tối đa 10 ngày với nội dung phức tạp",
+      "C": "35 ngày và có thể thêm tối đa 07 ngày với nội dung phức tạp",
+      "D": "20 ngày và có thể thêm tối đa 07 ngày với nội dung phức tạp"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ khoản 2 và khoản 8 Điều 138 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), Hội đồng giải quyết kiến nghị phải có văn bản giải quyết kiến nghị về kết quả lựa chọn nhà thầu trong thời hạn 30 ngày kể từ ngày Hội đồng được thành lập; đối với kiến nghị có nhiều nội dung phức tạp, Hội đồng có thể kéo dài thời gian giải quyết tối đa 10 ngày kể từ ngày hết thời hạn nêu trên. Vì vậy chọn B.",
+    "category": "Câu hỏi cập nhật",
+    "isUpdated2775": true,
+    "originalExamId": 406,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  },
+  {
+    "id": 233,
+    "question": "Đối với gói thầu tổ chức đấu thầu rộng rãi qua mạng, trường hợp tại thời điểm đóng thầu mà không có nhà thầu nộp E-HSDT thì chủ đầu tư có thể quyết định theo phương án nào sau đây?",
+    "options": {
+      "A": "Huỷ E-TBMT để mời thầu lại",
+      "B": "Chuyển sang hình thức chỉ định thầu",
+      "C": "Cho phép gia hạn thời điểm đóng thầu tối thiểu 05 ngày làm việc đối với gói thầu xây lắp, hỗn hợp có giá gói thầu không quá 20 tỷ đồng, gói thầu mua sắm hàng hoá, dịch vụ phi tư vấn có giá không quá 10 tỷ đồng",
+      "D": "Tất cả phương án trên đều đúng"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ khoản 4 Điều 140 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), áp dụng cả đấu thầu qua mạng, khi tại thời điểm đóng thầu không có nhà thầu tham dự, chủ đầu tư được chỉ định thầu theo điểm e1 khoản 2 Điều 78, hoặc hủy thông báo mời thầu để mời thầu lại, hoặc gia hạn thời điểm đóng thầu tối thiểu 05 ngày làm việc với gói thầu xây lắp, hỗn hợp không quá 20 tỷ đồng, hàng hóa, phi tư vấn không quá 10 tỷ đồng. Vì vậy A, B, C đều đúng, chọn D.",
+    "category": "Câu hỏi cập nhật",
+    "isUpdated2775": true,
+    "originalExamId": 407,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  },
+  {
+    "id": 241,
+    "question": "Chủ đầu tư yêu cầu gia hạn hiệu lực hồ sơ dự thầu, bảo đảm dự thầu trong trường hợp nào sau đây?",
+    "options": {
+      "A": "Trước khi hết hạn hiệu lực hồ sơ dự thầu trong trường hợp cần gia hạn để tiếp tục đánh giá hồ sơ dự thầu",
+      "B": "Trường hợp nhà thầu xếp hạng tiếp theo được mời vào thương thảo hợp đồng nhưng hồ sơ dự thầu của nhà thầu đó hết hiệu lực thì Chủ đầu tư phải yêu cầu nhà thầu gia hạn hiệu lực của hồ sơ dự thầu, bảo đảm dự thầu trước khi thương thảo hợp đồng",
+      "C": "Thời gian đánh giá kéo dài 
