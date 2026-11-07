@@ -16,15 +16,15 @@ export const set4: Question[] = [
   },
   {
     "id": 32,
-    "question": "Hạn mức chỉ định thầu đối với gói thầu không hình thành dự án thuộc dự toán mua sắm thường xuyên là?",
+    "question": "Đối với gói thầu mua sắm hàng hóa thông dụng, sẵn có trên thị trường có giá gói thầu 07 tỷ đồng thì kế hoạch lựa chọn nhà thầu phê duyệt áp dụng hình thức lựa chọn nhà thầu nào sau đây?",
     "options": {
-      "A": "500 triệu đồng",
-      "B": "800 triệu đồng",
-      "C": "01 tỷ đồng",
-      "D": "300 triệu đồng"
+      "A": "Chỉ được áp dụng hình thức chào hàng cạnh tranh",
+      "B": "Được áp dụng hình thức chào hàng cạnh tranh hoặc đấu thầu rộng rãi",
+      "C": "Bắt buộc áp dụng hình thức chỉ định thầu",
+      "D": "Được áp dụng hình thức chỉ định thầu hoặc chào hàng cạnh tranh hoặc đấu thầu rộng rãi"
     },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ khoản 4 Điều 78 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), gói thầu thuộc dự toán mua sắm không hình thành dự án có giá gói thầu không quá 01 tỷ đồng được áp dụng chỉ định thầu (đối với gói thầu thuộc dự án: tư vấn không quá 03 tỷ đồng; phi tư vấn, hàng hóa, xây lắp, hỗn hợp không quá 05 tỷ đồng). Các mức 300, 500, 800 triệu đồng không còn phù hợp quy định hiện hành. Vì vậy chọn C.",
+    "correctAnswer": "B",
+    "explanation": "Căn cứ điểm b khoản 1 Điều 24 Luật Đấu thầu số 22/2023/QH15 (sửa đổi, bổ sung bởi Luật số 90/2025/QH15) và Điều 81 Nghị định số 214/2025/NĐ-CP, gói thầu hàng hóa thông dụng, sẵn có, giá không quá 10 tỷ đồng được áp dụng chào hàng cạnh tranh; đấu thầu rộng rãi luôn được áp dụng. Giá 07 tỷ đồng vượt hạn mức chỉ định thầu tại khoản 4 Điều 78 Nghị định 214 (01 tỷ với dự toán mua sắm, 05 tỷ với hàng hóa thuộc dự án). Vì vậy chọn B; A, C, D sai.",
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
     "newExamId": 32,
@@ -39,9 +39,12 @@ export const set4: Question[] = [
       "C": "01 tỷ đồng",
       "D": "300 triệu đồng"
     },
-    "correctAnswer": "A",
-    "explanation": "Theo Khoản 4 Điều 78 Nghị định 214/2025/NĐ-CP, hạn mức chỉ định thầu đối với gói thầu thuộc dự toán mua sắm không hình thành dự án là không quá 500 triệu đồng.",
-    "category": "Hình thức và Phương thức LCNT"
+    "correctAnswer": "C",
+    "explanation": "Căn cứ khoản 4 Điều 78 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), gói thầu thuộc dự toán mua sắm không hình thành dự án có giá gói thầu không quá 01 tỷ đồng được áp dụng chỉ định thầu (đối với gói thầu thuộc dự án: tư vấn không quá 03 tỷ đồng; phi tư vấn, hàng hóa, xây lắp, hỗn hợp không quá 05 tỷ đồng). Các mức 300, 500, 800 triệu đồng không còn phù hợp quy định hiện hành. Vì vậy chọn C.",
+    "category": "Câu hỏi cập nhật",
+    "isNew2775": true,
+    "newExamId": 33,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
   },
   {
     "id": 34,

@@ -2,6 +2,7 @@ import { Question } from '../types';
 
 export const NEW_QUESTIONS_IDS = Array.from({ length: 50 }, (_, i) => 341 + i); // 341 to 390
 export const NEW_QUESTIONS_2775_IDS = Array.from({ length: 40 }, (_, i) => 391 + i); // 391 to 430
+export const CHANGED_QUESTIONS_IDS = [32, 33, 34, 44, 142, 148, 177, 195, 233, 241, 281, 288, 340, 341, 380];
 
 export const BASE_CATEGORY_MAPPING: Record<string, number[]> = {
     "18. 40 Câu hỏi mới bổ sung (TB 2775/TB-QLĐT)": NEW_QUESTIONS_2775_IDS,
@@ -36,7 +37,8 @@ export const getFullCategoryMapping = (questions: Question[]): Record<string, nu
 
     return {
         ...BASE_CATEGORY_MAPPING,
-        "16. Chủ đề tổng hợp": unassignedIds
+        "16. Chủ đề tổng hợp": unassignedIds,
+        "19. Ôn luyện các câu thay đổi": CHANGED_QUESTIONS_IDS
     };
 };
 

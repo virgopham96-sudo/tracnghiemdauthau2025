@@ -129,6 +129,9 @@ function App() {
     
     // UI State
     const [isGuideVisible, setIsGuideVisible] = useState(false);
+    const [bannerDismissed, setBannerDismissed] = useState<boolean>(() => {
+        return localStorage.getItem('hide_update_banner_2775') === 'true';
+    });
     const [darkMode, setDarkMode] = useState<boolean>(() => {
         const saved = localStorage.getItem('theme');
         if (saved) return saved === 'dark';
@@ -492,6 +495,36 @@ function App() {
                         </button>
                     </div>
                 </div>
+
+                {/* Banner nhỏ sát Header thông báo cập nhật */}
+                {!bannerDismissed && (
+                    <div className="bg-gradient-to-r from-amber-50 via-sky-50 to-emerald-50 dark:from-amber-950/40 dark:via-slate-900 dark:to-emerald-950/40 border-t border-slate-200/80 dark:border-slate-800 py-1 sm:py-1.5 px-3 sm:px-4 text-xs sm:text-sm text-slate-700 dark:text-slate-200 transition-colors">
+                        <div className="max-w-6xl mx-auto flex items-center justify-between gap-2">
+                            <div className="flex-1 flex items-center justify-center gap-1.5 sm:gap-2 flex-wrap text-center pr-6 sm:pr-0">
+                                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] sm:text-[11px] font-bold bg-amber-500 text-white shadow-xs">
+                                    <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse"></span>
+                                    CẬP NHẬT
+                                </span>
+                                <span className="font-medium text-slate-800 dark:text-slate-200 text-xs sm:text-sm">
+                                    Đã cập nhật 40 câu hỏi mới theo Thông báo 2775/TB-QLĐT (ngân hàng nâng lên 430 câu) & điều chỉnh đáp án các câu có sự thay đổi.
+                                </span>
+                            </div>
+                            <button
+                                onClick={() => {
+                                    setBannerDismissed(true);
+                                    localStorage.setItem('hide_update_banner_2775', 'true');
+                                }}
+                                className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 p-0.5 rounded-md transition-colors shrink-0 absolute right-2 sm:relative sm:right-auto"
+                                title="Đóng thông báo"
+                                aria-label="Đóng thông báo"
+                            >
+                                <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                )}
             </header>
             <main className="max-w-7xl mx-auto px-2 md:px-6 py-2 sm:py-4 md:py-6 flex-grow w-full flex flex-col items-center justify-center">
                 {renderContent()}

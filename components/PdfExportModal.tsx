@@ -351,7 +351,7 @@ export const PdfExportModal: React.FC<PdfExportModalProps> = ({
                                     boxSizing: 'border-box',
                                     display: 'flex',
                                     flexDirection: 'column',
-                                    justify: 'space-between',
+                                    justifyContent: 'space-between',
                                     fontFamily: 'Arial, sans-serif',
                                 }}
                             >

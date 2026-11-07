@@ -27,15 +27,6 @@ const ModeSelector: React.FC<ModeSelectorProps> = ({
 }) => {
     return (
         <div className="w-full max-w-[1150px] mx-auto px-3 sm:px-4 md:px-6 py-4 sm:py-6 flex flex-col items-center animate-fade-in">
-            {/* 1. Hero Section */}
-            <div className="text-center mb-8 sm:mb-10 max-w-3xl mx-auto">
-                <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight leading-tight">
-                    HỆ THỐNG ÔN THI CHỨNG CHỈ ĐẤU THẦU
-                </h1>
-                <p className="mt-3 text-sm sm:text-base md:text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-normal max-w-2xl mx-auto">
-                    Ngân hàng 430 câu hỏi chuẩn sát hạch – Tự do ôn luyện, thi thử và tra cứu kiến thức không cần đăng nhập
-                </p>
-            </div>
 
             {/* 2. Grid 3 cột x 2 hàng */}
             <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
