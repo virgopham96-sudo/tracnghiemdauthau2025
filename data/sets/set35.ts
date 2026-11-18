@@ -10,12 +10,12 @@ export const set35: Question[] = [
       "C": "Bắt buộc sử dụng hợp đồng điện tử đối với các gói thầu mà việc thanh toán hợp đồng không được thực hiện qua Kho bạc nhà nước",
       "D": "Bắt buộc sử dụng hợp đồng điện tử đối với tất cả gói thầu tổ chức lựa chọn nhà thầu trên Hệ thống mạng đấu thầu Quốc gia theo hình thức đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước"
     },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ khoản 4 Điều 70 Luật Đấu thầu số 22/2023/QH15 (sửa đổi, bổ sung bởi Luật số 90/2025/QH15), chủ đầu tư xem xét, quyết định sửa đổi hợp đồng khi sửa đổi làm thay đổi thời gian thực hiện hợp đồng nhưng không vượt thời gian thực hiện dự án hoặc vượt giá gói thầu (bao gồm dự phòng) được duyệt nhưng không làm vượt tổng mức đầu tư, dự toán mua sắm. Phương án A, C, D vượt tổng mức đầu tư, vượt thời gian dự án hoặc phải điều chỉnh chủ trương đầu tư nên vượt thẩm quyền chủ đầu tư. Vì vậy chọn B.",
+    "correctAnswer": "D",
+    "explanation": "Căn cứ khoản 1 Điều 32 Thông tư số 79/2025/TT-BTC, hợp đồng của gói thầu áp dụng đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến tổ chức trên Hệ thống (khoản 2 Điều 1) mà việc thanh toán thực hiện qua Kho bạc nhà nước phải được ký kết trên Hệ thống. Phương án A sai vì gồm cả gói thầu không qua mạng; B và C là các trường hợp chỉ khuyến khích áp dụng hợp đồng điện tử. Vì vậy chọn D.",
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
-    "newExamId": 341,
-    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+    "newExamId": 331,
+    "newExamNote": "Câu 331 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 342,

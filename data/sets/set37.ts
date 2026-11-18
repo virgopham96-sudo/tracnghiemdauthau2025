@@ -120,18 +120,18 @@ export const set37: Question[] = [
   },
   {
     "id": 370,
-    "question": "Chủ đầu tư A đang lập E-HSMT cho gói thầu dịch vụ tư vấn, tiêu chuẩn đánh giá về kỹ thuật sử dụng phương pháp kết hợp giữa kỹ thuật và giá (thang điểm 100), điểm yêu cầu tối thiểu về kỹ thuật là 70 điểm, trong đó quy định điểm tối đa đối với từng nội dung như sau:\n- Kinh nghiệm và năng lực của nhà thầu: 5 điểm\n- Uy tín của nhà thầu: 5 điểm\n- Giải pháp và phương pháp luận: 30 điểm\n- Nhân sự chủ chốt: 60 điểm\nQuy định nào sau đây về mức điểm yêu cầu tối thiểu về kỹ thuật đối với từng nội dung là phù hợp?",
+    "question": "Tại Mục 2.1 Chương III E-HSMT gói thầu xây lắp quy định nội dung sau: Trong thời gian từ 01/01/2022 đến thời điểm đóng thầu (năm 2025), nhà thầu đã hoàn thành toàn bộ hoặc hoàn thành phần lớn 01 công trình cấp II, có giá trị là 10 tỷ đồng với tư cách là nhà thầu chính (độc lập hoặc thành viên liên danh), nhà thầu quản lý hoặc nhà thầu phụ. Trường hợp nào sau đây nhà thầu được đánh giá là không đáp ứng yêu cầu về kinh nghiệm thực hiện hợp đồng tương tự?",
     "options": {
-      "A": "Kinh nghiệm và năng lực của nhà thầu: 3 điểm; uy tín của nhà thầu: 3 điểm; giải pháp và phương pháp luận: 18 điểm; nhân sự chủ chốt: 36 điểm",
-      "B": "Kinh nghiệm và năng lực của nhà thầu: 3.5 điểm; uy tín của nhà thầu: 3,5 điểm; giải pháp và phương pháp luận: 21 điểm; nhân sự chủ chốt: 42 điểm",
-      "C": "Kinh nghiệm và năng lực của nhà thầu: 3 điểm; uy tín của nhà thầu: 0 điểm; giải pháp và phương pháp luận: 18 điểm; nhân sự chủ chốt: 36 điểm",
-      "D": "Kinh nghiệm và năng lực của nhà thầu: 3.5 điểm; uy tín của nhà thầu: 0 điểm; giải pháp và phương pháp luận: 21 điểm; nhân sự chủ chốt: 42 điểm"
+      "A": "Nhà thầu đã hoàn thành toàn bộ 02 công trình cấp III có giá trị lần lượt là 9 tỷ đồng và 11 tỷ đồng; các hợp đồng được ký kết năm 2022, hoàn thành năm 2025 (trước thời điểm đóng thầu)",
+      "B": "Nhà thầu đã hoàn thành toàn bộ 01 công trình cấp II có giá trị là 10 tỷ đồng, hợp đồng được ký kết năm 2018, hoàn thành năm 2022",
+      "C": "Nhà thầu đã hoàn thành toàn bộ 01 công trình cấp II có giá trị là 10 tỷ đồng, hợp đồng được ký kết năm 2022, hoàn thành năm 2025 (trước thời điểm đóng thầu)",
+      "D": "Tất cả phương án trên đều đáp ứng yêu cầu về kinh nghiệm thực hiện hợp đồng tương tự"
     },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ khoản 5 Điều 63 Nghị định số 214/2025/NĐ-CP và Mục 2 Chương III Mẫu số 6A kèm theo Thông tư số 79/2025/TT-BTC, điểm tối thiểu quy định cho giải pháp, phương pháp luận và nhân sự (không thấp hơn 60% điểm tối đa); kinh nghiệm tùy tính chất gói thầu; uy tín không có điểm tối thiểu. Phương án C: 18 = 60% × 30; 36 = 60% × 60 là phù hợp. A, B sai vì đặt điểm tối thiểu cho uy tín. Vì vậy chọn C. Lưu ý: D (70%) không trái quy định nhưng 70% là mức của gói thầu kỹ thuật cao, đặc thù.",
-    "category": "Câu hỏi cập nhật",
+    "correctAnswer": "A",
+    "explanation": "Căn cứ ghi chú (11), (13) Mục 2.1 Chương III Mẫu số 3A ban hành kèm theo Thông tư số 79/2025/TT-BTC, hai công trình cấp thấp hơn liền kề được coi là một công trình tương tự có giá trị bằng công trình nhỏ hơn (ví dụ 30 và 50 tỷ đồng được coi là 30 tỷ đồng). Phương án A tương đương công trình cấp II 9 tỷ đồng, nhỏ hơn 10 tỷ đồng nên không đáp ứng. Thời điểm hoàn thành tính theo nghiệm thu, không theo ngày ký hợp đồng, nên B và C đều đáp ứng. Vì vậy chọn A.",
+    "category": "Đánh giá hồ sơ dự thầu",
     "isNew2775": true,
-    "newExamId": 370,
-    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+    "newExamId": 360,
+    "newExamNote": "Câu 360 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   }
 ];

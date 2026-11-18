@@ -24,8 +24,11 @@ export const set39: Question[] = [
       "D": "Phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia, thời gian chuẩn bị tối thiểu là 9 ngày"
     },
     "correctAnswer": "D",
-    "explanation": "Căn cứ điểm d khoản 1 Điều 25 Nghị định 214/2025/NĐ-CP và khoản 1 Điều 45 Luật Đấu thầu: 1. Hình thức: Phát hành miễn phí trên Hệ thống. 2. Thời gian: Tối thiểu là 09 ngày (ngày dương lịch) đối với đấu thầu trong nước kể từ ngày phát hành đến ngày đóng thầu. Phương án C sai vì dùng 'ngày làm việc'.",
-    "category": "Lập & Đánh giá hồ sơ mời thầu"
+    "explanation": "Căn cứ điểm d khoản 1 Điều 25 Nghị định số 214/2025/NĐ-CP, hồ sơ mời sơ tuyển được phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia; thời gian chuẩn bị hồ sơ dự sơ tuyển tối thiểu là 09 ngày đối với đấu thầu trong nước (18 ngày đối với đấu thầu quốc tế). Thời hạn tính theo ngày, không phải ngày làm việc, và không thu phí phát hành. Vì vậy chọn D.",
+    "category": "Quy trình, thủ tục lựa chọn nhà thầu",
+    "isNew2775": true,
+    "newExamId": 372,
+    "newExamNote": "Câu 372 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 383,

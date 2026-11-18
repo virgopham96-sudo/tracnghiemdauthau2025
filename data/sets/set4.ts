@@ -27,8 +27,8 @@ export const set4: Question[] = [
     "explanation": "Căn cứ điểm b khoản 1 Điều 24 Luật Đấu thầu số 22/2023/QH15 (sửa đổi, bổ sung bởi Luật số 90/2025/QH15) và Điều 81 Nghị định số 214/2025/NĐ-CP, gói thầu hàng hóa thông dụng, sẵn có, giá không quá 10 tỷ đồng được áp dụng chào hàng cạnh tranh; đấu thầu rộng rãi luôn được áp dụng. Giá 07 tỷ đồng vượt hạn mức chỉ định thầu tại khoản 4 Điều 78 Nghị định 214 (01 tỷ với dự toán mua sắm, 05 tỷ với hàng hóa thuộc dự án). Vì vậy chọn B; A, C, D sai.",
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
-    "newExamId": 32,
-    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+    "newExamId": 401,
+    "newExamNote": "Câu 401 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 33,
@@ -43,8 +43,8 @@ export const set4: Question[] = [
     "explanation": "Căn cứ khoản 4 Điều 78 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), gói thầu thuộc dự toán mua sắm không hình thành dự án có giá gói thầu không quá 01 tỷ đồng được áp dụng chỉ định thầu (đối với gói thầu thuộc dự án: tư vấn không quá 03 tỷ đồng; phi tư vấn, hàng hóa, xây lắp, hỗn hợp không quá 05 tỷ đồng). Các mức 300, 500, 800 triệu đồng không còn phù hợp quy định hiện hành. Vì vậy chọn C.",
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
-    "newExamId": 33,
-    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+    "newExamId": 32,
+    "newExamNote": "Câu 32 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 34,
@@ -59,8 +59,8 @@ export const set4: Question[] = [
     "explanation": "Căn cứ khoản 4 Điều 78 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), hạn mức chỉ định thầu là: gói thầu thuộc dự toán mua sắm không hình thành dự án không quá 01 tỷ đồng; gói thầu dịch vụ tư vấn thuộc dự án không quá 03 tỷ đồng; gói thầu dịch vụ phi tư vấn, hàng hóa, xây lắp, hỗn hợp thuộc dự án không quá 05 tỷ đồng. Vì vậy gói thầu mua sắm hàng hóa thuộc dự án đầu tư có hạn mức 05 tỷ đồng, chọn D.",
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
-    "newExamId": 34,
-    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+    "newExamId": 402,
+    "newExamNote": "Câu 402 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 35,

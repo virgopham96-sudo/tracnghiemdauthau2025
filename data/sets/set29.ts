@@ -14,8 +14,8 @@ export const set29: Question[] = [
     "explanation": "Căn cứ điểm b khoản 4 Điều 26 Nghị định số 214/2025/NĐ-CP, khi sử dụng phương pháp chấm điểm để xây dựng tiêu chuẩn đánh giá về kỹ thuật cho gói thầu mua sắm hàng hóa, mức điểm yêu cầu tối thiểu về kỹ thuật không thấp hơn 70% tổng số điểm tối đa; riêng gói thầu có yêu cầu kỹ thuật cao, mức điểm yêu cầu tối thiểu từ 80% đến 90% tổng số điểm tối đa về kỹ thuật. Phương án B là mức chung, không phải mức cho gói thầu có yêu cầu kỹ thuật cao. Vì vậy chọn C.",
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
-    "newExamId": 281,
-    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+    "newExamId": 272,
+    "newExamNote": "Câu 272 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 282,
@@ -108,8 +108,8 @@ export const set29: Question[] = [
     "explanation": "Căn cứ khoản 4 Điều 70 Luật Đấu thầu số 22/2023/QH15 (sửa đổi, bổ sung bởi Luật số 90/2025/QH15), chủ đầu tư xem xét, quyết định sửa đổi hợp đồng khi sửa đổi làm thay đổi thời gian thực hiện hợp đồng nhưng không vượt thời gian thực hiện dự án hoặc vượt giá gói thầu (bao gồm dự phòng) được duyệt nhưng không làm vượt tổng mức đầu tư, dự toán mua sắm. Phương án A, C, D vượt tổng mức đầu tư, vượt thời gian dự án hoặc phải điều chỉnh chủ trương đầu tư nên vượt thẩm quyền chủ đầu tư. Vì vậy chọn B.",
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
-    "newExamId": 288,
-    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+    "newExamId": 279,
+    "newExamNote": "Câu 279 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 289,

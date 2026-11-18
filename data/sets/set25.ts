@@ -14,8 +14,8 @@ export const set25: Question[] = [
     "explanation": "Căn cứ khoản 6 Điều 14 Luật Đấu thầu số 22/2023/QH15, chủ đầu tư được gia hạn hiệu lực hồ sơ dự thầu sau thời điểm đóng thầu kèm gia hạn bảo đảm dự thầu; khoản 16 Điều 140 Nghị định số 214/2025/NĐ-CP buộc yêu cầu nhà thầu xếp hạng tiếp theo gia hạn trước khi thương thảo; khoản 33b Điều 140 (bổ sung bởi Nghị định số 349/2026/NĐ-CP) cho phép yêu cầu khôi phục hiệu lực khi thời gian đánh giá kéo dài. Vì vậy chọn D. Lưu ý: ở trường hợp C, văn bản dùng cụm “khôi phục hiệu lực” chứ không phải “gia hạn”.",
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
-    "newExamId": 241,
-    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+    "newExamId": 408,
+    "newExamNote": "Câu 408 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 242,

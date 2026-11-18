@@ -16,19 +16,19 @@ export const set28: Question[] = [
   },
   {
     "id": 272,
-    "question": "Khi sử dụng phương pháp chấm điểm để xây dựng tiêu chuẩn đánh giá về kỹ thuật đối với gói thầu mua sắm hàng hóa có yêu cầu kỹ thuật cao, mức điểm yêu cầu tối thiểu về kỹ thuật được quy định là bao nhiêu?",
+    "question": "Đối với đấu thầu qua mạng, thành phần nào sau đây không được coi là một phần của E-HSMST, E-HSMT và nhà thầu không phải đáp ứng các yêu cầu này?",
     "options": {
-      "A": "Không thấp hơn 60% tổng số điểm tối đa về kỹ thuật",
-      "B": "Không thấp hơn 70% tổng số điểm tối đa về kỹ thuật",
-      "C": "Từ 80% đến 90% tổng số điểm tối đa về kỹ thuật",
-      "D": "Không thấp hơn 90% tổng số điểm tối đa về kỹ thuật"
+      "A": "Bảng dữ liệu được số hóa dưới dạng webform trên Hệ thống mạng đấu thầu quốc gia",
+      "B": "Tiêu chuẩn đánh giá về tính hợp lệ được đính kèm trên Hệ thống mạng đấu thầu quốc gia",
+      "C": "Yêu cầu về năng lực, kinh nghiệm được đính kèm trên Hệ thống mạng đấu thầu quốc gia",
+      "D": "Phương án B và C đều đúng"
     },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ điểm b khoản 4 Điều 26 Nghị định số 214/2025/NĐ-CP, khi sử dụng phương pháp chấm điểm để xây dựng tiêu chuẩn đánh giá về kỹ thuật cho gói thầu mua sắm hàng hóa, mức điểm yêu cầu tối thiểu về kỹ thuật không thấp hơn 70% tổng số điểm tối đa; riêng gói thầu có yêu cầu kỹ thuật cao, mức điểm yêu cầu tối thiểu từ 80% đến 90% tổng số điểm tối đa về kỹ thuật. Phương án B là mức chung, không phải mức cho gói thầu có yêu cầu kỹ thuật cao. Vì vậy chọn C.",
-    "category": "Câu hỏi cập nhật",
+    "correctAnswer": "D",
+    "explanation": "Căn cứ khoản 3 Điều 26 Thông tư số 79/2025/TT-BTC, với gói thầu hàng hóa, xây lắp, phi tư vấn, bảng dữ liệu, tiêu chuẩn đánh giá về tính hợp lệ, yêu cầu về năng lực, kinh nghiệm phải được số hóa dưới dạng webform; chủ đầu tư không được đính kèm file yêu cầu khác, và các nội dung không phải bản số hóa webform không được coi là một phần của E-HSMST, E-HSMT, nhà thầu không phải đáp ứng. Phương án A là bản webform nên vẫn là một phần của E-HSMT; B và C là file đính kèm nên không có giá trị. Vì vậy chọn D.",
+    "category": "Đấu thầu qua mạng",
     "isNew2775": true,
     "newExamId": 272,
-    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+    "newExamNote": "Câu 272 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 273,
@@ -110,19 +110,19 @@ export const set28: Question[] = [
   },
   {
     "id": 279,
-    "question": "Trường hợp nào sau đây chủ đầu tư được tự quyết định sửa đổi hợp đồng?",
+    "question": "So sánh điều kiện xét duyệt trúng thầu giữa phương pháp giá cố định và phương pháp dựa trên kỹ thuật đối với gói thầu dịch vụ tư vấn, điểm chung quyết định để nhà thầu được xếp hạng thứ nhất là gì?",
     "options": {
-      "A": "Sửa đổi hợp đồng làm vượt giá gói thầu đã duyệt và vượt tổng mức đầu tư của dự án",
-      "B": "Sửa đổi hợp đồng làm thay đổi thời gian thực hiện hợp đồng nhưng không làm vượt thời gian thực hiện dự án hoặc vượt giá gói thầu (bao gồm dự phòng) được duyệt nhưng không làm vượt tổng mức đầu tư",
-      "C": "Sửa đổi hợp đồng làm thay đổi thời gian thực hiện hợp đồng và vượt thời gian thực hiện dự án",
-      "D": "Sửa đổi hợp đồng làm thay đổi thiết kế cơ sở dẫn đến phải điều chỉnh chủ trương đầu tư"
+      "A": "Có giá dự thầu thấp nhất",
+      "B": "Có điểm tổng hợp cao nhất",
+      "C": "Có điểm kỹ thuật cao nhất",
+      "D": "Có giá đề nghị trúng thầu thấp nhất"
     },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ khoản 4 Điều 70 Luật Đấu thầu số 22/2023/QH15 (sửa đổi, bổ sung bởi Luật số 90/2025/QH15), chủ đầu tư xem xét, quyết định sửa đổi hợp đồng khi sửa đổi làm thay đổi thời gian thực hiện hợp đồng nhưng không vượt thời gian thực hiện dự án hoặc vượt giá gói thầu (bao gồm dự phòng) được duyệt nhưng không làm vượt tổng mức đầu tư, dự toán mua sắm. Phương án A, C, D vượt tổng mức đầu tư, vượt thời gian dự án hoặc phải điều chỉnh chủ trương đầu tư nên vượt thẩm quyền chủ đầu tư. Vì vậy chọn B.",
-    "category": "Câu hỏi cập nhật",
+    "correctAnswer": "C",
+    "explanation": "Căn cứ điểm c khoản 1 Điều 60 Luật Đấu thầu số 22/2023/QH15, nhà thầu tư vấn là tổ chức được đề nghị trúng thầu khi, đối với phương pháp giá cố định và phương pháp dựa trên kỹ thuật, có điểm kỹ thuật cao nhất (điểm b khoản 2 và điểm b khoản 4 Điều 59 cũng xếp hạng thứ nhất nhà thầu có điểm kỹ thuật cao nhất). Giá dự thầu thấp nhất là tiêu chí của phương pháp giá thấp nhất; điểm tổng hợp cao nhất là tiêu chí của phương pháp kết hợp giữa kỹ thuật và giá. Vì vậy chọn C.",
+    "category": "Đánh giá hồ sơ dự thầu",
     "isNew2775": true,
     "newExamId": 279,
-    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+    "newExamNote": "Câu 279 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 280,

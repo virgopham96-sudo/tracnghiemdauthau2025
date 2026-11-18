@@ -1,0 +1,130 @@
+[
+  {
+    "id": 178,
+    "question": "Phương án nào sau đây là đúng trong việc giải quyết kiến nghị đối với gói thầu sử dụng vốn sản xuất kinh doanh của doanh nghiệp nhà nước?",
+    "options": {
+      "A": "Hội đồng giải quyết kiến nghị do Sở Tài chính thành lập có trách nhiệm giải quyết kiến nghị cho gói thầu",
+      "B": "Hội đồng giải quyết kiến nghị do Bộ trưởng Bộ Tài chính thành lập có trách nhiệm giải quyết kiến nghị cho gói thầu",
+      "C": "Người đứng đầu doanh nghiệp nhà nước tự ban hành điều kiện, quy trình về giải quyết kiến nghị trong đơn vị mình",
+      "D": "Tất cả phương án trên đều sai"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ điểm d khoản 7 Điều 3 Luật Đấu thầu số 22/2023/QH15 (sửa đổi, bổ sung bởi Luật số 57/2024/QH15 và Luật số 90/2025/QH15), doanh nghiệp nhà nước không sử dụng vốn ngân sách nhà nước được tự quyết định việc mua sắm. Theo khoản 7 Điều 138 Nghị định số 214/2025/NĐ-CP, với hoạt động lựa chọn nhà thầu này, trách nhiệm giải quyết kiến nghị thuộc người đứng đầu doanh nghiệp nhà nước, người này tự ban hành điều kiện, quy trình giải quyết kiến nghị. Vì vậy chọn C; Hội đồng giải quyết kiến nghị cấp bộ, tỉnh không giải quyết trường hợp này.",
+    "category": "Giải quyết kiến nghị",
+    "isUpdated2775": true,
+    "originalExamId": 172,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  },
+  {
+    "id": 179,
+    "question": "Đối với kiến nghị về các vấn đề trước khi có thông báo kết quả lựa chọn nhà thầu, trường hợp nhà thầu gửi đơn kiến nghị đồng thời đến người có thẩm quyền và chủ đầu tư thì chủ thể nào có trách nhiệm giải quyết kiến nghị?",
+    "options": {
+      "A": "Người có thẩm quyền",
+      "B": "Chủ đầu tư",
+      "C": "Bộ phận thường trực",
+      "D": "Hội đồng giải quyết kiến nghị"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ đoạn cuối khoản 1 Điều 138 Nghị định số 214/2025/NĐ-CP, đối với kiến nghị về các vấn đề trước khi có thông báo kết quả lựa chọn nhà thầu, trường hợp nhà thầu gửi đơn kiến nghị đồng thời đến người có thẩm quyền và chủ đầu tư thì trách nhiệm giải quyết kiến nghị thuộc chủ đầu tư. Bộ phận thường trực và Hội đồng giải quyết kiến nghị chỉ tham gia giải quyết kiến nghị về kết quả lựa chọn nhà thầu, không giải quyết kiến nghị giai đoạn này. Vì vậy đáp án đúng là B.",
+    "category": "Giải quyết kiến nghị",
+    "isUpdated2775": true,
+    "originalExamId": 173,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  },
+  {
+    "id": 180,
+    "question": "Đối với kiến nghị về kết quả lựa chọn nhà thầu, trường hợp nhà thầu gửi đơn kiến nghị đồng thời đến bộ phận thường trực giúp việc Hội đồng giải quyết kiến nghị và chủ đầu tư thì chủ thể nào có trách nhiệm giải quyết kiến nghị?",
+    "options": {
+      "A": "Người có thẩm quyền",
+      "B": "Chủ đầu tư",
+      "C": "Bộ phận thường trực",
+      "D": "Hội đồng giải quyết kiến nghị"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ đoạn cuối khoản 2 Điều 138 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), đối với kiến nghị về kết quả lựa chọn nhà thầu, trường hợp nhà thầu gửi đơn kiến nghị đồng thời đến bộ phận thường trực và chủ đầu tư thì trách nhiệm giải quyết kiến nghị thuộc Hội đồng giải quyết kiến nghị. Bộ phận thường trực chỉ là đơn vị giúp việc (tiếp nhận đơn, quản lý chi phí, đăng tải văn bản), không phải chủ thể ra văn bản giải quyết. Vì vậy đáp án đúng là D.",
+    "category": "Giải quyết kiến nghị",
+    "isUpdated2775": true,
+    "originalExamId": 174,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  },
+  {
+    "id": 272,
+    "question": "Đối với đấu thầu qua mạng, thành phần nào sau đây không được coi là một phần của E-HSMST, E-HSMT và nhà thầu không phải đáp ứng các yêu cầu này?",
+    "options": {
+      "A": "Bảng dữ liệu được số hóa dưới dạng webform trên Hệ thống mạng đấu thầu quốc gia",
+      "B": "Tiêu chuẩn đánh giá về tính hợp lệ được đính kèm trên Hệ thống mạng đấu thầu quốc gia",
+      "C": "Yêu cầu về năng lực, kinh nghiệm được đính kèm trên Hệ thống mạng đấu thầu quốc gia",
+      "D": "Phương án B và C đều đúng"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ khoản 3 Điều 26 Thông tư số 79/2025/TT-BTC, với gói thầu hàng hóa, xây lắp, phi tư vấn, bảng dữ liệu, tiêu chuẩn đánh giá về tính hợp lệ, yêu cầu về năng lực, kinh nghiệm phải được số hóa dưới dạng webform; chủ đầu tư không được đính kèm file yêu cầu khác, và các nội dung không phải bản số hóa webform không được coi là một phần của E-HSMST, E-HSMT, nhà thầu không phải đáp ứng. Phương án A là bản webform nên vẫn là một phần của E-HSMT; B và C là file đính kèm nên không có giá trị. Vì vậy chọn D.",
+    "category": "Đấu thầu qua mạng",
+    "isUpdated2775": true,
+    "originalExamId": 272,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  },
+  {
+    "id": 279,
+    "question": "So sánh điều kiện xét duyệt trúng thầu giữa phương pháp giá cố định và phương pháp dựa trên kỹ thuật đối với gói thầu dịch vụ tư vấn, điểm chung quyết định để nhà thầu được xếp hạng thứ nhất là gì?",
+    "options": {
+      "A": "Có giá dự thầu thấp nhất",
+      "B": "Có điểm tổng hợp cao nhất",
+      "C": "Có điểm kỹ thuật cao nhất",
+      "D": "Có giá đề nghị trúng thầu thấp nhất"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ điểm c khoản 1 Điều 60 Luật Đấu thầu số 22/2023/QH15, nhà thầu tư vấn là tổ chức được đề nghị trúng thầu khi, đối với phương pháp giá cố định và phương pháp dựa trên kỹ thuật, có điểm kỹ thuật cao nhất (điểm b khoản 2 và điểm b khoản 4 Điều 59 cũng xếp hạng thứ nhất nhà thầu có điểm kỹ thuật cao nhất). Giá dự thầu thấp nhất là tiêu chí của phương pháp giá thấp nhất; điểm tổng hợp cao nhất là tiêu chí của phương pháp kết hợp giữa kỹ thuật và giá. Vì vậy chọn C.",
+    "category": "Đánh giá hồ sơ dự thầu",
+    "isUpdated2775": true,
+    "originalExamId": 279,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  },
+  {
+    "id": 331,
+    "question": "Theo quy định tại Nghị định số 95/2020/NĐ-CP (được sửa đổi, bổ sung tại Nghị định số 09/2022/NĐ-CP, Nghị định số 17/2025/NĐ-CP), khái niệm Nước thành viên không bao gồm:",
+    "options": {
+      "A": "Nước thành viên Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP)",
+      "B": "Nước thành viên EU",
+      "C": "Vương quốc Anh và Bắc Ai-len",
+      "D": "Các nước ASEAN chưa gia nhập Hiệp định CPTPP"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ khoản 2 Điều 3 Nghị định số 95/2020/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 09/2022/NĐ-CP và Nghị định số 17/2025/NĐ-CP), Nước thành viên gồm: nước ký kết Hiệp định CPTPP ngày 08/3/2018 và Vương quốc Anh, Bắc Ai-len (Nước thành viên Hiệp định CPTPP); nước áp dụng Hiệp ước Liên minh Châu Âu (Nước thành viên EU); Vương quốc Anh, Bắc Ai-len. Các nước ASEAN chưa gia nhập CPTPP không thuộc khái niệm Nước thành viên. Vì vậy chọn D.",
+    "category": "Đấu thầu quốc tế / Hiệp định thương mại",
+    "isUpdated2775": true,
+    "originalExamId": 322,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  },
+  {
+    "id": 370,
+    "question": "Tại Mục 2.1 Chương III E-HSMT gói thầu xây lắp quy định nội dung sau: Trong thời gian từ 01/01/2022 đến thời điểm đóng thầu (năm 2025), nhà thầu đã hoàn thành toàn bộ hoặc hoàn thành phần lớn 01 công trình cấp II, có giá trị là 10 tỷ đồng với tư cách là nhà thầu chính (độc lập hoặc thành viên liên danh), nhà thầu quản lý hoặc nhà thầu phụ. Trường hợp nào sau đây nhà thầu được đánh giá là không đáp ứng yêu cầu về kinh nghiệm thực hiện hợp đồng tương tự?",
+    "options": {
+      "A": "Nhà thầu đã hoàn thành toàn bộ 02 công trình cấp III có giá trị lần lượt là 9 tỷ đồng và 11 tỷ đồng; các hợp đồng được ký kết năm 2022, hoàn thành năm 2025 (trước thời điểm đóng thầu)",
+      "B": "Nhà thầu đã hoàn thành toàn bộ 01 công trình cấp II có giá trị là 10 tỷ đồng, hợp đồng được ký kết năm 2018, hoàn thành năm 2022",
+      "C": "Nhà thầu đã hoàn thành toàn bộ 01 công trình cấp II có giá trị là 10 tỷ đồng, hợp đồng được ký kết năm 2022, hoàn thành năm 2025 (trước thời điểm đóng thầu)",
+      "D": "Tất cả phương án trên đều đáp ứng yêu cầu về kinh nghiệm thực hiện hợp đồng tương tự"
+    },
+    "correctAnswer": "A",
+    "explanation": "Căn cứ ghi chú (11), (13) Mục 2.1 Chương III Mẫu số 3A ban hành kèm theo Thông tư số 79/2025/TT-BTC, hai công trình cấp thấp hơn liền kề được coi là một công trình tương tự có giá trị bằng công trình nhỏ hơn (ví dụ 30 và 50 tỷ đồng được coi là 30 tỷ đồng). Phương án A tương đương công trình cấp II 9 tỷ đồng, nhỏ hơn 10 tỷ đồng nên không đáp ứng. Thời điểm hoàn thành tính theo nghiệm thu, không theo ngày ký hợp đồng, nên B và C đều đáp ứng. Vì vậy chọn A.",
+    "category": "Đánh giá hồ sơ dự thầu",
+    "isUpdated2775": true,
+    "originalExamId": 360,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  },
+  {
+    "id": 382,
+    "question": "Hồ sơ mời sơ tuyển được phát hành như thế nào, thời gian chuẩn bị hồ sơ dự sơ tuyển tối thiểu là bao nhiêu ngày?",
+    "options": {
+      "A": "Phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia, thời gian chuẩn bị tối thiểu là 7 ngày làm việc",
+      "B": "Phát hành trên Hệ thống mạng đấu thầu quốc gia với giá 110.000 đồng/hồ sơ, thời gian chuẩn bị tối thiểu là 9 ngày làm việc",
+      "C": "Phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia, thời gian chuẩn bị tối thiểu là 9 ngày làm việc",
+      "D": "Phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia, thời gian chuẩn bị tối thiểu là 9 ngày"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ điểm d khoản 1 Điều 25 Nghị định số 214/2025/NĐ-CP, hồ sơ mời sơ tuyển được phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia; thời gian chuẩn bị hồ sơ dự sơ tuyển tối thiểu là 09 ngày đối với đấu thầu trong nước (18 ngày đối với đấu thầu quốc tế). Thời hạn tính theo ngày, không phải ngày làm việc, và không thu phí phát hành. Vì vậy chọn D.",
+    "category": "Quy trình, thủ tục lựa chọn nhà thầu",
+    "isUpdated2775": true,
+    "originalExamId": 372,
+    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+  }
+]

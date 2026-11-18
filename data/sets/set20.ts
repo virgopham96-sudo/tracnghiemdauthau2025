@@ -66,8 +66,8 @@ export const set20: Question[] = [
     "explanation": "Căn cứ điểm c khoản 22 Điều 140 Nghị định số 214/2025/NĐ-CP, khi một hoặc một số thành viên liên danh vi phạm hợp đồng, không còn năng lực tiếp tục thực hiện, chủ đầu tư chấm dứt hợp đồng với thành viên đó; chỉ thành viên vi phạm bị coi là không hoàn thành hợp đồng và chủ đầu tư phải đăng tải thông tin thành viên vi phạm trên Hệ thống mạng đấu thầu quốc gia. Vì vậy chọn B. A, D sai vì quy kết cả liên danh; C, D sai chủ thể đăng tải (là chủ đầu tư, không phải bên mời thầu).",
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
-    "newExamId": 195,
-    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+    "newExamId": 410,
+    "newExamNote": "Câu 410 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 196,

@@ -3,19 +3,19 @@ import { Question } from "../../types";
 export const set34: Question[] = [
   {
     "id": 331,
-    "question": "Nhận định nào sau đây về hợp đồng điện tử là đúng?",
+    "question": "Theo quy định tại Nghị định số 95/2020/NĐ-CP (được sửa đổi, bổ sung tại Nghị định số 09/2022/NĐ-CP, Nghị định số 17/2025/NĐ-CP), khái niệm Nước thành viên không bao gồm:",
     "options": {
-      "A": "Bắt buộc sử dụng hợp đồng điện tử đối với tất cả gói thầu tổ chức lựa chọn nhà thầu qua mạng và không qua mạng theo hình thức đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước",
-      "B": "Bắt buộc sử dụng hợp đồng điện tử đối với gói thầu áp dụng hình thức đặt hàng, chỉ định thầu, mua sắm trực tiếp, đàm phán giá, lựa chọn nhà thầu trong trường hợp đặc biệt, gói thầu có sự tham gia của cộng đồng, lựa chọn tư vấn cá nhân theo quy trình rút gọn",
-      "C": "Bắt buộc sử dụng hợp đồng điện tử đối với các gói thầu mà việc thanh toán hợp đồng không được thực hiện qua Kho bạc nhà nước",
-      "D": "Bắt buộc sử dụng hợp đồng điện tử đối với tất cả gói thầu tổ chức lựa chọn nhà thầu trên Hệ thống mạng đấu thầu Quốc gia theo hình thức đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước"
+      "A": "Nước thành viên Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP)",
+      "B": "Nước thành viên EU",
+      "C": "Vương quốc Anh và Bắc Ai-len",
+      "D": "Các nước ASEAN chưa gia nhập Hiệp định CPTPP"
     },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ khoản 4 Điều 70 Luật Đấu thầu số 22/2023/QH15 (sửa đổi, bổ sung bởi Luật số 90/2025/QH15), chủ đầu tư xem xét, quyết định sửa đổi hợp đồng khi sửa đổi làm thay đổi thời gian thực hiện hợp đồng nhưng không vượt thời gian thực hiện dự án hoặc vượt giá gói thầu (bao gồm dự phòng) được duyệt nhưng không làm vượt tổng mức đầu tư, dự toán mua sắm. Phương án A, C, D vượt tổng mức đầu tư, vượt thời gian dự án hoặc phải điều chỉnh chủ trương đầu tư nên vượt thẩm quyền chủ đầu tư. Vì vậy chọn B.",
-    "category": "Câu hỏi cập nhật",
+    "correctAnswer": "D",
+    "explanation": "Căn cứ khoản 2 Điều 3 Nghị định số 95/2020/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 09/2022/NĐ-CP và Nghị định số 17/2025/NĐ-CP), Nước thành viên gồm: nước ký kết Hiệp định CPTPP ngày 08/3/2018 và Vương quốc Anh, Bắc Ai-len (Nước thành viên Hiệp định CPTPP); nước áp dụng Hiệp ước Liên minh Châu Âu (Nước thành viên EU); Vương quốc Anh, Bắc Ai-len. Các nước ASEAN chưa gia nhập CPTPP không thuộc khái niệm Nước thành viên. Vì vậy chọn D.",
+    "category": "Đấu thầu quốc tế / Hiệp định thương mại",
     "isNew2775": true,
-    "newExamId": 331,
-    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+    "newExamId": 322,
+    "newExamNote": "Câu 322 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 332,
@@ -134,7 +134,7 @@ export const set34: Question[] = [
     "explanation": "Căn cứ khoản 1 Điều 6 Thông tư số 134/2026/TT-BTC, Thông tư có hiệu lực thi hành kể từ ngày 09 tháng 9 năm 2026; kể từ ngày này, Thông tư số 80/2025/TT-BTC hết hiệu lực thi hành (khoản 2 Điều 6). Vì vậy chọn B.",
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
-    "newExamId": 340,
-    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+    "newExamId": 409,
+    "newExamNote": "Câu 409 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   }
 ];

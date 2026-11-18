@@ -40,8 +40,8 @@ export const set24: Question[] = [
     "explanation": "Căn cứ khoản 4 Điều 140 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), áp dụng cả đấu thầu qua mạng, khi tại thời điểm đóng thầu không có nhà thầu tham dự, chủ đầu tư được chỉ định thầu theo điểm e1 khoản 2 Điều 78, hoặc hủy thông báo mời thầu để mời thầu lại, hoặc gia hạn thời điểm đóng thầu tối thiểu 05 ngày làm việc với gói thầu xây lắp, hỗn hợp không quá 20 tỷ đồng, hàng hóa, phi tư vấn không quá 10 tỷ đồng. Vì vậy A, B, C đều đúng, chọn D.",
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
-    "newExamId": 233,
-    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+    "newExamId": 407,
+    "newExamNote": "Câu 407 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 234,

@@ -27,8 +27,8 @@ export const set15: Question[] = [
     "explanation": "Căn cứ khoản 3 Điều 89 Nghị định số 214/2025/NĐ-CP, mua sắm tập trung được thực hiện thông qua đấu thầu rộng rãi; hàng hóa đáp ứng điều kiện chào hàng cạnh tranh (thông dụng, sẵn có, giá gói thầu không quá 10 tỷ đồng theo Điều 81) thì được áp dụng chào hàng cạnh tranh. Gói thầu điều hòa thông dụng 07 tỷ đồng đáp ứng điều kiện này, nên chọn C. Chỉ định thầu trong mua sắm tập trung chỉ theo khoản 1 Điều 78 (cấp bách), không theo hạn mức; mua sắm trực tiếp, đàm phán giá không phù hợp.",
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
-    "newExamId": 142,
-    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+    "newExamId": 404,
+    "newExamNote": "Câu 404 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 143,
@@ -108,8 +108,8 @@ export const set15: Question[] = [
     "explanation": "Căn cứ điểm c khoản 3 Điều 79 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), quy trình chỉ định thầu thông thường có bước nộp hồ sơ đề xuất, đánh giá hồ sơ đề xuất và thương thảo với nhà thầu. Phương án A sai vì theo điểm b khoản 3 Điều 79, chủ đầu tư chỉ xác định một nhà thầu dự kiến được mời nhận hồ sơ yêu cầu; phương án B sai vì gửi dự thảo hợp đồng là bước của chỉ định thầu rút gọn (Điều 80) và cũng chỉ gửi cho một nhà thầu. Vì vậy chọn C.",
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
-    "newExamId": 148,
-    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+    "newExamId": 405,
+    "newExamNote": "Câu 405 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 149,

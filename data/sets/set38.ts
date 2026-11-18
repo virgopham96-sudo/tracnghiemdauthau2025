@@ -131,7 +131,7 @@ export const set38: Question[] = [
     "explanation": "Căn cứ khoản 5 Điều 63 Nghị định số 214/2025/NĐ-CP và Mục 2 Chương III Mẫu số 6A kèm theo Thông tư số 79/2025/TT-BTC, điểm tối thiểu quy định cho giải pháp, phương pháp luận và nhân sự (không thấp hơn 60% điểm tối đa); kinh nghiệm tùy tính chất gói thầu; uy tín không có điểm tối thiểu. Phương án C: 18 = 60% × 30; 36 = 60% × 60 là phù hợp. A, B sai vì đặt điểm tối thiểu cho uy tín. Vì vậy chọn C. Lưu ý: D (70%) không trái quy định nhưng 70% là mức của gói thầu kỹ thuật cao, đặc thù.",
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
-    "newExamId": 380,
-    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+    "newExamId": 370,
+    "newExamNote": "Câu 370 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   }
 ];

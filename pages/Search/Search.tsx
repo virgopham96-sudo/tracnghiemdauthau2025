@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import { Question } from '../../types';
 import { PdfExportModal } from '../../components/PdfExportModal';
 import { getFullCategoryMapping, getOrderedCategories } from '../../data/categories';
@@ -29,22 +29,14 @@ interface SearchProps {
     onBack: () => void;
 }
 
-const ITEMS_PER_PAGE = 50;
-
 const Search: React.FC<SearchProps> = ({ questions, onBack }) => {
     const [searchTerm, setSearchTerm] = useState('');
     const [selectedCategory, setSelectedCategory] = useState<string>('all');
     const [isPdfModalOpen, setIsPdfModalOpen] = useState(false);
-    const [visibleCount, setVisibleCount] = useState<number>(ITEMS_PER_PAGE);
 
     // Compute original category mappings and ordered list
     const categoryMapping = useMemo(() => getFullCategoryMapping(questions), [questions]);
     const orderedCategories = useMemo(() => getOrderedCategories(categoryMapping), [categoryMapping]);
-
-    // Reset visible count when switching category or searching
-    useEffect(() => {
-        setVisibleCount(ITEMS_PER_PAGE);
-    }, [selectedCategory, searchTerm]);
 
     // Filter questions based on selected category and search term
     const searchResults = useMemo(() => {
@@ -71,14 +63,6 @@ const Search: React.FC<SearchProps> = ({ questions, onBack }) => {
                 q.explanation.toLowerCase().includes(trimmedTerm)
         );
     }, [questions, selectedCategory, categoryMapping, searchTerm]);
-
-    const displayedQuestions = useMemo(() => {
-        // If results fit in 100, display all immediately, otherwise paginate for smooth rendering
-        if (searchResults.length <= 100) {
-            return searchResults;
-        }
-        return searchResults.slice(0, visibleCount);
-    }, [searchResults, visibleCount]);
 
     return (
         <div className="min-h-screen bg-slate-50/60 dark:bg-slate-950 py-4 sm:py-6 px-3 sm:px-6">
@@ -304,7 +288,7 @@ const Search: React.FC<SearchProps> = ({ questions, onBack }) => {
                             </div>
                         ) : (
                             <div className="space-y-8">
-                                {displayedQuestions.map((q) => (
+                                {searchResults.map((q) => (
                                     <article key={q.id} className="group">
                                         {/* Question ID Badge */}
                                         <div className="mb-3">
@@ -391,21 +375,6 @@ const Search: React.FC<SearchProps> = ({ questions, onBack }) => {
                                         <hr className="border-slate-100 dark:border-slate-800 my-6" />
                                     </article>
                                 ))}
-
-                                {/* Load More Button for large result sets */}
-                                {searchResults.length > visibleCount && (
-                                    <div className="pt-2 text-center">
-                                        <button
-                                            type="button"
-                                            onClick={() =>
-                                                setVisibleCount((prev) => prev + ITEMS_PER_PAGE)
-                                            }
-                                            className="px-6 py-2.5 text-xs sm:text-sm font-semibold text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-950/40 hover:bg-emerald-100 dark:hover:bg-emerald-900/50 border border-emerald-200 dark:border-emerald-800 rounded-xl transition-all shadow-xs"
-                                        >
-                                            Xem thêm {Math.min(ITEMS_PER_PAGE, searchResults.length - visibleCount)} câu hỏi tiếp theo ({visibleCount} / {searchResults.length})
-                                        </button>
-                                    </div>
-                                )}
                             </div>
                         )}
                     </main>

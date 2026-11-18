@@ -53,8 +53,8 @@ export const set5: Question[] = [
     "explanation": "Căn cứ khoản 4 Điều 80 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), nội dung mua sắm không quá 100 triệu đồng được thủ trưởng đơn vị quyết định mua sắm tiết kiệm, hiệu quả, không phải đáp ứng điều kiện khoản 2 Điều 79 (có kế hoạch lựa chọn nhà thầu) nhưng phải đủ hóa đơn, chứng từ; hoặc thực hiện theo quy trình lựa chọn nhà thầu (khi đó cần kế hoạch lựa chọn nhà thầu). Vì vậy A và C đúng, chọn D; B sai. Lưu ý: văn bản chỉ nêu phương án thay thế là chỉ định thầu rút gọn.",
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
-    "newExamId": 44,
-    "newExamNote": "Câu hỏi đã cập nhật theo Thông báo 2775/TB-QLĐT ngày 22/10/2026"
+    "newExamId": 403,
+    "newExamNote": "Câu 403 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 45,
