@@ -35,15 +35,15 @@ export const set41: Question[] = [
   },
   {
     "id": 403,
-    "question": "Việc mua vé máy bay cho các đoàn công tác trong nước và quốc tế hoặc mua vé phương tiện vận tải công cộng khác được áp dụng hình thức lựa chọn nhà thầu nào?",
+    "question": "Gói thầu cung cấp dịch vụ khám sức khỏe định kỳ, khám sàng lọc miễn phí cho người dân được áp dụng hình thức lựa chọn nhà thầu nào?",
     "options": {
-      "A": "Đấu thầu rộng rãi qua mạng",
-      "B": "Đấu thầu hạn chế",
-      "C": "Mua sắm trực tuyến (hoặc chỉ định thầu/trực tiếp)",
-      "D": "Lựa chọn nhà thầu có sự tham gia của cộng đồng"
+      "A": "Lựa chọn nhà thầu trong trường hợp đặc biệt",
+      "B": "Chào giá trực tuyến rút gọn",
+      "C": "Mua sắm trực tuyến",
+      "D": "D. Lựa chọn nhà thầu có sự tham gia của cộng đồng"
     },
-    "correctAnswer": "C",
-    "explanation": "Phân tích căn cứ pháp lý và lý giải chi tiết:\n1. Căn cứ pháp lý:\nĐiểm đ Khoản 1 Điều 29 Luật Đấu thầu số 22/2023/QH15: Quy định gói thầu \"mua vé máy bay cho đoàn đi công tác trong nước và quốc tế\" thuộc đối tượng áp dụng hình thức Lựa chọn nhà thầu trong trường hợp đặc biệt.\nĐiểm d Khoản 4 Điều 84 Nghị định số 214/2025/NĐ-CP (được sửa đổi, bổ sung tại khoản 3 Điều 4 Nghị định số 349/2026/NĐ-CP và hợp nhất tại Văn bản hợp nhất số 36/2026/VBHN-ND-BTC):\n\"Gói thầu mua vé máy bay cho đoàn đi công tác trong nước và quốc tế; mua vé máy bay cho đoàn khách quốc tế vào Việt Nam tham dự hội nghị, hội thảo quốc tế do phía Việt Nam đài thọ\" thuộc nhóm các gói thầu áp dụng hình thức lựa chọn nhà thầu trong trường hợp đặc biệt.\n2. Bản chất pháp lý và cơ chế thực hiện rút gọn:\nĐặc thù hoạt động: Việc mua vé máy bay công tác hay vé phương tiện vận tải công cộng phụ thuộc chặt chẽ vào lịch trình công tác, thời gian phát sinh đột xuất, biến động giá vé theo giờ và quy định tuyến bay của các hãng hàng không. Nếu áp dụng các hình thức đấu thầu thông thường (như Đấu thầu rộng rãi qua mạng hay Đấu thầu hạn chế) sẽ không thể đáp ứng tính kịp thời của chuyến đi.\nQuy trình thực hiện đơn giản hóa (Khoản 5 Điều 85 Nghị định 214/2025/NĐ-CP sửa đổi):\nĐối với chuyến bay quốc tế: Căn cứ lịch trình được duyệt, đơn vị lấy tối thiểu 02 báo giá của 02 đại lý/hãng hàng không khác nhau để so sánh, chọn vé có đường bay phù hợp và tổng chi phí thấp nhất.\nĐối với chuyến bay nội địa: Người đứng đầu cơ quan, đơn vị trực tiếp quyết định và ký hợp đồng với nhà cung cấp bảo đảm nguyên tắc tiết kiệm, hiệu quả.\nĐặc biệt: Việc mua vé máy bay theo cơ chế này không phải lập, phê duyệt kế hoạch lựa chọn nhà thầu (KHLCNT).",
+    "correctAnswer": "A",
+    "explanation": "Căn cứ điểm t3 khoản 4 Điều 84 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), gói thầu cung cấp dịch vụ khám sức khỏe định kỳ, khám sàng lọc miễn phí cho người dân thuộc danh mục gói thầu áp dụng hình thức lựa chọn nhà thầu trong trường hợp đặc biệt. Vì vậy chọn A. Các phương án B, C, D sai vì chào giá trực tuyến rút gọn, mua sắm trực tuyến và lựa chọn nhà thầu có sự tham gia của cộng đồng không áp dụng cho trường hợp này.",
     "category": "Nghiệp vụ chuyên môn về đấu thầu",
     "isNew2775": true,
     "newExamId": 393,
