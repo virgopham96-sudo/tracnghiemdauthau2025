@@ -3,97 +3,6 @@ import { Question } from "../../types";
 export const set22: Question[] = [
   {
     "id": 211,
-    "question": "Trong quá trình thực hiện hợp đồng của nhà thầu liên danh A-B, nhà thầu B không còn năng lực để tiếp tục thực hiện hợp đồng, làm ảnh hưởng nghiêm trọng đến tiến độ, chất lượng, hiệu quả của gói thầu. Trong trường hợp này, bảo đảm thực hiện hợp đồng của nhà thầu xử lý như thế nào?",
-    "options": {
-      "A": "Không tịch thu giá trị bảo đảm thực hiện hợp đồng của nhà thầu A-B",
-      "B": "Tịch thu giá trị bảo đảm thực hiện hợp đồng của tất cả thành viên liên danh trong trường hợp phần công việc còn lại của các thành viên liên danh vi phạm hợp đồng được tách thành gói thầu riêng để lựa chọn nhà thầu",
-      "C": "Chỉ tịch thu giá trị bảo đảm thực hiện hợp đồng của nhà thầu B nếu nhà thầu A có đủ năng lực, kinh nghiệm đảm nhận phần công việc còn lại của nhà thầu B",
-      "D": "Phương án B và C đều đúng"
-    },
-    "correctAnswer": "D",
-    "explanation": "Căn cứ pháp lý: Điểm b Khoản 22 Điều 140 Nghị định số 214/2025/NĐ-CP. Nếu phần việc của thành viên vi phạm được tách thành gói thầu riêng: Tịch thu bảo đảm của tất cả thành viên liên danh. Nếu phần việc đó giao cho thành viên khác trong liên danh làm tiếp: Chỉ tịch thu bảo đảm của thành viên vi phạm. Do đó, phương án D (B và C đều đúng tùy tình huống xử lý công việc còn lại) là chính xác.",
-    "category": "Hợp đồng"
-  },
-  {
-    "id": 212,
-    "question": "Đối với gói thầu mua sắm thiết bị y tế, tổ chức đấu thầu rộng rãi qua mạng gói thầu mua sắm thiết bị y tế, trường hợp nhà thầu dự thầu không đề xuất cụ thể ký mã hiệu, nhãn hiệu, xuất xứ, hãng sản xuất thì xử lý như thế nào?",
-    "options": {
-      "A": "Chủ đầu tư yêu cầu nhà thầu bổ sung, làm rõ E-HSDT",
-      "B": "Chủ đầu tư tiếp tục đánh giá E-HSDT, trường hợp nhà thầu xếp thứ nhất thì yêu cầu nhà thầu bổ sung thông tin để hoàn thiện hợp đồng",
-      "C": "E-HSDT của nhà thầu bị đánh giá không đáp ứng và bị loại",
-      "D": "Xin ý kiến người có thẩm quyền để xử lý tình huống trong đấu thầu"
-    },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ pháp lý: Khoản 6 Điều 29 Nghị định số 214/2025/NĐ-CP. Việc không đề xuất cụ thể ký mã hiệu, xuất xứ, hãng sản xuất (đối với hàng hóa đặc thù như thiết bị y tế) thường được coi là bỏ sót nội dung cơ bản hoặc không đáp ứng yêu cầu kỹ thuật quan trọng, dẫn đến hồ sơ dự thầu bị loại (không được xem xét tiếp).",
-    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
-  },
-  {
-    "id": 213,
-    "question": "Nhận định nào sau đây là đúng về văn bản điện tử trên Hệ thống mạng đấu thầu quốc gia?",
-    "options": {
-      "A": "Văn bản điện tử trên Hệ thống có giá trị theo quy định của pháp luật về giao dịch điện tử, làm cơ sở đối chiếu, so sánh, xác thực thông tin phục vụ công tác đánh giá, thẩm định, thanh tra, kiểm tra, kiểm toán và giải ngân",
-      "B": "Thời điểm gửi, nhận văn bản điện tử được xác định căn cứ theo thời gian thực ghi lại trên Hệ thống",
-      "C": "Khi gửi hồ sơ thanh quyết toán đến Kho bạc Nhà nước, nhà thầu không phải cung cấp thông tin, tài liệu cho Kho bạc Nhà nước đối với các thông tin, tài liệu là văn bản điện tử trên Hệ thống",
-      "D": "Cả 3 phương án trên đều đúng"
-    },
-    "correctAnswer": "D",
-    "explanation": "Căn cứ pháp lý: Khoản 3 Điều 50 Luật Đấu thầu và Điều 10 Thông tư số 79/2025/TT-BTC. Văn bản điện tử trên Hệ thống có giá trị pháp lý, xác định thời gian thực gửi/nhận, và nhà thầu không cần nộp hồ sơ giấy cho Kho bạc nếu dữ liệu đã có trên Hệ thống. Cả 3 nhận định đều đúng.",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 214,
-    "question": "Tài khoản nghiệp vụ trên Hệ thống mạng đấu thầu quốc gia là gì?",
-    "options": {
-      "A": "Tài khoản do người sử dụng đăng ký và được phê duyệt trên Hệ thống mạng đấu thầu quốc gia",
-      "B": "Tài khoản do Trung tâm Đấu thầu qua mạng quốc gia cấp phép theo quy định",
-      "C": "Tài khoản do Tài khoản tham gia hệ thống tạo ra",
-      "D": "Phương án A và B đều đúng"
-    },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ pháp lý: Khoản 10 Điều 3 Thông tư số 79/2025/TT-BTC. Tài khoản nghiệp vụ được định nghĩa là tài khoản do Tài khoản tham gia hệ thống (tài khoản chính của tổ chức) tạo ra và phân quyền để thực hiện các nghiệp vụ cụ thể.",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 215,
-    "question": "Nhà thầu có trách nhiệm kê khai thông tin nào trên Hệ thống mạng đấu thầu quốc gia?",
-    "options": {
-      "A": "Thông tin về uy tín của nhà thầu trong việc tham dự thầu",
-      "B": "Thông tin về vi phạm của nhà thầu",
-      "C": "Thông tin về năng lực, kinh nghiệm của nhà thầu",
-      "D": "Cả 3 phương án trên đều đúng"
-    },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ pháp lý: Khoản 2 Điều 11 Thông tư số 79/2025/TT-BTC. Nhà thầu có trách nhiệm tự kê khai và cập nhật thông tin về năng lực, kinh nghiệm (hợp đồng, nhân sự, máy móc...) trên Hệ thống. (Các thông tin vi phạm/uy tín do chủ đầu tư đăng).",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 216,
-    "question": "Ai chịu trách nhiệm đăng tải thông tin chủ yếu của hợp đồng trên Hệ thống mạng đấu thầu quốc gia?",
-    "options": {
-      "A": "Bên mời thầu",
-      "B": "Tổ chuyên gia",
-      "C": "Tư vấn đấu thầu",
-      "D": "Chủ đầu tư"
-    },
-    "correctAnswer": "D",
-    "explanation": "Căn cứ pháp lý: Khoản 2 Điều 12 Thông tư số 79/2025/TT-BTC (và Điểm h Khoản 1 Điều 8 Luật Đấu thầu). Trách nhiệm đăng tải thông tin chủ yếu của hợp đồng thuộc về Chủ đầu tư (hoặc đơn vị mua sắm tập trung nếu ký hợp đồng).",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 217,
-    "question": "Trong đấu thầu qua mạng, nhà thầu tư vấn đấu thầu bị khoá tài khoản trong vòng 06 tháng khi thực hiện hành vi nào sau đây?",
-    "options": {
-      "A": "Tham gia vào quá trình lập và đánh giá E-HSMT",
-      "B": "Tham gia vào quá trình thẩm định hồ sơ mời thầu và kết quả lựa chọn nhà thầu",
-      "C": "Thay chủ đầu tư đăng tải các nội dung thuộc trách nhiệm đăng tải của chủ đầu tư",
-      "D": "Đăng tải thông tin về năng lực, kinh nghiệm của mình trên Hệ thống mạng đấu thầu quốc gia"
-    },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ pháp lý: Khoản 5 Điều 23 Nghị định số 214/2025/NĐ-CP. Nhà thầu tư vấn bị khóa tài khoản 06 tháng nếu sử dụng tài khoản của mình để thay chủ đầu tư đăng tải các nội dung thuộc trách nhiệm của chủ đầu tư (như thông báo mời thầu, kết quả lựa chọn...).",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 218,
     "question": "Chủ đầu tư có trách nhiệm đăng tải thông tin chủ yếu của hợp đồng trên Hệ thống đấu thầu qua mạng quốc gia chậm nhất là?",
     "options": {
       "A": "05 ngày làm việc kể từ ngày ký kết hợp đồng",
@@ -106,7 +15,7 @@ export const set22: Question[] = [
     "category": "Đấu thầu qua mạng"
   },
   {
-    "id": 219,
+    "id": 212,
     "question": "Danh sách nhà thầu có hành vi vi phạm và bị đánh giá về uy tín được đăng tải trên Hệ thống mạng đấu thầu quốc gia như thế nào?",
     "options": {
       "A": "Tổ chuyên gia đăng tải trong thời hạn 03 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm",
@@ -119,7 +28,7 @@ export const set22: Question[] = [
     "category": "Trách nhiệm và Xử lý vi phạm"
   },
   {
-    "id": 220,
+    "id": 213,
     "question": "Chủ thể nào sau đây được gia hạn thời điểm đóng thầu trên Hệ thống mạng đấu thầu quốc gia?",
     "options": {
       "A": "Người có thẩm quyền",
@@ -129,6 +38,97 @@ export const set22: Question[] = [
     },
     "correctAnswer": "B",
     "explanation": "Căn cứ pháp lý: Điểm b Khoản 4 Điều 140 Nghị định số 214/2025/NĐ-CP. Việc quyết định gia hạn thời điểm đóng thầu (xử lý tình huống) thuộc thẩm quyền của Chủ đầu tư.",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 214,
+    "question": "Chọn phương án đúng về thời gian áp dụng mua sắm trực tuyến đối với các hạng mục trong danh mục hàng hóa, dịch vụ mua sắm tập trung?",
+    "options": {
+      "A": "Thời gian áp dụng là thời gian thực hiện hợp đồng trong trường hợp không ký thỏa thuận khung nhưng không quá 24 tháng kể từ ngày hợp đồng có hiệu lực hoặc thời gian có hiệu lực của thỏa thuận khung",
+      "B": "Thời gian áp dụng là 24 tháng kể từ ngày kết quả lựa chọn nhà thầu được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong trường hợp hợp đồng, thỏa thuận khung chưa được công khai",
+      "C": "Thời gian áp dụng là 24 tháng kể từ ngày kết quả lựa chọn nhà thầu được đăng tải trên Hệ thống mạng đấu thầu quốc gia",
+      "D": "Phương án A và B đều đúng"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ pháp lý: Khoản 2 Điều 103 Nghị định số 214/2025/NĐ-CP. Thời gian áp dụng mua sắm trực tuyến là thời gian thực hiện hợp đồng/thỏa thuận khung (nhưng không quá 24 tháng). Nếu hợp đồng chưa công khai thì tính 24 tháng từ ngày đăng kết quả. Cả phương án A và B đều phản ánh đúng quy định này.",
+    "category": "Mua sắm đặc thù"
+  },
+  {
+    "id": 215,
+    "question": "Công việc nào sau đây phải thực hiện trên Hệ thống mạng đấu thầu quốc gia?",
+    "options": {
+      "A": "Lập E-HSMT",
+      "B": "Trình phê duyệt E-HSMT, phê duyệt E-HSMT",
+      "C": "Phê duyệt kết quả lựa chọn nhà thầu",
+      "D": "Tất cả các phương án trên đều đúng"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ pháp lý: Khoản 2 Điều 50 Luật Đấu thầu. Luật quy định toàn bộ quy trình từ Lập E-HSMT, Trình/Phê duyệt E-HSMT, đến Phê duyệt kết quả lựa chọn nhà thầu đều được thực hiện trên Hệ thống mạng đấu thầu quốc gia.",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 216,
+    "question": "Đối với đấu thầu qua mạng, việc trả lời yêu cầu làm rõ E-HSMT được thực hiện theo phương án nào?",
+    "options": {
+      "A": "Do tổ chuyên gia thực hiện bằng văn bản",
+      "B": "Do tổ chuyên gia thực hiện trên Hệ thống mạng đấu thầu quốc gia",
+      "C": "Do tư vấn đấu thầu thực hiện bằng tài khoản của đơn vị tư vấn trên Hệ thống mạng đấu thầu quốc gia",
+      "D": "Do Chủ đầu tư thực hiện trên Hệ thống mạng đấu thầu quốc gia"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ pháp lý: Khoản 1a Điều 78 Luật Đấu thầu và Khoản 3 Điều 28 Nghị định số 214/2025/NĐ-CP (quy chiếu cho qua mạng tại Điều 98). Việc trả lời làm rõ E-HSMT là trách nhiệm của Chủ đầu tư và phải được thực hiện trên Hệ thống mạng đấu thầu quốc gia.",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 217,
+    "question": "Đối với gói thầu đấu thầu qua mạng, trường hợp sửa đổi E-HSMT sau khi phát hành, chủ đầu tư phải đăng tải tài liệu nào sau đây trên Hệ thống?",
+    "options": {
+      "A": "Quyết định sửa đổi kèm theo những nội dung sửa đổi E-HSMT",
+      "B": "E-HSMT đã được sửa đổi",
+      "C": "Báo cáo thẩm định E-HSMT sửa đổi",
+      "D": "Phương án A và B đều đúng"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ pháp lý: Điểm b Khoản 2 Điều 28 Nghị định số 214/2025/NĐ-CP. Khi sửa đổi hồ sơ mời thầu, phải đăng tải: (1) Quyết định sửa đổi (kèm nội dung sửa đổi) và (2) Hồ sơ mời thầu đã được sửa đổi. Do đó, cả A và B đều đúng.",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 218,
+    "question": "Nhà thầu không phải đính kèm thư bảo lãnh (hoặc giấy chứng nhận bảo hiểm bảo lãnh) mà chỉ phải cam kết trong đơn dự thầu đối với gói thầu xây lắp khi nào?",
+    "options": {
+      "A": "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 40 triệu đồng",
+      "B": "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 50 triệu đồng",
+      "C": "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 60 triệu đồng",
+      "D": "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 100 triệu đồng"
+    },
+    "correctAnswer": "A",
+    "explanation": "Căn cứ pháp lý: Thực tế áp dụng trên Hệ thống và quy định linh hoạt cho gói thầu nhỏ. Đối với các gói thầu có giá trị bảo đảm dự thầu dưới 50 triệu đồng, nhà thầu được phép cam kết trong đơn dự thầu mà không cần đính kèm thư bảo lãnh ngay khi nộp thầu (sẽ nộp khi đối chiếu). Trong các đáp án, chỉ có \"40 triệu đồng\" là dưới 50 triệu.",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 219,
+    "question": "Bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh trong đấu thầu qua mạng được nộp như thế nào?",
+    "options": {
+      "A": "Gửi qua email đến Tổ trưởng Tổ chuyên gia",
+      "B": "Gửi cho Chủ đầu tư khi nhà thầu được mời vào đối chiếu tài liệu",
+      "C": "Gửi bản gốc đến địa chỉ bên mời thầu theo quy định trong E-HSMT",
+      "D": "Gửi cho Đơn vị tư vấn đấu thầu đánh giá E-HSDT"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ pháp lý: Thực tế quy trình đấu thầu qua mạng (hướng dẫn tại Thông tư 79). Trong đấu thầu qua mạng, nhà thầu nộp bản scan khi dự thầu. Bản gốc thư bảo lãnh chỉ phải nộp cho Chủ đầu tư khi nhà thầu được mời vào đối chiếu tài liệu (nếu nhà thầu xếp hạng nhất).",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 220,
+    "question": "Đối với đấu thầu qua mạng, quy định nào về việc mở thầu và công khai biên bản mở thầu trên Hệ thống mạng đấu thầu quốc gia là đúng?",
+    "options": {
+      "A": "Hệ thống tự động mở thầu và công khai biên bản mở thầu trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu.",
+      "B": "Chủ đầu tư phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 04 giờ kể từ thời điểm đóng thầu.",
+      "C": "Tổ chuyên gia phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu.",
+      "D": "Chủ đầu tư phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu."
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 29 Thông tư số 79/2025/TT-BTC. Chủ đầu tư phải tiến hành mở thầu và công khai biên bản trên Hệ thống trong thời hạn 02 giờ kể từ thời điểm đóng thầu.",
     "category": "Đấu thầu qua mạng"
   }
 ];

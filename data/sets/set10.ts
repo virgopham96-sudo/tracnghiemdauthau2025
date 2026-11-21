@@ -3,45 +3,6 @@ import { Question } from "../../types";
 export const set10: Question[] = [
   {
     "id": 91,
-    "question": "Đối với gói thầu xây lắp, trường hợp công ty mẹ tham dự thầu và huy động công ty con tham gia thực hiện gói thầu thì việc đánh giá kinh nghiệm thực hiện hợp đồng tương tự được thực hiện như thế nào?",
-    "options": {
-      "A": "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự của công ty mẹ, không đánh giá kinh nghiệm của công ty con",
-      "B": "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự căn cứ vào giá trị, khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu",
-      "C": "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự của công ty con, không đánh giá kinh nghiệm của công ty mẹ, không phân biệt khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu",
-      "D": "Đánh giá theo tổng kinh nghiệm thực hiện hợp đồng tương tự của công ty mẹ và công ty con, không phân biệt khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu"
-    },
-    "correctAnswer": "B",
-    "explanation": "Khi công ty mẹ dự thầu và huy động công ty con (với tư cách nhà thầu phụ hoặc đơn vị thành viên), năng lực kinh nghiệm được đánh giá căn cứ vào giá trị, khối lượng công việc do công ty mẹ và công ty con đảm nhận. Công ty con làm phần nào thì được tính năng lực tương ứng phần đó. Căn cứ: Điều 10 Nghị định 214/2025/NĐ-CP (quy định về ưu đãi) và hướng dẫn trong Mẫu E-HSMT.",
-    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
-  },
-  {
-    "id": 92,
-    "question": "Kinh nghiệm thực hiện hợp đồng xây lắp tương tự gói thầu chỉ bao gồm 01 công trình độc lập được xét trên cơ sở nào sau đây?",
-    "options": {
-      "A": "Xét theo công trình nhà thầu đã hoàn thành toàn bộ hoặc hoàn thành phần lớn có cùng loại kết cấu, cấp công trình và đáp ứng quy mô theo yêu cầu của hồ sơ mời thầu",
-      "B": "Chỉ xét theo công trình nhà thầu đã hoàn thành toàn bộ, đã được nghiệm thu, cùng loại công trình và đáp ứng quy mô theo yêu cầu của hồ sơ mời thầu",
-      "C": "Xét theo các hạng mục công việc có tính chất tương tự nhà thầu đã hoàn thành phần lớn và đáp ứng quy mô theo yêu cầu của hồ sơ mời thầu",
-      "D": "Tất cả phương án trên đều đúng"
-    },
-    "correctAnswer": "A",
-    "explanation": "Đối với xây lắp, hợp đồng tương tự là công trình mà nhà thầu đã hoàn thành toàn bộ hoặc hoàn thành phần lớn (thường là >=80% giá trị), có cùng loại kết cấu và cấp công trình đáp ứng yêu cầu của hồ sơ mời thầu. Căn cứ: Mẫu số 3A Thông tư 79/2025/TT-BTC.",
-    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
-  },
-  {
-    "id": 93,
-    "question": "Đối với gói thầu mua sắm hàng hóa tổ chức đấu thầu rộng rãi qua mạng, kinh nghiệm thực hiện hợp đồng cung cấp hàng hóa tương tự được xét trên cơ sở nào sau đây?",
-    "options": {
-      "A": "Hàng hóa phải cùng chủng loại với gói thầu đang xét",
-      "B": "Hàng hóa thuộc cùng lĩnh vực tổng quát với hàng hóa của gói thầu",
-      "C": "Hàng hóa có 4 số đầu tiên mã HS cùng với mã HS của hàng hóa thuộc gói thầu",
-      "D": "Cả 2 phương án B và C đều đúng"
-    },
-    "correctAnswer": "D",
-    "explanation": "Hàng hóa tương tự có thể được hiểu theo 2 cách linh hoạt: (1) Có cùng lĩnh vực tổng quát (ví dụ cùng là thiết bị điện tử); hoặc (2) Có cùng mã Chương, mã Nhóm (4 số đầu mã HS). Nhà thầu đáp ứng một trong hai tiêu chí này đều được chấp nhận. Căn cứ: Mẫu số 4A Thông tư 79/2025/TT-BTC.",
-    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
-  },
-  {
-    "id": 94,
     "question": "Gói thầu dịch vụ phi tư vấn chia thành nhiều phần thì việc đánh giá về doanh thu đối với nhà thầu tham dự nhiều phần được thực hiện như thế nào?",
     "options": {
       "A": "Việc đánh giá về doanh thu căn cứ trên tổng giá trị doanh thu bình quân yêu cầu đối với các phần mà nhà thầu tham dự",
@@ -54,7 +15,7 @@ export const set10: Question[] = [
     "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   },
   {
-    "id": 95,
+    "id": 92,
     "question": "Gói thầu mua sắm hàng hóa chia thành nhiều phần thì việc đánh giá về quy mô hợp đồng tương tự đối với nhà thầu tham dự nhiều phần được thực hiện như thế nào?",
     "options": {
       "A": "Việc đánh giá về quy mô hợp đồng tương tự căn cứ trên tổng quy mô hợp đồng tương tự đối với các phần mà nhà thầu tham dự",
@@ -67,7 +28,7 @@ export const set10: Question[] = [
     "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   },
   {
-    "id": 96,
+    "id": 93,
     "question": "Trường hợp E-HSMT gói thầu mua sắm hàng hóa có yêu cầu về cam kết, hợp đồng nguyên tắc bảo hành, bảo trì, duy tu, bảo dưỡng mà E-HSDT của nhà thầu không đính kèm các tài liệu này thì Chủ đầu tư xử lý như thế nào?",
     "options": {
       "A": "Hồ sơ dự thầu của nhà thầu bị loại, không được xem xét, đánh giá",
@@ -80,7 +41,7 @@ export const set10: Question[] = [
     "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   },
   {
-    "id": 97,
+    "id": 94,
     "question": "Đối với gói thầu mua sắm hàng hóa áp dụng đấu thầu rộng rãi, trong hồ sơ dự thầu nhà thầu không đề xuất cụ thể ký mã hiệu, nhãn hiệu, xuất xứ, hãng sản xuất thì xử lý như thế nào?",
     "options": {
       "A": "Chủ đầu tư yêu cầu nhà thầu làm rõ các thông tin này để làm cơ sở đánh giá trên cơ sở không được thay đổi giá dự thầu",
@@ -93,7 +54,7 @@ export const set10: Question[] = [
     "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   },
   {
-    "id": 98,
+    "id": 95,
     "question": "Hồ sơ mời thầu của gói thầu xây lắp có quy định cho phép sử dụng nhà thầu phụ, trường hợp nhà thầu đề xuất sử dụng thầu phụ thì việc đánh giá năng lực, kinh nghiệm của nhà thầu phụ được thực hiện như thế nào?",
     "options": {
       "A": "Đánh giá năng lực, kinh nghiệm của nhà thầu phụ căn cứ theo phần công việc nhà thầu phụ đảm nhận, nhà thầu tham dự thầu không phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận",
@@ -106,7 +67,7 @@ export const set10: Question[] = [
     "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   },
   {
-    "id": 99,
+    "id": 96,
     "question": "Đối với đấu thầu qua mạng, trường hợp cần sửa đổi E-HSDT đã nộp trước thời điểm đóng thầu, nhà thầu phải thực hiện theo phương án nào sau đây trong trường hợp E-HSMT của gói thầu này không phải sửa đổi?",
     "options": {
       "A": "Phải tiến hành rút toàn bộ E-HSDT đã nộp trước đó để sửa đổi cho phù hợp và tiến hành nộp lại E-HSDT mới",
@@ -119,7 +80,7 @@ export const set10: Question[] = [
     "category": "Đấu thầu qua mạng"
   },
   {
-    "id": 100,
+    "id": 97,
     "question": "Đối với đấu thầu qua mạng, nhà thầu đã nộp E-HSDT nhưng sau đó E-HSMT của gói thầu này sửa đổi thì nhà thầu cần thực hiện theo phương án nào sau đây?",
     "options": {
       "A": "Phải tiến hành rút toàn bộ E-HSDT đã nộp trước đó để sửa đổi cho phù hợp và tiến hành nộp lại E-HSDT mới",
@@ -130,5 +91,44 @@ export const set10: Question[] = [
     "correctAnswer": "A",
     "explanation": "Khi E-HSMT sửa đổi, các biểu mẫu webform hoặc yêu cầu có thể thay đổi. Để đảm bảo hồ sơ dự thầu tương thích và cập nhật theo yêu cầu mới, nhà thầu phải rút toàn bộ E-HSDT đã nộp và tiến hành nộp lại E-HSDT mới. Căn cứ: Hướng dẫn sử dụng Hệ thống và quy trình kỹ thuật đấu thầu qua mạng.",
     "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 98,
+    "question": "Đối với đấu thầu qua mạng, trường hợp nhà thầu rút E-HSDT sau thời điểm đóng thầu và trong thời gian có hiệu lực của E-HSDT thì nhà thầu bị xử lý theo phương án nào sau đây?",
+    "options": {
+      "A": "Không được hoàn trả bảo đảm dự thầu",
+      "B": "Bị đánh giá là không đảm bảo uy tín khi tham dự thầu",
+      "C": "Không được tiếp tục đánh giá E-HSDT",
+      "D": "Các phương án trên đều đúng"
+    },
+    "correctAnswer": "D",
+    "explanation": "Hành vi rút hồ sơ dự thầu sau thời điểm đóng thầu là vi phạm quy định. Nhà thầu sẽ chịu các chế tài: (1) Không được hoàn trả bảo đảm dự thầu; (2) Bị đánh giá về uy tín (công khai trên Hệ thống); (3) Hồ sơ dự thầu đó dĩ nhiên không được tiếp tục đánh giá. Căn cứ: Khoản 9 Điều 14 Luật Đấu thầu và Khoản 1 Điều 20 Nghị định 214/2025/NĐ-CP.",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 99,
+    "question": "Trường hợp nào sau đây, nhà thầu được đánh giá là không đáp ứng quy định về bảo đảm cạnh tranh khi tham dự thầu gói thầu tổ chức đấu thầu rộng rãi?",
+    "options": {
+      "A": "Đơn vị sự nghiệp công lập A thuộc Sở Tài chính tỉnh X tham gia gói thầu do Sở Tài chính tỉnh X là chủ đầu tư mà chức năng, nhiệm vụ của đơn vị sự nghiệp công lập A phù hợp với gói thầu",
+      "B": "Đơn vị sự nghiệp công lập A tham gia gói thầu do Chi cục B là chủ đầu tư. Chức năng nhiệm vụ của đơn vị sự nghiệp công lập A phù hợp với tính chất gói thầu. Đơn vị sự nghiệp công lập A và Chi cục B lần lượt là đơn vị sự nghiệp công lập và đơn vị hành chính do Sở Tài Chính tỉnh X trực tiếp quản lý",
+      "C": "Đơn vị sự nghiệp công lập A tham gia gói thầu do đơn vị sự nghiệp công lập B là chủ đầu tư và cả hai đơn vị đều là đơn vị sự nghiệp do Sở Tài chính tỉnh X trực tiếp quản lý",
+      "D": "Doanh nghiệp C tham gia gói thầu có sử dụng vốn ngân sách nhà nước do đơn vị sự nghiệp công lập A là chủ đầu tư. Đơn vị sự nghiệp công lập A và Doanh nghiệp C đều là đơn vị do Sở X trực tiếp quản lý"
+    },
+    "correctAnswer": "B",
+    "explanation": "Theo quy định về bảo đảm cạnh tranh, nhà thầu tham dự thầu phải độc lập về pháp lý và tài chính với Chủ đầu tư. Trường hợp B: Đơn vị sự nghiệp công lập A và Chi cục B (Chủ đầu tư) đều do Sở Tài chính trực tiếp quản lý. Đây là mối quan hệ \"cùng một cơ quan trực tiếp quản lý\". Đối với gói thầu của Chủ đầu tư là đơn vị hành chính (Chi cục), đơn vị sự nghiệp cùng cấp quản lý tham gia sẽ không đảm bảo tính độc lập. Căn cứ: Điểm a Khoản 4 Điều 6 Luật Đấu thầu.",
+    "category": "Quy định chung"
+  },
+  {
+    "id": 100,
+    "question": "Nhà thầu có được tham dự thầu với tư cách nhà thầu liên danh trong trường hợp phạm vi công việc của gói thầu mua sắm hàng hóa chỉ gồm 01 hạng mục là hệ thống máy chủ không?",
+    "options": {
+      "A": "Được liên danh nếu nhà thầu phân chia công việc trong liên danh theo các công việc thuộc quá trình sản xuất hạng mục trong bảng giá dự thầu",
+      "B": "Không được liên danh, nhà thầu chỉ được tham dự với tư cách độc lập do phạm vi công việc chỉ gồm 01 hạng mục",
+      "C": "Được liên danh trong trường hợp 01 thành viên thực hiện toàn bộ hạng mục hệ thống máy chủ, thành viên còn lại thực hiện thu xếp tài chính cho gói thầu",
+      "D": "Phương án A và C đều đúng"
+    },
+    "correctAnswer": "A",
+    "explanation": "Mặc dù gói thầu chỉ có 1 hạng mục, nhưng nếu hạng mục đó phức tạp và quá trình sản xuất/cung cấp có thể tách thành các công đoạn rõ ràng (ví dụ: phần cứng, phần mềm, tích hợp hệ thống...), nhà thầu vẫn được phép liên danh nếu phân chia công việc dựa trên các công việc thuộc quá trình sản xuất/cung cấp hạng mục đó. Căn cứ: Khoản 3 Điều 26 Nghị định 214/2025/NĐ-CP.",
+    "category": "Quy định chung"
   }
 ];

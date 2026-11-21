@@ -3,138 +3,135 @@ import { Question } from "../../types";
 export const set34: Question[] = [
   {
     "id": 331,
-    "question": "Theo quy định tại Nghị định số 95/2020/NĐ-CP (được sửa đổi, bổ sung tại Nghị định số 09/2022/NĐ-CP, Nghị định số 17/2025/NĐ-CP), khái niệm Nước thành viên không bao gồm:",
+    "question": "Nhận định nào sau đây về hợp đồng điện tử là đúng?",
     "options": {
-      "A": "Nước thành viên Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP)",
-      "B": "Nước thành viên EU",
-      "C": "Vương quốc Anh và Bắc Ai-len",
-      "D": "Các nước ASEAN chưa gia nhập Hiệp định CPTPP"
+      "A": "Bắt buộc sử dụng hợp đồng điện tử đối với tất cả gói thầu tổ chức lựa chọn nhà thầu qua mạng và không qua mạng theo hình thức đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước",
+      "B": "Bắt buộc sử dụng hợp đồng điện tử đối với gói thầu áp dụng hình thức đặt hàng, chỉ định thầu, mua sắm trực tiếp, đàm phán giá, lựa chọn nhà thầu trong trường hợp đặc biệt, gói thầu có sự tham gia của cộng đồng, lựa chọn tư vấn cá nhân theo quy trình rút gọn",
+      "C": "Bắt buộc sử dụng hợp đồng điện tử đối với các gói thầu mà việc thanh toán hợp đồng không được thực hiện qua Kho bạc nhà nước",
+      "D": "Bắt buộc sử dụng hợp đồng điện tử đối với tất cả gói thầu tổ chức lựa chọn nhà thầu trên Hệ thống mạng đấu thầu Quốc gia theo hình thức đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước"
     },
     "correctAnswer": "D",
-    "explanation": "Căn cứ khoản 2 Điều 3 Nghị định số 95/2020/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 09/2022/NĐ-CP và Nghị định số 17/2025/NĐ-CP), Nước thành viên gồm: nước ký kết Hiệp định CPTPP ngày 08/3/2018 và Vương quốc Anh, Bắc Ai-len (Nước thành viên Hiệp định CPTPP); nước áp dụng Hiệp ước Liên minh Châu Âu (Nước thành viên EU); Vương quốc Anh, Bắc Ai-len. Các nước ASEAN chưa gia nhập CPTPP không thuộc khái niệm Nước thành viên. Vì vậy chọn D.",
-    "category": "Đấu thầu quốc tế / Hiệp định thương mại",
+    "explanation": "Căn cứ khoản 1 Điều 32 Thông tư số 79/2025/TT-BTC, hợp đồng của gói thầu áp dụng đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến tổ chức trên Hệ thống (khoản 2 Điều 1) mà việc thanh toán thực hiện qua Kho bạc nhà nước phải được ký kết trên Hệ thống. Phương án A sai vì gồm cả gói thầu không qua mạng; B và C là các trường hợp chỉ khuyến khích áp dụng hợp đồng điện tử. Vì vậy chọn D.",
+    "category": "Câu hỏi cập nhật",
     "isNew2775": true,
-    "newExamId": 322,
-    "newExamNote": "Câu 322 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamId": 331,
+    "newExamNote": "Câu 331 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 332,
-    "question": "Đối với gói thầu thuộc phạm vi điều chỉnh của Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP), ngôn ngữ sử dụng trong đấu thầu nội khối là:",
+    "question": "Đối với gói thầu đã áp dụng sơ tuyển, trường hợp năng lực và kinh nghiệm của nhà thầu vượt qua bước sơ tuyển khi nộp E-HSDT có sự thay đổi so với khi tham dự sơ tuyển, thì nhà thầu cần phải?",
     "options": {
-      "A": "Chỉ tiếng Việt",
-      "B": "Chỉ tiếng Anh",
-      "C": "Tiếng Việt; hoặc tiếng Việt và tiếng Anh",
-      "D": "Bất kỳ ngôn ngữ nào của các nước thành viên"
+      "A": "Cập nhật lại năng lực và kinh nghiệm của mình khi tham dự thầu",
+      "B": "Chỉ phải đính kèm hồ sơ năng lực và kinh nghiệm của mình khi tham dự thầu",
+      "C": "Không phải cập nhật năng lực và kinh nghiệm của mình khi tham dự thầu nhưng phải đính kèm hồ sơ năng lực và kinh nghiệm",
+      "D": "Phương án A và C đúng"
     },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ pháp lý: Quy định về ngôn ngữ trong đấu thầu quốc tế/nội khối (Điều 12 Luật Đấu thầu). Ngôn ngữ sử dụng là Tiếng Việt hoặc Tiếng Việt và Tiếng Anh (tương tự đấu thầu quốc tế).",
-    "category": "Mua sắm đặc thù"
+    "correctAnswer": "A",
+    "explanation": "Theo quy định tại các Mẫu hồ sơ mời thầu qua mạng (E-HSMT) cho xây lắp, mua sắm hàng hóa và dịch vụ phi tư vấn: Đối với gói thầu đã áp dụng sơ tuyển, nếu có sự thay đổi về năng lực và kinh nghiệm của nhà thầu tại thời điểm nộp E-HSDT so với khi tham dự sơ tuyển, nhà thầu bắt buộc phải cập nhật lại năng lực và kinh nghiệm của mình. Quy định này nhằm đảm bảo tại thời điểm tham dự thầu chính thức, nhà thầu vẫn duy trì đủ năng lực để thực hiện gói thầu theo yêu cầu.",
+    "category": "Lập & Đánh giá hồ sơ mời thầu"
   },
   {
     "id": 333,
-    "question": "Theo quy định tại Thông tư số 21/2022/TT-BKHĐT, hồ sơ mời thầu gói thầu dịch vụ phi tư vấn không được đưa ra yêu cầu nào sau đây:",
+    "question": "Đối với đấu thầu qua mạng, nội dung nào sau đây là đúng khi đánh giá E-HSDT?",
     "options": {
-      "A": "Yêu cầu về năng lực",
-      "B": "Yêu cầu về kinh nghiệm",
-      "C": "Yêu cầu nhà thầu phải có kinh nghiệm cung cấp dịch vụ trong lãnh thổ của một quốc gia cụ thể",
-      "D": "Yêu cầu về chất lượng dịch vụ"
+      "A": "Quy trình 02 áp dụng đối với gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn, máy đặt, máy mượn theo phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất” và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào",
+      "B": "Hệ thống tự động xếp hạng nhà thầu theo giá dự thầu sau khi trừ đi giá trị giảm giá (nếu có) thấp nhất (không phải phê duyệt danh sách xếp hạng nhà thầu) đối với gói thầu áp dụng quy trình 02",
+      "C": "Trường hợp có từ 02 nhà thầu trở lên cùng xếp thứ nhất thì không đánh giá theo quy trình 02 mà phải đánh giá theo quy trình 01",
+      "D": "Cả 3 đáp án đều đúng"
     },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ pháp lý: Thông tư 21/2022/TT-BKHĐT (Quy định cấm hạn chế nhà thầu). Hồ sơ mời thầu không được yêu cầu nhà thầu phải có kinh nghiệm cung cấp dịch vụ trong lãnh thổ của một quốc gia cụ thể (ví dụ: bắt buộc đã từng làm tại Việt Nam), vì đây là hành vi hạn chế cạnh tranh.",
-    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
+    "correctAnswer": "D",
+    "explanation": "Dựa trên các quy định về quy trình đánh giá E-HSDT: 1. Về đối tượng và điều kiện áp dụng (A đúng): Quy trình 02 áp dụng cho Mua sắm hàng hóa/Phi tư vấn, 1G1T, dùng phương pháp 'Giá thấp nhất' và không có ưu đãi. 2. Về cơ chế xếp hạng (B đúng): Hệ thống tự động xếp hạng dựa trên giá (sau giảm giá). Vì thực hiện dựa trên thuật toán cố định nên không cần phê duyệt danh sách xếp hạng. 3. Về trường hợp ngoại lệ (C đúng): Quy trình 02 chỉ áp dụng khi xác định được duy nhất 01 nhà thầu xếp hạng thứ nhất. Nếu có 02 nhà thầu trở lên cùng giá thấp nhất, phải chuyển sang đánh giá theo Quy trình 01 (Đánh giá hợp lệ -> Năng lực -> Kỹ thuật -> Tài chính).",
+    "category": "Gói thầu qua mạng (E-bidding)"
   },
   {
     "id": 334,
-    "question": "Trong Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP), việc áp dụng biện pháp ưu đãi trong nước:",
+    "question": "Việc đánh giá E-HSDT gói thầu mua sắm hàng hóa theo quy trình 02 được thực hiện theo trình tự nào sau đây?",
     "options": {
-      "A": "Được phép áp dụng vĩnh viễn",
-      "B": "Không bao giờ được phép áp dụng",
-      "C": "Được phép áp dụng trong thời gian chuyển tiếp",
-      "D": "Tùy quy mô, tính chất từng gói thầu"
+      "A": "Đánh giá E-HSDT của tất cả nhà thầu tham dự thầu về: tính hợp lệ của E-HSDT; năng lực và kinh nghiệm; kỹ thuật. Trường hợp nhà thầu không đáp ứng bước trước thì không tiếp tục đánh giá bước tiếp theo",
+      "B": "Đánh giá E-HSDT của nhà thầu xếp hạng thứ nhất về: tính hợp lệ của E-HSDT; năng lực và kinh nghiệm; kỹ thuật. Trường hợp nhà thầu xếp hạng thứ nhất không đáp ứng thì đánh giá đối với nhà thầu xếp hạng tiếp theo",
+      "C": "Đánh giá E-HSDT của nhà thầu xếp hạng thứ nhất về: tính hợp lệ của E-HSDT; kỹ thuật; tài chính; năng lực và kinh nghiệm. Trường hợp nhà thầu xếp hạng thứ nhất không đáp ứng thì đánh giá đối với nhà thầu xếp hạng tiếp theo",
+      "D": "Đánh giá E-HSDT của tất cả nhà thầu tham dự thầu về: tính hợp lệ của E-HSDT; kỹ thuật; tài chính; năng lực và kinh nghiệm. Trường hợp nhà thầu không đáp ứng bước trước thì không tiếp tục đánh giá bước tiếp theo"
     },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ pháp lý: Cam kết trong Hiệp định CPTPP. Việc áp dụng biện pháp ưu đãi trong nước (Domestic Preference) chỉ được phép áp dụng trong thời gian chuyển tiếp (Transitional Period) theo lộ trình cam kết, sau đó phải xóa bỏ.",
-    "category": "Mua sắm đặc thù"
+    "correctAnswer": "B",
+    "explanation": "Quy trình 02 ưu tiên tốc độ (quy trình đánh giá ngược). 1. Xếp hạng trước: Hệ thống tự động xếp hạng ngay sau khi mở thầu. 2. Đánh giá sau: Tổ chuyên gia chỉ tiến hành đánh giá E-HSDT của nhà thầu xếp hạng thứ nhất theo trình tự: Tính hợp lệ -> Năng lực và kinh nghiệm -> Kỹ thuật. 3. Nguyên tắc 'Cuốn chiếu': Nếu nhà thầu hạng nhất không đạt bất kỳ bước nào, tổ chuyên gia mới chuyển sang đánh giá nhà thầu hạng tiếp theo.",
+    "category": "Gói thầu qua mạng (E-bidding)"
   },
   {
     "id": 335,
-    "question": "Đối với gói thầu thuộc phạm vi điều chỉnh của Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP), Nghị định số 95/2020/NĐ-CP quy định những hình thức lựa chọn nhà thầu nào?",
+    "question": "Gói thầu phi tư vấn có giá gói thầu 2 tỷ đồng thực hiện đấu thầu rộng rãi qua mạng đóng thầu ngày 11/11/2025 (Thứ 3), Chủ đầu tư tiếp nhận nội dung yêu cầu làm rõ của nhà thầu ngày 04/11/2025. Chủ đầu tư phải trả lời yêu cầu làm rõ E-HSMT trên Hệ thống chậm nhất ngày nào dưới đây để đảm bảo không phải gia hạn thời điểm đóng thầu?",
     "options": {
-      "A": "Đấu thầu hạn chế và chỉ định thầu",
-      "B": "Chỉ có chỉ định thầu",
-      "C": "Đấu thầu rộng rãi và chỉ định thầu",
-      "D": "Chỉ có đấu thầu rộng rãi"
+      "A": "Thứ tư ngày 05/11/2025",
+      "B": "Thứ năm ngày 06/11/2025",
+      "C": "Thứ sáu ngày 07/11/2025",
+      "D": "Thứ 7 ngày 08/11/2025"
     },
     "correctAnswer": "C",
-    "explanation": "Căn cứ pháp lý: Nghị định 95/2020/NĐ-CP. Các hiệp định thương mại tự do thế hệ mới đều đề cao tính cạnh tranh, do đó hình thức lựa chọn nhà thầu chính được quy định là đấu thầu rộng rãi. Bên cạnh đó, hiệp định cũng công nhận và quy định các trường hợp cụ thể được phép áp dụng chỉ định thầu (tương tự như trong Luật Đấu thầu của Việt Nam).",
-    "category": "Mua sắm đặc thù"
+    "explanation": "Căn cứ quy định về làm rõ E-HSMT (Nghị định 24/2024/NĐ-CP): Chủ đầu tư phải đăng tải văn bản làm rõ trên Hệ thống trong thời gian tối thiểu 02 ngày làm việc trước ngày đóng thầu. • Đóng thầu: Thứ 3 (11/11). • 01 ngày làm việc trước: Thứ 2 (10/11). • 02 ngày làm việc trước: Thứ 6 (07/11) (Do Thứ 7 ngày 08/11 và Chủ nhật ngày 09/11 là ngày nghỉ). Vậy phải trả lời chậm nhất vào Thứ sáu ngày 07/11/2025.",
+    "category": "Gói thầu qua mạng (E-bidding)"
   },
   {
     "id": 336,
-    "question": "Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP) có cho phép áp dụng đấu thầu qua mạng không?",
+    "question": "Sau khi có quyết định phê duyệt kết quả lựa chọn nhà thầu, nhận định nào sau đây không đúng?",
     "options": {
-      "A": "Không cho phép",
-      "B": "Bắt buộc phải áp dụng",
-      "C": "Khuyến khích áp dụng",
-      "D": "Tùy quy mô, tính chất từng gói thầu"
+      "A": "Chủ đầu tư đăng tải kết quả lựa chọn nhà thầu trên Hệ thống trong vòng 05 ngày làm việc kể từ ngày phê duyệt kết quả lựa chọn nhà thầu.",
+      "B": "Nhà thầu gửi đề nghị trên Hệ thống hoặc gặp trực tiếp Chủ đầu tư yêu cầu giải thích lý do cụ thể nhà thầu không trúng thầu.",
+      "C": "Chủ đầu tư có trách nhiệm trả lời yêu cầu giải thích lý do cụ thể nhà thầu không trúng thầu của nhà thầu trong thời hạn 02 ngày làm việc kể từ ngày nhận được yêu cầu của nhà thầu",
+      "D": "Chủ đầu tư gửi văn bản thông báo kết quả lựa chọn nhà thầu cho các nhà thầu tham dự thầu trong thời hạn 03 ngày làm việc kể từ ngày phê duyệt kết quả lựa chọn nhà thầu"
     },
-    "correctAnswer": "C",
-    "explanation": "",
-    "category": "Mua sắm đặc thù"
+    "correctAnswer": "D",
+    "explanation": "Theo quy định tại Khoản 5 Điều 33 Nghị định 214, sau khi có quyết định phê duyệt kết quả, Chủ đầu tư có trách nhiệm gửi văn bản thông báo cho các nhà thầu tham dự trong thời hạn 05 ngày làm việc kể từ ngày phê duyệt, chứ không phải 03 ngày làm việc.",
+    "category": "Thương thảo & Trúng thầu"
   },
   {
     "id": 337,
-    "question": "Gói thầu mua thuốc là gói thầu nào?",
+    "question": "Đối với đấu thầu qua mạng, nhận định nào sau đây về thông báo chấp thuận E-HSDT và trao hợp đồng là đúng?",
     "options": {
-      "A": "Gói thầu mua sắm hàng hóa",
-      "B": "Gói thầu cung cấp dịch vụ phi tư vấn",
-      "C": "Gói thầu hỗn hợp",
-      "D": "Gói thầu xây lắp"
+      "A": "Chủ đầu tư gửi thông báo chấp thuận E-HSDT và trao hợp đồng (sau khi đăng tải kết quả lựa chọn nhà thầu) trên Hệ thống cho nhà thầu trúng thầu; thông báo bao gồm cả yêu cầu về biện pháp bảo đảm thực hiện hợp đồng, thời gian hoàn thiện, ký kết hợp đồng.",
+      "B": "Thông báo chấp thuận E-HSDT và trao hợp đồng là một phần của hồ sơ hợp đồng",
+      "C": "Thời hạn nêu trong thông báo chấp thuận E-HSDT và trao hợp đồng được tính kể từ ngày Chủ đầu tư gửi thông báo chấp thuận cho nhà thầu trúng thầu trên Hệ thống.",
+      "D": "Tất cả các phương án trên đều đúng"
     },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ pháp lý: Khoản 17 Điều 4 Luật Đấu thầu . Lý giải: Luật định nghĩa \"Hàng hóa\" bao gồm: máy móc... và thuốc, hóa chất, vật tư xét nghiệm... Do đó, gói thầu mua thuốc là gói thầu mua sắm hàng hóa.",
-    "category": "Quy định chung"
+    "correctAnswer": "D",
+    "explanation": "Theo các Mẫu E-HSMT: 1. Quy trình gửi (A đúng): Sau khi đăng tải kết quả, Chủ đầu tư gửi thông báo chấp thuận qua Hệ thống, bao gồm yêu cầu bảo đảm thực hiện hợp đồng, thời gian ký kết. 2. Tính pháp lý (B đúng): Thông báo này được quy định rõ là một phần không thể tách rời của hồ sơ hợp đồng. 3. Mốc thời gian (C đúng): Thời hạn thực hiện các yêu cầu tính kể từ ngày gửi thông báo cho nhà thầu trúng thầu trên Hệ thống.",
+    "category": "Thương thảo & Trúng thầu"
   },
   {
     "id": 338,
-    "question": "Đàm phán giá được áp dụng trong trường hợp nào sau đây?",
+    "question": "Trong chào giá trực tuyến rút gọn, nhận định nào sau đây về giá trần là đúng?",
     "options": {
-      "A": "Mua vật tư tiêu hao",
-      "B": "Mua thuốc, thiết bị y tế, vật tư xét nghiệm chỉ có 01 hoặc 02 hãng sản xuất",
-      "C": "Mua hàng hóa chỉ có 01 hãng sản xuất",
-      "D": "Mua hàng hóa chỉ có 01 hoặc 02 hãng sản xuất"
+      "A": "Đối với loại hợp đồng trọn gói, loại hợp đồng theo đơn giá cố định hoặc đơn giá điều chỉnh, giá trần là giá gói thầu trong kế hoạch lựa chọn nhà thầu được duyệt bao gồm phần chi phí dự phòng hoặc dự toán gói thầu bao gồm phần chi phí dự phòng trong trường hợp dự toán duyệt sau khi phê duyệt kế hoạch lựa chọn nhà thầu.",
+      "B": "Đối với loại hợp đồng trọn gói, giá trần là giá gói thầu trong kế hoạch lựa chọn nhà thầu được duyệt hoặc dự toán gói thầu trong trường hợp dự toán duyệt sau khi phê duyệt kế hoạch lựa chọn nhà thầu",
+      "C": "Đối với loại hợp đồng theo đơn giá cố định hoặc đơn giá điều chỉnh, giá trần là giá gói thầu trong kế hoạch lựa chọn nhà thầu được duyệt chưa bao gồm phần chi phí dự phòng hoặc dự toán gói thầu chưa bao gồm chi phí dự phòng của gói thầu trong trường hợp dự toán duyệt sau khi phê duyệt kế hoạch lựa chọn nhà thầu",
+      "D": "Cả phương án B và C đều đúng"
     },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 28 Luật Đấu thầu . Lý giải: Đàm phán giá áp dụng đối với: Mua biệt dược gốc, sinh phẩm tham chiếu; Mua thuốc, thiết bị y tế, vật tư xét nghiệm chỉ có 01 hoặc 02 hãng sản xuất.",
-    "category": "Hình thức và Phương thức LCNT"
+    "correctAnswer": "D",
+    "explanation": "Quy định về 'Giá trần' trong Chào giá trực tuyến (CGTT) rút gọn (Khoản 5 Điều 100 NĐ 214): 'Giá chào không được cao hơn giá gói thầu'. Theo Luật Đấu thầu 2023, 'Giá gói thầu' bao gồm toàn bộ chi phí thực hiện, kể cả chi phí dự phòng. Do đó, Giá trần trong CGTT rút gọn luôn bao gồm chi phí dự phòng, bất kể loại hợp đồng. (Lưu ý: Đáp án D trong tài liệu gốc dựa trên việc phân tách tính chất loại hợp đồng, tuy nhiên kết luận cuối cùng vẫn là Giá trần = Giá gói thầu = có dự phòng).",
+    "category": "Gói thầu qua mạng (E-bidding)"
   },
   {
     "id": 339,
-    "question": "Thời gian có hiệu lực thi hành của Luật số 90/2025/QH15?",
+    "question": "Trong chào giá trực tuyến rút gọn, bước giá được tính như thế nào?",
     "options": {
-      "A": "Từ ngày 01 tháng 7 năm 2025",
-      "B": "Từ ngày 04 tháng 8 năm 2025",
-      "C": "Từ ngày 08 tháng 8 năm 2025",
-      "D": "Tất cả các đáp án trên đều sai"
+      "A": "Giá trị trong khoảng từ 0,1% đến 0,3% giá trần",
+      "B": "Giá trị trong khoảng từ 0,5% đến 0.8% giá trần",
+      "C": "Giá trị trong khoảng từ 01% đến 02% giá trần",
+      "D": "Giá trị trong khoảng từ 01% đến 03% giá trần"
     },
     "correctAnswer": "A",
-    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 9 của Luật số 90/2025/QH15 . Lý giải: Luật số 90/2025/QH15 có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025.",
-    "category": "Quy định chung"
+    "explanation": "Bước giá là khoảng cách tối thiểu giữa các lần chào giá. Đối với quy trình rút gọn (nhanh), bước giá thường được quy định trong khoảng từ 0,1% đến 0,3% để thúc đẩy cạnh tranh giá.",
+    "category": "Gói thầu qua mạng (E-bidding)"
   },
   {
     "id": 340,
-    "question": "Thông tư số 134/2026/TT-BTC quy định chi tiết mẫu hồ sơ yêu cầu, báo cáo đánh giá, báo cáo thẩm định, kiểm tra, báo cáo tình hình thực hiện hoạt động đấu thầu có hiệu lực từ thời điểm nào?",
+    "question": "Trường hợp gặp sự cố dẫn đến Hệ thống mạng đấu thầu quốc gia không thể vận hành và việc khắc phục sự cố dự kiến diễn ra trong thời gian dài, cơ quan nào có trách nhiệm thông báo về cách thức lựa chọn nhà thầu?",
     "options": {
-      "A": "Ngày 10/9/2026",
-      "B": "Ngày 09/9/2026",
-      "C": "Ngày 07/9/2026",
-      "D": "Ngày 30/8/2026"
+      "A": "Bộ Tài chính",
+      "B": "Cục Quản lý đấu thầu",
+      "C": "Trung tâm Đấu thầu qua mạng quốc gia",
+      "D": "Tất cả các phương án trên đều đúng"
     },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ khoản 1 Điều 6 Thông tư số 134/2026/TT-BTC, Thông tư có hiệu lực thi hành kể từ ngày 09 tháng 9 năm 2026; kể từ ngày này, Thông tư số 80/2025/TT-BTC hết hiệu lực thi hành (khoản 2 Điều 6). Vì vậy chọn B.",
-    "category": "Câu hỏi cập nhật",
-    "isNew2775": true,
-    "newExamId": 409,
-    "newExamNote": "Câu 409 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "correctAnswer": "A",
+    "explanation": "Căn cứ khoản 28 Điều 140 Nghị định 214/2025/NĐ-CP: Trường hợp Hệ thống gặp sự cố không thể vận hành trong thời gian dài, Bộ Tài chính có trách nhiệm thông báo trên Hệ thống về cách thức tổ chức lựa chọn nhà thầu trong thời gian gặp sự cố và xử lý sự cố, bao gồm cả việc tổ chức lựa chọn nhà thầu không qua mạng.",
+    "category": "Gói thầu qua mạng (E-bidding)"
   }
 ];

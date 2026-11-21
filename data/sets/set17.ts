@@ -3,71 +3,6 @@ import { Question } from "../../types";
 export const set17: Question[] = [
   {
     "id": 161,
-    "question": "Hành vi gian lận trong hoạt động đấu thầu sẽ bị cấm tham gia hoạt động đấu thầu trong thời gian bao lâu?",
-    "options": {
-      "A": "Từ 06 tháng đến 01 năm",
-      "B": "02 năm",
-      "C": "Từ 01 năm đến 02 năm",
-      "D": "Từ 03 năm đến 05 năm"
-    },
-    "correctAnswer": "D",
-    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 133 Nghị định số 214/2025/NĐ-CP. Hành vi gian lận (quy định tại khoản 4 Điều 16 Luật Đấu thầu) thuộc nhóm hành vi bị cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm.",
-    "category": "Trách nhiệm và Xử lý vi phạm"
-  },
-  {
-    "id": 162,
-    "question": "Hành vi cản trở trong hoạt động đấu thầu sẽ bị cấm tham gia hoạt động đấu thầu trong thời gian bao lâu?",
-    "options": {
-      "A": "06 tháng",
-      "B": "Từ 06 tháng đến dưới 1 năm",
-      "C": "Từ 01 năm đến 03 năm",
-      "D": "05 năm"
-    },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 133 Nghị định số 214/2025/NĐ-CP. Hành vi cản trở (quy định tại khoản 5 Điều 16 Luật Đấu thầu) thuộc nhóm hành vi bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm.",
-    "category": "Trách nhiệm và Xử lý vi phạm"
-  },
-  {
-    "id": 163,
-    "question": "Thành viên A trong nhà thầu liên danh A-B thực hiện hành vi 'làm giả hoặc làm sai lệch thông tin, hồ sơ, tài liệu trong đấu thầu' thì việc cấm tham gia hoạt động đấu thầu được xử lý như thế nào?",
-    "options": {
-      "A": "Cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm đối với thành viên A",
-      "B": "Cấm tham gia hoạt động đấu thầu từ 01 năm đến dưới 03 năm đối với thành viên A",
-      "C": "Cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm đối với tất cả thành viên trong nhà thầu liên danh A-B",
-      "D": "Cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm đối với tất cả thành viên trong nhà thầu liên danh A-B"
-    },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 133 Nghị định số 214/2025/NĐ-CP. Đối với nhà thầu liên danh, khi một thành viên vi phạm hành vi gian lận (làm giả hồ sơ), chỉ cấm thành viên đó. Thời gian cấm đối với hành vi gian lận là từ 03 năm đến 05 năm.",
-    "category": "Trách nhiệm và Xử lý vi phạm"
-  },
-  {
-    "id": 164,
-    "question": "Đình chỉ cuộc thầu được thực hiện trong thời gian nào?",
-    "options": {
-      "A": "Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu đến trước khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
-      "B": "Trong quá trình tổ chức lựa chọn nhà thầu cho đến trước khi phê duyệt kết quả lựa chọn nhà thầu",
-      "C": "Sau khi phê duyệt kết quả lựa chọn nhà thầu đến khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
-      "D": "Trong quá trình thực hiện hợp đồng"
-    },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 18 Luật Đấu thầu. Luật quy định đình chỉ cuộc thầu được thực hiện trong quá trình tổ chức lựa chọn nhà thầu cho đến trước khi phê duyệt kết quả lựa chọn nhà thầu.",
-    "category": "Trách nhiệm và Xử lý vi phạm"
-  },
-  {
-    "id": 165,
-    "question": "Biện pháp nào sau đây được thực hiện trong quá trình thực hiện hợp đồng?",
-    "options": {
-      "A": "Hủy thầu",
-      "B": "Đình chỉ cuộc thầu",
-      "C": "Không công nhận kết quả lựa chọn nhà thầu",
-      "D": "Phương án A và B đều đúng"
-    },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 18 Luật Đấu thầu. Trong quá trình thực hiện hợp đồng, nếu có bằng chứng về vi phạm, người có thẩm quyền có thể áp dụng biện pháp không công nhận kết quả lựa chọn nhà thầu. (Hủy thầu và Đình chỉ cuộc thầu chỉ áp dụng trong quá trình lựa chọn nhà thầu, trước khi ký hợp đồng hoặc trước khi phê duyệt kết quả).",
-    "category": "Trách nhiệm và Xử lý vi phạm"
-  },
-  {
-    "id": 166,
     "question": "Nhà thầu tư vấn giám sát đồng thời thực hiện tư vấn kiểm định đối với gói thầu do nhà thầu đó giám sát thì nhà thầu đó sẽ bị xử lý như thế nào?",
     "options": {
       "A": "Bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm và khi tham dự thầu phải thực hiện biện pháp bảo đảm dự thầu với giá trị gấp 03 lần giá trị yêu cầu trong thời hạn 02 năm",
@@ -80,7 +15,7 @@ export const set17: Question[] = [
     "category": "Trách nhiệm và Xử lý vi phạm"
   },
   {
-    "id": 167,
+    "id": 162,
     "question": "Tham gia lập, đồng thời tham gia thẩm định hồ sơ mời thầu đối với cùng một gói thầu sẽ bị cấm tham gia hoạt động đấu thầu trong thời gian bao lâu?",
     "options": {
       "A": "02 năm",
@@ -93,7 +28,7 @@ export const set17: Question[] = [
     "category": "Trách nhiệm và Xử lý vi phạm"
   },
   {
-    "id": 168,
+    "id": 163,
     "question": "Nhà thầu liên danh A-B gồm 2 thành viên là nhà thầu A và nhà thầu B. Nhà thầu A làm giả thông tin, hồ sơ, tài liệu về hợp đồng tương tự của mình để tham dự thầu sẽ bị xử lý như thế nào?",
     "options": {
       "A": "Thành viên liên danh A bị cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm",
@@ -106,7 +41,7 @@ export const set17: Question[] = [
     "category": "Trách nhiệm và Xử lý vi phạm"
   },
   {
-    "id": 169,
+    "id": 164,
     "question": "Nhà thầu liên danh A-B gồm 2 thành viên là nhà thầu A và nhà thầu B. Nhà thầu A dàn xếp, thỏa thuận với các bên rút hồ sơ dự thầu để liên danh A-B trúng thầu sẽ bị xử lý như thế nào?",
     "options": {
       "A": "Thành viên liên danh A bị cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm",
@@ -119,7 +54,7 @@ export const set17: Question[] = [
     "category": "Trách nhiệm và Xử lý vi phạm"
   },
   {
-    "id": 170,
+    "id": 165,
     "question": "Trường hợp nhà thầu bị đánh giá về uy tín khi thực hiện hành vi: được lựa chọn trúng thầu nhưng không tiến hành hoặc từ chối tiến hành hoàn thiện hợp đồng hoặc không ký kết hợp đồng thì khi tham gia gói thầu khác, nhà thầu sẽ bị bất lợi như thế nào?",
     "options": {
       "A": "Đối với gói thầu hàng hóa, xây lắp, phi tư vấn, hỗn hợp, nhà thầu bị đánh giá về uy tín phải nộp gấp 3 lần bảo đảm dự thầu trong vòng 03 năm kể từ lần cuối cùng thực hiện hành vi",
@@ -128,7 +63,73 @@ export const set17: Question[] = [
       "D": "Đáp án B và C đều đúng"
     },
     "correctAnswer": "B",
-    "explanation": "",
+    "explanation": "Căn cứ khoản 2, Điều 20, Nghị định 214: Trong thời hạn 07 ngày làm việc kể từ ngày nhà thầu có hành vi quy định tại khoản 1 Điều này, chủ đầu tư đăng tải danh sách nhà thầu và các tài liệu liên quan trên Hệ thống mạng đấu thầu quốc gia, trong đó nêu cụ thể ngày thực hiện hành vi đó. Đối với gói thầu [tư vấn], thông tin về uy tín trong việc tham dự thầu được sử dụng để đánh giá về kỹ thuật (nếu có). Đối với các gói thầu còn lại, nhà thầu có tên trong danh sách này khi tham dự thầu phải thực hiện biện pháp bảo đảm dự thầu với giá trị gấp 03 lần giá trị yêu cầu đối với nhà thầu khác trong thời hạn 02 năm kể từ lần cuối cùng thực hiện các hành vi quy định tại khoản 1 Điều này mà không bị xem xét, đánh giá về kỹ thuật trong quá trình lựa chọn nhà thầu.",
+    "category": "Trách nhiệm và Xử lý vi phạm"
+  },
+  {
+    "id": 166,
+    "question": "Trong gói thầu dịch vụ tư vấn, thông tin về uy tín của nhà thầu được sử dụng để?",
+    "options": {
+      "A": "Đánh giá về năng lực, kinh nghiệm",
+      "B": "Đánh giá tư cách hợp lệ của nhà thầu",
+      "C": "Đánh giá về kỹ thuật",
+      "D": "Loại nhà thầu đã bị đánh giá về uy tín"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ pháp lý: Khoản 2 Điều 20 Nghị định số 214/2025/NĐ-CP. Quy định nêu rõ: 'Đối với gói thầu dịch vụ tư vấn, thông tin về uy tín trong việc tham dự thầu được sử dụng để đánh giá về kỹ thuật (nếu có)'.",
+    "category": "Trách nhiệm và Xử lý vi phạm"
+  },
+  {
+    "id": 167,
+    "question": "Đối với việc giải quyết kiến nghị về các vấn đề trước khi có thông báo kết quả lựa chọn nhà thầu, cá nhân, đơn vị nào sau đây có trách nhiệm giải quyết kiến nghị?",
+    "options": {
+      "A": "Chủ đầu tư, người có thẩm quyền",
+      "B": "Chủ đầu tư, Hội đồng giải quyết kiến nghị",
+      "C": "Người có thẩm quyền, Hội đồng giải quyết kiến nghị",
+      "D": "Chủ đầu tư, tổ chuyên gia"
+    },
+    "correctAnswer": "A",
+    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 138 Nghị định số 214/2025/NĐ-CP. Đối với kiến nghị về các vấn đề trước khi có thông báo kết quả, quy trình giải quyết gồm 2 cấp: Đầu tiên gửi đến Chủ đầu tư. Nếu không đồng ý hoặc quá hạn, gửi đến Người có thẩm quyền. Do đó, cả hai chủ thể này đều có trách nhiệm giải quyết (tùy giai đoạn).",
+    "category": "Trách nhiệm và Xử lý vi phạm"
+  },
+  {
+    "id": 168,
+    "question": "Đối với việc giải quyết kiến nghị về kết quả lựa chọn nhà thầu, cá nhân, đơn vị nào sau đây có trách nhiệm giải quyết kiến nghị?",
+    "options": {
+      "A": "Chủ đầu tư, người có thẩm quyền",
+      "B": "Chủ đầu tư, Hội đồng giải quyết kiến nghị",
+      "C": "Người có thẩm quyền, Hội đồng giải quyết kiến nghị",
+      "D": "Chủ đầu tư, Hội đồng tư vấn giải quyết kiến nghị"
+    },
+    "correctAnswer": "B",
+    "explanation": "Đáp án B. Căn cứ Khoản 2 Điều 138, NĐ 214: Sau khi có thông báo kết quả lựa chọn nhà thầu, Chủ đầu tư là chủ thể giải quyết kiến nghị. Trường hợp phức tạp, cần xem xét thêm, Hội đồng giải quyết kiến nghị sẽ được thành lập để hỗ trợ, tham mưu và đưa ra ý kiến. Vì vậy, trách nhiệm giải quyết kiến nghị về kết quả lựa chọn nhà thầu thuộc về Chủ đầu tư và Hội đồng giải quyết kiến nghị, đáp án đúng là B.",
+    "category": "Trách nhiệm và Xử lý vi phạm"
+  },
+  {
+    "id": 169,
+    "question": "Trường hợp đang trong quá trình giải quyết kiến nghị mà nhà thầu gửi đơn khiếu nại thì việc giải quyết kiến nghị được xử lý thế nào?",
+    "options": {
+      "A": "Tiếp tục giải quyết kiến nghị",
+      "B": "Chấm dứt ngay việc giải quyết kiến nghị",
+      "C": "Tạm dừng việc giải quyết kiến nghị đến khi có kết quả giải quyết khiếu nại",
+      "D": "Tất cả phương án trên đều sai"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ pháp lý: Khoản 2 Điều 89 Luật Đấu thầu. Luật quy định trường hợp đang trong quá trình giải quyết kiến nghị mà nhà thầu khởi kiện, khiếu nại, tố cáo thì việc giải quyết kiến nghị được chấm dứt ngay.",
+    "category": "Trách nhiệm và Xử lý vi phạm"
+  },
+  {
+    "id": 170,
+    "question": "Chi phí giải quyết kiến nghị được nhà thầu nộp cho chủ thể nào sau đây?",
+    "options": {
+      "A": "Chủ tịch Hội đồng tư vấn giải quyết kiến nghị",
+      "B": "Bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị",
+      "C": "Chủ đầu tư",
+      "D": "Người có thẩm quyền"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ pháp lý: Điểm đ Khoản 2 Điều 137 Nghị định số 214/2025/NĐ-CP. Chi phí giải quyết kiến nghị (đối với kiến nghị về kết quả lựa chọn nhà thầu gửi đến Hội đồng) được nộp cho bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị.",
     "category": "Trách nhiệm và Xử lý vi phạm"
   }
 ];
+

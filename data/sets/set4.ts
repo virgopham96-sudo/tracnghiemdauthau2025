@@ -16,22 +16,6 @@ export const set4: Question[] = [
   },
   {
     "id": 32,
-    "question": "Đối với gói thầu mua sắm hàng hóa thông dụng, sẵn có trên thị trường có giá gói thầu 07 tỷ đồng thì kế hoạch lựa chọn nhà thầu phê duyệt áp dụng hình thức lựa chọn nhà thầu nào sau đây?",
-    "options": {
-      "A": "Chỉ được áp dụng hình thức chào hàng cạnh tranh",
-      "B": "Được áp dụng hình thức chào hàng cạnh tranh hoặc đấu thầu rộng rãi",
-      "C": "Bắt buộc áp dụng hình thức chỉ định thầu",
-      "D": "Được áp dụng hình thức chỉ định thầu hoặc chào hàng cạnh tranh hoặc đấu thầu rộng rãi"
-    },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ điểm b khoản 1 Điều 24 Luật Đấu thầu số 22/2023/QH15 (sửa đổi, bổ sung bởi Luật số 90/2025/QH15) và Điều 81 Nghị định số 214/2025/NĐ-CP, gói thầu hàng hóa thông dụng, sẵn có, giá không quá 10 tỷ đồng được áp dụng chào hàng cạnh tranh; đấu thầu rộng rãi luôn được áp dụng. Giá 07 tỷ đồng vượt hạn mức chỉ định thầu tại khoản 4 Điều 78 Nghị định 214 (01 tỷ với dự toán mua sắm, 05 tỷ với hàng hóa thuộc dự án). Vì vậy chọn B; A, C, D sai.",
-    "category": "Câu hỏi cập nhật",
-    "isNew2775": true,
-    "newExamId": 401,
-    "newExamNote": "Câu 401 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
-  },
-  {
-    "id": 33,
     "question": "Hạn mức chỉ định thầu đối với gói thầu không hình thành dự án thuộc dự toán mua sắm thường xuyên là?",
     "options": {
       "A": "500 triệu đồng",
@@ -47,23 +31,7 @@ export const set4: Question[] = [
     "newExamNote": "Câu 32 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
-    "id": 34,
-    "question": "Hạn mức chỉ định thầu đối với gói thầu mua sắm hàng hóa thuộc dự án đầu tư là?",
-    "options": {
-      "A": "01 tỷ đồng",
-      "B": "02 tỷ đồng",
-      "C": "03 tỷ đồng",
-      "D": "05 tỷ đồng"
-    },
-    "correctAnswer": "D",
-    "explanation": "Căn cứ khoản 4 Điều 78 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), hạn mức chỉ định thầu là: gói thầu thuộc dự toán mua sắm không hình thành dự án không quá 01 tỷ đồng; gói thầu dịch vụ tư vấn thuộc dự án không quá 03 tỷ đồng; gói thầu dịch vụ phi tư vấn, hàng hóa, xây lắp, hỗn hợp thuộc dự án không quá 05 tỷ đồng. Vì vậy gói thầu mua sắm hàng hóa thuộc dự án đầu tư có hạn mức 05 tỷ đồng, chọn D.",
-    "category": "Câu hỏi cập nhật",
-    "isNew2775": true,
-    "newExamId": 402,
-    "newExamNote": "Câu 402 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
-  },
-  {
-    "id": 35,
+    "id": 33,
     "question": "Phương án nào không phải là một trong các hình thức lựa chọn nhà thầu được phê duyệt trong kế hoạch lựa chọn nhà thầu?",
     "options": {
       "A": "Đấu thầu rộng rãi",
@@ -76,7 +44,7 @@ export const set4: Question[] = [
     "category": "Hình thức và Phương thức LCNT"
   },
   {
-    "id": 36,
+    "id": 34,
     "question": "Gói thầu lựa chọn tư vấn là tổ chức có giá gói thầu là 500 triệu đồng áp dụng hình thức lựa chọn nhà thầu nào?",
     "options": {
       "A": "Bắt buộc áp dụng hình thức chỉ định thầu",
@@ -89,7 +57,7 @@ export const set4: Question[] = [
     "category": "Hình thức và Phương thức LCNT"
   },
   {
-    "id": 37,
+    "id": 35,
     "question": "Chọn phương án đúng về hạn mức đối với đấu thầu rộng rãi?",
     "options": {
       "A": "Không quy định hạn mức áp dụng",
@@ -102,7 +70,7 @@ export const set4: Question[] = [
     "category": "Hình thức và Phương thức LCNT"
   },
   {
-    "id": 38,
+    "id": 36,
     "question": "Chọn phương án đúng về loại gói thầu đối với hình thức mua sắm trực tiếp?",
     "options": {
       "A": "Chỉ gói thầu mua sắm hàng hoá",
@@ -115,7 +83,7 @@ export const set4: Question[] = [
     "category": "Hình thức và Phương thức LCNT"
   },
   {
-    "id": 39,
+    "id": 37,
     "question": "Phương án nào không phải là điều kiện để được áp dụng hình thức mua sắm trực tiếp?",
     "options": {
       "A": "Nhà thầu đã trúng thầu thông qua đấu thầu rộng rãi, đấu thầu hạn chế và đã ký hợp đồng gói thầu thực hiện gói thầu trước đó",
@@ -128,7 +96,7 @@ export const set4: Question[] = [
     "category": "Hình thức và Phương thức LCNT"
   },
   {
-    "id": 40,
+    "id": 38,
     "question": "Hãy chọn phương án đúng về hình thức đặt hàng?",
     "options": {
       "A": "Là một trong các hình thức lựa chọn nhà thầu",
@@ -139,5 +107,31 @@ export const set4: Question[] = [
     "correctAnswer": "A",
     "explanation": "Theo Điều 20 Luật Đấu thầu, Đặt hàng là một trong các hình thức lựa chọn nhà thầu (được quy định cụ thể tại Điều 29a Luật Đấu thầu).",
     "category": "Hình thức và Phương thức LCNT"
+  },
+  {
+    "id": 39,
+    "question": "Kế hoạch lựa chọn nhà thầu của dự án thuộc đối tượng áp dụng của Luật Đấu thầu bắt buộc phải đăng tải ở đâu?",
+    "options": {
+      "A": "Hệ thống mạng đấu thầu quốc gia",
+      "B": "Báo Tài chính-Đầu tư",
+      "C": "Cổng Thông tin điện tử của Bộ, ngành",
+      "D": "Phương án A và B đều đúng"
+    },
+    "correctAnswer": "A",
+    "explanation": "Theo Điều 7 và Điều 8 Luật Đấu thầu, thông tin về kế hoạch lựa chọn nhà thầu bắt buộc phải đăng tải trên Hệ thống mạng đấu thầu quốc gia.",
+    "category": "Kế hoạch và Quy trình LCNT"
+  },
+  {
+    "id": 40,
+    "question": "Chậm nhất là bao nhiêu ngày thì kế hoạch lựa chọn nhà thầu phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia?",
+    "options": {
+      "A": "05 ngày làm việc kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành",
+      "B": "07 ngày kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành",
+      "C": "07 ngày làm việc kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành",
+      "D": "10 ngày kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành"
+    },
+    "correctAnswer": "A",
+    "explanation": "Theo Khoản 4 Điều 8 Luật Đấu thầu, kế hoạch lựa chọn nhà thầu phải được đăng tải chậm nhất là 05 ngày làm việc kể từ ngày văn bản được ban hành.",
+    "category": "Kế hoạch và Quy trình LCNT"
   }
 ];

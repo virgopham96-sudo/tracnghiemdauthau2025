@@ -3,135 +3,132 @@ import { Question } from "../../types";
 export const set35: Question[] = [
   {
     "id": 341,
-    "question": "Nhận định nào sau đây về hợp đồng điện tử là đúng?",
+    "question": "Trường hợp gặp sự cố dẫn đến Hệ thống mạng đấu thầu quốc gia không thể vận hành và việc khắc phục sự cố dự kiến diễn ra trong thời gian dài, Bộ Tài chính thông báo ở đâu?",
     "options": {
-      "A": "Bắt buộc sử dụng hợp đồng điện tử đối với tất cả gói thầu tổ chức lựa chọn nhà thầu qua mạng và không qua mạng theo hình thức đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước",
-      "B": "Bắt buộc sử dụng hợp đồng điện tử đối với gói thầu áp dụng hình thức đặt hàng, chỉ định thầu, mua sắm trực tiếp, đàm phán giá, lựa chọn nhà thầu trong trường hợp đặc biệt, gói thầu có sự tham gia của cộng đồng, lựa chọn tư vấn cá nhân theo quy trình rút gọn",
-      "C": "Bắt buộc sử dụng hợp đồng điện tử đối với các gói thầu mà việc thanh toán hợp đồng không được thực hiện qua Kho bạc nhà nước",
-      "D": "Bắt buộc sử dụng hợp đồng điện tử đối với tất cả gói thầu tổ chức lựa chọn nhà thầu trên Hệ thống mạng đấu thầu Quốc gia theo hình thức đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước"
+      "A": "Cổng thông tin điện tử của Chính phủ",
+      "B": "Cổng thông tin điện tử của Bộ Tài chính",
+      "C": "Hệ thống mạng đấu thầu quốc gia",
+      "D": "Tất cả phương án trên đều đúng"
     },
-    "correctAnswer": "D",
-    "explanation": "Căn cứ khoản 1 Điều 32 Thông tư số 79/2025/TT-BTC, hợp đồng của gói thầu áp dụng đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến tổ chức trên Hệ thống (khoản 2 Điều 1) mà việc thanh toán thực hiện qua Kho bạc nhà nước phải được ký kết trên Hệ thống. Phương án A sai vì gồm cả gói thầu không qua mạng; B và C là các trường hợp chỉ khuyến khích áp dụng hợp đồng điện tử. Vì vậy chọn D.",
-    "category": "Câu hỏi cập nhật",
-    "isNew2775": true,
-    "newExamId": 331,
-    "newExamNote": "Câu 331 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "correctAnswer": "C",
+    "explanation": "Căn cứ khoản 28 Điều 140 Nghị định 214/2025/NĐ-CP: Mặc dù tình huống là hệ thống gặp sự cố, nhưng quy định pháp lý vẫn yêu cầu thông báo chính thức được đăng tải trên kênh này (có thể hiểu là khi hệ thống được khôi phục hoặc qua giao diện thông báo khẩn cấp của Hệ thống).",
+    "category": "Gói thầu qua mạng (E-bidding)"
   },
   {
     "id": 342,
-    "question": "Đối với gói thầu đã áp dụng sơ tuyển, trường hợp năng lực và kinh nghiệm của nhà thầu vượt qua bước sơ tuyển khi nộp E-HSDT có sự thay đổi so với khi tham dự sơ tuyển, thì nhà thầu cần phải?",
+    "question": "Đối với gói thầu mua sắm hàng hóa, trường hợp cần yêu cầu về hàng mẫu để đánh giá về kỹ thuật thì nhận định nào sau đây là đúng?",
     "options": {
-      "A": "Cập nhật lại năng lực và kinh nghiệm của mình khi tham dự thầu",
-      "B": "Chỉ phải đính kèm hồ sơ năng lực và kinh nghiệm của mình khi tham dự thầu",
-      "C": "Không phải cập nhật năng lực và kinh nghiệm của mình khi tham dự thầu nhưng phải đính kèm hồ sơ năng lực và kinh nghiệm",
-      "D": "Phương án A và C đúng"
+      "A": "Nhà thầu có thể nộp bổ sung hàng mẫu trong thời hạn 05 ngày làm việc sau thời điểm đóng thầu",
+      "B": "Chủ đầu tư phải bảo đảm việc yêu cầu cung cấp hàng mẫu không dẫn đến làm tăng chi phí của gói thầu, hạn chế sự tham gia của nhà thầu hoặc nhằm tạo lợi thế cho một hoặc một số nhà thầu gây ra sự cạnh tranh không bình đẳng",
+      "C": "Phương án A và B đều sai",
+      "D": "Phương án A và B đều đúng"
     },
-    "correctAnswer": "A",
-    "explanation": "Theo quy định tại các Mẫu hồ sơ mời thầu qua mạng (E-HSMT) cho xây lắp, mua sắm hàng hóa và dịch vụ phi tư vấn: Đối với gói thầu đã áp dụng sơ tuyển, nếu có sự thay đổi về năng lực và kinh nghiệm của nhà thầu tại thời điểm nộp E-HSDT so với khi tham dự sơ tuyển, nhà thầu bắt buộc phải cập nhật lại năng lực và kinh nghiệm của mình. Quy định này nhằm đảm bảo tại thời điểm tham dự thầu chính thức, nhà thầu vẫn duy trì đủ năng lực để thực hiện gói thầu theo yêu cầu.",
+    "correctAnswer": "D",
+    "explanation": "Hàng mẫu là vật chất nên không nộp qua mạng được, nhà thầu được nộp bổ sung sau khi đóng thầu (05 ngày làm việc). Tuy nhiên, Chủ đầu tư không được lạm dụng yêu cầu này để hạn chế cạnh tranh (như yêu cầu hàng mẫu quá đắt đỏ, không thực sự cần thiết). Cả hai nhận định A và B đều đúng.",
     "category": "Lập & Đánh giá hồ sơ mời thầu"
   },
   {
     "id": 343,
-    "question": "Đối với đấu thầu qua mạng, nội dung nào sau đây là đúng khi đánh giá E-HSDT?",
+    "question": "Đối với gói thầu mua sắm hàng hóa, dịch vụ có giá trị dưới 500 triệu đồng áp dụng lựa chọn nhà thầu theo hình thức mua sắm trực tuyến, việc ký kết hợp đồng được thực hiện như thế nào?",
     "options": {
-      "A": "Quy trình 02 áp dụng đối với gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn, máy đặt, máy mượn theo phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất” và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào",
-      "B": "Hệ thống tự động xếp hạng nhà thầu theo giá dự thầu sau khi trừ đi giá trị giảm giá (nếu có) thấp nhất (không phải phê duyệt danh sách xếp hạng nhà thầu) đối với gói thầu áp dụng quy trình 02",
-      "C": "Trường hợp có từ 02 nhà thầu trở lên cùng xếp thứ nhất thì không đánh giá theo quy trình 02 mà phải đánh giá theo quy trình 01",
-      "D": "Cả 3 đáp án đều đúng"
+      "A": "Bắt buộc ký hợp đồng điện tử trên Hệ thống mạng đấu thầu quốc gia",
+      "B": "Không bắt buộc ký hợp đồng điện tử, chủ đầu tư quyết định hình thức ký kết",
+      "C": "Ký hợp đồng điện tử trên Hệ thống khi việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước",
+      "D": "Không ký hợp đồng điện tử đối với gói thầu có giá trị nhỏ hơn 500 triệu đồng"
     },
-    "correctAnswer": "D",
-    "explanation": "Dựa trên các quy định về quy trình đánh giá E-HSDT: 1. Về đối tượng và điều kiện áp dụng (A đúng): Quy trình 02 áp dụng cho Mua sắm hàng hóa/Phi tư vấn, 1G1T, dùng phương pháp 'Giá thấp nhất' và không có ưu đãi. 2. Về cơ chế xếp hạng (B đúng): Hệ thống tự động xếp hạng dựa trên giá (sau giảm giá). Vì thực hiện dựa trên thuật toán cố định nên không cần phê duyệt danh sách xếp hạng. 3. Về trường hợp ngoại lệ (C đúng): Quy trình 02 chỉ áp dụng khi xác định được duy nhất 01 nhà thầu xếp hạng thứ nhất. Nếu có 02 nhà thầu trở lên cùng giá thấp nhất, phải chuyển sang đánh giá theo Quy trình 01 (Đánh giá hợp lệ -> Năng lực -> Kỹ thuật -> Tài chính).",
-    "category": "Gói thầu qua mạng (E-bidding)"
+    "correctAnswer": "C",
+    "explanation": "Việc bắt buộc ký kết hợp đồng điện tử (bao gồm mua sắm trực tuyến) áp dụng khi việc thanh toán được thực hiện qua Kho bạc Nhà nước. Điều này nhằm đảm bảo sự đồng bộ dữ liệu giữa Hệ thống mạng đấu thầu quốc gia và Hệ thống của Kho bạc để phục vụ công tác kiểm soát chi.",
+    "category": "Quản lý hợp đồng & Thanh toán"
   },
   {
     "id": 344,
-    "question": "Việc đánh giá E-HSDT gói thầu mua sắm hàng hóa theo quy trình 02 được thực hiện theo trình tự nào sau đây?",
+    "question": "Nhận định nào sau đây là không phù hợp đối với gói thầu mua sắm hàng hoá áp dụng chào giá trực tuyến theo quy trình rút gọn?",
     "options": {
-      "A": "Đánh giá E-HSDT của tất cả nhà thầu tham dự thầu về: tính hợp lệ của E-HSDT; năng lực và kinh nghiệm; kỹ thuật. Trường hợp nhà thầu không đáp ứng bước trước thì không tiếp tục đánh giá bước tiếp theo",
-      "B": "Đánh giá E-HSDT của nhà thầu xếp hạng thứ nhất về: tính hợp lệ của E-HSDT; năng lực và kinh nghiệm; kỹ thuật. Trường hợp nhà thầu xếp hạng thứ nhất không đáp ứng thì đánh giá đối với nhà thầu xếp hạng tiếp theo",
-      "C": "Đánh giá E-HSDT của nhà thầu xếp hạng thứ nhất về: tính hợp lệ của E-HSDT; kỹ thuật; tài chính; năng lực và kinh nghiệm. Trường hợp nhà thầu xếp hạng thứ nhất không đáp ứng thì đánh giá đối với nhà thầu xếp hạng tiếp theo",
-      "D": "Đánh giá E-HSDT của tất cả nhà thầu tham dự thầu về: tính hợp lệ của E-HSDT; kỹ thuật; tài chính; năng lực và kinh nghiệm. Trường hợp nhà thầu không đáp ứng bước trước thì không tiếp tục đánh giá bước tiếp theo"
+      "A": "Chủ đầu tư được nêu yêu cầu cụ thể về xuất xứ, ký mã hiệu, nhãn hiệu, hãng sản xuất, thông số kỹ thuật của hàng hóa và các yêu cầu khác (nếu có) như: lắp đặt, đào tạo, bảo hành...",
+      "B": "Chủ đầu tư cần nghiên cứu để đưa ra khoảng thời gian phù hợp giữa ngày giao hàng sớm nhất và ngày giao hàng muộn nhất",
+      "C": "Nhà thầu sẽ không đề xuất ngày giao hàng cụ thể mà chỉ cam kết tuân thủ theo yêu cầu của chủ đầu tư tại E-TBMT",
+      "D": "Trong quá trình chào giá, mức giá do các nhà thầu chào và tên nhà thầu được công khai trên Hệ thống mạng đấu thầu quốc gia"
     },
-    "correctAnswer": "B",
-    "explanation": "Quy trình 02 ưu tiên tốc độ (quy trình đánh giá ngược). 1. Xếp hạng trước: Hệ thống tự động xếp hạng ngay sau khi mở thầu. 2. Đánh giá sau: Tổ chuyên gia chỉ tiến hành đánh giá E-HSDT của nhà thầu xếp hạng thứ nhất theo trình tự: Tính hợp lệ -> Năng lực và kinh nghiệm -> Kỹ thuật. 3. Nguyên tắc 'Cuốn chiếu': Nếu nhà thầu hạng nhất không đạt bất kỳ bước nào, tổ chuyên gia mới chuyển sang đánh giá nhà thầu hạng tiếp theo.",
+    "correctAnswer": "D",
+    "explanation": "Theo Khoản 1 Điều 100 Nghị định 214/2025/NĐ-CP: Trong quá trình chào giá, Hệ thống mạng đấu thầu quốc gia tự động công khai mức giá và các yếu tố khác ngoài giá, TRỪ TÊN NHÀ THẦU để bảo đảm tính khách quan và hạn chế thông thầu trong thời gian chào giá.",
     "category": "Gói thầu qua mạng (E-bidding)"
   },
   {
     "id": 345,
-    "question": "Gói thầu phi tư vấn có giá gói thầu 2 tỷ đồng thực hiện đấu thầu rộng rãi qua mạng đóng thầu ngày 11/11/2025 (Thứ 3), Chủ đầu tư tiếp nhận nội dung yêu cầu làm rõ của nhà thầu ngày 04/11/2025. Chủ đầu tư phải trả lời yêu cầu làm rõ E-HSMT trên Hệ thống chậm nhất ngày nào dưới đây để đảm bảo không phải gia hạn thời điểm đóng thầu?",
+    "question": "Đối với gói thầu áp dụng theo phương thức một giai đoạn một túi hồ sơ, căn cứ vào E-HSDT của các nhà thầu đã nộp trên Hệ thống và phương pháp đánh giá E-HSDT quy định trong E-HSMT, tổ chuyên gia được chọn quy trình 02 để đánh giá E-HSDT trong trường hợp nào sau đây?",
     "options": {
-      "A": "Thứ tư ngày 05/11/2025",
-      "B": "Thứ năm ngày 06/11/2025",
-      "C": "Thứ sáu ngày 07/11/2025",
-      "D": "Thứ 7 ngày 08/11/2025"
+      "A": "Gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn, máy đặt, máy mượn theo phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất” và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào",
+      "B": "Gói thầu mua sắm hàng hóa, dịch vụ tư vấn theo phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất” và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào",
+      "C": "Gói thầu xây lắp theo phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất”",
+      "D": "Cả 3 phương án đều sai"
     },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ quy định về làm rõ E-HSMT (Nghị định 24/2024/NĐ-CP): Chủ đầu tư phải đăng tải văn bản làm rõ trên Hệ thống trong thời gian tối thiểu 02 ngày làm việc trước ngày đóng thầu. • Đóng thầu: Thứ 3 (11/11). • 01 ngày làm việc trước: Thứ 2 (10/11). • 02 ngày làm việc trước: Thứ 6 (07/11) (Do Thứ 7 ngày 08/11 và Chủ nhật ngày 09/11 là ngày nghỉ). Vậy phải trả lời chậm nhất vào Thứ sáu ngày 07/11/2025.",
+    "correctAnswer": "A",
+    "explanation": "Quy trình 02 (đánh giá ngược: xếp hạng giá trước -> đánh giá sau) chỉ áp dụng cho các gói thầu đơn giản: Mua sắm hàng hóa và Dịch vụ phi tư vấn, dùng phương pháp 'Giá thấp nhất' và không có ưu đãi. Nếu có ưu đãi, Hệ thống không thể tự động xếp hạng chính xác ngay lập tức nên không áp dụng được Quy trình 02.",
     "category": "Gói thầu qua mạng (E-bidding)"
   },
   {
     "id": 346,
-    "question": "Sau khi có quyết định phê duyệt kết quả lựa chọn nhà thầu, nhận định nào sau đây không đúng?",
+    "question": "Khi xây dựng hồ sơ yêu cầu đối với hình thức chỉ định thầu, chủ đầu tư quy định nhà thầu chuẩn bị 01 bản gốc và tối đa bao nhiêu bản chụp hồ sơ đề xuất?",
     "options": {
-      "A": "Chủ đầu tư đăng tải kết quả lựa chọn nhà thầu trên Hệ thống trong vòng 05 ngày làm việc kể từ ngày phê duyệt kết quả lựa chọn nhà thầu.",
-      "B": "Nhà thầu gửi đề nghị trên Hệ thống hoặc gặp trực tiếp Chủ đầu tư yêu cầu giải thích lý do cụ thể nhà thầu không trúng thầu.",
-      "C": "Chủ đầu tư có trách nhiệm trả lời yêu cầu giải thích lý do cụ thể nhà thầu không trúng thầu của nhà thầu trong thời hạn 02 ngày làm việc kể từ ngày nhận được yêu cầu của nhà thầu",
-      "D": "Chủ đầu tư gửi văn bản thông báo kết quả lựa chọn nhà thầu cho các nhà thầu tham dự thầu trong thời hạn 03 ngày làm việc kể từ ngày phê duyệt kết quả lựa chọn nhà thầu"
+      "A": "01 bản chụp",
+      "B": "02 bản chụp",
+      "C": "03 bản chụp",
+      "D": "04 bản chụp"
     },
-    "correctAnswer": "D",
-    "explanation": "Theo quy định tại Khoản 5 Điều 33 Nghị định 214, sau khi có quyết định phê duyệt kết quả, Chủ đầu tư có trách nhiệm gửi văn bản thông báo cho các nhà thầu tham dự trong thời hạn 05 ngày làm việc kể từ ngày phê duyệt, chứ không phải 03 ngày làm việc.",
-    "category": "Thương thảo & Trúng thầu"
+    "correctAnswer": "C",
+    "explanation": "Theo quy định tại Mục 10 Chương I Mẫu số 1B ban hành kèm theo Thông tư 80/2025/TT-BTC: 'Nhà thầu phải chuẩn bị một bản gốc và [Ghi số lượng yêu cầu nhưng không quá 03 bản] bản chụp'. Vậy Chủ đầu tư được yêu cầu tối đa 03 bản chụp.",
+    "category": "Hình thức lựa chọn nhà thầu"
   },
   {
     "id": 347,
-    "question": "Đối với đấu thầu qua mạng, nhận định nào sau đây về thông báo chấp thuận E-HSDT và trao hợp đồng là đúng?",
+    "question": "Trong chào giá trực tuyến theo quy trình rút gọn gói thầu hàng hóa, phát biểu nào sau đây không đúng?",
     "options": {
-      "A": "Chủ đầu tư gửi thông báo chấp thuận E-HSDT và trao hợp đồng (sau khi đăng tải kết quả lựa chọn nhà thầu) trên Hệ thống cho nhà thầu trúng thầu; thông báo bao gồm cả yêu cầu về biện pháp bảo đảm thực hiện hợp đồng, thời gian hoàn thiện, ký kết hợp đồng.",
-      "B": "Thông báo chấp thuận E-HSDT và trao hợp đồng là một phần của hồ sơ hợp đồng",
-      "C": "Thời hạn nêu trong thông báo chấp thuận E-HSDT và trao hợp đồng được tính kể từ ngày Chủ đầu tư gửi thông báo chấp thuận cho nhà thầu trúng thầu trên Hệ thống.",
-      "D": "Tất cả các phương án trên đều đúng"
+      "A": "Đối với lần chào giá đầu tiên nhà thầu nhập các trọng số là đơn giá của hàng hóa nhà thầu dự kiến xác định sẽ chào",
+      "B": "Nhà thầu không được thay đổi trọng số của từng hạng mục hàng hóa trong quá trình chào giá",
+      "C": "Nhà thầu cần nghiên cứu công thức tính thành tiền và đơn giá dự thầu từ các trọng số để đề xuất các trọng số cho phù hợp",
+      "D": "Nhà thầu phải điền các trọng số về đơn giá (N1, N2,...) của từng hạng mục"
     },
-    "correctAnswer": "D",
-    "explanation": "Theo các Mẫu E-HSMT: 1. Quy trình gửi (A đúng): Sau khi đăng tải kết quả, Chủ đầu tư gửi thông báo chấp thuận qua Hệ thống, bao gồm yêu cầu bảo đảm thực hiện hợp đồng, thời gian ký kết. 2. Tính pháp lý (B đúng): Thông báo này được quy định rõ là một phần không thể tách rời của hồ sơ hợp đồng. 3. Mốc thời gian (C đúng): Thời hạn thực hiện các yêu cầu tính kể từ ngày gửi thông báo cho nhà thầu trúng thầu trên Hệ thống.",
-    "category": "Thương thảo & Trúng thầu"
+    "correctAnswer": "B",
+    "explanation": "Trong chào giá trực tuyến, nhà thầu nhập đơn giá (trọng số) lần đầu. Các lần sau chỉ chào giảm tổng giá, hệ thống tự động giảm đơn giá các hạng mục theo tỷ lệ tương ứng. Nhà thầu KHÔNG được thay đổi tỷ trọng này giữa chừng để đảm bảo kết cấu giá dự thầu không bị xáo trộn. (Lưu ý: Đáp án B được chọn vì nó là phát biểu về một nguyên tắc quan trọng cần tuân thủ).",
+    "category": "Gói thầu qua mạng (E-bidding)"
   },
   {
     "id": 348,
-    "question": "Trong chào giá trực tuyến rút gọn, nhận định nào sau đây về giá trần là đúng?",
+    "question": "Trong chào giá trực tuyến theo quy trình rút gọn, khi nhập trọng số trong lần chào giá đầu tiên, nhà thầu cần làm gì?",
     "options": {
-      "A": "Đối với loại hợp đồng trọn gói, loại hợp đồng theo đơn giá cố định hoặc đơn giá điều chỉnh, giá trần là giá gói thầu trong kế hoạch lựa chọn nhà thầu được duyệt bao gồm phần chi phí dự phòng hoặc dự toán gói thầu bao gồm phần chi phí dự phòng trong trường hợp dự toán duyệt sau khi phê duyệt kế hoạch lựa chọn nhà thầu.",
-      "B": "Đối với loại hợp đồng trọn gói, giá trần là giá gói thầu trong kế hoạch lựa chọn nhà thầu được duyệt hoặc dự toán gói thầu trong trường hợp dự toán duyệt sau khi phê duyệt kế hoạch lựa chọn nhà thầu",
-      "C": "Đối với loại hợp đồng theo đơn giá cố định hoặc đơn giá điều chỉnh, giá trần là giá gói thầu trong kế hoạch lựa chọn nhà thầu được duyệt chưa bao gồm phần chi phí dự phòng hoặc dự toán gói thầu chưa bao gồm chi phí dự phòng của gói thầu trong trường hợp dự toán duyệt sau khi phê duyệt kế hoạch lựa chọn nhà thầu",
-      "D": "Cả phương án B và C đều đúng"
+      "A": "Nhập ngẫu nhiên các giá trị trọng số",
+      "B": "Nhập trọng số bằng giá trị khối lượng từng hạng mục",
+      "C": "Nhập trọng số là đơn giá dự kiến chào cho từng hạng mục",
+      "D": "Không cần nhập trọng số, hệ thống sẽ tự động tính"
     },
-    "correctAnswer": "D",
-    "explanation": "Quy định về 'Giá trần' trong Chào giá trực tuyến (CGTT) rút gọn (Khoản 5 Điều 100 NĐ 214): 'Giá chào không được cao hơn giá gói thầu'. Theo Luật Đấu thầu 2023, 'Giá gói thầu' bao gồm toàn bộ chi phí thực hiện, kể cả chi phí dự phòng. Do đó, Giá trần trong CGTT rút gọn luôn bao gồm chi phí dự phòng, bất kể loại hợp đồng. (Lưu ý: Đáp án D trong tài liệu gốc dựa trên việc phân tách tính chất loại hợp đồng, tuy nhiên kết luận cuối cùng vẫn là Giá trần = Giá gói thầu = có dự phòng).",
+    "correctAnswer": "C",
+    "explanation": "Lần chào giá đầu tiên, nhà thầu bắt buộc phải nhập đơn giá cụ thể cho từng hạng mục. Hệ thống sử dụng các đơn giá này để xác định tỷ trọng (trọng số) về giá trị của từng hạng mục so với tổng giá gói thầu. Các lần sau chỉ cần nhập tổng giá giảm, hệ thống tự động tính lại đơn giá theo tỷ trọng cố định này.",
     "category": "Gói thầu qua mạng (E-bidding)"
   },
   {
     "id": 349,
-    "question": "Trong chào giá trực tuyến rút gọn, bước giá được tính như thế nào?",
+    "question": "Khi đánh giá E-HSDT đối với gói thầu mua sắm hàng hóa, trường hợp có sự sai khác giữa thông tin kê khai về ký mã hiệu, nhãn hiệu, xuất xứ, hãng sản xuất trong bảng đề xuất về hàng hóa của nhà thầu (Mẫu số 10B chương IV) so với tài liệu đính kèm thì Tổ chuyên gia đánh giá như thế nào?",
     "options": {
-      "A": "Giá trị trong khoảng từ 0,1% đến 0,3% giá trần",
-      "B": "Giá trị trong khoảng từ 0,5% đến 0.8% giá trần",
-      "C": "Giá trị trong khoảng từ 01% đến 02% giá trần",
-      "D": "Giá trị trong khoảng từ 01% đến 03% giá trần"
+      "A": "Đánh giá theo thông tin trong tài liệu đính kèm trong trường hợp sau khi làm rõ E-HSDT thông tin trong tài liệu đính kèm là chính xác",
+      "B": "Đánh giá theo thông tin trong Mẫu số 10B nhà thầu kê khai, trừ trường hợp ký mã hiệu (nếu có), nhãn hiệu, hãng sản xuất kê khai tại Mẫu số 10B không tồn tại trên thị trường.",
+      "C": "Loại nhà thầu E-HSDT của nhà thầu do có sự sai khác giữa thông tin kê khai và tài liệu đính kèm.",
+      "D": "Phương án A và B đều đúng"
     },
-    "correctAnswer": "A",
-    "explanation": "Bước giá là khoảng cách tối thiểu giữa các lần chào giá. Đối với quy trình rút gọn (nhanh), bước giá thường được quy định trong khoảng từ 0,1% đến 0,3% để thúc đẩy cạnh tranh giá.",
-    "category": "Gói thầu qua mạng (E-bidding)"
+    "correctAnswer": "B",
+    "explanation": "Theo Mục 15.8 Chương I các Mẫu E-HSMT mua sắm hàng hóa: Khi có sự sai khác giữa thông tin kê khai trong Mẫu số 10B (Webform) so với tài liệu đính kèm thì thông tin trong Mẫu số 10B là cơ sở để xem xét, đánh giá. Ngoại lệ duy nhất là nếu thông tin kê khai tại Mẫu 10B không tồn tại trên thị trường.",
+    "category": "Lập & Đánh giá hồ sơ mời thầu"
   },
   {
     "id": 350,
-    "question": "Trường hợp gặp sự cố dẫn đến Hệ thống mạng đấu thầu quốc gia không thể vận hành và việc khắc phục sự cố dự kiến diễn ra trong thời gian dài, cơ quan nào có trách nhiệm thông báo về cách thức lựa chọn nhà thầu?",
+    "question": "Đối với đấu thầu qua mạng, khi tham dự gói thầu mua sắm hàng hóa, trong bảng đề xuất về hàng hóa (Mẫu số 10B chương IV), nhà thầu A chào “theo catalog đính kèm” thay vì kê khai thông tin theo Mẫu số 10B. Tổ chuyên gia đánh giá nội dung này trong E-HSDT của nhà thầu như thế nào là phù hợp?",
     "options": {
-      "A": "Bộ Tài chính",
-      "B": "Cục Quản lý đấu thầu",
-      "C": "Trung tâm Đấu thầu qua mạng quốc gia",
-      "D": "Tất cả các phương án trên đều đúng"
+      "A": "Tổ chuyên gia đánh giá nội dung này theo Catalog nhà thầu A đính kèm. Nội dung này được tiếp tục đánh giá khi Catalog không tham chiếu đến nhiều hơn 01 ký mã hiệu, nhãn hiệu, hãng sản xuất...cho một loại hàng hóa",
+      "B": "Báo cáo chủ đầu tư yêu cầu nhà thầu A làm rõ nội dung này nếu Catalog tham chiếu đến nhiều hơn 01 ký mã hiệu, nhãn hiệu, hãng sản xuất...cho một loại hàng hóa để làm cơ sở đánh giá",
+      "C": "E-HSDT của nhà thầu A không được xem xét, đánh giá",
+      "D": "Phương án A và B đều đúng"
     },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ khoản 28 Điều 140 Nghị định 214/2025/NĐ-CP: Trường hợp Hệ thống gặp sự cố không thể vận hành trong thời gian dài, Bộ Tài chính có trách nhiệm thông báo trên Hệ thống về cách thức tổ chức lựa chọn nhà thầu trong thời gian gặp sự cố và xử lý sự cố, bao gồm cả việc tổ chức lựa chọn nhà thầu không qua mạng.",
-    "category": "Gói thầu qua mạng (E-bidding)"
+    "correctAnswer": "C",
+    "explanation": "Căn cứ Ghi chú tại Mẫu số 10B: Nhà thầu bắt buộc phải tự điền và đề xuất cụ thể các thông tin (Ký mã hiệu, Nhãn hiệu, Xuất xứ, Hãng sản xuất) trên Webform. Nếu nhà thầu kê khai các nội dung như \"theo catalog đính kèm\" thì E-HSDT sẽ không được xem xét, đánh giá để tránh việc nhà thầu chào thầu không rõ ràng hoặc thay đổi đề xuất sau thời điểm đóng thầu.",
+    "category": "Lập & Đánh giá hồ sơ mời thầu"
   }
 ];

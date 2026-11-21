@@ -3,61 +3,6 @@ import { Question } from "../../types";
 export const set15: Question[] = [
   {
     "id": 141,
-    "question": "Đối với các gói thầu mua sắm tập trung, trách nhiệm cung cấp thông tin về kết quả thực hiện hợp đồng của nhà thầu do ai thực hiện?",
-    "options": {
-      "A": "Đơn vị có nhu cầu mua sắm",
-      "B": "Bên mời thầu",
-      "C": "Đơn vị tư vấn được thuê làm bên mời thầu",
-      "D": "Không phải đăng tải thông tin"
-    },
-    "correctAnswer": "A",
-    "explanation": "Đơn vị có nhu cầu mua sắm (đơn vị trực tiếp sử dụng và quản lý hợp đồng) là người nắm rõ nhất kết quả thực hiện, nên có trách nhiệm cung cấp thông tin này. Căn cứ: Khoản 4 Điều 20 Nghị định 214/2025/NĐ-CP.",
-    "category": "Mua sắm đặc thù"
-  },
-  {
-    "id": 142,
-    "question": "Áp dụng hình thức lựa chọn nhà thầu nào khi mua sắm tập trung đối với gói thầu điều hòa không khí thông dụng, sẵn có trên thị trường, có giá gói thầu là 07 tỷ đồng cho các cơ quan thuộc tỉnh X?",
-    "options": {
-      "A": "Đấu thầu rộng rãi hoặc mua sắm trực tiếp",
-      "B": "Đấu thầu rộng rãi hoặc chỉ định thầu theo hạn mức",
-      "C": "Đấu thầu rộng rãi hoặc chào hàng cạnh tranh",
-      "D": "Đấu thầu rộng rãi hoặc chỉ định thầu hoặc đàm phán giá"
-    },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ khoản 3 Điều 89 Nghị định số 214/2025/NĐ-CP, mua sắm tập trung được thực hiện thông qua đấu thầu rộng rãi; hàng hóa đáp ứng điều kiện chào hàng cạnh tranh (thông dụng, sẵn có, giá gói thầu không quá 10 tỷ đồng theo Điều 81) thì được áp dụng chào hàng cạnh tranh. Gói thầu điều hòa thông dụng 07 tỷ đồng đáp ứng điều kiện này, nên chọn C. Chỉ định thầu trong mua sắm tập trung chỉ theo khoản 1 Điều 78 (cấp bách), không theo hạn mức; mua sắm trực tiếp, đàm phán giá không phù hợp.",
-    "category": "Câu hỏi cập nhật",
-    "isNew2775": true,
-    "newExamId": 404,
-    "newExamNote": "Câu 404 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
-  },
-  {
-    "id": 143,
-    "question": "Trách nhiệm trong mua sắm tập trung?",
-    "options": {
-      "A": "Đơn vị mua sắm tập trung thực hiện trách nhiệm của người có thẩm quyền theo quy định của Luật Đấu thầu",
-      "B": "Đơn vị mua sắm tập trung thực hiện trách nhiệm của chủ đầu tư theo quy định của Luật Đấu thầu",
-      "C": "Đơn vị mua sắm tập trung thực hiện trách nhiệm của bên mời thầu theo quy định của Luật Đấu thầu",
-      "D": "Đơn vị mua sắm tập trung thực hiện trách nhiệm của tổ chuyên gia theo quy định của Luật Đấu thầu"
-    },
-    "correctAnswer": "B",
-    "explanation": "Trong quy trình mua sắm tập trung, Đơn vị mua sắm tập trung đóng vai trò thực hiện trách nhiệm của Chủ đầu tư trong việc tổ chức lựa chọn nhà thầu. Căn cứ: Khoản 1 Điều 90 Nghị định 214/2025/NĐ-CP.",
-    "category": "Mua sắm đặc thù"
-  },
-  {
-    "id": 144,
-    "question": "Nhà thầu đã ký thỏa thuận khung và được đơn vị có nhu cầu mua sắm yêu cầu ký hợp đồng nhưng không ký hợp đồng, không thực hiện biện pháp bảo đảm thực hiện hợp đồng sẽ bị xử lý như thế nào?",
-    "options": {
-      "A": "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày đơn vị có nhu cầu mua sắm công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
-      "B": "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày đơn vị mua sắm tập trung công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia, trừ trường hợp bất khả kháng",
-      "C": "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng",
-      "D": "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 06 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng"
-    },
-    "correctAnswer": "B",
-    "explanation": "Việc từ chối ký hợp đồng sau khi đã trúng thầu và ký thỏa thuận khung sẽ bị xử lý bằng biện pháp khóa tài khoản trên Hệ thống trong thời hạn 06 tháng kể từ ngày đơn vị mua sắm tập trung công khai tên. Căn cứ: Điểm g Khoản 1 Điều 91 Nghị định 214/2025/NĐ-CP.",
-    "category": "Mua sắm đặc thù"
-  },
-  {
-    "id": 145,
     "question": "Đối với gói thầu mua sắm tập trung áp dụng lựa chọn nhà thầu căn cứ theo khả năng cung cấp và áp dụng phương pháp giá thấp nhất, việc lựa chọn danh sách nhà thầu trúng thầu được thực hiện như thế nào?",
     "options": {
       "A": "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu tối thiểu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm điểm tổng hợp của gói thầu cao nhất",
@@ -70,7 +15,7 @@ export const set15: Question[] = [
     "category": "Mua sắm đặc thù"
   },
   {
-    "id": 146,
+    "id": 142,
     "question": "Đối với gói thầu mua sắm tập trung áp dụng lựa chọn nhà thầu căn cứ khối lượng mời thầu, danh sách phê duyệt nhà thầu trúng thầu bao gồm:",
     "options": {
       "A": "Danh sách chính (nhà thầu xếp thứ nhất) và danh sách dự bị (nhà thầu xếp thứ 2 trở đi)",
@@ -83,7 +28,7 @@ export const set15: Question[] = [
     "category": "Mua sắm đặc thù"
   },
   {
-    "id": 147,
+    "id": 143,
     "question": "Đối với hàng hóa, dịch vụ không thuộc danh mục mua sắm tập trung do Chủ tịch UBND tỉnh X ban hành nhưng nhiều cơ quan, tổ chức, đơn vị trong tỉnh X có nhu cầu mua sắm hàng hóa, dịch vụ cùng loại thì thực hiện như thế nào?",
     "options": {
       "A": "Từng cơ quan, tổ chức, đơn vị trong tỉnh X căn cứ vào thỏa thuận khung do UBND tỉnh X đã ký kết trước đó để mua sắm tập trung đối với các hàng hóa, dịch vụ này",
@@ -96,23 +41,7 @@ export const set15: Question[] = [
     "category": "Mua sắm đặc thù"
   },
   {
-    "id": 148,
-    "question": "Phương án nào sau đây được xác định là một bước trong quá trình lựa chọn nhà thầu theo quy trình chỉ định thầu thông thường được pháp luật về đấu thầu quy định?",
-    "options": {
-      "A": "Xác định tối thiểu 03 nhà thầu có đủ năng lực, kinh nghiệm để mời nhận hồ sơ yêu cầu",
-      "B": "Chuẩn bị và gửi dự thảo hợp đồng cho tối thiểu 03 nhà thầu có đủ năng lực, kinh nghiệm để đàm phán hợp đồng",
-      "C": "Đánh giá hồ sơ đề xuất và thương thảo với nhà thầu",
-      "D": "Phương án A và C đều đúng"
-    },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ điểm c khoản 3 Điều 79 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), quy trình chỉ định thầu thông thường có bước nộp hồ sơ đề xuất, đánh giá hồ sơ đề xuất và thương thảo với nhà thầu. Phương án A sai vì theo điểm b khoản 3 Điều 79, chủ đầu tư chỉ xác định một nhà thầu dự kiến được mời nhận hồ sơ yêu cầu; phương án B sai vì gửi dự thảo hợp đồng là bước của chỉ định thầu rút gọn (Điều 80) và cũng chỉ gửi cho một nhà thầu. Vì vậy chọn C.",
-    "category": "Câu hỏi cập nhật",
-    "isNew2775": true,
-    "newExamId": 405,
-    "newExamNote": "Câu 405 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
-  },
-  {
-    "id": 149,
+    "id": 144,
     "question": "Trường hợp đơn vị được giao nhiệm vụ mua sắm tập trung không đủ năng lực, kinh nghiệm tổ chức lựa chọn nhà thầu thì thực hiện như thế nào?",
     "options": {
       "A": "Vẫn thực hiện nhiệm vụ được giao, tổ chuyên gia không cần phải đáp ứng yêu cầu về năng lực, kinh nghiệm",
@@ -125,7 +54,7 @@ export const set15: Question[] = [
     "category": "Trách nhiệm và Xử lý vi phạm"
   },
   {
-    "id": 150,
+    "id": 145,
     "question": "Phương án nào xác định quy mô của hợp đồng tương tự đối với gói thầu áp dụng mua sắm tập trung là phù hợp?",
     "options": {
       "A": "Trong mọi trường hợp có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,5 (Y thông thường khoảng 50% giá trị của gói thầu đang xét)",
@@ -136,5 +65,70 @@ export const set15: Question[] = [
     "correctAnswer": "B",
     "explanation": "Đối với gói thầu MSTT có khối lượng lớn, để tăng tính cạnh tranh, chủ đầu tư có thể điều chỉnh giảm yêu cầu hợp đồng tương tự xuống còn Y/1,25 (với Y là mức thông thường 50% giá gói thầu). Hoặc chia nhỏ gói thầu. Căn cứ: Mẫu E-HSMT (Thông tư 79).",
     "category": "Mua sắm đặc thù"
+  },
+  {
+    "id": 146,
+    "question": "Thẩm quyền phê duyệt kế hoạch tổng thể lựa chọn nhà thầu thuộc về chủ thể nào?",
+    "options": {
+      "A": "Người có thẩm quyền",
+      "B": "Chủ đầu tư (trường hợp xác định được chủ đầu tư)",
+      "C": "Người đứng đầu cơ quan được giao chuẩn bị dự án",
+      "D": "Bên mời thầu"
+    },
+    "correctAnswer": "A",
+    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 36 Luật Đấu thầu và Khoản 4 Điều 16 Nghị định số 214/2025/NĐ-CP. Luật quy định người có thẩm quyền có trách nhiệm xem xét, quyết định việc tổ chức lập, phê duyệt kế hoạch tổng thể lựa chọn nhà thầu. Chủ đầu tư chỉ có trách nhiệm trình, còn thẩm quyền phê duyệt thuộc về người có thẩm quyền.",
+    "category": "Trách nhiệm và Xử lý vi phạm"
+  },
+  {
+    "id": 147,
+    "question": "Trường hợp thuê đơn vị tư vấn lập hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu; đánh giá hồ sơ quan tâm, hồ sơ dự sơ tuyển, hồ sơ dự thầu, hồ sơ đề xuất, tổ chuyên gia được thành lập bởi ai?",
+    "options": {
+      "A": "Người có thẩm quyền",
+      "B": "Chủ đầu tư",
+      "C": "Bên mời thầu",
+      "D": "Đơn vị tư vấn được chủ đầu tư lựa chọn"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 19 Luật Đấu thầu. Quy định nêu rõ việc thành lập tổ chuyên gia được thực hiện như sau: Đơn vị tư vấn thành lập đối với trường hợp thuê tư vấn để lập hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu; đánh giá hồ sơ.",
+    "category": "Trách nhiệm và Xử lý vi phạm"
+  },
+  {
+    "id": 148,
+    "question": "Nhiệm vụ nào sau đây không thuộc trách nhiệm của người có thẩm quyền?",
+    "options": {
+      "A": "Phê duyệt kế hoạch lựa chọn nhà thầu",
+      "B": "Giải quyết kiến nghị và xử lý các vi phạm pháp luật về đấu thầu",
+      "C": "Quyết định việc hủy thầu khi thay đổi mục tiêu đầu tư trong quyết định đầu tư",
+      "D": "Quyết định việc hủy thầu, đình chỉ cuộc đấu thầu, không công nhận kết quả lựa chọn nhà thầu khi phát hiện có hành vi vi phạm pháp luật về đấu thầu"
+    },
+    "correctAnswer": "A",
+    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 78 Luật Đấu thầu. Việc phê duyệt kế hoạch lựa chọn nhà thầu là trách nhiệm của Chủ đầu tư (trừ trường hợp gói thầu cần thực hiện trước khi có quyết định phê duyệt dự án). Người có thẩm quyền chịu trách nhiệm phê duyệt kế hoạch tổng thể lựa chọn nhà thầu (Điều 77), không phải kế hoạch lựa chọn nhà thầu chi tiết.",
+    "category": "Trách nhiệm và Xử lý vi phạm"
+  },
+  {
+    "id": 149,
+    "question": "Trường hợp nào sau đây việc phê duyệt kế hoạch lựa chọn nhà thầu thuộc trách nhiệm của chủ đầu tư?",
+    "options": {
+      "A": "Chủ đầu tư không có trách nhiệm phê duyệt kế hoạch lựa chọn nhà thầu",
+      "B": "Chủ đầu tư có trách nhiệm phê duyệt kế hoạch lựa chọn nhà thầu, trừ trường hợp chưa xác định được chủ đầu tư theo quy định của pháp luật",
+      "C": "Trường hợp gói thầu được thực hiện trước khi có quyết định phê duyệt dự án và chưa xác định được chủ đầu tư",
+      "D": "Chủ đầu tư chỉ được phê duyệt kế hoạch lựa chọn nhà thầu trong trường hợp được người có thẩm quyền ủy quyền"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ pháp lý: Khoản 2 Điều 40 Luật Đấu thầu. Luật quy định Chủ đầu tư tổ chức lập và phê duyệt kế hoạch lựa chọn nhà thầu. Chỉ trong trường hợp chưa xác định được chủ đầu tư (đối với gói thầu đấu thầu trước hoặc gói cần thực hiện trước khi phê duyệt dự án) thì mới do người đứng đầu đơn vị được giao nhiệm vụ chuẩn bị dự án phê duyệt.",
+    "category": "Trách nhiệm và Xử lý vi phạm"
+  },
+  {
+    "id": 150,
+    "question": "Việc chấp thuận hoặc không chấp thuận việc điều chuyển khối lượng, phạm vi công việc của nhà thầu phụ cho tổ chức, đơn vị khác khi cần đáp ứng yêu cầu về tiến độ, chất lượng gói thầu do nhà thầu đề xuất thuộc trách nhiệm của ai?",
+    "options": {
+      "A": "Tổ chuyên gia",
+      "B": "Chủ đầu tư",
+      "C": "Người có thẩm quyền",
+      "D": "Tổ thẩm định"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ pháp lý: Khoản 13a Điều 78 Luật Đấu thầu. Luật quy định trách nhiệm của Chủ đầu tư là chấp thuận hoặc không chấp thuận việc điều chuyển khối lượng, phạm vi công việc của nhà thầu phụ cho tổ chức, đơn vị khác khi cần đáp ứng yêu cầu về tiến độ, chất lượng gói thầu khi nhà thầu chính đề xuất.",
+    "category": "Trách nhiệm và Xử lý vi phạm"
   }
 ];

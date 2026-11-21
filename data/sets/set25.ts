@@ -3,126 +3,6 @@ import { Question } from "../../types";
 export const set25: Question[] = [
   {
     "id": 241,
-    "question": "Chủ đầu tư yêu cầu gia hạn hiệu lực hồ sơ dự thầu, bảo đảm dự thầu trong trường hợp nào sau đây?",
-    "options": {
-      "A": "Trước khi hết hạn hiệu lực hồ sơ dự thầu trong trường hợp cần gia hạn để tiếp tục đánh giá hồ sơ dự thầu",
-      "B": "Trường hợp nhà thầu xếp hạng tiếp theo được mời vào thương thảo hợp đồng nhưng hồ sơ dự thầu của nhà thầu đó hết hiệu lực thì Chủ đầu tư phải yêu cầu nhà thầu gia hạn hiệu lực của hồ sơ dự thầu, bảo đảm dự thầu trước khi thương thảo hợp đồng",
-      "C": "Thời gian đánh giá kéo dài dẫn đến HSDT hết hiệu lực",
-      "D": "Tất cả phương án trên đều đúng"
-    },
-    "correctAnswer": "D",
-    "explanation": "Căn cứ khoản 6 Điều 14 Luật Đấu thầu số 22/2023/QH15, chủ đầu tư được gia hạn hiệu lực hồ sơ dự thầu sau thời điểm đóng thầu kèm gia hạn bảo đảm dự thầu; khoản 16 Điều 140 Nghị định số 214/2025/NĐ-CP buộc yêu cầu nhà thầu xếp hạng tiếp theo gia hạn trước khi thương thảo; khoản 33b Điều 140 (bổ sung bởi Nghị định số 349/2026/NĐ-CP) cho phép yêu cầu khôi phục hiệu lực khi thời gian đánh giá kéo dài. Vì vậy chọn D. Lưu ý: ở trường hợp C, văn bản dùng cụm “khôi phục hiệu lực” chứ không phải “gia hạn”.",
-    "category": "Câu hỏi cập nhật",
-    "isNew2775": true,
-    "newExamId": 408,
-    "newExamNote": "Câu 408 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
-  },
-  {
-    "id": 242,
-    "question": "Trong quá trình đánh giá, Tổ chuyên gia phát hiện nhà thầu tham dự thầu trên Hệ thống mạng đấu thầu quốc gia đính kèm tệp tin có thiết lập mật khẩu thì xử lý thế nào?",
-    "options": {
-      "A": "Yêu cầu nhà thầu nộp lại tệp tin không có thiết lập mật khẩu trên Hệ thống mạng đấu thầu quốc gia để xem xét, đánh giá",
-      "B": "Yêu cầu nhà thầu cung cấp mật khẩu để xem xét, đánh giá",
-      "C": "Tệp tin này không được xem xét, đánh giá",
-      "D": "Phương án A và B đều đúng"
-    },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 5 Thông tư số 79/2025/TT-BTC. Tệp tin có thiết lập mật khẩu sẽ không thể mở được bởi Hệ thống/Tổ chuyên gia, do đó không được xem xét, đánh giá.",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 243,
-    "question": "Theo quy định tại Thông tư số 79/2025/TT-BTC, quy định về thời điểm bắt đầu và kết thúc chào giá trực tuyến theo quy trình rút gọn?",
-    "options": {
-      "A": "Thời điểm bắt đầu và kết thúc phải trong giờ hành chính.",
-      "B": "Thời điểm bắt đầu không bắt buộc trong giờ hành chính nhưng kết thúc phải trong giờ hành chính.",
-      "C": "Thời điểm bắt đầu và kết thúc không bắt buộc trong giờ hành chính.",
-      "D": "Tất cả phương án trên đều sai"
-    },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ pháp lý: Khoản 4 Điều 100 Nghị định số 214/2025/NĐ-CP (và hướng dẫn tại Thông tư 79). Quy định yêu cầu thời điểm bắt đầu và kết thúc chào giá trực tuyến đều phải nằm trong giờ hành chính.",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 244,
-    "question": "Đối với gói thầu chào giá trực tuyến rút gọn, nhà thầu xác nhận về việc chấp thuận được trao hợp đồng trong thời gian tối đa bao lâu kể từ ngày chủ đầu tư mời nhà thầu xác nhận trên Hệ thống mạng đấu thầu quốc gia?",
-    "options": {
-      "A": "03 ngày",
-      "B": "03 ngày làm việc",
-      "C": "05 ngày",
-      "D": "05 ngày làm việc"
-    },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ pháp lý: Điểm h Khoản 1 Điều 20 Nghị định số 214/2025/NĐ-CP. Nhà thầu phải xác nhận chấp thuận trao hợp đồng trong thời hạn tối đa 03 ngày làm việc kể từ ngày nhận được yêu cầu.",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 245,
-    "question": "Gói thầu chào giá trực tuyến rút gọn, trường hợp nhà thầu từ chối xác nhận về việc chấp thuận được trao hợp đồng trên Hệ thống mạng đấu thầu quốc gia thì nội dung nào sau đây không đúng?",
-    "options": {
-      "A": "Công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
-      "B": "Khoá tài khoản trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của chủ đầu tư",
-      "C": "Khóa chức năng chào giá trực tuyến trong thời hạn 06 tháng kể từ ngày chủ đầu tư công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
-      "D": "Bị đánh giá về uy tín trong việc tham dự thầu"
-    },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ pháp lý: Điểm h Khoản 1 Điều 20 Nghị định số 214/2025/NĐ-CP. Chế tài cho việc không xác nhận trao hợp đồng (chào giá rút gọn) là khóa chức năng chào giá trực tuyến 06 tháng. Phương án B nói \"Khóa tài khoản 3 tháng\" là không đúng (đây là đáp án cần chọn vì câu hỏi tìm phương án SAI).",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 246,
-    "question": "Chào giá trực tuyến theo quy trình thông thường được áp dụng đối với gói thầu nào sau đây?",
-    "options": {
-      "A": "Dịch vụ phi tư vấn thông dụng, đơn giản",
-      "B": "Xây lắp",
-      "C": "Dịch vụ tư vấn",
-      "D": "Hỗn hợp"
-    },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ pháp lý: Khoản 2 Điều 99 Nghị định số 214/2025/NĐ-CP. Chào giá trực tuyến quy trình thông thường áp dụng cho: Gói thầu dịch vụ phi tư vấn thông dụng, đơn giản; và Gói thầu mua sắm hàng hóa thông dụng.",
-    "category": "Hình thức và Phương thức LCNT"
-  },
-  {
-    "id": 247,
-    "question": "Nhà thầu phải thực hiện xác nhận về việc chấp thuận được trao hợp đồng trên Hệ thống mạng đấu thầu quốc gia đối với các hình thức lựa chọn nhà thầu qua mạng nào?",
-    "options": {
-      "A": "Đấu thầu rộng rãi, chào hàng cạnh tranh, đấu thầu hạn chế.",
-      "B": "Chào giá trực tuyến theo quy trình thông thường",
-      "C": "Chào giá trực tuyến theo quy trình rút gọn",
-      "D": "Các phương án trên đều đúng"
-    },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ pháp lý: Điểm c Khoản 5 Điều 102 Nghị định số 214/2025/NĐ-CP. Bước \"Xác nhận về việc chấp thuận được trao hợp đồng\" trên Hệ thống là đặc thù chỉ có trong quy trình Chào giá trực tuyến rút gọn.",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 248,
-    "question": "Đối với chào giá trực tuyến rút gọn, kể từ lượt chào giá thứ hai, giá chào của nhà thầu không được thấp hơn giá thấp nhất hiển thị trên Hệ thống mạng đấu thầu quốc gia là bao nhiêu %?",
-    "options": {
-      "A": "80%",
-      "B": "85%",
-      "C": "90%",
-      "D": "95%"
-    },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ pháp lý: Khoản 3 Điều 102 Nghị định số 214/2025/NĐ-CP. Trong chào giá rút gọn, từ lượt chào thứ 2, giá chào không được thấp hơn 90% giá thấp nhất đang hiển thị (để tránh bán phá giá quá sâu ngay lập tức/thông thầu).",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 249,
-    "question": "Đối với chào giá trực tuyến rút gọn, giá trị bảo đảm dự thầu tối đa là giá trị nào sau đây?",
-    "options": {
-      "A": "5% giá gói thầu",
-      "B": "10% giá gói thầu",
-      "C": "1-3% giá gói thầu",
-      "D": "Không yêu cầu về bảo đảm dự thầu"
-    },
-    "correctAnswer": "D",
-    "explanation": "Căn cứ pháp lý: Điểm c Khoản 1 Điều 102 Nghị định số 214/2025/NĐ-CP. Đối với chào giá trực tuyến rút gọn, thông báo mời thầu không nêu yêu cầu về bảo đảm dự thầu. Chào giá trực tuyến rút gọn là hình thức lựa chọn nhà thầu rất đơn giản, nhanh chóng, áp dụng cho các gói thầu có giá trị rất nhỏ. Để đơn giản hóa tối đa thủ tục và khuyến khích nhà thầu tham gia, hình thức này không yêu cầu nhà thầu phải thực hiện biện pháp bảo đảm dự thầu.",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 250,
     "question": "Đối với gói thầu áp dụng chào giá trực tuyến theo quy trình thông thường, trường hợp nhà thầu được mời tham gia chào giá trực tuyến nhưng nhà thầu từ chối tham gia thì xử lý thế nào?",
     "options": {
       "A": "Đề xuất về tài chính của nhà thầu sẽ bị đánh giá là không đạt",
@@ -133,5 +13,123 @@ export const set25: Question[] = [
     "correctAnswer": "C",
     "explanation": "Căn cứ pháp lý: Điểm c Khoản 5 Điều 101 Nghị định số 214/2025/NĐ-CP. Nếu nhà thầu từ chối tham gia chào giá trực tuyến (thông thường), hồ sơ dự thầu của họ sẽ tiếp tục được đánh giá về tài chính căn cứ theo giá đã nộp trong hồ sơ dự thầu ban đầu (trước thời điểm đóng thầu). Việc tham gia phiên chào giá trực tuyến là không bắt buộc. Nếu nhà thầu được mời nhưng từ chối tham gia, họ sẽ không bị xử phạt. Việc đánh giá sẽ được tiếp tục dựa trên giá dự thầu mà họ đã nộp trong hồ sơ dự thầu ban đầu. Nhà thầu này sẽ không có cơ hội chào giá cạnh tranh hơn trong phiên chào giá.",
     "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 242,
+    "question": "Mua sắm trực tuyến được áp dụng đối với hàng hoá, dịch vụ của gói thầu thuộc dự toán mua sắm với giá gói thầu có hạn mức tối đa là bao nhiêu?",
+    "options": {
+      "A": "100 triệu đồng",
+      "B": "300 triệu đồng",
+      "C": "500 triệu đồng",
+      "D": "01 tỷ đồng"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 103 Nghị định số 214/2025/NĐ-CP. Nghị định quy định hình thức mua sắm trực tuyến được áp dụng đối với hàng hóa, dịch vụ của gói thầu thuộc dự toán mua sắm có giá gói thầu không quá 500 triệu đồng (đối với gói thầu thuộc dự án là không quá 01 tỷ đồng). Do đó, hạn mức tối đa cho dự toán mua sắm là 500 triệu đồng.",
+    "category": "Mua sắm đặc thù"
+  },
+  {
+    "id": 243,
+    "question": "Trong mua sắm tập trung áp dụng đấu thầu rộng rãi, hợp đồng điện tử có thể được ký kết giữa các đối tượng nào?",
+    "options": {
+      "A": "Đơn vị mua sắm tập trung và các nhà thầu trúng thầu (trong trường hợp không ký thỏa thuận khung)",
+      "B": "Đơn vị có nhu cầu mua sắm với các nhà thầu trúng thầu (trong trường hợp đơn vị mua sắm tập trung ký thỏa thuận khung với nhà thầu trúng thầu)",
+      "C": "Phương án A và B đều đúng",
+      "D": "Phương án A và B đều sai"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ pháp lý: Điểm g Khoản 1 Điều 91 Nghị định số 214/2025/NĐ-CP. Trong mua sắm tập trung, có hai cách thức ký hợp đồng: (1) Đơn vị mua sắm tập trung trực tiếp ký hợp đồng với nhà thầu (trường hợp không ký thỏa thuận khung); (2) Đơn vị có nhu cầu mua sắm ký hợp đồng với nhà thầu (trường hợp đơn vị mua sắm tập trung đã ký thỏa thuận khung). Do đó, cả hai phương án A và B đều đúng tùy thuộc vào cách thức tổ chức.",
+    "category": "Mua sắm đặc thù"
+  },
+  {
+    "id": 244,
+    "question": "Mua sắm trực tuyến được áp dụng đối với gói thầu nào sau đây?",
+    "options": {
+      "A": "Gói thầu mua sắm hàng hóa, dịch vụ thuộc dự toán mua sắm có giá gói thầu không quá 500 triệu đồng; gói thầu mua sắm hàng hóa, dịch vụ thuộc dự án có giá gói thầu không quá 01 tỷ đồng",
+      "B": "Gói thầu xây lắp thuộc dự toán mua sắm có giá gói thầu không quá 01 tỷ đồng; gói thầu xây lắp thuộc dự án có giá gói thầu không quá 02 tỷ đồng",
+      "C": "Gói thầu mua sắm hàng hóa, cung cấp dịch vụ phi tư vấn thuộc dự án có giá gói thầu không quá 05 tỷ đồng",
+      "D": "Phương án B và C đều đúng"
+    },
+    "correctAnswer": "A",
+    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 103 Nghị định số 214/2025/NĐ-CP. Mua sắm trực tuyến áp dụng cho gói thầu mua sắm hàng hóa, dịch vụ (không áp dụng cho xây lắp). Hạn mức quy định là không quá 500 triệu đồng đối với dự toán mua sắm và không quá 01 tỷ đồng đối với dự án. Phương án A phản ánh chính xác quy định này.",
+    "category": "Mua sắm đặc thù"
+  },
+  {
+    "id": 245,
+    "question": "Đối với gói thầu áp dụng hình thức chào giá trực tuyến rút gọn, việc thẩm định kết quả lựa chọn nhà thầu được thực hiện như thế nào?",
+    "options": {
+      "A": "Chỉ thẩm định nội dung về giá chào của nhà thầu",
+      "B": "Bắt buộc thẩm định khi người có thẩm quyền yêu cầu",
+      "C": "Không phải thẩm định kết quả lựa chọn nhà thầu",
+      "D": "Phương án A và B đều đúng"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ pháp lý: Khoản 6 Điều 102 Nghị định số 214/2025/NĐ-CP. Đối với chào giá trực tuyến theo quy trình rút gọn, việc phê duyệt kết quả lựa chọn nhà thầu được thực hiện ngay trên cơ sở chấp thuận trao hợp đồng của nhà thầu mà không yêu cầu bước thẩm định kết quả lựa chọn nhà thầu.",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 246,
+    "question": "Khi đánh giá E-HSDT gói thầu xây lắp áp dụng đấu thầu rộng rãi qua mạng, trường hợp có sự không thống nhất giữa thông tin về hợp đồng tương tự kê khai trên webform và file tài liệu chứng minh các thông tin về hợp đồng đó thì phương án nào sau đây là đúng?",
+    "options": {
+      "A": "Đánh giá nhà thầu không đạt yêu cầu về hợp đồng tương tự",
+      "B": "Yêu cầu nhà thầu làm rõ E-HSDT trên Hệ thống mạng đấu thầu quốc gia",
+      "C": "Yêu cầu nhà thầu gửi bổ sung hợp đồng tương tự bằng bản giấy để đánh giá",
+      "D": "Phương án B và C đều đúng"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 30 Nghị định số 214/2025/NĐ-CP và nguyên tắc đánh giá E-HSDT. Đối với hợp đồng tương tự (năng lực kinh nghiệm), nếu có sự sai khác giữa thông tin kê khai (webform) và tài liệu chứng minh (file đính kèm), Tổ chuyên gia thường yêu cầu nhà thầu làm rõ trên Hệ thống để xác định thông tin chính xác, vì đây là nội dung có thể bổ sung, làm rõ, không bị loại ngay lập tức như các sai khác về đơn giá hay đề xuất kỹ thuật chính.",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 247,
+    "question": "Nhận định nào sau đây về văn bản điện tử trên Hệ thống mạng đấu thầu quốc gia là đúng?",
+    "options": {
+      "A": "Văn bản điện tử trên Hệ thống có giá trị theo quy định của pháp luật về giao dịch điện tử, làm cơ sở đối chiếu, so sánh, xác thực thông tin phục vụ công tác đánh giá, thẩm định, thanh tra, kiểm tra, kiểm toán và giải ngân",
+      "B": "Thời điểm gửi, nhận văn bản điện tử được xác định căn cứ theo thời gian thực ghi lại trên Hệ thống",
+      "C": "Khi gửi hồ sơ thanh quyết toán đến Kho bạc Nhà nước, nhà thầu không phải cung cấp thông tin, tài liệu cho Kho bạc Nhà nước đối với các thông tin, tài liệu là văn bản điện tử trên Hệ thống",
+      "D": "Các phương án trên đều đúng"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ pháp lý: Khoản 3 Điều 50 Luật Đấu thầu và Điều 8, Điều 10 Thông tư số 79/2025/TT-BTC. Văn bản điện tử trên Hệ thống có giá trị pháp lý đầy đủ (A), thời điểm gửi nhận căn cứ theo thời gian thực trên Hệ thống (B), và khi thanh toán qua Kho bạc không cần cung cấp lại tài liệu đã có trên Hệ thống (C). Do đó, cả 3 nhận định đều đúng.",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 248,
+    "question": "Đối với đấu thầu qua mạng, chức năng trả lời làm rõ E-HSDT trên Hệ thống mạng đấu thầu quốc gia được thực hiện bao nhiêu lần đối với mỗi yêu cầu làm rõ?",
+    "options": {
+      "A": "01 lần",
+      "B": "02 lần",
+      "C": "03 lần",
+      "D": "Không giới hạn số lần"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ pháp lý: Quy trình kỹ thuật trên Hệ thống mạng đấu thầu quốc gia. Pháp luật và hệ thống không giới hạn số lần trả lời làm rõ E-HSDT, miễn là việc làm rõ nằm trong khoảng thời gian cho phép và phục vụ mục đích làm rõ các nội dung chưa rõ ràng mà không làm thay đổi bản chất hồ sơ.",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 249,
+    "question": "Đối với đấu thầu qua mạng, nhà thầu liên danh nộp bảo đảm dự thầu theo thể thức nào sau đây?",
+    "options": {
+      "A": "Từng thành viên liên danh có thể sử dụng thể thức bảo lãnh dự thầu khác nhau",
+      "B": "Các thành viên liên danh bắt buộc phải sử dụng cùng thể thức bảo lãnh dự thầu điện tử",
+      "C": "Các thành viên liên danh phải sử dụng cùng thể thức: bảo lãnh dự thầu điện tử hoặc bảo lãnh dự thầu bằng giấy",
+      "D": "Các thành viên liên danh bắt buộc phải sử dụng cùng thể thức bảo lãnh dự thầu bằng giấy"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ pháp lý: Điểm a Khoản 1 Điều 27 Thông tư số 79/2025/TT-BTC. Thông tư quy định đối với nhà thầu liên danh, các thành viên liên danh phải sử dụng cùng một thể thức bảo lãnh dự thầu: hoặc cùng là bảo lãnh điện tử, hoặc cùng là bảo lãnh bằng giấy (scan đính kèm).",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 250,
+    "question": "Nhận định nào sau đây là đúng?",
+    "options": {
+      "A": "Trong vòng 05 ngày làm việc, kể từ ngày nhận được yêu cầu của chủ đầu tư, nếu nhà thầu từ chối hoặc không nộp bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh (đối với trường hợp sử dụng bảo lãnh dự thầu bằng văn bản giấy) theo yêu cầu của chủ đầu tư thì nhà thầu sẽ bị xử lý theo đúng cam kết của nhà thầu trong đơn dự thầu",
+      "B": "Trong vòng 05 ngày làm việc, kể từ ngày nhận được yêu cầu của bên mời thầu, nếu nhà thầu từ chối hoặc không nộp bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh (đối với trường hợp sử dụng bảo lãnh dự thầu bằng văn bản giấy) theo yêu cầu của bên mời thầu thì nhà thầu sẽ bị xử lý theo đúng cam kết của nhà thầu trong đơn dự thầu",
+      "C": "Trong vòng 05 ngày làm việc, kể từ ngày nhận được yêu cầu của tổ chuyên gia, nếu nhà thầu từ chối hoặc không nộp bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh (đối với trường hợp sử dụng bảo lãnh dự thầu bằng văn bản giấy) theo yêu cầu của tổ chuyên gia thì nhà thầu sẽ bị xử lý theo đúng cam kết của nhà thầu trong đơn dự thầu",
+      "D": "Trong vòng 05 ngày làm việc, kể từ ngày nhận được yêu cầu của tư vấn đấu thầu, nếu nhà thầu từ chối hoặc không nộp bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh (đối với trường hợp sử dụng bảo lãnh dự thầu bằng văn bản giấy) theo yêu cầu của tư vấn đấu thầu thì nhà thầu sẽ bị xử lý theo đúng cam kết của nhà thầu trong đơn dự thầu"
+    },
+    "correctAnswer": "A",
+    "explanation": "Căn cứ pháp lý: Quy trình đối chiếu tài liệu trong đấu thầu qua mạng. Trong đấu thầu qua mạng, nhà thầu nộp bản scan bảo lãnh khi dự thầu. Bản gốc chỉ phải nộp khi có yêu cầu của Chủ đầu tư (thường là tại bước đối chiếu tài liệu trước khi ký hợp đồng). Nếu không nộp theo yêu cầu của Chủ đầu tư, nhà thầu sẽ bị xử lý (tịch thu bảo đảm/phạt uy tín) theo cam kết trong đơn dự thầu.",
+    "category": "Đấu thầu qua mạng"
   }
 ];
+

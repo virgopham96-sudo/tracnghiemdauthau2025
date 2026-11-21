@@ -3,123 +3,6 @@ import { Question } from "../../types";
 export const set31: Question[] = [
   {
     "id": 301,
-    "question": "Đối với đấu thầu qua mạng, nội dung nào sau đây là đúng?",
-    "options": {
-      "A": "Việc đánh giá HSDT được thực hiện trên bản chụp",
-      "B": "Nhà thầu phải chịu trách nhiệm về tính thống nhất giữa bản gốc và bản chụp",
-      "C": "Trường hợp có sự sai khác giữa bản gốc và bản chụp nhưng không làm thay đổi thứ tự xếp hạng nhà thầu thì căn cứ vào bản gốc để đánh giá",
-      "D": "Các phương án trên đều sai"
-    },
-    "correctAnswer": "D",
-    "explanation": "Trong đấu thầu qua mạng, không có khái niệm 'bản gốc' và 'bản chụp' như đấu thầu truyền thống. Tất cả dữ liệu được nộp trên hệ thống đều là dữ liệu điện tử và có giá trị pháp lý như nhau. Hệ thống sẽ tự động ghi nhận và lưu trữ, việc đánh giá sẽ dựa hoàn toàn trên dữ liệu đã nộp trên hệ thống. Do đó, các phương án A, B, C đều không phù hợp.",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 302,
-    "question": "Đối với nhà thầu liên danh, việc ký kết văn bản hợp đồng được thực hiện như thế nào?",
-    "options": {
-      "A": "Các thành viên liên danh có thể ủy quyền cho thành viên đứng đầu liên danh ký, đóng dấu (nếu có)",
-      "B": "Tất cả thành viên tham gia liên danh phải trực tiếp ký, đóng dấu (nếu có)",
-      "C": "Các thành viên liên danh có thể ủy quyền cho bất kỳ thành viên nào trong liên danh ký, đóng dấu (nếu có)",
-      "D": "Bất kỳ thành viên nào trong liên danh cũng có thể đại diện ký, đóng dấu (nếu có)"
-    },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ pháp lý: Khoản 3 Điều 67 Luật Đấu thầu và Khoản 3 Điều 67 Nghị định số 214/2025/NĐ-CP. Quy định nêu rõ: \"Đối với nhà thầu liên danh, tất cả thành viên tham gia liên danh phải trực tiếp ký, đóng dấu (nếu có) vào văn bản hợp đồng\". Không được phép ủy quyền cho thành viên đứng đầu ký thay hợp đồng.",
-    "category": "Hợp đồng"
-  },
-  {
-    "id": 303,
-    "question": "Nhà thầu thực hiện gói thầu xây lắp theo hình thức lựa chọn nhà thầu nào thì không phải thực hiện bảo đảm thực hiện hợp đồng?",
-    "options": {
-      "A": "Đấu thầu rộng rãi",
-      "B": "Tự thực hiện",
-      "C": "Đấu thầu hạn chế",
-      "D": "Chào hàng cạnh tranh"
-    },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ pháp lý: Điểm b Khoản 2 Điều 68 Luật Đấu thầu. Bảo đảm thực hiện hợp đồng không áp dụng đối với nhà thầu được lựa chọn theo hình thức tự thực hiện (hoặc tham gia thực hiện của cộng đồng). Các hình thức đấu thầu rộng rãi, hạn chế, chào hàng cạnh tranh đều bắt buộc (trừ trường hợp gói thầu giá trị nhỏ thuộc hạn mức chỉ định thầu).",
-    "category": "Hợp đồng"
-  },
-  {
-    "id": 304,
-    "question": "Chào giá trực tuyến theo quy trình thông thường được thực hiện ở bước nào trong quá trình lựa chọn nhà thầu?",
-    "options": {
-      "A": "Bước chuẩn bị lựa chọn nhà thầu",
-      "B": "Bước đánh giá về tài chính",
-      "C": "Bước thương thảo hợp đồng",
-      "D": "Bước đánh giá hồ sơ đề xuất kỹ thuật"
-    },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 101 Nghị định số 214/2025/NĐ-CP. Chào giá trực tuyến theo quy trình thông thường được thực hiện tại bước đánh giá về tài chính, làm căn cứ để so sánh hồ sơ dự thầu và xếp hạng nhà thầu.",
-    "category": "Hình thức và Phương thức LCNT"
-  },
-  {
-    "id": 305,
-    "question": "Trong quá trình chào giá trực tuyến, thông tin nào của nhà thầu không được công khai trên Hệ thống mạng đấu thầu quốc gia?",
-    "options": {
-      "A": "Mức giá chào",
-      "B": "Tên nhà thầu",
-      "C": "Các yếu tố khác ngoài giá (nếu có)",
-      "D": "Thời gian còn lại của phiên chào giá"
-    },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 100 Nghị định số 214/2025/NĐ-CP. Trong quá trình chào giá, mức giá và các yếu tố khác được công khai, trừ tên nhà thầu (để đảm bảo tính khách quan, tránh thông thầu).",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 306,
-    "question": "Mua sắm trực tuyến có cần được phê duyệt trong kế hoạch lựa chọn nhà thầu không?",
-    "options": {
-      "A": "Không phải phê duyệt trong kế hoạch lựa chọn nhà thầu",
-      "B": "Phải được phê duyệt trong kế hoạch lựa chọn nhà thầu",
-      "C": "Chỉ phải phê duyệt trong kế hoạch lựa chọn nhà thầu khi giá gói thầu lớn hơn 500 triệu đồng",
-      "D": "Chỉ phải phê duyệt trong kế hoạch lựa chọn nhà thầu đối với các gói thầu thuộc dự án đầu tư"
-    },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 103 Nghị định số 214/2025/NĐ-CP. Quy định nêu rõ: \"Mua sắm trực tuyến phải được phê duyệt trong kế hoạch lựa chọn nhà thầu\".",
-    "category": "Mua sắm đặc thù"
-  },
-  {
-    "id": 307,
-    "question": "Khi có yêu cầu đặt hàng trong mua sắm trực tuyến, Hệ thống mạng đấu thầu quốc gia sẽ tự động gửi thông báo cho ai?",
-    "options": {
-      "A": "Nhà thầu đã trúng thầu thông qua hình thức mua sắm tập trung hoặc không tập trung trên Hệ thống mạng đấu thầu quốc gia",
-      "B": "Nhà thầu đã trúng thầu trong mua sắm tập trung trước đó",
-      "C": "Chủ đầu tư",
-      "D": "Đơn vị mua sắm tập trung"
-    },
-    "correctAnswer": "B",
-    "explanation": "",
-    "category": "Mua sắm đặc thù"
-  },
-  {
-    "id": 308,
-    "question": "Sau khi nhận được yêu cầu đặt hàng qua hình thức mua sắm trực tuyến, nhà thầu có bao nhiêu thời gian để xác nhận hoặc từ chối đơn hàng?",
-    "options": {
-      "A": "24 giờ",
-      "B": "03 ngày làm việc",
-      "C": "05 ngày",
-      "D": "05 ngày làm việc"
-    },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ pháp lý: Khoản 3 Điều 104 Nghị định số 214/2025/NĐ-CP. Nhà thầu có trách nhiệm xác nhận hoặc từ chối đơn hàng trong thời hạn 03 ngày làm việc kể từ ngày nhận được yêu cầu.",
-    "category": "Mua sắm đặc thù"
-  },
-  {
-    "id": 309,
-    "question": "Sau khi kết thúc chào giá trực tuyến, nếu có nhiều nhà thầu chào giá thấp nhất bằng nhau, nhà thầu nào sẽ được xếp hạng thứ nhất?",
-    "options": {
-      "A": "Nhà thầu có năng lực tài chính tốt nhất",
-      "B": "Nhà thầu chào giá đầu tiên thấp nhất",
-      "C": "Nhà thầu nộp hồ sơ dự thầu sớm nhất",
-      "D": "Yêu cầu các nhà thầu này chào lại giá"
-    },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ pháp lý: Khoản 3 Điều 100 Nghị định số 214/2025/NĐ-CP. Trường hợp có nhiều nhà thầu cùng chào giá thấp nhất bằng nhau, nhà thầu chào giá đầu tiên thấp nhất sẽ được xếp hạng cao nhất (ưu tiên thời gian).",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 310,
     "question": "Chủ đầu tư phải gửi thông báo mời tham gia chào giá trực tuyến theo quy trình thông thường đến các nhà thầu đáp ứng yêu cầu kỹ thuật trong thời hạn tối thiểu bao lâu trước thời điểm bắt đầu chào giá?",
     "options": {
       "A": "24 giờ",
@@ -130,5 +13,122 @@ export const set31: Question[] = [
     "correctAnswer": "B",
     "explanation": "Căn cứ pháp lý: Điểm b Khoản 5 Điều 101 Nghị định số 214/2025/NĐ-CP. Chủ đầu tư gửi thông báo mời tham gia chào giá trực tuyến đến các nhà thầu trong thời hạn tối thiểu 03 ngày làm việc trước ngày bắt đầu chào giá.",
     "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 302,
+    "question": "Đối với đấu thầu rộng rãi không qua mạng, nếu sau khi đóng thầu, nhà thầu tự phát hiện hồ sơ dự thầu thiếu tài liệu chứng minh năng lực, kinh nghiệm thì nhà thầu nên làm gì?",
+    "options": {
+      "A": "Trường hợp chủ đầu tư có yêu cầu bổ sung, làm rõ nhà thầu mới được bổ sung tài liệu chứng minh năng lực, kinh nghiệm",
+      "B": "Được phép gửi tài liệu đến chủ đầu tư để làm rõ về năng lực, kinh nghiệm",
+      "C": "Không được bổ sung tài liệu chứng minh năng lực, kinh nghiệm còn thiếu",
+      "D": "Rút hồ sơ dự thầu để nộp lại"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ Điều 30 Nghị định 214/2025/NĐ-CP, sau khi đóng thầu nếu nhà thầu tự phát hiện HSDT thiếu tài liệu chứng minh tư cách hợp lệ, năng lực và kinh nghiệm thì nhà thầu được phép chủ động gửi tài liệu đến chủ đầu tư để làm rõ, và chủ đầu tư có trách nhiệm tiếp nhận để xem xét, đánh giá (không làm thay đổi bản chất nhà thầu và giá dự thầu).",
+    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
+  },
+  {
+    "id": 303,
+    "question": "Trường hợp nào nhà thầu được quyền từ chối hoàn thiện hợp đồng mà không bị đánh giá về uy tín khi tham dự thầu, không bị tịch thu bảo đảm dự thầu?",
+    "options": {
+      "A": "Nhà thầu được quyền từ chối hoàn thiện hợp đồng trong mọi trường hợp",
+      "B": "Khi chủ đầu tư đưa ra các yêu cầu khi hoàn thiện hợp đồng không phù hợp với nội dung hồ sơ mời thầu, hồ sơ dự thầu",
+      "C": "Khi nhà thầu đề nghị điều chỉnh đơn giá hạng mục mà nhà thầu đã chào theo yêu cầu của hồ sơ mời thầu nhưng chủ đầu tư không chấp nhận",
+      "D": "Phương án B và C đều đúng"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ pháp lý: Khoản 4 Điều 34 Nghị định số 214/2025/NĐ-CP. Nhà thầu được quyền từ chối hoàn thiện hợp đồng (không bị phạt) trong trường hợp chủ đầu tư đưa ra các yêu cầu không phù hợp với nội dung của hồ sơ mời thầu, hồ sơ dự thầu.",
+    "category": "Hợp đồng"
+  },
+  {
+    "id": 304,
+    "question": "Đối với đấu thầu không qua mạng, trường hợp hồ sơ dự thầu của nhà thầu có sai lệch thiếu sau khi hiệu chỉnh sai lệch vẫn được xếp hạng thứ nhất và hồ sơ dự thầu của nhà thầu này không có đơn giá của phần sai lệch thiếu, đơn giá nào sẽ được ưu tiên áp dụng đầu tiên để đề nghị trúng thầu?",
+    "options": {
+      "A": "Đơn giá trong dự toán gói thầu",
+      "B": "Đơn giá tương ứng có giá trị thấp nhất trong các hồ sơ dự thầu khác vượt qua bước đánh giá về kỹ thuật",
+      "C": "Đơn giá hình thành giá gói thầu",
+      "D": "Đơn giá tương ứng có giá trị cao nhất trong các hồ sơ dự thầu khác vượt qua bước đánh giá về kỹ thuật"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ pháp lý: Khoản 4 Điều 31 Nghị định số 214/2025/NĐ-CP. Khi nhà thầu xếp hạng nhất có sai lệch thiếu và không có đơn giá cho phần thiếu đó, đơn giá đề nghị trúng thầu cho phần thiếu sẽ lấy theo thứ tự ưu tiên: Đầu tiên là đơn giá tương ứng có giá trị thấp nhất trong các hồ sơ dự thầu khác vượt qua bước kỹ thuật.",
+    "category": "Kế hoạch và Quy trình LCNT"
+  },
+  {
+    "id": 305,
+    "question": "Đối với gói thầu bảo hiểm, nhà thầu tham dự thầu có được xuất trình giấy chứng nhận bảo hiểm bảo lãnh do chính mình phát hành không?",
+    "options": {
+      "A": "Được dùng giấy chứng nhận bảo hiểm bảo lãnh do chính mình phát hành nếu nhà thầu là doanh nghiệp bảo hiểm uy tín",
+      "B": "Không được dùng giấy chứng nhận bảo hiểm bảo lãnh do chính mình phát hành nếu giá trị bảo lãnh từ 50 triệu đồng trở lên, được dùng nếu giá trị bảo lãnh nhỏ hơn 50 triệu đồng",
+      "C": "Chỉ được dùng giấy chứng nhận bảo hiểm bảo lãnh do chính mình phát hành nếu giá trị bảo lãnh nhỏ hơn 50 triệu đồng",
+      "D": "Tất cả phương án trên đều sai"
+    },
+    "correctAnswer": "D",
+    "explanation": "Theo Nghị định 214/2025/NĐ-CP, đối với gói thầu bảo hiểm, nhà thầu tham dự thầu tuyệt đối không được xuất trình giấy chứng nhận bảo hiểm bảo lãnh do chính mình phát hành (không phân biệt uy tín hay giá trị bảo lãnh trên/dưới 50 triệu đồng) để bảo đảm tính độc lập, khách quan. Do đó A, B, C đều sai → chọn D.",
+    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
+  },
+  {
+    "id": 306,
+    "question": "Trường hợp sau khi có quyết định phê duyệt kết quả lựa chọn nhà thầu, nhà thầu không trúng thầu có yêu cầu giải thích về lý do cụ thể không trúng thầu, chủ đầu tư phải trả lời trong thời hạn bao lâu?",
+    "options": {
+      "A": "02 ngày làm việc kể từ ngày được yêu cầu",
+      "B": "03 ngày làm việc kể từ ngày được yêu cầu",
+      "C": "05 ngày làm việc kể từ ngày được yêu cầu",
+      "D": "07 ngày làm việc kể từ ngày được yêu cầu"
+    },
+    "correctAnswer": "A",
+    "explanation": "Theo Nghị định 214/2025/NĐ-CP (về công khai kết quả lựa chọn nhà thầu), khi nhà thầu không trúng thầu có văn bản yêu cầu giải thích lý do cụ thể không trúng thầu, chủ đầu tư có trách nhiệm trả lời trong thời hạn 02 ngày làm việc kể từ ngày nhận được yêu cầu.",
+    "category": "Kế hoạch và Quy trình LCNT"
+  },
+  {
+    "id": 307,
+    "question": "Đối với gói thầu đấu thầu trước, nhà thầu có phải thực hiện biện pháp bảo đảm dự thầu không?",
+    "options": {
+      "A": "Không phải thực hiện nhưng phải có cam kết trong đơn dự thầu",
+      "B": "Bắt buộc phải thực hiện",
+      "C": "Tuỳ thuộc vào quyết định của chủ đầu tư",
+      "D": "Chỉ phải thực hiện đối với gói thầu có giá trị bảo đảm dự thầu trên 50 triệu đồng"
+    },
+    "correctAnswer": "A",
+    "explanation": "Căn cứ pháp lý: Điểm d Khoản 3 Điều 26 Nghị định số 214/2025/NĐ-CP. Đối với gói thầu đấu thầu trước (Điều 42 Luật Đấu thầu), nhà thầu không phải thực hiện biện pháp bảo đảm dự thầu nhưng phải có cam kết trong đơn dự thầu.",
+    "category": "Kế hoạch và Quy trình LCNT"
+  },
+  {
+    "id": 308,
+    "question": "Trường hợp các nhà thầu chào hàng hóa có cùng ký mã hiệu (nếu có), hãng sản xuất, năm sản xuất, xuất xứ Việt Nam nhưng có nhà thầu kê khai, có nhà thầu không kê khai hàng hóa này thuộc đối tượng ưu đãi thì chủ đầu tư xử lý thế nào?",
+    "options": {
+      "A": "Không tính ưu đãi của tất cả các nhà thầu tham dự",
+      "B": "Quyết định cho các nhà thầu không kê khai được làm rõ để có cơ sở đánh giá ưu đãi",
+      "C": "Chỉ xét ưu đãi cho các nhà thầu đã kê khai",
+      "D": "Tính ưu đãi cho tất cả nhà nhà thầu tham dự mà không cần làm rõ với nhà thầu không kê khai"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ pháp lý: Khoản 33 Điều 140 Nghị định số 214/2025/NĐ-CP. Để đảm bảo công bằng, nếu cùng một loại hàng hóa xuất xứ Việt Nam mà có người kê khai ưu đãi, người không, chủ đầu tư quyết định cho các nhà thầu không kê khai được làm rõ để có cơ sở đánh giá ưu đãi cho tất cả.",
+    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
+  },
+  {
+    "id": 309,
+    "question": "Đối với đấu thầu qua mạng, sau khi đánh giá E-HSDT, tổ trưởng tổ chuyên gia đính kèm bản scan báo cáo đánh giá E-HSDT lên Hệ thống mạng đấu thầu quốc gia với yêu cầu nào sau đây?",
+    "options": {
+      "A": "Báo cáo đánh giá E-HSDT có chữ ký của tất cả thành viên trong tổ chuyên gia",
+      "B": "Báo cáo đánh giá E-HSDT chỉ cần có chữ ký của tổ trưởng tổ chuyên gia",
+      "C": "Báo cáo đánh giá E-HSDT (đăng tải báo cáo đánh giá tổng hợp, không cần kèm theo các phiếu chấm của thành viên trong tổ chuyên gia)",
+      "D": "Phương án B và C đều đúng"
+    },
+    "correctAnswer": "A",
+    "explanation": "Theo Nghị định 214/2025/NĐ-CP và Thông tư 79/2025/TT-BTC, tổ trưởng tổ chuyên gia phải đính kèm bản scan báo cáo đánh giá E-HSDT có chữ ký của tất cả thành viên trong tổ chuyên gia lên Hệ thống mạng đấu thầu quốc gia và chịu trách nhiệm về tính thống nhất giữa bản scan với bản giấy có chữ ký trực tiếp.",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 310,
+    "question": "Hiện nay, Việt Nam đã mở cửa thị trường mua sắm chính phủ (đấu thầu) trong những hiệp định nào?",
+    "options": {
+      "A": "Chỉ Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP)",
+      "B": "Hiệp định CPTPP và Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu (EVFTA)",
+      "C": "Hiệp định CPTPP, Hiệp định EVFTA và Hiệp định Thương mại Tự do giữa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ailen (UKVFTA)",
+      "D": "Tất cả các hiệp định mà Việt Nam là thành viên"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ pháp lý: Thực tế các hiệp định thương mại tự do thế hệ mới của Việt Nam. Việt Nam đã mở cửa thị trường mua sắm chính phủ trong 3 hiệp định lớn: CPTPP, EVFTA và UKVFTA.",
+    "category": "Mua sắm đặc thù"
   }
 ];

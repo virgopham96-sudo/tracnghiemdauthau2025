@@ -3,45 +3,6 @@ import { Question } from "../../types";
 export const set13: Question[] = [
   {
     "id": 121,
-    "question": "Nhà thầu không được hoàn trả bảo đảm thực hiện hợp đồng trong trường hợp nào?",
-    "options": {
-      "A": "Từ chối thực hiện hợp đồng khi hợp đồng đã có hiệu lực",
-      "B": "Thực hiện hợp đồng chậm tiến độ nhưng vẫn hoàn thành hợp đồng",
-      "C": "Nhà thầu đề nghị điều chỉnh tiến độ do bất khả kháng",
-      "D": "Nhà thầu đề xuất thay đổi nhà thầu phụ"
-    },
-    "correctAnswer": "A",
-    "explanation": "Nhà thầu từ chối thực hiện hợp đồng khi hợp đồng đã có hiệu lực là vi phạm cơ bản, dẫn đến tịch thu bảo đảm thực hiện hợp đồng. Căn cứ: Điểm a Khoản 6 Điều 68 Luật Đấu thầu.",
-    "category": "Hợp đồng"
-  },
-  {
-    "id": 122,
-    "question": "Trường hợp nào sau đây phải áp dụng bảo đảm thực hiện hợp đồng?",
-    "options": {
-      "A": "Nhà thầu cung dịch vụ phi tư vấn",
-      "B": "Nhà thầu thực hiện gói thầu có giá gói thầu thuộc hạn mức chỉ định thầu",
-      "C": "Nhà thầu cung cấp dịch vụ tư vấn",
-      "D": "Nhà thầu được lựa chọn theo hình thức tự thực hiện"
-    },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ pháp lý: Khoản 2 Điều 68 Luật Đấu thầu. Nhà thầu tư vấn, tự thực hiện, chỉ định thầu quy trình rút gọn là các trường hợp không bắt buộc phải thực hiện biện pháp bảo đảm thực hiện hợp đồng. Nhà thầu cung cấp dịch vụ phi tư vấn bắt buộc phải thực hiện.",
-    "category": "Hợp đồng"
-  },
-  {
-    "id": 123,
-    "question": "Hồ sơ hợp đồng bao gồm các tài liệu nào sau đây?",
-    "options": {
-      "A": "Văn bản hợp đồng",
-      "B": "Phụ lục hợp đồng gồm danh mục chi tiết về phạm vi công việc, biểu giá, tiến độ thực hiện (nếu có)",
-      "C": "Quyết định phê duyệt kết quả lựa chọn nhà thầu",
-      "D": "Tất cả các phương án trên."
-    },
-    "correctAnswer": "D",
-    "explanation": "Hồ sơ hợp đồng là một bộ tài liệu pháp lý ràng buộc các bên, bao gồm: Văn bản hợp đồng, các Phụ lục chi tiết, Quyết định phê duyệt kết quả lựa chọn nhà thầu, Biên bản thương thảo, Hồ sơ dự thầu... Căn cứ: Điều 65 Luật Đấu thầu.",
-    "category": "Hợp đồng"
-  },
-  {
-    "id": 124,
     "question": "Đối với đấu thầu không qua mạng, quy định về việc công khai biên bản mở thầu trên Hệ thống mạng đấu thầu quốc gia nào sau đây là đúng?",
     "options": {
       "A": "Được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 24 giờ kể từ thời điểm mở thầu",
@@ -54,7 +15,7 @@ export const set13: Question[] = [
     "category": "Kế hoạch và Quy trình LCNT"
   },
   {
-    "id": 125,
+    "id": 122,
     "question": "Chủ đầu tư A và nhà thầu B đã ký kết hợp đồng cung cấp 11000 đơn vị hàng hóa, loại hợp đồng theo đơn giá cố định. Trong quá trình thực hiện hợp đồng, nhu cầu sử dụng thực tế mà nhà thầu phải cung cấp cho chủ đầu tư chỉ là 10500 đơn vị hàng hóa. Hãy lựa chọn phương án đúng về sửa đổi hợp đồng trong trường hợp này?",
     "options": {
       "A": "Chủ đầu tư A và nhà thầu B bắt buộc phải thực hiện thủ tục sửa đổi hợp đồng, phải ký kết văn bản sửa đổi hợp đồng",
@@ -67,8 +28,8 @@ export const set13: Question[] = [
     "category": "Hợp đồng"
   },
   {
-    "id": 126,
-    "question": "Trường hợp nào sau đây các bên không phải thỏa thuận trong hợp đồng về quy trình, thủ tục sửa đổi hợp đồng?",
+    "id": 123,
+    "question": "Trường hợp nào sau đây các bên có thể thỏa thuận trong hợp đồng về quy trình, thủ tục sửa đổi hợp đồng?",
     "options": {
       "A": "Khi có sự thay đổi về chính sách, pháp luật làm ảnh hưởng trực tiếp đến việc thực hiện hợp đồng",
       "B": "Khi có sự kiện bất khả kháng",
@@ -76,11 +37,11 @@ export const set13: Question[] = [
       "D": "Tăng, giảm thời gian đối với hợp đồng theo thời gian; tăng, giảm chi phí trực tiếp thực hiện đối với hợp đồng chi phí cộng phí; tăng, giảm giá trị cơ sở để tính phần trăm chi phí đối với hợp đồng theo tỷ lệ phần trăm; tăng, giảm mức giảm trừ thanh toán, mức tăng giá trị thanh toán đối với hợp đồng theo kết quả đầu ra"
     },
     "correctAnswer": "D",
-    "explanation": "Các nội dung như tăng/giảm khối lượng theo đơn giá đã có, tăng/giảm thuế do chính sách nhà nước... thường được quy định là trường hợp điều chỉnh mặc nhiên hoặc theo quy định pháp luật, không cần thỏa thuận quy trình sửa đổi phức tạp. Căn cứ: Khoản 5 Điều 114 Nghị định 214/2025/NĐ-CP.",
+    "explanation": "Theo khoản 2 Điều 114 Nghị định số 214/2025/NĐ-CP (được hợp nhất trong Văn bản hợp nhất số 36/2026/VBHN-NĐ-BTC và sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), các bên có thể thỏa thuận trong hợp đồng về quy trình, thủ tục sửa đổi hợp đồng theo điểm a khoản 1 Điều 70 Luật Đấu thầu trong các trường hợp bao gồm: Phương án A: Khi có sự thay đổi về chính sách, pháp luật làm ảnh hưởng trực tiếp đến việc thực hiện hợp đồng; Phương án B: Sự kiện bất khả kháng; Phương án C: Thay đổi phương thức vận chuyển, địa điểm giao hàng, dịch vụ liên quan đối với gói thầu mua sắm hàng hóa",
     "category": "Hợp đồng"
   },
   {
-    "id": 127,
+    "id": 124,
     "question": "Phát hành hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu được thực hiện như thế nào?",
     "options": {
       "A": "Hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu được phát hành sau 01 ngày kể từ khi thông báo mời quan tâm, thông báo mời sơ tuyển, thông báo mời thầu được đăng tải thành công trên Hệ thống mạng đấu thầu quốc gia",
@@ -93,7 +54,7 @@ export const set13: Question[] = [
     "category": "Kế hoạch và Quy trình LCNT"
   },
   {
-    "id": 128,
+    "id": 125,
     "question": "Hãy chọn phương án đúng về đấu thầu trước?",
     "options": {
       "A": "Đấu thầu trước là việc thực hiện trước một số thủ tục trước khi dự án được phê duyệt đầu tư nhằm mục đích đẩy nhanh tiến độ thực hiện dự án, trừ gói thầu cần thực hiện trước khi phê duyệt dự án",
@@ -106,7 +67,7 @@ export const set13: Question[] = [
     "category": "Kế hoạch và Quy trình LCNT"
   },
   {
-    "id": 129,
+    "id": 126,
     "question": "Quy trình, thủ tục lựa chọn nhà thầu đối với mua sắm trực tiếp không bao gồm bước nào sau đây?",
     "options": {
       "A": "Thẩm định hồ sơ yêu cầu",
@@ -119,7 +80,7 @@ export const set13: Question[] = [
     "category": "Kế hoạch và Quy trình LCNT"
   },
   {
-    "id": 130,
+    "id": 127,
     "question": "Quy trình, thủ tục lựa chọn nhà thầu đối với chào hàng cạnh tranh không bao gồm bước nào sau đây?",
     "options": {
       "A": "Phê duyệt kết quả lựa chọn nhà thầu",
@@ -129,6 +90,45 @@ export const set13: Question[] = [
     },
     "correctAnswer": "C",
     "explanation": "Chào hàng cạnh tranh không yêu cầu bước thẩm định kết quả lựa chọn nhà thầu trước khi phê duyệt. Căn cứ: Khoản 4 Điều 81 Nghị định 214/2025/NĐ-CP.",
+    "category": "Kế hoạch và Quy trình LCNT"
+  },
+  {
+    "id": 128,
+    "question": "Thời gian phê duyệt hồ sơ mời thầu được quy định như thế nào?",
+    "options": {
+      "A": "Do chủ đầu tư quyết định trên cơ sở bảo đảm tiến độ của dự án, gói thầu",
+      "B": "Tối đa là 05 ngày làm việc kể từ ngày tổ chuyên gia trình dự thảo hồ sơ mời thầu trong trường hợp không thẩm định hồ sơ mời thầu",
+      "C": "Tối đa là 05 ngày làm việc kể từ ngày tổ thẩm định gửi báo cáo thẩm định hồ sơ mời thầu",
+      "D": "Phương án B và C đều đúng"
+    },
+    "correctAnswer": "A",
+    "explanation": "Theo Luật Đấu thầu 2023, các mốc thời gian như phê duyệt HSMT, đánh giá HSDT do Chủ đầu tư quyết định căn cứ vào tiến độ dự án, không bị giới hạn số ngày cứng nhắc như luật cũ. Căn cứ: Khoản 2 Điều 45 Luật Đấu thầu.",
+    "category": "Kế hoạch và Quy trình LCNT"
+  },
+  {
+    "id": 129,
+    "question": "Thời gian phê duyệt kết quả lựa chọn nhà thầu được quy định như thế nào?",
+    "options": {
+      "A": "Do chủ đầu tư quyết định trên cơ sở bảo đảm tiến độ của dự án, gói thầu",
+      "B": "Tối đa là 05 ngày làm việc kể từ ngày tổ chuyên gia trình báo cáo đánh giá hồ sơ dự thầu trong trường hợp không thẩm định kết quả lựa chọn nhà thầu",
+      "C": "Tối đa là 05 ngày làm việc kể từ ngày tổ thẩm định trình báo cáo thẩm định kết quả lựa chọn nhà thầu",
+      "D": "Phương án B và C đều đúng"
+    },
+    "correctAnswer": "A",
+    "explanation": "Tương tự, thời gian phê duyệt kết quả lựa chọn nhà thầu do Chủ đầu tư quyết định căn cứ vào tiến độ dự án. Căn cứ: Khoản 2 Điều 45 Luật Đấu thầu.",
+    "category": "Kế hoạch và Quy trình LCNT"
+  },
+  {
+    "id": 130,
+    "question": "Thời gian đánh giá hồ sơ dự thầu được quy định như thế nào?",
+    "options": {
+      "A": "Tối đa không quá 45 ngày đối với đấu thầu trong nước và không quá 60 ngày đối với đấu thầu quốc tế",
+      "B": "Tối đa không quá 30 ngày đối với đấu thầu trong nước và không quá 60 ngày đối với đấu thầu quốc tế",
+      "C": "Do người có thẩm quyền, chủ đầu tư có trách nhiệm quyết định",
+      "D": "Do chủ đầu tư quyết định trên cơ sở bảo đảm tiến độ của dự án, gói thầu"
+    },
+    "correctAnswer": "D",
+    "explanation": "Thời gian đánh giá hồ sơ dự thầu do chủ đầu tư quyết định trong kế hoạch lựa chọn nhà thầu và hồ sơ mời thầu, dựa trên tính chất, quy mô của gói thầu và phải đảm bảo tiến độ dự án. Căn cứ: Khoản 2 Điều 45 Luật Đấu thầu.",
     "category": "Kế hoạch và Quy trình LCNT"
   }
 ];

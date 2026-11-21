@@ -3,123 +3,6 @@ import { Question } from "../../types";
 export const set27: Question[] = [
   {
     "id": 261,
-    "question": "Việc hủy E-TBMT có thể được thực hiện tại thời điểm nào?",
-    "options": {
-      "A": "Được thực hiện tại thời điểm đóng thầu trong trường hợp không có nhà thầu tham dự thầu",
-      "B": "Được thực hiện sau thời điểm mở thầu",
-      "C": "Được thực hiện trước thời điểm đóng thầu trong trường hợp đã phát hành hồ sơ mời thầu trước ngày 01/7/2025 nhưng đến ngày 4/8/2025 chưa đóng thầu",
-      "D": "Phương án A và C đều đúng"
-    },
-    "correctAnswer": "D",
-    "explanation": "",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 262,
-    "question": "Khi chủ đầu tư sửa đổi E-HSMT, thay đổi thời điểm đóng thầu (nếu có) trên Hệ thống mạng đấu thầu quốc gia, nhận định nào sau đây đúng?",
-    "options": {
-      "A": "Nhà thầu chịu trách nhiệm theo dõi thông tin trên Hệ thống mạng đấu thầu quốc gia để cập nhật thông tin về việc sửa đổi E-HSMT, thay đổi thời điểm đóng thầu (nếu có) để làm cơ sở chuẩn bị E-HSDT",
-      "B": "Nhà thầu phải tự chịu trách nhiệm và chịu bất lợi trong quá trình tham dự thầu nếu không theo dõi, cập nhật thông tin sửa đổi E-HSMT, thời điểm đóng thầu trên Hệ thống mạng đấu thầu quốc gia trong quá trình tham dự thầu",
-      "C": "Hệ thống mạng đấu thầu quốc gia tự động gửi email thông báo về việc sửa đổi E-HSMT, thay đổi thời điểm đóng thầu (nếu có) cho các nhà thầu quan tâm đến gói thầu",
-      "D": "Các phương án trên đều đúng"
-    },
-    "correctAnswer": "D",
-    "explanation": "",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 263,
-    "question": "Trường hợp E-HSMT không đầy đủ thông tin (thiếu thiết kế, bản vẽ và các tài liệu khác) hoặc thông tin không rõ ràng, gây khó khăn cho nhà thầu trong việc chuẩn bị E-HSDT thì chủ đầu tư phải làm gì?",
-    "options": {
-      "A": "Phải sửa đổi, bổ sung E-HSMT cho phù hợp và tiến hành đăng tải lại E-HSMT",
-      "B": "Thực hiện bổ sung, hoàn thiện cho phù hợp và sửa đổi trên Hệ thống",
-      "C": "Đính kèm thêm các thành phần còn thiếu của E-HSMT trên Hệ thống",
-      "D": "Hủy thầu"
-    },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ pháp lý: Khoản 2 Điều 26 Thông tư số 79/2025/TT-BTC. Trường hợp E-HSMT thiếu thông tin quan trọng (thiết kế, bản vẽ...) gây khó khăn cho việc lập E-HSDT, E-HSMT đó bị coi là không hợp lệ. Chủ đầu tư phải sửa đổi, bổ sung và tiến hành đăng tải lại toàn bộ E-HSMT (phát hành lại).",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 264,
-    "question": "Việc phải ký kết hợp đồng điện tử trên Hệ thống mạng đấu thầu quốc gia bắt buộc áp dụng đối với gói thầu nào sau đây?",
-    "options": {
-      "A": "Gói thầu áp dụng đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng được thực hiện qua Kho bạc nhà nước",
-      "B": "Gói thầu áp dụng đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh, chào giá trực tuyến, mua sắm trực tuyến mà việc thanh toán hợp đồng không thực hiện qua Kho bạc nhà nước",
-      "C": "Tất cả các gói thầu áp dụng đấu thầu qua mạng",
-      "D": "Tất cả các gói thầu áp dụng đấu thầu qua mạng và không qua mạng"
-    },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 32 Thông tư số 79/2025/TT-BTC và Điểm i Khoản 2 Điều 50 Luật Đấu thầu. Quy định bắt buộc ký kết hợp đồng điện tử trên Hệ thống đối với các gói thầu áp dụng đấu thầu rộng rãi, chào hàng cạnh tranh... qua mạng mà việc thanh toán hợp đồng được thực hiện qua Kho bạc Nhà nước.",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 265,
-    "question": "Đối với đấu thầu qua mạng, sau khi đánh giá E-HSDT, tổ trưởng tổ chuyên gia phải thực hiện nội dung gì sau đây trên Hệ thống mạng đấu thầu quốc gia?",
-    "options": {
-      "A": "Đính kèm bản scan báo cáo đánh giá E-HSDT (có chữ ký của tất cả thành viên trong tổ chuyên gia)",
-      "B": "Đính kèm bản scan báo cáo đánh giá E-HSDT (không cần có chữ ký của tất cả thành viên trong tổ chuyên gia)",
-      "C": "Đính kèm bản scan báo cáo đánh giá E-HSDT (chỉ cần chữ ký của tổ trưởng tổ chuyên gia)",
-      "D": "Tất cả các phương án đều sai"
-    },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ pháp lý: Khoản 3 Điều 30 Thông tư số 79/2025/TT-BTC. Sau khi đánh giá xong, Tổ trưởng tổ chuyên gia phải đính kèm bản scan Báo cáo đánh giá E-HSDT có đầy đủ chữ ký của tất cả các thành viên trong tổ chuyên gia lên Hệ thống.",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 266,
-    "question": "Gói thầu hàng hóa có giá gói thầu 02 tỷ đồng thực hiện chào giá trực tuyến theo quy trình rút gọn, trường hợp chủ đầu tư đăng tải thông báo mời thầu vào 11h00 ngày Thứ 2 (15/9/2025), thời điểm nào sau đây là thời điểm kết thúc chào giá trực tuyến sớm nhất?",
-    "options": {
-      "A": "11h00 ngày Thứ 6 (19/9/2025)",
-      "B": "08h00 ngày Thứ 3 (23/9/2025)",
-      "C": "11h00 ngày Thứ 3 (23/9/2025)",
-      "D": "08h00 ngày Thứ 4 (24/9/2025)"
-    },
-    "correctAnswer": "D",
-    "explanation": "Căn cứ pháp lý: Khoản 2 Điều 102 Nghị định số 214/2025/NĐ-CP (áp dụng cho gói thầu từ 02 tỷ đến 05 tỷ đồng). Gói thầu 02 tỷ đồng thuộc khung \"từ 02 tỷ đến 05 tỷ\" -> Thời gian chuẩn bị tối thiểu 05 ngày làm việc. Đăng thông báo: Thứ 2 (15/9). 5 ngày làm việc chuẩn bị: 16, 17, 18, 19 (Thứ 6), 22 (Thứ 2). Thời điểm bắt đầu chào giá sớm nhất: Thứ 3 (23/9). Thời gian chào giá tối thiểu: 24 giờ. Kết thúc chào giá sớm nhất: 23/9 + 24h = Thứ 4 (24/9). (Giả sử bắt đầu 08h00 ngày 23/9 thì kết thúc 08h00 ngày 24/9). Phương án D (08h00 ngày 24/9) là phương án phù hợp nhất với tính toán thời gian tối thiểu.",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 267,
-    "question": "Đối với đấu thầu qua mạng, nhà thầu đính kèm bản scan thư giảm giá khi tham dự thầu trên Hệ thống mạng đấu thầu quốc gia thì việc đánh giá tệp tin đính kèm này được thực hiện theo phương án nào sau đây?",
-    "options": {
-      "A": "Không được xem xét, đánh giá",
-      "B": "Được xem xét, đánh giá căn cứ tệp tin đính kèm",
-      "C": "Được làm rõ trong trường hợp có sự sai khác thông tin về giảm giá giữa tệp tin đính kèm này và thông tin kê khai trong đơn dự thầu",
-      "D": "Được bổ sung trong trường hợp có sự sai khác thông tin về giảm giá giữa tệp tin đính kèm này và thông tin kê khai trong đơn dự thầu"
-    },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ pháp lý: Điểm a Khoản 3 Điều 44 Nghị định số 214/2025/NĐ-CP và quy trình đấu thầu qua mạng. Trong đấu thầu qua mạng, giảm giá phải được thực hiện trực tiếp trên biểu mẫu webform dự thầu để hệ thống ghi nhận vào biên bản mở thầu. Thư giảm giá (file đính kèm) không được công khai trong biên bản mở thầu (do hệ thống không đọc được nội dung file để đưa vào biên bản tự động) sẽ không được xem xét, đánh giá.",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 268,
-    "question": "Đối với gói thầu mua sắm hàng hóa có giá gói thầu 15 tỷ đồng thực hiện đấu thầu rộng rãi qua mạng, trường hợp tại thời điểm đóng thầu không có nhà thầu tham dự thầu, chủ đầu tư quyết định xử lý tình huống theo cách gia hạn thời điểm đóng thầu thì thời gian gia hạn tối thiểu là bao nhiêu ngày?",
-    "options": {
-      "A": "10 ngày",
-      "B": "05 ngày làm việc",
-      "C": "05 ngày",
-      "D": "03 ngày làm việc"
-    },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ pháp lý: Điểm b Khoản 4 Điều 140 Nghị định số 214/2025/NĐ-CP. Quy định gia hạn tối thiểu 05 ngày làm việc áp dụng cho gói thầu hàng hóa < 10 tỷ đồng. Gói thầu này có giá 15 tỷ đồng (> 10 tỷ đồng), nên thuộc trường hợp \"gói thầu khác\". Đối với gói thầu khác, thời gian gia hạn tối thiểu là 10 ngày.",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 269,
-    "question": "Phương thức lựa chọn nhà thầu nào sau đây áp dụng cho đấu thầu qua mạng?",
-    "options": {
-      "A": "01 giai đoạn, 01 túi hồ sơ",
-      "B": "02 giai đoạn, 01 túi hồ sơ",
-      "C": "02 giai đoạn, 02 túi hồ sơ",
-      "D": "Các phương án trên đều đúng"
-    },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ pháp lý: Khoản 10 và 11 Điều 98 Nghị định số 214/2025/NĐ-CP. Đấu thầu qua mạng hiện nay áp dụng cho phương thức Một giai đoạn một túi hồ sơ (và Một giai đoạn hai túi hồ sơ). Tuy nhiên, phương thức Hai giai đoạn (một hoặc hai túi) thuộc trường hợp không đấu thầu trên Hệ thống mạng. Trong các phương án đưa ra, chỉ có phương án A (01 giai đoạn, 01 túi hồ sơ) là phương thức phổ biến và bắt buộc áp dụng qua mạng.",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 270,
     "question": "Đối với dự toán mua sắm, hạn mức áp dụng chào giá trực tuyến theo quy trình thông thường đối với gói thầu mua sắm hàng hóa là?",
     "options": {
       "A": "Có giá gói thầu không quá 500 triệu đồng",
@@ -130,5 +13,128 @@ export const set27: Question[] = [
     "correctAnswer": "D",
     "explanation": "Căn cứ pháp lý: Khoản 2 Điều 99 Nghị định số 214/2025/NĐ-CP. Chào giá trực tuyến theo quy trình thông thường được áp dụng dựa trên tính chất gói thầu (thông dụng, đơn giản, tiêu chuẩn hóa) mà không quy định hạn mức về giá gói thầu (khác với quy trình rút gọn có hạn mức).",
     "category": "Hình thức và Phương thức LCNT"
+  },
+  {
+    "id": 262,
+    "question": "Gói thầu hàng hóa có giá gói thầu 01 tỷ đồng thực hiện chào giá trực tuyến theo quy trình rút gọn, trường hợp chủ đầu tư đăng tải thông báo mời thầu vào 11h00 ngày Thứ 2 (15/9/2025), thời điểm nào sau đây là thời điểm kết thúc chào giá trực tuyến sớm nhất?",
+    "options": {
+      "A": "08h00 ngày thứ 6 (19/9/2025)",
+      "B": "08h00 ngày thứ bảy (20/9/2025)",
+      "C": "11h00 ngày thứ 6 (19/9/2025)",
+      "D": "08h00 ngày thứ 2 (22/9/2025)"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ pháp lý: Khoản 2 Điều 102 Nghị định số 214/2025/NĐ-CP. Gói thầu 01 tỷ đồng (dưới 02 tỷ) -> Thời gian chuẩn bị tối thiểu 03 ngày làm việc. Đăng thông báo: 11h00 Thứ 2 (15/9). 3 ngày làm việc chuẩn bị: 16, 17, 18 (Thứ 5). Bắt đầu chào giá sớm nhất: Thứ 6 (19/9). Thời gian chào giá tối thiểu: 24 giờ. Từ 08h00 Thứ 6 (19/9) + 24h -> 08h00 Thứ 7 (20/9). Tuy nhiên, thời điểm kết thúc phải trong giờ hành chính (Khoản 4 Điều 100). Thứ 7 thường không được tính là giờ hành chính trong đấu thầu (hoặc hệ thống không set kết thúc vào ngày nghỉ). Do đó, thời điểm kết thúc sẽ chuyển sang đầu giờ làm việc tiếp theo là 08h00 Thứ 2 (22/9).",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 263,
+    "question": "Đối với đấu thầu qua mạng, thành phần nào sau đây không được coi là một phần của E-HSMST, E-HSMT và nhà thầu không phải đáp ứng các yêu cầu này?",
+    "options": {
+      "A": "Bảng dữ liệu được số hóa dưới dạng webform trên Hệ thống mạng đấu thầu quốc gia",
+      "B": "Tiêu chuẩn đánh giá về tính hợp lệ được đính kèm trên Hệ thống mạng đấu thầu quốc gia",
+      "C": "Yêu cầu về năng lực, kinh nghiệm được đính kèm trên Hệ thống mạng đấu thầu quốc gia",
+      "D": "Phương án B và C đều đúng"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ khoản 3 Điều 26 Thông tư số 79/2025/TT-BTC, với gói thầu hàng hóa, xây lắp, phi tư vấn, bảng dữ liệu, tiêu chuẩn đánh giá về tính hợp lệ, yêu cầu về năng lực, kinh nghiệm phải được số hóa dưới dạng webform; chủ đầu tư không được đính kèm file yêu cầu khác, và các nội dung không phải bản số hóa webform không được coi là một phần của E-HSMST, E-HSMT, nhà thầu không phải đáp ứng. Phương án A là bản webform nên vẫn là một phần của E-HSMT; B và C là file đính kèm nên không có giá trị. Vì vậy chọn D.",
+    "category": "Đấu thầu qua mạng",
+    "isNew2775": true,
+    "newExamId": 272,
+    "newExamNote": "Câu 272 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+  },
+  {
+    "id": 264,
+    "question": "Yêu cầu nào sau đây là đúng đối với tệp tin (file) đăng tải trên Hệ thống mạng đấu thầu quốc gia?",
+    "options": {
+      "A": "Các file mở, đọc được bằng các phần mềm thông dụng như: các phần mềm đọc, soạn thảo văn bản MS Office hoặc Open Office; các phần mềm đọc file PDF; các phần mềm thiết kế thông dụng như AutoCad, Photoshop; phần mềm đọc file ảnh tích hợp sẵn trên Hệ điều hành Windows. Các file sử dụng phông chữ không thuộc bảng mã Unicode",
+      "B": "Các file nén mở được bằng các phần mềm giải nén thông dụng như phần mềm giải nén ZIP tích hợp sẵn trên hệ điều hành Windows, MacOS hoặc phần mềm giải nén Rar hoặc 7Zip. Trường hợp sử dụng file nén, các file sau khi giải nén phải có định dạng đúng quy định.",
+      "C": "Không bị nhiễm virus, không bị lỗi, hỏng và không thiết lập mật khẩu",
+      "D": "Các phương án trên đều đúng"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ pháp lý: Điểm c Khoản 1 Điều 5 Thông tư số 79/2025/TT-BTC. Quy định về định dạng tệp tin yêu cầu: Không bị nhiễm virus, không bị lỗi/hỏng và đặc biệt là không thiết lập mật khẩu (để hệ thống và tổ chuyên gia có thể mở và đọc được).",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 265,
+    "question": "Đối với đấu thầu qua mạng, trường hợp file đính kèm trong E-HSMT không thể mở hoặc không đọc được thì chủ đầu tư phải thực hiện hành động nào sau đây?",
+    "options": {
+      "A": "Đăng tải và phát hành lại toàn bộ E-HSMT",
+      "B": "Sửa đổi E-HSMT và không phải phát hành lại toàn bộ E-HSMT",
+      "C": "Đề nghị Trung tâm Đấu thầu qua mạng quốc gia sửa đổi E-HSMT trong trường hợp chủ đầu tư không sửa đổi được E-HSMT",
+      "D": "Các phương án trên đều đúng"
+    },
+    "correctAnswer": "A",
+    "explanation": "Căn cứ pháp lý: Khoản 2 Điều 5 Thông tư số 79/2025/TT-BTC. Nếu file đính kèm trong E-HSMT không mở/đọc được, Chủ đầu tư phải đăng tải và phát hành lại toàn bộ E-HSMT để đảm bảo tính công bằng và đầy đủ thông tin cho nhà thầu.",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 266,
+    "question": "Đối với đấu thầu qua mạng, trường hợp Hệ thống mạng đấu thầu quốc gia gặp sự cố không thể vận hành và phải tự động gia hạn thời điểm đóng thầu của các gói thầu bị ảnh hưởng (có thời điểm đóng thầu trong thời gian từ khi Hệ thống bị sự cố cho đến thời điểm sau hoàn thành khắc phục sự cố 02 giờ) thì việc đánh giá E-HSDT được thực hiện trên cơ sở thời điểm đóng thầu nào sau đây?",
+    "options": {
+      "A": "Thời điểm đóng thầu nêu trong E-TBMT đã được đăng tải trước thời điểm Hệ thống mạng đấu thầu quốc gia gặp sự cố",
+      "B": "Thời điểm đóng thầu mà Hệ thống mạng đấu thầu quốc gia tự động gia hạn",
+      "C": "Do Chủ đầu tư quyết định",
+      "D": "Phương án A và B đều đúng"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ pháp lý: Khoản 3 Điều 6 Thông tư số 79/2025/TT-BTC. Khi Hệ thống tự động gia hạn do sự cố, việc đánh giá E-HSDT được thực hiện dựa trên thời điểm đóng thầu: Hồ sơ nộp trước sự cố: Căn cứ thời điểm đóng thầu cũ (A). Hồ sơ nộp sau khi khắc phục: Căn cứ thời điểm đóng thầu mới (B). Do đó, cả A và B đều đúng tùy thuộc vào thời điểm nộp của từng nhà thầu.",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 267,
+    "question": "Loại Chứng thư số nào sau đây được sử dụng trên Hệ thống mạng đấu thầu quốc gia?",
+    "options": {
+      "A": "Chứng thư số chuyên dùng do tất cả tổ chức có chức năng cung cấp dịch vụ chứng thực chữ ký số chuyên dùng cấp",
+      "B": "Tất cả các loại chứng thư số",
+      "C": "Chứng thư số công cộng do tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng cấp hoặc chứng thư số do tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng Chính phủ cấp",
+      "D": "Phương án A và C đều đúng"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ pháp lý: Khoản 6 Điều 3 Thông tư số 79/2025/TT-BTC. Chứng thư số sử dụng trên Hệ thống là: (1) Chứng thư số công cộng (do các tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng cấp - VNPT, Viettel, Bkav...); hoặc (2) Chứng thư số chuyên dùng Chính phủ (cấp cho cơ quan nhà nước). Không phải tất cả các loại chứng thư số chuyên dùng khác đều được chấp nhận.",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 268,
+    "question": "Đối với đấu thầu qua mạng, trường hợp nhà thầu sử dụng bảo lãnh dự thầu điện tử trên Hệ thống mạng đấu thầu quốc gia, phát biểu nào sau đây là đúng?",
+    "options": {
+      "A": "Giá trị bảo lãnh dự thầu luôn đáp ứng yêu cầu trong E-HSMT",
+      "B": "Thời gian hiệu lực của bảo lãnh dự thầu luôn đáp ứng yêu cầu trong E-HSMT",
+      "C": "Đối tượng thụ hưởng bảo lãnh dự thầu luôn đáp ứng yêu cầu trong E-HSMT",
+      "D": "Các phương án trên đều đúng"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ pháp lý: Quy trình kỹ thuật bảo lãnh điện tử trên Hệ thống (liên thông dữ liệu). Khi nhà thầu chọn bảo lãnh điện tử, thông tin được truyền trực tiếp từ Ngân hàng sang Hệ thống đấu thầu dựa trên mã gói thầu và yêu cầu của E-HSMT. Do đó, các thông tin về giá trị, hiệu lực, thụ hưởng sẽ được hệ thống kiểm soát để luôn đáp ứng yêu cầu (nếu ngân hàng phát hành thành công theo lệnh).",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 269,
+    "question": "Gói thầu mua sắm hàng hóa có: - Thời điểm đóng thầu theo E-TBMT là: 8h00 ngày 25/9/2025 - Hiệu lực của bảo đảm dự thầu theo yêu cầu của E-HSMT là: 90 ngày - Do lỗi hệ thống nên Hệ thống tự động gia hạn thời điểm đóng thầu mới là: 11h ngày 26/9/2025 Nhà thầu A đã nộp E-HSDT trước thời điểm Hệ thống xảy ra sự cố với hiệu lực của bảo đảm dự thầu là 90 ngày kể từ ngày 25/9/2025; Nhà thầu B nộp E-HSDT sau khi Hệ thống được khắc phục và trước thời điểm đóng thầu mới với hiệu lực của bảo đảm dự thầu là 90 ngày kể từ ngày 26/9/2025. Trong trường hợp này, bảo đảm dự thầu của nhà thầu A và nhà thầu B được đánh giá như thế nào?",
+    "options": {
+      "A": "Bảo đảm dự thầu của nhà thầu A được đánh giá là không hợp lệ; Bảo đảm dự thầu của nhà thầu B được đánh giá là hợp lệ",
+      "B": "Bảo đảm dự thầu của nhà thầu A và nhà thầu B đều được đánh giá là hợp lệ",
+      "C": "Bảo đảm dự thầu của nhà thầu A được đánh giá là hợp lệ; Bảo đảm dự thầu của nhà thầu B được đánh giá là không hợp lệ",
+      "D": "Bảo đảm dự thầu của nhà thầu A và nhà thầu B đều được đánh giá là không hợp lệ"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ pháp lý: Khoản 3 Điều 6 Thông tư số 79/2025/TT-BTC và nguyên tắc xử lý sự cố. Nhà thầu A nộp trước sự cố: Hiệu lực tính từ thời điểm đóng thầu cũ (25/9) -> Hợp lệ theo thời điểm đó. Nhà thầu B nộp sau sự cố (khi đã có thời điểm đóng thầu mới 26/9): Hiệu lực tính từ thời điểm đóng thầu mới -> Hợp lệ theo thời điểm mới. Cả hai đều được đánh giá là hợp lệ dựa trên thời điểm tương ứng mà họ nộp thầu.",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 270,
+    "question": "So sánh điều kiện xét duyệt trúng thầu giữa phương pháp giá cố định và phương pháp dựa trên kỹ thuật đối với gói thầu dịch vụ tư vấn, điểm chung quyết định để nhà thầu được xếp hạng thứ nhất là gì?",
+    "options": {
+      "A": "Có giá dự thầu thấp nhất",
+      "B": "Có điểm tổng hợp cao nhất",
+      "C": "Có điểm kỹ thuật cao nhất",
+      "D": "Có giá đề nghị trúng thầu thấp nhất"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ điểm c khoản 1 Điều 60 Luật Đấu thầu số 22/2023/QH15, nhà thầu tư vấn là tổ chức được đề nghị trúng thầu khi, đối với phương pháp giá cố định và phương pháp dựa trên kỹ thuật, có điểm kỹ thuật cao nhất (điểm b khoản 2 và điểm b khoản 4 Điều 59 cũng xếp hạng thứ nhất nhà thầu có điểm kỹ thuật cao nhất). Giá dự thầu thấp nhất là tiêu chí của phương pháp giá thấp nhất; điểm tổng hợp cao nhất là tiêu chí của phương pháp kết hợp giữa kỹ thuật và giá. Vì vậy chọn C.",
+    "category": "Đánh giá hồ sơ dự thầu",
+    "isNew2775": true,
+    "newExamId": 279,
+    "newExamNote": "Câu 279 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   }
 ];

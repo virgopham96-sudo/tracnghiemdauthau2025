@@ -3,135 +3,162 @@ import { Question } from "../../types";
 export const set39: Question[] = [
   {
     "id": 381,
-    "question": "Giá gói thầu được cập nhật trong thời hạn bao nhiêu ngày trước ngày mở thầu nếu cần thiết?",
+    "question": "Khi xác định giá gói thầu mua sắm thiết bị văn phòng bằng phương pháp lấy báo giá, đơn vị quan tâm phải gửi báo giá trên Hệ thống mạng đấu thầu quốc gia trong thời hạn?",
     "options": {
-      "A": "28 ngày",
-      "B": "18 ngày",
-      "C": "7 ngày",
-      "D": "7 ngày làm việc"
+      "A": "Thời hạn tối thiểu 02 ngày làm việc",
+      "B": "Thời hạn tối thiểu 03 ngày làm việc",
+      "C": "Thời hạn tối thiểu 05 ngày làm việc",
+      "D": "Thời hạn tối thiểu 07 ngày làm việc"
     },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ khoản 1 Điều 18 Nghị định 214/2025/NĐ-CP và điểm a khoản 2 Điều 39 Luật Đấu thầu: Quy định nêu rõ 'Giá gói thầu được cập nhật trong thời hạn 28 ngày trước ngày mở thầu nếu cần thiết'. Việc cập nhật này giúp đảm bảo giá gói thầu phản ánh đúng mặt bằng giá thị trường tại thời điểm gần đóng thầu.",
-    "category": "Kế hoạch lựa chọn nhà thầu (KHLCNT)"
+    "correctAnswer": "B",
+    "explanation": "Căn cứ điểm d khoản 2 Điều 18 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), khi xác định giá gói thầu bằng báo giá, chủ đầu tư phải đăng tải yêu cầu báo giá trên Hệ thống mạng đấu thầu quốc gia; đơn vị quan tâm phải gửi báo giá trên Hệ thống trong thời hạn tối thiểu 03 ngày làm việc kể từ ngày đăng tải yêu cầu báo giá. Thiết bị văn phòng không thuộc nhóm thuốc, thiết bị y tế (thời hạn 10 ngày). Vì vậy chọn B.",
+    "category": "Câu tổng hợp, bổ sung",
+    "isNew2775": true,
+    "newExamId": 381,
+    "newExamNote": "Câu 381 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 382,
-    "question": "Hồ sơ mời sơ tuyển được phát hành như thế nào, thời gian chuẩn bị hồ sơ dự sơ tuyển tối thiểu là bao nhiêu ngày?",
+    "question": "Chủ đầu tư được xử lý như thế nào đối với báo giá hoặc hạng mục trong báo giá của dịch vụ có giá cao hơn hoặc thấp hơn 30% giá trung bình của các báo giá?",
     "options": {
-      "A": "Phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia, thời gian chuẩn bị tối thiểu là 7 ngày làm việc",
-      "B": "Phát hành trên Hệ thống mạng đấu thầu quốc gia với giá 110.000 đồng/hồ sơ, thời gian chuẩn bị tối thiểu là 9 ngày làm việc",
-      "C": "Phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia, thời gian chuẩn bị tối thiểu là 9 ngày làm việc",
-      "D": "Phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia, thời gian chuẩn bị tối thiểu là 9 ngày"
+      "A": "Bắt buộc phải loại trừ các báo giá này khi xác định giá trung bình",
+      "B": "Có quyền loại trừ các báo giá này để xác định giá trung bình",
+      "C": "Phải tính đầy đủ vào giá trung bình, không được loại trừ báo giá này",
+      "D": "Phải xin ý kiến người có thẩm quyền trước khi loại trừ các báo giá này"
     },
-    "correctAnswer": "D",
-    "explanation": "Căn cứ điểm d khoản 1 Điều 25 Nghị định số 214/2025/NĐ-CP, hồ sơ mời sơ tuyển được phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia; thời gian chuẩn bị hồ sơ dự sơ tuyển tối thiểu là 09 ngày đối với đấu thầu trong nước (18 ngày đối với đấu thầu quốc tế). Thời hạn tính theo ngày, không phải ngày làm việc, và không thu phí phát hành. Vì vậy chọn D.",
-    "category": "Quy trình, thủ tục lựa chọn nhà thầu",
+    "correctAnswer": "B",
+    "explanation": "Căn cứ điểm d khoản 2 Điều 18 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), trường hợp có nhiều hơn 01 báo giá thì được lấy giá trung bình; khi xác định giá trung bình, nếu có báo giá hoặc hạng mục trong báo giá có giá cao hoặc thấp hơn 30% giá trung bình thì chủ đầu tư có quyền loại trừ các báo giá này. Đây là quyền, không phải nghĩa vụ bắt buộc, cũng không phải xin ý kiến người có thẩm quyền. Vì vậy chọn B.",
+    "category": "Câu tổng hợp, bổ sung",
     "isNew2775": true,
-    "newExamId": 372,
-    "newExamNote": "Câu 372 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamId": 382,
+    "newExamNote": "Câu 382 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 383,
-    "question": "Chào giá trực tuyến theo quy trình rút gọn được áp dụng trong trường hợp nào?",
+    "question": "Đối với gói thầu mua thuốc; hóa chất, vật tư xét nghiệm, thiết bị y tế; linh kiện, phụ kiện, vật tư thay thế cho thiết bị y tế, đơn vị quan tâm gửi báo giá trong thời hạn tối thiểu bao nhiêu ngày và chủ đầu tư được lựa chọn báo giá nào nếu có từ 02 báo giá trở lên?",
     "options": {
-      "A": "Gói thầu mua sắm hàng hóa phải mua của hãng sản xuất cụ thể để bảo đảm tính tương thích về công nghệ, bản quyền với các trang thiết bị, máy móc, phần mềm, dịch vụ sẵn có có giá gói thầu là 20 tỷ đồng",
-      "B": "Gói thầu cung cấp dịch vụ phi tư vấn phải mua của hãng sản xuất cụ thể để bảo đảm tính tương thích về công nghệ, bản quyền với các trang thiết bị, máy móc, phần mềm, dịch vụ sẵn có có giá gói thầu là 10 tỷ đồng",
-      "C": "Gói thầu mua sắm hàng hóa có giá gói thầu không quá 05 tỷ đồng đối với dự án",
-      "D": "Tất cả các phương án trên đều đúng"
+      "A": "Tối thiểu 05 ngày; được lựa chọn báo giá cao nhất phù hợp với khả năng tài chính và yêu cầu chuyên môn",
+      "B": "Tối thiểu 07 ngày; được lựa chọn báo giá cao nhất phù hợp với khả năng tài chính và yêu cầu chuyên môn",
+      "C": "Tối thiểu 10 ngày; được lựa chọn báo giá cao nhất phù hợp với khả năng tài chính và yêu cầu chuyên môn",
+      "D": "Tối thiểu 15 ngày; được lựa chọn báo giá cao nhất phù hợp với khả năng tài chính và yêu cầu chuyên môn"
     },
-    "correctAnswer": "D",
-    "explanation": "Căn cứ khoản 3 Điều 99 Nghị định 214/2025/NĐ-CP: Chào giá rút gọn áp dụng cho: 1. Theo hạn mức (C): Gói mua sắm hàng hóa/phi tư vấn/xây lắp không quá 05 tỷ đồng đối với dự án. 2. Theo tính chất (A, B): Gói mua sắm hàng hóa/phi tư vấn phải mua của hãng cụ thể để bảo đảm tương thích (trường hợp này KHÔNG KHỐNG CHẾ GIÁ gói thầu). Vậy cả 3 trường hợp đều đúng.",
-    "category": "Hình thức lựa chọn nhà thầu"
+    "correctAnswer": "C",
+    "explanation": "Căn cứ đoạn 2 điểm d khoản 2 Điều 18 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), đối với gói thầu mua thuốc; hóa chất, vật tư xét nghiệm, thiết bị y tế; linh kiện, phụ kiện, vật tư thay thế cho thiết bị y tế, đơn vị quan tâm gửi báo giá trong thời hạn tối thiểu 10 ngày kể từ ngày đăng tải yêu cầu báo giá; trường hợp có từ 02 báo giá trở lên, chủ đầu tư được lựa chọn báo giá cao nhất phù hợp với khả năng tài chính và yêu cầu chuyên môn. Vì vậy chọn C.",
+    "category": "Câu tổng hợp, bổ sung",
+    "isNew2775": true,
+    "newExamId": 383,
+    "newExamNote": "Câu 383 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 384,
-    "question": "Đối với gói thầu dịch vụ xây dựng thuộc phạm vi điều chỉnh của Hiệp định CPTPP và tổ chức đấu thầu quốc tế, cơ quan mua sắm có thể áp dụng ưu đãi đối với nhà thầu nội khối nào?",
+    "question": "Đối với gói thầu thuộc dự án khoa học, công nghệ và đổi mới sáng tạo, dự án ứng dụng công nghệ cao, ứng dụng công nghệ mới hoặc gói thầu thuộc dự toán mua sắm không hình thành dự án, việc lựa chọn thành viên tổ chuyên gia, tổ thẩm định được thực hiện như thế nào?",
     "options": {
-      "A": "Nhà thầu liên danh trong đó có thành viên liên danh là nhà thầu Nhật Bản và thành viên này đảm nhận từ 50% trở lên giá trị công việc của gói thầu",
-      "B": "Nhà thầu liên danh trong đó có thành viên liên danh là nhà thầu nội khối và thành viên này đảm nhận từ 25% trở lên giá trị công việc của gói thầu",
-      "C": "Nhà thầu liên danh trong đó có thành viên liên danh là nhà thầu Hoa Kỳ và thành viên này đảm nhận từ 50% trở lên giá trị công việc của gói thầu",
-      "D": "Nhà thầu liên danh trong đó có thành viên liên danh là nhà thầu nội khối và thành viên này đảm nhận từ 40% trở lên giá trị công việc của gói thầu"
+      "A": "Thành viên tổ chuyên gia, tổ thẩm định là tư vấn cá nhân hoặc cá nhân thuộc tổ chức tư vấn đấu thầu thì phải đáp ứng đầy đủ các tiêu chuẩn như gói thầu thông thường",
+      "B": "Chủ đầu tư quyết định lựa chọn tất cả thành viên tổ chuyên gia, tổ thẩm định bảo đảm có năng lực thực hiện công việc mà không bắt buộc đáp ứng các yêu cầu về: chứng chỉ nghiệp vụ chuyên môn về đấu thầu và có tối thiểu 03 năm công tác thuộc một trong các lĩnh vực liên quan đến nội dung pháp lý, kỹ thuật, tài chính của gói thầu",
+      "C": "Chủ đầu tư không cần thành lập tổ chuyên gia, tổ thẩm định",
+      "D": "Phải xin ý kiến người có thẩm quyền về yêu cầu đối với tổ chuyên gia, tổ thẩm định trước khi phê duyệt"
     },
     "correctAnswer": "A",
-    "explanation": "Căn cứ điểm b khoản 2 Điều 17 Nghị định 95/2020/NĐ-CP: Ưu đãi cho nhà thầu nội khối CPTPP khi đấu thầu quốc tế áp dụng cho: Nhà thầu liên danh có thành viên nội khối (như Nhật Bản) đảm nhận TỪ 50% TRỞ LÊN giá trị công việc. Hoa Kỳ không thuộc CPTPP nên C sai. B và D sai về tỷ lệ %.",
-    "category": "15. Đấu thầu theo quy chuẩn quốc tế & ODA"
+    "explanation": "Căn cứ khoản 2 Điều 21 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), với các gói thầu nêu trong đề, chủ đầu tư lựa chọn thành viên tổ chuyên gia, tổ thẩm định có năng lực mà không bắt buộc có chứng chỉ nghiệp vụ và tối thiểu 03 năm công tác, trừ thành viên là tư vấn cá nhân hoặc cá nhân thuộc tổ chức tư vấn đấu thầu; các thành viên này vẫn phải đáp ứng đầy đủ tiêu chuẩn. Phương án B sai vì nói “tất cả thành viên”. Vì vậy chọn A.",
+    "category": "Câu tổng hợp, bổ sung",
+    "isNew2775": true,
+    "newExamId": 384,
+    "newExamNote": "Câu 384 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 385,
-    "question": "Một trong các nguyên tắc lập kế hoạch lựa chọn nhà thầu theo quy định tại Nghị định số 95/2020/NĐ-CP là?",
+    "question": "Trường hợp chủ đầu tư, đơn vị tư vấn đấu thầu cần lấy ý kiến hoặc huy động chuyên gia chuyên ngành không thuộc nhân sự của mình tham gia tổ chuyên gia, tổ thẩm định thì các chuyên gia này có bắt buộc phải có chứng chỉ nghiệp vụ chuyên môn về đấu thầu không?",
     "options": {
-      "A": "Không ghi rõ số lượng gói thầu",
-      "B": "Không được chia nhỏ gói thầu để tránh áp dụng Nghị định này",
-      "C": "Phải ghi toàn bộ phương thức lựa chọn nhà thầu là đấu thầu qua mạng",
-      "D": "Ghi thời gian bắt đầu tổ chức lựa chọn nhà thầu là ngày cụ thể trong năm"
+      "A": "Không bắt buộc phải có chứng chỉ nghiệp vụ chuyên môn về đấu thầu đối với chuyên gia về lĩnh vực pháp lý, tài chính",
+      "B": "Không bắt buộc phải có chứng chỉ nghiệp vụ chuyên môn về đấu thầu",
+      "C": "Bắt buộc phải có chứng chỉ nghiệp vụ chuyên môn về đấu thầu đối với chuyên gia về lĩnh vực pháp lý, tài chính",
+      "D": "Bắt buộc đối với gói thầu thuộc dự án khoa học, công nghệ và đổi mới sáng tạo theo quy định của pháp luật về khoa học, công nghệ và đổi mới sáng tạo"
     },
     "correctAnswer": "B",
-    "explanation": "Căn cứ khoản 4 Điều 26 Nghị định 95/2020/NĐ-CP: Quy định về nguyên tắc lập KHLCNT đối với gói thầu thuộc CPTPP/EVFTA/UKVFTA yêu cầu: 'KHÔNG ĐƯỢC CHIA NHỎ GÓI THẦU để tránh áp dụng Nghị định này' (nhằm né tránh đấu thầu quốc tế).",
-    "category": "15. Đấu thầu theo quy chuẩn quốc tế & ODA"
+    "explanation": "Căn cứ khoản 2a Điều 21 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), trường hợp cần lấy ý kiến hoặc huy động chuyên gia chuyên ngành không thuộc nhân sự của chủ đầu tư, đơn vị tư vấn đấu thầu thì các chuyên gia này không bắt buộc có chứng chỉ nghiệp vụ chuyên môn về đấu thầu. Quy định áp dụng chung, không phân biệt lĩnh vực pháp lý, tài chính hay loại dự án. Vì vậy chọn B.",
+    "category": "Câu tổng hợp, bổ sung",
+    "isNew2775": true,
+    "newExamId": 385,
+    "newExamNote": "Câu 385 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 386,
-    "question": "Đối với gói thầu chỉ thuộc phạm vi điều chỉnh của Hiệp định CPTPP, thời điểm chấm dứt áp dụng ưu đãi trong nước là?",
+    "question": "Trường hợp có sử dụng nhà thầu phụ trong quá trình thực hiện hợp đồng, ngoài việc cập nhật tiến độ thực tế thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia, chủ đầu tư có trách nhiệm cập nhật thông tin gì liên quan đến nhà thầu phụ?",
     "options": {
-      "A": "14 tháng 01 năm 2038",
-      "B": "01 tháng 8 năm 2038",
-      "C": "14 tháng 01 năm 2044",
-      "D": "01 tháng 8 năm 2044"
+      "A": "Không phải cập nhật thông tin thay đổi, phát sinh về nhà thầu phụ trong quá trình thực hiện hợp đồng",
+      "B": "Cập nhật thông tin thay đổi, phát sinh về nhà thầu phụ trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 6 tháng sau khi hợp đồng kết thúc",
+      "C": "Cập nhật thông tin thay đổi, phát sinh về danh sách, phạm vi công việc và tỷ lệ sử dụng nhà thầu phụ trong quá trình thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia",
+      "D": "Phê duyệt lại toàn bộ danh sách nhà thầu phụ và trực tiếp quản lý nhà thầu phụ để đảm bảo chất lượng, tiến độ, hiệu quả của gói thầu"
     },
     "correctAnswer": "C",
-    "explanation": "Căn cứ khoản 4 Điều 15 Nghị định 95/2020/NĐ-CP về thời kỳ chuyển đổi: 'Kể từ ngày 14 tháng 01 năm 2044 trở đi, cơ quan mua sắm không được áp dụng các biện pháp ưu đãi trong nước đối với gói thầu thuộc phạm vi điều chỉnh của Hiệp định này'.",
-    "category": "15. Đấu thầu theo quy chuẩn quốc tế & ODA"
+    "explanation": "Căn cứ khoản 2 Điều 35 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), chủ đầu tư phải cập nhật tiến độ thực tế thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia; trong quá trình thực hiện hợp đồng, chủ đầu tư có trách nhiệm cập nhật thông tin thay đổi, phát sinh về danh sách, phạm vi công việc và tỷ lệ sử dụng nhà thầu phụ, nhà thầu phụ đặc biệt (nếu có). Việc cập nhật thực hiện trong quá trình hợp đồng, không phải sau khi kết thúc. Vì vậy chọn C.",
+    "category": "Câu tổng hợp, bổ sung",
+    "isNew2775": true,
+    "newExamId": 386,
+    "newExamNote": "Câu 386 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 387,
-    "question": "Đối với gói thầu thuộc phạm vi điều chỉnh của Hiệp định EVFTA, trong giai đoạn từ 01/8/2020 đến 13/01/2029, tổng giá trị ưu đãi trong nước tối đa trong một năm là?",
+    "question": "Hạn mức được áp dụng hình thức chỉ định thầu đối với gói thầu dịch vụ tư vấn thuộc dự án có giá gói thầu là bao nhiêu?",
     "options": {
-      "A": "30% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP",
-      "B": "40% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP",
-      "C": "50% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP",
-      "D": "60% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP"
+      "A": "Không quá 01 tỷ đồng",
+      "B": "Không quá 02 tỷ đồng",
+      "C": "Không quá 03 tỷ đồng",
+      "D": "Không quá 05 tỷ đồng"
     },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ khoản 2 Điều 15 Nghị định 95/2020/NĐ-CP (được quy chiếu cho EVFTA): Trong thời kỳ chuyển đổi (đến 13/01/2029), cơ quan có thẩm quyền xác định tổng giá trị ưu đãi trong nước tối đa KHÔNG VƯỢT QUÁ 40% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định.",
-    "category": "15. Đấu thầu theo quy chuẩn quốc tế & ODA"
+    "correctAnswer": "C",
+    "explanation": "Căn cứ khoản 4 Điều 78 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), hạn mức chỉ định thầu là: gói thầu thuộc dự toán mua sắm không hình thành dự án không quá 01 tỷ đồng; gói thầu dịch vụ tư vấn thuộc dự án không quá 03 tỷ đồng; gói thầu dịch vụ phi tư vấn, hàng hóa, xây lắp, hỗn hợp thuộc dự án không quá 05 tỷ đồng. Vì vậy gói thầu dịch vụ tư vấn thuộc dự án có hạn mức không quá 03 tỷ đồng, chọn C.",
+    "category": "Câu tổng hợp, bổ sung",
+    "isNew2775": true,
+    "newExamId": 387,
+    "newExamNote": "Câu 387 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 388,
-    "question": "Một nhà thầu EU tham gia đấu thầu quốc tế gói thầu mua sắm hàng hóa thuộc Hiệp định EVFTA có chi phí sản xuất hàng hóa tại nước thành viên là 45%, gói thầu có áp dụng ưu đãi đối với hàng hóa từ các nước thành viên. Nhà thầu này có được hưởng ưu đãi không?",
+    "question": "Trường hợp thời gian đánh giá hồ sơ dự thầu, hồ sơ đề xuất bị kéo dài dẫn đến hồ sơ dự thầu, hồ sơ đề xuất của nhà thầu hết hiệu lực thì chủ đầu tư xử lý như thế nào?",
     "options": {
-      "A": "Không được hưởng ưu đãi vì chi phí sản xuất hàng hóa tại các nước thành viên dưới 50%",
-      "B": "Được hưởng ưu đãi vì có chi phí sản xuất hàng hóa tại nước thành viên",
-      "C": "Được hưởng ưu đãi vì tổng chi phí tại nước thành viên là 45%",
-      "D": "Không đủ thông tin để xác định tính chất phức tạp của gói thầu"
+      "A": "Loại hồ sơ dự thầu của nhà thầu và không phải thông báo cho nhà thầu",
+      "B": "Bắt buộc hủy thầu để tổ chức lựa chọn lại nhà thầu",
+      "C": "Yêu cầu nhà thầu khôi phục hiệu lực của hồ sơ dự thầu, hồ sơ đề xuất, bảo đảm dự thầu tương ứng",
+      "D": "Yêu cầu nhà thầu khôi phục hiệu lực của hồ sơ dự thầu, hồ sơ đề xuất và nộp mới bảo đảm dự thầu với thông tin, giá trị, thời gian đã quy định trong thông báo mời thầu"
     },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ quy định về ưu đãi hàng hóa nội khối: Nhà thầu được hưởng ưu đãi khi cung cấp hàng hóa có chi phí sản xuất tại các nước thành viên chiếm tỷ lệ TỪ 50% TRỞ LÊN. Vì 45% < 50% nên nhà thầu không đáp ứng điều kiện hưởng ưu đãi.",
-    "category": "15. Đấu thầu theo quy chuẩn quốc tế & ODA"
+    "correctAnswer": "C",
+    "explanation": "Căn cứ khoản 33b Điều 140 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), khi thời gian đánh giá kéo dài làm hồ sơ dự thầu, hồ sơ đề xuất hết hiệu lực, chủ đầu tư được yêu cầu nhà thầu khôi phục hiệu lực của hồ sơ và bảo đảm dự thầu tương ứng; nhà thầu từ chối thì hồ sơ không được tiếp tục đánh giá nhưng không bị xử lý vi phạm. Vì vậy chọn C. D sai vì không phải nộp mới bảo đảm dự thầu; A, B sai vì không buộc loại hồ sơ hay hủy thầu.",
+    "category": "Câu tổng hợp, bổ sung",
+    "isNew2775": true,
+    "newExamId": 388,
+    "newExamNote": "Câu 388 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 389,
-    "question": "Gói thầu thuộc phạm vi điều chỉnh của Hiệp định CPTPP mua sắm hàng hóa thông dụng, sẵn có trên thị trường với đặc tính kỹ thuật được tiêu chuẩn hóa, tương đương nhau về chất lượng và có giá gói thầu không quá 10 tỷ đồng thì thời gian chuẩn bị hồ sơ dự thầu tối thiểu là?",
+    "question": "Gói thầu đã đăng tải thông báo mời thầu, thông báo mời quan tâm, thông báo mời sơ tuyển nhưng không có nhà thầu nộp hồ sơ dự thầu, hồ sơ quan tâm, hồ sơ dự sơ tuyển hoặc tất cả nhà thầu không đáp ứng yêu cầu thực hiện gói thầu thì chủ đầu tư có thể xử lý như thế nào?",
     "options": {
-      "A": "10 ngày",
-      "B": "15 ngày",
-      "C": "20 ngày",
-      "D": "25 ngày"
+      "A": "Chuyển sang áp dụng hình thức chỉ định thầu",
+      "B": "Thực hiện hủy thầu theo quy định",
+      "C": "Chuyển sang áp dụng hình thức lựa chọn nhà thầu trong trường hợp đặc biệt",
+      "D": "Phương án A và B đều đúng"
     },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ khoản 4 Điều 13 Nghị định 95/2020/NĐ-CP: Quy định rút ngắn thời gian chuẩn bị HSDT xuống TỐI THIỂU LÀ 10 NGÀY đối với trường hợp mua sắm hàng hóa thông dụng, sẵn có, đặc tính tiêu chuẩn hóa và giá gói thầu không quá 10 tỷ đồng.",
-    "category": "15. Đấu thầu theo quy chuẩn quốc tế & ODA"
+    "correctAnswer": "D",
+    "explanation": "Căn cứ điểm e1 khoản 2 Điều 78 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), gói thầu đã mời thầu mà không có nhà thầu nộp hồ sơ hoặc tất cả nhà thầu không đáp ứng thì được chỉ định thầu; điểm a khoản 1 Điều 17 Luật Đấu thầu số 22/2023/QH15 quy định hủy thầu khi tất cả hồ sơ không đáp ứng. Vì vậy A và B đều hợp lệ, chọn D; C sai vì không thuộc trường hợp đặc biệt.",
+    "category": "Câu tổng hợp, bổ sung",
+    "isNew2775": true,
+    "newExamId": 389,
+    "newExamNote": "Câu 389 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 390,
-    "question": "Đối với gói thầu thuộc phạm vi điều chỉnh của Hiệp định EVFTA tổ chức đấu thầu quốc tế, có áp dụng ưu đãi đối với hàng hóa, nhà thầu nội khối, một trong các nguyên tắc ưu đãi là?",
+    "question": "Gói thầu mua sắm từ các hoạt động thanh lý, giải thể, phá sản được áp dụng hình thức lựa chọn nhà thầu nào?",
     "options": {
-      "A": "Sau khi tính ưu đãi, nếu các hồ sơ dự thầu xếp hạng ngang nhau thì ưu tiên cho nhà thầu sử dụng nhiều lao động nội khối hơn (tính trên giá trị tiền lương, tiền công chi trả)",
-      "B": "Sau khi tính ưu đãi, nếu các hồ sơ dự thầu xếp hạng ngang nhau thì ưu tiên cho nhà thầu có đề xuất chi phí nội khối thấp hơn.",
-      "C": "Nhà thầu được hưởng tất cả các ưu đãi thuộc đối tượng áp dụng",
-      "D": "Sau khi tính ưu đãi, nếu các hồ sơ dự thầu xếp hạng ngang nhau thì ưu tiên cho nhà thầu có đề xuất chi phí nội khối ít chênh lệch nhất so với yêu cầu của hồ sơ mời thầu"
+      "A": "Đấu thầu rộng rãi, tự thực hiện",
+      "B": "Chào hàng cạnh tranh, lựa chọn nhà thầu trong trường hợp đặc biệt",
+      "C": "Đấu thầu rộng rãi, chỉ định thầu",
+      "D": "Đấu thầu hạn chế, mua sắm trực tiếp"
     },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ điểm c khoản 3 Điều 17 Nghị định 95/2020/NĐ-CP (quy chiếu cho EVFTA): 'Trường hợp sau khi tính ưu đãi, nếu các hồ sơ dự thầu xếp hạng ngang nhau thì ưu tiên cho nhà thầu có đề xuất chi phí nội khối cao hơn HOẶC SỬ DỤNG NHIỀU LAO ĐỘNG NỘI KHỐI HƠN (tính trên tiền lương)'.",
-    "category": "15. Đấu thầu theo quy chuẩn quốc tế & ODA"
+    "correctAnswer": "C",
+    "explanation": "Căn cứ điểm i khoản 5 Điều 78 Nghị định số 214/2025/NĐ-CP, gói thầu mua sắm từ các hoạt động thanh lý, giải thể, phá sản thuộc trường hợp được chỉ định thầu (áp dụng quy trình rút gọn theo khoản 2 Điều 80); đấu thầu rộng rãi là hình thức chung luôn được áp dụng. Vì vậy chọn C. Các phương án A, B, D sai vì tự thực hiện, chào hàng cạnh tranh, lựa chọn nhà thầu trong trường hợp đặc biệt, đấu thầu hạn chế, mua sắm trực tiếp không phải hình thức quy định cho trường hợp này.",
+    "category": "Câu tổng hợp, bổ sung",
+    "isNew2775": true,
+    "newExamId": 390,
+    "newExamNote": "Câu 390 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   }
 ];

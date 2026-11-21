@@ -3,45 +3,6 @@ import { Question } from "../../types";
 export const set9: Question[] = [
   {
     "id": 81,
-    "question": "Trong quá trình đánh giá hồ sơ dự thầu gói thầu áp dụng đấu thầu rộng rãi, chủ đầu tư phát hiện người đại diện theo pháp luật của 02 nhà thầu tham dự thầu là anh em ruột thì xem xét, đánh giá như thế nào?",
-    "options": {
-      "A": "Thuộc hành vi bị cấm trong đấu thầu",
-      "B": "Không đáp ứng yêu cầu về bảo đảm cạnh tranh trong đấu thầu",
-      "C": "Hồ sơ dự thầu của một trong hai nhà thầu không được xem xét",
-      "D": "Không thuộc hành vi bị cấm, không vi phạm quy định về bảo đảm cạnh tranh trong đấu thầu"
-    },
-    "correctAnswer": "D",
-    "explanation": "Trong đấu thầu rộng rãi, pháp luật không cấm người thân (anh em ruột) đại diện cho các nhà thầu khác nhau cùng tham dự. Luật chỉ cấm trong trường hợp \"Đấu thầu hạn chế\" (yêu cầu các nhà thầu tham dự phải độc lập với nhau về vốn). Do đó, trường hợp này không thuộc hành vi bị cấm và không vi phạm. Căn cứ: Khoản 4 Điều 6 Luật Đấu thầu.",
-    "category": "Quy định chung"
-  },
-  {
-    "id": 82,
-    "question": "Việc đánh giá nhà thầu đang trong thời gian bị cấm tham dự thầu thuộc nội dung đánh giá về?",
-    "options": {
-      "A": "Kỹ thuật",
-      "B": "Tài chính",
-      "C": "Tư cách hợp lệ",
-      "D": "Năng lực, kinh nghiệm"
-    },
-    "correctAnswer": "C",
-    "explanation": "Việc nhà thầu không đang trong thời gian bị cấm tham dự thầu là một trong các điều kiện tiên quyết để xác định tư cách hợp lệ của nhà thầu. Căn cứ: Khoản 1 Điều 5 Luật Đấu thầu.",
-    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
-  },
-  {
-    "id": 83,
-    "question": "Khi đánh giá về năng lực kinh nghiệm đối với gói thầu mua sắm hàng hóa áp dụng đấu thầu rộng rãi, nhà thầu được đánh giá là đạt khi nào?",
-    "options": {
-      "A": "Nhà thầu được đánh giá đạt tất cả tiêu chuẩn đánh giá về năng lực và kinh nghiệm trong hồ sơ mời thầu",
-      "B": "Nhà thầu đáp ứng một trong các tiêu chuẩn đánh giá về năng lực và kinh nghiệm trong hồ sơ mời thầu",
-      "C": "Nhà thầu đáp ứng hai phần ba các tiêu chuẩn đánh giá về năng lực và kinh nghiệm trong hồ sơ mời thầu",
-      "D": "Nhà thầu đáp ứng các tiêu chuẩn đánh giá về năng lực và kinh nghiệm quan trọng trong hồ sơ mời thầu"
-    },
-    "correctAnswer": "A",
-    "explanation": "Nhà thầu phải được đánh giá đạt tất cả nội dung yêu cầu về năng lực và kinh nghiệm (tài chính, kinh nghiệm, sản xuất...) thì mới được coi là ĐẠT ở bước này. Căn cứ: Điểm a Khoản 4 Điều 26 Nghị định 214/2025/NĐ-CP.",
-    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
-  },
-  {
-    "id": 84,
     "question": "Việc đánh giá về nhân sự chủ chốt và thiết bị chủ yếu đối với gói thầu xây lắp tổ chức đấu thầu rộng rãi được thực hiện như thế nào?",
     "options": {
       "A": "Đánh giá đối với tất cả các nhà thầu tham dự thầu",
@@ -54,7 +15,7 @@ export const set9: Question[] = [
     "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   },
   {
-    "id": 85,
+    "id": 82,
     "question": "Đối với gói thầu mua sắm hàng hóa áp dụng hình thức chào hàng cạnh tranh, trường hợp hồ sơ mời thầu không yêu cầu về năng lực, kinh nghiệm thì việc đánh giá được thực hiện như thế nào?",
     "options": {
       "A": "Không phải đánh giá về năng lực, kinh nghiệm nhưng nhà thầu phải cam kết đáp ứng năng lực, kinh nghiệm trong đơn dự thầu",
@@ -67,7 +28,7 @@ export const set9: Question[] = [
     "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   },
   {
-    "id": 86,
+    "id": 83,
     "question": "Đối với gói thầu xây lắp tổ chức đấu thầu rộng rãi, có bắt buộc quy định việc đánh giá đối với yêu cầu về nguồn lực tài chính trong hồ sơ mời thầu phải bằng cam kết tín dụng không?",
     "options": {
       "A": "Bắt buộc quy định trong hồ sơ mời thầu do đây là tiêu chí chứng minh nguồn lực tài chính",
@@ -80,7 +41,7 @@ export const set9: Question[] = [
     "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   },
   {
-    "id": 87,
+    "id": 84,
     "question": "Đối với gói thầu chia thành 2 phần (phần 1: mua sắm máy tính; phần 2: mua sắm bàn ghế cho cán bộ công chức), áp dụng phương pháp giá thấp nhất (máy tính và bàn ghế là hàng hóa thuộc danh mục do Chính phủ, Thủ tướng Chính phủ quy định tiêu chuẩn, định mức), việc xét duyệt trúng thầu trong trường hợp này được thực hiện như thế nào?",
     "options": {
       "A": "Giá đề nghị trúng thầu của từng hàng hóa đảm bảo không vượt mức giá của từng hàng hóa đó theo tiêu chuẩn, định mức do cấp có thẩm quyền ban hành và tổng giá đề nghị trúng thầu của gói thầu là thấp nhất, không vượt giá gói thầu được duyệt",
@@ -93,7 +54,7 @@ export const set9: Question[] = [
     "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   },
   {
-    "id": 88,
+    "id": 85,
     "question": "Đối với gói thầu xây lắp áp dụng đấu thầu rộng rãi qua mạng, trường hợp E-HSMT quy định nhà thầu phải cung cấp đầy đủ các tài liệu: giấy đăng ký thiết bị, hợp đồng, hóa đơn mua hàng, giấy đăng kiểm, kiểm định theo quy định của pháp luật để chứng minh khả năng huy động thiết bị thi công chủ yếu thì nhà thầu phải cung cấp những tài liệu nào?",
     "options": {
       "A": "Phải cung cấp đầy đủ theo yêu cầu của E-HSMT gồm: giấy đăng ký thiết bị, hợp đồng, hóa đơn mua hàng, giấy đăng kiểm, kiểm định theo quy định của pháp luật",
@@ -106,7 +67,7 @@ export const set9: Question[] = [
     "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   },
   {
-    "id": 89,
+    "id": 86,
     "question": "Danh sách xếp hạng nhà thầu có phải thẩm định trước khi phê duyệt hay không?",
     "options": {
       "A": "Phải thẩm định trong trường hợp có hơn 01 nhà thầu trong danh sách xếp hạng",
@@ -119,7 +80,7 @@ export const set9: Question[] = [
     "category": "Kế hoạch và Quy trình LCNT"
   },
   {
-    "id": 90,
+    "id": 87,
     "question": "Đối với gói thầu xây lắp áp dụng hình thức đấu thầu rộng rãi trong nước (không áp dụng sơ tuyển), trường hợp tại thời điểm đóng thầu chỉ có 01 nhà thầu nộp hồ sơ dự thầu thì xử lý như thế nào?",
     "options": {
       "A": "Mở thầu ngay để tiến hành đánh giá",
@@ -130,5 +91,45 @@ export const set9: Question[] = [
     "correctAnswer": "D",
     "explanation": "Khi chỉ có 1 nhà thầu nộp hồ sơ, chủ đầu tư có 2 lựa chọn: (1) Xử lý tình huống bằng cách gia hạn thời điểm đóng thầu; hoặc (2) Mở thầu ngay để tiến hành đánh giá. Phương án A là một trong các cách xử lý đúng quy định và thường được áp dụng để đảm bảo tiến độ. Cả hai cách đều đúng quy định xử lý tình huống. Căn cứ: Khoản 5 Điều 140 Nghị định 214/2025/NĐ-CP.",
     "category": "Kế hoạch và Quy trình LCNT"
+  },
+  {
+    "id": 88,
+    "question": "Đối với gói thầu xây lắp, trường hợp công ty mẹ tham dự thầu và huy động công ty con tham gia thực hiện gói thầu thì việc đánh giá kinh nghiệm thực hiện hợp đồng tương tự được thực hiện như thế nào?",
+    "options": {
+      "A": "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự của công ty mẹ, không đánh giá kinh nghiệm của công ty con",
+      "B": "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự căn cứ vào giá trị, khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu",
+      "C": "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự của công ty con, không đánh giá kinh nghiệm của công ty mẹ, không phân biệt khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu",
+      "D": "Đánh giá theo tổng kinh nghiệm thực hiện hợp đồng tương tự của công ty mẹ và công ty con, không phân biệt khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu"
+    },
+    "correctAnswer": "B",
+    "explanation": "Khi công ty mẹ dự thầu và huy động công ty con (với tư cách nhà thầu phụ hoặc đơn vị thành viên), năng lực kinh nghiệm được đánh giá căn cứ vào giá trị, khối lượng công việc do công ty mẹ và công ty con đảm nhận. Công ty con làm phần nào thì được tính năng lực tương ứng phần đó. Căn cứ: Điều 10 Nghị định 214/2025/NĐ-CP (quy định về ưu đãi) và hướng dẫn trong Mẫu E-HSMT.",
+    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
+  },
+  {
+    "id": 89,
+    "question": "Kinh nghiệm thực hiện hợp đồng xây lắp tương tự gói thầu chỉ bao gồm 01 công trình độc lập được xét trên cơ sở nào sau đây?",
+    "options": {
+      "A": "Xét theo công trình nhà thầu đã hoàn thành toàn bộ hoặc hoàn thành phần lớn có cùng loại kết cấu, cấp công trình và đáp ứng quy mô theo yêu cầu của hồ sơ mời thầu",
+      "B": "Chỉ xét theo công trình nhà thầu đã hoàn thành toàn bộ, đã được nghiệm thu, cùng loại công trình và đáp ứng quy mô theo yêu cầu của hồ sơ mời thầu",
+      "C": "Xét theo các hạng mục công việc có tính chất tương tự nhà thầu đã hoàn thành phần lớn và đáp ứng quy mô theo yêu cầu của hồ sơ mời thầu",
+      "D": "Tất cả phương án trên đều đúng"
+    },
+    "correctAnswer": "A",
+    "explanation": "Đối với xây lắp, hợp đồng tương tự là công trình mà nhà thầu đã hoàn thành toàn bộ hoặc hoàn thành phần lớn (thường là >=80% giá trị), có cùng loại kết cấu và cấp công trình đáp ứng yêu cầu của hồ sơ mời thầu. Căn cứ: Mẫu số 3A Thông tư 79/2025/TT-BTC.",
+    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
+  },
+  {
+    "id": 90,
+    "question": "Đối với gói thầu mua sắm hàng hóa tổ chức đấu thầu rộng rãi qua mạng, kinh nghiệm thực hiện hợp đồng cung cấp hàng hóa tương tự được xét trên cơ sở nào sau đây?",
+    "options": {
+      "A": "Hàng hóa phải cùng chủng loại với gói thầu đang xét",
+      "B": "Hàng hóa thuộc cùng lĩnh vực tổng quát với hàng hóa của gói thầu",
+      "C": "Hàng hóa có 4 số đầu tiên mã HS cùng với mã HS của hàng hóa thuộc gói thầu",
+      "D": "Cả 2 phương án B và C đều đúng"
+    },
+    "correctAnswer": "D",
+    "explanation": "Hàng hóa tương tự có thể được hiểu theo 2 cách linh hoạt: (1) Có cùng lĩnh vực tổng quát (ví dụ cùng là thiết bị điện tử); hoặc (2) Có cùng mã Chương, mã Nhóm (4 số đầu mã HS). Nhà thầu đáp ứng một trong hai tiêu chí này đều được chấp nhận. Căn cứ: Mẫu số 4A Thông tư 79/2025/TT-BTC.",
+    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   }
 ];
+

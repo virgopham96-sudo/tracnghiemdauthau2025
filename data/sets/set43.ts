@@ -42,8 +42,8 @@ export const set43: Question[] = [
       "C": "Dự án khu đô thị, khu dân cư nông thôn",
       "D": "Dự án do người có thẩm quyền quyết định căn cứ điều kiện cụ thể từng dự án"
     },
-    "correctAnswer": "D",
-    "explanation": "Căn cứ khoản 4 Điều 39 Nghị định số 274/2026/NĐ-CP, tiêu chuẩn đánh giá sơ bộ về năng lực trong hồ sơ mời quan tâm gồm yêu cầu vốn chủ sở hữu của nhà đầu tư theo điểm a khoản 1 Điều 50 (dự án cải tạo, xây dựng lại nhà chung cư bổ sung yêu cầu về sơ bộ phương án bồi thường, tái định cư). Hồ sơ mời quan tâm không bao gồm tiêu chuẩn về khả năng huy động vốn vay và kinh nghiệm thực hiện dự án tương tự. Vì vậy B và C đều đúng, chọn D.",
+    "correctAnswer": "A",
+    "explanation": "Theo quy định hướng dẫn thi hành Luật Đấu thầu về lựa chọn nhà đầu tư (Nghị định 274/2026/NĐ-CP), quy trình mời quan tâm áp dụng cho dự án đầu tư có sử dụng đất và dự án đầu tư không sử dụng đất thuộc trường hợp phải tổ chức đấu thầu lựa chọn nhà đầu tư khi có từ 02 nhà đầu tư trở lên quan tâm cùng đăng ký thực hiện (ví dụ các dự án thuộc lĩnh vực giáo dục, y tế, văn hóa, thể thao, môi trường theo quy định về khuyến khích xã hội hóa)",
     "category": "Lựa chọn nhà đầu tư",
     "isNew2775": true,
     "newExamId": 423,

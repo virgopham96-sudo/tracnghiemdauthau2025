@@ -3,45 +3,6 @@ import { Question } from "../../types";
 export const set12: Question[] = [
   {
     "id": 111,
-    "question": "Gói thầu xây lắp tổ chức đấu thầu qua mạng có thời điểm đóng thầu là ngày 20/3/2025, năm tài chính của nhà thầu là 01/01-31/12, nhà thầu là công ty cổ phần được thành lập vào năm 2018 và E-HSMT yêu cầu nhà thầu nộp báo cáo tài chính của 03 năm gần nhất thì nhà thầu phải nộp báo cáo tài chính của các năm nào sau đây?",
-    "options": {
-      "A": "2020, 2021, 2022",
-      "B": "2021, 2022, 2023",
-      "C": "2021, 2022, 2024",
-      "D": "2019, 2020, 2021"
-    },
-    "correctAnswer": "B",
-    "explanation": "Đóng thầu ngày 20/3/2025. Hạn nộp quyết toán thuế năm 2024 thường là 31/3/2025. Do đó tại thời điểm đóng thầu, báo cáo tài chính năm 2024 chưa bắt buộc phải hoàn thành. Vì vậy, 3 năm tài chính gần nhất có báo cáo đầy đủ thường là 2023, 2022, và 2021.",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 112,
-    "question": "Đối với công trình đang xét là công trình xây dựng có loại kết cấu dạng nhà cấp II với giá trị công trình là 60 tỷ đồng, E-HSMT có yêu cầu về kinh nghiệm thực hiện hợp đồng xây lắp tương tự, trường hợp nào sau đây được đánh giá là một công trình xây lắp tương tự?",
-    "options": {
-      "A": "Nhà thầu có 2 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ lần lượt là 30 tỷ đồng, 50 tỷ đồng",
-      "B": "Nhà thầu có 2 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ lần lượt là 30 tỷ đồng, 20 tỷ đồng",
-      "C": "Nhà thầu có 3 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ lần lượt là 30 tỷ đồng, 20 tỷ đồng, 10 tỷ đồng",
-      "D": "Nhà thầu có 1 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ là 60 tỷ đồng"
-    },
-    "correctAnswer": "A",
-    "explanation": "Theo hướng dẫn mới tại Thông tư 79, nhà thầu có thể sử dụng 02 công trình có cấp thấp hơn liền kề với cấp của công trình đang xét (cấp III so với cấp II), với điều kiện giá trị mỗi công trình cấp thấp hơn này phải bằng hoặc lớn hơn 50% giá trị công trình đang xét (>= 30 tỷ đồng). Trong trường hợp A, nhà thầu có 2 công trình cấp III giá trị 30 tỷ và 50 tỷ, cả hai đều >= 30 tỷ, nên được đánh giá là tương tự 01 công trình cấp II giá trị 30 tỷ. Căn cứ: Mẫu số 3A Thông tư 79/2025/TT-BTC.",
-    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
-  },
-  {
-    "id": 113,
-    "question": "Gói thầu cung cấp dịch vụ vệ sinh tòa nhà do Sở Tài chính tỉnh X làm chủ đầu tư có giá gói thầu 01 tỷ đồng, thời gian thực hiện là 12 tháng, hợp đồng tương tự yêu cầu 30% giá gói thầu. Trường hợp nào sau đây nhà thầu được coi là đáp ứng về giá trị của hợp đồng tương tự?",
-    "options": {
-      "A": "Nhà thầu cung cấp hợp đồng A (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (đã được nghiệm thu) là 100 triệu đồng; hợp đồng B (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (đã được nghiệm thu) là 250 triệu đồng",
-      "B": "Nhà thầu cung cấp hợp đồng A (đã nghiệm thu, đã được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà là 300 triệu đồng",
-      "C": "Nhà thầu cung cấp hợp đồng A (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (chưa được nghiệm thu) là 100 triệu đồng; hợp đồng B (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (đã được nghiệm thu) là 400 triệu đồng",
-      "D": "Tất cả đáp án trên đều đúng"
-    },
-    "correctAnswer": "D",
-    "explanation": "Giá trị hợp đồng tương tự được tính bằng tổng giá trị các phần công việc đã thực hiện và được nghiệm thu của các hợp đồng (kể cả hợp đồng đang thực hiện chưa kết thúc). Yêu cầu là 30% x 1 tỷ = 300 triệu.\n- A: Tổng nghiệm thu = 100 + 250 = 350 > 300 (Đạt).\n- B: 300 (Đạt).\n- C: 400 (phần nghiệm thu) > 300 (Đạt). Căn cứ: Mẫu số 5A Thông tư 79/2025/TT-BTC.",
-    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
-  },
-  {
-    "id": 114,
     "question": "Gói thầu mua sắm trang thiết bị do Sở Tư pháp tỉnh X làm chủ đầu tư có giá gói thầu 03 tỷ đồng, thời gian thực hiện là 12 tháng, trong đó có 02 hạng mục: máy điều hòa (mã HS 8415) giá dự toán 01 tỷ đồng, máy tính xách tay (mã HS 8507) giá dự toán 02 tỷ đồng, hợp đồng tương tự yêu cầu 50% giá gói thầu. Trường hợp nào sau đây nhà thầu được coi là không đáp ứng về giá trị của hợp đồng tương tự?",
     "options": {
       "A": "Nhà thầu cung cấp 02 hợp đồng, trong đó: 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8415 với giá trị 400 triệu đồng, 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8415 với giá trị 100 triệu đồng và mã hàng hóa 8507 với giá trị 01 tỷ đồng",
@@ -54,7 +15,7 @@ export const set12: Question[] = [
     "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   },
   {
-    "id": 115,
+    "id": 112,
     "question": "Gói thầu cung cấp dịch vụ giặt là thực hiện đấu thầu qua mạng, E-HSMT có quy định cho phép sử dụng nhà thầu phụ tối đa 20% trên giá dự thầu của nhà thầu. Nhà thầu liên danh A-B, trong đó nhà thầu Công ty A đảm nhận 30% giá trị công việc, Công ty B đảm nhận 70% giá trị công việc. Việc sử dụng nhà thầu phụ đối với từng thành viên liên danh được thực hiện như thế nào?",
     "options": {
       "A": "Công ty A được sử dụng nhà thầu phụ tối đa 20% trên 30% giá trị công việc mà công ty A đảm nhận, Công ty B được sử dụng nhà thầu phụ tối đa 20% trên 70% giá trị công việc mà công ty B đảm nhận",
@@ -67,7 +28,7 @@ export const set12: Question[] = [
     "category": "Quy định chung"
   },
   {
-    "id": 116,
+    "id": 113,
     "question": "Nhà thầu liên danh A-B tham dự thầu và nộp bảo đảm dự thầu riêng rẽ, trong quá trình đánh giá hồ sơ dự thầu tổ chuyên gia có bằng chứng cho thấy nhà thầu A có hành vi gian lận, thuộc hành vi bị cấm trong đấu thầu, trong trường hợp này bảo đảm dự thầu của nhà thầu liên danh xử lý như thế nào?",
     "options": {
       "A": "Không hoàn trả bảo đảm dự thầu của cả nhà thầu liên danh A-B",
@@ -80,7 +41,7 @@ export const set12: Question[] = [
     "category": "Trách nhiệm và Xử lý vi phạm"
   },
   {
-    "id": 117,
+    "id": 114,
     "question": "Gói thầu đang xét là gói thầu giặt cho bệnh viện công lập (có tính chất công việc lặp lại theo chu kỳ qua các năm), có thời gian thực hiện gói thầu trong 3 năm với giá gói thầu là 12 tỷ đồng. Nhà thầu nào được xác định đáp ứng yêu cầu về giá trị hợp đồng tương tự khi tham dự gói thầu này?",
     "options": {
       "A": "Nhà thầu A có 01 hợp đồng giặt là X cho bệnh viện công lập có thời gian thực hiện gói thầu là 48 tháng (đang trong quá trình thực hiện, chưa hoàn thành, chưa được thanh lý), nhưng tính đến thời điểm tham dự thầu, nhà thầu A đã thực hiện được 24 tháng, trong đó giá trị công việc đã được nghiệm thu 12 tháng đầu là 1,2 tỷ đồng;",
@@ -93,7 +54,7 @@ export const set12: Question[] = [
     "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   },
   {
-    "id": 118,
+    "id": 115,
     "question": "Trường hợp E-HSMT gói thầu xây lắp yêu cầu về cam kết cung cấp tín dụng, nhà thầu được chứng minh bằng cách nào?",
     "options": {
       "A": "Bằng số dư tài khoản hoặc tiền gửi tiết kiệm từ ngân hàng",
@@ -106,7 +67,7 @@ export const set12: Question[] = [
     "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   },
   {
-    "id": 119,
+    "id": 116,
     "question": "Hợp đồng theo tỷ lệ phần trăm có thể được áp dụng đối với gói thầu nào sau đây?",
     "options": {
       "A": "Mua sắm thiết bị y tế",
@@ -119,7 +80,7 @@ export const set12: Question[] = [
     "category": "Hợp đồng"
   },
   {
-    "id": 120,
+    "id": 117,
     "question": "Cơ sở để thanh toán hợp đồng cho nhà thầu là gì?",
     "options": {
       "A": "Giá hợp đồng và các điều khoản cụ thể về thanh toán được ghi trong hợp đồng",
@@ -129,6 +90,45 @@ export const set12: Question[] = [
     },
     "correctAnswer": "A",
     "explanation": "Thanh toán dựa trên Giá hợp đồng và các điều khoản thanh toán trong hợp đồng. Không căn cứ vào dự toán hay định mức nhà nước (trừ trường hợp chỉ định thầu rút gọn hoặc quy định đặc thù). Căn cứ: Khoản 1 Điều 119 Nghị định 214/2025/NĐ-CP.",
+    "category": "Hợp đồng"
+  },
+  {
+    "id": 118,
+    "question": "Nhà thầu không được hoàn trả bảo đảm thực hiện hợp đồng trong trường hợp nào?",
+    "options": {
+      "A": "Từ chối thực hiện hợp đồng khi hợp đồng đã có hiệu lực",
+      "B": "Thực hiện hợp đồng chậm tiến độ nhưng vẫn hoàn thành hợp đồng",
+      "C": "Nhà thầu đề nghị điều chỉnh tiến độ do bất khả kháng",
+      "D": "Nhà thầu đề xuất thay đổi nhà thầu phụ"
+    },
+    "correctAnswer": "A",
+    "explanation": "Nhà thầu từ chối thực hiện hợp đồng khi hợp đồng đã có hiệu lực là vi phạm cơ bản, dẫn đến tịch thu bảo đảm thực hiện hợp đồng. Căn cứ: Điểm a Khoản 6 Điều 68 Luật Đấu thầu.",
+    "category": "Hợp đồng"
+  },
+  {
+    "id": 119,
+    "question": "Trường hợp nào sau đây phải áp dụng bảo đảm thực hiện hợp đồng?",
+    "options": {
+      "A": "Nhà thầu cung dịch vụ phi tư vấn",
+      "B": "Nhà thầu thực hiện gói thầu có giá gói thầu thuộc hạn mức chỉ định thầu",
+      "C": "Nhà thầu cung cấp dịch vụ tư vấn",
+      "D": "Nhà thầu được lựa chọn theo hình thức tự thực hiện"
+    },
+    "correctAnswer": "A",
+    "explanation": "Căn cứ pháp lý: Khoản 2 Điều 68 Luật Đấu thầu. Nhà thầu tư vấn, tự thực hiện, chỉ định thầu quy trình rút gọn là các trường hợp không bắt buộc phải thực hiện biện pháp bảo đảm thực hiện hợp đồng. Nhà thầu cung cấp dịch vụ phi tư vấn bắt buộc phải thực hiện.",
+    "category": "Hợp đồng"
+  },
+  {
+    "id": 120,
+    "question": "Hồ sơ hợp đồng bao gồm các tài liệu nào sau đây?",
+    "options": {
+      "A": "Văn bản hợp đồng",
+      "B": "Phụ lục hợp đồng gồm danh mục chi tiết về phạm vi công việc, biểu giá, tiến độ thực hiện (nếu có)",
+      "C": "Quyết định phê duyệt kết quả lựa chọn nhà thầu",
+      "D": "Tất cả các phương án trên."
+    },
+    "correctAnswer": "D",
+    "explanation": "Hồ sơ hợp đồng là một bộ tài liệu pháp lý ràng buộc các bên, bao gồm: Văn bản hợp đồng, các Phụ lục chi tiết, Quyết định phê duyệt kết quả lựa chọn nhà thầu, Biên bản thương thảo, Hồ sơ dự thầu... Căn cứ: Điều 65 Luật Đấu thầu.",
     "category": "Hợp đồng"
   }
 ];

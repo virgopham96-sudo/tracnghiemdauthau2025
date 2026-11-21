@@ -3,71 +3,6 @@ import { Question } from "../../types";
 export const set18: Question[] = [
   {
     "id": 171,
-    "question": "Trong gói thầu dịch vụ tư vấn, thông tin về uy tín của nhà thầu được sử dụng để?",
-    "options": {
-      "A": "Đánh giá về năng lực, kinh nghiệm",
-      "B": "Đánh giá tư cách hợp lệ của nhà thầu",
-      "C": "Đánh giá về kỹ thuật",
-      "D": "Loại nhà thầu đã bị đánh giá về uy tín"
-    },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ pháp lý: Khoản 2 Điều 20 Nghị định số 214/2025/NĐ-CP. Quy định nêu rõ: 'Đối với gói thầu dịch vụ tư vấn, thông tin về uy tín trong việc tham dự thầu được sử dụng để đánh giá về kỹ thuật (nếu có)'.",
-    "category": "Trách nhiệm và Xử lý vi phạm"
-  },
-  {
-    "id": 172,
-    "question": "Đối với việc giải quyết kiến nghị về các vấn đề trước khi có thông báo kết quả lựa chọn nhà thầu, cá nhân, đơn vị nào sau đây có trách nhiệm giải quyết kiến nghị?",
-    "options": {
-      "A": "Chủ đầu tư, người có thẩm quyền",
-      "B": "Chủ đầu tư, Hội đồng giải quyết kiến nghị",
-      "C": "Người có thẩm quyền, Hội đồng giải quyết kiến nghị",
-      "D": "Chủ đầu tư, tổ chuyên gia"
-    },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ pháp lý: Khoản 1 Điều 138 Nghị định số 214/2025/NĐ-CP. Đối với kiến nghị về các vấn đề trước khi có thông báo kết quả, quy trình giải quyết gồm 2 cấp: Đầu tiên gửi đến Chủ đầu tư. Nếu không đồng ý hoặc quá hạn, gửi đến Người có thẩm quyền. Do đó, cả hai chủ thể này đều có trách nhiệm giải quyết (tùy giai đoạn).",
-    "category": "Trách nhiệm và Xử lý vi phạm"
-  },
-  {
-    "id": 173,
-    "question": "Đối với việc giải quyết kiến nghị về kết quả lựa chọn nhà thầu, cá nhân, đơn vị nào sau đây có trách nhiệm giải quyết kiến nghị?",
-    "options": {
-      "A": "Chủ đầu tư, người có thẩm quyền",
-      "B": "Chủ đầu tư, Hội đồng giải quyết kiến nghị",
-      "C": "Người có thẩm quyền, Hội đồng giải quyết kiến nghị",
-      "D": "Chủ đầu tư, Hội đồng tư vấn giải quyết kiến nghị"
-    },
-    "correctAnswer": "B",
-    "explanation": "",
-    "category": "Trách nhiệm và Xử lý vi phạm"
-  },
-  {
-    "id": 174,
-    "question": "Trường hợp đang trong quá trình giải quyết kiến nghị mà nhà thầu gửi đơn khiếu nại thì việc giải quyết kiến nghị được xử lý thế nào?",
-    "options": {
-      "A": "Tiếp tục giải quyết kiến nghị",
-      "B": "Chấm dứt ngay việc giải quyết kiến nghị",
-      "C": "Tạm dừng việc giải quyết kiến nghị đến khi có kết quả giải quyết khiếu nại",
-      "D": "Tất cả phương án trên đều sai"
-    },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ pháp lý: Khoản 2 Điều 89 Luật Đấu thầu. Luật quy định trường hợp đang trong quá trình giải quyết kiến nghị mà nhà thầu khởi kiện, khiếu nại, tố cáo thì việc giải quyết kiến nghị được chấm dứt ngay.",
-    "category": "Trách nhiệm và Xử lý vi phạm"
-  },
-  {
-    "id": 175,
-    "question": "Chi phí giải quyết kiến nghị được nhà thầu nộp cho chủ thể nào sau đây?",
-    "options": {
-      "A": "Chủ tịch Hội đồng tư vấn giải quyết kiến nghị",
-      "B": "Bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị",
-      "C": "Chủ đầu tư",
-      "D": "Người có thẩm quyền"
-    },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ pháp lý: Điểm đ Khoản 2 Điều 137 Nghị định số 214/2025/NĐ-CP. Chi phí giải quyết kiến nghị (đối với kiến nghị về kết quả lựa chọn nhà thầu gửi đến Hội đồng) được nộp cho bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị.",
-    "category": "Trách nhiệm và Xử lý vi phạm"
-  },
-  {
-    "id": 176,
     "question": "Trường hợp nào sau đây nhà thầu không được hoàn trả chi phí giải quyết kiến nghị?",
     "options": {
       "A": "Kiến nghị của nhà thầu được kết luận là đúng",
@@ -80,23 +15,7 @@ export const set18: Question[] = [
     "category": "Trách nhiệm và Xử lý vi phạm"
   },
   {
-    "id": 177,
-    "question": "Đối với kiến nghị về kết quả lựa chọn nhà thầu, Hội đồng giải quyết kiến nghị phải có văn bản giải quyết kiến nghị trong thời hạn bao nhiêu ngày kể từ ngày Hội đồng được thành lập?",
-    "options": {
-      "A": "25 ngày và có thể thêm tối đa 10 ngày với nội dung phức tạp",
-      "B": "30 ngày và có thể thêm tối đa 10 ngày với nội dung phức tạp",
-      "C": "35 ngày và có thể thêm tối đa 07 ngày với nội dung phức tạp",
-      "D": "20 ngày và có thể thêm tối đa 07 ngày với nội dung phức tạp"
-    },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ khoản 2 và khoản 8 Điều 138 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), Hội đồng giải quyết kiến nghị phải có văn bản giải quyết kiến nghị về kết quả lựa chọn nhà thầu trong thời hạn 30 ngày kể từ ngày Hội đồng được thành lập; đối với kiến nghị có nhiều nội dung phức tạp, Hội đồng có thể kéo dài thời gian giải quyết tối đa 10 ngày kể từ ngày hết thời hạn nêu trên. Vì vậy chọn B.",
-    "category": "Câu hỏi cập nhật",
-    "isNew2775": true,
-    "newExamId": 406,
-    "newExamNote": "Câu 406 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
-  },
-  {
-    "id": 178,
+    "id": 172,
     "question": "Phương án nào sau đây là đúng trong việc giải quyết kiến nghị đối với gói thầu sử dụng vốn sản xuất kinh doanh của doanh nghiệp nhà nước?",
     "options": {
       "A": "Hội đồng giải quyết kiến nghị do Sở Tài chính thành lập có trách nhiệm giải quyết kiến nghị cho gói thầu",
@@ -112,7 +31,7 @@ export const set18: Question[] = [
     "newExamNote": "Câu 172 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
-    "id": 179,
+    "id": 173,
     "question": "Đối với kiến nghị về các vấn đề trước khi có thông báo kết quả lựa chọn nhà thầu, trường hợp nhà thầu gửi đơn kiến nghị đồng thời đến người có thẩm quyền và chủ đầu tư thì chủ thể nào có trách nhiệm giải quyết kiến nghị?",
     "options": {
       "A": "Người có thẩm quyền",
@@ -128,7 +47,7 @@ export const set18: Question[] = [
     "newExamNote": "Câu 173 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
-    "id": 180,
+    "id": 174,
     "question": "Đối với kiến nghị về kết quả lựa chọn nhà thầu, trường hợp nhà thầu gửi đơn kiến nghị đồng thời đến bộ phận thường trực giúp việc Hội đồng giải quyết kiến nghị và chủ đầu tư thì chủ thể nào có trách nhiệm giải quyết kiến nghị?",
     "options": {
       "A": "Người có thẩm quyền",
@@ -142,5 +61,83 @@ export const set18: Question[] = [
     "isNew2775": true,
     "newExamId": 174,
     "newExamNote": "Câu 174 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+  },
+  {
+    "id": 175,
+    "question": "Đơn vị sự nghiệp công lập (tự chủ chi thường xuyên và chi đầu tư) thuộc tỉnh B tổ chức đấu thầu cho dự án sử dụng vốn ngân sách nhà nước thì Giám đốc Sở Tài chính Tỉnh B có trách nhiệm thành lập Hội đồng giải quyết kiến nghị cho gói thầu có kiến nghị tại Dự án này hay không?",
+    "options": {
+      "A": "Có trách nhiệm thành lập",
+      "B": "Không có trách nhiệm thành lập",
+      "C": "Thành lập khi chủ tịch UBND tỉnh yêu cầu",
+      "D": "Thành lập khi Giám đốc doanh nghiệp A đề nghị"
+    },
+    "correctAnswer": "A",
+    "explanation": "Căn cứ Khoản 1, Điều 139, NĐ 214: b) Hội đồng giải quyết kiến nghị do Giám đốc Sở Tài chính thành lập có trách nhiệm giải quyết kiến nghị đối với gói thầu thuộc phạm vi điều chỉnh, đối tượng áp dụng quy định tại Điều 1 và Điều 2 của Luật Đấu thầu do Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương là chủ đầu tư hoặc tổ chức, đơn vị thuộc phạm vi quản lý của tỉnh, thành phố trực thuộc trung ương là chủ đầu tư, trừ gói thầu quy định tại điểm a khoản này.",
+    "category": "Trách nhiệm và Xử lý vi phạm"
+  },
+  {
+    "id": 176,
+    "question": "Hội đồng giải quyết kiến nghị có quyền thực hiện việc nào sau đây?",
+    "options": {
+      "A": "Hủy thầu",
+      "B": "Yêu cầu chủ đầu tư tạm dừng ký kết hợp đồng",
+      "C": "Yêu cầu nhà thầu, chủ đầu tư và các cơ quan liên quan cung cấp thông tin của gói thầu, dự án và các thông tin liên quan khác để thực hiện nhiệm vụ",
+      "D": "Không công nhận kết quả lựa chọn nhà thầu"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ pháp lý: Điểm c Khoản 3 Điều 139 Nghị định số 214/2025/NĐ-CP. Hội đồng có quyền yêu cầu các bên cung cấp thông tin, tài liệu. Hội đồng không có quyền hủy thầu (quyền của người có thẩm quyền) hay yêu cầu dừng ký hợp đồng trực tiếp (chỉ có quyền kiến nghị người có thẩm quyền xem xét tạm dừng).",
+    "category": "Trách nhiệm và Xử lý vi phạm"
+  },
+  {
+    "id": 177,
+    "question": "Đối với kiến nghị về quá trình tổ chức lựa chọn nhà thầu (không phải kiến nghị về nội dung hồ sơ mời thầu), đơn kiến nghị phải là của chủ thể nào?",
+    "options": {
+      "A": "Cá nhân quan tâm đến gói thầu",
+      "B": "Nhà thầu tham dự thầu",
+      "C": "Cơ quan, tổ chức quan tâm đến gói thầu",
+      "D": "Phương án B và C đều đúng"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ pháp lý: Điểm a Khoản 1 Điều 137 Nghị định số 214/2025/NĐ-CP. Đối với các nội dung về quá trình tổ chức lựa chọn nhà thầu (không phải nội dung hồ sơ mời thầu), đơn kiến nghị phải là của nhà thầu tham dự thầu.",
+    "category": "Trách nhiệm và Xử lý vi phạm"
+  },
+  {
+    "id": 178,
+    "question": "Các tài liệu, thông tin nào sau đây trong việc giải quyết kiến nghị được công khai trên Hệ thống mạng đấu thầu quốc gia?",
+    "options": {
+      "A": "Nội dung kiến nghị kết quả lựa chọn nhà thầu",
+      "B": "Văn bản giải quyết kiến nghị của chủ đầu tư",
+      "C": "Văn bản giải quyết kiến nghị của người có thẩm quyền",
+      "D": "Tất cả phương án trên đều đúng"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ pháp lý: Điều 138 Nghị định số 214/2025/NĐ-CP. Quy trình giải quyết kiến nghị yêu cầu công khai: Nội dung kiến nghị; Văn bản giải quyết của Chủ đầu tư; Văn bản giải quyết của Người có thẩm quyền/Hội đồng trên Hệ thống mạng đấu thầu quốc gia.",
+    "category": "Trách nhiệm và Xử lý vi phạm"
+  },
+  {
+    "id": 179,
+    "question": "Nhà thầu có trách nhiệm nộp chi phí giải quyết kiến nghị trong thời hạn bao lâu kể từ ngày nhận được thông báo của bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị?",
+    "options": {
+      "A": "03 ngày làm việc",
+      "B": "02 ngày làm việc",
+      "C": "04 ngày làm việc",
+      "D": "05 ngày làm việc"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ pháp lý: Điểm đ Khoản 2 Điều 137 Nghị định số 214/2025/NĐ-CP. Nhà thầu có trách nhiệm nộp chi phí giải quyết kiến nghị trong thời hạn 02 ngày làm việc kể từ ngày nhận được thông báo của bộ phận thường trực.",
+    "category": "Trách nhiệm và Xử lý vi phạm"
+  },
+  {
+    "id": 180,
+    "question": "Trung tâm X là đơn vị sự nghiệp công lập tự chủ chi thường xuyên thuộc tỉnh A tổ chức lựa chọn nhà thầu đối với gói thầu mua sắm hàng hóa sử dụng nguồn thu hợp pháp (không sử dụng ngân sách nhà nước), trường hợp nhà thầu có kiến nghị về hồ sơ mời thầu gửi cả người có thẩm quyền và chủ đầu tư của gói thầu thì việc giải quyết kiến nghị được thực hiện theo quy trình nào?",
+    "options": {
+      "A": "Chủ đầu tư thực hiện giải quyết kiến nghị theo quy trình giải quyết kiến nghị về các vấn đề trước khi có thông báo kết quả lựa chọn nhà thầu theo quy định của pháp luật về đấu thầu",
+      "B": "Người có thẩm quyền giải quyết kiến nghị theo quy trình giải quyết kiến nghị về các vấn đề trước khi có thông báo kết quả lựa chọn nhà thầu theo quy định của pháp luật về đấu thầu",
+      "C": "Thực hiện theo quy trình về giải quyết kiến nghị do người đứng đầu Trung tâm X ban hành trong đơn vị mình",
+      "D": "Phương án A và B đều đúng"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ pháp lý: Khoản 7 Điều 138 Nghị định số 214/2025/NĐ-CP. Trung tâm X là đơn vị sự nghiệp tự chủ chi thường xuyên, gói thầu dùng nguồn thu hợp pháp (không phải vốn ngân sách). Theo Điểm d Khoản 7 Điều 3 Luật Đấu thầu, trường hợp này được tự quyết định việc mua sắm. Do đó, quy trình giải quyết kiến nghị thực hiện theo quy định do người đứng đầu đơn vị tự ban hành.",
+    "category": "Trách nhiệm và Xử lý vi phạm"
   }
 ];

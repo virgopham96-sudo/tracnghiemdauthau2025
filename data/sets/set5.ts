@@ -3,32 +3,6 @@ import { Question } from "../../types";
 export const set5: Question[] = [
   {
     "id": 41,
-    "question": "Kế hoạch lựa chọn nhà thầu của dự án thuộc đối tượng áp dụng của Luật Đấu thầu bắt buộc phải đăng tải ở đâu?",
-    "options": {
-      "A": "Hệ thống mạng đấu thầu quốc gia",
-      "B": "Báo Tài chính-Đầu tư",
-      "C": "Cổng Thông tin điện tử của Bộ, ngành",
-      "D": "Phương án A và B đều đúng"
-    },
-    "correctAnswer": "A",
-    "explanation": "Theo Điều 7 và Điều 8 Luật Đấu thầu, thông tin về kế hoạch lựa chọn nhà thầu bắt buộc phải đăng tải trên Hệ thống mạng đấu thầu quốc gia.",
-    "category": "Kế hoạch và Quy trình LCNT"
-  },
-  {
-    "id": 42,
-    "question": "Chậm nhất là bao nhiêu ngày thì kế hoạch lựa chọn nhà thầu phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia?",
-    "options": {
-      "A": "05 ngày làm việc kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành",
-      "B": "07 ngày kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành",
-      "C": "07 ngày làm việc kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành",
-      "D": "10 ngày kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành"
-    },
-    "correctAnswer": "A",
-    "explanation": "Theo Khoản 4 Điều 8 Luật Đấu thầu, kế hoạch lựa chọn nhà thầu phải được đăng tải chậm nhất là 05 ngày làm việc kể từ ngày văn bản được ban hành.",
-    "category": "Kế hoạch và Quy trình LCNT"
-  },
-  {
-    "id": 43,
     "question": "Kế hoạch lựa chọn nhà thầu bao gồm nội dung nào sau đây?",
     "options": {
       "A": "Giá gói thầu",
@@ -41,23 +15,7 @@ export const set5: Question[] = [
     "category": "Kế hoạch và Quy trình LCNT"
   },
   {
-    "id": 44,
-    "question": "Đối với nội dung mua sắm hàng hóa có giá không quá 100 triệu đồng thì được thực hiện như thế nào?",
-    "options": {
-      "A": "Không phải lập kế hoạch lựa chọn nhà thầu nhưng phải thực hiện mua sắm trên cơ sở tiết kiệm, hiệu quả, bảo đảm đầy đủ hoá đơn, chứng từ",
-      "B": "Không phải lập kế hoạch lựa chọn nhà thầu nhưng phải thực hiện mua sắm theo giá công khai, giá niêm yết và không cần hoá đơn, chứng từ",
-      "C": "Được hình thành gói thầu để thực hiện lựa chọn nhà thầu theo một trong các hình thức lựa chọn nhà thầu (đấu thầu rộng rãi, chào hàng cạnh tranh, chỉ định thầu) nhưng phải lập kế hoạch lựa chọn nhà thầu",
-      "D": "Phương án A và C đều đúng"
-    },
-    "correctAnswer": "D",
-    "explanation": "Căn cứ khoản 4 Điều 80 Nghị định số 214/2025/NĐ-CP (sửa đổi, bổ sung bởi Nghị định số 349/2026/NĐ-CP), nội dung mua sắm không quá 100 triệu đồng được thủ trưởng đơn vị quyết định mua sắm tiết kiệm, hiệu quả, không phải đáp ứng điều kiện khoản 2 Điều 79 (có kế hoạch lựa chọn nhà thầu) nhưng phải đủ hóa đơn, chứng từ; hoặc thực hiện theo quy trình lựa chọn nhà thầu (khi đó cần kế hoạch lựa chọn nhà thầu). Vì vậy A và C đúng, chọn D; B sai. Lưu ý: văn bản chỉ nêu phương án thay thế là chỉ định thầu rút gọn.",
-    "category": "Câu hỏi cập nhật",
-    "isNew2775": true,
-    "newExamId": 403,
-    "newExamNote": "Câu 403 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
-  },
-  {
-    "id": 45,
+    "id": 42,
     "question": "Lựa chọn phương án phù hợp nhất đối với nội dung đền bù giải phóng mặt bằng khi lập kế hoạch lựa chọn nhà thầu?",
     "options": {
       "A": "Tất cả nội dung công việc có liên quan đến giải phóng mặt bằng thuộc phần công việc không áp dụng một trong các hình thức lựa chọn nhà thầu",
@@ -70,7 +28,7 @@ export const set5: Question[] = [
     "category": "Kế hoạch và Quy trình LCNT"
   },
   {
-    "id": 46,
+    "id": 43,
     "question": "Đối với các gói thầu đã thanh lý hợp đồng, khi lập tờ trình Kế hoạch lựa chọn nhà thầu, giá trị phần công việc đã thực hiện của các gói thầu này được tính như thế nào?",
     "options": {
       "A": "Giá gói thầu",
@@ -83,7 +41,7 @@ export const set5: Question[] = [
     "category": "Kế hoạch và Quy trình LCNT"
   },
   {
-    "id": 47,
+    "id": 44,
     "question": "Bảo đảm cạnh tranh trong đấu thầu thuộc nội dung đánh giá về?",
     "options": {
       "A": "Tư cách hợp lệ",
@@ -96,7 +54,7 @@ export const set5: Question[] = [
     "category": "Quy định chung"
   },
   {
-    "id": 48,
+    "id": 45,
     "question": "Nhà thầu tham gia đấu thầu gói thầu hàng hóa phải độc lập với chủ thể nào sau đây?",
     "options": {
       "A": "Phải độc lập với nhà thầu tư vấn lập hồ sơ mời thầu gói thầu hàng hóa",
@@ -109,7 +67,7 @@ export const set5: Question[] = [
     "category": "Quy định chung"
   },
   {
-    "id": 49,
+    "id": 46,
     "question": "Nhận định nào sau đây không phù hợp với quy định về bảo đảm cạnh tranh trong đấu thầu?",
     "options": {
       "A": "Nhà thầu tham dự thầu phải độc lập với chủ đầu tư, trừ trường hợp: nhà thầu là đơn vị sự nghiệp công lập thuộc cơ quan quản lý nhà nước có chức năng, nhiệm vụ được giao phù hợp với tính chất gói thầu của cơ quan quản lý nhà nước đó; đơn vị sự nghiệp công lập và doanh nghiệp có cùng một cơ quan trực tiếp quản lý, góp vốn; các đơn vị sự nghiệp công lập có cùng một cơ quan trực tiếp quản lý",
@@ -122,7 +80,7 @@ export const set5: Question[] = [
     "category": "Quy định chung"
   },
   {
-    "id": 50,
+    "id": 47,
     "question": "Nội dung nào sau đây không thuộc quy định về bảo đảm cạnh tranh trong đấu thầu khi nhà thầu tham dự thầu đấu thầu rộng rãi gói thầu EPC, EP, EC?",
     "options": {
       "A": "Nhà thầu tham dự thầu phải độc lập với nhà thầu lập, thẩm tra thiết kế FEED",
@@ -133,5 +91,44 @@ export const set5: Question[] = [
     "correctAnswer": "D",
     "explanation": "Gói thầu EPC/EP/EC thường là đấu thầu rộng rãi.\n\nA, B, C: Nhà thầu EPC phải độc lập với tư vấn thiết kế FEED/FS (vì đây là cơ sở để mời thầu EPC).\n\nD: \"Phải độc lập với nhà thầu khác cùng tham dự đấu thầu rộng rãi\" -> Sai. Trong đấu thầu rộng rãi, các nhà thầu tham dự không cần phải độc lập với nhau (ví dụ công ty mẹ - con có thể cùng dự thầu độc lập, miễn là cạnh tranh công bằng về giá và kỹ thuật, không thông thầu). Yêu cầu độc lập giữa các nhà thầu chỉ áp dụng cho đấu thầu hạn chế (Khoản 2 Điều 6 Luật Đấu thầu).",
     "category": "Quy định chung"
+  },
+  {
+    "id": 48,
+    "question": "Nội dung nào là nội dung đánh giá tính hợp lệ của hồ sơ dự thầu?",
+    "options": {
+      "A": "Nhân sự chủ chốt",
+      "B": "Hiệu lực của hồ sơ dự thầu",
+      "C": "Năng lực tài chính",
+      "D": "Việc thực hiện nghĩa vụ kê khai thuế, nộp thuế"
+    },
+    "correctAnswer": "B",
+    "explanation": "Đánh giá tính hợp lệ là bước đầu tiên trong quá trình đánh giá hồ sơ dự thầu, bao gồm các kiểm tra cơ bản như: hiệu lực của hồ sơ dự thầu, có bảo đảm dự thầu hợp lệ (nếu yêu cầu), nhà thầu có tư cách hợp lệ... Các nội dung 'Nhân sự chủ chốt' (A) và 'Năng lực tài chính' (C) thuộc về phần đánh giá chi tiết về năng lực, kinh nghiệm và kỹ thuật. 'Việc thực hiện nghĩa vụ kê khai thuế, nộp thuế' (D) là một phần của việc xác định tư cách hợp lệ của nhà thầu (Điều 5). Tuy nhiên, 'Hiệu lực của hồ sơ dự thầu' là một trong những nội dung cốt lõi và trực tiếp nhất của việc đánh giá tính hợp lệ.",
+    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
+  },
+  {
+    "id": 49,
+    "question": "Đối với đấu thầu không qua mạng, nội dung nào không phải là tiêu chuẩn đánh giá về tính hợp lệ của hồ sơ dự thầu gói thầu tư vấn?",
+    "options": {
+      "A": "Hiệu lực của hồ sơ đề xuất về kỹ thuật đáp ứng yêu cầu theo quy định trong hồ sơ mời thầu",
+      "B": "Có bản gốc hồ sơ đề xuất về kỹ thuật",
+      "C": "Bảo đảm dự thầu hợp lệ",
+      "D": "Đã thực hiện nghĩa vụ kê khai thuế và nộp thuế"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ pháp lý: Điều 14, khoản 2, điểm a của Luật Đấu thầu. Theo quy định, bảo đảm dự thầu được áp dụng đối với gói thầu cung cấp dịch vụ phi tư vấn, mua sắm hàng hóa, xây lắp và gói thầu hỗn hợp. Luật không quy định bắt buộc áp dụng bảo đảm dự thầu đối với gói thầu cung cấp dịch vụ tư vấn. Do đó, đây không phải là một tiêu chuẩn bắt buộc để đánh giá tính hợp lệ.",
+    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
+  },
+  {
+    "id": 50,
+    "question": "Đối với gói thầu mua sắm hàng hóa, xây lắp, phi tư vấn, phương pháp để đánh giá về năng lực và kinh nghiệm là?",
+    "options": {
+      "A": "Sử dụng tiêu chí đạt, không đạt",
+      "B": "Sử dụng phương pháp chấm điểm",
+      "C": "Kết hợp cả hai phương pháp: tiêu chí đạt, không đạt và phương pháp chấm điểm",
+      "D": "Phương pháp dựa trên kỹ thuật"
+    },
+    "correctAnswer": "A",
+    "explanation": "Căn cứ pháp lý: Điều 58, khoản 4 của Luật Đấu thầu. Luật quy định rõ: 'Đối với tiêu chuẩn đánh giá về năng lực, kinh nghiệm, sử dụng tiêu chí đạt, không đạt'. Phương pháp chấm điểm hoặc các phương pháp khác được sử dụng để đánh giá về kỹ thuật, không phải năng lực và kinh nghiệm.",
+    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   }
 ];

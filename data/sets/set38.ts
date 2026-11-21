@@ -3,135 +3,135 @@ import { Question } from "../../types";
 export const set38: Question[] = [
   {
     "id": 371,
-    "question": "Nhà thầu đã thực hiện công tác lập hồ sơ thiết kế kỹ thuật cho dự án đầu tư xây dựng công trình được phép thực hiện công việc nào?",
+    "question": "Giá gói thầu được cập nhật trong thời hạn bao nhiêu ngày trước ngày mở thầu nếu cần thiết?",
     "options": {
-      "A": "Lập hồ sơ mời thầu cho các gói thầu xây lắp, mua sắm hàng hóa thuộc dự án",
-      "B": "Lập kế hoạch lựa chọn nhà thầu",
-      "C": "Cung cấp dịch vụ tư vấn giám sát thi công công trình của dự án",
-      "D": "Tất cả các phương án trên đều đúng"
+      "A": "28 ngày",
+      "B": "18 ngày",
+      "C": "7 ngày",
+      "D": "7 ngày làm việc"
     },
-    "correctAnswer": "D",
-    "explanation": "Căn cứ khoản 5 Điều 4 Nghị định 214/2025/NĐ-CP: Pháp luật cho phép nhà thầu tư vấn đã lập thiết kế kỹ thuật (điểm e) được phép thực hiện: Lập HSMT (điểm g); Lập kế hoạch lựa chọn nhà thầu (điểm g); Tư vấn giám sát (điểm h). Điều này giúp tận dụng sự hiểu biết xuyên suốt của tư vấn về dự án.",
-    "category": "Bảo đảm cạnh tranh trong đấu thầu"
+    "correctAnswer": "A",
+    "explanation": "Căn cứ khoản 1 Điều 18 Nghị định 214/2025/NĐ-CP và điểm a khoản 2 Điều 39 Luật Đấu thầu: Quy định nêu rõ 'Giá gói thầu được cập nhật trong thời hạn 28 ngày trước ngày mở thầu nếu cần thiết'. Việc cập nhật này giúp đảm bảo giá gói thầu phản ánh đúng mặt bằng giá thị trường tại thời điểm gần đóng thầu.",
+    "category": "Kế hoạch lựa chọn nhà thầu (KHLCNT)"
   },
   {
     "id": 372,
-    "question": "Nội dung nào sau đây không thuộc trách nhiệm của chủ đầu tư?",
+    "question": "Hồ sơ mời sơ tuyển được phát hành như thế nào, thời gian chuẩn bị hồ sơ dự sơ tuyển tối thiểu là bao nhiêu ngày?",
     "options": {
-      "A": "Lập báo cáo đánh giá hồ sơ dự thầu",
-      "B": "Thương thảo hợp đồng",
-      "C": "Phê duyệt hồ sơ mời thầu",
-      "D": "Yêu cầu nhà thầu làm rõ hồ sơ dự thầu"
+      "A": "Phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia, thời gian chuẩn bị tối thiểu là 7 ngày làm việc",
+      "B": "Phát hành trên Hệ thống mạng đấu thầu quốc gia với giá 110.000 đồng/hồ sơ, thời gian chuẩn bị tối thiểu là 9 ngày làm việc",
+      "C": "Phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia, thời gian chuẩn bị tối thiểu là 9 ngày làm việc",
+      "D": "Phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia, thời gian chuẩn bị tối thiểu là 9 ngày"
     },
-    "correctAnswer": "A",
-    "explanation": "Lập báo cáo đánh giá hồ sơ dự thầu là trách nhiệm của Tổ chuyên gia. Chủ đầu tư có nhiệm vụ xem xét và phê duyệt báo cáo đó. Các nội dung còn lại như Phê duyệt HSMT, Yêu cầu làm rõ, Thương thảo hợp đồng đều thuộc trách nhiệm của Chủ đầu tư theo Điều 78 Luật Đấu thầu.",
-    "category": "Xử lý tình huống trong đấu thầu"
+    "correctAnswer": "D",
+    "explanation": "Căn cứ điểm d khoản 1 Điều 25 Nghị định số 214/2025/NĐ-CP, hồ sơ mời sơ tuyển được phát hành miễn phí trên Hệ thống mạng đấu thầu quốc gia; thời gian chuẩn bị hồ sơ dự sơ tuyển tối thiểu là 09 ngày đối với đấu thầu trong nước (18 ngày đối với đấu thầu quốc tế). Thời hạn tính theo ngày, không phải ngày làm việc, và không thu phí phát hành. Vì vậy chọn D.",
+    "category": "Quy trình, thủ tục lựa chọn nhà thầu",
+    "isNew2775": true,
+    "newExamId": 372,
+    "newExamNote": "Câu 372 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
   },
   {
     "id": 373,
-    "question": "Nhà thầu tư vấn lập hồ sơ mời thầu gói thầu xây lắp được phép tham dự thầu gói thầu nào?",
+    "question": "Chào giá trực tuyến theo quy trình rút gọn được áp dụng trong trường hợp nào?",
     "options": {
-      "A": "Tư vấn đánh giá hồ sơ dự thầu gói thầu xây lắp mà mình đã lập hồ sơ mời thầu",
-      "B": "Tư vấn thẩm định kết quả lựa chọn nhà thầu gói thầu xây lắp mà mình đã lập hồ sơ mời thầu",
-      "C": "Tư vấn giám sát thi công gói thầu xây lắp mà mình đã lập hồ sơ mời thầu",
+      "A": "Gói thầu mua sắm hàng hóa phải mua của hãng sản xuất cụ thể để bảo đảm tính tương thích về công nghệ, bản quyền với các trang thiết bị, máy móc, phần mềm, dịch vụ sẵn có có giá gói thầu là 20 tỷ đồng",
+      "B": "Gói thầu cung cấp dịch vụ phi tư vấn phải mua của hãng sản xuất cụ thể để bảo đảm tính tương thích về công nghệ, bản quyền với các trang thiết bị, máy móc, phần mềm, dịch vụ sẵn có có giá gói thầu là 10 tỷ đồng",
+      "C": "Gói thầu mua sắm hàng hóa có giá gói thầu không quá 05 tỷ đồng đối với dự án",
       "D": "Tất cả các phương án trên đều đúng"
     },
     "correctAnswer": "D",
-    "explanation": "Căn cứ khoản 5 Điều 4 Nghị định 214/2025/NĐ-CP: Nhà thầu tư vấn có thể cung cấp một hoặc nhiều dịch vụ tư vấn cho cùng gói thầu (miễn là độc lập với nhà thầu xây lắp), bao gồm: Đánh giá HSDT; Thẩm định kết quả LCNT (Luật chỉ cấm đồng thời đánh giá và thẩm định kết quả); Tư vấn giám sát.",
-    "category": "Bảo đảm cạnh tranh trong đấu thầu"
-  },
-  {
-    "id": 374,
-    "question": "Khi tham dự thầu gói thầu mua sắm hàng hóa, trong hồ sơ dự thầu của nhà thầu tuyên bố giá dự thầu không bao gồm thuế, phí, lệ phí thì được đánh giá như thế nào?",
-    "options": {
-      "A": "Hồ sơ dự thầu của nhà thầu không được tiếp tục xem xét, đánh giá",
-      "B": "Hồ sơ dự thầu của nhà thầu được tiếp tục xem xét, đánh giá và giá dự thầu của nhà thầu được hiểu là đã bao gồm toàn bộ thuế, phí, lệ phí",
-      "C": "Tiến hành hiệu chỉnh sai lệch về thuế, phí, lệ phí của nhà thầu theo quy định",
-      "D": "Hồ sơ dự thầu của nhà thầu được tiếp tục xem xét, đánh giá và giá dự thầu của nhà thầu được hiểu là không bao gồm thuế, phí, lệ phí"
-    },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ Mục 13.4 Chương I Mẫu E-HSMT mua sắm hàng hóa: 'Giá dự thầu của nhà thầu phải bao gồm toàn bộ các khoản thuế, phí, lệ phí (nếu có). Trường hợp nhà thầu tuyên bố không bao gồm thuế, phí, lệ phí thì E-HSDT của nhà thầu sẽ bị loại'. Do đó, hồ sơ không được tiếp tục xem xét.",
-    "category": "Lập & Đánh giá hồ sơ mời thầu"
-  },
-  {
-    "id": 375,
-    "question": "Yêu cầu về nguồn lực tài chính được áp dụng đối với gói thầu nào?",
-    "options": {
-      "A": "Tất cả các gói thầu",
-      "B": "Chỉ áp dụng đối với gói thầu phi tư vấn, mua sắm hàng hóa",
-      "C": "Chỉ áp dụng đối với gói thầu phi tư vấn, mua sắm hàng hóa, xây lắp",
-      "D": "Tất cả các phương án trên đều sai"
-    },
-    "correctAnswer": "D",
-    "explanation": "Theo các mẫu hồ sơ mời thầu mới nhất (Thông tư 79/2025/TT-BTC), yêu cầu cụ thể về 'Nguồn lực tài chính' (khả năng thanh khoản) hiện chỉ áp dụng cho gói thầu XÂY LẮP. Đối với hàng hóa và phi tư vấn, chỉ đánh giá 'Kết quả hoạt động tài chính' và 'Doanh thu', không có dòng yêu cầu nguồn lực tài chính như xây lắp. Vì vậy phương án A, B, C đều không chính xác.",
-    "category": "Lập & Đánh giá hồ sơ mời thầu"
-  },
-  {
-    "id": 376,
-    "question": "Nhà thầu không thực hiện gia hạn hiệu lực hồ sơ dự thầu theo đề nghị của chủ đầu tư thì xử lý như thế nào?",
-    "options": {
-      "A": "Không được hoàn trả giá trị bảo đảm dự thầu",
-      "B": "Bị đánh giá về uy tín trong tham dự thầu và đăng tải trên hệ thống mạng đấu thầu quốc gia",
-      "C": "Được hoàn trả bảo đảm dự thầu cho nhà thầu",
-      "D": "Phương án A và B đều đúng"
-    },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ khoản 6 Điều 14 Luật Đấu thầu 2023: Việc gia hạn là quyền của nhà thầu. Nếu nhà thầu từ chối gia hạn, hồ sơ dự thầu không còn giá trị và bị loại, nhưng Chủ đầu tư PHẢI HOÀN TRẢ bảo đảm dự thầu cho nhà thầu. Việc từ chối gia hạn không bị coi là vi phạm và không bị tịch thu bảo đảm.",
-    "category": "Bảo đảm dự thầu & Thực hiện hợp đồng"
-  },
-  {
-    "id": 377,
-    "question": "Chủ đầu tư dự kiến lựa chọn gói thầu xây lắp theo hình thức chỉ định thầu theo quy trình thông thường. Nhà thầu dự kiến được mời nhận hồ sơ yêu cầu phải?",
-    "options": {
-      "A": "Được đánh giá về năng lực và kinh nghiệm",
-      "B": "Hạch toán tài chính độc lập",
-      "C": "Độc lập về pháp lý và độc lập về tài chính với chủ đầu tư",
-      "D": "Các phương án trên đều đúng"
-    },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ điểm b khoản 3 Điều 79 Nghị định 214/2025/NĐ-CP: Nhà thầu được mời chỉ định thầu phải đáp ứng tư cách hợp lệ (hạch toán độc lập). Lưu ý là danh sách tư cách hợp lệ cho chỉ định thầu KHÔNG bao gồm điều kiện bảo đảm cạnh tranh (điểm đ khoản 1 Điều 5 Luật ĐT), nên không bắt buộc độc lập với chủ đầu tư (C sai). Việc đánh giá năng lực chi tiết chỉ thực hiện SAU KHI nộp HSĐX (A sai).",
+    "explanation": "Căn cứ khoản 3 Điều 99 Nghị định 214/2025/NĐ-CP: Chào giá rút gọn áp dụng cho: 1. Theo hạn mức (C): Gói mua sắm hàng hóa/phi tư vấn/xây lắp không quá 05 tỷ đồng đối với dự án. 2. Theo tính chất (A, B): Gói mua sắm hàng hóa/phi tư vấn phải mua của hãng cụ thể để bảo đảm tương thích (trường hợp này KHÔNG KHỐNG CHẾ GIÁ gói thầu). Vậy cả 3 trường hợp đều đúng.",
     "category": "Hình thức lựa chọn nhà thầu"
   },
   {
-    "id": 378,
-    "question": "Doanh nghiệp nhà nước A thực hiện dự án đầu tư có tổng mức đầu tư 1000 tỷ đồng, trong đó vốn từ ngân sách nhà nước là 100 tỷ đồng, vốn tự có của doanh nghiệp là 900 tỷ đồng. Việc lựa chọn nhà thầu của dự án này có phải tuân thủ theo quy định của Luật Đấu thầu?",
+    "id": 374,
+    "question": "Đối với gói thầu dịch vụ xây dựng thuộc phạm vi điều chỉnh của Hiệp định CPTPP và tổ chức đấu thầu quốc tế, cơ quan mua sắm có thể áp dụng ưu đãi đối với nhà thầu nội khối nào?",
     "options": {
-      "A": "Không phải thực hiện theo quy định của Luật Đấu thầu vì vốn ngân sách nhà nước thấp hơn 30% tổng mức đầu tư",
-      "B": "Doanh nghiệp nhà nước A được tự quyết định việc lựa chọn nhà thầu trên cơ sở bảo đảm công bằng, minh bạch, hiệu quả và trách nhiệm giải trình",
-      "C": "Bắt buộc phải thực hiện theo Luật Đấu thầu",
-      "D": "Phương án A và B đều đúng"
+      "A": "Nhà thầu liên danh trong đó có thành viên liên danh là nhà thầu Nhật Bản và thành viên này đảm nhận từ 50% trở lên giá trị công việc của gói thầu",
+      "B": "Nhà thầu liên danh trong đó có thành viên liên danh là nhà thầu nội khối và thành viên này đảm nhận từ 25% trở lên giá trị công việc của gói thầu",
+      "C": "Nhà thầu liên danh trong đó có thành viên liên danh là nhà thầu Hoa Kỳ và thành viên này đảm nhận từ 50% trở lên giá trị công việc của gói thầu",
+      "D": "Nhà thầu liên danh trong đó có thành viên liên danh là nhà thầu nội khối và thành viên này đảm nhận từ 40% trở lên giá trị công việc của gói thầu"
+    },
+    "correctAnswer": "A",
+    "explanation": "Căn cứ điểm b khoản 2 Điều 17 Nghị định 95/2020/NĐ-CP: Ưu đãi cho nhà thầu nội khối CPTPP khi đấu thầu quốc tế áp dụng cho: Nhà thầu liên danh có thành viên nội khối (như Nhật Bản) đảm nhận TỪ 50% TRỞ LÊN giá trị công việc. Hoa Kỳ không thuộc CPTPP nên C sai. B và D sai về tỷ lệ %.",
+    "category": "15. Đấu thầu theo quy chuẩn quốc tế & ODA"
+  },
+  {
+    "id": 375,
+    "question": "Một trong các nguyên tắc lập kế hoạch lựa chọn nhà thầu theo quy định tại Nghị định số 95/2020/NĐ-CP là?",
+    "options": {
+      "A": "Không ghi rõ số lượng gói thầu",
+      "B": "Không được chia nhỏ gói thầu để tránh áp dụng Nghị định này",
+      "C": "Phải ghi toàn bộ phương thức lựa chọn nhà thầu là đấu thầu qua mạng",
+      "D": "Ghi thời gian bắt đầu tổ chức lựa chọn nhà thầu là ngày cụ thể trong năm"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ khoản 4 Điều 26 Nghị định 95/2020/NĐ-CP: Quy định về nguyên tắc lập KHLCNT đối với gói thầu thuộc CPTPP/EVFTA/UKVFTA yêu cầu: 'KHÔNG ĐƯỢC CHIA NHỎ GÓI THẦU để tránh áp dụng Nghị định này' (nhằm né tránh đấu thầu quốc tế).",
+    "category": "15. Đấu thầu theo quy chuẩn quốc tế & ODA"
+  },
+  {
+    "id": 376,
+    "question": "Đối với gói thầu chỉ thuộc phạm vi điều chỉnh của Hiệp định CPTPP, thời điểm chấm dứt áp dụng ưu đãi trong nước là?",
+    "options": {
+      "A": "14 tháng 01 năm 2038",
+      "B": "01 tháng 8 năm 2038",
+      "C": "14 tháng 01 năm 2044",
+      "D": "01 tháng 8 năm 2044"
     },
     "correctAnswer": "C",
-    "explanation": "Căn cứ khoản 1 Điều 2 Luật Đấu thầu: Luật áp dụng cho hoạt động lựa chọn nhà thầu sử dụng VỐN NGÂN SÁCH NHÀ NƯỚC. Chỉ cần có sử dụng vốn ngân sách (dù là 100 tỷ trong 1000 tỷ) thì dự án đó bắt buộc phải tuân thủ Luật Đấu thầu, không phụ thuộc vào tỷ lệ % (quy định 30% là của Luật cũ 2013 đã hết hiệu lực).",
-    "category": "1. Phạm vi, Đối tượng áp dụng & Khái niệm cơ bản"
+    "explanation": "Căn cứ khoản 4 Điều 15 Nghị định 95/2020/NĐ-CP về thời kỳ chuyển đổi: 'Kể từ ngày 14 tháng 01 năm 2044 trở đi, cơ quan mua sắm không được áp dụng các biện pháp ưu đãi trong nước đối với gói thầu thuộc phạm vi điều chỉnh của Hiệp định này'.",
+    "category": "15. Đấu thầu theo quy chuẩn quốc tế & ODA"
+  },
+  {
+    "id": 377,
+    "question": "Đối với gói thầu thuộc phạm vi điều chỉnh của Hiệp định EVFTA, trong giai đoạn từ 01/8/2020 đến 13/01/2029, tổng giá trị ưu đãi trong nước tối đa trong một năm là?",
+    "options": {
+      "A": "30% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP",
+      "B": "40% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP",
+      "C": "50% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP",
+      "D": "60% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP"
+    },
+    "correctAnswer": "B",
+    "explanation": "Căn cứ khoản 2 Điều 15 Nghị định 95/2020/NĐ-CP (được quy chiếu cho EVFTA): Trong thời kỳ chuyển đổi (đến 13/01/2029), cơ quan có thẩm quyền xác định tổng giá trị ưu đãi trong nước tối đa KHÔNG VƯỢT QUÁ 40% tổng giá hợp đồng các gói thầu thuộc phạm vi điều chỉnh của Nghị định.",
+    "category": "15. Đấu thầu theo quy chuẩn quốc tế & ODA"
+  },
+  {
+    "id": 378,
+    "question": "Một nhà thầu EU tham gia đấu thầu quốc tế gói thầu mua sắm hàng hóa thuộc Hiệp định EVFTA có chi phí sản xuất hàng hóa tại nước thành viên là 45%, gói thầu có áp dụng ưu đãi đối với hàng hóa từ các nước thành viên. Nhà thầu này có được hưởng ưu đãi không?",
+    "options": {
+      "A": "Không được hưởng ưu đãi vì chi phí sản xuất hàng hóa tại các nước thành viên dưới 50%",
+      "B": "Được hưởng ưu đãi vì có chi phí sản xuất hàng hóa tại nước thành viên",
+      "C": "Được hưởng ưu đãi vì tổng chi phí tại nước thành viên là 45%",
+      "D": "Không đủ thông tin để xác định tính chất phức tạp của gói thầu"
+    },
+    "correctAnswer": "A",
+    "explanation": "Căn cứ quy định về ưu đãi hàng hóa nội khối: Nhà thầu được hưởng ưu đãi khi cung cấp hàng hóa có chi phí sản xuất tại các nước thành viên chiếm tỷ lệ TỪ 50% TRỞ LÊN. Vì 45% < 50% nên nhà thầu không đáp ứng điều kiện hưởng ưu đãi.",
+    "category": "15. Đấu thầu theo quy chuẩn quốc tế & ODA"
   },
   {
     "id": 379,
-    "question": "Công ty B do Doanh nghiệp nhà nước A nắm giữ 100% vốn điều lệ, Công ty B thực hiện dự án có tổng mức đầu tư 500 tỷ đồng, trong đó vốn từ ngân sách nhà nước là 100 tỷ đồng, 400 tỷ đồng là vốn tự có của Công ty B. Hỏi việc lựa chọn nhà thầu của dự án này có phải thực hiện theo quy định của Luật Đấu thầu hay không?",
+    "question": "Gói thầu thuộc phạm vi điều chỉnh của Hiệp định CPTPP mua sắm hàng hóa thông dụng, sẵn có trên thị trường với đặc tính kỹ thuật được tiêu chuẩn hóa, tương đương nhau về chất lượng và có giá gói thầu không quá 10 tỷ đồng thì thời gian chuẩn bị hồ sơ dự thầu tối thiểu là?",
     "options": {
-      "A": "Không phải thực hiện theo quy định của Luật Đấu thầu vì vốn ngân sách nhà nước thấp hơn 30% tổng mức đầu tư",
-      "B": "Không phải thực hiện theo quy định của Luật Đấu thầu nhưng phải thực hiện theo quy chế mua sắm của Doanh nghiệp nhà nước A",
-      "C": "Công ty B được tự quyết định việc lựa chọn nhà thầu trên cơ sở bảo đảm công bằng, minh bạch, hiệu quả và trách nhiệm giải trình",
-      "D": "Bắt buộc phải thực hiện theo Luật Đấu thầu"
+      "A": "10 ngày",
+      "B": "15 ngày",
+      "C": "20 ngày",
+      "D": "25 ngày"
     },
-    "correctAnswer": "D",
-    "explanation": "Tương tự câu trên, căn cứ khoản 1 Điều 2 Luật Đấu thầu 2023: Do dự án có sử dụng 100 tỷ đồng vốn ngân sách nhà nước nên bắt buộc phải tuân thủ quy định của Luật Đấu thầu. Doanh nghiệp nhà nước chỉ được tự quyết định khi KHÔNG SỬ DỤNG vốn ngân sách nhà nước (theo điểm d khoản 7 Điều 3 Luật ĐT).",
-    "category": "1. Phạm vi, Đối tượng áp dụng & Khái niệm cơ bản"
+    "correctAnswer": "A",
+    "explanation": "Căn cứ khoản 4 Điều 13 Nghị định 95/2020/NĐ-CP: Quy định rút ngắn thời gian chuẩn bị HSDT xuống TỐI THIỂU LÀ 10 NGÀY đối với trường hợp mua sắm hàng hóa thông dụng, sẵn có, đặc tính tiêu chuẩn hóa và giá gói thầu không quá 10 tỷ đồng.",
+    "category": "15. Đấu thầu theo quy chuẩn quốc tế & ODA"
   },
   {
     "id": 380,
-    "question": "Chủ đầu tư A đang lập E-HSMT cho gói thầu dịch vụ tư vấn, tiêu chuẩn đánh giá về kỹ thuật sử dụng phương pháp kết hợp giữa kỹ thuật và giá (thang điểm 100), điểm yêu cầu tối thiểu về kỹ thuật là 70 điểm, trong đó quy định điểm tối đa đối với từng nội dung như sau:\n- Kinh nghiệm và năng lực của nhà thầu: 5 điểm\n- Uy tín của nhà thầu: 5 điểm\n- Giải pháp và phương pháp luận: 30 điểm\n- Nhân sự chủ chốt: 60 điểm\nQuy định nào sau đây về mức điểm yêu cầu tối thiểu về kỹ thuật đối với từng nội dung là phù hợp?",
+    "question": "Đối với gói thầu thuộc phạm vi điều chỉnh của Hiệp định EVFTA tổ chức đấu thầu quốc tế, có áp dụng ưu đãi đối với hàng hóa, nhà thầu nội khối, một trong các nguyên tắc ưu đãi là?",
     "options": {
-      "A": "Kinh nghiệm và năng lực của nhà thầu: 3 điểm; uy tín của nhà thầu: 3 điểm; giải pháp và phương pháp luận: 18 điểm; nhân sự chủ chốt: 36 điểm",
-      "B": "Kinh nghiệm và năng lực của nhà thầu: 3.5 điểm; uy tín của nhà thầu: 3,5 điểm; giải pháp và phương pháp luận: 21 điểm; nhân sự chủ chốt: 42 điểm",
-      "C": "Kinh nghiệm và năng lực của nhà thầu: 3 điểm; uy tín của nhà thầu: 0 điểm; giải pháp và phương pháp luận: 18 điểm; nhân sự chủ chốt: 36 điểm",
-      "D": "Kinh nghiệm và năng lực của nhà thầu: 3.5 điểm; uy tín của nhà thầu: 0 điểm; giải pháp và phương pháp luận: 21 điểm; nhân sự chủ chốt: 42 điểm"
+      "A": "Sau khi tính ưu đãi, nếu các hồ sơ dự thầu xếp hạng ngang nhau thì ưu tiên cho nhà thầu sử dụng nhiều lao động nội khối hơn (tính trên giá trị tiền lương, tiền công chi trả)",
+      "B": "Sau khi tính ưu đãi, nếu các hồ sơ dự thầu xếp hạng ngang nhau thì ưu tiên cho nhà thầu có đề xuất chi phí nội khối thấp hơn.",
+      "C": "Nhà thầu được hưởng tất cả các ưu đãi thuộc đối tượng áp dụng",
+      "D": "Sau khi tính ưu đãi, nếu các hồ sơ dự thầu xếp hạng ngang nhau thì ưu tiên cho nhà thầu có đề xuất chi phí nội khối ít chênh lệch nhất so với yêu cầu của hồ sơ mời thầu"
     },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ khoản 5 Điều 63 Nghị định số 214/2025/NĐ-CP và Mục 2 Chương III Mẫu số 6A kèm theo Thông tư số 79/2025/TT-BTC, điểm tối thiểu quy định cho giải pháp, phương pháp luận và nhân sự (không thấp hơn 60% điểm tối đa); kinh nghiệm tùy tính chất gói thầu; uy tín không có điểm tối thiểu. Phương án C: 18 = 60% × 30; 36 = 60% × 60 là phù hợp. A, B sai vì đặt điểm tối thiểu cho uy tín. Vì vậy chọn C. Lưu ý: D (70%) không trái quy định nhưng 70% là mức của gói thầu kỹ thuật cao, đặc thù.",
-    "category": "Câu hỏi cập nhật",
-    "isNew2775": true,
-    "newExamId": 370,
-    "newExamNote": "Câu 370 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "correctAnswer": "A",
+    "explanation": "Căn cứ điểm c khoản 3 Điều 17 Nghị định 95/2020/NĐ-CP (quy chiếu cho EVFTA): 'Trường hợp sau khi tính ưu đãi, nếu các hồ sơ dự thầu xếp hạng ngang nhau thì ưu tiên cho nhà thầu có đề xuất chi phí nội khối cao hơn HOẶC SỬ DỤNG NHIỀU LAO ĐỘNG NỘI KHỐI HƠN (tính trên tiền lương)'.",
+    "category": "15. Đấu thầu theo quy chuẩn quốc tế & ODA"
   }
 ];

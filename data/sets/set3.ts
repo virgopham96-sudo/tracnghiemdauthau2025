@@ -102,7 +102,7 @@ export const set3: Question[] = [
       "D": "Công ty A là nhà thầu tư vấn lập hồ sơ mời thầu gói thầu xây lắp X có sở hữu 30% vốn góp của Công ty B"
     },
     "correctAnswer": "C",
-    "explanation": "",
+    "explanation": "Căn cứ K4, Đ6, Luật Đấu thầu; Mẫu 3A- E-HSMT Xây lắp, TT 79/2025/TT-BTC",
     "category": "Quy định chung"
   },
   {

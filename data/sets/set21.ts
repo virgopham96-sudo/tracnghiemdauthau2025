@@ -3,97 +3,6 @@ import { Question } from "../../types";
 export const set21: Question[] = [
   {
     "id": 201,
-    "question": "Đối với trường hợp hủy thầu thì phải thực hiện giải pháp nào sau đây?",
-    "options": {
-      "A": "Phải điều chỉnh thời gian bắt đầu tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu",
-      "B": "Phải điều chỉnh thời gian thực hiện gói thầu trong kế hoạch lựa chọn nhà thầu",
-      "C": "Không phải điều chỉnh thời gian bắt đầu tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu",
-      "D": "Tất cả các đáp án trên đều không đúng"
-    },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ pháp lý: Khoản 6 Điều 140 Nghị định số 214/2025/NĐ-CP. Nghị định quy định đối với trường hợp hủy thầu (theo khoản 1 Điều 17 Luật Đấu thầu) và xử lý tình huống không có nhà thầu tham dự, chủ đầu tư không phải điều chỉnh thời gian bắt đầu tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu đã duyệt (mặc dù thực tế thời gian thực hiện sẽ bị lùi lại do phải tổ chức lại).",
-    "category": "Trách nhiệm và Xử lý vi phạm"
-  },
-  {
-    "id": 202,
-    "question": "Hủy thầu được thực hiện trong thời gian nào?",
-    "options": {
-      "A": "Từ ngày có thời điểm đóng thầu đến khi có kết quả lựa chọn nhà thầu",
-      "B": "Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu đến trước khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
-      "C": "Từ ngày có thời điểm đóng thầu đến khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
-      "D": "Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu kể từ khi ký kết hợp đồng"
-    },
-    "correctAnswer": "B",
-    "explanation": "Căn cứ pháp lý: Khoản 3 Điều 17 Luật Đấu thầu. Luật định nghĩa thời gian thực hiện hủy thầu là từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu đến trước khi ký kết hợp đồng (hoặc thỏa thuận khung). Sau khi ký hợp đồng, việc chấm dứt sẽ tuân theo điều khoản hợp đồng, không gọi là hủy thầu nữa.",
-    "category": "Trách nhiệm và Xử lý vi phạm"
-  },
-  {
-    "id": 203,
-    "question": "Đối với gói thầu tổ chức lựa chọn nhà thầu qua mạng, trường hợp trong quá trình đánh giá E-HSDT mà chưa có kết quả lựa chọn nhà thầu, nhà thầu có tên trong biên bản mở thầu bị khóa tài khoản theo quy định của pháp luật về đấu thầu thì chủ đầu tư xử lý như thế nào?",
-    "options": {
-      "A": "Yêu cầu nhà thầu thực hiện các thủ tục để mở khóa tài khoản làm cơ sở xem xét, đánh giá E-HSDT của nhà thầu",
-      "B": "Tiếp tục xem xét, đánh giá E-HSDT của nhà thầu",
-      "C": "Không tiếp tục xem xét, đánh giá E-HSDT của nhà thầu",
-      "D": "Tiếp tục xem xét, đánh giá E-HSDT của nhà thầu và yêu cầu nhà thầu thực hiện các thủ tục để mở khóa tài khoản trước khi phê duyệt kết quả lựa chọn nhà thầu"
-    },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ pháp lý: Khoản 32 Điều 140 Nghị định số 214/2025/NĐ-CP. Quy định xử lý tình huống nêu rõ: Đối với đấu thầu qua mạng, nếu trong quá trình đánh giá (chưa có kết quả) mà nhà thầu bị khóa tài khoản thì hồ sơ dự thầu của nhà thầu đó không được tiếp tục xem xét, đánh giá (tức là bị loại).",
-    "category": "Đấu thầu qua mạng"
-  },
-  {
-    "id": 204,
-    "question": "Đối với gói thầu xây lắp, dịch vụ phi tư vấn, dịch vụ tư vấn áp dụng đấu thầu trước quy định tại Điều 42 của Luật Đấu thầu, trường hợp dự án được phê duyệt có các nội dung dẫn đến tăng giá gói thầu (hoặc tăng dự toán nếu dự toán được phê duyệt sau khi phê duyệt kế hoạch lựa chọn nhà thầu) từ 30% trở lên hoặc thay đổi tiêu chuẩn đánh giá quan trọng về kỹ thuật hoặc thay đổi cấp công trình quy định trong hồ sơ mời thầu đã phát hành thì chủ đầu tư xử lý như thế nào?",
-    "options": {
-      "A": "Tiếp tục đánh giá hồ sơ dự thầu trong trường hợp đã mở thầu",
-      "B": "Được sửa đổi và phát hành bổ sung hồ sơ mời thầu trong trường hợp chưa mở thầu",
-      "C": "Được sửa đổi, bổ sung khối lượng công việc, hoàn thiện để ký kết hợp đồng với nhà thầu",
-      "D": "Hủy thầu"
-    },
-    "correctAnswer": "D",
-    "explanation": "Căn cứ pháp lý: Khoản 29 Điều 140 Nghị định số 214/2025/NĐ-CP. Đối với gói thầu đấu thầu trước, nếu dự án được phê duyệt sau đó có nội dung làm tăng giá gói thầu từ 30% trở lên (hoặc thay đổi tiêu chuẩn kỹ thuật quan trọng, thay đổi cấp công trình) thì chủ đầu tư phải hủy thầu.",
-    "category": "Trách nhiệm và Xử lý vi phạm"
-  },
-  {
-    "id": 205,
-    "question": "Trường hợp nhà thầu trúng thầu không tiến hành hoàn thiện, ký kết hợp đồng hoặc tại thời điểm ký kết hợp đồng, nhà thầu trúng thầu không đáp ứng yêu cầu về năng lực kỹ thuật, tài chính quy định tại khoản 2 Điều 66 của Luật Đấu thầu thì chủ đầu tư xử lý như thế nào trong trường hợp này?",
-    "options": {
-      "A": "Hủy quyết định phê duyệt kết quả lựa chọn nhà thầu trúng thầu",
-      "B": "Hủy thầu",
-      "C": "Không công nhận kết quả lựa chọn nhà thầu",
-      "D": "Đình chỉ cuộc thầu"
-    },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ pháp lý: Điểm a Khoản 19 Điều 140 Nghị định số 214/2025/NĐ-CP. Khi nhà thầu trúng thầu không đến hoàn thiện/ký kết hợp đồng, chủ đầu tư xử lý bằng cách: Hủy quyết định phê duyệt kết quả lựa chọn nhà thầu trước đó, sau đó mời nhà thầu xếp hạng thứ hai vào hoàn thiện hợp đồng.",
-    "category": "Trách nhiệm và Xử lý vi phạm"
-  },
-  {
-    "id": 206,
-    "question": "Trường hợp nào sau đây, chủ đầu tư và nhà thầu liên danh được thỏa thuận điều chỉnh phạm vi công việc giữa các thành viên liên danh?",
-    "options": {
-      "A": "Khi một thành viên liên danh không muốn tiếp tục thực hiện phần việc đã cam kết",
-      "B": "Khi chủ đầu tư thấy một thành viên trong liên danh thực hiện tốt nên muốn điều chuyển toàn bộ phần việc cho thành viên liên danh đó",
-      "C": "Khi cần đẩy nhanh tiến độ thực hiện hợp đồng hoặc do điều kiện khách quan không phải lỗi của nhà thầu làm ảnh hưởng tiến độ",
-      "D": "Khi một thành viên liên danh đề nghị chuyển nhượng phần việc để tiết kiệm chi phí"
-    },
-    "correctAnswer": "C",
-    "explanation": "Căn cứ pháp lý: Khoản 24 Điều 140 Nghị định số 214/2025/NĐ-CP. Chủ đầu tư và nhà thầu liên danh được thỏa thuận điều chỉnh phạm vi công việc giữa các thành viên trong trường hợp cần đẩy nhanh tiến độ thực hiện so với hợp đồng hoặc do điều kiện khách quan/bất khả kháng.",
-    "category": "Hợp đồng"
-  },
-  {
-    "id": 207,
-    "question": "Gói thầu EC có giá dự thầu sau sửa lỗi, hiệu chỉnh sai lệch, trừ đi giá trị giảm giá bằng 85% giá gói thầu thì chủ đầu tư có thể quy định giá trị bảo đảm thực hiện hợp đồng ở mức 15% hay không?",
-    "options": {
-      "A": "Không được quy định",
-      "B": "Có thể quy định nhưng phải được sự đồng ý của nhà thầu",
-      "C": "Chủ đầu tư quyết định để ngừa rủi ro cho quá trình thực hiện",
-      "D": "Có thể quy định nhưng phải được người có thẩm quyền chấp thuận"
-    },
-    "correctAnswer": "A",
-    "explanation": "Căn cứ pháp lý: Điểm b Khoản 11 Điều 140 Nghị định số 214/2025/NĐ-CP. Chủ đầu tư chỉ được phép tăng bảo đảm thực hiện hợp đồng (lên mức >10% đến 30%) trong trường hợp giá dự thầu thấp khác thường hoặc đối với gói xây lắp/EC có giá dự thầu thấp hơn 80% giá gói thầu. Ở đây giá dự thầu là 85% (lớn hơn 80%), nên không thuộc trường hợp được phép tăng bảo đảm.",
-    "category": "Hợp đồng"
-  },
-  {
-    "id": 208,
     "question": "Đối với gói thầu hỗn hợp có yêu cầu đặc thù về kỹ thuật chỉ có một số nhà thầu đáp ứng yêu cầu của gói thầu áp dụng bước thương thảo hợp đồng, trường hợp nhà thầu xếp hạng thứ nhất (danh sách xếp hạng có 03 nhà thầu) không tiến hành thương thảo, không ký biên bản thương thảo, thương thảo không thành công thì chủ đầu tư thực hiện bước tiếp theo như thế nào?",
     "options": {
       "A": "Mời nhà thầu xếp hạng tiếp theo vào thương thảo hợp đồng",
@@ -106,7 +15,7 @@ export const set21: Question[] = [
     "category": "Hợp đồng"
   },
   {
-    "id": 209,
+    "id": 202,
     "question": "Đối với gói thầu xây lắp áp dụng đấu thầu quốc tế, trường hợp nhà thầu xếp thứ nhất có hồ sơ dự thầu không cân bằng (có đơn giá chào cao hơn đáng kể so với đơn giá tương ứng trong dự toán gói thầu ở các hạng mục công việc có các yêu cầu kỹ thuật đơn giản, dễ thực hiện, hạng mục công việc có khả năng phát sinh khối lượng ngoài khối lượng trong bảng giá dự thầu và có đơn giá chào thấp hơn đáng kể so với đơn giá tương ứng trong dự toán gói thầu ở các hạng mục công việc phức tạp, khó thực hiện) thì chủ đầu tư có thể xử lý thế nào?",
     "options": {
       "A": "Yêu cầu nhà thầu làm rõ bằng văn bản về các chi phí cấu thành giá dự thầu",
@@ -119,7 +28,7 @@ export const set21: Question[] = [
     "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   },
   {
-    "id": 210,
+    "id": 203,
     "question": "Trường hợp xí nghiệp X được tách ra khỏi pháp nhân theo quy định của pháp luật về dân sự thì nhà thầu tiếp nhận xí nghiệp X có được kế thừa năng lực, kinh nghiệm của xí nghiệp hay không?",
     "options": {
       "A": "Không được kế thừa năng lực, kinh nghiệm của xí nghiệp X",
@@ -130,5 +39,96 @@ export const set21: Question[] = [
     "correctAnswer": "B",
     "explanation": "Căn cứ pháp lý: Khoản 15 Điều 140 Nghị định số 214/2025/NĐ-CP. Quy định cho phép nhà thầu tiếp nhận hoặc hình thành từ chi nhánh, xí nghiệp được tách ra được kế thừa năng lực, kinh nghiệm mà xí nghiệp đó đã thực hiện.",
     "category": "Quy định chung"
+  },
+  {
+    "id": 204,
+    "question": "Trong quá trình thực hiện hợp đồng của nhà thầu liên danh A-B, nhà thầu B không còn năng lực để tiếp tục thực hiện hợp đồng, làm ảnh hưởng nghiêm trọng đến tiến độ, chất lượng, hiệu quả của gói thầu. Trong trường hợp này, bảo đảm thực hiện hợp đồng của nhà thầu xử lý như thế nào?",
+    "options": {
+      "A": "Không tịch thu giá trị bảo đảm thực hiện hợp đồng của nhà thầu A-B",
+      "B": "Tịch thu giá trị bảo đảm thực hiện hợp đồng của tất cả thành viên liên danh trong trường hợp phần công việc còn lại của các thành viên liên danh vi phạm hợp đồng được tách thành gói thầu riêng để lựa chọn nhà thầu",
+      "C": "Chỉ tịch thu giá trị bảo đảm thực hiện hợp đồng của nhà thầu B nếu nhà thầu A có đủ năng lực, kinh nghiệm đảm nhận phần công việc còn lại của nhà thầu B",
+      "D": "Phương án B và C đều đúng"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ pháp lý: Điểm b Khoản 22 Điều 140 Nghị định số 214/2025/NĐ-CP. Nếu phần việc của thành viên vi phạm được tách thành gói thầu riêng: Tịch thu bảo đảm của tất cả thành viên liên danh. Nếu phần việc đó giao cho thành viên khác trong liên danh làm tiếp: Chỉ tịch thu bảo đảm của thành viên vi phạm. Do đó, phương án D (B và C đều đúng tùy tình huống xử lý công việc còn lại) là chính xác.",
+    "category": "Hợp đồng"
+  },
+  {
+    "id": 205,
+    "question": "Đối với gói thầu mua sắm thiết bị y tế, tổ chức đấu thầu rộng rãi qua mạng gói thầu mua sắm thiết bị y tế, trường hợp nhà thầu dự thầu không đề xuất cụ thể ký mã hiệu, nhãn hiệu, xuất xứ, hãng sản xuất thì xử lý như thế nào?",
+    "options": {
+      "A": "Chủ đầu tư yêu cầu nhà thầu bổ sung, làm rõ E-HSDT",
+      "B": "Chủ đầu tư tiếp tục đánh giá E-HSDT, trường hợp nhà thầu xếp thứ nhất thì yêu cầu nhà thầu bổ sung thông tin để hoàn thiện hợp đồng",
+      "C": "E-HSDT của nhà thầu bị đánh giá không đáp ứng và bị loại",
+      "D": "Xin ý kiến người có thẩm quyền để xử lý tình huống trong đấu thầu"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ pháp lý: Khoản 6 Điều 29 Nghị định số 214/2025/NĐ-CP. Việc không đề xuất cụ thể ký mã hiệu, xuất xứ, hãng sản xuất (đối với hàng hóa đặc thù như thiết bị y tế) thường được coi là bỏ sót nội dung cơ bản hoặc không đáp ứng yêu cầu kỹ thuật quan trọng, dẫn đến hồ sơ dự thầu bị loại (không được xem xét tiếp).",
+    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
+  },
+  {
+    "id": 206,
+    "question": "Nhận định nào sau đây là đúng về văn bản điện tử trên Hệ thống mạng đấu thầu quốc gia?",
+    "options": {
+      "A": "Văn bản điện tử trên Hệ thống có giá trị theo quy định của pháp luật về giao dịch điện tử, làm cơ sở đối chiếu, so sánh, xác thực thông tin phục vụ công tác đánh giá, thẩm định, thanh tra, kiểm tra, kiểm toán và giải ngân",
+      "B": "Thời điểm gửi, nhận văn bản điện tử được xác định căn cứ theo thời gian thực ghi lại trên Hệ thống",
+      "C": "Khi gửi hồ sơ thanh quyết toán đến Kho bạc Nhà nước, nhà thầu không phải cung cấp thông tin, tài liệu cho Kho bạc Nhà nước đối với các thông tin, tài liệu là văn bản điện tử trên Hệ thống",
+      "D": "Cả 3 phương án trên đều đúng"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ pháp lý: Khoản 3 Điều 50 Luật Đấu thầu và Điều 10 Thông tư số 79/2025/TT-BTC. Văn bản điện tử trên Hệ thống có giá trị pháp lý, xác định thời gian thực gửi/nhận, và nhà thầu không cần nộp hồ sơ giấy cho Kho bạc nếu dữ liệu đã có trên Hệ thống. Cả 3 nhận định đều đúng.",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 207,
+    "question": "Tài khoản nghiệp vụ trên Hệ thống mạng đấu thầu quốc gia là gì?",
+    "options": {
+      "A": "Tài khoản do người sử dụng đăng ký và được phê duyệt trên Hệ thống mạng đấu thầu quốc gia",
+      "B": "Tài khoản do Trung tâm Đấu thầu qua mạng quốc gia cấp phép theo quy định",
+      "C": "Tài khoản do Tài khoản tham gia hệ thống tạo ra",
+      "D": "Phương án A và B đều đúng"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ pháp lý: Khoản 10 Điều 3 Thông tư số 79/2025/TT-BTC. Tài khoản nghiệp vụ được định nghĩa là tài khoản do Tài khoản tham gia hệ thống (tài khoản chính của tổ chức) tạo ra và phân quyền để thực hiện các nghiệp vụ cụ thể.",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 208,
+    "question": "Nhà thầu có trách nhiệm kê khai thông tin nào trên Hệ thống mạng đấu thầu quốc gia?",
+    "options": {
+      "A": "Thông tin về uy tín của nhà thầu trong việc tham dự thầu",
+      "B": "Thông tin về vi phạm của nhà thầu",
+      "C": "Thông tin về năng lực, kinh nghiệm của nhà thầu",
+      "D": "Cả 3 phương án trên đều đúng"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ pháp lý: Khoản 2 Điều 11 Thông tư số 79/2025/TT-BTC. Nhà thầu có trách nhiệm tự kê khai và cập nhật thông tin về năng lực, kinh nghiệm (hợp đồng, nhân sự, máy móc...) trên Hệ thống. (Các thông tin vi phạm/uy tín do chủ đầu tư đăng).",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 209,
+    "question": "Ai chịu trách nhiệm đăng tải thông tin chủ yếu của hợp đồng trên Hệ thống mạng đấu thầu quốc gia?",
+    "options": {
+      "A": "Bên mời thầu",
+      "B": "Tổ chuyên gia",
+      "C": "Tư vấn đấu thầu",
+      "D": "Chủ đầu tư"
+    },
+    "correctAnswer": "D",
+    "explanation": "Căn cứ pháp lý: Khoản 2 Điều 12 Thông tư số 79/2025/TT-BTC (và Điểm h Khoản 1 Điều 8 Luật Đấu thầu). Trách nhiệm đăng tải thông tin chủ yếu của hợp đồng thuộc về Chủ đầu tư (hoặc đơn vị mua sắm tập trung nếu ký hợp đồng).",
+    "category": "Đấu thầu qua mạng"
+  },
+  {
+    "id": 210,
+    "question": "Trong đấu thầu qua mạng, nhà thầu tư vấn đấu thầu bị khoá tài khoản trong vòng 06 tháng khi thực hiện hành vi nào sau đây?",
+    "options": {
+      "A": "Tham gia vào quá trình lập và đánh giá E-HSMT",
+      "B": "Tham gia vào quá trình thẩm định hồ sơ mời thầu và kết quả lựa chọn nhà thầu",
+      "C": "Thay chủ đầu tư đăng tải các nội dung thuộc trách nhiệm đăng tải của chủ đầu tư",
+      "D": "Đăng tải thông tin về năng lực, kinh nghiệm của mình trên Hệ thống mạng đấu thầu quốc gia"
+    },
+    "correctAnswer": "C",
+    "explanation": "Căn cứ pháp lý: Khoản 5 Điều 23 Nghị định số 214/2025/NĐ-CP. Nhà thầu tư vấn bị khóa tài khoản 06 tháng nếu sử dụng tài khoản của mình để thay chủ đầu tư đăng tải các nội dung thuộc trách nhiệm của chủ đầu tư (như thông báo mời thầu, kết quả lựa chọn...).",
+    "category": "Đấu thầu qua mạng"
   }
 ];

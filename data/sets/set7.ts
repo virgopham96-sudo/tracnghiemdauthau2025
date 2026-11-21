@@ -3,45 +3,6 @@ import { Question } from "../../types";
 export const set7: Question[] = [
   {
     "id": 61,
-    "question": "Nội dung nào sau đây không thuộc hồ sơ mời thầu?",
-    "options": {
-      "A": "Chỉ dẫn nhà thầu, tùy chọn mua thêm",
-      "B": "Bảng dữ liệu đấu thầu",
-      "C": "Phạm vi cung cấp, yêu cầu về kỹ thuật",
-      "D": "Biên bản hoàn thiện hợp đồng"
-    },
-    "correctAnswer": "D",
-    "explanation": "Hồ sơ mời thầu bao gồm: Chỉ dẫn nhà thầu, Bảng dữ liệu, Tiêu chuẩn đánh giá, Biểu mẫu, Phạm vi cung cấp, Điều kiện hợp đồng... Biên bản hoàn thiện hợp đồng là tài liệu được hình thành sau khi có kết quả đánh giá và thương thảo, không phải là thành phần của hồ sơ mời thầu khi phát hành. Căn cứ: Khoản 2 Điều 26 Nghị định 214/2025/NĐ-CP.",
-    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
-  },
-  {
-    "id": 62,
-    "question": "Trường hợp nào hồ sơ mời thầu được đưa ra yêu cầu về giấy phép bán hàng?",
-    "options": {
-      "A": "Hàng hóa thông thường, có sẵn trên thị trường",
-      "B": "Hàng hóa nhập khẩu",
-      "C": "Hàng hóa đặc thù, phức tạp cần gắn với trách nhiệm của nhà sản xuất",
-      "D": "Hàng hóa có giá trị lớn"
-    },
-    "correctAnswer": "C",
-    "explanation": "Hồ sơ mời thầu không được yêu cầu giấy phép bán hàng đối với hàng hóa thông dụng. Chỉ được yêu cầu đối với hàng hóa đặc thù, phức tạp cần gắn với trách nhiệm của nhà sản xuất trong việc cung cấp dịch vụ sau bán hàng (bảo hành, bảo trì, sửa chữa...). Căn cứ: Khoản 12 Điều 26 Nghị định 214/2025/NĐ-CP.",
-    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
-  },
-  {
-    "id": 63,
-    "question": "Nội dung nào sau đây nếu đưa vào E-HSMT của gói thầu mua sắm hàng hóa áp dụng hình thức đấu thầu rộng rãi qua mạng có thể bị đánh giá là hạn chế cạnh tranh?",
-    "options": {
-      "A": "Yêu cầu nhà thầu cung cấp tài liệu chứng minh hợp đồng tương tự",
-      "B": "Yêu cầu nhà thầu phải là chủ sở hữu thiết bị chào thầu",
-      "C": "Yêu cầu nhà thầu có năng lực tài chính lành mạnh",
-      "D": "Yêu cầu nhà thầu phải hoàn thành nghĩa vụ thuế"
-    },
-    "correctAnswer": "B",
-    "explanation": "Việc yêu cầu nhà thầu phải là chủ sở hữu của thiết bị thi công là hành vi hạn chế cạnh tranh, vì nhà thầu có quyền đi thuê, mượn hoặc huy động thiết bị để thực hiện gói thầu miễn là đảm bảo khả năng huy động. Căn cứ: Khoản 3 Điều 44 Luật Đấu thầu.",
-    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
-  },
-  {
-    "id": 64,
     "question": "Gói thầu mua sắm máy điều hòa không khí của Sở Tài chính tỉnh X được tổ chức đấu thầu tập trung theo hình thức đấu thầu rộng rãi qua mạng thì E-HSMT có được nêu xuất xứ hàng hóa không?",
     "options": {
       "A": "Được nêu xuất xứ cụ thể của một nước bất kỳ",
@@ -54,7 +15,7 @@ export const set7: Question[] = [
     "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   },
   {
-    "id": 65,
+    "id": 62,
     "question": "Khi tham dự thầu đấu thầu qua mạng, đại diện hợp pháp của nhà thầu có được ủy quyền cho Giám đốc chi nhánh để ký đơn dự thầu hay không?",
     "options": {
       "A": "Được ủy quyền nhưng phải bằng văn bản",
@@ -67,7 +28,7 @@ export const set7: Question[] = [
     "category": "Đấu thầu qua mạng"
   },
   {
-    "id": 66,
+    "id": 63,
     "question": "Đối với đấu thầu rộng rãi qua mạng, trường hợp gói thầu có giá trị bảo đảm dự thầu nhỏ hơn 50 triệu đồng, thời gian có hiệu lực của thư bảo lãnh dự thầu hoặc giấy chứng nhận bảo hiểm bảo lãnh được quy định tại đâu?",
     "options": {
       "A": "Trong E-HSMT",
@@ -80,7 +41,7 @@ export const set7: Question[] = [
     "category": "Đấu thầu qua mạng"
   },
   {
-    "id": 67,
+    "id": 64,
     "question": "Đối với đấu thầu rộng rãi qua mạng, trường hợp gói thầu có giá trị bảo đảm dự thầu nhỏ hơn 50 triệu đồng, nhà thầu thực hiện nộp thư bảo lãnh dự thầu hoặc giấy chứng nhận bảo hiểm bảo lãnh thì thời gian có hiệu lực của thư bảo lãnh dự thầu hoặc giấy chứng nhận bảo hiểm bảo lãnh được tính từ ngày nào?",
     "options": {
       "A": "Ngày có thời điểm đóng thầu",
@@ -93,7 +54,7 @@ export const set7: Question[] = [
     "category": "Đấu thầu qua mạng"
   },
   {
-    "id": 68,
+    "id": 65,
     "question": "Đối với đấu thầu qua mạng, trường hợp E-HSMT có yêu cầu cung cấp hàng mẫu, nhà thầu có thể nộp bổ sung hàng mẫu theo phương án nào sau đây?",
     "options": {
       "A": "Trong thời hạn 07 ngày làm việc sau thời điểm đóng thầu",
@@ -106,7 +67,7 @@ export const set7: Question[] = [
     "category": "Đấu thầu qua mạng"
   },
   {
-    "id": 69,
+    "id": 66,
     "question": "Đối với gói thầu tư vấn tổ chức đấu thầu rộng rãi qua mạng, sử dụng thang điểm 1.000 để xây dựng tiêu chuẩn đánh giá về kỹ thuật, E-HSMT quy định số điểm đối với tiêu chí đánh giá về uy tín của nhà thầu thông qua việc tham dự thầu, kết quả thực hiện hợp đồng của nhà thầu là bao nhiêu?",
     "options": {
       "A": "150 điểm",
@@ -119,7 +80,7 @@ export const set7: Question[] = [
     "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   },
   {
-    "id": 70,
+    "id": 67,
     "question": "Đối với gói thầu thuê hệ thống máy chủ áp dụng đấu thầu rộng rãi qua mạng, thời gian thực hiện gói thầu là 5 năm (có tính chất công việc lặp lại theo chu kỳ qua các năm), giá gói thầu là 5 tỷ đồng, quy mô hợp đồng tương tự tối thiểu được quy định trong E-HSMT là bao nhiêu thì phù hợp quy định?",
     "options": {
       "A": "2,5 tỷ đồng",
@@ -129,6 +90,45 @@ export const set7: Question[] = [
     },
     "correctAnswer": "D",
     "explanation": "Đối với các gói thầu có tính chất công việc lặp lại theo chu kỳ, yêu cầu về kinh nghiệm thực hiện hợp đồng tương tự thường được tính trên cơ sở giá trị của một chu kỳ (thường là 1 năm) để không gây hạn chế cạnh tranh. Giá trị gói thầu 1 năm là 1 tỷ đồng. Yêu cầu về hợp đồng tương tự có thể là một tỷ lệ phần trăm của giá trị này, ví dụ 30%, tương đương 300 triệu đồng, là một mức yêu cầu hợp lý để thu hút nhiều nhà thầu tham gia.",
+    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
+  },
+  {
+    "id": 68,
+    "question": "Đối với đấu thầu quốc tế, hồ sơ mời thầu phải quy định sử dụng lao động trong nước trong trường hợp nào?",
+    "options": {
+      "A": "Những vị trí công việc mà lao động trong nước đáp ứng được và có khả năng cung cấp",
+      "B": "Những vị trí công việc mà lao động trong nước không đáp ứng được nhưng cần tạo điều kiện để tiếp nhận công nghệ từ nước ngoài được chuyển giao",
+      "C": "Lao động phổ thông",
+      "D": "Phương án A và C đều đúng"
+    },
+    "correctAnswer": "D",
+    "explanation": "Điều 5, Luật đấu thầu số 22/2023/QH15",
+    "category": "Mua sắm đặc thù"
+  },
+  {
+    "id": 69,
+    "question": "Trường hợp hồ sơ mời thầu có quy định về xuất xứ theo nhóm nước, vùng lãnh thổ mà không bao gồm xuất xứ Việt Nam, nhà thầu chào hàng hóa có xuất xứ Việt Nam sẽ bị đánh giá như thế nào?",
+    "options": {
+      "A": "Hàng hóa của nhà thầu không được xem xét, đánh giá",
+      "B": "Hàng hóa của nhà thầu vẫn được xem xét, đánh giá",
+      "C": "Yêu cầu nhà thầu bổ sung hàng hóa theo đúng xuất xứ thuộc nhóm nước, vùng lãnh thổ theo yêu cầu hồ sơ mời thầu nhưng phải cùng ký mã hiệu, nhãn hiệu với hàng hóa nhà thầu đã đề xuất trong hồ sơ dự thầu",
+      "D": "Yêu cầu nhà thầu bổ sung hàng hóa theo đúng xuất xứ thuộc nhóm nước, vùng lãnh thổ theo yêu cầu hồ sơ mời thầu, không phải đáp ứng cùng ký mã hiệu, nhãn hiệu với hàng hóa nhà thầu đã đề xuất trong hồ sơ dự thầu"
+    },
+    "correctAnswer": "B",
+    "explanation": "Quy định về nhóm nước (ví dụ G7, EU...) là để đảm bảo chất lượng cao. Tuy nhiên, nếu hàng hóa có xuất xứ Việt Nam đáp ứng yêu cầu kỹ thuật thì vẫn được xem xét, đánh giá (để khuyến khích hàng trong nước), ngay cả khi hồ sơ mời thầu không liệt kê \"Việt Nam\" trong nhóm nước đó. Căn cứ: Điểm b Khoản 9 Điều 26 Nghị định 214/2025/NĐ-CP.",
+    "category": "Hồ sơ mời thầu và Đánh giá HSDT"
+  },
+  {
+    "id": 70,
+    "question": "Gói thầu mua sắm 20 máy điều hòa, tổ chức đấu thầu rộng rãi qua mạng, một giai đoạn một túi hồ sơ, trường hợp E-HSMT có quy định về kinh nghiệm thực hiện hợp đồng tương tự thì tính chất tương tự được quy định như thế nào?",
+    "options": {
+      "A": "Quy định hàng hóa thuộc cùng lĩnh vực tổng quát với máy điều hòa (thiết bị điện...)",
+      "B": "Chỉ quy định hàng hóa có cùng mã Chương, mã Nhóm (tương ứng với 4 số đầu tiên của bộ mã) trong Hệ thống mã HS với mã HS của máy điều hòa",
+      "C": "Được quy định hàng hóa thuộc cùng chủng loại hoặc hàng hóa có cùng mã Chương, mã Nhóm (tương ứng với 4 số đầu tiên của bộ mã) trong Hệ thống mã HS với mã HS của máy điều hòa",
+      "D": "Tất cả đáp án trên đều đúng"
+    },
+    "correctAnswer": "A",
+    "explanation": "Căn cứ pháp lý về Mẫu hồ sơ: Theo Khoản 4 Điều 4 Thông tư 79/2025/TT-BTC, đối với gói thầu mua sắm hàng hóa áp dụng hình thức đấu thầu rộng rãi qua mạng, một giai đoạn một túi hồ sơ, Chủ đầu tư sử dụng Mẫu số 4A để lập E-HSMT.",
     "category": "Hồ sơ mời thầu và Đánh giá HSDT"
   }
 ];
