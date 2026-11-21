@@ -28,7 +28,7 @@ export const set33: Question[] = [
     "category": "Đấu thầu quốc tế / Hiệp định thương mại",
     "isNew2775": true,
     "newExamId": 322,
-    "newExamNote": "Câu 322 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 322 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 331 trong bộ đề 390 câu"
   },
   {
     "id": 323,

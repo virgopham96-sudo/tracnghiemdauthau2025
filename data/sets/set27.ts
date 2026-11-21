@@ -40,8 +40,8 @@ export const set27: Question[] = [
     "explanation": "Căn cứ khoản 3 Điều 26 Thông tư số 79/2025/TT-BTC, với gói thầu hàng hóa, xây lắp, phi tư vấn, bảng dữ liệu, tiêu chuẩn đánh giá về tính hợp lệ, yêu cầu về năng lực, kinh nghiệm phải được số hóa dưới dạng webform; chủ đầu tư không được đính kèm file yêu cầu khác, và các nội dung không phải bản số hóa webform không được coi là một phần của E-HSMST, E-HSMT, nhà thầu không phải đáp ứng. Phương án A là bản webform nên vẫn là một phần của E-HSMT; B và C là file đính kèm nên không có giá trị. Vì vậy chọn D.",
     "category": "Đấu thầu qua mạng",
     "isNew2775": true,
-    "newExamId": 272,
-    "newExamNote": "Câu 272 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamId": 263,
+    "newExamNote": "Câu 263 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 272 trong bộ đề 390 câu"
   },
   {
     "id": 264,
@@ -134,7 +134,7 @@ export const set27: Question[] = [
     "explanation": "Căn cứ điểm c khoản 1 Điều 60 Luật Đấu thầu số 22/2023/QH15, nhà thầu tư vấn là tổ chức được đề nghị trúng thầu khi, đối với phương pháp giá cố định và phương pháp dựa trên kỹ thuật, có điểm kỹ thuật cao nhất (điểm b khoản 2 và điểm b khoản 4 Điều 59 cũng xếp hạng thứ nhất nhà thầu có điểm kỹ thuật cao nhất). Giá dự thầu thấp nhất là tiêu chí của phương pháp giá thấp nhất; điểm tổng hợp cao nhất là tiêu chí của phương pháp kết hợp giữa kỹ thuật và giá. Vì vậy chọn C.",
     "category": "Đánh giá hồ sơ dự thầu",
     "isNew2775": true,
-    "newExamId": 279,
-    "newExamNote": "Câu 279 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamId": 270,
+    "newExamNote": "Câu 270 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 279 trong bộ đề 390 câu"
   }
 ];

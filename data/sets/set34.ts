@@ -15,7 +15,7 @@ export const set34: Question[] = [
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
     "newExamId": 331,
-    "newExamNote": "Câu 331 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 331 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 341 trong bộ đề 390 câu"
   },
   {
     "id": 332,

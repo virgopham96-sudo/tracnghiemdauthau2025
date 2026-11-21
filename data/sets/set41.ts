@@ -15,7 +15,7 @@ export const set41: Question[] = [
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
     "newExamId": 401,
-    "newExamNote": "Câu 401 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 401 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 32 trong bộ đề 390 câu"
   },
   {
     "id": 402,
@@ -31,7 +31,7 @@ export const set41: Question[] = [
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
     "newExamId": 402,
-    "newExamNote": "Câu 402 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 402 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 34 trong bộ đề 390 câu"
   },
   {
     "id": 403,
@@ -47,7 +47,7 @@ export const set41: Question[] = [
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
     "newExamId": 403,
-    "newExamNote": "Câu 403 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 403 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 44 trong bộ đề 390 câu"
   },
   {
     "id": 404,
@@ -63,7 +63,7 @@ export const set41: Question[] = [
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
     "newExamId": 404,
-    "newExamNote": "Câu 404 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 404 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 142 trong bộ đề 390 câu"
   },
   {
     "id": 405,
@@ -79,7 +79,7 @@ export const set41: Question[] = [
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
     "newExamId": 405,
-    "newExamNote": "Câu 405 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 405 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 148 trong bộ đề 390 câu"
   },
   {
     "id": 406,
@@ -95,7 +95,7 @@ export const set41: Question[] = [
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
     "newExamId": 406,
-    "newExamNote": "Câu 406 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 406 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 177 trong bộ đề 390 câu"
   },
   {
     "id": 407,
@@ -111,7 +111,7 @@ export const set41: Question[] = [
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
     "newExamId": 407,
-    "newExamNote": "Câu 407 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 407 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 233 trong bộ đề 390 câu"
   },
   {
     "id": 408,
@@ -127,7 +127,7 @@ export const set41: Question[] = [
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
     "newExamId": 408,
-    "newExamNote": "Câu 408 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 408 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 241 trong bộ đề 390 câu"
   },
   {
     "id": 409,
@@ -143,7 +143,7 @@ export const set41: Question[] = [
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
     "newExamId": 409,
-    "newExamNote": "Câu 409 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 409 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 340 trong bộ đề 390 câu"
   },
   {
     "id": 410,
@@ -159,6 +159,6 @@ export const set41: Question[] = [
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
     "newExamId": 410,
-    "newExamNote": "Câu 410 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 410 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 195 trong bộ đề 390 câu"
   }
 ];

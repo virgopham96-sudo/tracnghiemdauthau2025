@@ -28,7 +28,7 @@ export const set38: Question[] = [
     "category": "Quy trình, thủ tục lựa chọn nhà thầu",
     "isNew2775": true,
     "newExamId": 372,
-    "newExamNote": "Câu 372 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 372 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 382 trong bộ đề 390 câu"
   },
   {
     "id": 373,

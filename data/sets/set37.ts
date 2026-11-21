@@ -132,7 +132,7 @@ export const set37: Question[] = [
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
     "newExamId": 370,
-    "newExamNote": "Câu 370 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 370 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 380 trong bộ đề 390 câu"
   }
 ];
 

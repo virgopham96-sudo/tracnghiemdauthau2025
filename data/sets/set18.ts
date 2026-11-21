@@ -28,7 +28,7 @@ export const set18: Question[] = [
     "category": "Giải quyết kiến nghị",
     "isNew2775": true,
     "newExamId": 172,
-    "newExamNote": "Câu 172 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 172 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 178 trong bộ đề 390 câu"
   },
   {
     "id": 173,
@@ -44,7 +44,7 @@ export const set18: Question[] = [
     "category": "Giải quyết kiến nghị",
     "isNew2775": true,
     "newExamId": 173,
-    "newExamNote": "Câu 173 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 173 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 179 trong bộ đề 390 câu"
   },
   {
     "id": 174,
@@ -60,7 +60,7 @@ export const set18: Question[] = [
     "category": "Giải quyết kiến nghị",
     "isNew2775": true,
     "newExamId": 174,
-    "newExamNote": "Câu 174 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 174 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 180 trong bộ đề 390 câu"
   },
   {
     "id": 175,

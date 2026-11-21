@@ -132,6 +132,6 @@ export const set36: Question[] = [
     "category": "Đánh giá hồ sơ dự thầu",
     "isNew2775": true,
     "newExamId": 360,
-    "newExamNote": "Câu 360 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 360 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 370 trong bộ đề 390 câu"
   }
 ];

@@ -1,12 +1,13 @@
 import { Question } from '../types';
 
 export const NEW_QUESTIONS_IDS = Array.from({ length: 50 }, (_, i) => 341 + i); // 341 to 390
-export const NEW_QUESTIONS_2775_IDS = Array.from({ length: 40 }, (_, i) => 391 + i); // 391 to 430
-export const CHANGED_QUESTIONS_IDS = [32, 33, 34, 44, 142, 148, 177, 178, 179, 180, 195, 233, 241, 272, 279, 281, 288, 331, 340, 341, 370, 380, 382];
+export const NEW_QUESTIONS_2775_IDS = [
+    ...Array.from({ length: 20 }, (_, i) => 381 + i), // 381 to 400
+    ...Array.from({ length: 20 }, (_, i) => 411 + i), // 411 to 430
+];
+export const CHANGED_QUESTIONS_IDS = [32, 172, 173, 174, 263, 270, 272, 279, 322, 331, 360, 370, 372, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410];
 
 export const BASE_CATEGORY_MAPPING: Record<string, number[]> = {
-    "18. 40 Câu hỏi mới bổ sung (TB 2775/TB-QLĐT)": NEW_QUESTIONS_2775_IDS,
-    "17. 50 Câu hỏi mới bổ sung (2025)": NEW_QUESTIONS_IDS,
     "1. Phạm vi, Đối tượng áp dụng & Khái niệm cơ bản": [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 337],
     "2. Hình thức lựa chọn nhà thầu": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 142, 297],
     "3. Kế hoạch lựa chọn nhà thầu (KHLCNT)": [41, 42, 43, 45, 46, 151, 154],
@@ -38,7 +39,8 @@ export const getFullCategoryMapping = (questions: Question[]): Record<string, nu
     return {
         ...BASE_CATEGORY_MAPPING,
         "16. Chủ đề tổng hợp": unassignedIds,
-        "19. Ôn luyện các câu thay đổi": CHANGED_QUESTIONS_IDS
+        "17. 40 Câu hỏi mới bổ sung (TB 2775/TB-QLĐT)": NEW_QUESTIONS_2775_IDS,
+        "18. Ôn luyện các câu thay đổi": CHANGED_QUESTIONS_IDS
     };
 };
 

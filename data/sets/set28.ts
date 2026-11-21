@@ -28,7 +28,7 @@ export const set28: Question[] = [
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
     "newExamId": 272,
-    "newExamNote": "Câu 272 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 272 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 281 trong bộ đề 390 câu"
   },
   {
     "id": 273,
@@ -122,7 +122,7 @@ export const set28: Question[] = [
     "category": "Câu hỏi cập nhật",
     "isNew2775": true,
     "newExamId": 279,
-    "newExamNote": "Câu 279 - Bộ đề mới theo Thông báo 2775/TB-QLĐT"
+    "newExamNote": "Câu 279 - Bộ đề mới theo Thông báo 2775/TB-QLĐT | Câu 288 trong bộ đề 390 câu"
   },
   {
     "id": 280,
